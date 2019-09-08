@@ -1,0 +1,369 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: qgilbert <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/09/04 20:01:04 by qgilbert          #+#    #+#             */
+/*   Updated: 2019/09/04 20:01:05 by qgilbert         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "corewar.h"
+
+char	*ft_strncpy_all(char *dest, const char *source, size_t n)
+{
+	size_t	i;
+	int		f;
+
+	f = 0;
+	i = 0;
+	while (i < n)
+	{
+		dest[i] = source[i];
+		i++;
+	}
+	while (i < n)
+	{
+		dest[i] = '\0';
+		i++;
+	}
+	return (dest);
+}
+
+
+void exit_print(char *str)
+{
+	printf("%s\n", str);
+	exit(0);
+}
+/*
+ * запись бинарника и его валидация
+ */
+t_champ *write_name(int fd)
+{
+	header_t *champ;
+	t_champ *ch;
+	unsigned char	c[4];
+	size_t st;
+
+	ch = (t_champ*)malloc(sizeof(t_champ));
+	champ = (header_t*)malloc(sizeof(header_t));
+	st = read(fd, &c, 4); // COREWAR_EXEC_MAGIC
+	champ->magic = (c[0] << 24) | (c[1] << 16) | (c[2] << 8) | c[3];
+	st = read(fd, champ->prog_name, PROG_NAME_LENGTH);
+	champ->prog_name[PROG_NAME_LENGTH + 1] = '\0';
+	// теперь NULL ссчитываем
+	st = read(fd, &c, 4);
+	if (c[0] || c[1] || c[2] || c[3] || st != 4) // оригинал не проверяет на NULL
+		exit_print("no NULL in name");
+	// Bot size
+	st = read(fd, &c, 4);
+	champ->prog_size = (c[0] << 24) | (c[1] << 16) | (c[2] << 8) | c[3];
+
+	printf("champ->magic = %x, champ->prog_name = %s\n, champ->prog_size = %d\n", champ->magic, champ->prog_name, champ->prog_size);
+
+
+	if (champ->prog_size > CHAMP_MAX_SIZE)
+	{
+		exit_print("File has a code size that differ from what its header says");
+	}
+	else
+	{
+		st = read(fd, champ->comment, COMMENT_LENGTH);
+		if (st != COMMENT_LENGTH)
+			exit_print("error comment");
+		champ->comment[COMMENT_LENGTH + 1] = '\0';
+
+		printf("com = %s\n",champ->comment );
+
+		st = read(fd, &c, 4);
+		if (c[0] || c[1] || c[2] || c[3] || st != 4) // оригинал не проверяет на NULL
+			exit_print("no NULL in comment");
+
+		ch->code = ft_strnew(champ->prog_size);
+		ch->code[champ->prog_size + 1] = '\0';
+		ch->id = 0;
+		ch->head_c = champ;
+		st = read(fd, ch->code, champ->prog_size);
+		if (st != champ->prog_size)
+			exit_print("code error");
+	}
+	return (ch);
+}
+
+
+t_champ *valid_champ(int i, char **av)
+{
+	// i - номер текущего параметра
+	char *name;
+	t_champ *champ;
+	int fd;
+
+	printf("valid_champ: av[%d] = %s\n", i, av[i]);
+	if ((name = ft_strstr(av[i], ".cor")) && name[4] == '\0' && ft_strlen(av[i]) != 4 )
+	{
+
+		printf("name = %s\n", av[i]);
+		//fd = open( av[i], O_RDONLY);
+		fd = open("../vm_champs/champs/Gagnant.cor", O_RDONLY);
+		champ = write_name(fd);
+		//champ->id = i - 1;
+		return (champ);
+	}
+	else
+		exit_print("not valid champ name\n");
+	return (NULL);
+}
+
+// если флаг n - сразу запишем валиднгого игрока
+// n - текущий параметр
+// i - номер чеммпиона, после флага n
+void make_champ_n(int ac, char **av, int n, t_cor *cor)
+{
+	int i;
+
+	i = ft_atoi(av[n]);
+	if (i && i <=  cor->n)// Оно должно быть больше или равно 1,
+		// но не превышать общее количество игроков, которые принимают участие в битве.
+	{
+
+		if (!(cor->m_ch[i - 1])) // если было пусто до этого
+		{
+			cor->m_ch[i - 1] = valid_champ(++n, av);
+			cor->m_ch[i - 1]->id = i - 1;
+
+		}
+		else
+			exit_print("not available n\n");
+	}
+	else
+	{
+		i = 0;
+		while (cor->m_2[i])
+			i++;
+		cor->m_2[i] = valid_champ(++n, av);
+	}
+		//exit_print("not available n\n");
+}
+
+
+t_cor *parse_av(int ac, char **av)
+{
+	int i;
+
+	i = 1;
+	int j;
+	j = 0;
+	t_cor *cor;
+	char *name;
+
+
+	cor = (t_cor *)malloc(sizeof(t_cor));
+	ft_bzero(cor, sizeof(t_cor));
+	cor->n = 0;
+	i = 1;
+	while (i < ac)
+	{
+		if ((name = ft_strstr(av[i], ".cor")) && name[4] == '\0' && ft_strlen(av[i]) != 4)
+			cor->n++;
+		i++;
+	}
+	i = 1;
+	while (i < ac)
+	{
+		if ((name = ft_strstr(av[i], "-n")) && name[2] == '\0')
+		{
+			j = ft_atoi(av[++i]);
+			if (j && j <= cor->n)
+			{
+				if (cor->f[j - 1] == 0)
+					cor->f[j - 1] = 1;
+				else
+					exit_print("number not unique");
+			}
+			else
+				exit_print("number not valid"); // число больше кол - ва чемпионов или = 0
+		}
+		i++;
+	}
+	i = 1;
+	j = 0;
+	while (i < ac)
+	{
+		if ((name = ft_strstr("-dump", av[i])) && name[5] == '\0')
+		{
+			cor->nbr_cycles = 1;
+			i++;
+			// и я не поняла что делать
+		}
+			// дб и число, и игрок (+2 предполагаем что флаг
+			// без числа - ошибка)
+		else if (ft_strcmp("-n", av[i]) == 0 && (i + 2) < ac)
+		{
+			make_champ_n(ac, av, ++i, cor);
+			i+=2; // перешагиваем чемпиолна и число
+		}
+		else if (ft_strstr(av[i], ".cor") && j < MAX_PLAYERS)
+		{
+			cor->m_2[j] = valid_champ(i, av);// чемпиона в m_2 с индексом j
+			i++;
+		}
+		else
+			exit_print("ERROR\n");
+	}
+	// теперь нужно всех перенаправить обратно в m_ch
+	i = 0;
+	j = 0;
+	if (cor->n <= MAX_PLAYERS)
+	{
+		while (i + j <= cor->n)
+		{
+			// если есть куда переписать (сослаться) и что
+			if (!cor->m_ch[i] && cor->m_2[j])
+			{
+				cor->m_ch[i] = cor->m_2[j];
+				cor->m_ch[i]->id = i;
+				j++;
+			}
+			else if (!cor->m_ch[i] && !cor->m_2[j])
+				exit_print("number champ less then flag -n");
+			i++;
+		}
+	}
+	else
+		exit_print("number players more than MAX_PLAYERS\n");
+
+	return (cor);
+}
+
+char *base16_2(unsigned c)
+{
+	char *b2;
+	int		i;
+	i = 7;
+	b2 = (char *)malloc(sizeof(char) * 9);
+	b2[8] = '\0';
+	while (i >= 0)
+	{
+		//printf("c16 = %x ", c);
+		b2[i] = c % 2;
+		c = c/2;
+		i--;
+	}
+	return  (b2);
+
+}
+/*
+ * Еще один нюанс: при чтении байтов нужно кастить их в зависимости от размера чтения:
+
+1 байт - unsigned char
+2 байта - short
+4 байта - unsigned int
+ * */
+void	arena(t_cor *cor)
+{
+	//t_live *live;
+	char *code;
+	char	*op;
+	unsigned char	c[1];
+	int i = 0;
+	code = (char *)malloc(sizeof(char) * MEM_SIZE + 1);
+	ft_memset(code, 0, sizeof(code) * MEM_SIZE);
+	code[MEM_SIZE + 1] = '\0';
+
+
+
+	i= 0;
+	while (i < cor->n)
+	{
+		ft_strncpy_all(code + i * (MEM_SIZE / cor->n), cor->m_ch[i]->code, cor->m_ch[i]->head_c->prog_size);
+		i++;
+	}
+	i = 0;
+//	op = ft_memalloc(3);
+//	op[3] = '\0';
+	ft_memcpy(c, code + 0, 1);
+	//op = (op, code, 2);
+	printf("c = %x\n", c[0]);
+	ft_memcpy(c, code + 1, 1);
+	printf("c + 1 = %x\n", c[0]);
+	char *b2;
+	b2 = base16_2(c[0]);
+	printf("c2 = %d\n", b2[0] == 1);
+	if (b2[0] == 1 && b2[1] == 0)
+		printf("T_DIR\n");
+	else if (b2[0] == 0 && b2[1] == 1)
+		printf("T_REG\n");
+	else if (b2[0] == 1 && b2[1] == 1)
+		printf("T_IND\n");
+
+
+	if (b2[2] == 1 && b2[3] == 0)
+		printf("T_DIR\n");
+	else if (b2[2] == 0 && b2[3] == 1)
+		printf("T_REG\n");
+	else if (b2[2] == 1 && b2[3] == 1)
+		printf("T_IND\n");
+
+//	if (b2[4] == 1 && b2[5] == 0)
+//		printf("T_DIR\n");
+//	else if (b2[4] == 0 && b2[5] == 1)
+//		printf("T_REG\n");
+//	else if (b2[4] == 1 && b2[5] == 1)
+//		printf("T_IND\n");
+
+
+
+//	while (i < MEM_SIZE)
+//	{
+//		printf("i = %d, d = %c\n", i, code[i++] << 24);
+//		printf("i = %d, d = %c\n", i, code[i++] << 16);
+//		printf("i = %d, d = %c\n", i, code[i++] << 8);
+//		printf("i = %d, d = %c\n", i, code[i++]);
+//
+//		//i++;
+//	}
+}
+
+int main(int ac, char **av)
+{
+	t_cor *cor;
+
+	if (ac >= 1)
+	{
+		cor = parse_av(ac, av);
+		arena(cor);
+	}
+	else
+		ft_printf("no file");
+	return (0);
+//	int	fd;
+//	int	i;
+//	char *name;
+//
+//
+//	if (ac >= 2 || ac == 1)
+//	{
+//		i = 1;
+//		while (i <= ac)
+//		{
+//			if (ac == 1)
+//				name = "../vm_champs/champs/Gagnant.cor";
+//			else
+//				name = av[i];
+//			//ft_printf("name = %s\n", name);
+//			if ((fd = open(name, O_RDONLY)) > 0)
+//				write_name(fd);
+//			else
+//			{
+//				ft_printf("file %s", av[i]);
+//			}
+//			i++;
+//		}
+//	}
+//	else
+//		ft_printf("no file");
+//	return (0);
+}
