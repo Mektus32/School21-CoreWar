@@ -144,4 +144,4 @@ void add_curr(t_carr **all_carr, t_carr *new);
 void remove_curr_if(t_carr **all_carr, int num);
 t_carr *carr_list(t_cor *cor);
 
-void go_cor(t_cor *cor);
+void	go_cor(t_cor *cor);
