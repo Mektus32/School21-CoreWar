@@ -15,9 +15,7 @@
 char	*ft_strncpy_all(char *dest, const char *source, size_t n)
 {
 	size_t	i;
-	int		f;
 
-	f = 0;
 	i = 0;
 	while (i < n)
 	{
@@ -30,6 +28,23 @@ char	*ft_strncpy_all(char *dest, const char *source, size_t n)
 		i++;
 	}
 	return (dest);
+}
+
+void	*ft_memcpy_all(void *dst, const void *src, size_t n)
+{
+	unsigned char		*str1;
+	const unsigned char	*str2;
+	int					i;
+
+	str1 = dst;
+	str2 = src;
+	i = 0;
+	while (n-- > 0)
+	{
+		str1[i] = str2[i];
+		i++;
+	}
+	return (dst);
 }
 
 
@@ -107,7 +122,7 @@ t_champ *valid_champ(int i, char **av)
 
 		printf("name = %s\n", av[i]);
 		//fd = open( av[i], O_RDONLY);
-		fd = open("../vm_champs/champs/Gagnant.cor", O_RDONLY);
+		fd = open(av[i], O_RDONLY);
 		champ = write_name(fd);
 		//champ->id = i - 1;
 		return (champ);
@@ -133,7 +148,6 @@ void make_champ_n(int ac, char **av, int n, t_cor *cor)
 		{
 			cor->m_ch[i - 1] = valid_champ(++n, av);
 			cor->m_ch[i - 1]->id = i - 1;
-
 		}
 		else
 			exit_print("not available n\n");
@@ -207,7 +221,7 @@ t_cor *parse_av(int ac, char **av)
 		}
 		else if (ft_strstr(av[i], ".cor") && j < MAX_PLAYERS)
 		{
-			cor->m_2[j] = valid_champ(i, av);// чемпиона в m_2 с индексом j
+			cor->m_2[j++] = valid_champ(i, av);// чемпиона в m_2 с индексом j
 			i++;
 		}
 		else
@@ -264,67 +278,24 @@ char *base16_2(unsigned c)
  * */
 void	arena(t_cor *cor)
 {
-	//t_live *live;
-	char *code;
-	char	*op;
-	unsigned char	c[1];
-	int i = 0;
-	code = (char *)malloc(sizeof(char) * MEM_SIZE + 1);
-	ft_memset(code, 0, sizeof(code) * MEM_SIZE);
-	code[MEM_SIZE + 1] = '\0';
 
+	int i;
 
-
-	i= 0;
+	cor->code = (char *)malloc(sizeof(char) * MEM_SIZE + 1);
+	cor->live = (t_live *)malloc(sizeof(t_live));
+	ft_memset(cor->code, 0, sizeof(cor->code) * MEM_SIZE);
+	cor->code[MEM_SIZE + 1] = '\0';
+	i = 0;
 	while (i < cor->n)
 	{
-		ft_strncpy_all(code + i * (MEM_SIZE / cor->n), cor->m_ch[i]->code, cor->m_ch[i]->head_c->prog_size);
+		ft_strncpy_all(cor->code + i * (MEM_SIZE / cor->n), cor->m_ch[i]->code, cor->m_ch[i]->head_c->prog_size);
 		i++;
 	}
-	i = 0;
-//	op = ft_memalloc(3);
-//	op[3] = '\0';
-	ft_memcpy(c, code + 0, 1);
-	//op = (op, code, 2);
-	printf("c = %x\n", c[0]);
-	ft_memcpy(c, code + 1, 1);
-	printf("c + 1 = %x\n", c[0]);
-	char *b2;
-	b2 = base16_2(c[0]);
-	printf("c2 = %d\n", b2[0] == 1);
-	if (b2[0] == 1 && b2[1] == 0)
-		printf("T_DIR\n");
-	else if (b2[0] == 0 && b2[1] == 1)
-		printf("T_REG\n");
-	else if (b2[0] == 1 && b2[1] == 1)
-		printf("T_IND\n");
+	//После того, как на арене были размещены исполняемые коды чемпионов, на начало каждого из них устанавливается каретка.
+	// надо создать список для всех кареток - добавляем сверху сверху начинаем заполнять
 
-
-	if (b2[2] == 1 && b2[3] == 0)
-		printf("T_DIR\n");
-	else if (b2[2] == 0 && b2[3] == 1)
-		printf("T_REG\n");
-	else if (b2[2] == 1 && b2[3] == 1)
-		printf("T_IND\n");
-
-//	if (b2[4] == 1 && b2[5] == 0)
-//		printf("T_DIR\n");
-//	else if (b2[4] == 0 && b2[5] == 1)
-//		printf("T_REG\n");
-//	else if (b2[4] == 1 && b2[5] == 1)
-//		printf("T_IND\n");
-
-
-
-//	while (i < MEM_SIZE)
-//	{
-//		printf("i = %d, d = %c\n", i, code[i++] << 24);
-//		printf("i = %d, d = %c\n", i, code[i++] << 16);
-//		printf("i = %d, d = %c\n", i, code[i++] << 8);
-//		printf("i = %d, d = %c\n", i, code[i++]);
-//
-//		//i++;
-//	}
+	cor->carr = carr_list(cor);
+	go_cor(cor);
 }
 
 int main(int ac, char **av)

@@ -87,6 +87,8 @@ typedef struct		s_champ
 	char				*code;
 }					t_champ;
 
+typedef struct 		s_carr;
+typedef  struct		s_live;
 
 typedef struct		s_cor
 {
@@ -95,32 +97,51 @@ typedef struct		s_cor
 	int 			f[MAX_PLAYERS]; //
 	t_champ			*m_ch[MAX_PLAYERS];
 	t_champ			*m_2[MAX_PLAYERS]; // нужен только для запись чемпионов без флагов
+	char			*code;
+	struct s_carr	*carr;
+	struct s_live	*live;
 }					t_cor;
 
-//typedef  struct		s_live
-//{
-//	int				id_live; // игрок, о котором в последний раз сказали, что он жив
-//	int				;//количество прошедших с начала игры циклов
-//	int				; //количество выполненных операций live за последний период, длинной в cycles_to_die
-//	int				cycles_to_die; //cycles_to_die — длительность периода до проверки
-//	int				;//количество проведенных проверок
-//
-//}					t_live;
+typedef  struct		s_live
+{
+	int				id_live; // игрок, о котором в последний раз сказали, что он жив
+	int				cycles;//количество прошедших с начала игры циклов
+	int				live_count; //количество выполненных операций live за последний период, длинной в cycles_to_die
+	int				cycles_to_die; //cycles_to_die — длительность периода до проверки
+	int				check_count;//количество проведенных проверок
 
-//typedef struct 		s_carr
-//{
-//	int				cur; //текущее положение
-//	int				carry;//Carry - нужен в функции zjmp, который исполняется в том случае, что у каретки->carry = 1.
-//	int				id_par;//номер игрока который его породил
-//	int				register[REG_NUMBER];//16 регистров (массив unsigned int register[16])
-//	int				live;// 1 или 0 жива или нет
-//	int				prog;//команду которую он исполняет
-//	int				cycles_to;//количество циклов, сколько ему осталось ждать до исполнения команды.
+}					t_live;
 //
-//
-//}					t_carr;
+typedef struct 		s_carr
+{
+	int				num;//уникальный номер каретки
+	//int			;//carry
+	int				cur; //текущее положение
+	int				cycles_live;
+	int				carry;//Carry - нужен в функции zjmp, который исполняется в том случае, что у каретки->carry = 1.
+	int				id_par;//номер игрока который его породил
+	int				reg[REG_NUMBER];//16 регистров (массив unsigned int register[16])
+	int				live;// 1 или 0 жива или нет
+	int				prog;//команду которую он исполняет
+	int				cycles_to;//количество циклов, сколько ему осталось ждать до исполнения команды.
+	struct s_carr			*next;
+
+
+}					t_carr;
 
 t_champ *write_name(int fd);
 t_champ *valid_champ(int i, char **av);
 void make_champ_n(int ac, char **av, int n, t_cor *cor);
 t_cor *parse_av(int ac, char **av);
+void	arena(t_cor *cor);
+char *base16_2(unsigned c);
+
+void	ft_live(t_cor *cor, int i);
+void ft_ld(t_cor *cor, int i);
+
+t_carr *new_curr(int id_par);
+void add_curr(t_carr **all_carr, t_carr *new);
+void remove_curr_if(t_carr **all_carr, int num);
+t_carr *carr_list(t_cor *cor);
+
+void go_cor(t_cor *cor);

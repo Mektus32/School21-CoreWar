@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-project(corwar_1 C)
+project(arina C)
 
 set(CMAKE_C_STANDARD 11)
 
@@ -8,16 +8,12 @@ include_directories(includes)
 include_directories(libft/includes)
 include_directories(vm_champs)
 
-add_executable(corwar_1
+add_executable(arina
         ft_printf/includes/ft_printf.h
         ft_printf/src/check_args.c
         ft_printf/src/choise_spec.c
-
         ft_printf/src/ft_free_strncpy.c
-
-
         ft_printf/src/ft_printf.c
-
 
         ft_printf/src/init_arg.c
         ft_printf/src/print_digit.c
@@ -47,7 +43,6 @@ add_executable(corwar_1
         libft/ft_isalpha.c
         libft/ft_isascii.c
         libft/ft_isdigit.c
-        libft/ft_isdigonly.c
         libft/ft_isprint.c
         libft/ft_isspace.c
         libft/ft_itoa.c
@@ -119,8 +114,11 @@ add_executable(corwar_1
         libft/ft_ultoa.c
         libft/ft_ultoa_base.c
         libft/get_next_line.c
-        #src_1/main.c
-        #src_1/op.c
+
         src_cor/main.c
-        #vm_champs/op.c
-        vm_champs/op.h)
+        vm_champs/op.c
+        vm_champs/op.h
+        src_cor/ft_live.c
+        src_cor/ft_ld.c
+        src_cor/carr_list.c
+        src_cor/go_cor.c)
