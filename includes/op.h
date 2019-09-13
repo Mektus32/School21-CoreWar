@@ -125,8 +125,6 @@ typedef struct 		s_carr
 	int				prog;//команду которую он исполняет
 	int				cycles_to;//количество циклов, сколько ему осталось ждать до исполнения команды.
 	struct s_carr			*next;
-
-
 }					t_carr;
 
 t_champ *write_name(int fd);
@@ -145,3 +143,20 @@ void remove_curr_if(t_carr **all_carr, int num);
 t_carr *carr_list(t_cor *cor);
 
 void go_cor(t_cor *cor);
+
+void    ft_live(t_cor *cor, t_carr *tmp);
+void    ft_ld(t_cor *cor, t_carr *tmp);
+void    ft_st(t_cor *cor, t_carr *tmp);
+void    ft_add(t_cor *cor, t_carr *tmp);
+void    ft_sub(t_cor *cor, t_carr *tmp);
+void    ft_and(t_cor *cor, t_carr *tmp);
+void    ft_or(t_cor *cor, t_carr *tmp);
+void    ft_xor(t_cor *cor, t_carr *tmp);
+void    ft_zjmp(t_cor *cor, t_carr *tmp);
+void    ft_ldi(t_cor *cor, t_carr *tmp);
+void    ft_sti(t_cor *cor, t_carr *tmp);
+void    ft_fork(t_cor *cor, t_carr *tmp);
+void    ft_lld(t_cor *cor, t_carr *tmp);
+void    ft_lldi(t_cor *cor, t_carr *tmp);
+void    ft_lfork(t_cor *cor, t_carr *tmp);
+void    ft_aff(t_cor *cor, t_carr *tmp);
