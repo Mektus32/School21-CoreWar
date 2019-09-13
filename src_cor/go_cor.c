@@ -59,26 +59,60 @@ void go_cor(t_cor *cor)
 		// для каждой каретки иначинаем исполнять код
 		while (tmp)
 		{
-			ft_memcpy(op, cor->code + cor->carr->cur, 1);
-			printf("c = %x\n", op[0]);
-			if	(op[0] == 0)
-				ft_live(cor, 1);
-//	else if (c[0] == 1)
-//		f_ld(cor, i);
-			else if (op[0] == 2)
-				ft_ld(cor, 1);
-		//	else
+			
+			//printf("c = %x\n", op[0]);
+
+			// если не доступная операция - двигаем каретку
+			if (tmp->prog < 1 || tmp->prog > 16)
+			{
+				tmp->cur = (tmp->cur + 1) % MEM_SIZE;
+				ft_memcpy(&tmp->prog, cor->code + tmp->cur, 1);
+				tmp->cycles_to = ft_cycles_to(tmp->prog);
+
+			}
+			if (tmp->cycles_to-- == 0  )
+			{
+				if	(tmp->prog == 1)
+				ft_live(cor, tmp);
+	        else if (tmp->prog == 2)
+		        ft_ld(cor, tmp);
+//			else if (op[0] == 3)
+//				ft_st(cor, tmp);
+//			else if (op[0] == 4)
+//			    ft_add(cor, tmp);
+//            else if (op[0] == 5)
+//                ft_sub(cor, tmp);
+//            else if (op[0] == 6)
+//                ft_and(cor, tmp);
+//            else if (op[0] == 7)
+//                ft_or(cor, tmp);
+//            else if (op[0] == 8)
+//                ft_xor(cor, tmp);
+//            else if (op[0] == 9)
+//                ft_zjmp(cor, tmp);
+//            else if (op[0] == 10)
+//                ft_ldi(cor, tmp);
+//            else if (op[0] == 11)
+//                ft_sti(cor, tmp);
+//            else if (op[0] == 12)
+//                ft_fork(cor, tmp);
+//            else if (op[0] == 13)
+//                ft_lld(cor, tmp);
+//            else if (op[0] == 14)
+//                ft_lldi(cor, tmp);
+//            else if (op[0] == 15)
+//                ft_lfork(cor, tmp);
+//            else if (op[0] == 16)
+//                ft_aff(cor, tmp);
+			}
+//			else
+//				tmp->cur = (tmp->cur + 1) % MEM_SIZE;
 			tmp = tmp->next;
 		}
 		//Проверка происходит через каждые cycles_to_die циклов пока значение cycles_to_die больше нуля.
 		// А после того, как его значение станет меньше или равным нулю, проверка начинает проводиться после каждого цикла.
 		if (cor->live->cycles_to_die <=0 || (cor->live->cycles && (cor->live->cycles % cor->live->cycles_to_die == 0)))
 			check_live(cor);
-		//op = cor->code + 0;
-		i++;
-
-
+		cor->live->cycles++;
 	}
-
-
 }

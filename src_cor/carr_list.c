@@ -58,6 +58,20 @@ void remove_curr_if(t_carr **all_carr, int num)
 	}
 }
 
+int	ft_cycles_to(char p)
+{
+	int cycles;
+
+	cycles = -1;
+	if (p == 1)
+		cycles = 10;
+	else if (p == 2)
+		cycles = 5;
+	else if (p == 3)
+		cycles = 5;
+	return (cycles);
+}
+
 t_carr *carr_list(t_cor *cor)
 {
 	int	i;
@@ -66,12 +80,16 @@ t_carr *carr_list(t_cor *cor)
 
 
 	carr = new_curr(1);
+	ft_memcpy(&carr->prog, cor->code + carr->cur, 1);
+	carr->cycles_to = ft_cycles_to(carr->prog);
 	carr->cur = 0;
 	i = 2;
 	while (i <= cor->n)
 	{
 		carr_tmp = new_curr(i);
 		carr_tmp->cur = (i - 1) * (MEM_SIZE / cor->n);
+		ft_memcpy(&carr_tmp->prog, cor->code + carr_tmp->cur, 1);
+		carr_tmp->cycles_to = ft_cycles_to(carr_tmp->prog);
 		add_curr(&carr, carr_tmp);
 		i++;
 	}
