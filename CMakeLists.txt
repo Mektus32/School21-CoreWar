@@ -120,5 +120,8 @@ add_executable(arina
         vm_champs/op.h
         src_cor/ft_live.c
         src_cor/ft_ld.c
+        src_cor/ft_st.c
+        src_cor/ft_add.c
+
         src_cor/carr_list.c
         src_cor/go_cor.c)

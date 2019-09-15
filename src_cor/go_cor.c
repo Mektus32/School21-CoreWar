@@ -76,12 +76,12 @@ void go_cor(t_cor *cor)
 				ft_live(cor, tmp);
 	        else if (tmp->prog == 2)
 		        ft_ld(cor, tmp);
-//			else if (op[0] == 3)
-//				ft_st(cor, tmp);
-//			else if (op[0] == 4)
-//			    ft_add(cor, tmp);
-//            else if (op[0] == 5)
-//                ft_sub(cor, tmp);
+			else if (tmp->prog == 3)
+				ft_st(cor, tmp);
+			else if (op[0] == 4)
+			    ft_add(cor, tmp);
+            else if (op[0] == 5)
+                ft_sub(cor, tmp);
 //            else if (op[0] == 6)
 //                ft_and(cor, tmp);
 //            else if (op[0] == 7)
@@ -105,8 +105,8 @@ void go_cor(t_cor *cor)
 //            else if (op[0] == 16)
 //                ft_aff(cor, tmp);
 			}
-//			else
-//				tmp->cur = (tmp->cur + 1) % MEM_SIZE;
+			else
+				tmp->cur = (tmp->cur + 1) % MEM_SIZE;
 			tmp = tmp->next;
 		}
 		//Проверка происходит через каждые cycles_to_die циклов пока значение cycles_to_die больше нуля.

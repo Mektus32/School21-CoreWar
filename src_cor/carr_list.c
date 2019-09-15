@@ -1,4 +1,3 @@
-
 #include "corewar.h"
 
 t_carr *new_curr(int id_par)
@@ -63,12 +62,24 @@ int	ft_cycles_to(char p)
 	int cycles;
 
 	cycles = -1;
-	if (p == 1)
+	if (p == 1 || p == 4 || p == 5 || p == 13)
 		cycles = 10;
-	else if (p == 2)
+	else if (p == 2 || p == 3)
 		cycles = 5;
-	else if (p == 3)
-		cycles = 5;
+	else if (p == 6 || p == 7 || p == 8)
+		cycles = 6;
+	else if (p == 9)
+		cycles = 20;
+	else if (p == 10 || p == 11)
+		cycles = 25;
+	else if (p == 12)
+		cycles = 800;
+	else if (p == 14)
+		cycles = 50;
+	else if (p == 15)
+		cycles = 1000;
+	else if (p == 16)
+		cycles = 2;
 	return (cycles);
 }
 
@@ -77,7 +88,6 @@ t_carr *carr_list(t_cor *cor)
 	int	i;
 	t_carr *carr;
 	t_carr *carr_tmp;
-
 
 	carr = new_curr(1);
 	ft_memcpy(&carr->prog, cor->code + carr->cur, 1);

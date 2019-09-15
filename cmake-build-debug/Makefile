@@ -2769,6 +2769,33 @@ src_cor/carr_list.c.s:
 	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/carr_list.c.s
 .PHONY : src_cor/carr_list.c.s
 
+src_cor/ft_add.o: src_cor/ft_add.c.o
+
+.PHONY : src_cor/ft_add.o
+
+# target to build an object file
+src_cor/ft_add.c.o:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_add.c.o
+.PHONY : src_cor/ft_add.c.o
+
+src_cor/ft_add.i: src_cor/ft_add.c.i
+
+.PHONY : src_cor/ft_add.i
+
+# target to preprocess a source file
+src_cor/ft_add.c.i:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_add.c.i
+.PHONY : src_cor/ft_add.c.i
+
+src_cor/ft_add.s: src_cor/ft_add.c.s
+
+.PHONY : src_cor/ft_add.s
+
+# target to generate assembly for a file
+src_cor/ft_add.c.s:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_add.c.s
+.PHONY : src_cor/ft_add.c.s
+
 src_cor/ft_ld.o: src_cor/ft_ld.c.o
 
 .PHONY : src_cor/ft_ld.o
@@ -2822,6 +2849,33 @@ src_cor/ft_live.s: src_cor/ft_live.c.s
 src_cor/ft_live.c.s:
 	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_live.c.s
 .PHONY : src_cor/ft_live.c.s
+
+src_cor/ft_st.o: src_cor/ft_st.c.o
+
+.PHONY : src_cor/ft_st.o
+
+# target to build an object file
+src_cor/ft_st.c.o:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_st.c.o
+.PHONY : src_cor/ft_st.c.o
+
+src_cor/ft_st.i: src_cor/ft_st.c.i
+
+.PHONY : src_cor/ft_st.i
+
+# target to preprocess a source file
+src_cor/ft_st.c.i:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_st.c.i
+.PHONY : src_cor/ft_st.c.i
+
+src_cor/ft_st.s: src_cor/ft_st.c.s
+
+.PHONY : src_cor/ft_st.s
+
+# target to generate assembly for a file
+src_cor/ft_st.c.s:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_st.c.s
+.PHONY : src_cor/ft_st.c.s
 
 src_cor/go_cor.o: src_cor/go_cor.c.o
 
@@ -3207,12 +3261,18 @@ help:
 	@echo "... src_cor/carr_list.o"
 	@echo "... src_cor/carr_list.i"
 	@echo "... src_cor/carr_list.s"
+	@echo "... src_cor/ft_add.o"
+	@echo "... src_cor/ft_add.i"
+	@echo "... src_cor/ft_add.s"
 	@echo "... src_cor/ft_ld.o"
 	@echo "... src_cor/ft_ld.i"
 	@echo "... src_cor/ft_ld.s"
 	@echo "... src_cor/ft_live.o"
 	@echo "... src_cor/ft_live.i"
 	@echo "... src_cor/ft_live.s"
+	@echo "... src_cor/ft_st.o"
+	@echo "... src_cor/ft_st.i"
+	@echo "... src_cor/ft_st.s"
 	@echo "... src_cor/go_cor.o"
 	@echo "... src_cor/go_cor.i"
 	@echo "... src_cor/go_cor.s"

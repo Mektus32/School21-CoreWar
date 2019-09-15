@@ -138,15 +138,12 @@ t_cor *parse_av(int ac, char **av);
 void	arena(t_cor *cor);
 char *base16_2(unsigned c);
 
-//void	ft_live(t_cor *cor, int i);
-//void ft_ld(t_cor *cor, int i);
 
 t_carr *new_curr(int id_par);
 void add_curr(t_carr **all_carr, t_carr *new);
 void remove_curr_if(t_carr **all_carr, int num);
 t_carr *carr_list(t_cor *cor);
 int	ft_cycles_to(char p);
-
 
 void go_cor(t_cor *cor);
 

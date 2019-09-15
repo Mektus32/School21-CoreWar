@@ -299,6 +299,12 @@ CMakeFiles/arina.dir/src_cor/carr_list.c.o
  ../includes/libft.h
  ../includes/op.h
  /Users/qgilbert/Desktop/corwar_1/arina/src_cor/carr_list.c
+CMakeFiles/arina.dir/src_cor/ft_add.c.o
+ ../includes/corewar.h
+ ../includes/ft_printf.h
+ ../includes/libft.h
+ ../includes/op.h
+ /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_add.c
 CMakeFiles/arina.dir/src_cor/ft_ld.c.o
  ../includes/corewar.h
  ../includes/ft_printf.h
@@ -311,6 +317,12 @@ CMakeFiles/arina.dir/src_cor/ft_live.c.o
  ../includes/libft.h
  ../includes/op.h
  /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_live.c
+CMakeFiles/arina.dir/src_cor/ft_st.c.o
+ ../includes/corewar.h
+ ../includes/ft_printf.h
+ ../includes/libft.h
+ ../includes/op.h
+ /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_st.c
 CMakeFiles/arina.dir/src_cor/go_cor.c.o
  ../includes/corewar.h
  ../includes/ft_printf.h

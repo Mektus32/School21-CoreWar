@@ -166,9 +166,9 @@ void make_champ_n(int ac, char **av, int n, t_cor *cor)
 t_cor *parse_av(int ac, char **av)
 {
 	int i;
+	int j;
 
 	i = 1;
-	int j;
 	j = 0;
 	t_cor *cor;
 	char *name;
@@ -296,7 +296,18 @@ void	arena(t_cor *cor)
 	// надо создать список для всех кареток - добавляем сверху сверху начинаем заполнять
 
 	cor->carr = carr_list(cor);
+
+	i = 0;
+	while (i < cor->n)
+	{
+		ft_printf("Introducing contestants...\n");
+		ft_printf("* Player %d, weighing %d bytes, \"%s\" (\"%s\") !\n", i + 1,
+				(cor->m_ch[i])->head_c->prog_size, (cor->m_ch[i])->head_c->prog_name,
+				(cor->m_ch[i])->head_c->comment);
+		i++;
+	}
 	go_cor(cor);
+	ft_printf("Contestant 2, \"%s\", has won !", (cor->m_ch[cor->live->id_live - 1])->head_c->prog_name);
 }
 
 int main(int ac, char **av)

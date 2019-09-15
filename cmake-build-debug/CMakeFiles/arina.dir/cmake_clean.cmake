@@ -100,6 +100,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/arina.dir/vm_champs/op.c.o"
   "CMakeFiles/arina.dir/src_cor/ft_live.c.o"
   "CMakeFiles/arina.dir/src_cor/ft_ld.c.o"
+  "CMakeFiles/arina.dir/src_cor/ft_st.c.o"
+  "CMakeFiles/arina.dir/src_cor/ft_add.c.o"
   "CMakeFiles/arina.dir/src_cor/carr_list.c.o"
   "CMakeFiles/arina.dir/src_cor/go_cor.c.o"
   "arina.pdb"

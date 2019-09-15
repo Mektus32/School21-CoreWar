@@ -15,7 +15,15 @@
 NAME = cor_1
 
 # src / obj files
-SRC =	main.c\
+SRC =	main.c \
+		carr_list.c \
+		ft_add.c \
+		ft_ld.c \
+		ft_live.c \
+		ft_st.c \
+		go_cor.c \
+		
+
 
 OBJ = $(addprefix $(OBJDIR), $(SRC:.c=.o))
 
