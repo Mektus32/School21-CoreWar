@@ -298,9 +298,9 @@ void	arena(t_cor *cor)
 	cor->carr = carr_list(cor);
 
 	i = 0;
+	ft_printf("Introducing contestants...\n");
 	while (i < cor->n)
 	{
-		ft_printf("Introducing contestants...\n");
 		ft_printf("* Player %d, weighing %d bytes, \"%s\" (\"%s\") !\n", i + 1,
 				(cor->m_ch[i])->head_c->prog_size, (cor->m_ch[i])->head_c->prog_name,
 				(cor->m_ch[i])->head_c->comment);

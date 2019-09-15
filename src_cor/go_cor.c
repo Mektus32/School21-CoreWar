@@ -73,37 +73,37 @@ void go_cor(t_cor *cor)
 			if (tmp->cycles_to-- == 0  )
 			{
 				if	(tmp->prog == 1)
-				ft_live(cor, tmp);
-	        else if (tmp->prog == 2)
-		        ft_ld(cor, tmp);
-			else if (tmp->prog == 3)
-				ft_st(cor, tmp);
-			else if (op[0] == 4)
-			    ft_add(cor, tmp);
-            else if (op[0] == 5)
-                ft_sub(cor, tmp);
-//            else if (op[0] == 6)
-//                ft_and(cor, tmp);
-//            else if (op[0] == 7)
-//                ft_or(cor, tmp);
-//            else if (op[0] == 8)
-//                ft_xor(cor, tmp);
-//            else if (op[0] == 9)
-//                ft_zjmp(cor, tmp);
-//            else if (op[0] == 10)
+					ft_live(cor, tmp);
+				else if (tmp->prog == 2)
+					ft_ld(cor, tmp);
+				else if (tmp->prog == 3)
+					ft_st(cor, tmp);
+				else if (tmp->prog == 4)
+					ft_add(cor, tmp);
+				else if (tmp->prog == 5)
+					ft_sub(cor, tmp);
+				else if (tmp->prog == 6)
+					ft_and(cor, tmp);
+				else if (tmp->prog == 7)
+					ft_or(cor, tmp);
+				else if (tmp->prog == 8)
+					ft_xor(cor, tmp);
+				else if (tmp->prog == 9)
+					ft_zjmp(cor, tmp);
+//            else if (tmp->prog == 10)
 //                ft_ldi(cor, tmp);
-//            else if (op[0] == 11)
+//            else if (tmp->prog == 11)
 //                ft_sti(cor, tmp);
-//            else if (op[0] == 12)
+//            else if (tmp->prog == 12)
 //                ft_fork(cor, tmp);
-//            else if (op[0] == 13)
+//            else if (tmp->prog == 13)
 //                ft_lld(cor, tmp);
-//            else if (op[0] == 14)
+//            else if (tmp->prog == 14)
 //                ft_lldi(cor, tmp);
-//            else if (op[0] == 15)
+//            else if (tmp->prog == 15)
 //                ft_lfork(cor, tmp);
-//            else if (op[0] == 16)
-//                ft_aff(cor, tmp);
+				else if (tmp->prog == 16)
+					ft_aff(cor, tmp);
 			}
 			else
 				tmp->cur = (tmp->cur + 1) % MEM_SIZE;
