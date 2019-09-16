@@ -94,6 +94,7 @@ typedef  struct		s_live;
 typedef struct		s_cor
 {
 	int				n;	//кол - во чемпионов
+	int				n_curr;
 	int 			nbr_cycles;
 	int 			f[MAX_PLAYERS]; //
 	t_champ			*m_ch[MAX_PLAYERS];
@@ -123,7 +124,7 @@ typedef struct 		s_carr
 	int				id_par;//номер игрока который его породил
 	int				reg[REG_NUMBER];//16 регистров (массив unsigned int register[16])
 	int				live;// 1 или 0 жива или нет
-	char				prog;//команду которую он исполняет
+	char			prog;//команду которую он исполняет
 	int				cycles_to;//количество циклов, сколько ему осталось ждать до исполнения команды.
 	struct s_carr			*next;
 }					t_carr;
@@ -148,7 +149,7 @@ int	ft_cycles_to(char p);
 void go_cor(t_cor *cor);
 
 void    ft_live(t_cor *cor, t_carr *tmp);
-void    ft_ld(t_cor *cor, t_carr *tmp);
+void    ft_ld(t_cor *cor, t_carr *tmp, int l);
 void    ft_st(t_cor *cor, t_carr *tmp);
 void    ft_add(t_cor *cor, t_carr *tmp);
 void    ft_sub(t_cor *cor, t_carr *tmp);
@@ -156,11 +157,11 @@ void    ft_and(t_cor *cor, t_carr *tmp);
 void    ft_or(t_cor *cor, t_carr *tmp);
 void    ft_xor(t_cor *cor, t_carr *tmp);
 void    ft_zjmp(t_cor *cor, t_carr *tmp);
-void    ft_ldi(t_cor *cor, t_carr *tmp);
+void    ft_ldi(t_cor *cor, t_carr *tmp, int l);
 void    ft_sti(t_cor *cor, t_carr *tmp);
-void    ft_fork(t_cor *cor, t_carr *tmp);
-void    ft_lld(t_cor *cor, t_carr *tmp);
-void    ft_lldi(t_cor *cor, t_carr *tmp);
-void    ft_lfork(t_cor *cor, t_carr *tmp);
+void    ft_fork(t_cor *cor, t_carr *tmp, int l);
+//void    ft_lld(t_cor *cor, t_carr *tmp);
+//void    ft_lldi(t_cor *cor, t_carr *tmp);
+//void    ft_lfork(t_cor *cor, t_carr *tmp);
 void    ft_aff(t_cor *cor, t_carr *tmp);
 

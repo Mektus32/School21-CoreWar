@@ -39,10 +39,19 @@ void	*ft_memcpy_all(void *dst, const void *src, size_t n)
 	str1 = dst;
 	str2 = src;
 	i = 0;
-	while (n-- > 0)
+
+	if (!src)
 	{
-		str1[i] = str2[i];
-		i++;
+		while (n-- > 0)
+			str1[i++] = 0;
+	}
+	else
+	{
+		while (n-- > 0)
+		{
+			str1[i] = str2[i];
+			i++;
+		}
 	}
 	return (dst);
 }

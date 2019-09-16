@@ -378,7 +378,7 @@ void    ft_xor(t_cor *cor, t_carr *tmp)
 	{
 		i += 1;
 		ft_memcpy_all(&t_reg_2,  cor->code + (tmp->cur + 1 + 1) % MEM_SIZE, 1);
-		if ((int)t_reg_2 >= 0 && (int)(t_reg_2) < REG_NUMBER)
+		if ( (int)t_reg_2 >= 0 && (int)(t_reg_2) < REG_NUMBER)
 		{
 
 		}
@@ -444,7 +444,7 @@ void    ft_zjmp(t_cor *cor, t_carr *tmp)
 	unsigned char t_ind[IND_SIZE];
 	int a;
 
-	if (tmp->cur == 1)
+	if (tmp->carry == 1)
 	{
 		ft_memcpy(t_ind, cor->code + (tmp->cur + 1) % MEM_SIZE, IND_SIZE);
 		a = ((t_ind[0] << 8) | t_ind[1]) % IDX_MOD;
@@ -455,7 +455,7 @@ void    ft_zjmp(t_cor *cor, t_carr *tmp)
 	}
 }
 
-void    ft_ldi(t_cor *cor, t_carr *tmp)
+void    ft_ldi(t_cor *cor, t_carr *tmp, int l)
 {
 	unsigned char t_reg;
 	unsigned char t_reg_2;
@@ -491,7 +491,7 @@ void    ft_ldi(t_cor *cor, t_carr *tmp)
 			ft_memcpy(t_ind, cor->code + (tmp->cur + 1 + 1) % MEM_SIZE, IND_SIZE);
 			a = ((t_ind[0] << 8) | t_ind[1]) % IDX_MOD;
 		}
-		i += 4 * (int)b2[4] - 2 * (int)b2[5];
+		i += 4 * (int)b2[0] - 2 * (int)b2[1];
 		ft_memcpy(t_dir, cor->code + (tmp->cur + 1 + 1 + a) % MEM_SIZE, DIR_SIZE);
 		a = 1;
 
@@ -532,21 +532,17 @@ void    ft_ldi(t_cor *cor, t_carr *tmp)
 			ft_memcpy_all(&t_reg_3,  cor->code + (tmp->cur + 1 + 1) % MEM_SIZE, 1);
 			if ((int)t_reg_3 >= 0 && (int)(t_reg_3) < REG_NUMBER)
 			{
-				if (a == 0 && i == 5)
-					tmp->reg[(int)t_reg_3] = tmp->reg[(int)t_reg_2] ^ tmp->reg[(int)t_reg];
+				if (a == 0 && i == 5)// все reg
+					ft_memcpy_all((void*)tmp->reg[(int)t_reg_3],  cor->code + (tmp->cur + (int)t_reg + (int)t_reg_2) % (IDX_MOD - l *  IDX_MOD) % MEM_SIZE, 4);
+					//tmp->reg[(int)t_reg_3] = tmp->reg[(int)t_reg_2] + tmp->reg[(int)t_reg];
 				else if (a == 1 && (i == 6 || i == 8))
-					tmp->reg[(int)t_reg_3] = (int)t_dir ^ tmp->reg[(int)t_reg_2];
+					ft_memcpy_all(tmp->reg[(int)t_reg_3],  cor->code + (tmp->cur + (int)t_dir + (int)t_reg_2) % (IDX_MOD - l *  IDX_MOD) % MEM_SIZE, 4);
 				else if (a == 2 && (i == 6 || i == 8))
-					tmp->reg[(int)t_reg_3] = (int)t_dir_1 ^ tmp->reg[(int)t_reg];
-				else if (a == 2 && (i == 7 || i == 9 || i == 11))
-					tmp->reg[(int)t_reg_3] = (int)t_dir_1 ^ (int)t_dir;
+					ft_memcpy_all(tmp->reg[(int)t_reg_3],  cor->code + (tmp->cur + (int)t_dir_1 + (int)t_reg_2) % (IDX_MOD - l *  IDX_MOD) % MEM_SIZE, 4);
+				else if (a == 2 && (i == 9 || i == 11))
+					ft_memcpy_all(tmp->reg[(int)t_reg_3],  cor->code + (tmp->cur + (int)t_dir_1 + (int)t_dir) % (IDX_MOD - l *  IDX_MOD) % MEM_SIZE, 4);
 				else
 					f_err = 1;
-				if (f_err == 0)
-				{
-					tmp->carry = (tmp->reg[(int)t_reg_3] == 0) ? 1 : 0;
-					tmp->cur = (tmp->cur + i) % MEM_SIZE;
-				}
 			}
 		}
 
@@ -560,14 +556,132 @@ void    ft_ldi(t_cor *cor, t_carr *tmp)
 		tmp->cur = (tmp->cur + i) % MEM_SIZE;
 }
 //
-//void    ft_sti(t_cor *cor, t_carr *tmp)
-//{
-//
-//}
-//void    ft_fork(t_cor *cor, t_carr *tmp)
-//{
-//
-//}
+void    ft_sti(t_cor *cor, t_carr *tmp)
+{
+	unsigned char t_reg;
+	unsigned char t_reg_2;
+	unsigned char t_reg_3;
+	unsigned char	c[1];
+	char *b2;
+	int f_err;
+	int i;
+	int a;
+	unsigned char t_ind[IND_SIZE];
+	unsigned char t_dir[DIR_SIZE];
+	unsigned char t_dir_1[DIR_SIZE];
+
+	i = 1;
+	a = 0;
+	f_err = 0;
+	ft_memcpy(c, cor->code + (tmp->cur + i++) % MEM_SIZE, 1);
+	b2 = base16_2(c[0]);
+
+	if (b2[0] == 0 && b2[1] == 1)
+	{
+		//i += 1;
+		ft_memcpy_all(&t_reg,  cor->code + (tmp->cur + i++) % MEM_SIZE, 1);
+		if ( !((int)t_reg >= 0 && (int)(t_reg) < REG_NUMBER))
+			f_err = 1;
+	}
+	else if ((b2[0] == 1 && b2[1] == 1) || (b2[0] == 1 && b2[1] == 0))
+	{
+		f_err = 1;
+		i = i + 4 * (int)b2[0] - 2 * (int)b2[1];
+	}
+	else
+		f_err = 1;
+
+	if (b2[2] == 0 && b2[3] == 1)
+	{
+		ft_memcpy_all(&t_reg_2,  cor->code + (tmp->cur + 1 + i++) % MEM_SIZE, 1);
+		if (! (((int)t_reg_2) >= 0) && (int)(t_reg_2) < REG_NUMBER)
+			f_err = 1;
+	}
+	else if ((b2[2] == 1 && b2[3] == 0) || (b2[2] == 1 && b2[3] == 1))
+	{
+		a = 0;
+		if (b2[3] == 1)
+		{
+			ft_memcpy(t_ind, cor->code + (tmp->cur + 1 + 1 + i) % MEM_SIZE, IND_SIZE);
+			a = ((t_ind[0] << 8) | t_ind[1]) % IDX_MOD;
+		}
+		i += 4 * (int)b2[2] - 2 * (int)b2[3];
+		ft_memcpy(t_dir, cor->code + (tmp->cur + 1 + 1 + i +  a) % MEM_SIZE, DIR_SIZE);
+		a = 1;
+	}
+	else
+		f_err = 1;
+
+
+
+	if (b2[4] == 0 && b2[5] == 1)
+	{
+		ft_memcpy_all(&t_reg_3,  cor->code + (tmp->cur + 1 + i++) % MEM_SIZE, 1);
+
+
+	}
+	else if (b2[4] == 1 && b2[5] == 0)
+	{
+		i += 4;
+		ft_memcpy(t_dir_1, cor->code + (tmp->cur + 1 + 1 + i) % MEM_SIZE, DIR_SIZE);
+		a = 2;
+	}
+	else
+	{
+		i += 2;
+		f_err = 1;
+	}
+	tmp->cur = (tmp->cur + i) % MEM_SIZE;
+	if (!f_err)
+		ft_memcpy_all((cor->code + (tmp->cur + 1 + 1 + (int)t_dir + (int)t_dir_1) % IDX_MOD % MEM_SIZE), (void *)tmp->reg[(int)t_reg], 4);
+
+
+}
+
+void    ft_fork(t_cor *cor, t_carr *tmp, int l)
+{
+	t_carr *new;
+	unsigned char t_dir[DIR_SIZE];
+	unsigned char	c[1];
+	char *b2;
+	int i;
+	int k;
+	i = 1;
+	k = 0;
+
+	ft_memcpy(c, cor->code + (tmp->cur + i++) % MEM_SIZE, 1);
+	b2 = base16_2(c[0]);
+
+	if (b2[0] == 0 && b2[1] == 0)
+	{
+
+		// создадим копию каретки и вставим в начало
+		new = new_curr(tmp->id_par);
+		new->carry = tmp->carry;
+		new->cycles_live = tmp->cycles_live;
+		new->num = ++(cor->n_curr);
+		while (k < REG_NUMBER)
+		{
+			//ft_memcpy_all(new->reg[k], tmp->reg[k], 4);
+			new->reg[k] = //(tmp->reg[k][0] << 24) | (tmp->reg[k][1] << 16) | (tmp->reg[k][2] << 8) | tmp->reg[k][3];
+					tmp->reg[k];
+			k++;
+		}
+		add_curr(&(cor->carr), new);
+		ft_memcpy(t_dir, cor->code + (tmp->cur + i) % MEM_SIZE, DIR_SIZE);
+		i += 4;
+		//Операция fork делает копию каретки. И эту копию размещает по адресу <ПЕРВЫЙ_АРГУМЕНТ> % IDX_MOD.
+		k = (t_dir[0] << 24) | (t_dir[1] << 16) | (t_dir[2] << 8) | t_dir[3];
+				//(int)t_dir;
+		ft_memcpy_all(cor->code + (int)t_dir % (IDX_MOD - l * IDX_MOD), new->reg[0], 4);
+	}
+	else
+	{
+		i += 3 * (int)b2[0] + (int)b2[1];
+	}
+	tmp->cur = (tmp->cur + i) % MEM_SIZE;
+
+}
 //
 //void    ft_lld(t_cor *cor, t_carr *tmp)
 //{

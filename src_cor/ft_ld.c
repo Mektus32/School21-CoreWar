@@ -1,5 +1,5 @@
 #include "corewar.h"
-int ft_ld_write(t_cor *cor, t_carr *tmp, int i)
+int ft_ld_write(t_cor *cor, t_carr *tmp, int i, int l)
 {
 	int a;
 	unsigned char t_ind[IND_SIZE];
@@ -10,11 +10,14 @@ int ft_ld_write(t_cor *cor, t_carr *tmp, int i)
 	if (i == 5)
 	{
 		ft_memcpy(t_ind, cor->code + (tmp->cur + 1 + 1) % MEM_SIZE, IND_SIZE);
-		a = ((t_ind[0] << 8) | t_ind[1]) % IDX_MOD;
+		if (l)
+			a = ((t_ind[0] << 8) | t_ind[1]);
+		else
+			a = ((t_ind[0] << 8) | t_ind[1]) % IDX_MOD;
 	}
 
 	ft_memcpy(t_dir, cor->code + (tmp->cur + 1 + 1 + a) % MEM_SIZE, DIR_SIZE);
-	ft_memcpy_all(&t_reg,  cor->code + (tmp->cur + 1 + 1 + 4) % MEM_SIZE, 1);
+	ft_memcpy_all(&t_reg,  cor->code + (tmp->cur + (i - 1)) % MEM_SIZE, 1);
 	if ((int)t_reg >= 0 && (int)t_reg < REG_NUMBER)
 	{
 		tmp->reg[(int)t_reg] = *((int*)t_dir);
@@ -27,7 +30,7 @@ int ft_ld_write(t_cor *cor, t_carr *tmp, int i)
 		return (1);
 }
 
-void ft_ld(t_cor *cor, t_carr *tmp)
+void ft_ld(t_cor *cor, t_carr *tmp, int l)
 {
 	// когда сюда заходим, знаем что операция валидна но не передвигаем до этого
 	unsigned char	c[1];//codage octal
@@ -37,6 +40,9 @@ void ft_ld(t_cor *cor, t_carr *tmp)
 
 	i = 1;// операция валидна уже знаем
 	ft_memcpy(c, cor->code + (tmp->cur + i++) % MEM_SIZE, 1); //У 02 команды load - codage 1, значит мы считываем первое число после команды
+
+	//ft_memcpy(c, cor->code + (tmp->cur + i) % MEM_SIZE, 1); //У 02 команды load - codage 1, значит мы считываем первое число после команды
+
 	printf("c + 1 = %x\n", c[0]);
 	b2 = base16_2(c[0]); // 90 = 144 = 10 01 00 00
 
@@ -57,7 +63,7 @@ void ft_ld(t_cor *cor, t_carr *tmp)
 		i += 1;
 		// надо проверить еслт ли такой регистр - записать, если все нормалбно
 		if (i == 5 || i == 7)
-			f_err = ft_ld_write(cor, tmp, i);
+			f_err = ft_ld_write(cor, tmp, i, l);
 		else
 			f_err = 1;
 	}

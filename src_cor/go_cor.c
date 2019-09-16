@@ -21,7 +21,10 @@ void	check_live(t_cor *cor)
 		cor->live->cycles_to_die)//Также мертвой считается любая каретка, если cycles_to_die <= 0.
 		{
 			remove_curr_if(&cor->carr, carr->num);
+			cor->n_curr--;
 		}
+		else
+			carr->cycles_live = cor->live->cycles;
 		carr = carr->next;
 	}
 	//Если количество выполненных за cycles_to_die период
@@ -70,12 +73,12 @@ void go_cor(t_cor *cor)
 				tmp->cycles_to = ft_cycles_to(tmp->prog);
 
 			}
-			if (tmp->cycles_to-- == 0  )
+			if (tmp->cycles_to == 0  )
 			{
 				if	(tmp->prog == 1)
 					ft_live(cor, tmp);
 				else if (tmp->prog == 2)
-					ft_ld(cor, tmp);
+					ft_ld(cor, tmp, 0);
 				else if (tmp->prog == 3)
 					ft_st(cor, tmp);
 				else if (tmp->prog == 4)
@@ -90,23 +93,25 @@ void go_cor(t_cor *cor)
 					ft_xor(cor, tmp);
 				else if (tmp->prog == 9)
 					ft_zjmp(cor, tmp);
-//            else if (tmp->prog == 10)
-//                ft_ldi(cor, tmp);
-//            else if (tmp->prog == 11)
-//                ft_sti(cor, tmp);
-//            else if (tmp->prog == 12)
-//                ft_fork(cor, tmp);
-//            else if (tmp->prog == 13)
-//                ft_lld(cor, tmp);
-//            else if (tmp->prog == 14)
-//                ft_lldi(cor, tmp);
-//            else if (tmp->prog == 15)
-//                ft_lfork(cor, tmp);
+				else if (tmp->prog == 10)
+					ft_ldi(cor, tmp, 0);
+				else if (tmp->prog == 11)
+					ft_sti(cor, tmp);
+				else if (tmp->prog == 12)
+					ft_fork(cor, tmp, 0);
+				else if (tmp->prog == 13)
+					ft_ld(cor, tmp, 1);
+				else if (tmp->prog == 14)
+                ft_ldi(cor, tmp, 1);
+				else if (tmp->prog == 15)
+                	ft_fork(cor, tmp, 1);
 				else if (tmp->prog == 16)
 					ft_aff(cor, tmp);
+				ft_memcpy(&tmp->prog, (cor->code + tmp->cur % MEM_SIZE) , 1);
+				tmp->cycles_to = ft_cycles_to(tmp->prog);
 			}
 			else
-				tmp->cur = (tmp->cur + 1) % MEM_SIZE;
+				tmp->cycles_to--;
 			tmp = tmp->next;
 		}
 		//Проверка происходит через каждые cycles_to_die циклов пока значение cycles_to_die больше нуля.
