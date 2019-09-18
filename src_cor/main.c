@@ -35,6 +35,7 @@ void	*ft_memcpy_all(void *dst, const void *src, size_t n)
 	unsigned char		*str1;
 	const unsigned char	*str2;
 	int					i;
+	unsigned char	c;
 
 	str1 = dst;
 	str2 = src;
@@ -49,6 +50,7 @@ void	*ft_memcpy_all(void *dst, const void *src, size_t n)
 	{
 		while (n-- > 0)
 		{
+			c = str2[i];
 			str1[i] = str2[i];
 			i++;
 		}
@@ -56,7 +58,31 @@ void	*ft_memcpy_all(void *dst, const void *src, size_t n)
 	return (dst);
 }
 
-
+//void	*ft_memcpy_mem(void *dst, const void *src, size_t n)
+//{
+//	unsigned char		*str1;
+//	const unsigned char	*str2;
+//	int					i;
+//
+//	str1 = dst;
+//	str2 = src;
+//	i = 0;
+//
+//	if (!src)
+//	{
+//		while (n-- > 0)
+//			str1[i++] = 0;
+//	}
+//	else
+//	{
+//		while (n-- > 0)
+//		{
+//			str1[i] = str2[i];
+//			i++;
+//		}
+//	}
+//	return (dst);
+//}
 void exit_print(char *str)
 {
 	printf("%s\n", str);
@@ -270,11 +296,12 @@ char *base16_2(unsigned c)
 	b2[8] = '\0';
 	while (i >= 0)
 	{
-		//printf("c16 = %x ", c);
+		printf("c16 = %d ", c%2);
 		b2[i] = c % 2;
 		c = c/2;
 		i--;
 	}
+	printf("\n");
 	return  (b2);
 
 }

@@ -13,10 +13,13 @@
   <component name="ChangeListManager">
     <list default="true" id="d1aec7e3-b1cf-4267-9dc3-6c63f71740e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/arina.dir/src_cor/ft_add.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/arina.dir/src_cor/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/arina.dir/src_cor/main.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/arina" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/arina" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/op.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/op.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_memcpy.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_memcpy.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src_cor/ft_add.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/ft_add.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src_cor/ft_ld.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/ft_ld.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src_cor/go_cor.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/go_cor.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src_cor/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/main.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -29,106 +32,86 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src_cor/carr_list.c">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="574">
-                    <caret line="62" selection-start-line="62" selection-end-line="62" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/includes/op.h">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="489">
-                    <caret line="122" column="45" lean-forward="true" selection-start-line="122" selection-start-column="45" selection-end-line="122" selection-end-column="45" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src_cor/main.c">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="404">
-                    <caret line="86" column="71" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="71" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src_cor/ft_st.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src_cor/ft_add.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="675" selection-start-line="675" selection-end-line="675" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libft/ft_memcpy.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vm_champs/champs/Gagnant.s">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src_cor/go_cor.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src_cor/ft_ld.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-401">
-              <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1845">
-              <caret line="123" column="11" selection-start-line="123" selection-start-column="11" selection-end-line="123" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src_cor/ft_st.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="825">
+                  <caret line="55" selection-start-line="55" selection-end-line="55" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src_cor/ft_add.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="364">
+                  <caret line="536" column="93" lean-forward="true" selection-start-line="536" selection-start-column="93" selection-end-line="536" selection-end-column="93" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/libft/ft_memcpy.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="450">
+                  <caret line="30" selection-start-line="30" selection-end-line="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/vm_champs/champs/Gagnant.s">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src_cor/go_cor.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1200">
+                  <caret line="80" selection-start-line="80" selection-end-line="80" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/includes/op.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="368">
+                  <caret line="132" column="68" lean-forward="true" selection-start-line="132" selection-start-column="68" selection-end-line="132" selection-end-column="68" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src_cor/main.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="638">
+                  <caret line="112" column="71" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="71" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src_cor/ft_ld.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="302">
+                  <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -136,6 +119,8 @@
       <find>t_reg_2</find>
       <find>IDX_MOD</find>
       <find>cycles_live</find>
+      <find>*((int*)t_dir)</find>
+      <find>ft_memcpy_all</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,10 +138,11 @@
         <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/src_cor/carr_list.c" />
         <option value="$PROJECT_DIR$/src_cor/ft_live.c" />
-        <option value="$PROJECT_DIR$/src_cor/main.c" />
-        <option value="$PROJECT_DIR$/src_cor/ft_ld.c" />
         <option value="$PROJECT_DIR$/src_cor/go_cor.c" />
+        <option value="$PROJECT_DIR$/libft/ft_memcpy.c" />
+        <option value="$PROJECT_DIR$/src_cor/main.c" />
         <option value="$PROJECT_DIR$/includes/op.h" />
+        <option value="$PROJECT_DIR$/src_cor/ft_ld.c" />
         <option value="$PROJECT_DIR$/src_cor/ft_add.c" />
       </list>
     </option>
@@ -164,8 +150,8 @@
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1426" />
-    <option name="height" value="1337" />
+    <option name="width" value="2560" />
+    <option name="height" value="1175" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -173,6 +159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,7 +186,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,6 +199,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunDashboard">
@@ -228,7 +215,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="arina" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-n 2 ../vm_champs/champs/Gagnant.cor ../vm_champs/champs/Gagnant.cor ../vm_champs/champs/Gagnant.cor" PASS_PARENT_ENVS_2="true" PROJECT_NAME="arina" TARGET_NAME="arina" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="arina" RUN_TARGET_NAME="arina">
+    <configuration name="arina" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../vm_champs/champs/championships/2018/bcozic/sencha.cor ../vm_champs/champs/championships/2018/bcozic/pai_mu_tan.cor" PASS_PARENT_ENVS_2="true" PROJECT_NAME="arina" TARGET_NAME="arina" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="arina" RUN_TARGET_NAME="arina">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -252,7 +239,8 @@
       <workItem from="1568383410215" duration="11636000" />
       <workItem from="1568397822436" duration="90000" />
       <workItem from="1568543092675" duration="21608000" />
-      <workItem from="1568647985441" duration="10683000" />
+      <workItem from="1568647985441" duration="10856000" />
+      <workItem from="1568821240525" duration="7854000" />
     </task>
     <task id="LOCAL-00001" summary="h">
       <created>1568228679904</created>
@@ -265,18 +253,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62535000" />
+    <option name="totallyTimeSpent" value="70562000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1426" height="1337" extended-state="0" />
+    <frame x="0" y="23" width="2560" height="1175" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24783237" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13820492" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.33387887" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32924527" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38490567" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -285,7 +274,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.32978722" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32978722" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32924527" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -314,8 +303,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src_cor/ft_add.c</url>
-          <line>673</line>
-          <option name="timeStamp" value="34" />
+          <line>718</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src_cor/ft_add.c</url>
+          <line>723</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src_cor/ft_add.c</url>
+          <line>678</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src_cor/ft_ld.c</url>
+          <line>32</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src_cor/ft_add.c</url>
+          <line>514</line>
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -404,30 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1845">
-          <caret line="123" column="11" selection-start-line="123" selection-start-column="11" selection-end-line="123" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vm_champs/champs/Gagnant.s">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libft/ft_memcpy.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/ft_ld.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-401">
-          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src_cor/carr_list.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="574">
@@ -435,38 +420,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/go_cor.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src_cor/ft_st.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="825">
           <caret line="55" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/op.h">
+    <entry file="file://$PROJECT_DIR$/vm_champs/champs/Gagnant.s">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="122" column="45" lean-forward="true" selection-start-line="122" selection-start-column="45" selection-end-line="122" selection-end-column="45" />
+        <state relative-caret-position="759">
+          <caret line="123" column="11" selection-start-line="123" selection-start-column="11" selection-end-line="123" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_cor/go_cor.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libft/ft_memcpy.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src_cor/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="86" column="71" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="71" />
+        <state relative-caret-position="638">
+          <caret line="112" column="71" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/op.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="132" column="68" lean-forward="true" selection-start-line="132" selection-start-column="68" selection-end-line="132" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_cor/ft_ld.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src_cor/ft_add.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="675" selection-start-line="675" selection-end-line="675" />
+        <state relative-caret-position="364">
+          <caret line="536" column="93" lean-forward="true" selection-start-line="536" selection-start-column="93" selection-end-line="536" selection-end-column="93" />
         </state>
       </provider>
     </entry>

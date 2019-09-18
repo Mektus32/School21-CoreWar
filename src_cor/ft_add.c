@@ -468,6 +468,7 @@ void    ft_ldi(t_cor *cor, t_carr *tmp, int l)
 	unsigned char t_ind[IND_SIZE];
 	unsigned char t_dir[DIR_SIZE];
 	unsigned char t_dir_1[DIR_SIZE];
+	unsigned char res[DIR_SIZE];
 
 	i = 1;
 	a = 0;
@@ -533,14 +534,29 @@ void    ft_ldi(t_cor *cor, t_carr *tmp, int l)
 			if ((int)t_reg_3 >= 0 && (int)(t_reg_3) < REG_NUMBER)
 			{
 				if (a == 0 && i == 5)// все reg
-					ft_memcpy_all((void*)tmp->reg[(int)t_reg_3],  cor->code + (tmp->cur + (int)t_reg + (int)t_reg_2) % (IDX_MOD - l *  IDX_MOD) % MEM_SIZE, 4);
-					//tmp->reg[(int)t_reg_3] = tmp->reg[(int)t_reg_2] + tmp->reg[(int)t_reg];
+				{
+					ft_memcpy_all(res,  cor->code + (tmp->cur + (int)t_reg + (int)t_reg_2) % (IDX_MOD - l *  IDX_MOD) % MEM_SIZE, 4);
+					tmp->reg[(int)t_reg_3] = IFR16(res);
+//					ft_memcpy_all((void*)tmp->reg[(int)t_reg_3],  cor->code + (tmp->cur + (int)t_reg + (int)t_reg_2) % (IDX_MOD - l *  IDX_MOD) % MEM_SIZE, 4);
+				}
 				else if (a == 1 && (i == 6 || i == 8))
-					ft_memcpy_all(tmp->reg[(int)t_reg_3],  cor->code + (tmp->cur + (int)t_dir + (int)t_reg_2) % (IDX_MOD - l *  IDX_MOD) % MEM_SIZE, 4);
+				{
+					ft_memcpy_all(res,  cor->code + (tmp->cur + IFR16(t_dir) + (int)t_reg_2) % (IDX_MOD - l *  IDX_MOD) % MEM_SIZE, 4);
+					tmp->reg[(int)t_reg_3] = IFR16(res);
+				}
+//					ft_memcpy_all(tmp->reg[(int)t_reg_3],  cor->code + (tmp->cur + IFR16(t_dir) + (int)t_reg_2) % (IDX_MOD - l *  IDX_MOD) % MEM_SIZE, 4);
 				else if (a == 2 && (i == 6 || i == 8))
-					ft_memcpy_all(tmp->reg[(int)t_reg_3],  cor->code + (tmp->cur + (int)t_dir_1 + (int)t_reg_2) % (IDX_MOD - l *  IDX_MOD) % MEM_SIZE, 4);
+				{
+					ft_memcpy_all(res,  cor->code + (tmp->cur + IFR16(t_dir_1) + (int)t_reg_2) % (IDX_MOD - l *  IDX_MOD) % MEM_SIZE, 4);
+					tmp->reg[(int)t_reg_3] = IFR16(res);
+				}
+//					ft_memcpy_all(tmp->reg[(int)t_reg_3],  cor->code + (tmp->cur + IFR16(t_dir_1) + (int)t_reg_2) % (IDX_MOD - l *  IDX_MOD) % MEM_SIZE, 4);
 				else if (a == 2 && (i == 9 || i == 11))
-					ft_memcpy_all(tmp->reg[(int)t_reg_3],  cor->code + (tmp->cur + (int)t_dir_1 + (int)t_dir) % (IDX_MOD - l *  IDX_MOD) % MEM_SIZE, 4);
+				{
+					ft_memcpy_all(res,  cor->code + (tmp->cur + IFR16(t_dir_1)+ IFR16(t_dir)) % (IDX_MOD - l *  IDX_MOD) % MEM_SIZE, 4);
+					tmp->reg[(int)t_reg_3] = IFR16(res);
+				}
+		//			ft_memcpy_all(tmp->reg[(int)t_reg_3],  cor->code + (tmp->cur + IFR16(t_dir_1)+ IFR16(t_dir)) % (IDX_MOD - l *  IDX_MOD) % MEM_SIZE, 4);
 				else
 					f_err = 1;
 			}
@@ -633,8 +649,11 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 	}
 	tmp->cur = (tmp->cur + i) % MEM_SIZE;
 	if (!f_err)
-		ft_memcpy_all((cor->code + (tmp->cur + 1 + 1 + (int)t_dir + (int)t_dir_1) % IDX_MOD % MEM_SIZE), (void *)tmp->reg[(int)t_reg], 4);
-
+	{
+		a = IFR16(t_dir);
+		ft_memcpy_all((cor->code + (tmp->cur + 1 + 1 + a + IFR16(t_dir_1)) % IDX_MOD % MEM_SIZE),
+					  (void *) tmp->reg[(int) t_reg], 4);
+	}
 
 }
 
@@ -651,8 +670,10 @@ void    ft_fork(t_cor *cor, t_carr *tmp, int l)
 
 	ft_memcpy(c, cor->code + (tmp->cur + i++) % MEM_SIZE, 1);
 	b2 = base16_2(c[0]);
-
-	if (b2[0] == 0 && b2[1] == 0)
+	printf("c = %d\n", c);
+	printf("c + 1 = %x, c + 2 = %x\n", c[0], c[1]);
+	printf("b= %d %d %d %d %d %d %d %d\n", b2[0], b2[1], b2[3], b2[4], b2[5], b2[6], b2[7]);
+	if (b2[0] == 1 && b2[1] == 0)
 	{
 
 		// создадим копию каретки и вставим в начало
@@ -668,12 +689,13 @@ void    ft_fork(t_cor *cor, t_carr *tmp, int l)
 			k++;
 		}
 		add_curr(&(cor->carr), new);
-		ft_memcpy(t_dir, cor->code + (tmp->cur + i) % MEM_SIZE, DIR_SIZE);
+		ft_memcpy(&t_dir, cor->code + (tmp->cur + i) % MEM_SIZE, DIR_SIZE);
 		i += 4;
 		//Операция fork делает копию каретки. И эту копию размещает по адресу <ПЕРВЫЙ_АРГУМЕНТ> % IDX_MOD.
-		k = (t_dir[0] << 24) | (t_dir[1] << 16) | (t_dir[2] << 8) | t_dir[3];
+		k = IFR16(t_dir);
 				//(int)t_dir;
-		ft_memcpy_all(cor->code + (int)t_dir % (IDX_MOD - l * IDX_MOD), new->reg[0], 4);
+		//printf("k = %d, %d, %d, %d\n", t_dir[0], t_dir[1], t_dir[2], t_dir[3]);
+		ft_memcpy_all(&(cor->code) + k % (IDX_MOD - l * IDX_MOD), new->reg[0], 4);
 	}
 	else
 	{

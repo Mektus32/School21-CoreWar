@@ -16,12 +16,28 @@ int ft_ld_write(t_cor *cor, t_carr *tmp, int i, int l)
 			a = ((t_ind[0] << 8) | t_ind[1]) % IDX_MOD;
 	}
 
-	ft_memcpy(t_dir, cor->code + (tmp->cur + 1 + 1 + a) % MEM_SIZE, DIR_SIZE);
+
+	int k = 0;
+	printf("code  = |||");
+	while (k < 10)
+		printf("%x/",cor->code + (tmp->cur + 1 + 1 + a + k++)% MEM_SIZE);
+	printf("||| \n");
+
+	ft_memcpy(&t_dir, cor->code + (tmp->cur + 1 + 1 + a) % MEM_SIZE, DIR_SIZE);
+	//printf("code  = %s\n",cor->code + (tmp->cur + 1 + 1 + a));
+
 	ft_memcpy_all(&t_reg,  cor->code + (tmp->cur + (i - 1)) % MEM_SIZE, 1);
 	if ((int)t_reg >= 0 && (int)t_reg < REG_NUMBER)
 	{
-		tmp->reg[(int)t_reg] = *((int*)t_dir);
-		tmp->carry = (*((int*)t_dir) == 0) ? 1 : 0;
+	//	ft_memcpy_all(tmp->reg[(int)t_reg], (void *)t_dir, 4);
+		//k = IFR16(t_dir);//(t_dir[0] << 24) | (t_dir[1] << 16) | (t_dir[2] << 8) | t_dir[3];
+		tmp->reg[(int)t_reg] = IFR16(t_dir);
+
+//когда о все работало нормально
+//		tmp->reg[(int)t_reg] = *((int*)t_dir);
+		tmp->carry = (tmp->reg[(int)t_reg] == 0) ? 1 : 0;
+
+//		tmp->carry = (*((int*)t_dir) == 0) ? 1 : 0;
 		tmp->cur = (tmp->cur + i) % MEM_SIZE;
 		//printf("ok\n");
 		return (0);
