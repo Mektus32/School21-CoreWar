@@ -12,7 +12,12 @@ add_executable(arina
         ft_printf/includes/ft_printf.h
         ft_printf/src/check_args.c
         ft_printf/src/choise_spec.c
+
+
         ft_printf/src/ft_free_strncpy.c
+
+
+
         ft_printf/src/ft_printf.c
 
         ft_printf/src/init_arg.c
@@ -115,13 +120,14 @@ add_executable(arina
         libft/ft_ultoa_base.c
         libft/get_next_line.c
 
+        src_cor/carr_list.c
+        src_cor/ft_add.c
+        src_cor/ft_ld.c
+        src_cor/ft_live.c
+        src_cor/ft_st.c
+        src_cor/ft_sti.c
+        src_cor/go_cor.c
         src_cor/main.c
         vm_champs/op.c
         vm_champs/op.h
-        src_cor/ft_live.c
-        src_cor/ft_ld.c
-        src_cor/ft_st.c
-        src_cor/ft_add.c
-
-        src_cor/carr_list.c
-        src_cor/go_cor.c)
+        main_c.c)

@@ -33,11 +33,12 @@ char	*ft_strncpy_all(char *dest, const char *source, size_t n)
 void	*ft_memcpy_all(void *dst, const void *src, size_t n)
 {
 	unsigned char		*str1;
-	const unsigned char	*str2;
+	unsigned char	*str2;
 	int					i;
 	unsigned char	c;
 
-	str1 = dst;
+
+	str1 = (unsigned char *)dst;
 	str2 = src;
 	i = 0;
 
@@ -52,6 +53,7 @@ void	*ft_memcpy_all(void *dst, const void *src, size_t n)
 		{
 			c = str2[i];
 			str1[i] = str2[i];
+			//str1[i] = src + i;
 			i++;
 		}
 	}
@@ -386,3 +388,11 @@ int main(int ac, char **av)
 //		ft_printf("no file");
 //	return (0);
 }
+
+
+//at-h6% ./corewar champs/championships/2018/bcozic/sencha.cor champs/championships/2018/bcozic/pai_mu_tan.cor
+//		Introducing contestants...
+//* Player 1, weighing 198 bytes, "Sencha" ("Tea Time") !
+//* Player 2, weighing 329 bytes, "Pai Mu Tan" ("Tea Time") !
+//Contestant 1, "Sencha", has won !
+//at-h6% ./corewar champs/championships/2018/bcozic/sencha.cor champs/championships/2018/bcozic/pai_mu_tan.cor

@@ -9,6 +9,21 @@ void	zero_live(t_cor *cor)
 	cor->live->check_count = 0;
 }
 
+unsigned char *inttobyte(int a)
+{
+	unsigned char *bt;
+
+	bt = malloc(sizeof(unsigned char) * 5);
+	bt[0] = (a >> 24);
+	bt[1] = (a >> 16) ;
+	bt[2] = (a >> 8);
+	bt[3] = a;
+	bt[4] = '\0';
+
+	return (bt);
+}
+
+
 void	check_live(t_cor *cor)
 {
 	t_carr *carr;
@@ -17,14 +32,15 @@ void	check_live(t_cor *cor)
 	cor->live->check_count++;
 	while(carr)
 	{
-		if (cor->live->cycles - carr->cycles_live >= CYCLE_TO_DIE ||//Мертвой считается каретка, которая выполняла операцию live cycles_to_die циклов назад или более.
-		cor->live->cycles_to_die)//Также мертвой считается любая каретка, если cycles_to_die <= 0.
+		if ((cor->live->cycles - carr->cycles_live >= CYCLE_TO_DIE) ||//Мертвой считается каретка, которая выполняла операцию live cycles_to_die циклов назад или более.
+		cor->live->cycles_to_die <= 0 || carr->live == 0)//Также мертвой считается любая каретка, если cycles_to_die <= 0.
 		{
-			remove_curr_if(&cor->carr, carr->num);
-			cor->n_curr--;
+			remove_curr_if(cor, carr->num);
+			//cor->n_curr--;
 		}
 		else
-			carr->cycles_live = cor->live->cycles;
+			cor->live->id_live = carr->id_par;
+ 		carr->cycles_live = cor->live->cycles;
 		carr = carr->next;
 	}
 	//Если количество выполненных за cycles_to_die период
@@ -56,25 +72,22 @@ void go_cor(t_cor *cor)
 	i = 0;
 	zero_live(cor);
 	//
-	while (cor->carr && cor->live->cycles_to_die && i < 5)
+	while (cor->carr && cor->live->cycles_to_die)
 	{
 		tmp = cor->carr;
 		// для каждой каретки иначинаем исполнять код
 		while (tmp)
 		{
-			
-			//printf("c = %x\n", op[0]);
-
-			// если не доступная операция - двигаем каретку
-			if (tmp->prog < 1 || tmp->prog > 16)
+			if (tmp->cycles_to == 0)
 			{
-				tmp->cur = (tmp->cur + 1) % MEM_SIZE;
-				ft_memcpy(&tmp->prog, cor->code + tmp->cur, 1);
+				tmp->cur = (tmp->cur + tmp->i) % MEM_SIZE;
+				ft_memcpy(&tmp->prog, cor->code + (tmp->cur), 1);
 				tmp->cycles_to = ft_cycles_to(tmp->prog);
-
 			}
-			if (tmp->cycles_to == 0  )
+			// если не доступная операция - двигаем каретку
+			if (--(tmp->cycles_to) == 0)
 			{
+
 				if	(tmp->prog == 1)
 					ft_live(cor, tmp);
 				else if (tmp->prog == 2)
@@ -102,16 +115,22 @@ void go_cor(t_cor *cor)
 				else if (tmp->prog == 13)
 					ft_ld(cor, tmp, 1);
 				else if (tmp->prog == 14)
-                ft_ldi(cor, tmp, 1);
+                	ft_ldi(cor, tmp, 1);
 				else if (tmp->prog == 15)
                 	ft_fork(cor, tmp, 1);
 				else if (tmp->prog == 16)
 					ft_aff(cor, tmp);
-				ft_memcpy(&tmp->prog, (cor->code + tmp->cur % MEM_SIZE) , 1);
-				tmp->cycles_to = ft_cycles_to(tmp->prog);
+				else
+				{
+					tmp->cur = (tmp->cur + 1) % MEM_SIZE;
+					ft_memcpy(&tmp->prog, cor->code + tmp->cur, 1);
+					tmp->cycles_to = ft_cycles_to(tmp->prog);
+				}
+//				ft_memcpy(&tmp->prog, (cor->code + tmp->cur % MEM_SIZE) , 1);
+//				tmp->cycles_to = ft_cycles_to(tmp->prog);
 			}
-			else
-				tmp->cycles_to--;
+//			else
+//				tmp->cycles_to--;
 			tmp = tmp->next;
 		}
 		//Проверка происходит через каждые cycles_to_die циклов пока значение cycles_to_die больше нуля.

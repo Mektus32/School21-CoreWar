@@ -400,6 +400,9 @@
 		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/libft/includes/libft.h">
 			<Option target="arina"/>
 		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/main_c.c">
+			<Option target="arina"/>
+		</Unit>
 		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/src_cor/carr_list.c">
 			<Option target="arina"/>
 		</Unit>
@@ -413,6 +416,9 @@
 			<Option target="arina"/>
 		</Unit>
 		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_st.c">
+			<Option target="arina"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_sti.c">
 			<Option target="arina"/>
 		</Unit>
 		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/src_cor/go_cor.c">

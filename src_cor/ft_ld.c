@@ -17,28 +17,28 @@ int ft_ld_write(t_cor *cor, t_carr *tmp, int i, int l)
 	}
 
 
-	int k = 0;
-	printf("code  = |||");
-	while (k < 10)
-		printf("%x/",cor->code + (tmp->cur + 1 + 1 + a + k++)% MEM_SIZE);
-	printf("||| \n");
+//	int k = 0;
+//	printf("code  = |||");
+//	while (k < 10)
+//		printf("%x/",cor->code + (tmp->cur + 1 + 1 + a + k++)% MEM_SIZE);
+//	printf("||| \n");
 
 	ft_memcpy(&t_dir, cor->code + (tmp->cur + 1 + 1 + a) % MEM_SIZE, DIR_SIZE);
 	//printf("code  = %s\n",cor->code + (tmp->cur + 1 + 1 + a));
 
 	ft_memcpy_all(&t_reg,  cor->code + (tmp->cur + (i - 1)) % MEM_SIZE, 1);
-	if ((int)t_reg >= 0 && (int)t_reg < REG_NUMBER)
+	if ((int)t_reg > 0 && (int)t_reg < REG_NUMBER)
 	{
 	//	ft_memcpy_all(tmp->reg[(int)t_reg], (void *)t_dir, 4);
 		//k = IFR16(t_dir);//(t_dir[0] << 24) | (t_dir[1] << 16) | (t_dir[2] << 8) | t_dir[3];
-		tmp->reg[(int)t_reg] = IFR16(t_dir);
-
+		tmp->reg[(int)t_reg] = (IFR16(t_dir));
+	//	ft_memcpy_all((tmp->reg[(int)t_reg]),  t_dir, 4);
 //когда о все работало нормально
 //		tmp->reg[(int)t_reg] = *((int*)t_dir);
 		tmp->carry = (tmp->reg[(int)t_reg] == 0) ? 1 : 0;
 
 //		tmp->carry = (*((int*)t_dir) == 0) ? 1 : 0;
-		tmp->cur = (tmp->cur + i) % MEM_SIZE;
+	//	tmp->cur = (tmp->cur + i) % MEM_SIZE;
 		//printf("ok\n");
 		return (0);
 	}
@@ -62,10 +62,8 @@ void ft_ld(t_cor *cor, t_carr *tmp, int l)
 	printf("c + 1 = %x\n", c[0]);
 	b2 = base16_2(c[0]); // 90 = 144 = 10 01 00 00
 
-	if (b2[0] == 1 && b2[1] == 0)
-		i += 4;
-	else if (b2[0] == 1 && b2[1] == 1)
-		i += 2;
+	if ((b2[0] == 1 && b2[1] == 0) || (b2[0] == 1 && b2[1] == 1))
+		i += 4 * (int)b2[0] - 2 * (int)b2[1];//i += 4;
 	else if (b2[0] == 0 && b2[1] == 1)
 	{
 		i += 1;
@@ -83,18 +81,14 @@ void ft_ld(t_cor *cor, t_carr *tmp, int l)
 		else
 			f_err = 1;
 	}
-	else if (b2[2] == 1 && b2[3] == 1)
+	else if ((b2[2] == 1 && b2[3] == 1) || b2[2] == 1 && b2[3] == 0)
 	{
 		f_err = 1;
-		i += 2;
-	}
-	else if (b2[2] == 1 && b2[3] == 0)
-	{
-		f_err = 1;
-		i += 4;
+		i += 4 * (int)b2[0] - 2 * (int)b2[1];
 	}
 	else
 		f_err = 1;
-	if (f_err)
-		tmp->cur = (tmp->cur + i) % MEM_SIZE;
+//	if (f_err)
+//		tmp->cur = (tmp->cur + i) % MEM_SIZE;
+	tmp->i = i;
 }

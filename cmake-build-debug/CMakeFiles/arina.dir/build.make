@@ -1318,48 +1318,35 @@ CMakeFiles/arina.dir/libft/get_next_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arina.dir/libft/get_next_line.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/qgilbert/Desktop/corwar_1/arina/libft/get_next_line.c -o CMakeFiles/arina.dir/libft/get_next_line.c.s
 
-CMakeFiles/arina.dir/src_cor/main.c.o: CMakeFiles/arina.dir/flags.make
-CMakeFiles/arina.dir/src_cor/main.c.o: ../src_cor/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/arina.dir/src_cor/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arina.dir/src_cor/main.c.o   -c /Users/qgilbert/Desktop/corwar_1/arina/src_cor/main.c
+CMakeFiles/arina.dir/src_cor/carr_list.c.o: CMakeFiles/arina.dir/flags.make
+CMakeFiles/arina.dir/src_cor/carr_list.c.o: ../src_cor/carr_list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/arina.dir/src_cor/carr_list.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arina.dir/src_cor/carr_list.c.o   -c /Users/qgilbert/Desktop/corwar_1/arina/src_cor/carr_list.c
 
-CMakeFiles/arina.dir/src_cor/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arina.dir/src_cor/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/qgilbert/Desktop/corwar_1/arina/src_cor/main.c > CMakeFiles/arina.dir/src_cor/main.c.i
+CMakeFiles/arina.dir/src_cor/carr_list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arina.dir/src_cor/carr_list.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/qgilbert/Desktop/corwar_1/arina/src_cor/carr_list.c > CMakeFiles/arina.dir/src_cor/carr_list.c.i
 
-CMakeFiles/arina.dir/src_cor/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arina.dir/src_cor/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/qgilbert/Desktop/corwar_1/arina/src_cor/main.c -o CMakeFiles/arina.dir/src_cor/main.c.s
+CMakeFiles/arina.dir/src_cor/carr_list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arina.dir/src_cor/carr_list.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/qgilbert/Desktop/corwar_1/arina/src_cor/carr_list.c -o CMakeFiles/arina.dir/src_cor/carr_list.c.s
 
-CMakeFiles/arina.dir/vm_champs/op.c.o: CMakeFiles/arina.dir/flags.make
-CMakeFiles/arina.dir/vm_champs/op.c.o: ../vm_champs/op.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/arina.dir/vm_champs/op.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arina.dir/vm_champs/op.c.o   -c /Users/qgilbert/Desktop/corwar_1/arina/vm_champs/op.c
+CMakeFiles/arina.dir/src_cor/ft_add.c.o: CMakeFiles/arina.dir/flags.make
+CMakeFiles/arina.dir/src_cor/ft_add.c.o: ../src_cor/ft_add.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/arina.dir/src_cor/ft_add.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arina.dir/src_cor/ft_add.c.o   -c /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_add.c
 
-CMakeFiles/arina.dir/vm_champs/op.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arina.dir/vm_champs/op.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/qgilbert/Desktop/corwar_1/arina/vm_champs/op.c > CMakeFiles/arina.dir/vm_champs/op.c.i
+CMakeFiles/arina.dir/src_cor/ft_add.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arina.dir/src_cor/ft_add.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_add.c > CMakeFiles/arina.dir/src_cor/ft_add.c.i
 
-CMakeFiles/arina.dir/vm_champs/op.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arina.dir/vm_champs/op.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/qgilbert/Desktop/corwar_1/arina/vm_champs/op.c -o CMakeFiles/arina.dir/vm_champs/op.c.s
-
-CMakeFiles/arina.dir/src_cor/ft_live.c.o: CMakeFiles/arina.dir/flags.make
-CMakeFiles/arina.dir/src_cor/ft_live.c.o: ../src_cor/ft_live.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/arina.dir/src_cor/ft_live.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arina.dir/src_cor/ft_live.c.o   -c /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_live.c
-
-CMakeFiles/arina.dir/src_cor/ft_live.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arina.dir/src_cor/ft_live.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_live.c > CMakeFiles/arina.dir/src_cor/ft_live.c.i
-
-CMakeFiles/arina.dir/src_cor/ft_live.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arina.dir/src_cor/ft_live.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_live.c -o CMakeFiles/arina.dir/src_cor/ft_live.c.s
+CMakeFiles/arina.dir/src_cor/ft_add.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arina.dir/src_cor/ft_add.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_add.c -o CMakeFiles/arina.dir/src_cor/ft_add.c.s
 
 CMakeFiles/arina.dir/src_cor/ft_ld.c.o: CMakeFiles/arina.dir/flags.make
 CMakeFiles/arina.dir/src_cor/ft_ld.c.o: ../src_cor/ft_ld.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/arina.dir/src_cor/ft_ld.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/arina.dir/src_cor/ft_ld.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arina.dir/src_cor/ft_ld.c.o   -c /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_ld.c
 
 CMakeFiles/arina.dir/src_cor/ft_ld.c.i: cmake_force
@@ -1369,6 +1356,19 @@ CMakeFiles/arina.dir/src_cor/ft_ld.c.i: cmake_force
 CMakeFiles/arina.dir/src_cor/ft_ld.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arina.dir/src_cor/ft_ld.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_ld.c -o CMakeFiles/arina.dir/src_cor/ft_ld.c.s
+
+CMakeFiles/arina.dir/src_cor/ft_live.c.o: CMakeFiles/arina.dir/flags.make
+CMakeFiles/arina.dir/src_cor/ft_live.c.o: ../src_cor/ft_live.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/arina.dir/src_cor/ft_live.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arina.dir/src_cor/ft_live.c.o   -c /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_live.c
+
+CMakeFiles/arina.dir/src_cor/ft_live.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arina.dir/src_cor/ft_live.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_live.c > CMakeFiles/arina.dir/src_cor/ft_live.c.i
+
+CMakeFiles/arina.dir/src_cor/ft_live.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arina.dir/src_cor/ft_live.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_live.c -o CMakeFiles/arina.dir/src_cor/ft_live.c.s
 
 CMakeFiles/arina.dir/src_cor/ft_st.c.o: CMakeFiles/arina.dir/flags.make
 CMakeFiles/arina.dir/src_cor/ft_st.c.o: ../src_cor/ft_st.c
@@ -1383,35 +1383,22 @@ CMakeFiles/arina.dir/src_cor/ft_st.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arina.dir/src_cor/ft_st.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_st.c -o CMakeFiles/arina.dir/src_cor/ft_st.c.s
 
-CMakeFiles/arina.dir/src_cor/ft_add.c.o: CMakeFiles/arina.dir/flags.make
-CMakeFiles/arina.dir/src_cor/ft_add.c.o: ../src_cor/ft_add.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/arina.dir/src_cor/ft_add.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arina.dir/src_cor/ft_add.c.o   -c /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_add.c
+CMakeFiles/arina.dir/src_cor/ft_sti.c.o: CMakeFiles/arina.dir/flags.make
+CMakeFiles/arina.dir/src_cor/ft_sti.c.o: ../src_cor/ft_sti.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/arina.dir/src_cor/ft_sti.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arina.dir/src_cor/ft_sti.c.o   -c /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_sti.c
 
-CMakeFiles/arina.dir/src_cor/ft_add.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arina.dir/src_cor/ft_add.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_add.c > CMakeFiles/arina.dir/src_cor/ft_add.c.i
+CMakeFiles/arina.dir/src_cor/ft_sti.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arina.dir/src_cor/ft_sti.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_sti.c > CMakeFiles/arina.dir/src_cor/ft_sti.c.i
 
-CMakeFiles/arina.dir/src_cor/ft_add.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arina.dir/src_cor/ft_add.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_add.c -o CMakeFiles/arina.dir/src_cor/ft_add.c.s
-
-CMakeFiles/arina.dir/src_cor/carr_list.c.o: CMakeFiles/arina.dir/flags.make
-CMakeFiles/arina.dir/src_cor/carr_list.c.o: ../src_cor/carr_list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/arina.dir/src_cor/carr_list.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arina.dir/src_cor/carr_list.c.o   -c /Users/qgilbert/Desktop/corwar_1/arina/src_cor/carr_list.c
-
-CMakeFiles/arina.dir/src_cor/carr_list.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arina.dir/src_cor/carr_list.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/qgilbert/Desktop/corwar_1/arina/src_cor/carr_list.c > CMakeFiles/arina.dir/src_cor/carr_list.c.i
-
-CMakeFiles/arina.dir/src_cor/carr_list.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arina.dir/src_cor/carr_list.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/qgilbert/Desktop/corwar_1/arina/src_cor/carr_list.c -o CMakeFiles/arina.dir/src_cor/carr_list.c.s
+CMakeFiles/arina.dir/src_cor/ft_sti.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arina.dir/src_cor/ft_sti.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_sti.c -o CMakeFiles/arina.dir/src_cor/ft_sti.c.s
 
 CMakeFiles/arina.dir/src_cor/go_cor.c.o: CMakeFiles/arina.dir/flags.make
 CMakeFiles/arina.dir/src_cor/go_cor.c.o: ../src_cor/go_cor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/arina.dir/src_cor/go_cor.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/arina.dir/src_cor/go_cor.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arina.dir/src_cor/go_cor.c.o   -c /Users/qgilbert/Desktop/corwar_1/arina/src_cor/go_cor.c
 
 CMakeFiles/arina.dir/src_cor/go_cor.c.i: cmake_force
@@ -1421,6 +1408,45 @@ CMakeFiles/arina.dir/src_cor/go_cor.c.i: cmake_force
 CMakeFiles/arina.dir/src_cor/go_cor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arina.dir/src_cor/go_cor.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/qgilbert/Desktop/corwar_1/arina/src_cor/go_cor.c -o CMakeFiles/arina.dir/src_cor/go_cor.c.s
+
+CMakeFiles/arina.dir/src_cor/main.c.o: CMakeFiles/arina.dir/flags.make
+CMakeFiles/arina.dir/src_cor/main.c.o: ../src_cor/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/arina.dir/src_cor/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arina.dir/src_cor/main.c.o   -c /Users/qgilbert/Desktop/corwar_1/arina/src_cor/main.c
+
+CMakeFiles/arina.dir/src_cor/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arina.dir/src_cor/main.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/qgilbert/Desktop/corwar_1/arina/src_cor/main.c > CMakeFiles/arina.dir/src_cor/main.c.i
+
+CMakeFiles/arina.dir/src_cor/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arina.dir/src_cor/main.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/qgilbert/Desktop/corwar_1/arina/src_cor/main.c -o CMakeFiles/arina.dir/src_cor/main.c.s
+
+CMakeFiles/arina.dir/vm_champs/op.c.o: CMakeFiles/arina.dir/flags.make
+CMakeFiles/arina.dir/vm_champs/op.c.o: ../vm_champs/op.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/arina.dir/vm_champs/op.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arina.dir/vm_champs/op.c.o   -c /Users/qgilbert/Desktop/corwar_1/arina/vm_champs/op.c
+
+CMakeFiles/arina.dir/vm_champs/op.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arina.dir/vm_champs/op.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/qgilbert/Desktop/corwar_1/arina/vm_champs/op.c > CMakeFiles/arina.dir/vm_champs/op.c.i
+
+CMakeFiles/arina.dir/vm_champs/op.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arina.dir/vm_champs/op.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/qgilbert/Desktop/corwar_1/arina/vm_champs/op.c -o CMakeFiles/arina.dir/vm_champs/op.c.s
+
+CMakeFiles/arina.dir/main_c.c.o: CMakeFiles/arina.dir/flags.make
+CMakeFiles/arina.dir/main_c.c.o: ../main_c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/arina.dir/main_c.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arina.dir/main_c.c.o   -c /Users/qgilbert/Desktop/corwar_1/arina/main_c.c
+
+CMakeFiles/arina.dir/main_c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arina.dir/main_c.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/qgilbert/Desktop/corwar_1/arina/main_c.c > CMakeFiles/arina.dir/main_c.c.i
+
+CMakeFiles/arina.dir/main_c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arina.dir/main_c.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/qgilbert/Desktop/corwar_1/arina/main_c.c -o CMakeFiles/arina.dir/main_c.c.s
 
 # Object files for target arina
 arina_OBJECTS = \
@@ -1521,14 +1547,16 @@ arina_OBJECTS = \
 "CMakeFiles/arina.dir/libft/ft_ultoa.c.o" \
 "CMakeFiles/arina.dir/libft/ft_ultoa_base.c.o" \
 "CMakeFiles/arina.dir/libft/get_next_line.c.o" \
+"CMakeFiles/arina.dir/src_cor/carr_list.c.o" \
+"CMakeFiles/arina.dir/src_cor/ft_add.c.o" \
+"CMakeFiles/arina.dir/src_cor/ft_ld.c.o" \
+"CMakeFiles/arina.dir/src_cor/ft_live.c.o" \
+"CMakeFiles/arina.dir/src_cor/ft_st.c.o" \
+"CMakeFiles/arina.dir/src_cor/ft_sti.c.o" \
+"CMakeFiles/arina.dir/src_cor/go_cor.c.o" \
 "CMakeFiles/arina.dir/src_cor/main.c.o" \
 "CMakeFiles/arina.dir/vm_champs/op.c.o" \
-"CMakeFiles/arina.dir/src_cor/ft_live.c.o" \
-"CMakeFiles/arina.dir/src_cor/ft_ld.c.o" \
-"CMakeFiles/arina.dir/src_cor/ft_st.c.o" \
-"CMakeFiles/arina.dir/src_cor/ft_add.c.o" \
-"CMakeFiles/arina.dir/src_cor/carr_list.c.o" \
-"CMakeFiles/arina.dir/src_cor/go_cor.c.o"
+"CMakeFiles/arina.dir/main_c.c.o"
 
 # External object files for target arina
 arina_EXTERNAL_OBJECTS =
@@ -1630,17 +1658,19 @@ arina: CMakeFiles/arina.dir/libft/ft_truncf.c.o
 arina: CMakeFiles/arina.dir/libft/ft_ultoa.c.o
 arina: CMakeFiles/arina.dir/libft/ft_ultoa_base.c.o
 arina: CMakeFiles/arina.dir/libft/get_next_line.c.o
+arina: CMakeFiles/arina.dir/src_cor/carr_list.c.o
+arina: CMakeFiles/arina.dir/src_cor/ft_add.c.o
+arina: CMakeFiles/arina.dir/src_cor/ft_ld.c.o
+arina: CMakeFiles/arina.dir/src_cor/ft_live.c.o
+arina: CMakeFiles/arina.dir/src_cor/ft_st.c.o
+arina: CMakeFiles/arina.dir/src_cor/ft_sti.c.o
+arina: CMakeFiles/arina.dir/src_cor/go_cor.c.o
 arina: CMakeFiles/arina.dir/src_cor/main.c.o
 arina: CMakeFiles/arina.dir/vm_champs/op.c.o
-arina: CMakeFiles/arina.dir/src_cor/ft_live.c.o
-arina: CMakeFiles/arina.dir/src_cor/ft_ld.c.o
-arina: CMakeFiles/arina.dir/src_cor/ft_st.c.o
-arina: CMakeFiles/arina.dir/src_cor/ft_add.c.o
-arina: CMakeFiles/arina.dir/src_cor/carr_list.c.o
-arina: CMakeFiles/arina.dir/src_cor/go_cor.c.o
+arina: CMakeFiles/arina.dir/main_c.c.o
 arina: CMakeFiles/arina.dir/build.make
 arina: CMakeFiles/arina.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Linking C executable arina"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Linking C executable arina"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/arina.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

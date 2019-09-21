@@ -10,6 +10,7 @@ void ft_st(t_cor *cor, t_carr *tmp)
 	int f_err;
 	int i;
 	int a;
+	unsigned char *p;
 
 	i = 1;
 	ft_memcpy(c, cor->code + (tmp->cur + i++) % MEM_SIZE, 1); //У 02 команды load - codage 1, значит мы считываем первое число после команды
@@ -44,7 +45,8 @@ void ft_st(t_cor *cor, t_carr *tmp)
 				{
 					ft_memcpy(t_ind, cor->code + (tmp->cur + 1 + 1 + 1) % MEM_SIZE, IND_SIZE);
 					a = ((t_ind[0] << 8) | t_ind[1]) % IDX_MOD;
-					ft_memcpy_all(cor->code + (tmp->cur + a) % MEM_SIZE, (const void*)t_reg, 1);
+					p = inttobyte(tmp->reg[(int) t_reg]);
+					ft_memcpy_all(cor->code + (tmp->cur + a) % MEM_SIZE, p, 4);
 					i += 2;
 				}
 				else
@@ -53,15 +55,12 @@ void ft_st(t_cor *cor, t_carr *tmp)
 					ft_memcpy_all(&t_reg_2,  cor->code + (tmp->cur + 1 + 1 + 1 + a) % MEM_SIZE, 1);
 					if ((int)t_reg_2 >= 0 && (int)t_reg_2 < REG_NUMBER)
 					{
-						tmp->reg[(int)t_reg_2] = tmp->reg[(int)t_reg];
+						tmp->reg[(int)t_reg_2] = (int)tmp->reg[(int)t_reg];
 						// нужно ли удалять из рег первого значение?
 					}
 					else
 						f_err = 1;
 				}
-				if (f_err == 0)
-					tmp->cur = (tmp->cur + i) % MEM_SIZE;
-
 			}
 			else
 				f_err = 1;
@@ -80,8 +79,8 @@ void ft_st(t_cor *cor, t_carr *tmp)
 	}
 	else
 		f_err = 1;
-	if (f_err)
-		tmp->cur = (tmp->cur + i) % MEM_SIZE;
+	//tmp->cur = (tmp->cur + i) % MEM_SIZE;
+	tmp->i = i;
 
 
 

@@ -293,6 +293,8 @@ CMakeFiles/arina.dir/libft/get_next_line.c.o: ../libft/includes/get_next_line.h
 CMakeFiles/arina.dir/libft/get_next_line.c.o: ../libft/includes/libft.h
 CMakeFiles/arina.dir/libft/get_next_line.c.o: ../libft/get_next_line.c
 
+CMakeFiles/arina.dir/main_c.c.o: ../main_c.c
+
 CMakeFiles/arina.dir/src_cor/carr_list.c.o: ../includes/corewar.h
 CMakeFiles/arina.dir/src_cor/carr_list.c.o: ../includes/ft_printf.h
 CMakeFiles/arina.dir/src_cor/carr_list.c.o: ../includes/libft.h
@@ -322,6 +324,12 @@ CMakeFiles/arina.dir/src_cor/ft_st.c.o: ../includes/ft_printf.h
 CMakeFiles/arina.dir/src_cor/ft_st.c.o: ../includes/libft.h
 CMakeFiles/arina.dir/src_cor/ft_st.c.o: ../includes/op.h
 CMakeFiles/arina.dir/src_cor/ft_st.c.o: ../src_cor/ft_st.c
+
+CMakeFiles/arina.dir/src_cor/ft_sti.c.o: ../includes/corewar.h
+CMakeFiles/arina.dir/src_cor/ft_sti.c.o: ../includes/ft_printf.h
+CMakeFiles/arina.dir/src_cor/ft_sti.c.o: ../includes/libft.h
+CMakeFiles/arina.dir/src_cor/ft_sti.c.o: ../includes/op.h
+CMakeFiles/arina.dir/src_cor/ft_sti.c.o: ../src_cor/ft_sti.c
 
 CMakeFiles/arina.dir/src_cor/go_cor.c.o: ../includes/corewar.h
 CMakeFiles/arina.dir/src_cor/go_cor.c.o: ../includes/ft_printf.h

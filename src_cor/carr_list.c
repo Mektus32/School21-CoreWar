@@ -31,16 +31,17 @@ void add_curr(t_carr **all_carr, t_carr *new)
 	*all_carr = new;
 }
 
-void remove_curr_if(t_carr **all_carr, int num)
+void remove_curr_if(t_cor *cor, int num)
 {
 	t_carr *carr;
 	t_carr	*tmp;
 
-	carr = *all_carr;
+	carr = cor->carr;
 	if (carr->num == num)
 	{
-		*all_carr = carr->next;
+		cor->carr = carr->next;
 		free(carr);
+		cor->n_curr--;
 		return ;
 	}
 	tmp = carr;
@@ -50,6 +51,7 @@ void remove_curr_if(t_carr **all_carr, int num)
 		{
 			tmp->next = carr->next;
 			free(carr);
+			cor->n_curr--;
 			return ;
 		}
 		tmp = carr;
@@ -90,17 +92,23 @@ t_carr *carr_list(t_cor *cor)
 	t_carr *carr_tmp;
 
 	carr = new_curr(1);
-	ft_memcpy(&carr->prog, cor->code + carr->cur, 1);
-	carr->cycles_to = ft_cycles_to(carr->prog);
+	//ft_memcpy(&carr->prog, cor->code + carr->cur, 1);
+	carr->cycles_to = 0;
+	carr->i = 0;
 	carr->cur = 0;
+	carr->num = 0;
+	cor->n_curr = 1;
 	i = 2;
 	while (i <= cor->n)
 	{
 		carr_tmp = new_curr(i);
 		carr_tmp->cur = (i - 1) * (MEM_SIZE / cor->n);
-		ft_memcpy(&carr_tmp->prog, cor->code + carr_tmp->cur, 1);
-		carr_tmp->cycles_to = ft_cycles_to(carr_tmp->prog);
+		//ft_memcpy(&carr_tmp->prog, cor->code + carr_tmp->cur, 1);
+		carr_tmp->cycles_to = 0;
+		carr_tmp->i = 0;
+		carr_tmp->num = (i - 1);
 		add_curr(&carr, carr_tmp);
+		cor->n_curr++;
 		i++;
 	}
 	return (carr);

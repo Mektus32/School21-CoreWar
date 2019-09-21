@@ -119,18 +119,20 @@ typedef struct 		s_carr
 {
 	int				num;//уникальный номер каретки
 	int				cur; //текущее положение
-	int				cycles_live;
+	int				cycles_live; // цикл когда проводилась оп live
 	int				carry;//Carry - нужен в функции zjmp, который исполняется в том случае, что у каретки->carry = 1.
 	int				id_par;//номер игрока который его породил
 	int				reg[REG_NUMBER];//16 регистров (массив unsigned int register[16])
 	int				live;// 1 или 0 жива или нет
 	char			prog;//команду которую он исполняет
 	int				cycles_to;//количество циклов, сколько ему осталось ждать до исполнения команды.
+	int				i;//перемещение каретки на шаге
 	struct s_carr			*next;
 }					t_carr;
 
 
-#define IFR16(x)	(x[0] << 24) | (x[1] << 16) | (x[2] << 8) | x[3]
+#define IFR16(x)	x[0] << 24 | x[1] << 16 | x[2] << 8 | x[3]
+
 void	*ft_memcpy_all(void *dst, const void *src, size_t n);
 char	*ft_strncpy_all(char *dest, const char *source, size_t n);
 
@@ -144,11 +146,13 @@ char *base16_2(unsigned c);
 
 t_carr *new_curr(int id_par);
 void add_curr(t_carr **all_carr, t_carr *new);
-void remove_curr_if(t_carr **all_carr, int num);
+void remove_curr_if(t_cor *cor, int num);
 t_carr *carr_list(t_cor *cor);
 int	ft_cycles_to(char p);
 
 void go_cor(t_cor *cor);
+unsigned char *inttobyte(int a);
+
 
 void    ft_live(t_cor *cor, t_carr *tmp);
 void    ft_ld(t_cor *cor, t_carr *tmp, int l);

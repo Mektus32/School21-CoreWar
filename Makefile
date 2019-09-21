@@ -22,6 +22,7 @@ SRC =	main.c \
 		ft_live.c \
 		ft_st.c \
 		go_cor.c \
+		ft_sti.c \
 		
 
 

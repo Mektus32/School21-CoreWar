@@ -2742,6 +2742,33 @@ libft/get_next_line.c.s:
 	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/libft/get_next_line.c.s
 .PHONY : libft/get_next_line.c.s
 
+main_c.o: main_c.c.o
+
+.PHONY : main_c.o
+
+# target to build an object file
+main_c.c.o:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/main_c.c.o
+.PHONY : main_c.c.o
+
+main_c.i: main_c.c.i
+
+.PHONY : main_c.i
+
+# target to preprocess a source file
+main_c.c.i:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/main_c.c.i
+.PHONY : main_c.c.i
+
+main_c.s: main_c.c.s
+
+.PHONY : main_c.s
+
+# target to generate assembly for a file
+main_c.c.s:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/main_c.c.s
+.PHONY : main_c.c.s
+
 src_cor/carr_list.o: src_cor/carr_list.c.o
 
 .PHONY : src_cor/carr_list.o
@@ -2876,6 +2903,33 @@ src_cor/ft_st.s: src_cor/ft_st.c.s
 src_cor/ft_st.c.s:
 	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_st.c.s
 .PHONY : src_cor/ft_st.c.s
+
+src_cor/ft_sti.o: src_cor/ft_sti.c.o
+
+.PHONY : src_cor/ft_sti.o
+
+# target to build an object file
+src_cor/ft_sti.c.o:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_sti.c.o
+.PHONY : src_cor/ft_sti.c.o
+
+src_cor/ft_sti.i: src_cor/ft_sti.c.i
+
+.PHONY : src_cor/ft_sti.i
+
+# target to preprocess a source file
+src_cor/ft_sti.c.i:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_sti.c.i
+.PHONY : src_cor/ft_sti.c.i
+
+src_cor/ft_sti.s: src_cor/ft_sti.c.s
+
+.PHONY : src_cor/ft_sti.s
+
+# target to generate assembly for a file
+src_cor/ft_sti.c.s:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_sti.c.s
+.PHONY : src_cor/ft_sti.c.s
 
 src_cor/go_cor.o: src_cor/go_cor.c.o
 
@@ -3258,6 +3312,9 @@ help:
 	@echo "... libft/get_next_line.o"
 	@echo "... libft/get_next_line.i"
 	@echo "... libft/get_next_line.s"
+	@echo "... main_c.o"
+	@echo "... main_c.i"
+	@echo "... main_c.s"
 	@echo "... src_cor/carr_list.o"
 	@echo "... src_cor/carr_list.i"
 	@echo "... src_cor/carr_list.s"
@@ -3273,6 +3330,9 @@ help:
 	@echo "... src_cor/ft_st.o"
 	@echo "... src_cor/ft_st.i"
 	@echo "... src_cor/ft_st.s"
+	@echo "... src_cor/ft_sti.o"
+	@echo "... src_cor/ft_sti.i"
+	@echo "... src_cor/ft_sti.s"
 	@echo "... src_cor/go_cor.o"
 	@echo "... src_cor/go_cor.i"
 	@echo "... src_cor/go_cor.s"
