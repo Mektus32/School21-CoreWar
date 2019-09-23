@@ -1,28 +1,29 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_live.c                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: qgilbert <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/09/23 21:46:07 by qgilbert          #+#    #+#             */
+/*   Updated: 2019/09/23 21:46:09 by qgilbert         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "corewar.h"
 
 void	ft_live(t_cor *cor, t_carr *tmp)
 {
-	unsigned char t_dir[4];
-	//char *b2;
+	unsigned char	t_dir[DIR_SIZE];
 
-	// запоминаем номер цикла в котором проводилась опирация live
 	tmp->cycles_live = cor->live->cycles;
-	tmp->cur = (tmp->cur + 1) % MEM_SIZE;
-	//tmp->cur++;
-	//codage oclat = 0
-	//считывает T_DIR
-	ft_memcpy(t_dir, cor->code + tmp->cur, 4);
-	printf("T_DIR = %d\n", t_dir);
-	tmp->cur = (tmp->cur + 4) % MEM_SIZE;
-	//Если указанный в качестве аргумента операции live
-	//номер совпадает с номером игрока, то она засчитывает,
-	//что это игрок жив. Например, если значение аргумента равно -2, значит игрок с номером 2 жив.
-	if (IFR16(t_dir) == tmp->reg[0])
+	ft_memcpy(t_dir, cor->code + tmp->cur + 1, 4);
+	if (IFR16(t_dir) == (int)tmp->reg[0])
 	{
 		tmp->live = 1;
 		cor->live->id_live = tmp->id_par;
 	}
 	else
 		tmp->live = 0;
+	tmp->i = 1 + DIR_SIZE;
 }
-

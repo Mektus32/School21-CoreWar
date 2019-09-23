@@ -312,26 +312,24 @@ char *base16_2(unsigned c)
 char *base16_2_cor(t_cor *cor, t_carr *tmp)
 {
 	unsigned char	*k;
-	unsigned c;
-	char *b2;
-	int		i;
+	//char *b2;
 
-	i = 7;
 	k = malloc(sizeof(char));
 	ft_memcpy(k, cor->code + (tmp->cur + 1) % MEM_SIZE, 1);
-	c = (unsigned)k;
-	b2 = (char *)malloc(sizeof(char) * 9);
-	b2[8] = '\0';
-	while (i >= 0)
-	{
-		//printf("c16 = %d ", c%2);
-		b2[i] = c % 2;
-		c = c/2;
-		i--;
-	}
-	printf("\n");
+//	c = (unsigned)k;
+//	b2 = (char *)malloc(sizeof(char) * 9);
+//	b2[8] = '\0';
+//	while (i >= 0)
+//	{
+//		//printf("c16 = %d ", c%2);
+//		b2[i] = c % 2;
+//		c = c/2;
+//		i--;
+//	}
+	//b2 = base16_2(k);
+	//printf("\n");
 	free(k);
-	return  (b2);
+	return  (base16_2(k[0]));
 
 }
 /*
