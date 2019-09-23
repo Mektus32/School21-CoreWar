@@ -7,30 +7,21 @@ void ft_st(t_cor *cor, t_carr *tmp)
 	unsigned char t_reg;
 	unsigned char t_reg_2;
 	char *b2;
-	int f_err;
 	int i;
 	int a;
 	unsigned char *p;
 
 	i = 1;
 	ft_memcpy(c, cor->code + (tmp->cur + i++) % MEM_SIZE, 1); //У 02 команды load - codage 1, значит мы считываем первое число после команды
-	printf("c + 1 = %x\n", c[0]);
+	//printf("c + 1 = %x\n", c[0]);
 	b2 = base16_2(c[0]); // 90 = 144 = 10 01 00 00
 
 	if (b2[0] == 0 && b2[1] == 1)
 		i += 1;
 	else if (b2[0] == 1 && b2[1] == 0)
-	{
 		i += 4;
-		f_err = 1;
-	}
 	else if (b2[0] == 1 && b2[1] == 1)
-	{
 		i += 2;
-		f_err = 1;
-	}
-	else
-		f_err;
 
 	if ((b2[2] == 0 && b2[3] == 1) || (b2[2] == 1 && b2[3] == 1))
 	{
@@ -58,28 +49,25 @@ void ft_st(t_cor *cor, t_carr *tmp)
 						tmp->reg[(int)t_reg_2] = (int)tmp->reg[(int)t_reg];
 						// нужно ли удалять из рег первого значение?
 					}
-					else
-						f_err = 1;
+
 				}
 			}
-			else
-				f_err = 1;
+
 
 		}
 		else
 		{
-			f_err = 1;
+
 			i = i + (b2[2] == 0 ? 1 : 2);
 		}
 	}
 	else if (b2[2] == 1 && b2[3] == 0)
 	{
 		i += 4;
-		f_err = 1;
+
 	}
-	else
-		f_err = 1;
-	//tmp->cur = (tmp->cur + i) % MEM_SIZE;
+
+
 	tmp->i = i;
 
 

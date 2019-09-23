@@ -269,7 +269,7 @@ t_cor *parse_av(int ac, char **av)
 	j = 0;
 	if (cor->n <= MAX_PLAYERS)
 	{
-		while (i + j <= cor->n)
+		while (i < cor->n)
 		{
 			// если есть куда переписать (сослаться) и что
 			if (!cor->m_ch[i] && cor->m_2[j])
@@ -293,17 +293,44 @@ char *base16_2(unsigned c)
 {
 	char *b2;
 	int		i;
+
 	i = 7;
 	b2 = (char *)malloc(sizeof(char) * 9);
 	b2[8] = '\0';
 	while (i >= 0)
 	{
-		printf("c16 = %d ", c%2);
+		//printf("c16 = %d ", c%2);
 		b2[i] = c % 2;
 		c = c/2;
 		i--;
 	}
 	printf("\n");
+	return  (b2);
+
+}
+
+char *base16_2_cor(t_cor *cor, t_carr *tmp)
+{
+	unsigned char	*k;
+	unsigned c;
+	char *b2;
+	int		i;
+
+	i = 7;
+	k = malloc(sizeof(char));
+	ft_memcpy(k, cor->code + (tmp->cur + 1) % MEM_SIZE, 1);
+	c = (unsigned)k;
+	b2 = (char *)malloc(sizeof(char) * 9);
+	b2[8] = '\0';
+	while (i >= 0)
+	{
+		//printf("c16 = %d ", c%2);
+		b2[i] = c % 2;
+		c = c/2;
+		i--;
+	}
+	printf("\n");
+	free(k);
 	return  (b2);
 
 }
@@ -345,7 +372,7 @@ void	arena(t_cor *cor)
 		i++;
 	}
 	go_cor(cor);
-	ft_printf("Contestant 2, \"%s\", has won !", (cor->m_ch[cor->live->id_live - 1])->head_c->prog_name);
+	ft_printf("Contestant %d, \"%s\", has won !", cor->live->id_live,(cor->m_ch[cor->live->id_live - 1])->head_c->prog_name);
 }
 
 int main(int ac, char **av)

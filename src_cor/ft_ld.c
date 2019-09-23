@@ -49,19 +49,18 @@ int ft_ld_write(t_cor *cor, t_carr *tmp, int i, int l)
 void ft_ld(t_cor *cor, t_carr *tmp, int l)
 {
 	// когда сюда заходим, знаем что операция валидна но не передвигаем до этого
-	unsigned char	c[1];//codage octal
+	unsigned char	*c;//codage octal
 	char *b2;
 	int f_err; // флаг, сообщающей об оштбке аргументов = 0, если ошибки нет
 	int i;
 
 	i = 1;// операция валидна уже знаем
+	c = malloc(sizeof(char));
 	ft_memcpy(c, cor->code + (tmp->cur + i++) % MEM_SIZE, 1); //У 02 команды load - codage 1, значит мы считываем первое число после команды
-
-	//ft_memcpy(c, cor->code + (tmp->cur + i) % MEM_SIZE, 1); //У 02 команды load - codage 1, значит мы считываем первое число после команды
-
-	printf("c + 1 = %x\n", c[0]);
 	b2 = base16_2(c[0]); // 90 = 144 = 10 01 00 00
-
+	//printf("c + 1 = %x\n", c[0]);
+//	i++;
+//	b2 = base16_2_cor(cor, tmp);
 	if ((b2[0] == 1 && b2[1] == 0) || (b2[0] == 1 && b2[1] == 1))
 		i += 4 * (int)b2[0] - 2 * (int)b2[1];//i += 4;
 	else if (b2[0] == 0 && b2[1] == 1)
@@ -81,7 +80,7 @@ void ft_ld(t_cor *cor, t_carr *tmp, int l)
 		else
 			f_err = 1;
 	}
-	else if ((b2[2] == 1 && b2[3] == 1) || b2[2] == 1 && b2[3] == 0)
+	else if ((b2[2] == 1 && b2[3] == 1) || (b2[2] == 1 && b2[3] == 0))
 	{
 		f_err = 1;
 		i += 4 * (int)b2[0] - 2 * (int)b2[1];

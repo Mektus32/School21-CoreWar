@@ -132,6 +132,7 @@ typedef struct 		s_carr
 
 
 #define IFR16(x)	x[0] << 24 | x[1] << 16 | x[2] << 8 | x[3]
+#define IFR8(x)		x[0] << 8 | x[1]
 
 void	*ft_memcpy_all(void *dst, const void *src, size_t n);
 char	*ft_strncpy_all(char *dest, const char *source, size_t n);
@@ -141,6 +142,8 @@ t_champ *valid_champ(int i, char **av);
 void make_champ_n(int ac, char **av, int n, t_cor *cor);
 t_cor *parse_av(int ac, char **av);
 void	arena(t_cor *cor);
+char *base16_2_cor(t_cor *cor, t_carr *tmp);
+
 char *base16_2(unsigned c);
 
 

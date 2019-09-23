@@ -82,12 +82,12 @@ void go_cor(t_cor *cor)
 			{
 				tmp->cur = (tmp->cur + tmp->i) % MEM_SIZE;
 				ft_memcpy(&tmp->prog, cor->code + (tmp->cur), 1);
+				tmp->i = 0;
 				tmp->cycles_to = ft_cycles_to(tmp->prog);
 			}
 			// если не доступная операция - двигаем каретку
 			if (--(tmp->cycles_to) == 0)
 			{
-
 				if	(tmp->prog == 1)
 					ft_live(cor, tmp);
 				else if (tmp->prog == 2)
@@ -121,21 +121,14 @@ void go_cor(t_cor *cor)
 				else if (tmp->prog == 16)
 					ft_aff(cor, tmp);
 				else
-				{
-					tmp->cur = (tmp->cur + 1) % MEM_SIZE;
-					ft_memcpy(&tmp->prog, cor->code + tmp->cur, 1);
-					tmp->cycles_to = ft_cycles_to(tmp->prog);
-				}
-//				ft_memcpy(&tmp->prog, (cor->code + tmp->cur % MEM_SIZE) , 1);
-//				tmp->cycles_to = ft_cycles_to(tmp->prog);
+					tmp->i = 1;
 			}
-//			else
-//				tmp->cycles_to--;
 			tmp = tmp->next;
 		}
+
 		//Проверка происходит через каждые cycles_to_die циклов пока значение cycles_to_die больше нуля.
 		// А после того, как его значение станет меньше или равным нулю, проверка начинает проводиться после каждого цикла.
-		if (cor->live->cycles_to_die <=0 || (cor->live->cycles && (cor->live->cycles % cor->live->cycles_to_die == 0)))
+		if (--(cor->live->cycles_to_die) <=0 || (cor->live->cycles && (cor->live->cycles % cor->live->cycles_to_die == 0)))
 			check_live(cor);
 		cor->live->cycles++;
 	}

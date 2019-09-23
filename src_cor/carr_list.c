@@ -63,7 +63,7 @@ int	ft_cycles_to(char p)
 {
 	int cycles;
 
-	cycles = -1;
+	cycles = 1;
 	if (p == 1 || p == 4 || p == 5 || p == 13)
 		cycles = 10;
 	else if (p == 2 || p == 3)
