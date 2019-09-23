@@ -81,6 +81,7 @@ void go_cor(t_cor *cor)
 			if (tmp->cycles_to == 0)
 			{
 				tmp->cur = (tmp->cur + tmp->i) % MEM_SIZE;
+				tmp->i = 0;
 				ft_memcpy(&tmp->prog, cor->code + (tmp->cur), 1);
 				tmp->cycles_to = ft_cycles_to(tmp->prog);
 			}
@@ -122,9 +123,10 @@ void go_cor(t_cor *cor)
 					ft_aff(cor, tmp);
 				else
 				{
-					tmp->cur = (tmp->cur + 1) % MEM_SIZE;
-					ft_memcpy(&tmp->prog, cor->code + tmp->cur, 1);
-					tmp->cycles_to = ft_cycles_to(tmp->prog);
+					tmp->i = 1;
+// 					tmp->cur = (tmp->cur + 1) % MEM_SIZE;
+// 					ft_memcpy(&tmp->prog, cor->code + tmp->cur, 1);
+// 					tmp->cycles_to = ft_cycles_to(tmp->prog);
 				}
 //				ft_memcpy(&tmp->prog, (cor->code + tmp->cur % MEM_SIZE) , 1);
 //				tmp->cycles_to = ft_cycles_to(tmp->prog);
