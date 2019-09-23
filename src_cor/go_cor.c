@@ -81,6 +81,7 @@ void go_cor(t_cor *cor)
 			if (tmp->cycles_to == 0)
 			{
 				tmp->cur = (tmp->cur + tmp->i) % MEM_SIZE;
+				tmp->i = 0;
 				ft_memcpy(&tmp->prog, cor->code + (tmp->cur), 1);
 				tmp->i = 0;
 				tmp->cycles_to = ft_cycles_to(tmp->prog);
