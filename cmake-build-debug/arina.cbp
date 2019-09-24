@@ -409,10 +409,19 @@
 		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_add.c">
 			<Option target="arina"/>
 		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_aff.c">
+			<Option target="arina"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_fork_lfork.c">
+			<Option target="arina"/>
+		</Unit>
 		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_ld.c">
 			<Option target="arina"/>
 		</Unit>
 		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_live.c">
+			<Option target="arina"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_or_xor.c">
 			<Option target="arina"/>
 		</Unit>
 		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_st.c">

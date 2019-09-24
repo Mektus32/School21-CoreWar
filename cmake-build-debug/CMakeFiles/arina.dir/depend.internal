@@ -307,6 +307,18 @@ CMakeFiles/arina.dir/src_cor/ft_add.c.o
  ../includes/libft.h
  ../includes/op.h
  /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_add.c
+CMakeFiles/arina.dir/src_cor/ft_aff.c.o
+ ../includes/corewar.h
+ ../includes/ft_printf.h
+ ../includes/libft.h
+ ../includes/op.h
+ /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_aff.c
+CMakeFiles/arina.dir/src_cor/ft_fork_lfork.c.o
+ ../includes/corewar.h
+ ../includes/ft_printf.h
+ ../includes/libft.h
+ ../includes/op.h
+ /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_fork_lfork.c
 CMakeFiles/arina.dir/src_cor/ft_ld.c.o
  ../includes/corewar.h
  ../includes/ft_printf.h
@@ -319,6 +331,12 @@ CMakeFiles/arina.dir/src_cor/ft_live.c.o
  ../includes/libft.h
  ../includes/op.h
  /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_live.c
+CMakeFiles/arina.dir/src_cor/ft_or_xor.c.o
+ ../includes/corewar.h
+ ../includes/ft_printf.h
+ ../includes/libft.h
+ ../includes/op.h
+ /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_or_xor.c
 CMakeFiles/arina.dir/src_cor/ft_st.c.o
  ../includes/corewar.h
  ../includes/ft_printf.h

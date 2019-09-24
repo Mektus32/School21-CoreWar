@@ -4,8 +4,6 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 {
 	unsigned char t_reg;
 	unsigned char t_reg_2;
-	unsigned char t_reg_3;
-	unsigned char	c[1];
 	char *b2;
 	int f_err;
 	int i;
@@ -15,12 +13,10 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 	unsigned char t_dir[DIR_SIZE];
 	unsigned char t_dir_1[DIR_SIZE];
 
-	i = 1;
-	a = 0;
+	i = 2;
 	l = 0;
 	f_err = 0;
-	ft_memcpy(c, cor->code + (tmp->cur + i++) % MEM_SIZE, 1);
-	b2 = base16_2(c[0]);
+	b2 = base16_2_cor(cor, tmp);
 
 	if (b2[0] == 0 && b2[1] == 1)
 	{
@@ -47,10 +43,11 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 	}
 	else if ((b2[2] == 1 && b2[3] == 0) || (b2[2] == 1 && b2[3] == 1))
 	{
+		a = 0;
 		if (b2[3] == 1)
 		{
 			ft_memcpy(t_ind, cor->code + (tmp->cur + 1 + 1 + i) % MEM_SIZE, IND_SIZE);
-			a = ((t_ind[0] << 8) | t_ind[1]) % IDX_MOD;
+			a = IFR8(t_ind) % IDX_MOD;
 		}
 		i += 4 * (int)b2[2] - 2 * (int)b2[3];
 		ft_memcpy(t_dir, cor->code + (tmp->cur + 1 + 1 + i +  a) % MEM_SIZE, DIR_SIZE);
@@ -60,11 +57,11 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 		f_err = 1;
 	if (b2[4] == 0 && b2[5] == 1)
 	{
-		ft_memcpy_all(&t_reg_3,  cor->code + (tmp->cur + 1 + i++) % MEM_SIZE, 1);
-		if (! (((int)t_reg_3) >= 0) && (int)(t_reg_3) < REG_NUMBER)
+		ft_memcpy_all(&t_reg_2,  cor->code + (tmp->cur + 1 + i++) % MEM_SIZE, 1);
+		if (! (((int)t_reg_2) >= 0) && (int)(t_reg_2) < REG_NUMBER)
 			f_err = 1;
 		else
-			l = l + tmp->reg[(int) t_reg_3];
+			l = l + tmp->reg[(int) t_reg_2];
 	}
 	else if (b2[4] == 1 && b2[5] == 0)
 	{
@@ -102,7 +99,6 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 //			printf("|%x| %x|\n",c[0], c[1]);
 //		}
 	}
-	//tmp->cur = (tmp->cur + i) % MEM_SIZE;
 	tmp->i = i;
 
 }

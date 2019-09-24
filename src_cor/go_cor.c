@@ -64,14 +64,11 @@ void	check_live(t_cor *cor)
 
 void go_cor(t_cor *cor)
 {
-	unsigned char	op[1];
+
 	t_carr	*tmp;
-	int i;
 
 	// обнулим live
-	i = 0;
 	zero_live(cor);
-	//
 	while (cor->carr && cor->live->cycles_to_die)
 	{
 		tmp = cor->carr;
@@ -83,7 +80,6 @@ void go_cor(t_cor *cor)
 				tmp->cur = (tmp->cur + tmp->i) % MEM_SIZE;
 				tmp->i = 0;
 				ft_memcpy(&tmp->prog, cor->code + (tmp->cur), 1);
-				tmp->i = 0;
 				tmp->cycles_to = ft_cycles_to(tmp->prog);
 			}
 			// если не доступная операция - двигаем каретку

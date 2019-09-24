@@ -23,6 +23,7 @@ void	ft_st_write(t_cor *cor, t_carr *tmp, int b2_2)
 	ft_memcpy_all(&t_reg,  cor->code + (tmp->cur + 2) % MEM_SIZE, 1);
 	if ((int)t_reg >= 0 && (int)t_reg < REG_NUMBER)
 	{
+		a = 0;
 		if (b2_2 == 1)
 		{
 			ft_memcpy(t_ind, cor->code + (tmp->cur + 3) % MEM_SIZE, IND_SIZE);

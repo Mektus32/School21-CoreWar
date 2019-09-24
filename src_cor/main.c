@@ -299,12 +299,10 @@ char *base16_2(unsigned c)
 	b2[8] = '\0';
 	while (i >= 0)
 	{
-		//printf("c16 = %d ", c%2);
 		b2[i] = c % 2;
 		c = c/2;
 		i--;
 	}
-	printf("\n");
 	return  (b2);
 
 }
@@ -312,22 +310,9 @@ char *base16_2(unsigned c)
 char *base16_2_cor(t_cor *cor, t_carr *tmp)
 {
 	unsigned char	*k;
-	//char *b2;
 
 	k = malloc(sizeof(char));
 	ft_memcpy(k, cor->code + (tmp->cur + 1) % MEM_SIZE, 1);
-//	c = (unsigned)k;
-//	b2 = (char *)malloc(sizeof(char) * 9);
-//	b2[8] = '\0';
-//	while (i >= 0)
-//	{
-//		//printf("c16 = %d ", c%2);
-//		b2[i] = c % 2;
-//		c = c/2;
-//		i--;
-//	}
-	//b2 = base16_2(k);
-	//printf("\n");
 	free(k);
 	return  (base16_2(k[0]));
 
@@ -421,3 +406,8 @@ int main(int ac, char **av)
 //* Player 2, weighing 329 bytes, "Pai Mu Tan" ("Tea Time") !
 //Contestant 1, "Sencha", has won !
 //at-h6% ./corewar champs/championships/2018/bcozic/sencha.cor champs/championships/2018/bcozic/pai_mu_tan.cor
+
+//at-r2% ./asm champs/championships/2018/sboulet/NoIdea.s
+//Writing output program to champs/championships/2018/sboulet/NoIdea.cor
+//at-r2% ./corewar champs/championships/2018/sboulet/Hidden.cor champs/championships/2018/sboulet/NoIdea.cor champs/championships/2018/bcozic/sencha.cor
+//Introducing contestants...

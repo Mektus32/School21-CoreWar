@@ -22,10 +22,13 @@ int		ft_ld_write(t_cor *cor, t_carr *tmp, int i, int l)
 	a = 0;
 	if (i == 5)
 	{
-		ft_memcpy(t_ind, cor->code + (tmp->cur + 1 + 1) % MEM_SIZE, IND_SIZE);
+		ft_memcpy_all(&t_ind, cor->code + (tmp->cur + 1 + 1) % MEM_SIZE, IND_SIZE);
 		a = (l == 1) ? IFR8(t_ind) : (IFR8(t_ind)) % IDX_MOD;
 	}
-	ft_memcpy(&t_dir, cor->code + (tmp->cur + 1 + 1 + a) % MEM_SIZE, DIR_SIZE);
+
+	ft_memcpy_all(t_dir, cor->code + (tmp->cur + 1 + 1 + a) % MEM_SIZE, DIR_SIZE);
+	//ft_memcpy(&t_dir, cor->code + (tmp->cur + 1 + 1 + a) % MEM_SIZE, IND_SIZE);
+
 	ft_memcpy_all(&t_reg, cor->code + (tmp->cur + (i - 1)) % MEM_SIZE, 1);
 	if ((int)t_reg > 0 && (int)t_reg < REG_NUMBER)
 	{
@@ -56,5 +59,7 @@ void	ft_ld(t_cor *cor, t_carr *tmp, int l)
 	else if ((b2[2] == 1 && b2[3] == 1) || (b2[2] == 1 && b2[3] == 0))
 		i += 4 * (int)b2[0] - 2 * (int)b2[1];
 	free(b2);
+//	if ((b2[2] == 1 && b2[3] == 0))
+//		i = i - 2;
 	tmp->i = i;
 }

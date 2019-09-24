@@ -2823,6 +2823,60 @@ src_cor/ft_add.c.s:
 	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_add.c.s
 .PHONY : src_cor/ft_add.c.s
 
+src_cor/ft_aff.o: src_cor/ft_aff.c.o
+
+.PHONY : src_cor/ft_aff.o
+
+# target to build an object file
+src_cor/ft_aff.c.o:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_aff.c.o
+.PHONY : src_cor/ft_aff.c.o
+
+src_cor/ft_aff.i: src_cor/ft_aff.c.i
+
+.PHONY : src_cor/ft_aff.i
+
+# target to preprocess a source file
+src_cor/ft_aff.c.i:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_aff.c.i
+.PHONY : src_cor/ft_aff.c.i
+
+src_cor/ft_aff.s: src_cor/ft_aff.c.s
+
+.PHONY : src_cor/ft_aff.s
+
+# target to generate assembly for a file
+src_cor/ft_aff.c.s:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_aff.c.s
+.PHONY : src_cor/ft_aff.c.s
+
+src_cor/ft_fork_lfork.o: src_cor/ft_fork_lfork.c.o
+
+.PHONY : src_cor/ft_fork_lfork.o
+
+# target to build an object file
+src_cor/ft_fork_lfork.c.o:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_fork_lfork.c.o
+.PHONY : src_cor/ft_fork_lfork.c.o
+
+src_cor/ft_fork_lfork.i: src_cor/ft_fork_lfork.c.i
+
+.PHONY : src_cor/ft_fork_lfork.i
+
+# target to preprocess a source file
+src_cor/ft_fork_lfork.c.i:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_fork_lfork.c.i
+.PHONY : src_cor/ft_fork_lfork.c.i
+
+src_cor/ft_fork_lfork.s: src_cor/ft_fork_lfork.c.s
+
+.PHONY : src_cor/ft_fork_lfork.s
+
+# target to generate assembly for a file
+src_cor/ft_fork_lfork.c.s:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_fork_lfork.c.s
+.PHONY : src_cor/ft_fork_lfork.c.s
+
 src_cor/ft_ld.o: src_cor/ft_ld.c.o
 
 .PHONY : src_cor/ft_ld.o
@@ -2876,6 +2930,33 @@ src_cor/ft_live.s: src_cor/ft_live.c.s
 src_cor/ft_live.c.s:
 	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_live.c.s
 .PHONY : src_cor/ft_live.c.s
+
+src_cor/ft_or_xor.o: src_cor/ft_or_xor.c.o
+
+.PHONY : src_cor/ft_or_xor.o
+
+# target to build an object file
+src_cor/ft_or_xor.c.o:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_or_xor.c.o
+.PHONY : src_cor/ft_or_xor.c.o
+
+src_cor/ft_or_xor.i: src_cor/ft_or_xor.c.i
+
+.PHONY : src_cor/ft_or_xor.i
+
+# target to preprocess a source file
+src_cor/ft_or_xor.c.i:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_or_xor.c.i
+.PHONY : src_cor/ft_or_xor.c.i
+
+src_cor/ft_or_xor.s: src_cor/ft_or_xor.c.s
+
+.PHONY : src_cor/ft_or_xor.s
+
+# target to generate assembly for a file
+src_cor/ft_or_xor.c.s:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_or_xor.c.s
+.PHONY : src_cor/ft_or_xor.c.s
 
 src_cor/ft_st.o: src_cor/ft_st.c.o
 
@@ -3321,12 +3402,21 @@ help:
 	@echo "... src_cor/ft_add.o"
 	@echo "... src_cor/ft_add.i"
 	@echo "... src_cor/ft_add.s"
+	@echo "... src_cor/ft_aff.o"
+	@echo "... src_cor/ft_aff.i"
+	@echo "... src_cor/ft_aff.s"
+	@echo "... src_cor/ft_fork_lfork.o"
+	@echo "... src_cor/ft_fork_lfork.i"
+	@echo "... src_cor/ft_fork_lfork.s"
 	@echo "... src_cor/ft_ld.o"
 	@echo "... src_cor/ft_ld.i"
 	@echo "... src_cor/ft_ld.s"
 	@echo "... src_cor/ft_live.o"
 	@echo "... src_cor/ft_live.i"
 	@echo "... src_cor/ft_live.s"
+	@echo "... src_cor/ft_or_xor.o"
+	@echo "... src_cor/ft_or_xor.i"
+	@echo "... src_cor/ft_or_xor.s"
 	@echo "... src_cor/ft_st.o"
 	@echo "... src_cor/ft_st.i"
 	@echo "... src_cor/ft_st.s"

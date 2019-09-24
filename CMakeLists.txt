@@ -123,9 +123,12 @@ add_executable(arina
         src_cor/carr_list.c
         src_cor/ft_add.c
         src_cor/ft_ld.c
+        src_cor/ft_fork_lfork.c
         src_cor/ft_live.c
         src_cor/ft_st.c
         src_cor/ft_sti.c
+        src_cor/ft_or_xor.c
+        src_cor/ft_aff.c
         src_cor/go_cor.c
         src_cor/main.c
         vm_champs/op.c
