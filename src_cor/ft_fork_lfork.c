@@ -17,11 +17,11 @@ void				ft_fork(t_cor *cor, t_carr *tmp, int l)
 	while (++k < REG_NUMBER)
 		new->reg[k] = tmp->reg[k];
 	add_curr(&(cor->carr), new);
-	ft_memcpy(&t_dir, cor->code + (tmp->cur) % MEM_SIZE, IND_SIZE);
+	ft_memcpy_all(&t_dir, cor->code, IND_SIZE, (tmp->cur));
 	//Операция fork делает копию каретки. И эту копию размещает по адресу <ПЕРВЫЙ_АРГУМЕНТ> % IDX_MOD.
 	k = IFR8(t_dir);//t_dir[0] << 8 | t_dir[1];
 	//надо ли брать со знаком -?
 	p = inttobyte((new->reg[0]));
-	ft_memcpy_all((cor->code) + k % (IDX_MOD - l * IDX_MOD + 1 * l), p, 4);
+	ft_memcpy_all((cor->code), p, 4, k % (IDX_MOD - l * IDX_MOD + 1 * l));
 	tmp->i = 3;
 }

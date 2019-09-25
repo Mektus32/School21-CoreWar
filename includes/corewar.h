@@ -21,5 +21,7 @@
 
 void	check_asm(int fd);
 
+void exit_print(char *str);
+void print_dump_code(t_cor *cor);
 
 #endif

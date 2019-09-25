@@ -30,7 +30,7 @@ char	*ft_strncpy_all(char *dest, const char *source, size_t n)
 	return (dest);
 }
 
-void	*ft_memcpy_all(void *dst, const void *src, size_t n)
+void	*ft_memcpy_all(void *dst, const void *src, size_t n, int start)
 {
 	unsigned char		*str1;
 	unsigned char	*str2;
@@ -51,8 +51,8 @@ void	*ft_memcpy_all(void *dst, const void *src, size_t n)
 	{
 		while (n-- > 0)
 		{
-			c = str2[i];
-			str1[i] = str2[i];
+			c = str2[(i + start) % MEM_SIZE];
+			str1[i] = str2[(i + start) % MEM_SIZE];;
 			//str1[i] = src + i;
 			i++;
 		}
@@ -243,10 +243,13 @@ t_cor *parse_av(int ac, char **av)
 	j = 0;
 	while (i < ac)
 	{
+
 		if ((name = ft_strstr("-dump", av[i])) && name[5] == '\0')
 		{
-			cor->nbr_cycles = 1;
-			i++;
+			cor->nbr_cycles = 0;
+			cor->nbr_cycles = ft_atoi(av[i + 1]);
+			//i++;
+			i+=2;
 			// и я не поняла что делать
 		}
 			// дб и число, и игрок (+2 предполагаем что флаг

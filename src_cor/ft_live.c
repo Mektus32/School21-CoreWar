@@ -17,7 +17,7 @@ void	ft_live(t_cor *cor, t_carr *tmp)
 	unsigned char	t_dir[DIR_SIZE];
 
 	tmp->cycles_live = cor->live->cycles;
-	ft_memcpy(t_dir, cor->code + tmp->cur + 1, 4);
+	ft_memcpy_all(t_dir, cor->code, 4, tmp->cur + 1);
 	if (IFR16(t_dir) == (int)tmp->reg[0])
 	{
 		tmp->live = 1;

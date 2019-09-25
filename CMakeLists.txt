@@ -129,8 +129,10 @@ add_executable(arina
         src_cor/ft_sti.c
         src_cor/ft_or_xor.c
         src_cor/ft_aff.c
+        src_cor/print_code.c
         src_cor/go_cor.c
         src_cor/main.c
+
         vm_champs/op.c
         vm_champs/op.h
         main_c.c)

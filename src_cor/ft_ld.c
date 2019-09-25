@@ -22,14 +22,14 @@ int		ft_ld_write(t_cor *cor, t_carr *tmp, int i, int l)
 	a = 0;
 	if (i == 5)
 	{
-		ft_memcpy_all(&t_ind, cor->code + (tmp->cur + 1 + 1) % MEM_SIZE, IND_SIZE);
+		ft_memcpy_all(&t_ind, cor->code, IND_SIZE, (tmp->cur + 1 + 1));
 		a = (l == 1) ? IFR8(t_ind) : (IFR8(t_ind)) % IDX_MOD;
 	}
 
-	ft_memcpy_all(t_dir, cor->code + (tmp->cur + 1 + 1 + a) % MEM_SIZE, DIR_SIZE);
+	ft_memcpy_all(t_dir, cor->code, DIR_SIZE, (tmp->cur + 1 + 1 + a));
 	//ft_memcpy(&t_dir, cor->code + (tmp->cur + 1 + 1 + a) % MEM_SIZE, IND_SIZE);
 
-	ft_memcpy_all(&t_reg, cor->code + (tmp->cur + (i - 1)) % MEM_SIZE, 1);
+	ft_memcpy_all(&t_reg, cor->code, 1, (tmp->cur + (i - 1)));
 	if ((int)t_reg > 0 && (int)t_reg < REG_NUMBER)
 	{
 		tmp->reg[(int)t_reg] = (IFR16(t_dir));

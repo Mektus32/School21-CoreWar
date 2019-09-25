@@ -361,6 +361,12 @@ CMakeFiles/arina.dir/src_cor/main.c.o
  ../includes/libft.h
  ../includes/op.h
  /Users/qgilbert/Desktop/corwar_1/arina/src_cor/main.c
+CMakeFiles/arina.dir/src_cor/print_code.c.o
+ ../includes/corewar.h
+ ../includes/ft_printf.h
+ ../includes/libft.h
+ ../includes/op.h
+ /Users/qgilbert/Desktop/corwar_1/arina/src_cor/print_code.c
 CMakeFiles/arina.dir/vm_champs/op.c.o
  /Users/qgilbert/Desktop/corwar_1/arina/vm_champs/op.c
  /Users/qgilbert/Desktop/corwar_1/arina/vm_champs/op.h

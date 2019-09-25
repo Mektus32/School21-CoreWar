@@ -3066,6 +3066,33 @@ src_cor/main.c.s:
 	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/main.c.s
 .PHONY : src_cor/main.c.s
 
+src_cor/print_code.o: src_cor/print_code.c.o
+
+.PHONY : src_cor/print_code.o
+
+# target to build an object file
+src_cor/print_code.c.o:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/print_code.c.o
+.PHONY : src_cor/print_code.c.o
+
+src_cor/print_code.i: src_cor/print_code.c.i
+
+.PHONY : src_cor/print_code.i
+
+# target to preprocess a source file
+src_cor/print_code.c.i:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/print_code.c.i
+.PHONY : src_cor/print_code.c.i
+
+src_cor/print_code.s: src_cor/print_code.c.s
+
+.PHONY : src_cor/print_code.s
+
+# target to generate assembly for a file
+src_cor/print_code.c.s:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/print_code.c.s
+.PHONY : src_cor/print_code.c.s
+
 vm_champs/op.o: vm_champs/op.c.o
 
 .PHONY : vm_champs/op.o
@@ -3429,6 +3456,9 @@ help:
 	@echo "... src_cor/main.o"
 	@echo "... src_cor/main.i"
 	@echo "... src_cor/main.s"
+	@echo "... src_cor/print_code.o"
+	@echo "... src_cor/print_code.i"
+	@echo "... src_cor/print_code.s"
 	@echo "... vm_champs/op.o"
 	@echo "... vm_champs/op.i"
 	@echo "... vm_champs/op.s"

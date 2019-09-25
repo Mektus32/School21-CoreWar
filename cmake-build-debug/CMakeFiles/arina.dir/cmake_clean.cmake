@@ -105,6 +105,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/arina.dir/src_cor/ft_sti.c.o"
   "CMakeFiles/arina.dir/src_cor/ft_or_xor.c.o"
   "CMakeFiles/arina.dir/src_cor/ft_aff.c.o"
+  "CMakeFiles/arina.dir/src_cor/print_code.c.o"
   "CMakeFiles/arina.dir/src_cor/go_cor.c.o"
   "CMakeFiles/arina.dir/src_cor/main.c.o"
   "CMakeFiles/arina.dir/vm_champs/op.c.o"
