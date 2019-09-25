@@ -129,6 +129,10 @@ add_executable(arina
         src_cor/ft_sti.c
         src_cor/ft_or_xor.c
         src_cor/ft_aff.c
+        src_cor/ft_and.c
+
+
+        src_cor/ft_sub.c
         src_cor/print_code.c
         src_cor/go_cor.c
         src_cor/main.c

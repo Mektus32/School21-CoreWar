@@ -57,6 +57,7 @@ void	*ft_memcpy_all(void *dst, const void *src, size_t n, int start)
 			i++;
 		}
 	}
+	dst = str1;
 	return (dst);
 }
 

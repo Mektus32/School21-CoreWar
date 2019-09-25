@@ -2850,6 +2850,33 @@ src_cor/ft_aff.c.s:
 	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_aff.c.s
 .PHONY : src_cor/ft_aff.c.s
 
+src_cor/ft_and.o: src_cor/ft_and.c.o
+
+.PHONY : src_cor/ft_and.o
+
+# target to build an object file
+src_cor/ft_and.c.o:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_and.c.o
+.PHONY : src_cor/ft_and.c.o
+
+src_cor/ft_and.i: src_cor/ft_and.c.i
+
+.PHONY : src_cor/ft_and.i
+
+# target to preprocess a source file
+src_cor/ft_and.c.i:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_and.c.i
+.PHONY : src_cor/ft_and.c.i
+
+src_cor/ft_and.s: src_cor/ft_and.c.s
+
+.PHONY : src_cor/ft_and.s
+
+# target to generate assembly for a file
+src_cor/ft_and.c.s:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_and.c.s
+.PHONY : src_cor/ft_and.c.s
+
 src_cor/ft_fork_lfork.o: src_cor/ft_fork_lfork.c.o
 
 .PHONY : src_cor/ft_fork_lfork.o
@@ -3011,6 +3038,33 @@ src_cor/ft_sti.s: src_cor/ft_sti.c.s
 src_cor/ft_sti.c.s:
 	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_sti.c.s
 .PHONY : src_cor/ft_sti.c.s
+
+src_cor/ft_sub.o: src_cor/ft_sub.c.o
+
+.PHONY : src_cor/ft_sub.o
+
+# target to build an object file
+src_cor/ft_sub.c.o:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_sub.c.o
+.PHONY : src_cor/ft_sub.c.o
+
+src_cor/ft_sub.i: src_cor/ft_sub.c.i
+
+.PHONY : src_cor/ft_sub.i
+
+# target to preprocess a source file
+src_cor/ft_sub.c.i:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_sub.c.i
+.PHONY : src_cor/ft_sub.c.i
+
+src_cor/ft_sub.s: src_cor/ft_sub.c.s
+
+.PHONY : src_cor/ft_sub.s
+
+# target to generate assembly for a file
+src_cor/ft_sub.c.s:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_sub.c.s
+.PHONY : src_cor/ft_sub.c.s
 
 src_cor/go_cor.o: src_cor/go_cor.c.o
 
@@ -3432,6 +3486,9 @@ help:
 	@echo "... src_cor/ft_aff.o"
 	@echo "... src_cor/ft_aff.i"
 	@echo "... src_cor/ft_aff.s"
+	@echo "... src_cor/ft_and.o"
+	@echo "... src_cor/ft_and.i"
+	@echo "... src_cor/ft_and.s"
 	@echo "... src_cor/ft_fork_lfork.o"
 	@echo "... src_cor/ft_fork_lfork.i"
 	@echo "... src_cor/ft_fork_lfork.s"
@@ -3450,6 +3507,9 @@ help:
 	@echo "... src_cor/ft_sti.o"
 	@echo "... src_cor/ft_sti.i"
 	@echo "... src_cor/ft_sti.s"
+	@echo "... src_cor/ft_sub.o"
+	@echo "... src_cor/ft_sub.i"
+	@echo "... src_cor/ft_sub.s"
 	@echo "... src_cor/go_cor.o"
 	@echo "... src_cor/go_cor.i"
 	@echo "... src_cor/go_cor.s"

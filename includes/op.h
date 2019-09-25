@@ -132,8 +132,8 @@ typedef struct 		s_carr
 }					t_carr;
 
 
-#define IFR16(x)	x[0] << 24 | x[1] << 16 | x[2] << 8 | x[3]
-#define IFR8(x)		x[0] << 8 | x[1]
+#define IFR16(x)	(int)(x[0] << 24 | x[1] << 16 | x[2] << 8 | x[3])
+#define IFR8(x)		(int)(x[0] << 8 | x[1])
 
 void	*ft_memcpy_all(void *dst, const void *src, size_t n, int start);
 

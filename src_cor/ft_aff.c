@@ -12,7 +12,7 @@ void    ft_aff(t_cor *cor, t_carr *tmp)
 	{
 		i++;
 		ft_memcpy_all(&t_reg,  cor->code, 1,  (tmp->cur + 2));
-		if (((int)t_reg >= 0 && (int)(t_reg) < REG_NUMBER))
+		if (((int)t_reg > 0 && (int)(t_reg) < REG_NUMBER))
 			ft_putchar((char)tmp->reg[(int)t_reg]);
 	}
 	else

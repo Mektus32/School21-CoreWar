@@ -30,7 +30,7 @@ void    ft_or(t_cor *cor, t_carr *tmp)
 	}
 	else if ((b2[0] == 1 && b2[1] == 1) || (b2[0] == 1 && b2[1] == 0))
 	{
-		if (b2[0] == 1)
+		if (b2[1] == 1)
 		{
 			ft_memcpy_all(t_ind, cor->code, IND_SIZE, (tmp->cur + 1 + 1));
 			a = IFR8(t_ind) % IDX_MOD; //((t_ind[0] << 8) | t_ind[1]) % IDX_MOD;
@@ -41,7 +41,6 @@ void    ft_or(t_cor *cor, t_carr *tmp)
 	}
 	else
 		f_err = 1;
-
 	if (b2[2] == 0 && b2[3] == 1)
 	{
 		i += 1;
@@ -56,7 +55,7 @@ void    ft_or(t_cor *cor, t_carr *tmp)
 	{
 
 		a = 0;
-		if (b2[2] == 1)
+		if (b2[3] == 1)
 		{
 			ft_memcpy_all(t_ind, cor->code, IND_SIZE,  (tmp->cur + i));
 			a = IFR8(t_ind);
@@ -115,7 +114,7 @@ void    ft_xor(t_cor *cor, t_carr *tmp)
 	}
 	else if ((b2[0] == 1 && b2[1] == 1) || (b2[0] == 1 && b2[1] == 0))
 	{
-		if (b2[0] == 1)
+		if (b2[1] == 1)
 		{
 			ft_memcpy_all(t_ind, cor->code, IND_SIZE, (tmp->cur + 1 + 1));
 			a = IFR8(t_ind) % IDX_MOD; //((t_ind[0] << 8) | t_ind[1]) % IDX_MOD;
@@ -139,9 +138,8 @@ void    ft_xor(t_cor *cor, t_carr *tmp)
 	}
 	else if ((b2[2] == 1 && b2[3] == 1) || (b2[2] == 1 && b2[3] == 0))
 	{
-
 		a = 0;
-		if (b2[2] == 1)
+		if (b2[3] == 1)
 		{
 			ft_memcpy_all(t_ind, cor->code, IND_SIZE, (tmp->cur + i));
 			a = IFR8(t_ind);
@@ -165,7 +163,6 @@ void    ft_xor(t_cor *cor, t_carr *tmp)
 				tmp->carry = (tmp->reg[(int)t_reg_3] == 0) ? 1 : 0;
 
 			}
-
 		}
 	}
 	else

@@ -21,7 +21,7 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 	if (b2[0] == 0 && b2[1] == 1)
 	{
 		ft_memcpy_all(&t_reg,  cor->code, 1, (tmp->cur + i++));
-		if (!((int)t_reg >= 0 && (int)(t_reg) < REG_NUMBER))
+		if (!((int)t_reg > 0 && (int)(t_reg) < REG_NUMBER))
 			f_err = 1;
 	}
 	else if ((b2[0] == 1 && b2[1] == 1) || (b2[0] == 1 && b2[1] == 0))
@@ -35,7 +35,7 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 	if (b2[2] == 0 && b2[3] == 1)
 	{
 		ft_memcpy_all(&t_reg_2,  cor->code, 1, (tmp->cur + 1 + i++));
-		if (! (((int)t_reg_2) >= 0) && (int)(t_reg_2) < REG_NUMBER)
+		if (!(((int)t_reg_2) > 0) && (int)(t_reg_2) < REG_NUMBER)
 			f_err = 1;
 		else
 			l = l +  tmp->reg[(int) t_reg_2];
@@ -58,7 +58,7 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 	if (b2[4] == 0 && b2[5] == 1)
 	{
 		ft_memcpy_all(&t_reg_2,  cor->code, 1, (tmp->cur + 1 + i++));
-		if (! (((int)t_reg_2) >= 0) && (int)(t_reg_2) < REG_NUMBER)
+		if (!(((int)t_reg_2) > 0) && (int)(t_reg_2) < REG_NUMBER)
 			f_err = 1;
 		else
 			l = l + tmp->reg[(int) t_reg_2];
@@ -77,28 +77,33 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 
 	if (!f_err)
 	{
-		//write(1,"!!\n",3);
-		//int k = 0;
+
 		//ft_memcpy_all(&(tmp->reg[(int) t_reg]),  1, 1);
 		//	tmp->reg[(int) t_reg] = inttobyte(tmp->reg[(int) t_reg]);
-
+//		unsigned char	c[1];
+//
+//		write(1,"!!\n",3);
+//		int k = 0;
 //		while (k < 10)
 //		{
-//			ft_memcpy(c, (cor->code + (tmp->cur + 1 + 1 + a + k++) % IDX_MOD % MEM_SIZE), 1);
+//			ft_memcpy(c, (cor->code + (tmp->cur + 1 + 1 + l + k++) % IDX_MOD % MEM_SIZE), 1);
 //			printf("|%x| %x|\n",c[0], c[1]);
 //		}
 		unsigned char *p;
 
 		p = inttobyte(tmp->reg[(int) t_reg]);
-		ft_memcpy_all(cor->code, p, 4, (tmp->cur + 1 + 1 + l));
+		ft_memcpy_all(cor->code + (tmp->cur + 1 + 1 + l) % IDX_MOD , p, 4, 0);
+//
 //		write(1,"!!\n",3);
 //		k = 0;
 //		while (k < 10)
 //		{
-//			ft_memcpy(c, (cor->code + (tmp->cur + 1 + 1 + a + k++) % IDX_MOD % MEM_SIZE), 1);
+//			ft_memcpy(c, (cor->code + (tmp->cur + 1 + 1 + l + k++) % IDX_MOD % MEM_SIZE), 1);
 //			printf("|%x| %x|\n",c[0], c[1]);
 //		}
+//		free(p);
 	}
+
 	tmp->i = i;
 
 }
