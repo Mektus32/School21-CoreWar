@@ -15,15 +15,39 @@
 void	ft_live(t_cor *cor, t_carr *tmp)
 {
 	unsigned char	t_dir[DIR_SIZE];
+	t_carr			*arg_check;
+
 
 	tmp->cycles_live = cor->live->cycles;
-	ft_memcpy_all(t_dir, cor->code, 4, tmp->cur + 1);
-	if (IFR16(t_dir) == (int)tmp->reg[0])
-	{
+	ft_memcpy_all(&t_dir, cor->code, 4, tmp->cur + 1);
+	if (tmp->reg[0] == -tmp->id_par)
 		tmp->live = 1;
-		cor->live->id_live = tmp->id_par;
-	}
 	else
 		tmp->live = 0;
+	cor->live->id_live = tmp->id_par;
+	if (IFR16(t_dir) <= cor->n)
+	{
+		arg_check = cor->carr;
+		while (arg_check)
+		{
+			if (-(arg_check->num) == IFR16(t_dir))
+			{
+				arg_check->live = 1;
+			//	arg_check->cycles_live = cor->live->cycles;
+			//	cor->live->id_live = arg_check->id_par;
+
+			}
+			arg_check = arg_check->next;
+		}
+	}
+//	if (IFR16(t_dir) == (int)tmp->reg[0])
+//	{
+//
+//		tmp->live = 1;
+//		cor->live->id_live = tmp->id_par;
+//	}
+//	else
+//		tmp->live = 0;
+	cor->live->live_count++;
 	tmp->i = 1 + DIR_SIZE;
 }

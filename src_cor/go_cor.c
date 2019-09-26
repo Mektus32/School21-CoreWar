@@ -29,18 +29,22 @@ void	check_live(t_cor *cor)
 	t_carr *carr;
 
 	carr = cor->carr;
+	//«Текущее количество проверок» включает и проводящуюся в
+	// данный момент проверку.
+
 	cor->live->check_count++;
 	while(carr)
 	{
-		if ((cor->live->cycles - carr->cycles_live >= CYCLE_TO_DIE) ||//Мертвой считается каретка, которая выполняла операцию live cycles_to_die циклов назад или более.
-		cor->live->cycles_to_die <= 0 || carr->live == 0)//Также мертвой считается любая каретка, если cycles_to_die <= 0.
+		if ((cor->live->cycles - carr->cycles_live >= cor->live->cycles_to_die) ||//Мертвой считается каретка, которая выполняла операцию live cycles_to_die циклов назад или более.
+		cor->live->cycles_to_die <= 0 || carr->live == 0 )//Также мертвой считается любая каретка, если cycles_to_die <= 0.
+		//||carr->id_par != -carr->reg[0]
 		{
 			remove_curr_if(cor, carr->num);
 			//cor->n_curr--;
 		}
 		else
 			cor->live->id_live = carr->id_par;
- 		carr->cycles_live = cor->live->cycles;
+ 		//carr->cycles_live = cor->live->cycles;
 		carr = carr->next;
 	}
 	//Если количество выполненных за cycles_to_die период
@@ -50,6 +54,9 @@ void	check_live(t_cor *cor)
 		cor->live->cycles_to_die = cor->live->cycles_to_die - CYCLE_DELTA;
 		cor->live->check_count = 0;
 	}
+	else
+		cor->live->check_count = 0;
+
 	//Если в течение MAX_CHECKS раз проверок Cycle_to_die не уменьшался //
 	// то cycle_to_die уменьшается на CYCLE_DELTA
 	if (cor->live->check_count == MAX_CHECKS)
@@ -57,6 +64,8 @@ void	check_live(t_cor *cor)
 		cor->live->cycles_to_die = cor->live->cycles_to_die - CYCLE_DELTA;
 		cor->live->check_count = 0;
 	}
+	//Количество операций live обнуляется после каждой
+	// проверки вне зависимости от ее результатов.
 	cor->live->live_count = 0;
 
 
@@ -125,13 +134,14 @@ void go_cor(t_cor *cor)
 
 		//Проверка происходит через каждые cycles_to_die циклов пока значение cycles_to_die больше нуля.
 		// А после того, как его значение станет меньше или равным нулю, проверка начинает проводиться после каждого цикла.
-		if (--(cor->live->cycles_to_die) <=0 || (cor->live->cycles && (cor->live->cycles % cor->live->cycles_to_die == 0)))
-			check_live(cor);
 		if (++cor->live->cycles == cor->nbr_cycles)
 		{
 			print_dump_code(cor);
 			exit_print("");
 		}
+		if (--(cor->live->cycles_to_die) <=0)// || (cor->live->cycles && (cor->live->cycles % cor->live->cycles_to_die == 0)))
+			check_live(cor);
+//я не понимаю -  всегда буду удалять каретку
 
 	}
 }
