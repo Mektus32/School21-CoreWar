@@ -4,12 +4,15 @@ void print_dump_code(t_cor *cor)
 {
 	int i;
 	int k;
+//	unsigned char z;
 
 	k = 0;
 	i = 0;
 	printf("%.4p : ", k);
 	while (i < MEM_SIZE)
 	{
+//		if (i == 8)
+//			z = cor->code[i];
 		if (i % (64) == 0 && i != 0)
 		{
 			k++;

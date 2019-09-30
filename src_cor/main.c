@@ -105,7 +105,7 @@ t_champ *write_name(int fd)
 	champ = (header_t*)malloc(sizeof(header_t));
 	st = read(fd, &c, 4); // COREWAR_EXEC_MAGIC
 	champ->magic = (c[0] << 24) | (c[1] << 16) | (c[2] << 8) | c[3];
-	st = read(fd, champ->prog_name, PROG_NAME_LENGTH);
+	st = read(fd, (champ->prog_name), PROG_NAME_LENGTH);
 	champ->prog_name[PROG_NAME_LENGTH + 1] = '\0';
 	// теперь NULL ссчитываем
 	st = read(fd, &c, 4);
@@ -115,7 +115,7 @@ t_champ *write_name(int fd)
 	st = read(fd, &c, 4);
 	champ->prog_size = (c[0] << 24) | (c[1] << 16) | (c[2] << 8) | c[3];
 
-	printf("champ->magic = %x, champ->prog_name = %s\n, champ->prog_size = %d\n", champ->magic, champ->prog_name, champ->prog_size);
+	//printf("champ->magic = %x, champ->prog_name = %s\n, champ->prog_size = %d\n", champ->magic, champ->prog_name, champ->prog_size);
 
 
 	if (champ->prog_size > CHAMP_MAX_SIZE)
@@ -124,22 +124,21 @@ t_champ *write_name(int fd)
 	}
 	else
 	{
-		st = read(fd, champ->comment, COMMENT_LENGTH);
+		st = read(fd, &(champ->comment), COMMENT_LENGTH);
 		if (st != COMMENT_LENGTH)
 			exit_print("error comment");
 		champ->comment[COMMENT_LENGTH + 1] = '\0';
 
-		printf("com = %s\n",champ->comment );
+	//	printf("com = %s\n",champ->comment );
 
 		st = read(fd, &c, 4);
 		if (c[0] || c[1] || c[2] || c[3] || st != 4) // оригинал не проверяет на NULL
 			exit_print("no NULL in comment");
 
 		ch->code = ft_strnew(champ->prog_size);
-		ch->code[champ->prog_size + 1] = '\0';
 		ch->id = 0;
 		ch->head_c = champ;
-		st = read(fd, ch->code, champ->prog_size);
+		st = read(fd, (ch->code), champ->prog_size);
 		if (st != champ->prog_size)
 			exit_print("code error");
 	}
@@ -154,11 +153,11 @@ t_champ *valid_champ(int i, char **av)
 	t_champ *champ;
 	int fd;
 
-	printf("valid_champ: av[%d] = %s\n", i, av[i]);
+	//printf("valid_champ: av[%d] = %s\n", i, av[i]);
 	if ((name = ft_strstr(av[i], ".cor")) && name[4] == '\0' && ft_strlen(av[i]) != 4 )
 	{
 
-		printf("name = %s\n", av[i]);
+		//printf("name = %s\n", av[i]);
 		//fd = open( av[i], O_RDONLY);
 		fd = open(av[i], O_RDONLY);
 		champ = write_name(fd);
@@ -332,6 +331,7 @@ void	arena(t_cor *cor)
 {
 
 	int i;
+	char *code_i;
 
 	cor->code = (char *)malloc(sizeof(char) * MEM_SIZE);
 	cor->live = (t_live *)malloc(sizeof(t_live));
@@ -341,7 +341,8 @@ void	arena(t_cor *cor)
 	i = 0;
 	while (i < cor->n)
 	{
-		ft_strncpy_all(cor->code + i * (MEM_SIZE / cor->n), cor->m_ch[i]->code, cor->m_ch[i]->head_c->prog_size);
+		code_i = cor->code + i * (MEM_SIZE / cor->n);
+		ft_strncpy_all((code_i), cor->m_ch[i]->code, cor->m_ch[i]->head_c->prog_size);
 		i++;
 	}
 	//После того, как на арене были размещены исполняемые коды чемпионов, на начало каждого из них устанавливается каретка.
@@ -358,6 +359,10 @@ void	arena(t_cor *cor)
 				(cor->m_ch[i])->head_c->comment);
 		i++;
 	}
+//	ft_printf("=============\n");
+//	print_dump_code(cor);
+//	ft_printf("=============\n");
+
 	go_cor(cor);
 	ft_printf("Contestant %d, \"%s\", has won !", cor->live->id_live,(cor->m_ch[cor->live->id_live - 1])->head_c->prog_name);
 }
@@ -370,6 +375,8 @@ int main(int ac, char **av)
 	{
 		cor = parse_av(ac, av);
 		arena(cor);
+
+
 	}
 	else
 		ft_printf("no file");
@@ -410,8 +417,11 @@ int main(int ac, char **av)
 //* Player 2, weighing 329 bytes, "Pai Mu Tan" ("Tea Time") !
 //Contestant 1, "Sencha", has won !
 //at-h6% ./corewar champs/championships/2018/bcozic/sencha.cor champs/championships/2018/bcozic/pai_mu_tan.cor
-
+//../vm_champs/champs/championships/2018/bcozic/sencha.cor
 //at-r2% ./asm champs/championships/2018/sboulet/NoIdea.s
 //Writing output program to champs/championships/2018/sboulet/NoIdea.cor
 //at-r2% ./corewar champs/championships/2018/sboulet/Hidden.cor champs/championships/2018/sboulet/NoIdea.cor champs/championships/2018/bcozic/sencha.cor
 //Introducing contestants...
+
+
+//./corewar -dump 15 ~/Desktop/corwar_1/arina/vm_champs/champs/championships/2018/sboulet/Hidden.cor ~/Desktop/corwar_1/arina/vm_champs/champs/championships/2018/sboulet/NoIdea.cor ~/Desktop/corwar_1/arina/vm_champs/champs/championships/2018/bcozic/sencha.cor

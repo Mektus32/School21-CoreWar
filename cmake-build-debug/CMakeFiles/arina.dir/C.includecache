@@ -44,7 +44,15 @@ limits.h
 string.h
 -
 
-/Users/qgilbert/Desktop/corwar_1/arina/src_cor/go_cor.c
+/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_live.c
+corewar.h
+/Users/qgilbert/Desktop/corwar_1/arina/src_cor/corewar.h
+
+/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_sti.c
+corewar.h
+/Users/qgilbert/Desktop/corwar_1/arina/src_cor/corewar.h
+
+/Users/qgilbert/Desktop/corwar_1/arina/src_cor/main.c
 corewar.h
 /Users/qgilbert/Desktop/corwar_1/arina/src_cor/corewar.h
 

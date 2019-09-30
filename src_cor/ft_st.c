@@ -26,8 +26,11 @@ void	ft_st_write(t_cor *cor, t_carr *tmp, int b2_2)
 		a = 0;
 		if (b2_2 == 1)
 		{
+//	ft_printf("=============\n");
+//	print_dump_code(cor);
+//	ft_printf("=============\n");
 			ft_memcpy_all(t_ind, cor->code, IND_SIZE, (tmp->cur + 3));
-			a = (IFR8(t_ind)) % IDX_MOD;
+			a = (IFR8(t_ind));
 			p = inttobyte(tmp->reg[(int) t_reg]);
 			ft_memcpy_all(cor->code + (tmp->cur + a) % IDX_MOD, p, 4, 0);
 			free(p);

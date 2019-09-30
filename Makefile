@@ -23,6 +23,12 @@ SRC =	main.c \
 		ft_st.c \
 		go_cor.c \
 		ft_sti.c \
+		ft_aff.c \
+		ft_and.c \
+		ft_fork_lfork.c \
+		ft_or_xor.c \
+		ft_sub.c \
+		print_code.c
 		
 
 

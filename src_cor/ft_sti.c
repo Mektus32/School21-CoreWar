@@ -47,10 +47,10 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 		if (b2[3] == 1)
 		{
 			ft_memcpy_all(t_ind, cor->code, IND_SIZE, (tmp->cur + 1 + 1 + i));
-			a = IFR8(t_ind) % IDX_MOD;
+			a = IFR8(t_ind);
 		}
 		i += 4 * (int)b2[2] - 2 * (int)b2[3];
-		ft_memcpy_all(t_dir, cor->code, DIR_SIZE, (tmp->cur + 1 + 1 + i +  a));
+		ft_memcpy_all(t_dir, cor->code, DIR_SIZE, (tmp->cur + 1 + 1 + i +  a) % IDX_MOD);
 		l = l + IFR16(t_dir);
 	}
 	else
