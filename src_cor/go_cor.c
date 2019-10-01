@@ -20,7 +20,12 @@ unsigned char *inttobyte(int a)
 		bt[1] = '\xff';
 		bt[2] = '\xff';
 		bt[3] = '\xff';
-		bt[4] = '\0';
+//	bt[0] = 0;
+//		bt[1] = 0;
+//		bt[2] = 0;
+//
+//		bt[3] = 0;
+//		bt[4] = '\0';
 		return (bt);
 	}
 	bt[0] = (a >> 24);
@@ -53,16 +58,19 @@ void	check_live(t_cor *cor)
 			remove_curr_if(cor, carr->num);
 			//cor->n_curr--;
 		}
-		else
-			cor->live->id_live = carr->id_par;
+//		else
+//			cor->live->id_live = carr->id_par;
  		//carr->cycles_live = cor->live->cycles;
 		carr = carr->next;
 	}
 	//Если количество выполненных за cycles_to_die период
 	// операций live больше или равно NBR_LIVE, значение cycles_to_die уменьшается на CYCLE_DELTA.
-	if (cor->live->live_count >= NBR_LIVE)
+	if ((cor->live->live_count >= NBR_LIVE))// || (cor->live->check_count >= MAX_CHECKS))
+	{
 		cor->live->cycles_to_die = cor->live->cycles_to_die - CYCLE_DELTA;
-	cor->live->check_count = 0;
+		cor->live->check_count = 0;
+	}
+
 	//Если же количество выполненных операций live меньше установленного лимита,
 	// то виртуальная машина просто запоминает, что была выполнена проверка.
 
@@ -76,10 +84,7 @@ void	check_live(t_cor *cor)
 	}
 	//Количество операций live обнуляется после каждой
 	// проверки вне зависимости от ее результатов.
-	printf("===%d", cor->live->live_count);
 	cor->live->live_count = 0;
-
-
 }
 
 void go_cor(t_cor *cor)
@@ -99,7 +104,7 @@ void go_cor(t_cor *cor)
 			{
 				tmp->cur = (tmp->cur + tmp->i) % MEM_SIZE;
 				tmp->i = 0;
-				ft_memcpy_all(&tmp->prog, cor->code, 1, tmp->cur);
+				ft_memcpy_all(&tmp->prog, cor->code, 1, tmp->cur, 0);
 				tmp->cycles_to = ft_cycles_to(tmp->prog);
 			}
 			// если не доступная операция - двигаем каретку
@@ -152,7 +157,7 @@ void go_cor(t_cor *cor)
 		}
 		if ((cor->live->cycles %  cor->live->cycles_to_die == 0) || (cor->live->cycles_to_die <= 0))// || (cor->live->cycles && (cor->live->cycles % cor->live->cycles_to_die == 0)))
 		{
-			ft_printf(" = %d\n", cor->live->cycles_to_die);
+			//ft_printf(" = %d\n", cor->live->cycles_to_die);
 			check_live(cor);
 		}
 //я не понимаю -  всегда буду удалять каретку

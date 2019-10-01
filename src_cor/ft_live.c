@@ -16,32 +16,42 @@ void	ft_live(t_cor *cor, t_carr *tmp)
 {
 	unsigned char	t_dir[DIR_SIZE];
 	t_carr			*arg_check;
+	int dit;
 
 
 	tmp->cycles_live = cor->live->cycles;
-	ft_memcpy_all(&t_dir, cor->code, 4, tmp->cur + 1);
+	ft_memcpy_all(&t_dir, cor->code, 4, tmp->cur + 1, 0);
 	//Если указанный в качестве аргумента операции live номер совпадает
 	// с номером игрока, то она засчитывает, что это игрок жив.
 	// Например, если значение аргумента равно -2, значит игрок с номером 2 жив.
-//	if (-tmp->id_par == IFR16(t_dir))
-//	{
-//
-//		cor->live->id_live = tmp->id_par;
-//	}
-	arg_check = cor->carr;
-	while (arg_check)
+	int i = 0;
+	while (i < cor->n)
 	{
-		if (-(arg_check->num) == IFR16(t_dir))
+		dit = IFR16(t_dir);
+		if ((cor->m_ch[i]->id + 1) == -dit)
 		{
-			//arg_check->live = 1;
-			//cor->live->id_live = arg_check->id_par;
-			arg_check->cycles_live = cor->live->cycles;
-			cor->live->id_live = arg_check->id_par;
+			cor->m_ch[i]->live = 1;
+			cor->live->id_live = i + 1;
 		}
-		arg_check = arg_check->next;
+		i++;
 	}
-
+//	arg_check = cor->carr;
+//	while (arg_check)
+//	{
+//		if (-(arg_check->num) == IFR16(t_dir))
+//		{
+//			//arg_check->live = 1;
+//			//cor->live->id_live = arg_check->id_par;
+//			cor->live->live_count++;
+//			arg_check->cycles_live = cor->live->cycles;
+//			cor->live->id_live = arg_check->id_par;
+//		}
+//		arg_check = arg_check->next;
+//	}
+	tmp->cycles_live = cor->live->cycles;
 	tmp->live = 1;
+	cor->live->live_count++;
+
 //	if (tmp->reg[0] == -tmp->id_par)
 //	{
 //		tmp->live = 1;
@@ -74,6 +84,6 @@ void	ft_live(t_cor *cor, t_carr *tmp)
 //	}
 //	else
 //		tmp->live = 0;
-	cor->live->live_count++;
+	//cor->live->live_count++;
 	tmp->i = 1 + DIR_SIZE;
 }

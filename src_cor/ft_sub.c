@@ -18,9 +18,9 @@ static void	ft_sub_1(t_cor *cor, t_carr *tmp)
 	unsigned char	t_reg_2;
 	unsigned char	t_reg_3;
 
-	ft_memcpy_all(&t_reg, cor->code, 1, (tmp->cur + 2 + 1));
-	ft_memcpy_all(&t_reg_2, cor->code, 1, (tmp->cur + 2 + 2));
-	ft_memcpy_all(&t_reg_3, cor->code, 1, (tmp->cur + 2 + 3));
+	ft_memcpy_all(&t_reg, cor->code, 1, (tmp->cur + 2 + 1),0);
+	ft_memcpy_all(&t_reg_2, cor->code, 1, (tmp->cur + 2 + 2),0);
+	ft_memcpy_all(&t_reg_3, cor->code, 1, (tmp->cur + 2 + 3),0);
 	if (((int)t_reg > 0 && (int)(t_reg) < REG_NUMBER) &&
 		((int)t_reg_2 > 0 && (int)(t_reg_2) < REG_NUMBER) &&
 		((int)t_reg_3 > 0 && (int)(t_reg_3) < REG_NUMBER))

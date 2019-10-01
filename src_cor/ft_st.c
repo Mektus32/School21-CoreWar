@@ -20,7 +20,7 @@ void	ft_st_write(t_cor *cor, t_carr *tmp, int b2_2)
 	unsigned char	t_reg;
 	unsigned char	t_reg_2;
 
-	ft_memcpy_all(&t_reg,  cor->code, 1, (tmp->cur + 2));
+	ft_memcpy_all(&t_reg,  cor->code, 1, (tmp->cur + 2), 0);
 	if ((int)t_reg > 0 && (int)t_reg < REG_NUMBER)
 	{
 		a = 0;
@@ -29,15 +29,15 @@ void	ft_st_write(t_cor *cor, t_carr *tmp, int b2_2)
 //	ft_printf("=============\n");
 //	print_dump_code(cor);
 //	ft_printf("=============\n");
-			ft_memcpy_all(t_ind, cor->code, IND_SIZE, (tmp->cur + 3));
+			ft_memcpy_all(t_ind, cor->code, IND_SIZE, (tmp->cur + 3), 0);
 			a = (IFR8(t_ind));
 			p = inttobyte(tmp->reg[(int) t_reg]);
-			ft_memcpy_all(cor->code + (tmp->cur + a) % IDX_MOD, p, 4, 0);
+			ft_memcpy_all(cor->code, p, 4, 0, (tmp->cur + a) % IDX_MOD);
 			free(p);
 		}
 		else
 		{
-			ft_memcpy_all(&t_reg_2, cor->code, 1, (tmp->cur + 3));
+			ft_memcpy_all(&t_reg_2, cor->code, 1, (tmp->cur + 3), 0);
 			if ((int) t_reg_2 > 0 && (int) t_reg_2 < REG_NUMBER)
 				tmp->reg[(int) t_reg_2] = (int) tmp->reg[(int) t_reg];
 		}

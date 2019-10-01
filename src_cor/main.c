@@ -12,6 +12,39 @@
 
 #include "corewar.h"
 
+void free_cor(t_cor *cor)
+{
+	int i;
+
+	i = 0;
+	free(cor->code);
+	free(cor->colormap);
+	free(cor->live);
+	while(cor->carr)
+	{
+		remove_curr_if(cor, cor->carr->num);
+
+	}
+	while (i < cor->n)
+	{
+		free(cor->m_2[i]->code);
+		free(cor->m_2[i]->head_c);
+		free(cor->m_2[i]);
+	//	free(cor->m_ch[i]);
+		//free(cor->m_2[i]);
+//		if (cor->m_2[i]->code)
+//		{
+//			free(cor->m_2[i]->code);
+//			free(cor->m_2[i]->head_c);
+//			free(cor->m_2[i]);
+//		}
+
+		i++;
+	}
+	free(cor);
+
+}
+
 char	*ft_strncpy_all(char *dest, const char *source, size_t n)
 {
 	size_t	i;
@@ -30,7 +63,7 @@ char	*ft_strncpy_all(char *dest, const char *source, size_t n)
 	return (dest);
 }
 
-void	*ft_memcpy_all(void *dst, const void *src, size_t n, int start)
+void	*ft_memcpy_all(void *dst, const void *src, size_t n, int start_s, int start_d)
 {
 	unsigned char		*str1;
 	unsigned char	*str2;
@@ -45,14 +78,17 @@ void	*ft_memcpy_all(void *dst, const void *src, size_t n, int start)
 	if (!src)
 	{
 		while (n-- > 0)
-			str1[i++] = 0;
+		{
+			str1[(start_d + i) % MEM_SIZE] = 0;
+			i++;
+		}
 	}
 	else
 	{
 		while (n-- > 0)
 		{
-			c = str2[(i + start) % MEM_SIZE];
-			str1[i] = str2[(i + start) % MEM_SIZE];;
+			c = str2[(i + start_s) % MEM_SIZE];
+			str1[(i + start_d) % MEM_SIZE] = str2[(i + start_s) % MEM_SIZE];
 			//str1[i] = src + i;
 			i++;
 		}
@@ -129,7 +165,7 @@ t_champ *write_name(int fd)
 			exit_print("error comment");
 		champ->comment[COMMENT_LENGTH + 1] = '\0';
 
-	//	printf("com = %s\n",champ->comment );
+		//	printf("com = %s\n",champ->comment );
 
 		st = read(fd, &c, 4);
 		if (c[0] || c[1] || c[2] || c[3] || st != 4) // оригинал не проверяет на NULL
@@ -196,7 +232,7 @@ void make_champ_n(int ac, char **av, int n, t_cor *cor)
 			i++;
 		cor->m_2[i] = valid_champ(++n, av);
 	}
-		//exit_print("not available n\n");
+	//exit_print("not available n\n");
 }
 
 
@@ -355,16 +391,17 @@ void	arena(t_cor *cor)
 	while (i < cor->n)
 	{
 		ft_printf("* Player %d, weighing %d bytes, \"%s\" (\"%s\") !\n", i + 1,
-				(cor->m_ch[i])->head_c->prog_size, (cor->m_ch[i])->head_c->prog_name,
-				(cor->m_ch[i])->head_c->comment);
+				  (cor->m_ch[i])->head_c->prog_size, (cor->m_ch[i])->head_c->prog_name,
+				  (cor->m_ch[i])->head_c->comment);
 		i++;
 	}
 //	ft_printf("=============\n");
 //	print_dump_code(cor);
 //	ft_printf("=============\n");
-
 	go_cor(cor);
-	ft_printf("Contestant %d, \"%s\", has won !", cor->live->id_live,(cor->m_ch[cor->live->id_live - 1])->head_c->prog_name);
+	ft_printf("Contestant %d, \"%s\", has won !", cor->live->id_live, (cor->m_ch[cor->live->id_live - 1])->head_c->prog_name);
+	free_cor(cor);
+
 }
 
 int main(int ac, char **av)
@@ -422,6 +459,8 @@ int main(int ac, char **av)
 //Writing output program to champs/championships/2018/sboulet/NoIdea.cor
 //at-r2% ./corewar champs/championships/2018/sboulet/Hidden.cor champs/championships/2018/sboulet/NoIdea.cor champs/championships/2018/bcozic/sencha.cor
 //Introducing contestants...
+//./corewar champs/championships/2018/sboulet/Hidden.cor champs/championships/2018/sboulet/NoIdea.cor champs/championships/2018/bcozic/sencha.cor
 
 
 //./corewar -dump 15 ~/Desktop/corwar_1/arina/vm_champs/champs/championships/2018/sboulet/Hidden.cor ~/Desktop/corwar_1/arina/vm_champs/champs/championships/2018/sboulet/NoIdea.cor ~/Desktop/corwar_1/arina/vm_champs/champs/championships/2018/bcozic/sencha.cor
+//./corewar  ~/Desktop/corwar_1/arina/vm_champs/champs/championships/2018/sboulet/Hidden.cor ~/Desktop/corwar_1/arina/vm_champs/champs/championships/2018/sboulet/NoIdea.cor ~/Desktop/corwar_1/arina/vm_champs/champs/championships/2018/bcozic/sencha.cor

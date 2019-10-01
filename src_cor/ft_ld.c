@@ -22,14 +22,14 @@ int		ft_ld_write(t_cor *cor, t_carr *tmp, int i, int l)
 	a = 0;
 	if (i == 5)
 	{
-		ft_memcpy_all(&t_ind, cor->code, IND_SIZE, (tmp->cur + 1 + 1));
+		ft_memcpy_all(&t_ind, cor->code, IND_SIZE, (tmp->cur + 1 + 1), 0);
 		a = (l == 1) ? IFR8(t_ind) : (IFR8(t_ind)) % IDX_MOD;
 	}
 
-	ft_memcpy_all(t_dir, cor->code, DIR_SIZE, (tmp->cur + 1 + 1 + a));
+	ft_memcpy_all(t_dir, cor->code, DIR_SIZE, (tmp->cur + 1 + 1 + a), 0);
 	//ft_memcpy(&t_dir, cor->code + (tmp->cur + 1 + 1 + a) % MEM_SIZE, IND_SIZE);
 
-	ft_memcpy_all(&t_reg, cor->code, 1, (tmp->cur + (i - 1)));
+	ft_memcpy_all(&t_reg, cor->code, 1, (tmp->cur + (i - 1)), 0);
 	if ((int)t_reg > 0 && (int)t_reg < REG_NUMBER)
 	{
 		tmp->reg[(int)t_reg] = (IFR16(t_dir));
@@ -82,7 +82,7 @@ void    ft_ldi(t_cor *cor, t_carr *tmp, int l)
 	b2 = base16_2_cor(cor, tmp);
 	if (b2[0] == 0 && b2[1] == 1)
 	{
-		ft_memcpy_all(&t_reg,  cor->code, 1, (tmp->cur + i++));
+		ft_memcpy_all(&t_reg,  cor->code, 1, (tmp->cur + i++), 0);
 		if (!((int)t_reg > 0 && (int)(t_reg) < REG_NUMBER))
 			f_err = 1;
 		k = k + (int)t_reg;
@@ -92,25 +92,25 @@ void    ft_ldi(t_cor *cor, t_carr *tmp, int l)
 		a = 0;
 		if (b2[1] == 1)
 		{
-			ft_memcpy_all(t_ind, cor->code, IND_SIZE, (tmp->cur + 2));
+			ft_memcpy_all(t_ind, cor->code, IND_SIZE, (tmp->cur + 2), 0);
 			a = IFR8(t_ind) % IDX_MOD;
 		}
 		i += 4 * (int)b2[0] - 2 * (int)b2[1];
-		ft_memcpy_all(t_dir, cor->code, DIR_SIZE, (tmp->cur + 2 + a));
+		ft_memcpy_all(t_dir, cor->code, DIR_SIZE, (tmp->cur + 2 + a), 0);
 		k = k + IFR16(t_dir);
 	}
 	else
 		f_err = 1;
 	if (b2[2] == 0 && b2[3] == 1)
 	{
-		ft_memcpy_all(&t_reg,  cor->code, 1, (tmp->cur + i++));
+		ft_memcpy_all(&t_reg,  cor->code, 1, (tmp->cur + i++), 0);
 		if (!((int)t_reg > 0 && (int)(t_reg) < REG_NUMBER))
 			f_err = 1;
 		k = k + (int)t_reg;
 	}
 	else if ((b2[2] == 1 && b2[3] == 0))
 	{
-		ft_memcpy_all(t_dir, cor->code, DIR_SIZE, (tmp->cur + i));
+		ft_memcpy_all(t_dir, cor->code, DIR_SIZE, (tmp->cur + i), 0);
 		i += 4;
 		k = k + IFR16(t_dir);
 	}
@@ -124,10 +124,10 @@ void    ft_ldi(t_cor *cor, t_carr *tmp, int l)
 		i++;
 		if (f_err == 0)
 		{
-			ft_memcpy_all(&t_reg,  cor->code, 1, tmp->cur + i);
+			ft_memcpy_all(&t_reg,  cor->code, 1, tmp->cur + i, 0);
 			if ((int)t_reg > 0 && (int)(t_reg) < REG_NUMBER)
 			{
-				ft_memcpy_all(res,  cor->code , 4, (tmp->cur + k) % (IDX_MOD - l *  IDX_MOD + 1 * l) % MEM_SIZE);
+				ft_memcpy_all(res,  cor->code , 4, (tmp->cur + k) % (IDX_MOD - l *  IDX_MOD + 1 * l) % MEM_SIZE, 0);
 				tmp->reg[(int)t_reg] = IFR16(res);
 			}
 		}

@@ -20,7 +20,7 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 
 	if (b2[0] == 0 && b2[1] == 1)
 	{
-		ft_memcpy_all(&t_reg,  cor->code, 1, (tmp->cur + i++));
+		ft_memcpy_all(&t_reg,  cor->code, 1, (tmp->cur + i++), 0);
 		if (!((int)t_reg > 0 && (int)(t_reg) < REG_NUMBER))
 			f_err = 1;
 	}
@@ -34,7 +34,7 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 
 	if (b2[2] == 0 && b2[3] == 1)
 	{
-		ft_memcpy_all(&t_reg_2,  cor->code, 1, (tmp->cur + 1 + i++));
+		ft_memcpy_all(&t_reg_2,  cor->code, 1, (tmp->cur + 1 + i++), 0);
 		if (!(((int)t_reg_2) > 0) && (int)(t_reg_2) < REG_NUMBER)
 			f_err = 1;
 		else
@@ -46,18 +46,18 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 		a = 0;
 		if (b2[3] == 1)
 		{
-			ft_memcpy_all(t_ind, cor->code, IND_SIZE, (tmp->cur + 1 + 1 + i));
+			ft_memcpy_all(t_ind, cor->code, IND_SIZE, (tmp->cur + 1 + 1 + i), 0);
 			a = IFR8(t_ind);
 		}
 		i += 4 * (int)b2[2] - 2 * (int)b2[3];
-		ft_memcpy_all(t_dir, cor->code, DIR_SIZE, (tmp->cur + 1 + 1 + i +  a) % IDX_MOD);
+		ft_memcpy_all(t_dir, cor->code, DIR_SIZE, (tmp->cur + 1 + 1 + i +  a) % IDX_MOD, 0);
 		l = l + IFR16(t_dir);
 	}
 	else
 		f_err = 1;
 	if (b2[4] == 0 && b2[5] == 1)
 	{
-		ft_memcpy_all(&t_reg_2,  cor->code, 1, (tmp->cur + 1 + i++));
+		ft_memcpy_all(&t_reg_2,  cor->code, 1, (tmp->cur + 1 + i++),0);
 		if (!(((int)t_reg_2) > 0) && (int)(t_reg_2) < REG_NUMBER)
 			f_err = 1;
 		else
@@ -66,7 +66,7 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 	else if (b2[4] == 1 && b2[5] == 0)
 	{
 		i += 4;
-		ft_memcpy_all(t_dir_1, cor->code, DIR_SIZE, (tmp->cur + 1 + 1 + i));
+		ft_memcpy_all(t_dir_1, cor->code, DIR_SIZE, (tmp->cur + 1 + 1 + i),0);
 		l = l + IFR16(t_dir_1);
 	}
 	else
@@ -92,7 +92,7 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 		unsigned char *p;
 
 		p = inttobyte(tmp->reg[(int) t_reg]);
-		ft_memcpy_all(cor->code + (tmp->cur + 1 + 1 + l) % IDX_MOD , p, 4, 0);
+		ft_memcpy_all(cor->code, p, 4, 0, (tmp->cur + 1 + 1 + l) % IDX_MOD);
 //
 //		write(1,"!!\n",3);
 //		k = 0;
@@ -101,7 +101,7 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 //			ft_memcpy(c, (cor->code + (tmp->cur + 1 + 1 + l + k++) % IDX_MOD % MEM_SIZE), 1);
 //			printf("|%x| %x|\n",c[0], c[1]);
 //		}
-//		free(p);
+		free(p);
 	}
 
 	tmp->i = i;

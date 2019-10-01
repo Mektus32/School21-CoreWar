@@ -86,6 +86,7 @@ typedef struct		s_champ
 	header_t			*head_c;
 	unsigned int		id;
 	char				*code;
+	int 				live;
 }					t_champ;
 
 typedef struct 		s_carr;
@@ -135,7 +136,7 @@ typedef struct 		s_carr
 #define IFR16(x)	(int)(x[0] << 24 | x[1] << 16 | x[2] << 8 | x[3])
 #define IFR8(x)		(int)(x[0] << 8 | x[1])
 
-void	*ft_memcpy_all(void *dst, const void *src, size_t n, int start);
+void	*ft_memcpy_all(void *dst, const void *src, size_t n, int start, int ctart_d);
 
 //void	*ft_memcpy_all(void *dst, const void *src, size_t n);
 char	*ft_strncpy_all(char *dest, const char *source, size_t n);
