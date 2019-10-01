@@ -92,7 +92,6 @@ t_carr *carr_list(t_cor *cor)
 	t_carr *carr_tmp;
 
 	carr = new_curr(1);
-	//ft_memcpy(&carr->prog, cor->code + carr->cur, 1);
 	carr->cycles_to = 0;
 	carr->i = 0;
 	carr->cur = 0;
@@ -103,7 +102,6 @@ t_carr *carr_list(t_cor *cor)
 	{
 		carr_tmp = new_curr(i);
 		carr_tmp->cur = (i - 1) * (MEM_SIZE / cor->n);
-		//ft_memcpy(&carr_tmp->prog, cor->code + carr_tmp->cur, 1);
 		carr_tmp->cycles_to = 0;
 		carr_tmp->i = 0;
 		carr_tmp->num = (i - 1);
