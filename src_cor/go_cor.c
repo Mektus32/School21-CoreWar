@@ -16,7 +16,7 @@ unsigned char *inttobyte(int a)
 	bt = malloc(sizeof(unsigned char) * 5);
 	if (a == 0)
 	{
-		bt[0] = 255;//255'\xff'
+		bt[0] = '\xff';//255
 		bt[1] = '\xff';
 		bt[2] = '\xff';
 		bt[3] = '\xff';
@@ -49,14 +49,13 @@ void	check_live(t_cor *cor)
 	cor->live->check_count++;
 	while(carr)
 	{
-		if ((cor->live->cycles - carr->cycles_live > cor->live->cycles_to_die) ||//Мертвой считается каретка, которая выполняла операцию live cycles_to_die циклов назад или более.
-   	 cor->live->cycles_to_die <= 0  )//Также мертвой считается любая каретка, если cycles_to_die <= 0.
+		if (((cor->live->cycles - carr->cycles_live) >= cor->live->cycles_to_die) ||//Мертвой считается каретка, которая выполняла операцию live cycles_to_die циклов назад или более.
+   	 cor->live->cycles_to_die <= 0)//Также мертвой считается любая каретка, если cycles_to_die <= 0.
 		//cor->live->cycles_to_die <= 0 ||
 			//||carr->id_par != -carr->reg[0]
 			// carr->live == 0
 		{
 			remove_curr_if(cor, carr->num);
-			//cor->n_curr--;
 		}
 //		else
 //			cor->live->id_live = carr->id_par;

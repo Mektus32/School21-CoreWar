@@ -28,7 +28,7 @@ void free_cor(t_cor *cor)
 	while (i < cor->n)
 	{
 		free(cor->m_2[i]->code);
-		free(cor->m_2[i]->head_c);
+		//free(cor->m_2[i]->head_c);
 		free(cor->m_2[i]);
 	//	free(cor->m_ch[i]);
 		//free(cor->m_2[i]);
@@ -68,7 +68,7 @@ void	*ft_memcpy_all(void *dst, const void *src, size_t n, int start_s, int start
 	unsigned char		*str1;
 	unsigned char	*str2;
 	int					i;
-	unsigned char	c;
+	//unsigned char	c;
 
 
 	str1 = (unsigned char *)dst;
@@ -87,7 +87,7 @@ void	*ft_memcpy_all(void *dst, const void *src, size_t n, int start_s, int start
 	{
 		while (n-- > 0)
 		{
-			c = str2[(i + start_s) % MEM_SIZE];
+			//c = str2[(i + start_s) % MEM_SIZE];
 			str1[(i + start_d) % MEM_SIZE] = str2[(i + start_s) % MEM_SIZE];
 			//str1[i] = src + i;
 			i++;
@@ -132,38 +132,37 @@ void exit_print(char *str)
  */
 t_champ *write_name(int fd)
 {
-	header_t *champ;
+
 	t_champ *ch;
 	unsigned char	c[4];
 	size_t st;
 
 	ch = (t_champ*)malloc(sizeof(t_champ));
-	champ = (header_t*)malloc(sizeof(header_t));
 	st = read(fd, &c, 4); // COREWAR_EXEC_MAGIC
-	champ->magic = (c[0] << 24) | (c[1] << 16) | (c[2] << 8) | c[3];
-	st = read(fd, (champ->prog_name), PROG_NAME_LENGTH);
-	champ->prog_name[PROG_NAME_LENGTH + 1] = '\0';
+	ch->magic = (c[0] << 24) | (c[1] << 16) | (c[2] << 8) | c[3];
+	st = read(fd, (ch->prog_name), PROG_NAME_LENGTH);
+	ch->prog_name[PROG_NAME_LENGTH + 1] = '\0';
 	// теперь NULL ссчитываем
 	st = read(fd, &c, 4);
 	if (c[0] || c[1] || c[2] || c[3] || st != 4) // оригинал не проверяет на NULL
 		exit_print("no NULL in name");
 	// Bot size
 	st = read(fd, &c, 4);
-	champ->prog_size = (c[0] << 24) | (c[1] << 16) | (c[2] << 8) | c[3];
+	ch->prog_size = (c[0] << 24) | (c[1] << 16) | (c[2] << 8) | c[3];
 
 	//printf("champ->magic = %x, champ->prog_name = %s\n, champ->prog_size = %d\n", champ->magic, champ->prog_name, champ->prog_size);
 
 
-	if (champ->prog_size > CHAMP_MAX_SIZE)
+	if (ch->prog_size > CHAMP_MAX_SIZE)
 	{
 		exit_print("File has a code size that differ from what its header says");
 	}
 	else
 	{
-		st = read(fd, &(champ->comment), COMMENT_LENGTH);
+		st = read(fd, &(ch->comment), COMMENT_LENGTH);
 		if (st != COMMENT_LENGTH)
 			exit_print("error comment");
-		champ->comment[COMMENT_LENGTH + 1] = '\0';
+		ch->comment[COMMENT_LENGTH + 1] = '\0';
 
 		//	printf("com = %s\n",champ->comment );
 
@@ -171,11 +170,10 @@ t_champ *write_name(int fd)
 		if (c[0] || c[1] || c[2] || c[3] || st != 4) // оригинал не проверяет на NULL
 			exit_print("no NULL in comment");
 
-		ch->code = ft_strnew(champ->prog_size);
+		ch->code = ft_strnew(ch->prog_size);
 		ch->id = 0;
-		ch->head_c = champ;
-		st = read(fd, (ch->code), champ->prog_size);
-		if (st != champ->prog_size)
+		st = read(fd, (ch->code), ch->prog_size);
+		if (st != ch->prog_size)
 			exit_print("code error");
 	}
 	return (ch);
@@ -378,7 +376,7 @@ void	arena(t_cor *cor)
 	while (i < cor->n)
 	{
 		code_i = cor->code + i * (MEM_SIZE / cor->n);
-		ft_strncpy_all((code_i), cor->m_ch[i]->code, cor->m_ch[i]->head_c->prog_size);
+		ft_strncpy_all((code_i), cor->m_ch[i]->code, cor->m_ch[i]->prog_size);
 		i++;
 	}
 	//После того, как на арене были размещены исполняемые коды чемпионов, на начало каждого из них устанавливается каретка.
@@ -391,15 +389,15 @@ void	arena(t_cor *cor)
 	while (i < cor->n)
 	{
 		ft_printf("* Player %d, weighing %d bytes, \"%s\" (\"%s\") !\n", i + 1,
-				  (cor->m_ch[i])->head_c->prog_size, (cor->m_ch[i])->head_c->prog_name,
-				  (cor->m_ch[i])->head_c->comment);
+				  (cor->m_ch[i])->prog_size, (cor->m_ch[i])->prog_name,
+				  (cor->m_ch[i])->comment);
 		i++;
 	}
 //	ft_printf("=============\n");
 //	print_dump_code(cor);
 //	ft_printf("=============\n");
 	go_cor(cor);
-	ft_printf("Contestant %d, \"%s\", has won !", cor->live->id_live, (cor->m_ch[cor->live->id_live - 1])->head_c->prog_name);
+	ft_printf("Contestant %d, \"%s\", has won !", cor->live->id_live, (cor->m_ch[cor->live->id_live - 1])->prog_name);
 	free_cor(cor);
 
 }

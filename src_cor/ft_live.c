@@ -31,7 +31,7 @@ void	ft_live(t_cor *cor, t_carr *tmp)
 		dit = IFR16(t_dir);
 		if ((cor->m_ch[i]->id + 1) == -dit)
 		{
-			cor->m_ch[i]->live = 1;
+			//cor->m_ch[i]->live = 1;
 			cor->live->id_live = i + 1;
 		}
 		i++;

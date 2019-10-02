@@ -33,7 +33,7 @@ void    ft_or(t_cor *cor, t_carr *tmp)
 		if (b2[1] == 1)
 		{
 			ft_memcpy_all(t_ind, cor->code, IND_SIZE, (tmp->cur + 1 + 1),0);
-			a = IFR8(t_ind) % IDX_MOD; //((t_ind[0] << 8) | t_ind[1]) % IDX_MOD;
+			a = IFR8(t_ind) % IDX_MOD;
 		}
 		i += 4 * (int)b2[4] - 2 * (int)b2[5];
 		ft_memcpy_all(t_dir, cor->code, DIR_SIZE,  (tmp->cur + 1 + 1 + a),0);
