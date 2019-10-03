@@ -12,44 +12,40 @@ void    ft_or(t_cor *cor, t_carr *tmp)
 	int f_err;
 	int i;
 	int a;
-	unsigned char t_ind[IND_SIZE];
-	unsigned char t_dir[DIR_SIZE];
+	short			t_ind;
+	unsigned int	t_dir;
 
 	i = 2;
 	a = 0;
 	f_err = 0;
 	b2 = base16_2_cor(cor, tmp);
-	//printf("b = 0|%d 1|%d 2|%d 3|%d 4|%d 5|%d 6|%d 7|%d\n", b2[0], b2[1], b2[2], b2[3], b2[4], b2[5], b2[6], b2[7]);
 	if (b2[0] == 0 && b2[1] == 1)
 	{
-		i += 1;
-		ft_memcpy_all(&t_reg_3,  cor->code, 1, (tmp->cur + 1 + 1),0);
+		t_reg_3 = read_byte_1(cor->code, tmp->cur + i++);
 		a1 = (int)t_reg_3;
-		if ( !((int)t_reg_3 > 0 && (int)(t_reg_3) < REG_NUMBER))
+		if (!(t_reg_3 > 0 && t_reg_3 < REG_NUMBER))
 			f_err = 1;
 	}
 	else if ((b2[0] == 1 && b2[1] == 1) || (b2[0] == 1 && b2[1] == 0))
 	{
 		if (b2[1] == 1)
 		{
-			ft_memcpy_all(t_ind, cor->code, IND_SIZE, (tmp->cur + 1 + 1),0);
-			a = IFR8(t_ind) % IDX_MOD;
+			t_ind = read_byte_2(cor->code, tmp->cur + 1 + 1);
+			a = t_ind % IDX_MOD;
 		}
 		i += 4 * (int)b2[4] - 2 * (int)b2[5];
-		ft_memcpy_all(t_dir, cor->code, DIR_SIZE,  (tmp->cur + 1 + 1 + a),0);
-		a1 = IFR16(t_dir);
+		t_dir = read_byte_4(cor->code, tmp->cur + 1 + 1 + a);
+		a1 = t_dir;
 	}
 	else
 		f_err = 1;
+
 	if (b2[2] == 0 && b2[3] == 1)
 	{
-		i += 1;
-		ft_memcpy_all(&t_reg_3,  cor->code, 1, (tmp->cur + 1 + 1),0);
-		if (!((int)t_reg_3 > 0 && (int)(t_reg_3) < REG_NUMBER))
+		t_reg_3 = read_byte_1(cor->code, tmp->cur + i++);
+		if (!(t_reg_3 > 0 && (t_reg_3) < REG_NUMBER))
 			f_err = 1;
-		a2 = (int)t_reg_3;
-
-
+		a2 = t_reg_3;
 	}
 	else if ((b2[2] == 1 && b2[3] == 1) || (b2[2] == 1 && b2[3] == 0))
 	{
@@ -57,34 +53,28 @@ void    ft_or(t_cor *cor, t_carr *tmp)
 		a = 0;
 		if (b2[3] == 1)
 		{
-			ft_memcpy_all(t_ind, cor->code, IND_SIZE,  (tmp->cur + i),0);
-			a = IFR8(t_ind);
+			t_ind = read_byte_2(cor->code, tmp->cur + i);
+			a = t_ind;
 		}
 		i += 4 * (int)b2[2] - 2 * (int)b2[3];
-		ft_memcpy_all(t_dir, cor->code , DIR_SIZE, (tmp->cur + i + a),0);
-		a2 = IFR16(t_dir);
-
+		t_dir = read_byte_4(cor->code, tmp->cur + i + a);
+		a2 = t_dir;
 	}
 	else
 		f_err = 1;
 	if (b2[4] == 0 && b2[5] == 1)
 	{
-		i++;
-		if (f_err == 0)
+		t_reg_3 = read_byte_1(cor->code, tmp->cur + i++);
+		if ((t_reg_3 > 0 && (t_reg_3) < REG_NUMBER) && !f_err)
 		{
-			ft_memcpy_all(&t_reg_3,  cor->code, 1, (tmp->cur + 1 + 1),0);
-			if (((int)t_reg_3 > 0 && (int)(t_reg_3) < REG_NUMBER) && !f_err)
-			{
-				tmp->reg[(int)t_reg_3] = a1 | a2;
-				tmp->carry = (tmp->reg[(int)t_reg_3] == 0) ? 1 : 0;
-
-			}
-
+			tmp->reg[(int)t_reg_3] = a1 | a2;
+			tmp->carry = (tmp->reg[(int)t_reg_3] == 0) ? 1 : 0;
 		}
 	}
 	else
 		i += 4 * (int)b2[4] - 2 * (int)b2[5];
 	tmp->i = i;
+	free(b2);
 }
 
 void    ft_xor(t_cor *cor, t_carr *tmp)
@@ -96,76 +86,67 @@ void    ft_xor(t_cor *cor, t_carr *tmp)
 	int f_err;
 	int i;
 	int a;
-	unsigned char t_ind[IND_SIZE];
-	unsigned char t_dir[DIR_SIZE];
+	short			t_ind;
+	unsigned int	t_dir;
 
 	i = 2;
 	a = 0;
 	f_err = 0;
 	b2 = base16_2_cor(cor, tmp);
-	//printf("b = 0|%d 1|%d 2|%d 3|%d 4|%d 5|%d 6|%d 7|%d\n", b2[0], b2[1], b2[2], b2[3], b2[4], b2[5], b2[6], b2[7]);
 	if (b2[0] == 0 && b2[1] == 1)
 	{
-		i += 1;
-		ft_memcpy_all(&t_reg_3,  cor->code, 1, (tmp->cur + 1 + 1), 0);
+		t_reg_3 = read_byte_1(cor->code, tmp->cur + i++);
 		a1 = (int)t_reg_3;
-		if ( !((int)t_reg_3 > 0 && (int)(t_reg_3) < REG_NUMBER))
+		if (!(t_reg_3 > 0 && t_reg_3 < REG_NUMBER))
 			f_err = 1;
 	}
 	else if ((b2[0] == 1 && b2[1] == 1) || (b2[0] == 1 && b2[1] == 0))
 	{
 		if (b2[1] == 1)
 		{
-			ft_memcpy_all(t_ind, cor->code, IND_SIZE, (tmp->cur + 1 + 1),0);
-			a = IFR8(t_ind) % IDX_MOD; //((t_ind[0] << 8) | t_ind[1]) % IDX_MOD;
+			t_ind = read_byte_2(cor->code, tmp->cur + 1 + 1);
+			a = t_ind % IDX_MOD;
 		}
 		i += 4 * (int)b2[4] - 2 * (int)b2[5];
-		ft_memcpy_all(t_dir, cor->code, DIR_SIZE, (tmp->cur + 1 + 1 + a), 0);
-		a1 = IFR16(t_dir);
+		t_dir = read_byte_4(cor->code, tmp->cur + 1 + 1 + a);
+		a1 = t_dir;
 	}
 	else
 		f_err = 1;
 
 	if (b2[2] == 0 && b2[3] == 1)
 	{
-		i += 1;
-		ft_memcpy_all(&t_reg_3,  cor->code, 1, (tmp->cur + 1 + 1),0);
-		if ( !((int)t_reg_3 > 0 && (int)(t_reg_3) < REG_NUMBER))
+		t_reg_3 = read_byte_1(cor->code, tmp->cur + i++);
+		if (!(t_reg_3 > 0 && (t_reg_3) < REG_NUMBER))
 			f_err = 1;
-		a2 = (int)t_reg_3;
-
-
+		a2 = t_reg_3;
 	}
 	else if ((b2[2] == 1 && b2[3] == 1) || (b2[2] == 1 && b2[3] == 0))
 	{
+
 		a = 0;
 		if (b2[3] == 1)
 		{
-			ft_memcpy_all(t_ind, cor->code, IND_SIZE, (tmp->cur + i),0);
-			a = IFR8(t_ind);
+			t_ind = read_byte_2(cor->code, tmp->cur + i);
+			a = t_ind;
 		}
 		i += 4 * (int)b2[2] - 2 * (int)b2[3];
-		ft_memcpy_all(t_dir, cor->code, DIR_SIZE, (tmp->cur + i + a),0);
-		a2 = IFR16(t_dir);
-
+		t_dir = read_byte_4(cor->code, tmp->cur + i + a);
+		a2 = t_dir;
 	}
 	else
 		f_err = 1;
 	if (b2[4] == 0 && b2[5] == 1)
 	{
-		i++;
-		if (f_err == 0)
+		t_reg_3 = read_byte_1(cor->code, tmp->cur + i++);
+		if ((t_reg_3 > 0 && (t_reg_3) < REG_NUMBER) && !f_err)
 		{
-			ft_memcpy_all(&t_reg_3,  cor->code, 1,  (tmp->cur + 1 + 1),0);
-			if (((int)t_reg_3 > 0 && (int)(t_reg_3) < REG_NUMBER) && f_err == 0)
-			{
-				tmp->reg[(int)t_reg_3] = a1 ^ a2;
-				tmp->carry = (tmp->reg[(int)t_reg_3] == 0) ? 1 : 0;
-
-			}
+			tmp->reg[(int)t_reg_3] = a1 ^ a2;
+			tmp->carry = (tmp->reg[(int)t_reg_3] == 0) ? 1 : 0;
 		}
 	}
 	else
 		i += 4 * (int)b2[4] - 2 * (int)b2[5];
 	tmp->i = i;
+	free(b2);
 }

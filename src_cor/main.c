@@ -45,6 +45,73 @@ void free_cor(t_cor *cor)
 
 }
 
+unsigned char read_byte_1(const char *src, int i)
+{
+	unsigned char	c_1;
+	c_1 = src[i % MEM_SIZE];
+	return(c_1);
+}
+
+
+short read_byte_2(const char *src, int i)
+{
+	short			c_2;
+
+	c_2 = src[(i + 1) % MEM_SIZE];
+	c_2 = c_2 << 8;
+	c_2 = c_2 | src[(i) % MEM_SIZE];
+	return(c_2);
+}
+
+unsigned int read_byte_4(const char *src, int i)
+{
+	short			c_4;
+
+	c_4 = 0;
+	c_4 = c_4 << 8 | (src[(i + 3) % MEM_SIZE]);
+	c_4 = c_4 << 8 | (src[(i + 2) % MEM_SIZE]);
+	c_4 = c_4 << 8 | (src[(i + 1) % MEM_SIZE]);
+	c_4 = c_4 << 8 | (src[(i) % MEM_SIZE]);
+	return ((unsigned int)c_4);
+}
+//возможно три случая
+// 1 - получить номер регистра (1 байт)
+// 2 - получтить ссылку (2 байт)
+// 3 - получить 4 байта
+//
+//void *read_byte(const char *src, int i, int c)
+//{
+//	unsigned char	c_1;
+//	short			c_2;
+//	unsigned int	c_4;
+//
+//	if (c == 1)
+//	{
+//		c_1 = src[i % MEM_SIZE];
+//		return(c_1);
+//	}
+//	else if (c == 2)
+//	{
+//		c_2 = src[(i + 1) % MEM_SIZE];
+//		c_2 = c_2 << 8;
+//		c_2 = c_2 | src[(i) % MEM_SIZE];
+//		return ((short)c_2);
+//	}
+//	else if (c == 4)
+//	{
+//		c_4 = 0;
+//		c_4 = c_4 << 8 | (src[(i + 3) % MEM_SIZE]);
+//		c_4 = c_4 << 8 | (src[(i + 2) % MEM_SIZE]);
+//		c_4 = c_4 << 8 | (src[(i + 1) % MEM_SIZE]);
+//		c_4 = c_4 << 8 | (src[(i) % MEM_SIZE]);
+//
+//		return ((unsigned int)c_4);
+//	}
+//	else
+//		return (0);
+//}
+
+
 char	*ft_strncpy_all(char *dest, const char *source, size_t n)
 {
 	size_t	i;
@@ -63,12 +130,56 @@ char	*ft_strncpy_all(char *dest, const char *source, size_t n)
 	return (dest);
 }
 
+//t_copy *init_copy(const void *src, size_t n, int i_s, int i_d)
+//{
+//	t_copy  *copy;
+//
+//	&(copy->src) = src;
+//	copy->i_s = i_s;
+//	copy->i_d = i_d;
+//	copy->n = n;
+//
+//	return (copy);
+//}
+//void	*ft_memcpy_bytes(void *dst, t_copy *s)
+//{
+//	unsigned char		*str1;
+//	unsigned char		*str2;
+//	int					i;
+//
+//	str1 = (unsigned char *)dst;
+//	str2 = s->src;
+//	i = 0;
+//
+//	if (!str2)
+//	{
+//		while (s->n-- > 0)
+//		{
+//			str1[(s->i_d + i) % MEM_SIZE] = 0;
+//			i++;
+//		}
+//	}
+//	else
+//	{
+//		while (s->n-- > 0)
+//		{
+//			str1[(i + s->i_d) % MEM_SIZE] = str2[(i + s->i_s) % MEM_SIZE];
+//			i++;
+//		}
+//	}
+//	dst = str1;
+//	return (dst);
+//}
+
+/*
+ * копирование в зависимости индекса от MEM_SIZE,
+ * округлять нужна оба
+ * */
 void	*ft_memcpy_all(void *dst, const void *src, size_t n, int start_s, int start_d)
 {
 	unsigned char		*str1;
 	unsigned char	*str2;
 	int					i;
-	//unsigned char	c;
 
 
 	str1 = (unsigned char *)dst;
@@ -462,3 +573,4 @@ int main(int ac, char **av)
 
 //./corewar -dump 15 ~/Desktop/corwar_1/arina/vm_champs/champs/championships/2018/sboulet/Hidden.cor ~/Desktop/corwar_1/arina/vm_champs/champs/championships/2018/sboulet/NoIdea.cor ~/Desktop/corwar_1/arina/vm_champs/champs/championships/2018/bcozic/sencha.cor
 //./corewar  ~/Desktop/corwar_1/arina/vm_champs/champs/championships/2018/sboulet/Hidden.cor ~/Desktop/corwar_1/arina/vm_champs/champs/championships/2018/sboulet/NoIdea.cor ~/Desktop/corwar_1/arina/vm_champs/champs/championships/2018/bcozic/sencha.cor
+//./cor_1 vm_champs/champs/championships/2018/sboulet/Hidden.cor vm_champs/champs/championships/2018/sboulet/NoIdea.cor vm_champs/champs/championships/2018/bcozic/sencha.cor

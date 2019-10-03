@@ -9,9 +9,9 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 	int i;
 	int a;
 	int l;
-	unsigned char t_ind[IND_SIZE];
-	unsigned char t_dir[DIR_SIZE];
-	unsigned char t_dir_1[DIR_SIZE];
+	short			t_ind;
+	unsigned int	t_dir;
+	unsigned int	t_dir_1;
 
 	i = 2;
 	l = 0;
@@ -20,8 +20,8 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 
 	if (b2[0] == 0 && b2[1] == 1)
 	{
-		ft_memcpy_all(&t_reg,  cor->code, 1, (tmp->cur + i++), 0);
-		if (!((int)t_reg > 0 && (int)(t_reg) < REG_NUMBER))
+		t_reg = read_byte_1(cor->code, tmp->cur + i++);
+		if (!(t_reg > 0 && (t_reg) < REG_NUMBER))
 			f_err = 1;
 	}
 	else if ((b2[0] == 1 && b2[1] == 1) || (b2[0] == 1 && b2[1] == 0))
@@ -34,31 +34,31 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 
 	if (b2[2] == 0 && b2[3] == 1)
 	{
-		ft_memcpy_all(&t_reg_2,  cor->code, 1, (tmp->cur + 1 + i++), 0);
-		if (!(((int)t_reg_2) > 0) && (int)(t_reg_2) < REG_NUMBER)
+		t_reg_2 = read_byte_1(cor->code, tmp->cur + 1 + i++);
+		if (!((t_reg_2 > 0) && t_reg_2 < REG_NUMBER))
 			f_err = 1;
 		else
 			l = l +  tmp->reg[(int) t_reg_2];
-			//a = a + tmp->reg[(int) t_reg_2];
+
 	}
 	else if ((b2[2] == 1 && b2[3] == 0) || (b2[2] == 1 && b2[3] == 1))
 	{
 		a = 0;
 		if (b2[3] == 1)
 		{
-			ft_memcpy_all(t_ind, cor->code, IND_SIZE, (tmp->cur + 1 + 1 + i), 0);
-			a = IFR8(t_ind);
+			t_ind = read_byte_2(cor->code, tmp->cur + 1 + 1 + i);
+			a = t_ind;
 		}
 		i += 4 * (int)b2[2] - 2 * (int)b2[3];
-		ft_memcpy_all(t_dir, cor->code, DIR_SIZE, (tmp->cur + 1 + 1 + i +  a) % IDX_MOD, 0);
-		l = l + IFR16(t_dir);
+		t_dir = read_byte_4(cor->code, (tmp->cur + 1 + 1 + i +  a) % IDX_MOD);
+		l = l + t_dir;
 	}
 	else
 		f_err = 1;
 	if (b2[4] == 0 && b2[5] == 1)
 	{
-		ft_memcpy_all(&t_reg_2,  cor->code, 1, (tmp->cur + 1 + i++),0);
-		if (!(((int)t_reg_2) > 0) && (int)(t_reg_2) < REG_NUMBER)
+		t_reg_2 = read_byte_1(cor->code, tmp->cur + 1 + i++);
+		if (!(((t_reg_2) > 0) && (t_reg_2) < REG_NUMBER))
 			f_err = 1;
 		else
 			l = l + tmp->reg[(int) t_reg_2];
@@ -66,8 +66,8 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 	else if (b2[4] == 1 && b2[5] == 0)
 	{
 		i += 4;
-		ft_memcpy_all(t_dir_1, cor->code, DIR_SIZE, (tmp->cur + 1 + 1 + i),0);
-		l = l + IFR16(t_dir_1);
+		t_dir_1 = read_byte_4(cor->code, (tmp->cur + 1 + 1 + i) % IDX_MOD);
+		l = l + t_dir_1;
 	}
 	else
 	{
@@ -91,7 +91,7 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 //		}
 		unsigned char *p;
 
-		p = inttobyte(tmp->reg[(int) t_reg]);
+		p = inttobyte(tmp->reg[t_reg]);
 		ft_memcpy_all(cor->code, p, 4, 0, (tmp->cur + 1 + 1 + l) % IDX_MOD);
 //
 //		write(1,"!!\n",3);
@@ -103,6 +103,7 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 //		}
 		free(p);
 	}
+	free(b2);
 
 	tmp->i = i;
 

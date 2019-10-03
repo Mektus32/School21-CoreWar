@@ -17,22 +17,25 @@
 **	 Например, если значение аргумента равно -2, значит игрок с номером 2 жив.
 ** */
 
+
+
 void	ft_live(t_cor *cor, t_carr *tmp)
 {
-	unsigned char	t_dir[DIR_SIZE];
+	unsigned int	t_dir;
 	int dit;
 	int i;
 
 	i = 0;
 	tmp->cycles_live = cor->live->cycles;
-	ft_memcpy_all(&t_dir, cor->code, 4, tmp->cur + 1, 0);
+	t_dir = read_byte_4(cor->code, tmp->cur + 1);
 	while (i < cor->n)
 	{
-		dit = IFR16(t_dir);
+		dit = t_dir;
 		if ((cor->m_ch[i]->id + 1) == -dit)
 		{
 			//cor->m_ch[i]->live = 1;
 			cor->live->id_live = i + 1;
+			ft_printf("A process shows that player %s is alive\n", cor->m_2[i]->prog_name);
 		}
 		i++;
 	}

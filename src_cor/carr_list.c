@@ -111,4 +111,3 @@ t_carr *carr_list(t_cor *cor)
 	}
 	return (carr);
 }
-//./cor_1 vm_champs/champs/championships/2018/sboulet/Hidden.cor vm_champs/champs/championships/2018/sboulet/NoIdea.cor vm_champs/champs/championships/2018/bcozic/sencha.cor

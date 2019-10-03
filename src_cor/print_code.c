@@ -15,13 +15,6 @@ void print_dump_code(t_cor *cor)
 			k++;
 			printf("\n");
 			printf("%.4p : ", k * 64);
-
-
-			//ft_putchar('\n');
-//			if (cor->code[i] - cor->code[0] < 0)
-//				printf("%.4p : ", 512 - -1 * (cor->code[i] - cor->code[0]));
-//			else
-//				printf("%.4p : ", cor->code[i] - cor->code[0]);
 		}
 		if (cor->code[i] < 0)
 			printf("%.2x ", 256 - -1 * cor->code[i]);

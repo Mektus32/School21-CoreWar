@@ -9,7 +9,7 @@
 void				ft_fork(t_cor *cor, t_carr *tmp, int l)
 {
 	t_carr			*new;
-	unsigned char	t_dir[IND_SIZE];
+	unsigned int	t_dir;
 	int				k;
 
 	new = new_curr(tmp->id_par);
@@ -19,9 +19,8 @@ void				ft_fork(t_cor *cor, t_carr *tmp, int l)
 	k = -1;
 	while (++k < REG_NUMBER)
 		new->reg[k] = tmp->reg[k];
-	//ft_memcpy_all(new->reg[k], tmp->reg[k], 4, 0, 0);
-	ft_memcpy_all(&t_dir, cor->code, IND_SIZE, tmp->cur + 1, 0);
-	k = IFR8(t_dir);
+	t_dir = read_byte_4(cor->code, tmp->cur + 1);
+	k = t_dir;
 	new->cur = k % (IDX_MOD - l * IDX_MOD + 1 * l);
 	add_curr(&(cor->carr), new);
 	tmp->i = 3;

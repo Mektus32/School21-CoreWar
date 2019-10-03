@@ -19,8 +19,31 @@
 # include "libft.h"
 # include "ft_printf.h"
 
-#define IFR16(x)	(int)(x[0] << 24 | x[1] << 16 | x[2] << 8 | x[3])
-#define IFR8(x)		(int)(x[0] << 8 | x[1])
+//#define IFR16(x)	(unsigned int)(x[0] << 24 | x[1] << 16 | x[2] << 8 | x[3])
+//#define IFR8(x)		(short)(x[0] << 8 | x[1])
+
+//#define IFR16(bytes)	(unsigned int)(((bytes[3] & 0xFF) << 24) + ((bytes[2] & 0xFF) << 16) + ((bytes[1] & 0xFF) << 8) + (bytes[0] & 0xFF))
+//#define IFR8(bytes)		(short)(((bytes[1] & 0xFF) << 8) + (bytes[0] & 0xFF))
+
+#define IFR16(bytes)	(unsigned int)(((bytes[0]) << 24) + ((bytes[1]) << 16) + ((bytes[2]) << 8) + (bytes[3]))
+#define IFR8(bytes)		(short)(((bytes[0]) << 8) + (bytes[1]))
+
+/*
+ * при копировании мне нужно
+ * 1. что
+ * 2. с какой позиции
+ * 3. куда | и я хз как наверняка это сделать
+ * 4. с какой позиции
+ * 5. сколько символов
+ * */
+typedef struct		s_copy
+{
+	const void *src;
+	int 		i_s;
+	int 		i_d;
+	size_t		n;
+
+}					t_copy;
 
 /*
  * чемпион
@@ -60,7 +83,7 @@ typedef struct 			s_carr
 	int					cycles_live;
 	int					carry;
 	int					id_par;
-	int					reg[REG_NUMBER];
+	unsigned int		reg[REG_NUMBER];
 	int					live;
 	char				prog;
 	int					cycles_to;
@@ -115,7 +138,7 @@ typedef struct			s_cor
 	struct s_live		*live;
 }						t_cor;
 
-
+void *read_byte(const char *src, int i, int c);
 
 void		exit_print(char *str);
 void		print_dump_code(t_cor *cor);
@@ -190,5 +213,8 @@ void    ft_sti(t_cor *cor, t_carr *tmp);
 void    ft_fork(t_cor *cor, t_carr *tmp, int l);
 void    ft_aff(t_cor *cor, t_carr *tmp);
 
+unsigned char read_byte_1(const char *src, int i);
+short read_byte_2(const char *src, int i);
+unsigned int read_byte_4(const char *src, int i);
 
 #endif

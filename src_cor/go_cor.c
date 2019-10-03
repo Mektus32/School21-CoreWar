@@ -103,7 +103,8 @@ void go_cor(t_cor *cor)
 			{
 				tmp->cur = (tmp->cur + tmp->i) % MEM_SIZE;
 				tmp->i = 0;
-				ft_memcpy_all(&tmp->prog, cor->code, 1, tmp->cur, 0);
+				tmp->prog = read_byte_1(cor->code, tmp->cur);
+				//ft_memcpy_all(&tmp->prog, cor->code, 1, tmp->cur, 0);
 				tmp->cycles_to = ft_cycles_to(tmp->prog);
 			}
 			// если не доступная операция - двигаем каретку
