@@ -61,7 +61,7 @@ void	ft_st_write(t_cor *cor, t_carr *tmp, int b2_2)
 	unsigned char	t_reg_2;
 
 	t_reg = read_byte_1(cor->code, tmp->cur + 2);
-	if (t_reg > 0 && t_reg < REG_NUMBER)
+	if (t_reg > 0 && t_reg <= REG_NUMBER)
 	{
 		if (b2_2 == 1)
 		{
@@ -73,7 +73,7 @@ void	ft_st_write(t_cor *cor, t_carr *tmp, int b2_2)
 		else
 		{
 			t_reg_2 = read_byte_1(cor->code, tmp->cur + 3);
-			if (t_reg_2 > 0 && t_reg_2 < REG_NUMBER)
+			if (t_reg_2 > 0 && t_reg_2 <= REG_NUMBER)
 				tmp->reg[t_reg_2 - 1] = tmp->reg[t_reg - 1];
 		}
 	}

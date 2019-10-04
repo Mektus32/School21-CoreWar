@@ -14,23 +14,22 @@
 
 int					ft_ld_write(t_cor *cor, t_carr *tmp, int i, int l)
 {
-	int				a;
 	short			t_ind;
 	unsigned int	t_dir;
 	unsigned char	t_reg;
 
-	a = 0;
+	t_ind = 0;
 	if (i == 5)
 	{
-		t_ind = read_byte_2(cor->code, (tmp->cur + 1 + 1));
-		a = (l == 1) ? t_ind : t_ind % IDX_MOD;
+		t_ind = read_byte_2(cor->code, (tmp->cur + 2));
+		t_ind = (l == 1) ? t_ind : t_ind % IDX_MOD;
 	}
-	t_dir = read_byte_4( cor->code, (tmp->cur + 1 + 1 + a));
+	t_dir = read_byte_4(cor->code, (tmp->cur + 1 + 1 + t_ind));
 	t_reg = read_byte_1(cor->code, (tmp->cur + (i - 1)));
-	if ((int)t_reg > 0 && (int)t_reg < REG_NUMBER)
+	if ((int)t_reg > 0 && (int)t_reg <= REG_NUMBER)
 	{
-		tmp->reg[t_reg] = t_dir; //(IFR16(t_dir));
-		tmp->carry = (tmp->reg[t_reg] == 0) ? 1 : 0;
+		tmp->reg[t_reg - 1] = t_dir;
+		tmp->carry = (tmp->reg[t_reg - 1] == 0) ? 1 : 0;
 	}
 	return (1);
 }
@@ -64,35 +63,33 @@ void    ft_ldi(t_cor *cor, t_carr *tmp, int l)
 	char *b2;
 	int f_err;
 	int i;
-	int a;
 	int k;// на сколько надо передвинуть
 	unsigned int res;
 	short			t_ind;
-	unsigned int	t_dir;
-
+	short			t_dir;
 
 	i = 2;
-	a = 0;
 	f_err = 0;
 	k = 0;
 	b2 = base16_2_cor(cor, tmp);
 	if (b2[0] == 0 && b2[1] == 1)
 	{
 		t_reg = read_byte_1(cor->code, tmp->cur + i++);
-		if (!((int)t_reg > 0 && (int)(t_reg) < REG_NUMBER))
+		if (!((int)t_reg > 0 && (int)(t_reg) <= REG_NUMBER))
 			f_err = 1;
-		k = k + (int)t_reg;
+		else
+			k = k + tmp->reg[t_reg - 1];
 	}
 	else if ((b2[0] == 1 && b2[1] == 1) || (b2[0] == 1 && b2[1] == 0))
 	{
-		a = 0;
+		t_ind = 0;
 		if (b2[1] == 1)
 		{
 			t_ind = read_byte_2(cor->code, tmp->cur + 2);
-			a = t_ind % IDX_MOD;
+			i += 2;
 		}
-		i += 4 * (int)b2[0] - 2 * (int)b2[1];
-		t_dir = read_byte_1(cor->code, tmp->cur + 2 + a);
+		i += 2;
+		t_dir = read_byte_2(cor->code, tmp->cur + 2 + t_ind % IDX_MOD);
 		k = k + t_dir;
 	}
 	else
@@ -100,36 +97,36 @@ void    ft_ldi(t_cor *cor, t_carr *tmp, int l)
 	if (b2[2] == 0 && b2[3] == 1)
 	{
 		t_reg = read_byte_1(cor->code, (tmp->cur + i++));
-		if (!((int)t_reg > 0 && (int)(t_reg) < REG_NUMBER))
+		if (!((int)t_reg > 0 && (int)(t_reg) <= REG_NUMBER))
 			f_err = 1;
-		k = k + (int)t_reg;
+		else
+			k = k + tmp->reg[(int)t_reg - 1];
 	}
 	else if ((b2[2] == 1 && b2[3] == 0))
 	{
-		t_dir = read_byte_4(cor->code, tmp->cur + i);
-		i += 4;
+		t_dir = read_byte_2(cor->code, tmp->cur + i);
+		i += 2;
 		k = k + t_dir;
 	}
 	else
 	{
-		i += 4 * (int)b2[2] - 2 * (int)b2[3];
+		i +=  b2[2] + b2[3];
 		f_err = 1;
 	}
 	if (b2[4] == 0 && b2[5] == 1)
 	{
-		i++;
 		if (f_err == 0)
 		{
-			t_reg = read_byte_1(cor->code, tmp->cur + i);
-			if ((int)t_reg > 0 && (int)(t_reg) < REG_NUMBER)
+			t_reg = read_byte_1(cor->code, tmp->cur + i++);
+			if ((int)t_reg > 0 && (int)(t_reg) <= REG_NUMBER)
 			{
-				res = read_byte_4(cor->code, (tmp->cur + k) % (IDX_MOD - l *  IDX_MOD + 1 * l));
-				tmp->reg[(int)t_reg] = res;
+				res = read_byte_4(cor->code, tmp->cur + k % (IDX_MOD - l *  IDX_MOD + 1 * l));
+				tmp->reg[(int)t_reg - 1] = res;
 			}
 		}
 	}
 	else
-		i += 4 * (int)b2[4] - 2 * (int)b2[5];
+		i += 2 * (int)b2[4];
 	tmp->i = i;
 	free(b2);
 }

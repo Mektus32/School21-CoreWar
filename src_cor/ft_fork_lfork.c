@@ -9,7 +9,7 @@
 void				ft_fork(t_cor *cor, t_carr *tmp, int l)
 {
 	t_carr			*new;
-	unsigned int	t_dir;
+	short			t_dir;
 	int				k;
 
 	new = new_curr(tmp->id_par);
@@ -17,9 +17,9 @@ void				ft_fork(t_cor *cor, t_carr *tmp, int l)
 	new->cycles_live = tmp->cycles_live;
 	new->num = (cor->n_curr)++;
 	k = -1;
-	while (++k < REG_NUMBER)
+	while (++k <= REG_NUMBER)
 		new->reg[k] = tmp->reg[k];
-	t_dir = read_byte_4(cor->code, tmp->cur + 1);
+	t_dir = read_byte_2(cor->code, tmp->cur + 1);
 	k = t_dir;
 	new->cur = k % (IDX_MOD - l * IDX_MOD + 1 * l);
 	add_curr(&(cor->carr), new);

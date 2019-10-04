@@ -154,10 +154,11 @@ void go_cor(t_cor *cor)
 		}
 		if (cor->carr)
 		{
-		if ((cor->live->cycles % cor->live->cycles_to_die == 0) || (cor->live->cycles_to_die <= 0))// || (cor->live->cycles && (cor->live->cycles % cor->live->cycles_to_die == 0)))
-			check_live(cor);
+			if ((cor->live->cycles % cor->live->cycles_to_die == 0) || (cor->live->cycles_to_die <= 0))// || (cor->live->cycles && (cor->live->cycles % cor->live->cycles_to_die == 0)))
+				check_live(cor);
 		}
 //я не понимаю -  всегда буду удалять каретку
 
 	}
+
 }

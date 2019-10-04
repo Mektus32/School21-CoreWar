@@ -328,6 +328,7 @@ t_cor *parse_av(int ac, char **av)
 
 	if (!(cor = (t_cor *)malloc(sizeof(t_cor))))
 		exit_print("malloc error");
+	cor->nbr_cycles = -1;
 	ft_bzero(cor, sizeof(t_cor));
 	//cor->n = 0;
 	i = 1;
@@ -449,8 +450,10 @@ void	arena(t_cor *cor)
 
 	cor->code = (char *)malloc(sizeof(char) * MEM_SIZE);
 	cor->live = (t_live *)malloc(sizeof(t_live));
+
 	ft_memset(cor->code, 0, sizeof(char) * MEM_SIZE);
 	//cor->code[MEM_SIZE + 1] = '\0';
+
 	cor->colormap = (int*)malloc(sizeof(int) * MEM_SIZE);
 	i = 0;
 	while (i < cor->n)
@@ -489,6 +492,7 @@ int main(int ac, char **av)
 	if (ac >= 1)
 	{
 		cor = parse_av(ac, av);
+
 		arena(cor);
 
 

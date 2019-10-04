@@ -25,7 +25,7 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 	if (b2[0] == 0 && b2[1] == 1)
 	{
 		t_reg = read_byte_1(cor->code, tmp->cur + i++);
-		if (!(t_reg > 0 && (t_reg) < REG_NUMBER))
+		if (!(t_reg > 0 && (t_reg) <= REG_NUMBER))
 			f_err = 1;
 	}
 	else if ((b2[0] == 1 && b2[1] == 1) || (b2[0] == 1 && b2[1] == 0))
@@ -39,7 +39,7 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 	if (b2[2] == 0 && b2[3] == 1)
 	{
 		t_reg_2 = read_byte_1(cor->code, tmp->cur + i++);
-		if (!((t_reg_2 > 0) && t_reg_2 < REG_NUMBER))
+		if (!((t_reg_2 > 0) && t_reg_2 <= REG_NUMBER))
 			f_err = 1;
 		else
 			l = l +  tmp->reg[t_reg_2 - 1];
@@ -62,7 +62,7 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 	if (b2[4] == 0 && b2[5] == 1)
 	{
 		t_reg_2 = read_byte_1(cor->code, tmp->cur + i++);
-		if (!(((t_reg_2) > 0) && (t_reg_2) < REG_NUMBER))
+		if (!(((t_reg_2) > 0) && (t_reg_2) <= REG_NUMBER))
 			f_err = 1;
 		else
 			l = l + tmp->reg[t_reg_2 - 1];
