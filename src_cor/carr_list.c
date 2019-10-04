@@ -39,20 +39,28 @@ void remove_curr_if(t_cor *cor, int num)
 	carr = cor->carr;
 	if (carr->num == num)
 	{
+		//if (carr->next)
 		cor->carr = carr->next;
+//		else
+//			cor->carr = NULL;
+		//printf("carr- %d\n", carr->num);
 		free(carr);
 		cor->n_curr--;
 		return ;
 	}
 	tmp = carr;
-	while (carr)
+	while (carr->next)
 	{
 		if (carr->num == num)
 		{
+			//if (carr->next)
 			tmp->next = carr->next;
+//			else
+//				tmp->next = NULL;
 			free(carr);
 			cor->n_curr--;
 			return ;
+
 		}
 		tmp = carr;
 		carr = carr->next;

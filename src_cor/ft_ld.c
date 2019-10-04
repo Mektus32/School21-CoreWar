@@ -131,4 +131,5 @@ void    ft_ldi(t_cor *cor, t_carr *tmp, int l)
 	else
 		i += 4 * (int)b2[4] - 2 * (int)b2[5];
 	tmp->i = i;
+	free(b2);
 }

@@ -57,21 +57,28 @@ short read_byte_2(const char *src, int i)
 {
 	short			c_2;
 
-	c_2 = src[(i + 1) % MEM_SIZE];
+	c_2 = src[i % MEM_SIZE];
 	c_2 = c_2 << 8;
-	c_2 = c_2 | src[(i) % MEM_SIZE];
+	c_2 = c_2 | src[(i+1) % MEM_SIZE];
 	return(c_2);
 }
 
 unsigned int read_byte_4(const char *src, int i)
 {
-	short			c_4;
+	unsigned int			c_4;
 
 	c_4 = 0;
-	c_4 = c_4 << 8 | (src[(i + 3) % MEM_SIZE]);
-	c_4 = c_4 << 8 | (src[(i + 2) % MEM_SIZE]);
-	c_4 = c_4 << 8 | (src[(i + 1) % MEM_SIZE]);
-	c_4 = c_4 << 8 | (src[(i) % MEM_SIZE]);
+	c_4 = (c_4 << 8);
+	c_4 = c_4 | (src[(i) % MEM_SIZE]);
+	c_4 = (c_4 << 8);
+	c_4 = c_4 | (src[(i + 1) % MEM_SIZE]);
+	c_4 = (c_4 << 8);
+	c_4 = c_4 | (src[(i + 2) % MEM_SIZE]);
+	c_4 = (c_4 << 8);
+	c_4 = c_4 | (src[(i + 3) % MEM_SIZE]);
+//	c_4 = (c_4 << 8) | (src[(i + 2) % MEM_SIZE]);
+//	c_4 = (c_4 << 8) | (src[(i + 1) % MEM_SIZE]);
+//	c_4 = (c_4 << 8) | (src[(i) % MEM_SIZE]);
 	return ((unsigned int)c_4);
 }
 //возможно три случая
@@ -130,83 +137,44 @@ char	*ft_strncpy_all(char *dest, const char *source, size_t n)
 	return (dest);
 }
 
-//t_copy *init_copy(const void *src, size_t n, int i_s, int i_d)
-//{
-//	t_copy  *copy;
-//
-//	&(copy->src) = src;
-//	copy->i_s = i_s;
-//	copy->i_d = i_d;
-//	copy->n = n;
-//
-//	return (copy);
-//}
-//void	*ft_memcpy_bytes(void *dst, t_copy *s)
+
+
+/*
+ * копирование в зависимости индекса от MEM_SIZE,
+ * округлять нужна оба
+ * */
+//void	*ft_memcpy_all(void *dst, const void *src, size_t n, int start_s, int start_d)
 //{
 //	unsigned char		*str1;
-//	unsigned char		*str2;
+//	unsigned char	*str2;
 //	int					i;
 //
+//
 //	str1 = (unsigned char *)dst;
-//	str2 = s->src;
+//	str2 = src;
 //	i = 0;
 //
-//	if (!str2)
+//	if (!src)
 //	{
-//		while (s->n-- > 0)
+//		while (n-- > 0)
 //		{
-//			str1[(s->i_d + i) % MEM_SIZE] = 0;
+//			str1[(start_d + i) % MEM_SIZE] = 0;
 //			i++;
 //		}
 //	}
 //	else
 //	{
-//		while (s->n-- > 0)
+//		while (n-- > 0)
 //		{
-//			str1[(i + s->i_d) % MEM_SIZE] = str2[(i + s->i_s) % MEM_SIZE];
+//			//c = str2[(i + start_s) % MEM_SIZE];
+//			str1[(i + start_d) % MEM_SIZE] = str2[(i + start_s) % MEM_SIZE];
+//			//str1[i] = src + i;
 //			i++;
 //		}
 //	}
 //	dst = str1;
 //	return (dst);
 //}
-
-/*
- * копирование в зависимости индекса от MEM_SIZE,
- * округлять нужна оба
- * */
-void	*ft_memcpy_all(void *dst, const void *src, size_t n, int start_s, int start_d)
-{
-	unsigned char		*str1;
-	unsigned char	*str2;
-	int					i;
-
-
-	str1 = (unsigned char *)dst;
-	str2 = src;
-	i = 0;
-
-	if (!src)
-	{
-		while (n-- > 0)
-		{
-			str1[(start_d + i) % MEM_SIZE] = 0;
-			i++;
-		}
-	}
-	else
-	{
-		while (n-- > 0)
-		{
-			//c = str2[(i + start_s) % MEM_SIZE];
-			str1[(i + start_d) % MEM_SIZE] = str2[(i + start_s) % MEM_SIZE];
-			//str1[i] = src + i;
-			i++;
-		}
-	}
-	dst = str1;
-	return (dst);
-}
 
 //void	*ft_memcpy_mem(void *dst, const void *src, size_t n)
 //{
@@ -325,7 +293,6 @@ void make_champ_n(int ac, char **av, int n, t_cor *cor)
 	if (i && i <=  cor->n)// Оно должно быть больше или равно 1,
 		// но не превышать общее количество игроков, которые принимают участие в битве.
 	{
-
 		if (!(cor->m_ch[i - 1])) // если было пусто до этого
 		{
 			cor->m_ch[i - 1] = valid_champ(++n, av);
@@ -336,12 +303,15 @@ void make_champ_n(int ac, char **av, int n, t_cor *cor)
 	}
 	else
 	{
+		//-n number
+		//sets the number of the next player. If non-existent, the player will have the next
+		//available number in the order of the parameters. The last player will have the first
+		//process in the order of execution
 		i = 0;
 		while (cor->m_2[i])
 			i++;
 		cor->m_2[i] = valid_champ(++n, av);
 	}
-	//exit_print("not available n\n");
 }
 
 
@@ -356,9 +326,10 @@ t_cor *parse_av(int ac, char **av)
 	char *name;
 
 
-	cor = (t_cor *)malloc(sizeof(t_cor));
+	if (!(cor = (t_cor *)malloc(sizeof(t_cor))))
+		exit_print("malloc error");
 	ft_bzero(cor, sizeof(t_cor));
-	cor->n = 0;
+	//cor->n = 0;
 	i = 1;
 	while (i < ac)
 	{
@@ -366,39 +337,41 @@ t_cor *parse_av(int ac, char **av)
 			cor->n++;
 		i++;
 	}
+	if (cor->n > MAX_PLAYERS)
+		exit_print("number players more than MAX_PLAYERS\n");
 	i = 1;
-	while (i < ac)
-	{
-		if ((name = ft_strstr(av[i], "-n")) && name[2] == '\0')
-		{
-			j = ft_atoi(av[++i]);
-			if (j && j <= cor->n)
-			{
-				if (cor->f[j - 1] == 0)
-					cor->f[j - 1] = 1;
-				else
-					exit_print("number not unique");
-			}
-			else
-				exit_print("number not valid"); // число больше кол - ва чемпионов или = 0
-		}
-		i++;
-	}
+//	while (i < ac)
+//	{
+//		if (ft_strcmp("-n", av[i])))
+//		{
+//			j = ft_atoi(av[++i]);
+//			if (j && j <= cor->n)
+//			{
+//				if (cor->f[j - 1] == 0)
+//					cor->f[j - 1] = 1;
+//				else
+//					exit_print("number not unique");
+//			}
+//			else
+//				exit_print("number not valid"); // число больше кол - ва чемпионов или = 0
+//		}
+//		i++;
+//	}
 	i = 1;
 	j = 0;
 	while (i < ac)
 	{
 
-		if ((name = ft_strstr("-dump", av[i])) && name[5] == '\0')
+		if (!(ft_strcmp("-dump", av[i])))
 		{
+			if (i == (ac - 1))
+				exit_print("Can't read source file -dump");
 			cor->nbr_cycles = 0;
 			cor->nbr_cycles = ft_atoi(av[i + 1]);
-			//i++;
+
+
 			i+=2;
-			// и я не поняла что делать
 		}
-			// дб и число, и игрок (+2 предполагаем что флаг
-			// без числа - ошибка)
 		else if (ft_strcmp("-n", av[i]) == 0 && (i + 2) < ac)
 		{
 			make_champ_n(ac, av, ++i, cor);
@@ -415,24 +388,20 @@ t_cor *parse_av(int ac, char **av)
 	// теперь нужно всех перенаправить обратно в m_ch
 	i = 0;
 	j = 0;
-	if (cor->n <= MAX_PLAYERS)
+	while (i < cor->n)
 	{
-		while (i < cor->n)
+		// если есть куда переписать (сослаться) и что
+		if (!cor->m_ch[i] && cor->m_2[j])
 		{
-			// если есть куда переписать (сослаться) и что
-			if (!cor->m_ch[i] && cor->m_2[j])
-			{
-				cor->m_ch[i] = cor->m_2[j];
-				cor->m_ch[i]->id = i;
-				j++;
-			}
-			else if (!cor->m_ch[i] && !cor->m_2[j])
-				exit_print("number champ less then flag -n");
-			i++;
+			cor->m_ch[i] = cor->m_2[j];
+			cor->m_ch[i]->id = i;
+			j++;
 		}
+		else if (!cor->m_ch[i] && !cor->m_2[j])
+			exit_print("number champ less then flag -n");
+		i++;
 	}
-	else
-		exit_print("number players more than MAX_PLAYERS\n");
+
 
 	return (cor);
 }
@@ -480,7 +449,7 @@ void	arena(t_cor *cor)
 
 	cor->code = (char *)malloc(sizeof(char) * MEM_SIZE);
 	cor->live = (t_live *)malloc(sizeof(t_live));
-	ft_memset(cor->code, 0, sizeof(cor->code) * MEM_SIZE);
+	ft_memset(cor->code, 0, sizeof(char) * MEM_SIZE);
 	//cor->code[MEM_SIZE + 1] = '\0';
 	cor->colormap = (int*)malloc(sizeof(int) * MEM_SIZE);
 	i = 0;

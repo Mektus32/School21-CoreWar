@@ -22,7 +22,7 @@
 //#define IFR16(x)	(unsigned int)(x[0] << 24 | x[1] << 16 | x[2] << 8 | x[3])
 //#define IFR8(x)		(short)(x[0] << 8 | x[1])
 
-//#define IFR16(bytes)	(unsigned int)(((bytes[3] & 0xFF) << 24) + ((bytes[2] & 0xFF) << 16) + ((bytes[1] & 0xFF) << 8) + (bytes[0] & 0xFF))
+#define IFR16(bytes)	(unsigned int)(((bytes[3] & 0xFF) << 24) + ((bytes[2] & 0xFF) << 16) + ((bytes[1] & 0xFF) << 8) + (bytes[0] & 0xFF))
 //#define IFR8(bytes)		(short)(((bytes[1] & 0xFF) << 8) + (bytes[0] & 0xFF))
 
 #define IFR16(bytes)	(unsigned int)(((bytes[0]) << 24) + ((bytes[1]) << 16) + ((bytes[2]) << 8) + (bytes[3]))
@@ -216,5 +216,7 @@ void    ft_aff(t_cor *cor, t_carr *tmp);
 unsigned char read_byte_1(const char *src, int i);
 short read_byte_2(const char *src, int i);
 unsigned int read_byte_4(const char *src, int i);
+
+void copy_p(void *dst, const void *src, int d_s, int s_s);
 
 #endif

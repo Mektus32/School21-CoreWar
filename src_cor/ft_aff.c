@@ -17,4 +17,5 @@ void    ft_aff(t_cor *cor, t_carr *tmp)
 	else
 		i = i + 4 * (int)b2[0] - 2 * (int)b2[1];
 	tmp->i = i;
+	free(b2);
 }

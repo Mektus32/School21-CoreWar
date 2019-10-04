@@ -12,32 +12,69 @@
 
 #include "corewar.h"
 
+
+/*
+ * копировать в зависимости от положения
+ * по модулю MEM_SIZE
+ * копирует 4 байта
+ * */
+void copy_p(void *dst, const void *src, int d_s, int s_s)
+{
+	int i;
+	unsigned char		*str1;
+	unsigned char	*str2;
+
+	str1 = (unsigned char *)dst;
+	str2 = (unsigned char *)src;
+	i = 0;
+	while (i < 4)
+	{
+		str1[(i + d_s) % MEM_SIZE] = str2[(i + s_s) % MEM_SIZE];
+		i++;
+	}
+}
+/*
+ * Эта операция записывает значение из регистра, который был передан как первый параметр.
+ * А вот куда данная операция его записывает, зависит от типа второго аргумента:
+ *
+ * Аргумент #2 — T_REG
+ * Если второй аргумент соответствует типу T_REG, то значение записывается в регистр.
+ *
+ * Например, в данном случае значение из регистра номер 7 записывается в регистр с номером 11:
+ * 			st    r7, r11
+ *
+ * Аргумент #2 — T_IND
+Как мы помним аргументы типа T_IND это об относительных адресах. Поэтому в данном случае порядок работы операции st такой:
+
+Усечь значение второго аргумента по модулю IDX_MOD.
+
+Определить адрес — текущая позиция + <ВТОРОЙ_АРГУМЕНТ> % IDX_MOD
+
+Записать значение из регистра, который был передан в качестве первого аргумента, в память по полученному адресу.
+ * */
+
 void	ft_st_write(t_cor *cor, t_carr *tmp, int b2_2)
 {
-	int				a;
 	unsigned char	*p;
 	short			t_ind;
 	unsigned char	t_reg;
 	unsigned char	t_reg_2;
 
 	t_reg = read_byte_1(cor->code, tmp->cur + 2);
-	if ((int)t_reg > 0 && (int)t_reg < REG_NUMBER)
+	if (t_reg > 0 && t_reg < REG_NUMBER)
 	{
-		a = 0;
 		if (b2_2 == 1)
 		{
 			t_ind = read_byte_2(cor->code, tmp->cur + 3);
-			a = t_ind;
-			p = inttobyte(tmp->reg[t_reg]);
-
-			ft_memcpy_all(cor->code, p, 4, 0, (tmp->cur + a) % IDX_MOD);
+			p = inttobyte(tmp->reg[t_reg - 1]);
+			copy_p(cor->code, p, tmp->cur + t_ind % IDX_MOD, 0);
 			free(p);
 		}
 		else
 		{
 			t_reg_2 = read_byte_1(cor->code, tmp->cur + 3);
 			if (t_reg_2 > 0 && t_reg_2 < REG_NUMBER)
-				tmp->reg[t_reg_2] = tmp->reg[t_reg];
+				tmp->reg[t_reg_2 - 1] = tmp->reg[t_reg - 1];
 		}
 	}
 
