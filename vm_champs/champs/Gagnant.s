@@ -9,11 +9,7 @@ code:		live %42			# 5
 		zjmp %-200			# 3
 		live %42			# 5
 		sti  r15,%0,r14			# 6
-		zjmp %-200			# 3
-		live %42			# 5
-		sti  r15,%0,r14			# 6
-		zjmp %-200			# 3
-		live %42			# 5
+
 		sti  r15,%0,r14			# 6
 		zjmp %-200			# 3
 		sti  r15,%0,r14			# 6
@@ -36,4 +32,3 @@ debut:		live %42			#5
 		sub  r10,r11,r10		#5
 		zjmp %:init			#3
 		fork %:debut			
-		live %3

@@ -1,9 +1,10 @@
 #include "corewar.h"
 
 /*
- * 1. тут дир по 2 байта
- *
- * */
+** 1. тут дир по 2 байта
+** Эта операция записывает значение регистра, переданного в качестве первого параметра,
+** по адресу — текущая позиция + (<ЗНАЧЕНИЕ_ВТОРОГО_АРГУМЕНТА> + <ЗНАЧЕНИЕ_ТРЕТЕГО_АРГУМЕНТА>) % IDX_MOD.
+**/
 
 void    ft_sti(t_cor *cor, t_carr *tmp)
 {
@@ -13,10 +14,13 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 	unsigned char *p;
 	int f_err;
 	int i;
-	int l;
+	short l;
 	short			t_ind;
 	short	t_dir;
-	unsigned int	t_dir_1;
+	short	t_dir_1;
+
+//	unsigned int	t_dir;
+//	unsigned int	t_dir_1;
 
 	i = 2;
 	l = 0;
@@ -42,21 +46,42 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 		if (!((t_reg_2 > 0) && t_reg_2 <= REG_NUMBER))
 			f_err = 1;
 		else
-			l = l +  tmp->reg[t_reg_2 - 1];
+			l =  tmp->reg[t_reg_2 - 1];
 
 	}
 	else if ((b2[2] == 1 && b2[3] == 0) || (b2[2] == 1 && b2[3] == 1))
 	{
-		t_ind = 0;
 		if (b2[3] == 1)
 		{
 			t_ind = read_byte_2(cor->code, tmp->cur + i);
 			i += 2;
+			t_dir = read_byte_2(cor->code, tmp->cur + (t_ind) % IDX_MOD);
 		}
-		t_dir = read_byte_2(cor->code, (tmp->cur + i + t_ind) % IDX_MOD);
-		i += 2;
-		l = l + t_dir;
+		else
+		{
+			t_dir = read_byte_2(cor->code, tmp->cur + i);
+			i += 2;
+		}
+		l = t_dir;
 	}
+//	else if ((b2[2] == 1 && b2[3] == 0) || (b2[2] == 1 && b2[3] == 1))
+//	{
+//		t_ind = 0;
+//		if (b2[3] == 1)
+//		//не ясно сколько читать!
+//		{
+//			t_ind = read_byte_2(cor->code, tmp->cur + i) % IDX_MOD;
+//			i += 2;
+//			t_dir = read_byte_2(cor->code, (tmp->cur + t_ind));
+//		}
+//		else
+//		{
+//			t_dir = read_byte_4(cor->code, (tmp->cur + i));
+//			i += 4;
+//		}
+//
+//		l = l + t_dir;
+//	}
 	else
 		f_err = 1;
 	if (b2[4] == 0 && b2[5] == 1)
@@ -69,13 +94,13 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 	}
 	else if (b2[4] == 1 && b2[5] == 0)
 	{
-		t_dir_1 = read_byte_2(cor->code, (tmp->cur + i) % IDX_MOD);
+		t_dir_1 = read_byte_2(cor->code, tmp->cur + i);
 		i += 2;
 		l = l + t_dir_1;
 	}
 	else
 	{
-		i += 2;
+		i += 2 * b2[4];
 		f_err = 1;
 	}
 
@@ -83,9 +108,10 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 	{
 
 //
-//	unsigned char	c[1];
+	unsigned char	c[1];
+	int k = 0;
 //		write(1,"!!\n",3);
-//		int k = 0;
+
 //		while (k < 8)
 //		{
 //			ft_memcpy(c, (cor->code + tmp->cur +  (l + k++) % IDX_MOD % MEM_SIZE), 1);
@@ -94,7 +120,7 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 		p = inttobyte(tmp->reg[t_reg - 1]);
 		//printf("tmp->reg[t_reg] = %d\n", tmp->reg[t_reg]);
 		copy_p(cor->code, p, tmp->cur + l % IDX_MOD, 0);
-//
+
 //		write(1,"!!\n",3);
 //		k = 0;
 //		while (k <8)
@@ -106,7 +132,6 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 	}
 	//ft_printf("tmp_num = %d, tmp_car = %d, l = %d, IDX_MOD = %d\n", tmp->num, tmp->cur, l, (tmp->cur+ l) % IDX_MOD);
 	free(b2);
-
 	tmp->i = i;
 
 }
