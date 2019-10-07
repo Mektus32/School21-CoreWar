@@ -9,7 +9,7 @@ void	zero_live(t_cor *cor)
 	cor->live->check_count = 0;
 }
 
-unsigned char *inttobyte(int a)
+unsigned char *inttobyte(unsigned int a)
 {
 	unsigned char *bt;
 	char c;
@@ -104,6 +104,7 @@ void go_cor(t_cor *cor)
 				//ft_memcpy_all(&tmp->prog, cor->code, 1, tmp->cur, 0);
 				tmp->cycles_to = ft_cycles_to(tmp->prog);
 			}
+
 			// если не доступная операция - двигаем каретку
 			if (--(tmp->cycles_to) == 0)
 			{
@@ -136,7 +137,7 @@ void go_cor(t_cor *cor)
 				else if (tmp->prog == 14)
                 	ft_ldi(cor, tmp, 1);
 				else if (tmp->prog == 15)
-                	ft_fork(cor, tmp, 1);
+                	tmp = ft_fork(cor, tmp, 1);
 				else if (tmp->prog == 16)
 					ft_aff(cor, tmp);
 				else

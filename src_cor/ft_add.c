@@ -28,7 +28,7 @@ void    ft_add(t_cor *cor, t_carr *tmp)
 			((int)t_reg_2 > 0 && (int)(t_reg_2) <= REG_NUMBER) &&
 				((int)t_reg_3 > 0 && (int)(t_reg_3) <= REG_NUMBER))
 		{
-			tmp->reg[(int)t_reg_3 - 1] = tmp->reg[(int)t_reg - 1] + tmp->reg[(int)t_reg_2 - 1];
+			tmp->reg[(int)t_reg_3 - 1] = (int)tmp->reg[(int)t_reg - 1] + (int)tmp->reg[(int)t_reg_2 - 1];
 			tmp->carry = (tmp->reg[(int)t_reg_3 - 1] == 0) ? 1 : 0;
 		}
 	}
@@ -39,16 +39,18 @@ void    ft_add(t_cor *cor, t_carr *tmp)
 void	ft_zjmp(t_cor *cor, t_carr *tmp)
 {
 	short	t_ind;
-	int		a;
+	short		a;
 
 	if (tmp->carry == 1)
 	{
 		t_ind = read_byte_2(cor->code, tmp->cur + 1);
-		a = t_ind % IDX_MOD;
-		tmp->cur = (tmp->cur + a) % MEM_SIZE;
+		a = ((unsigned int)t_ind) % IDX_MOD;
+		//tmp->cur = tmp->cur + a;
+		tmp->i = a;
 	}
-	tmp->i = 0;
-	//tmp->i = 3;
+	else
+		tmp->i = 3;
+	//МААААААААААААТ
 }
 
 

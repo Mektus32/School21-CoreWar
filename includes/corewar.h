@@ -165,7 +165,7 @@ t_carr *carr_list(t_cor *cor);
 int	ft_cycles_to(char p);
 
 void go_cor(t_cor *cor);
-unsigned char *inttobyte(int a);
+unsigned char *inttobyte(unsigned int a);
 
 /*
 * когда заходим в функцию - знаем что она валидна
@@ -210,7 +210,7 @@ void    ft_xor(t_cor *cor, t_carr *tmp);
 void    ft_zjmp(t_cor *cor, t_carr *tmp);
 void    ft_ldi(t_cor *cor, t_carr *tmp, int l);
 void    ft_sti(t_cor *cor, t_carr *tmp);
-void    ft_fork(t_cor *cor, t_carr *tmp, int l);
+t_carr *   ft_fork(t_cor *cor, t_carr *tmp, int l);
 void    ft_aff(t_cor *cor, t_carr *tmp);
 
 unsigned char read_byte_1(const char *src, int i);

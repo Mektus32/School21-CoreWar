@@ -23,12 +23,16 @@ void copy_p(void *dst, const void *src, int d_s, int s_s)
 	int i;
 	unsigned char		*str1;
 	unsigned char	*str2;
+	char c[1];
 
+	if (d_s < 0)
+		d_s = 0;
 	str1 = (unsigned char *)dst;
 	str2 = (unsigned char *)src;
 	i = 0;
 	while (i < 4)
 	{
+		c[0] = str2[(i + s_s) % MEM_SIZE];
 		str1[(i + d_s) % MEM_SIZE] = str2[(i + s_s) % MEM_SIZE];
 		i++;
 	}

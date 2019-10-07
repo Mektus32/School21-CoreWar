@@ -480,7 +480,7 @@ void	arena(t_cor *cor)
 //	print_dump_code(cor);
 //	ft_printf("=============\n");
 	go_cor(cor);
-	ft_printf("Contestant %d, \"%s\", has won !", cor->live->id_live, (cor->m_ch[cor->live->id_live - 1])->prog_name);
+	ft_printf("Contestant %d, \"%s\", has won !\n", cor->live->id_live, (cor->m_ch[cor->live->id_live - 1])->prog_name);
 	free_cor(cor);
 
 }

@@ -31,7 +31,7 @@ void	ft_live(t_cor *cor, t_carr *tmp)
 	while (i < cor->n)
 	{
 		dit = t_dir;
-		if ((cor->m_ch[i]->id + 1) == -dit)
+		if ((cor->m_ch[i]->id + 1) == - t_dir)
 		{
 			//cor->m_ch[i]->live = 1;
 			cor->live->id_live = i + 1;
@@ -39,8 +39,7 @@ void	ft_live(t_cor *cor, t_carr *tmp)
 		}
 		i++;
 	}
-	tmp->cycles_live = cor->live->cycles;
 	tmp->live = 1;
 	cor->live->live_count++;
-	tmp->i = 1 + DIR_SIZE;
+	tmp->i = 5;
 }
