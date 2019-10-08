@@ -46,7 +46,6 @@ void	ft_zjmp(t_cor *cor, t_carr *tmp)
 		t_ind = read_byte_2(cor->code, tmp->cur + 1);
 		a = (t_ind) % IDX_MOD;
 		tmp->cur = tmp->cur + a;
-
 	}
 	else
 		tmp->i = 3;

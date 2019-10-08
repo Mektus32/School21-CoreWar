@@ -21,7 +21,7 @@ t_carr				*ft_fork(t_cor *cor, t_carr *tmp, int l)
 		new->reg[k] = tmp->reg[k];
 	// ну откуда тут плюс три МАТ
 	t_dir = read_byte_2(cor->code, tmp->cur + 1);
-	k = tmp->cur + 2 + t_dir % (IDX_MOD - l * IDX_MOD + 1 * l);
+	k = tmp->cur + 3 + t_dir % (IDX_MOD - l * IDX_MOD + 1 * l);
 	new->cur = (k % MEM_SIZE);
 	add_curr(&(cor->carr), new);
 
