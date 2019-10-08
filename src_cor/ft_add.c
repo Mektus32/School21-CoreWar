@@ -38,19 +38,19 @@ void    ft_add(t_cor *cor, t_carr *tmp)
 
 void	ft_zjmp(t_cor *cor, t_carr *tmp)
 {
-	short	t_ind;
+	unsigned short	t_ind;
 	short		a;
 
 	if (tmp->carry == 1)
 	{
 		t_ind = read_byte_2(cor->code, tmp->cur + 1);
-		a = ((unsigned int)t_ind) % IDX_MOD;
-		//tmp->cur = tmp->cur + a;
-		tmp->i = a;
+		a = (t_ind) % IDX_MOD;
+		tmp->cur = tmp->cur + a;
+
 	}
 	else
 		tmp->i = 3;
-	//МААААААААААААТ
+
 }
 
 

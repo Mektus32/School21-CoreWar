@@ -71,7 +71,7 @@ void	ft_st_write(t_cor *cor, t_carr *tmp, int b2_2)
 		{
 			t_ind = read_byte_2(cor->code, tmp->cur + 3);
 			p = inttobyte(tmp->reg[t_reg - 1]);
-			copy_p(cor->code, p, tmp->cur + t_ind % IDX_MOD, 0);
+			copy_p(cor->code, p, tmp->cur + 3 + t_ind % IDX_MOD, 0);
 			free(p);
 		}
 		else

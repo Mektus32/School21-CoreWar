@@ -369,8 +369,6 @@ t_cor *parse_av(int ac, char **av)
 				exit_print("Can't read source file -dump");
 			cor->nbr_cycles = 0;
 			cor->nbr_cycles = ft_atoi(av[i + 1]);
-
-
 			i+=2;
 		}
 		else if (ft_strcmp("-n", av[i]) == 0 && (i + 2) < ac)
@@ -450,6 +448,7 @@ void	arena(t_cor *cor)
 
 	cor->code = (char *)malloc(sizeof(char) * MEM_SIZE);
 	cor->live = (t_live *)malloc(sizeof(t_live));
+
 
 	ft_memset(cor->code, 0, sizeof(char) * MEM_SIZE);
 	//cor->code[MEM_SIZE + 1] = '\0';

@@ -20,14 +20,14 @@ t_carr				*ft_fork(t_cor *cor, t_carr *tmp, int l)
 	while (++k < REG_NUMBER)
 		new->reg[k] = tmp->reg[k];
 	// ну откуда тут плюс три МАТ
-	t_dir = read_byte_2(cor->code, tmp->cur + 3);
-	k = t_dir % (IDX_MOD - l * IDX_MOD + 1 * l);
+	t_dir = read_byte_2(cor->code, tmp->cur + 1);
+	k = tmp->cur + 2 + t_dir % (IDX_MOD - l * IDX_MOD + 1 * l);
 	new->cur = (k % MEM_SIZE);
 	add_curr(&(cor->carr), new);
 
 	//сделаю копию каретки и размещу ее
 
-	//copy_p(cor->code, cor->code, tmp->cur + k, tmp->cur);
+	//copy_p(cor->code, cor->code, new->cur, tmp->cur + 1);
 	tmp->i = 3;
 	return(cor->carr);
 

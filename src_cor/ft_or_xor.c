@@ -30,10 +30,17 @@ void    ft_or(t_cor *cor, t_carr *tmp)
 		if (b2[1] == 1)
 		{
 			t_ind = read_byte_2(cor->code, tmp->cur + i);
+			i+= 2;
+			t_dir = read_byte_4(cor->code, tmp->cur + i + t_ind % IDX_MOD);
+		}
+		else
+		{
+			t_dir = read_byte_4(cor->code, tmp->cur + i);
+			i+=4;
 		}
 		// точно ли не надо сначало по i еще подвинуться?
-		t_dir = read_byte_4(cor->code, tmp->cur + t_ind % IDX_MOD);
-		i += 4 * (int)b2[4] - 2 * (int)b2[5];
+
+		//i += 4 * (int)b2[4] - 2 * (int)b2[5];
 		a1 = t_dir;
 	}
 	else
@@ -52,9 +59,17 @@ void    ft_or(t_cor *cor, t_carr *tmp)
 		if (b2[3] == 1)
 		{
 			t_ind = read_byte_2(cor->code, tmp->cur + i);
+			i += 2;
+			t_dir = read_byte_4(cor->code, tmp->cur + i + t_ind % IDX_MOD);
+
 		}
-		t_dir = read_byte_4(cor->code, tmp->cur + t_ind % IDX_MOD);
-		i += 4 * (int)b2[2] - 2 * (int)b2[3];
+		else
+		{
+			t_dir = read_byte_4(cor->code, tmp->cur + i + t_ind % IDX_MOD);
+			i += 4;
+		}
+
+		//i += 4 * (int)b2[2] - 2 * (int)b2[3];
 		a2 = t_dir;
 	}
 	else
@@ -101,10 +116,17 @@ void    ft_xor(t_cor *cor, t_carr *tmp)
 		if (b2[1] == 1)
 		{
 			t_ind = read_byte_2(cor->code, tmp->cur + i);
+			i += 2;
+			t_dir = read_byte_4(cor->code, tmp->cur + i + t_ind % IDX_MOD);
 		}
 		// точно ли не надо сначало по i еще подвинуться?
-		t_dir = read_byte_4(cor->code, tmp->cur + t_ind % IDX_MOD);
-		i += 4 * (int)b2[4] - 2 * (int)b2[5];
+		else
+		{
+			t_dir = read_byte_4(cor->code, tmp->cur + i);
+			i+=4;
+		}
+
+		//i += 4 * (int)b2[4] - 2 * (int)b2[5];
 		a1 = t_dir;
 	}
 	else
@@ -123,9 +145,16 @@ void    ft_xor(t_cor *cor, t_carr *tmp)
 		if (b2[3] == 1)
 		{
 			t_ind = read_byte_2(cor->code, tmp->cur + i);
+			i += 2;
+			t_dir = read_byte_4(cor->code, tmp->cur + i + t_ind % IDX_MOD);
 		}
-		t_dir = read_byte_4(cor->code, tmp->cur + t_ind % IDX_MOD);
-		i += 4 * (int)b2[2] - 2 * (int)b2[3];
+		else
+		{
+			t_dir = read_byte_4(cor->code, tmp->cur + i);
+			i += 4;
+		}
+
+		//i += 4 * (int)b2[2] - 2 * (int)b2[3];
 		a2 = t_dir;
 	}
 	else

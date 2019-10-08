@@ -137,7 +137,7 @@ void go_cor(t_cor *cor)
 				else if (tmp->prog == 14)
                 	ft_ldi(cor, tmp, 1);
 				else if (tmp->prog == 15)
-                	tmp = ft_fork(cor, tmp, 1);
+                	ft_fork(cor, tmp, 1);
 				else if (tmp->prog == 16)
 					ft_aff(cor, tmp);
 				else
