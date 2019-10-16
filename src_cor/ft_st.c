@@ -26,14 +26,14 @@ void copy_p(void *dst, const void *src, int d_s, int s_s)
 	char c[1];
 
 	if (d_s < 0)
-		d_s = 0;
+		d_s = MEM_SIZE + d_s;
 	str1 = (unsigned char *)dst;
 	str2 = (unsigned char *)src;
 	i = 0;
 	while (i < 4)
 	{
-		c[0] = str2[(i + s_s) % MEM_SIZE];
-		str1[(i + d_s) % MEM_SIZE] = str2[(i + s_s) % MEM_SIZE];
+		c[0] = str2[(i + s_s ) % MEM_SIZE];
+		str1[(i + d_s) % MEM_SIZE] = (unsigned char)str2[(i + s_s) % MEM_SIZE];
 		i++;
 	}
 }
@@ -71,7 +71,7 @@ void	ft_st_write(t_cor *cor, t_carr *tmp, int b2_2)
 		{
 			t_ind = read_byte_2(cor->code, tmp->cur + 3);
 			p = inttobyte(tmp->reg[t_reg - 1]);
-			copy_p(cor->code, p, tmp->cur + 3 + t_ind % IDX_MOD, 0);
+			copy_p(cor->code, p, tmp->cur + t_ind % IDX_MOD, 0); //+3
 			free(p);
 		}
 		else

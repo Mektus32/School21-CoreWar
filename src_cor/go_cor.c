@@ -106,7 +106,7 @@ void go_cor(t_cor *cor)
 			}
 
 			// если не доступная операция - двигаем каретку
-			if (--(tmp->cycles_to) == 0)
+			if (--tmp->cycles_to == 0)
 			{
 				if	(tmp->prog == 1)
 					ft_live(cor, tmp);
@@ -148,7 +148,7 @@ void go_cor(t_cor *cor)
 
 		//Проверка происходит через каждые cycles_to_die циклов пока значение cycles_to_die больше нуля.
 		// А после того, как его значение станет меньше или равным нулю, проверка начинает проводиться после каждого цикла.
-		if (cor->live->cycles++ == cor->nbr_cycles)
+		if (++cor->live->cycles == cor->nbr_cycles)
 		{
 			print_dump_code(cor);
 			exit_print("");

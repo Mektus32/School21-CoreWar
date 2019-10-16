@@ -22,7 +22,7 @@ int					ft_ld_write(t_cor *cor, t_carr *tmp, int i, int l)
 	{
 		t_ind = read_byte_2(cor->code, tmp->cur + 2);
 		t_ind = (l == 1) ? t_ind : t_ind % IDX_MOD;
-		t_dir = read_byte_4(cor->code, (tmp->cur + 2 + 2 + t_ind));
+		t_dir = read_byte_4(cor->code, (tmp->cur + t_ind)); //+4
 	}
 	else
 		t_dir = read_byte_4(cor->code, tmp->cur + 2);

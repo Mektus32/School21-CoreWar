@@ -16,16 +16,29 @@
   <component name="ChangeListManager">
     <list default="true" id="d1aec7e3-b1cf-4267-9dc3-6c63f71740e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/arina.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/arina.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/arina.dir/src_cor/ft_ld.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/arina.dir/src_cor/ft_ld.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/arina.dir/src_cor/ft_st.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/arina.dir/src_cor/ft_st.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/arina.dir/src_cor/ft_sti.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/arina.dir/src_cor/ft_sti.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/arina.dir/src_cor/go_cor.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/arina.dir/src_cor/go_cor.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/arina.dir/src_cor/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/arina.dir/src_cor/main.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/arina" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/arina" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cor_1" beforeDir="false" afterPath="$PROJECT_DIR$/cor_1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my" beforeDir="false" afterPath="$PROJECT_DIR$/my" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/ft_fork_lfork.o" beforeDir="false" afterPath="$PROJECT_DIR$/obj/ft_fork_lfork.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/ft_ld.o" beforeDir="false" afterPath="$PROJECT_DIR$/obj/ft_ld.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src_cor/ft_add.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/ft_add.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src_cor/ft_fork_lfork.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/ft_fork_lfork.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/ft_st.o" beforeDir="false" afterPath="$PROJECT_DIR$/obj/ft_st.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/ft_sti.o" beforeDir="false" afterPath="$PROJECT_DIR$/obj/ft_sti.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/go_cor.o" beforeDir="false" afterPath="$PROJECT_DIR$/obj/go_cor.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/obj/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/one.sh" beforeDir="false" afterPath="$PROJECT_DIR$/one.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src_cor/ft_ld.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/ft_ld.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src_cor/ft_st.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/ft_st.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src_cor/ft_sti.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/ft_sti.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src_cor/go_cor.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/go_cor.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src_cor/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vm_champs/champs/Gagnant.cor" beforeDir="false" afterPath="$PROJECT_DIR$/vm_champs/champs/Gagnant.cor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vm_champs/champs/Gagnant.s" beforeDir="false" afterPath="$PROJECT_DIR$/vm_champs/champs/Gagnant.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm_champs/one.sh" beforeDir="false" afterPath="$PROJECT_DIR$/vm_champs/one.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vm_champs/test" beforeDir="false" afterPath="$PROJECT_DIR$/vm_champs/test" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -38,33 +51,23 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src_cor/ft_sti.c">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="470">
-                    <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="31" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src_cor/go_cor.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="678">
-              <caret line="139" column="20" selection-start-line="139" selection-start-column="20" selection-end-line="139" selection-end-column="20" />
+            <state relative-caret-position="165">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src_cor/ft_sti.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
             </state>
           </provider>
         </entry>
@@ -72,17 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src_cor/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="330" selection-start-line="330" selection-end-line="330" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src_cor/ft_live.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+            <state relative-caret-position="-267">
+              <caret line="480" column="8" lean-forward="true" selection-start-line="480" selection-start-column="8" selection-end-line="480" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -90,17 +84,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src_cor/carr_list.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1245">
-              <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+            <state relative-caret-position="232">
+              <caret line="91" column="19" lean-forward="true" selection-start-line="91" selection-start-column="19" selection-end-line="91" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src_cor/ft_add.c">
+        <entry file="file://$PROJECT_DIR$/src_cor/ft_live.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+            <state relative-caret-position="405">
+              <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -108,7 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/corewar.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
+            <state relative-caret-position="738">
               <caret line="117" column="30" selection-start-line="117" selection-start-column="30" selection-end-line="117" selection-end-column="30" />
               <folding>
                 <element signature="e#930#946#0" expanded="true" />
@@ -118,10 +112,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src_cor/ft_fork_lfork.c">
+        <entry file="file://$PROJECT_DIR$/includes/op.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            <state relative-caret-position="257">
+              <caret line="30" column="16" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -135,11 +129,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src_cor/ft_ld.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="131" column="60" selection-start-line="131" selection-start-column="60" selection-end-line="131" selection-end-column="60" />
+            <state relative-caret-position="549">
+              <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src_cor/ft_st.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -160,7 +163,6 @@
       <find>check_count</find>
       <find>com</find>
       <find>t_cor</find>
-      <find>read</find>
       <find>prog_size</find>
       <find>mall</find>
       <find>b =</find>
@@ -176,8 +178,9 @@
       <find>live-&gt;cycles</find>
       <find>t_dir_1</find>
       <find>nbr_cycles</find>
-      <find>t_ind</find>
       <find>dump</find>
+      <find>t_ind</find>
+      <find>read</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src_cor</dir>
@@ -200,26 +203,26 @@
         <option value="$PROJECT_DIR$/src_cor/print_code.c" />
         <option value="$PROJECT_DIR$/src_cor/ft_sub.c" />
         <option value="$PROJECT_DIR$/src_cor/ft_aff.c" />
-        <option value="$PROJECT_DIR$/src_cor/carr_list.c" />
-        <option value="$PROJECT_DIR$/src_cor/ft_live.c" />
         <option value="$PROJECT_DIR$/includes/corewar.h" />
-        <option value="$PROJECT_DIR$/src_cor/main.c" />
-        <option value="$PROJECT_DIR$/src_cor/ft_st.c" />
         <option value="$PROJECT_DIR$/src_cor/ft_and.c" />
         <option value="$PROJECT_DIR$/src_cor/ft_or_xor.c" />
-        <option value="$PROJECT_DIR$/src_cor/go_cor.c" />
-        <option value="$PROJECT_DIR$/src_cor/ft_sti.c" />
         <option value="$PROJECT_DIR$/src_cor/ft_fork_lfork.c" />
         <option value="$PROJECT_DIR$/src_cor/ft_add.c" />
         <option value="$PROJECT_DIR$/src_cor/ft_ld.c" />
+        <option value="$PROJECT_DIR$/src_cor/main.c" />
+        <option value="$PROJECT_DIR$/src_cor/carr_list.c" />
+        <option value="$PROJECT_DIR$/src_cor/go_cor.c" />
+        <option value="$PROJECT_DIR$/src_cor/ft_sti.c" />
+        <option value="$PROJECT_DIR$/src_cor/ft_live.c" />
+        <option value="$PROJECT_DIR$/src_cor/ft_st.c" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1108" />
-    <option name="y" value="23" />
-    <option name="width" value="1342" />
+    <option name="x" value="1173" />
+    <option name="y" value="25" />
+    <option name="width" value="1387" />
     <option name="height" value="1335" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -284,7 +287,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="arina" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../vm_champs/champs/Gagnant.cor  -dump 3000" PASS_PARENT_ENVS_2="true" PROJECT_NAME="arina" TARGET_NAME="arina" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="arina" RUN_TARGET_NAME="arina">
+    <configuration name="arina" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../vm_champs/champs/Gagnant.cor ../vm_champs/champs/Gagnant.cor  -dump 230" PASS_PARENT_ENVS_2="true" PROJECT_NAME="arina" TARGET_NAME="arina" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="arina" RUN_TARGET_NAME="arina">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -331,7 +334,10 @@
       <workItem from="1570355266444" duration="17150000" />
       <workItem from="1570435801355" duration="14160000" />
       <workItem from="1570458818724" duration="8855000" />
-      <workItem from="1570549090196" duration="11723000" />
+      <workItem from="1570549090196" duration="12331000" />
+      <workItem from="1570634883534" duration="153000" />
+      <workItem from="1570635271965" duration="999000" />
+      <workItem from="1571153559482" duration="10863000" />
     </task>
     <task id="LOCAL-00001" summary="h">
       <created>1568228679904</created>
@@ -344,7 +350,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="273325000" />
+    <option name="totallyTimeSpent" value="285948000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -356,10 +362,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1108" y="23" width="1342" height="1335" extended-state="0" />
+    <frame x="1201" y="45" width="1387" height="1335" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36307693" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36654276" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -370,10 +376,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32924527" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32786885" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32786885" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3295082" />
-      <window_info anchor="bottom" id="CMake" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.32868853" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32786885" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -419,19 +425,29 @@
           <option name="timeStamp" value="234" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src_cor/ft_fork_lfork.c</url>
-          <line>22</line>
-          <option name="timeStamp" value="336" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src_cor/go_cor.c</url>
-          <line>152</line>
-          <option name="timeStamp" value="353" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src_cor/ft_aff.c</url>
           <line>12</line>
           <option name="timeStamp" value="355" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src_cor/ft_ld.c</url>
+          <line>64</line>
+          <option name="timeStamp" value="358" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src_cor/ft_live.c</url>
+          <line>43</line>
+          <option name="timeStamp" value="376" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src_cor/ft_st.c</url>
+          <line>35</line>
+          <option name="timeStamp" value="386" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src_cor/go_cor.c</url>
+          <line>13</line>
+          <option name="timeStamp" value="387" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -614,13 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/op.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src_cor/print_code.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -628,55 +637,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/ft_st.c">
+    <entry file="file://$PROJECT_DIR$/src_cor/ft_add.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/carr_list.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/corewar.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="117" column="30" selection-start-line="117" selection-start-column="30" selection-end-line="117" selection-end-column="30" />
-          <folding>
-            <element signature="e#930#946#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="330" selection-start-line="330" selection-end-line="330" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/go_cor.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="139" column="20" selection-start-line="139" selection-start-column="20" selection-end-line="139" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/ft_live.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+        <state relative-caret-position="540">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src_cor/ft_fork_lfork.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -687,24 +658,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/ft_add.c">
+    <entry file="file://$PROJECT_DIR$/src_cor/ft_ld.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        <state relative-caret-position="549">
+          <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/corewar.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="117" column="30" selection-start-line="117" selection-start-column="30" selection-end-line="117" selection-end-column="30" />
+          <folding>
+            <element signature="e#930#946#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/op.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_cor/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-267">
+          <caret line="480" column="8" lean-forward="true" selection-start-line="480" selection-start-column="8" selection-end-line="480" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_cor/carr_list.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="91" column="19" lean-forward="true" selection-start-line="91" selection-start-column="19" selection-end-line="91" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_cor/ft_live.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src_cor/ft_sti.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="31" />
+        <state relative-caret-position="242">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/ft_ld.c">
+    <entry file="file://$PROJECT_DIR$/src_cor/ft_st.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="131" column="60" selection-start-line="131" selection-start-column="60" selection-end-line="131" selection-end-column="60" />
+        <state relative-caret-position="279">
+          <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_cor/go_cor.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>

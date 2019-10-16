@@ -59,9 +59,12 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 		if (b2[3] == 1)
 		{
 			t_ind = read_byte_2(cor->code, tmp->cur + i);
+
+			//тут мб 0 вместо i или i вместо 0
+			//l += read_byte_4(cor->code, tmp->cur + 0 + (t_ind) % IDX_MOD);
+			l += read_byte_2(cor->code, tmp->cur + 0 + (t_ind) % IDX_MOD);
 			i += 2;
-			//тут мб 0 вместо i
-			l += read_byte_4(cor->code, tmp->cur + i + (t_ind) % IDX_MOD);
+
 		}
 		else
 		{
@@ -82,7 +85,7 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 	else if (b2[4] == 1 && b2[5] == 0)
 	{
 
-		l+= read_byte_2(cor->code, tmp->cur + i);
+		l += read_byte_2(cor->code, tmp->cur + i);
 		i += 2;
 	}
 	else
@@ -93,6 +96,7 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 	if (!f_err)
 	{
 		p = inttobyte(tmp->reg[t_reg - 1]);
+		//l = tmp->cur + 0 + l % IDX_MOD;
 		l = tmp->cur + 0 + l % IDX_MOD;
 		copy_p(cor->code, p, l, 0);
 		free(p);
