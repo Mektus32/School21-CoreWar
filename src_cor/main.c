@@ -67,7 +67,7 @@ unsigned int read_byte_4(const char *src, int i)
 {
 	unsigned int			c_4;
 
-	c_4 = 0;
+
 	c_4 = (c_4 << 8);
 	c_4 = c_4 | (unsigned char)(src[(i) % MEM_SIZE]);
 	c_4 = (c_4 << 8);
@@ -76,10 +76,31 @@ unsigned int read_byte_4(const char *src, int i)
 	c_4 = c_4 | (unsigned char)(src[(i + 2) % MEM_SIZE]);
 	c_4 = (c_4 << 8);
 	c_4 = c_4 | (unsigned char)(src[(i + 3) % MEM_SIZE]);
+//
+//	c_4 = (c_4 << 8);
+//	char b;
+//	b = src[(i) % MEM_SIZE];
+//	if (!(src[(i) % MEM_SIZE]))
+//		return (0);
+//	c_4 = src[(i) % MEM_SIZE];
+//	c_4 = (c_4 << 8);
+//	c_4 = c_4 | (src[(i + 1) % MEM_SIZE]);
+//	c_4 = (c_4 << 8);
+//	c_4 = c_4 | (src[(i + 2) % MEM_SIZE]);
+//	c_4 = (c_4 << 8);
+//	c_4 = c_4 | (src[(i + 3) % MEM_SIZE]);
+
+//	c_4 = c_4 | (src[(i) % MEM_SIZE]);
+//	c_4 = (c_4 << 8);
+//	c_4 = c_4 | (src[(i + 1) % MEM_SIZE]);
+//	c_4 = (c_4 << 8);
+//	c_4 = c_4 | (src[(i + 2) % MEM_SIZE]);
+//	c_4 = (c_4 << 8);
+//	c_4 = c_4 | (src[(i + 3) % MEM_SIZE]);
 //	c_4 = (c_4 << 8) | (src[(i + 2) % MEM_SIZE]);
 //	c_4 = (c_4 << 8) | (src[(i + 1) % MEM_SIZE]);
 //	c_4 = (c_4 << 8) | (src[(i) % MEM_SIZE]);
-	return ((unsigned char)c_4);
+	return (c_4);
 }
 //возможно три случая
 // 1 - получить номер регистра (1 байт)

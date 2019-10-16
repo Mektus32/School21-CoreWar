@@ -1,28 +1,34 @@
-.name                "Celebration Funebre v0.99pl42"
-.comment        "Jour J"
+.name   "Celebration Funebre v0.99pl42"
+.comment  "Jour J"
 
-# ls - 5 cicle
-# st - 5 cicle
-        ld   0, r2
-        ld   0, r3
-        ld   0, r4
-        ld   0, r5
-        ld   0, r6
+    ld   %0,r3
+label:    zjmp %:avantdebut
+    zjmp %0       # de l'instruction suivante
+code:   live %42      # 5
+    sti  r15,%0,r14     # 6
+    zjmp %-200      # 3
+    live %42      # 5
+    sti  r15,%0,r14     # 6
 
-   #     st r2, r6
-    #    st r3, r7
-     #   st r4, r8
-      #  st r5, r9
-       # st r6, r10
+    sti  r15,%0,r14     # 6
+    zjmp %-200      # 3
+    sti  r15,%0,r14     # 6
+    zjmp %-200      # 3
+    sti  r15,%0,r14     # 6
+    zjmp %-200
 
-        ld   %111, r6
-        ld   %222, r7
-        ld   %333, r8
-        ld   %555, r9
-        ld   %555, r10
-
-        sti r6,  %-100, %0
-        sti r7,  %-100, %0
-      sti r8,  %-100, %0
-        sti r9,  %-100, %0
-    sti r10, %-100, %0
+avantdebut: sti   r1,%:code,%1  #     #7  
+    sti   r1,%:code,%15 #     #7  
+    sti   r1,%:code,%29 #     #7  
+    sti   r1,%:code,%43 #     #7  
+    sti   r1,%:code,%57 #     #7  
+    sti   r1,%:code,%71 #     #7  
+init:   ld   %393216,r4     #7  
+    ld   %917504,r12    #7  
+    ld   %1,r11     #7
+    ld   %6,r10     #7
+debut:    live %42      #5
+    add  r4,r12,r4      #5  
+    sub  r10,r11,r10    #5
+    zjmp %:init     #3
+    fork %:debut      

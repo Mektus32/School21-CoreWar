@@ -99,7 +99,7 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 		//l = tmp->cur + 0 + l % IDX_MOD;
 		l = tmp->cur + 0 + l % IDX_MOD;
 		copy_p(cor->code, p, l, 0);
-		free(p);
+		//free(p);
 	}
 	tmp->i = i;
 	free(b2);

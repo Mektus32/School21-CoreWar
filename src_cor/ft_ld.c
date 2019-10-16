@@ -22,14 +22,14 @@ int					ft_ld_write(t_cor *cor, t_carr *tmp, int i, int l)
 	{
 		t_ind = read_byte_2(cor->code, tmp->cur + 2);
 		t_ind = (l == 1) ? t_ind : t_ind % IDX_MOD;
-		t_dir = read_byte_4(cor->code, (tmp->cur + t_ind)); //+4
+		t_dir = read_byte_4(cor->code, (tmp->cur + t_ind)); //
 	}
 	else
 		t_dir = read_byte_4(cor->code, tmp->cur + 2);
 	t_reg = read_byte_1(cor->code, tmp->cur + (i - 1));
 	if ((int)t_reg > 0 && (int)t_reg <= REG_NUMBER)
 	{
-		tmp->reg[t_reg - 1] = t_dir;
+		tmp->reg[t_reg - 1] = (unsigned int)t_dir;
 		tmp->carry = (tmp->reg[t_reg - 1] == 0) ? 1 : 0;
 	}
 	return (1);
