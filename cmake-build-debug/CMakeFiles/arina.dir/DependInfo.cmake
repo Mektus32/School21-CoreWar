@@ -108,6 +108,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_and.c" "/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles/arina.dir/src_cor/ft_and.c.o"
   "/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_fork_lfork.c" "/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles/arina.dir/src_cor/ft_fork_lfork.c.o"
   "/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_ld.c" "/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles/arina.dir/src_cor/ft_ld.c.o"
+  "/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_liba.c" "/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles/arina.dir/src_cor/ft_liba.c.o"
   "/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_live.c" "/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles/arina.dir/src_cor/ft_live.c.o"
   "/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_or_xor.c" "/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles/arina.dir/src_cor/ft_or_xor.c.o"
   "/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_st.c" "/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles/arina.dir/src_cor/ft_st.c.o"
@@ -116,6 +117,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/qgilbert/Desktop/corwar_1/arina/src_cor/go_cor.c" "/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles/arina.dir/src_cor/go_cor.c.o"
   "/Users/qgilbert/Desktop/corwar_1/arina/src_cor/main.c" "/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles/arina.dir/src_cor/main.c.o"
   "/Users/qgilbert/Desktop/corwar_1/arina/src_cor/print_code.c" "/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles/arina.dir/src_cor/print_code.c.o"
+  "/Users/qgilbert/Desktop/corwar_1/arina/src_cor/read_byte.c" "/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles/arina.dir/src_cor/read_byte.c.o"
   "/Users/qgilbert/Desktop/corwar_1/arina/vm_champs/op.c" "/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles/arina.dir/vm_champs/op.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

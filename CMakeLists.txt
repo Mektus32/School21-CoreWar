@@ -130,6 +130,8 @@ add_executable(arina
         src_cor/ft_or_xor.c
         src_cor/ft_aff.c
         src_cor/ft_and.c
+        src_cor/read_byte.c
+        src_cor/ft_liba.c
 
 
         src_cor/ft_sub.c

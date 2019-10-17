@@ -28,7 +28,9 @@ SRC =	main.c \
 		ft_fork_lfork.c \
 		ft_or_xor.c \
 		ft_sub.c \
-		print_code.c
+		print_code.c \
+		ft_liba.c \
+		read_byte.c
 		
 
 

@@ -1,6 +1,6 @@
 #include "corewar.h"
 /*
- *
+ * возможно перед чтением дир нужно двигаться на i еще
  *
  * */
 void    ft_or(t_cor *cor, t_carr *tmp)
@@ -26,7 +26,6 @@ void    ft_or(t_cor *cor, t_carr *tmp)
 	}
 	else if ((b2[0] == 1 && b2[1] == 1) || (b2[0] == 1 && b2[1] == 0))
 	{
-		t_ind = 0;
 		if (b2[1] == 1)
 		{
 			t_ind = read_byte_2(cor->code, tmp->cur + i);
@@ -38,9 +37,6 @@ void    ft_or(t_cor *cor, t_carr *tmp)
 			t_dir = read_byte_4(cor->code, tmp->cur + i);
 			i+=4;
 		}
-		// точно ли не надо сначало по i еще подвинуться?
-
-		//i += 4 * (int)b2[4] - 2 * (int)b2[5];
 		a1 = t_dir;
 	}
 	else

@@ -9,57 +9,15 @@ void	zero_live(t_cor *cor)
 	cor->live->check_count = 0;
 }
 
-unsigned char *inttobyte(unsigned int a)
+unsigned char *inttobyte(int a)
 {
 	unsigned char *bt;
-	unsigned int	b;
-	b = a;
 
 	bt = malloc(sizeof(unsigned char) * 4);
-//	if (a == 0)
-//	{
-		bt[0] = 0;//'\xff';//255
-		bt[1] = 0;//'\xff';
-		bt[2] = 0;//'\xff';
-		bt[3] = 0;//'\xff';
-//		return (bt);
-//	}
-//	bt[0] = (a << 24);
-//	c = bt[0];
-//	bt[1] = (a << 16) ;
-//	c = bt[1];
-//	bt[2] = (a << 8);
-//	c = bt[2];
-//	bt[3] = a;
-//	c = bt[3];
-//	bt[4] = '\0';
-
-//	bt[0] = (unsigned char)a;
-//	a = a >> 8;
-//	//a = a - (unsigned char)a;
-//	bt[1] = (unsigned char)a;
-//	a = a >> 8;
-//	//a = a - (unsigned char)a;
-//	bt[2] = (unsigned char)a;
-//	a = a >> 8;
-//	//a = a - (unsigned char)a;
-//	bt[3] = (unsigned char)a;
-	//a = a - (unsigned char)a;
 	bt[0] = (unsigned char)((a >> 24) & 0xff);
-	//a = a >> 24;
-	//c = bt[0];
 	bt[1] = (unsigned char)((a >> 16) & 0xff);
-	//a = a >> 16;
-	//a = a >>
-	//c = bt[1];
 	bt[2] = (unsigned char)((a >> 8) & 0xff);
-	//a = a >> 8;
-	//c = bt[2];
 	bt[3] = (unsigned char)((a >> 0) & 0xff);
-	//c = bt[3];
-	//bt[4] = '\0';
-
-
 	return (bt);
 }
 

@@ -27,7 +27,7 @@
 
 #define IFR16(bytes)	(unsigned int)(((bytes[0]) << 24) + ((bytes[1]) << 16) + ((bytes[2]) << 8) + (bytes[3]))
 #define IFR8(bytes)		(short)(((bytes[0]) << 8) + (bytes[1]))
-
+#define VAL_REG(reg) (reg > 0 && reg <= REG_NUMBER) ? 1 : 0
 /*
  * при копировании мне нужно
  * 1. что
@@ -166,7 +166,8 @@ t_carr *carr_list(t_cor *cor);
 int	ft_cycles_to(char p);
 
 void go_cor(t_cor *cor);
-unsigned char *inttobyte(unsigned int a);
+//там может нужен unsigned
+unsigned char *inttobyte(int a);
 
 /*
 * когда заходим в функцию - знаем что она валидна

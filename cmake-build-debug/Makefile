@@ -2931,6 +2931,33 @@ src_cor/ft_ld.c.s:
 	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_ld.c.s
 .PHONY : src_cor/ft_ld.c.s
 
+src_cor/ft_liba.o: src_cor/ft_liba.c.o
+
+.PHONY : src_cor/ft_liba.o
+
+# target to build an object file
+src_cor/ft_liba.c.o:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_liba.c.o
+.PHONY : src_cor/ft_liba.c.o
+
+src_cor/ft_liba.i: src_cor/ft_liba.c.i
+
+.PHONY : src_cor/ft_liba.i
+
+# target to preprocess a source file
+src_cor/ft_liba.c.i:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_liba.c.i
+.PHONY : src_cor/ft_liba.c.i
+
+src_cor/ft_liba.s: src_cor/ft_liba.c.s
+
+.PHONY : src_cor/ft_liba.s
+
+# target to generate assembly for a file
+src_cor/ft_liba.c.s:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/ft_liba.c.s
+.PHONY : src_cor/ft_liba.c.s
+
 src_cor/ft_live.o: src_cor/ft_live.c.o
 
 .PHONY : src_cor/ft_live.o
@@ -3146,6 +3173,33 @@ src_cor/print_code.s: src_cor/print_code.c.s
 src_cor/print_code.c.s:
 	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/print_code.c.s
 .PHONY : src_cor/print_code.c.s
+
+src_cor/read_byte.o: src_cor/read_byte.c.o
+
+.PHONY : src_cor/read_byte.o
+
+# target to build an object file
+src_cor/read_byte.c.o:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/read_byte.c.o
+.PHONY : src_cor/read_byte.c.o
+
+src_cor/read_byte.i: src_cor/read_byte.c.i
+
+.PHONY : src_cor/read_byte.i
+
+# target to preprocess a source file
+src_cor/read_byte.c.i:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/read_byte.c.i
+.PHONY : src_cor/read_byte.c.i
+
+src_cor/read_byte.s: src_cor/read_byte.c.s
+
+.PHONY : src_cor/read_byte.s
+
+# target to generate assembly for a file
+src_cor/read_byte.c.s:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/read_byte.c.s
+.PHONY : src_cor/read_byte.c.s
 
 vm_champs/op.o: vm_champs/op.c.o
 
@@ -3495,6 +3549,9 @@ help:
 	@echo "... src_cor/ft_ld.o"
 	@echo "... src_cor/ft_ld.i"
 	@echo "... src_cor/ft_ld.s"
+	@echo "... src_cor/ft_liba.o"
+	@echo "... src_cor/ft_liba.i"
+	@echo "... src_cor/ft_liba.s"
 	@echo "... src_cor/ft_live.o"
 	@echo "... src_cor/ft_live.i"
 	@echo "... src_cor/ft_live.s"
@@ -3519,6 +3576,9 @@ help:
 	@echo "... src_cor/print_code.o"
 	@echo "... src_cor/print_code.i"
 	@echo "... src_cor/print_code.s"
+	@echo "... src_cor/read_byte.o"
+	@echo "... src_cor/read_byte.i"
+	@echo "... src_cor/read_byte.s"
 	@echo "... vm_champs/op.o"
 	@echo "... vm_champs/op.i"
 	@echo "... vm_champs/op.s"

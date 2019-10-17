@@ -331,6 +331,12 @@ CMakeFiles/arina.dir/src_cor/ft_ld.c.o: ../includes/libft.h
 CMakeFiles/arina.dir/src_cor/ft_ld.c.o: ../includes/op.h
 CMakeFiles/arina.dir/src_cor/ft_ld.c.o: ../src_cor/ft_ld.c
 
+CMakeFiles/arina.dir/src_cor/ft_liba.c.o: ../includes/corewar.h
+CMakeFiles/arina.dir/src_cor/ft_liba.c.o: ../includes/ft_printf.h
+CMakeFiles/arina.dir/src_cor/ft_liba.c.o: ../includes/libft.h
+CMakeFiles/arina.dir/src_cor/ft_liba.c.o: ../includes/op.h
+CMakeFiles/arina.dir/src_cor/ft_liba.c.o: ../src_cor/ft_liba.c
+
 CMakeFiles/arina.dir/src_cor/ft_live.c.o: ../includes/corewar.h
 CMakeFiles/arina.dir/src_cor/ft_live.c.o: ../includes/ft_printf.h
 CMakeFiles/arina.dir/src_cor/ft_live.c.o: ../includes/libft.h
@@ -378,6 +384,12 @@ CMakeFiles/arina.dir/src_cor/print_code.c.o: ../includes/ft_printf.h
 CMakeFiles/arina.dir/src_cor/print_code.c.o: ../includes/libft.h
 CMakeFiles/arina.dir/src_cor/print_code.c.o: ../includes/op.h
 CMakeFiles/arina.dir/src_cor/print_code.c.o: ../src_cor/print_code.c
+
+CMakeFiles/arina.dir/src_cor/read_byte.c.o: ../includes/corewar.h
+CMakeFiles/arina.dir/src_cor/read_byte.c.o: ../includes/ft_printf.h
+CMakeFiles/arina.dir/src_cor/read_byte.c.o: ../includes/libft.h
+CMakeFiles/arina.dir/src_cor/read_byte.c.o: ../includes/op.h
+CMakeFiles/arina.dir/src_cor/read_byte.c.o: ../src_cor/read_byte.c
 
 CMakeFiles/arina.dir/vm_champs/op.c.o: ../vm_champs/op.c
 CMakeFiles/arina.dir/vm_champs/op.c.o: ../vm_champs/op.h

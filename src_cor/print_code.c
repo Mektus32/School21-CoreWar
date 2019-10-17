@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   print_code.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: qgilbert <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/10/16 21:31:23 by qgilbert          #+#    #+#             */
+/*   Updated: 2019/10/16 21:31:24 by qgilbert         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "corewar.h"
 
 void print_dump_code(t_cor *cor)
@@ -20,11 +32,6 @@ void print_dump_code(t_cor *cor)
 			printf("%.2x ", 256 - -1 * cor->code[i]);
 		else
 			printf("%.2x ", cor->code[i]);
-
 		i++;
 	}
 }
-
-//-dump 10 ../vm_champs/champs/championships/2018/sboulet/Hidden.cor
-// ../vm_champs/champs/championships/2018/sboulet/NoIdea.cor
-// ../vm_champs/champs/championships/2018/bcozic/sencha.cor

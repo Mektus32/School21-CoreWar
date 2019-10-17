@@ -331,6 +331,12 @@ CMakeFiles/arina.dir/src_cor/ft_ld.c.o
  ../includes/libft.h
  ../includes/op.h
  /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_ld.c
+CMakeFiles/arina.dir/src_cor/ft_liba.c.o
+ ../includes/corewar.h
+ ../includes/ft_printf.h
+ ../includes/libft.h
+ ../includes/op.h
+ /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_liba.c
 CMakeFiles/arina.dir/src_cor/ft_live.c.o
  ../includes/corewar.h
  ../includes/ft_printf.h
@@ -379,6 +385,12 @@ CMakeFiles/arina.dir/src_cor/print_code.c.o
  ../includes/libft.h
  ../includes/op.h
  /Users/qgilbert/Desktop/corwar_1/arina/src_cor/print_code.c
+CMakeFiles/arina.dir/src_cor/read_byte.c.o
+ ../includes/corewar.h
+ ../includes/ft_printf.h
+ ../includes/libft.h
+ ../includes/op.h
+ /Users/qgilbert/Desktop/corwar_1/arina/src_cor/read_byte.c
 CMakeFiles/arina.dir/vm_champs/op.c.o
  /Users/qgilbert/Desktop/corwar_1/arina/vm_champs/op.c
  /Users/qgilbert/Desktop/corwar_1/arina/vm_champs/op.h
