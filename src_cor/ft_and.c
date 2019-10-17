@@ -51,6 +51,57 @@ void    ft_and(t_cor *cor, t_carr *tmp)
 	b2 = base16_2_cor(cor, tmp);
 	a1 = arg_1(b2, tmp, cor, &f_err);
 	a2 = arg_1(b2 + 2, tmp, cor, &f_err);
+
+	if (b2[4] == 0 && b2[5] == 1)
+	{
+		t_reg_3 = read_byte_1(cor->code, tmp->cur + tmp->i++);
+		if ((VAL_REG(t_reg_3)) && !f_err)
+		{
+			tmp->reg[(int)t_reg_3 - 1] = a1 & a2;
+			tmp->carry = (tmp->reg[(int)t_reg_3 - 1] == 0) ? 1 : 0;
+		}
+	}
+	else
+		tmp->i += 4 * (int)b2[4] - 2 * (int)b2[5];
+	free(b2);
+}
+
+
+//int arg_2(char *b2, t_carr *tmp, t_cor *cor, int *f_err)
+//{
+//	int a2;
+//	unsigned char t_reg_3;
+//	short			t_ind;
+//	unsigned int	t_dir;
+//
+//	if (b2[2] == 0 && b2[3] == 1)
+//	{
+//		t_reg_3 = read_byte_1(cor->code, tmp->cur + tmp->i++);
+//		if (!(t_reg_3 > 0 && (t_reg_3) <= REG_NUMBER))
+//			*f_err = 1;
+//		a2 = t_reg_3;
+//	}
+//	else if ((b2[2] == 1 && b2[3] == 1) || (b2[2] == 1 && b2[3] == 0))
+//	{
+//		if (b2[3] == 1)
+//		{
+//			t_ind = read_byte_2(cor->code, tmp->cur + tmp->i);
+//			t_dir = read_byte_4(cor->code, tmp->cur + tmp->i + t_ind % IDX_MOD);
+//			tmp->i += 2;
+//		}
+//		else
+//		{
+//			t_dir = read_byte_4(cor->code, tmp->cur + tmp->i);
+//			tmp->i += 4;
+//		}
+//		a2 = t_dir;
+//	}
+//	else
+//		*f_err = 1;
+//	return (a2);
+//
+//}
+
 //	if (b2[0] == 0 && b2[1] == 1)
 //	{
 //		t_reg_3 = read_byte_1(cor->code, tmp->cur + tmp->i++);
@@ -106,52 +157,3 @@ void    ft_and(t_cor *cor, t_carr *tmp)
 //	}
 //	else
 //		f_err = 1;
-	if (b2[4] == 0 && b2[5] == 1)
-	{
-		t_reg_3 = read_byte_1(cor->code, tmp->cur + tmp->i++);
-		if ((VAL_REG(t_reg_3)) && !f_err)
-		{
-			tmp->reg[(int)t_reg_3 - 1] = a1 & a2;
-			tmp->carry = (tmp->reg[(int)t_reg_3 - 1] == 0) ? 1 : 0;
-		}
-	}
-	else
-		tmp->i += 4 * (int)b2[4] - 2 * (int)b2[5];
-	free(b2);
-}
-
-
-//int arg_2(char *b2, t_carr *tmp, t_cor *cor, int *f_err)
-//{
-//	int a2;
-//	unsigned char t_reg_3;
-//	short			t_ind;
-//	unsigned int	t_dir;
-//
-//	if (b2[2] == 0 && b2[3] == 1)
-//	{
-//		t_reg_3 = read_byte_1(cor->code, tmp->cur + tmp->i++);
-//		if (!(t_reg_3 > 0 && (t_reg_3) <= REG_NUMBER))
-//			*f_err = 1;
-//		a2 = t_reg_3;
-//	}
-//	else if ((b2[2] == 1 && b2[3] == 1) || (b2[2] == 1 && b2[3] == 0))
-//	{
-//		if (b2[3] == 1)
-//		{
-//			t_ind = read_byte_2(cor->code, tmp->cur + tmp->i);
-//			t_dir = read_byte_4(cor->code, tmp->cur + tmp->i + t_ind % IDX_MOD);
-//			tmp->i += 2;
-//		}
-//		else
-//		{
-//			t_dir = read_byte_4(cor->code, tmp->cur + tmp->i);
-//			tmp->i += 4;
-//		}
-//		a2 = t_dir;
-//	}
-//	else
-//		*f_err = 1;
-//	return (a2);
-//
-//}
