@@ -63,7 +63,7 @@ void	ft_xor(t_cor *cor, t_carr *tmp)
 		{
 			tmp->reg[(int)t_reg_3 - 1] = a1 ^ a2;
 			tmp->carry = (tmp->reg[(int)t_reg_3 - 1] == 0) ? 1 : 0;
-		}gi
+		}
 	}
 	else
 		tmp->i += 4 * (int)b2[4] - 2 * (int)b2[5];
