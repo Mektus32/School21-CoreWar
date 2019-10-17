@@ -1,0 +1,6 @@
+#!/bin/bash
+./vm_champs/asm $1.s
+./vm_champs/corewar $1.cor $1.cor $1.cor  -d $2 > test
+./cor_1  $1.cor  $1.cor $1.cor  -dump $2 > my
+md5 test
+md5 my

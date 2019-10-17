@@ -123,329 +123,329 @@ arina/fast:
 	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/build
 .PHONY : arina/fast
 
-ft_printf/src/check_args.o: ft_printf/src/check_args.c.o
+ft_printf/source/flag_check.o: ft_printf/source/flag_check.c.o
 
-.PHONY : ft_printf/src/check_args.o
-
-# target to build an object file
-ft_printf/src/check_args.c.o:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/check_args.c.o
-.PHONY : ft_printf/src/check_args.c.o
-
-ft_printf/src/check_args.i: ft_printf/src/check_args.c.i
-
-.PHONY : ft_printf/src/check_args.i
-
-# target to preprocess a source file
-ft_printf/src/check_args.c.i:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/check_args.c.i
-.PHONY : ft_printf/src/check_args.c.i
-
-ft_printf/src/check_args.s: ft_printf/src/check_args.c.s
-
-.PHONY : ft_printf/src/check_args.s
-
-# target to generate assembly for a file
-ft_printf/src/check_args.c.s:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/check_args.c.s
-.PHONY : ft_printf/src/check_args.c.s
-
-ft_printf/src/choise_spec.o: ft_printf/src/choise_spec.c.o
-
-.PHONY : ft_printf/src/choise_spec.o
+.PHONY : ft_printf/source/flag_check.o
 
 # target to build an object file
-ft_printf/src/choise_spec.c.o:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/choise_spec.c.o
-.PHONY : ft_printf/src/choise_spec.c.o
+ft_printf/source/flag_check.c.o:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/flag_check.c.o
+.PHONY : ft_printf/source/flag_check.c.o
 
-ft_printf/src/choise_spec.i: ft_printf/src/choise_spec.c.i
+ft_printf/source/flag_check.i: ft_printf/source/flag_check.c.i
 
-.PHONY : ft_printf/src/choise_spec.i
+.PHONY : ft_printf/source/flag_check.i
 
 # target to preprocess a source file
-ft_printf/src/choise_spec.c.i:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/choise_spec.c.i
-.PHONY : ft_printf/src/choise_spec.c.i
+ft_printf/source/flag_check.c.i:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/flag_check.c.i
+.PHONY : ft_printf/source/flag_check.c.i
 
-ft_printf/src/choise_spec.s: ft_printf/src/choise_spec.c.s
+ft_printf/source/flag_check.s: ft_printf/source/flag_check.c.s
 
-.PHONY : ft_printf/src/choise_spec.s
+.PHONY : ft_printf/source/flag_check.s
 
 # target to generate assembly for a file
-ft_printf/src/choise_spec.c.s:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/choise_spec.c.s
-.PHONY : ft_printf/src/choise_spec.c.s
+ft_printf/source/flag_check.c.s:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/flag_check.c.s
+.PHONY : ft_printf/source/flag_check.c.s
 
-ft_printf/src/ft_free_strncpy.o: ft_printf/src/ft_free_strncpy.c.o
+ft_printf/source/format_check.o: ft_printf/source/format_check.c.o
 
-.PHONY : ft_printf/src/ft_free_strncpy.o
+.PHONY : ft_printf/source/format_check.o
 
 # target to build an object file
-ft_printf/src/ft_free_strncpy.c.o:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/ft_free_strncpy.c.o
-.PHONY : ft_printf/src/ft_free_strncpy.c.o
+ft_printf/source/format_check.c.o:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/format_check.c.o
+.PHONY : ft_printf/source/format_check.c.o
 
-ft_printf/src/ft_free_strncpy.i: ft_printf/src/ft_free_strncpy.c.i
+ft_printf/source/format_check.i: ft_printf/source/format_check.c.i
 
-.PHONY : ft_printf/src/ft_free_strncpy.i
+.PHONY : ft_printf/source/format_check.i
 
 # target to preprocess a source file
-ft_printf/src/ft_free_strncpy.c.i:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/ft_free_strncpy.c.i
-.PHONY : ft_printf/src/ft_free_strncpy.c.i
+ft_printf/source/format_check.c.i:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/format_check.c.i
+.PHONY : ft_printf/source/format_check.c.i
 
-ft_printf/src/ft_free_strncpy.s: ft_printf/src/ft_free_strncpy.c.s
+ft_printf/source/format_check.s: ft_printf/source/format_check.c.s
 
-.PHONY : ft_printf/src/ft_free_strncpy.s
+.PHONY : ft_printf/source/format_check.s
 
 # target to generate assembly for a file
-ft_printf/src/ft_free_strncpy.c.s:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/ft_free_strncpy.c.s
-.PHONY : ft_printf/src/ft_free_strncpy.c.s
+ft_printf/source/format_check.c.s:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/format_check.c.s
+.PHONY : ft_printf/source/format_check.c.s
 
-ft_printf/src/ft_printf.o: ft_printf/src/ft_printf.c.o
+ft_printf/source/ft_int_base.o: ft_printf/source/ft_int_base.c.o
 
-.PHONY : ft_printf/src/ft_printf.o
+.PHONY : ft_printf/source/ft_int_base.o
 
 # target to build an object file
-ft_printf/src/ft_printf.c.o:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/ft_printf.c.o
-.PHONY : ft_printf/src/ft_printf.c.o
+ft_printf/source/ft_int_base.c.o:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/ft_int_base.c.o
+.PHONY : ft_printf/source/ft_int_base.c.o
 
-ft_printf/src/ft_printf.i: ft_printf/src/ft_printf.c.i
+ft_printf/source/ft_int_base.i: ft_printf/source/ft_int_base.c.i
 
-.PHONY : ft_printf/src/ft_printf.i
+.PHONY : ft_printf/source/ft_int_base.i
 
 # target to preprocess a source file
-ft_printf/src/ft_printf.c.i:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/ft_printf.c.i
-.PHONY : ft_printf/src/ft_printf.c.i
+ft_printf/source/ft_int_base.c.i:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/ft_int_base.c.i
+.PHONY : ft_printf/source/ft_int_base.c.i
 
-ft_printf/src/ft_printf.s: ft_printf/src/ft_printf.c.s
+ft_printf/source/ft_int_base.s: ft_printf/source/ft_int_base.c.s
 
-.PHONY : ft_printf/src/ft_printf.s
+.PHONY : ft_printf/source/ft_int_base.s
 
 # target to generate assembly for a file
-ft_printf/src/ft_printf.c.s:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/ft_printf.c.s
-.PHONY : ft_printf/src/ft_printf.c.s
+ft_printf/source/ft_int_base.c.s:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/ft_int_base.c.s
+.PHONY : ft_printf/source/ft_int_base.c.s
 
-ft_printf/src/init_arg.o: ft_printf/src/init_arg.c.o
+ft_printf/source/ft_itoa_ll.o: ft_printf/source/ft_itoa_ll.c.o
 
-.PHONY : ft_printf/src/init_arg.o
+.PHONY : ft_printf/source/ft_itoa_ll.o
 
 # target to build an object file
-ft_printf/src/init_arg.c.o:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/init_arg.c.o
-.PHONY : ft_printf/src/init_arg.c.o
+ft_printf/source/ft_itoa_ll.c.o:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/ft_itoa_ll.c.o
+.PHONY : ft_printf/source/ft_itoa_ll.c.o
 
-ft_printf/src/init_arg.i: ft_printf/src/init_arg.c.i
+ft_printf/source/ft_itoa_ll.i: ft_printf/source/ft_itoa_ll.c.i
 
-.PHONY : ft_printf/src/init_arg.i
+.PHONY : ft_printf/source/ft_itoa_ll.i
 
 # target to preprocess a source file
-ft_printf/src/init_arg.c.i:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/init_arg.c.i
-.PHONY : ft_printf/src/init_arg.c.i
+ft_printf/source/ft_itoa_ll.c.i:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/ft_itoa_ll.c.i
+.PHONY : ft_printf/source/ft_itoa_ll.c.i
 
-ft_printf/src/init_arg.s: ft_printf/src/init_arg.c.s
+ft_printf/source/ft_itoa_ll.s: ft_printf/source/ft_itoa_ll.c.s
 
-.PHONY : ft_printf/src/init_arg.s
+.PHONY : ft_printf/source/ft_itoa_ll.s
 
 # target to generate assembly for a file
-ft_printf/src/init_arg.c.s:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/init_arg.c.s
-.PHONY : ft_printf/src/init_arg.c.s
+ft_printf/source/ft_itoa_ll.c.s:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/ft_itoa_ll.c.s
+.PHONY : ft_printf/source/ft_itoa_ll.c.s
 
-ft_printf/src/print_digit.o: ft_printf/src/print_digit.c.o
+ft_printf/source/one.o: ft_printf/source/one.c.o
 
-.PHONY : ft_printf/src/print_digit.o
+.PHONY : ft_printf/source/one.o
 
 # target to build an object file
-ft_printf/src/print_digit.c.o:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/print_digit.c.o
-.PHONY : ft_printf/src/print_digit.c.o
+ft_printf/source/one.c.o:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/one.c.o
+.PHONY : ft_printf/source/one.c.o
 
-ft_printf/src/print_digit.i: ft_printf/src/print_digit.c.i
+ft_printf/source/one.i: ft_printf/source/one.c.i
 
-.PHONY : ft_printf/src/print_digit.i
+.PHONY : ft_printf/source/one.i
 
 # target to preprocess a source file
-ft_printf/src/print_digit.c.i:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/print_digit.c.i
-.PHONY : ft_printf/src/print_digit.c.i
+ft_printf/source/one.c.i:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/one.c.i
+.PHONY : ft_printf/source/one.c.i
 
-ft_printf/src/print_digit.s: ft_printf/src/print_digit.c.s
+ft_printf/source/one.s: ft_printf/source/one.c.s
 
-.PHONY : ft_printf/src/print_digit.s
+.PHONY : ft_printf/source/one.s
 
 # target to generate assembly for a file
-ft_printf/src/print_digit.c.s:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/print_digit.c.s
-.PHONY : ft_printf/src/print_digit.c.s
+ft_printf/source/one.c.s:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/one.c.s
+.PHONY : ft_printf/source/one.c.s
 
-ft_printf/src/print_double.o: ft_printf/src/print_double.c.o
+ft_printf/source/print_c_u.o: ft_printf/source/print_c_u.c.o
 
-.PHONY : ft_printf/src/print_double.o
+.PHONY : ft_printf/source/print_c_u.o
 
 # target to build an object file
-ft_printf/src/print_double.c.o:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/print_double.c.o
-.PHONY : ft_printf/src/print_double.c.o
+ft_printf/source/print_c_u.c.o:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/print_c_u.c.o
+.PHONY : ft_printf/source/print_c_u.c.o
 
-ft_printf/src/print_double.i: ft_printf/src/print_double.c.i
+ft_printf/source/print_c_u.i: ft_printf/source/print_c_u.c.i
 
-.PHONY : ft_printf/src/print_double.i
+.PHONY : ft_printf/source/print_c_u.i
 
 # target to preprocess a source file
-ft_printf/src/print_double.c.i:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/print_double.c.i
-.PHONY : ft_printf/src/print_double.c.i
+ft_printf/source/print_c_u.c.i:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/print_c_u.c.i
+.PHONY : ft_printf/source/print_c_u.c.i
 
-ft_printf/src/print_double.s: ft_printf/src/print_double.c.s
+ft_printf/source/print_c_u.s: ft_printf/source/print_c_u.c.s
 
-.PHONY : ft_printf/src/print_double.s
+.PHONY : ft_printf/source/print_c_u.s
 
 # target to generate assembly for a file
-ft_printf/src/print_double.c.s:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/print_double.c.s
-.PHONY : ft_printf/src/print_double.c.s
+ft_printf/source/print_c_u.c.s:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/print_c_u.c.s
+.PHONY : ft_printf/source/print_c_u.c.s
 
-ft_printf/src/print_non_printabl.o: ft_printf/src/print_non_printabl.c.o
+ft_printf/source/print_d.o: ft_printf/source/print_d.c.o
 
-.PHONY : ft_printf/src/print_non_printabl.o
+.PHONY : ft_printf/source/print_d.o
 
 # target to build an object file
-ft_printf/src/print_non_printabl.c.o:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/print_non_printabl.c.o
-.PHONY : ft_printf/src/print_non_printabl.c.o
+ft_printf/source/print_d.c.o:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/print_d.c.o
+.PHONY : ft_printf/source/print_d.c.o
 
-ft_printf/src/print_non_printabl.i: ft_printf/src/print_non_printabl.c.i
+ft_printf/source/print_d.i: ft_printf/source/print_d.c.i
 
-.PHONY : ft_printf/src/print_non_printabl.i
+.PHONY : ft_printf/source/print_d.i
 
 # target to preprocess a source file
-ft_printf/src/print_non_printabl.c.i:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/print_non_printabl.c.i
-.PHONY : ft_printf/src/print_non_printabl.c.i
+ft_printf/source/print_d.c.i:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/print_d.c.i
+.PHONY : ft_printf/source/print_d.c.i
 
-ft_printf/src/print_non_printabl.s: ft_printf/src/print_non_printabl.c.s
+ft_printf/source/print_d.s: ft_printf/source/print_d.c.s
 
-.PHONY : ft_printf/src/print_non_printabl.s
+.PHONY : ft_printf/source/print_d.s
 
 # target to generate assembly for a file
-ft_printf/src/print_non_printabl.c.s:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/print_non_printabl.c.s
-.PHONY : ft_printf/src/print_non_printabl.c.s
+ft_printf/source/print_d.c.s:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/print_d.c.s
+.PHONY : ft_printf/source/print_d.c.s
 
-ft_printf/src/print_spec.o: ft_printf/src/print_spec.c.o
+ft_printf/source/print_f.o: ft_printf/source/print_f.c.o
 
-.PHONY : ft_printf/src/print_spec.o
+.PHONY : ft_printf/source/print_f.o
 
 # target to build an object file
-ft_printf/src/print_spec.c.o:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/print_spec.c.o
-.PHONY : ft_printf/src/print_spec.c.o
+ft_printf/source/print_f.c.o:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/print_f.c.o
+.PHONY : ft_printf/source/print_f.c.o
 
-ft_printf/src/print_spec.i: ft_printf/src/print_spec.c.i
+ft_printf/source/print_f.i: ft_printf/source/print_f.c.i
 
-.PHONY : ft_printf/src/print_spec.i
+.PHONY : ft_printf/source/print_f.i
 
 # target to preprocess a source file
-ft_printf/src/print_spec.c.i:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/print_spec.c.i
-.PHONY : ft_printf/src/print_spec.c.i
+ft_printf/source/print_f.c.i:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/print_f.c.i
+.PHONY : ft_printf/source/print_f.c.i
 
-ft_printf/src/print_spec.s: ft_printf/src/print_spec.c.s
+ft_printf/source/print_f.s: ft_printf/source/print_f.c.s
 
-.PHONY : ft_printf/src/print_spec.s
+.PHONY : ft_printf/source/print_f.s
 
 # target to generate assembly for a file
-ft_printf/src/print_spec.c.s:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/print_spec.c.s
-.PHONY : ft_printf/src/print_spec.c.s
+ft_printf/source/print_f.c.s:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/print_f.c.s
+.PHONY : ft_printf/source/print_f.c.s
 
-ft_printf/src/print_spec_etc.o: ft_printf/src/print_spec_etc.c.o
+ft_printf/source/print_num.o: ft_printf/source/print_num.c.o
 
-.PHONY : ft_printf/src/print_spec_etc.o
+.PHONY : ft_printf/source/print_num.o
 
 # target to build an object file
-ft_printf/src/print_spec_etc.c.o:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/print_spec_etc.c.o
-.PHONY : ft_printf/src/print_spec_etc.c.o
+ft_printf/source/print_num.c.o:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/print_num.c.o
+.PHONY : ft_printf/source/print_num.c.o
 
-ft_printf/src/print_spec_etc.i: ft_printf/src/print_spec_etc.c.i
+ft_printf/source/print_num.i: ft_printf/source/print_num.c.i
 
-.PHONY : ft_printf/src/print_spec_etc.i
+.PHONY : ft_printf/source/print_num.i
 
 # target to preprocess a source file
-ft_printf/src/print_spec_etc.c.i:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/print_spec_etc.c.i
-.PHONY : ft_printf/src/print_spec_etc.c.i
+ft_printf/source/print_num.c.i:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/print_num.c.i
+.PHONY : ft_printf/source/print_num.c.i
 
-ft_printf/src/print_spec_etc.s: ft_printf/src/print_spec_etc.c.s
+ft_printf/source/print_num.s: ft_printf/source/print_num.c.s
 
-.PHONY : ft_printf/src/print_spec_etc.s
+.PHONY : ft_printf/source/print_num.s
 
 # target to generate assembly for a file
-ft_printf/src/print_spec_etc.c.s:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/print_spec_etc.c.s
-.PHONY : ft_printf/src/print_spec_etc.c.s
+ft_printf/source/print_num.c.s:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/print_num.c.s
+.PHONY : ft_printf/source/print_num.c.s
 
-ft_printf/src/print_xox.o: ft_printf/src/print_xox.c.o
+ft_printf/source/print_o_x.o: ft_printf/source/print_o_x.c.o
 
-.PHONY : ft_printf/src/print_xox.o
+.PHONY : ft_printf/source/print_o_x.o
 
 # target to build an object file
-ft_printf/src/print_xox.c.o:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/print_xox.c.o
-.PHONY : ft_printf/src/print_xox.c.o
+ft_printf/source/print_o_x.c.o:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/print_o_x.c.o
+.PHONY : ft_printf/source/print_o_x.c.o
 
-ft_printf/src/print_xox.i: ft_printf/src/print_xox.c.i
+ft_printf/source/print_o_x.i: ft_printf/source/print_o_x.c.i
 
-.PHONY : ft_printf/src/print_xox.i
+.PHONY : ft_printf/source/print_o_x.i
 
 # target to preprocess a source file
-ft_printf/src/print_xox.c.i:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/print_xox.c.i
-.PHONY : ft_printf/src/print_xox.c.i
+ft_printf/source/print_o_x.c.i:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/print_o_x.c.i
+.PHONY : ft_printf/source/print_o_x.c.i
 
-ft_printf/src/print_xox.s: ft_printf/src/print_xox.c.s
+ft_printf/source/print_o_x.s: ft_printf/source/print_o_x.c.s
 
-.PHONY : ft_printf/src/print_xox.s
+.PHONY : ft_printf/source/print_o_x.s
 
 # target to generate assembly for a file
-ft_printf/src/print_xox.c.s:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/print_xox.c.s
-.PHONY : ft_printf/src/print_xox.c.s
+ft_printf/source/print_o_x.c.s:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/print_o_x.c.s
+.PHONY : ft_printf/source/print_o_x.c.s
 
-ft_printf/src/settings.o: ft_printf/src/settings.c.o
+ft_printf/source/print_str.o: ft_printf/source/print_str.c.o
 
-.PHONY : ft_printf/src/settings.o
+.PHONY : ft_printf/source/print_str.o
 
 # target to build an object file
-ft_printf/src/settings.c.o:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/settings.c.o
-.PHONY : ft_printf/src/settings.c.o
+ft_printf/source/print_str.c.o:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/print_str.c.o
+.PHONY : ft_printf/source/print_str.c.o
 
-ft_printf/src/settings.i: ft_printf/src/settings.c.i
+ft_printf/source/print_str.i: ft_printf/source/print_str.c.i
 
-.PHONY : ft_printf/src/settings.i
+.PHONY : ft_printf/source/print_str.i
 
 # target to preprocess a source file
-ft_printf/src/settings.c.i:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/settings.c.i
-.PHONY : ft_printf/src/settings.c.i
+ft_printf/source/print_str.c.i:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/print_str.c.i
+.PHONY : ft_printf/source/print_str.c.i
 
-ft_printf/src/settings.s: ft_printf/src/settings.c.s
+ft_printf/source/print_str.s: ft_printf/source/print_str.c.s
 
-.PHONY : ft_printf/src/settings.s
+.PHONY : ft_printf/source/print_str.s
 
 # target to generate assembly for a file
-ft_printf/src/settings.c.s:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/src/settings.c.s
-.PHONY : ft_printf/src/settings.c.s
+ft_printf/source/print_str.c.s:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/print_str.c.s
+.PHONY : ft_printf/source/print_str.c.s
+
+ft_printf/source/str_format.o: ft_printf/source/str_format.c.o
+
+.PHONY : ft_printf/source/str_format.o
+
+# target to build an object file
+ft_printf/source/str_format.c.o:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/str_format.c.o
+.PHONY : ft_printf/source/str_format.c.o
+
+ft_printf/source/str_format.i: ft_printf/source/str_format.c.i
+
+.PHONY : ft_printf/source/str_format.i
+
+# target to preprocess a source file
+ft_printf/source/str_format.c.i:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/str_format.c.i
+.PHONY : ft_printf/source/str_format.c.i
+
+ft_printf/source/str_format.s: ft_printf/source/str_format.c.s
+
+.PHONY : ft_printf/source/str_format.s
+
+# target to generate assembly for a file
+ft_printf/source/str_format.c.s:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/ft_printf/source/str_format.c.s
+.PHONY : ft_printf/source/str_format.c.s
 
 libft/ft_abs.o: libft/ft_abs.c.o
 
@@ -2769,6 +2769,33 @@ main_c.c.s:
 	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/main_c.c.s
 .PHONY : main_c.c.s
 
+src_cor/arena.o: src_cor/arena.c.o
+
+.PHONY : src_cor/arena.o
+
+# target to build an object file
+src_cor/arena.c.o:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/arena.c.o
+.PHONY : src_cor/arena.c.o
+
+src_cor/arena.i: src_cor/arena.c.i
+
+.PHONY : src_cor/arena.i
+
+# target to preprocess a source file
+src_cor/arena.c.i:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/arena.c.i
+.PHONY : src_cor/arena.c.i
+
+src_cor/arena.s: src_cor/arena.c.s
+
+.PHONY : src_cor/arena.s
+
+# target to generate assembly for a file
+src_cor/arena.c.s:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/arena.c.s
+.PHONY : src_cor/arena.c.s
+
 src_cor/carr_list.o: src_cor/carr_list.c.o
 
 .PHONY : src_cor/carr_list.o
@@ -2795,6 +2822,33 @@ src_cor/carr_list.s: src_cor/carr_list.c.s
 src_cor/carr_list.c.s:
 	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/carr_list.c.s
 .PHONY : src_cor/carr_list.c.s
+
+src_cor/champ.o: src_cor/champ.c.o
+
+.PHONY : src_cor/champ.o
+
+# target to build an object file
+src_cor/champ.c.o:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/champ.c.o
+.PHONY : src_cor/champ.c.o
+
+src_cor/champ.i: src_cor/champ.c.i
+
+.PHONY : src_cor/champ.i
+
+# target to preprocess a source file
+src_cor/champ.c.i:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/champ.c.i
+.PHONY : src_cor/champ.c.i
+
+src_cor/champ.s: src_cor/champ.c.s
+
+.PHONY : src_cor/champ.s
+
+# target to generate assembly for a file
+src_cor/champ.c.s:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/champ.c.s
+.PHONY : src_cor/champ.c.s
 
 src_cor/ft_add.o: src_cor/ft_add.c.o
 
@@ -3237,42 +3291,42 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... arina"
-	@echo "... ft_printf/src/check_args.o"
-	@echo "... ft_printf/src/check_args.i"
-	@echo "... ft_printf/src/check_args.s"
-	@echo "... ft_printf/src/choise_spec.o"
-	@echo "... ft_printf/src/choise_spec.i"
-	@echo "... ft_printf/src/choise_spec.s"
-	@echo "... ft_printf/src/ft_free_strncpy.o"
-	@echo "... ft_printf/src/ft_free_strncpy.i"
-	@echo "... ft_printf/src/ft_free_strncpy.s"
-	@echo "... ft_printf/src/ft_printf.o"
-	@echo "... ft_printf/src/ft_printf.i"
-	@echo "... ft_printf/src/ft_printf.s"
-	@echo "... ft_printf/src/init_arg.o"
-	@echo "... ft_printf/src/init_arg.i"
-	@echo "... ft_printf/src/init_arg.s"
-	@echo "... ft_printf/src/print_digit.o"
-	@echo "... ft_printf/src/print_digit.i"
-	@echo "... ft_printf/src/print_digit.s"
-	@echo "... ft_printf/src/print_double.o"
-	@echo "... ft_printf/src/print_double.i"
-	@echo "... ft_printf/src/print_double.s"
-	@echo "... ft_printf/src/print_non_printabl.o"
-	@echo "... ft_printf/src/print_non_printabl.i"
-	@echo "... ft_printf/src/print_non_printabl.s"
-	@echo "... ft_printf/src/print_spec.o"
-	@echo "... ft_printf/src/print_spec.i"
-	@echo "... ft_printf/src/print_spec.s"
-	@echo "... ft_printf/src/print_spec_etc.o"
-	@echo "... ft_printf/src/print_spec_etc.i"
-	@echo "... ft_printf/src/print_spec_etc.s"
-	@echo "... ft_printf/src/print_xox.o"
-	@echo "... ft_printf/src/print_xox.i"
-	@echo "... ft_printf/src/print_xox.s"
-	@echo "... ft_printf/src/settings.o"
-	@echo "... ft_printf/src/settings.i"
-	@echo "... ft_printf/src/settings.s"
+	@echo "... ft_printf/source/flag_check.o"
+	@echo "... ft_printf/source/flag_check.i"
+	@echo "... ft_printf/source/flag_check.s"
+	@echo "... ft_printf/source/format_check.o"
+	@echo "... ft_printf/source/format_check.i"
+	@echo "... ft_printf/source/format_check.s"
+	@echo "... ft_printf/source/ft_int_base.o"
+	@echo "... ft_printf/source/ft_int_base.i"
+	@echo "... ft_printf/source/ft_int_base.s"
+	@echo "... ft_printf/source/ft_itoa_ll.o"
+	@echo "... ft_printf/source/ft_itoa_ll.i"
+	@echo "... ft_printf/source/ft_itoa_ll.s"
+	@echo "... ft_printf/source/one.o"
+	@echo "... ft_printf/source/one.i"
+	@echo "... ft_printf/source/one.s"
+	@echo "... ft_printf/source/print_c_u.o"
+	@echo "... ft_printf/source/print_c_u.i"
+	@echo "... ft_printf/source/print_c_u.s"
+	@echo "... ft_printf/source/print_d.o"
+	@echo "... ft_printf/source/print_d.i"
+	@echo "... ft_printf/source/print_d.s"
+	@echo "... ft_printf/source/print_f.o"
+	@echo "... ft_printf/source/print_f.i"
+	@echo "... ft_printf/source/print_f.s"
+	@echo "... ft_printf/source/print_num.o"
+	@echo "... ft_printf/source/print_num.i"
+	@echo "... ft_printf/source/print_num.s"
+	@echo "... ft_printf/source/print_o_x.o"
+	@echo "... ft_printf/source/print_o_x.i"
+	@echo "... ft_printf/source/print_o_x.s"
+	@echo "... ft_printf/source/print_str.o"
+	@echo "... ft_printf/source/print_str.i"
+	@echo "... ft_printf/source/print_str.s"
+	@echo "... ft_printf/source/str_format.o"
+	@echo "... ft_printf/source/str_format.i"
+	@echo "... ft_printf/source/str_format.s"
 	@echo "... libft/ft_abs.o"
 	@echo "... libft/ft_abs.i"
 	@echo "... libft/ft_abs.s"
@@ -3531,9 +3585,15 @@ help:
 	@echo "... main_c.o"
 	@echo "... main_c.i"
 	@echo "... main_c.s"
+	@echo "... src_cor/arena.o"
+	@echo "... src_cor/arena.i"
+	@echo "... src_cor/arena.s"
 	@echo "... src_cor/carr_list.o"
 	@echo "... src_cor/carr_list.i"
 	@echo "... src_cor/carr_list.s"
+	@echo "... src_cor/champ.o"
+	@echo "... src_cor/champ.i"
+	@echo "... src_cor/champ.s"
 	@echo "... src_cor/ft_add.o"
 	@echo "... src_cor/ft_add.i"
 	@echo "... src_cor/ft_add.s"

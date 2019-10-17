@@ -9,25 +9,33 @@ include_directories(libft/includes)
 include_directories(vm_champs)
 
 add_executable(arina
-        ft_printf/includes/ft_printf.h
-        ft_printf/src/check_args.c
-        ft_printf/src/choise_spec.c
+        ft_printf/head/libft.h
+        ft_printf/head/libftprintf.h
+        ft_printf/source/flag_check.c
+        ft_printf/source/format_check.c
+        ft_printf/source/ft_int_base.c
+        ft_printf/source/ft_itoa_ll.c
+        ft_printf/source/one.c
+        ft_printf/source/print_c_u.c
+        ft_printf/source/print_d.c
+        ft_printf/source/print_f.c
+        ft_printf/source/print_num.c
+        ft_printf/source/print_o_x.c
+        ft_printf/source/print_str.c
+        ft_printf/source/str_format.c
+#        ft_printf/src/check_args.c
+#        ft_printf/src/choise_spec.c
+#        ft_printf/src/ft_free_strncpy.c
+#        ft_printf/src/ft_printf.c
+#        ft_printf/src/init_arg.c
+#        ft_printf/src/print_digit.c
+#        ft_printf/src/print_double.c
+#        ft_printf/src/print_non_printabl.c
+#        ft_printf/src/print_spec.c
+#        ft_printf/src/print_spec_etc.c
+#        ft_printf/src/print_xox.c
+#        ft_printf/src/settings.c
 
-
-        ft_printf/src/ft_free_strncpy.c
-
-
-
-        ft_printf/src/ft_printf.c
-
-        ft_printf/src/init_arg.c
-        ft_printf/src/print_digit.c
-        ft_printf/src/print_double.c
-        ft_printf/src/print_non_printabl.c
-        ft_printf/src/print_spec.c
-        ft_printf/src/print_spec_etc.c
-        ft_printf/src/print_xox.c
-        ft_printf/src/settings.c
         includes/corewar.h
         includes/ft_printf.h
         includes/libft.h
@@ -138,6 +146,8 @@ add_executable(arina
         src_cor/print_code.c
         src_cor/go_cor.c
         src_cor/main.c
+        src_cor/arena.c
+        src_cor/champ.c
 
         vm_champs/op.c
         vm_champs/op.h

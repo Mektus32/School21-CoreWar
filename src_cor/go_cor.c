@@ -35,6 +35,7 @@ void	check_live(t_cor *cor)
 	{
 		//Мертвой считается каретка, которая выполняла операцию live cycles_to_die циклов назад или более.
 		//Также мертвой считается любая каретка, если cycles_to_die <= 0.
+		//
 		if ((cor->live->cycles_to_die <= 0) || ((cor->live->cycles - carr->cycles_live) >= cor->live->cycles_to_die))
 			remove_curr_if(cor, carr->num);
 		carr = carr->next;
@@ -71,6 +72,8 @@ void go_cor(t_cor *cor)
 	while (cor->carr && cor->live->cycles_to_die)
 	{
 
+		if (cor->live->cycles == 73301)
+			cor->live->cycles = 73301;
 		tmp = cor->carr;
 		// для каждой каретки иначинаем исполнять код
 		while (tmp)
@@ -127,16 +130,18 @@ void go_cor(t_cor *cor)
 
 		//Проверка происходит через каждые cycles_to_die циклов пока значение cycles_to_die больше нуля.
 		// А после того, как его значение станет меньше или равным нулю, проверка начинает проводиться после каждого цикла.
-		if (++cor->live->cycles == cor->nbr_cycles)
-		{
-			print_dump_code(cor);
-			exit_print("");
-		}
+
 		if (cor->carr)
 		{
 			if ((cor->live->cycles % cor->live->cycles_to_die == 0) || (cor->live->cycles_to_die <= 0))// || (cor->live->cycles && (cor->live->cycles % cor->live->cycles_to_die == 0)))
 				check_live(cor);
 		}
+		if (++cor->live->cycles == cor->nbr_cycles)
+		{
+			print_dump_code(cor);
+			exit_print("");
+		}
+
 //я не понимаю -  всегда буду удалять каретку
 
 	}

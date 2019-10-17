@@ -3,85 +3,51 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: ojessi <ojessi@student.42.fr>              +#+  +:+       +#+         #
+#    By: qgilbert <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/06/02 16:02:21 by ojessi            #+#    #+#              #
-#    Updated: 2019/06/11 13:37:56 by ojessi           ###   ########.fr        #
+#    Created: 2019/06/09 11:58:48 by qgilbert          #+#    #+#              #
+#    Updated: 2019/06/09 11:58:50 by qgilbert         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRC = check_args.c \
-	  choise_spec.c \
-	  ft_atoi.c \
-	  ft_free_strjoin_duo.c \
-	  ft_free_strjoin_rev.c \
-	  ft_free_strncpy.c \
-	  ft_ftoa.c \
-	  ft_itoa.c \
-	  ft_ltoa_base.c \
-	  ft_ltoa.c \
-	  ft_memset.c \
-	  ft_printf.c \
-	  ft_strchr.c \
-	  ft_strdup.c \
-	  ft_strjoin.c \
-	  ft_strlen.c \
-	  ft_strncmp.c \
-	  ft_strnew.c \
-	  ft_strtolower.c \
-	  ft_ultoa_base.c \
-	  ft_ultoa.c \
-	  init_arg.c \
-	  print_digit.c \
-	  print_double.c \
-	  print_non_printabl.c \
-	  print_spec_etc.c \
-	  print_spec.c \
-	  print_xox.c \
-	  settings.c
-
-OBJ = $(SRC:.c=.o)
-
-SRCDIR = src
-OBJDIR = objs
-
-SRCS = $(addprefix $(SRCDIR)/, $(SRC))
-OBJS = $(addprefix $(OBJDIR)/, $(OBJ))
-HEADER = -I includes
-
-CC = gcc
-CFLAGS = -c -Wall -Wextra -Werror
-
 NAME = libftprintf.a
 
-.PHONY: all clean fclean re, obj, red, grn, off
-.SUFFIXES: .c .o
+SRCDIR = ./source/
 
-all: obj grn $(NAME) off
+OBJDIR = ./objects/
 
-red:
-	@echo "\x1B[31m"
-	
-grn:
-	@echo "\x1B[32m"
+SRC = one.c ft_itoa_ll.c ft_int_base.c flag_check.c \
+	print_str.c print_num.c format_check.c print_d.c \
+	print_c_u.c print_o_x.c print_f.c str_format.c
 
-off:
-	@echo "\x1b[0m"
+OBJS = $(addprefix $(OBJDIR), $(SRC:.c=.o))
 
-obj:
+HEAD = ./head
+
+LIBFT = ./libft
+
+LIBFT_I = ./libft/libft.a
+
+GCC_FLAGS = gcc  -Wall -Wextra -Werror
+
+all: $(NAME)
+
+$(OBJDIR)%.o:$(SRCDIR)%.c
 	@mkdir -p $(OBJDIR)
+	$(GCC_FLAGS) -I $(HEAD) -o $@ -c $<
 
-$(OBJDIR)/%.o: $(SRCDIR)/%.c
-	$(CC) $(CFLAGS) $(HEADER) $< -o $@
+$(NAME):$(OBJS)
+	@make -C $(LIBFT)
+	@cp $(LIBFT_I) $(NAME)
+	@ar rc $(NAME) $(OBJS)
+	@ranlib $(NAME)
 
-$(NAME): $(OBJS)
-	@ar rc $@ $^
-	@ranlib $@
-
-clean: red
-	/bin/rm -rf $(OBJDIR)
+clean:
+	@/bin/rm -rf $(OBJDIR) 
+	@make -C $(LIBFT) clean
 
 fclean: clean
-	/bin/rm -f $(NAME)
+	@/bin/rm -f $(NAME)
+	@make -C $(LIBFT) fclean
 
 re: fclean all

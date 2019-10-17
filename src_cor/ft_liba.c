@@ -32,13 +32,13 @@ void	free_cor(t_cor *cor)
 	{
 		free(cor->m_2[i]->code);
 		free(cor->m_2[i]);
-		free(cor->m_ch[i]);
-		free(cor->m_2[i]);
-		if (cor->m_2[i]->code)
-		{
-			free(cor->m_2[i]->code);
-			free(cor->m_2[i]);
-		}
+		//free(cor->m_ch[i]);
+		//free(cor->m_2[i]);
+//		if (cor->m_2[i]->code)
+//		{
+//			free(cor->m_2[i]->code);
+//			free(cor->m_2[i]);
+//		}
 		i++;
 	}
 	free(cor);
@@ -60,4 +60,31 @@ char	*ft_strncpy_all(char *dest, const char *source, size_t n)
 		i++;
 	}
 	return (dest);
+}
+
+char *base16_2(unsigned c)
+{
+	char *b2;
+	int		i;
+
+	i = 7;
+	b2 = (char *)malloc(sizeof(char) * 9);
+	b2[8] = '\0';
+	while (i >= 0)
+	{
+		b2[i] = c % 2;
+		c = c/2;
+		i--;
+	}
+	return  (b2);
+}
+
+char *base16_2_cor(t_cor *cor, t_carr *tmp)
+{
+	unsigned char	*k;
+
+	k = malloc(sizeof(char));
+	ft_memcpy(k, cor->code + (tmp->cur + 1) % MEM_SIZE, 1);
+	free(k);
+	return  (base16_2(k[0]));
 }

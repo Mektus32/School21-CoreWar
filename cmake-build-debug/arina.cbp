@@ -88,43 +88,46 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/ft_printf/includes/ft_printf.h">
+		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/ft_printf/head/libft.h">
 			<Option target="arina"/>
 		</Unit>
-		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/ft_printf/src/check_args.c">
+		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/ft_printf/head/libftprintf.h">
 			<Option target="arina"/>
 		</Unit>
-		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/ft_printf/src/choise_spec.c">
+		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/ft_printf/source/flag_check.c">
 			<Option target="arina"/>
 		</Unit>
-		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/ft_printf/src/ft_free_strncpy.c">
+		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/ft_printf/source/format_check.c">
 			<Option target="arina"/>
 		</Unit>
-		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/ft_printf/src/ft_printf.c">
+		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/ft_printf/source/ft_int_base.c">
 			<Option target="arina"/>
 		</Unit>
-		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/ft_printf/src/init_arg.c">
+		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/ft_printf/source/ft_itoa_ll.c">
 			<Option target="arina"/>
 		</Unit>
-		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/ft_printf/src/print_digit.c">
+		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/ft_printf/source/one.c">
 			<Option target="arina"/>
 		</Unit>
-		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/ft_printf/src/print_double.c">
+		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/ft_printf/source/print_c_u.c">
 			<Option target="arina"/>
 		</Unit>
-		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/ft_printf/src/print_non_printabl.c">
+		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/ft_printf/source/print_d.c">
 			<Option target="arina"/>
 		</Unit>
-		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/ft_printf/src/print_spec.c">
+		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/ft_printf/source/print_f.c">
 			<Option target="arina"/>
 		</Unit>
-		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/ft_printf/src/print_spec_etc.c">
+		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/ft_printf/source/print_num.c">
 			<Option target="arina"/>
 		</Unit>
-		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/ft_printf/src/print_xox.c">
+		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/ft_printf/source/print_o_x.c">
 			<Option target="arina"/>
 		</Unit>
-		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/ft_printf/src/settings.c">
+		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/ft_printf/source/print_str.c">
+			<Option target="arina"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/ft_printf/source/str_format.c">
 			<Option target="arina"/>
 		</Unit>
 		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/includes/corewar.h">
@@ -403,7 +406,13 @@
 		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/main_c.c">
 			<Option target="arina"/>
 		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/src_cor/arena.c">
+			<Option target="arina"/>
+		</Unit>
 		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/src_cor/carr_list.c">
+			<Option target="arina"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/src_cor/champ.c">
 			<Option target="arina"/>
 		</Unit>
 		<Unit filename="/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_add.c">

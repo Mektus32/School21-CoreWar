@@ -30,7 +30,10 @@ SRC =	main.c \
 		ft_sub.c \
 		print_code.c \
 		ft_liba.c \
-		read_byte.c
+		read_byte.c \
+		arena.c \
+		champ.c
+
 		
 
 
