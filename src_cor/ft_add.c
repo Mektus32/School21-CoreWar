@@ -41,8 +41,8 @@ void				ft_add(t_cor *cor, t_carr *tmp)
 
 void				ft_zjmp(t_cor *cor, t_carr *tmp)
 {
-	unsigned short	t_ind;
-	short			a;
+	short	t_ind;
+	short	a;
 
 	if (tmp->carry == 1)
 	{

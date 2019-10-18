@@ -24,6 +24,8 @@ unsigned char	read_byte_1(const char *src, int i)
 {
 	unsigned char	c_1;
 
+	while (i < 0)
+		i = MEM_SIZE + i;
 	c_1 = src[i % MEM_SIZE];
 	return (c_1);
 }
@@ -32,6 +34,8 @@ short			read_byte_2(const char *src, int i)
 {
 	short	c_2;
 
+	while (i < 0)
+		i = MEM_SIZE + i;
 	c_2 = src[i % MEM_SIZE];
 	c_2 = c_2 << 8;
 	c_2 = c_2 | (unsigned char)src[(i + 1) % MEM_SIZE];
@@ -42,6 +46,8 @@ unsigned int	read_byte_4(const char *src, int i)
 {
 	unsigned int	c_4;
 
+	while (i < 0)
+		i = MEM_SIZE + i;
 	c_4 = 0;
 	c_4 = (c_4 << 8);
 	c_4 = c_4 | (unsigned char)(src[(i) % MEM_SIZE]);

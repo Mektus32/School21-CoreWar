@@ -14,7 +14,7 @@
 
 void	exit_print(char *str)
 {
-	printf("%s\n", str);
+	ft_printf("%s\n", str);
 	exit(0);
 }
 

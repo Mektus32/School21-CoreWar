@@ -19,19 +19,20 @@ void print_dump_code(t_cor *cor)
 
 	k = 0;
 	i = 0;
-	printf("%.4p : ", k);
+	ft_printf("%.4p : ", k);
 	while (i < MEM_SIZE)
 	{
 		if (i % (64) == 0 && i != 0)
 		{
 			k++;
-			printf("\n");
-			printf("%.4p : ", k * 64);
+			ft_printf("\n");
+			ft_printf("%.4p : ", k * 64);
 		}
 		if (cor->code[i] < 0)
-			printf("%.2x ", 256 - -1 * cor->code[i]);
+			ft_printf("%.2x ", 256 - -1 * cor->code[i]);
 		else
-			printf("%.2x ", cor->code[i]);
+			ft_printf("%.2x ", cor->code[i]);
 		i++;
 	}
+	exit_print("");
 }

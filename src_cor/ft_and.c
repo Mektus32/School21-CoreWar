@@ -12,7 +12,7 @@ int arg_1(char *b2, t_carr *tmp, t_cor *cor, int *f_err)
 	if (b2[0] == 0 && b2[1] == 1)
 	{
 		t_reg_3 = read_byte_1(cor->code, tmp->cur + tmp->i++);
-		a1 = (int)t_reg_3;
+		a1 = tmp->reg[(int)t_reg_3 - 1];
 		if (!(VAL_REG(t_reg_3)))//!(t_reg_3 > 0 && t_reg_3 <= REG_NUMBER)
 			*f_err = 1;
 	}
