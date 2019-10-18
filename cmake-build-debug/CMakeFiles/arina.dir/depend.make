@@ -283,11 +283,23 @@ CMakeFiles/arina.dir/libft/get_next_line.c.o: ../libft/get_next_line.c
 
 CMakeFiles/arina.dir/main_c.c.o: ../main_c.c
 
+CMakeFiles/arina.dir/src_cor/arena.c.o: ../includes/corewar.h
+CMakeFiles/arina.dir/src_cor/arena.c.o: ../includes/ft_printf.h
+CMakeFiles/arina.dir/src_cor/arena.c.o: ../includes/libft.h
+CMakeFiles/arina.dir/src_cor/arena.c.o: ../includes/op.h
+CMakeFiles/arina.dir/src_cor/arena.c.o: ../src_cor/arena.c
+
 CMakeFiles/arina.dir/src_cor/carr_list.c.o: ../includes/corewar.h
 CMakeFiles/arina.dir/src_cor/carr_list.c.o: ../includes/ft_printf.h
 CMakeFiles/arina.dir/src_cor/carr_list.c.o: ../includes/libft.h
 CMakeFiles/arina.dir/src_cor/carr_list.c.o: ../includes/op.h
 CMakeFiles/arina.dir/src_cor/carr_list.c.o: ../src_cor/carr_list.c
+
+CMakeFiles/arina.dir/src_cor/champ.c.o: ../includes/corewar.h
+CMakeFiles/arina.dir/src_cor/champ.c.o: ../includes/ft_printf.h
+CMakeFiles/arina.dir/src_cor/champ.c.o: ../includes/libft.h
+CMakeFiles/arina.dir/src_cor/champ.c.o: ../includes/op.h
+CMakeFiles/arina.dir/src_cor/champ.c.o: ../src_cor/champ.c
 
 CMakeFiles/arina.dir/src_cor/ft_add.c.o: ../includes/corewar.h
 CMakeFiles/arina.dir/src_cor/ft_add.c.o: ../includes/ft_printf.h
@@ -313,10 +325,6 @@ CMakeFiles/arina.dir/src_cor/ft_fork_lfork.c.o: ../includes/libft.h
 CMakeFiles/arina.dir/src_cor/ft_fork_lfork.c.o: ../includes/op.h
 CMakeFiles/arina.dir/src_cor/ft_fork_lfork.c.o: ../src_cor/ft_fork_lfork.c
 
-CMakeFiles/arina.dir/src_cor/ft_ld.c.o: ../includes/corewar.h
-CMakeFiles/arina.dir/src_cor/ft_ld.c.o: ../includes/ft_printf.h
-CMakeFiles/arina.dir/src_cor/ft_ld.c.o: ../includes/libft.h
-CMakeFiles/arina.dir/src_cor/ft_ld.c.o: ../includes/op.h
 CMakeFiles/arina.dir/src_cor/ft_ld.c.o: ../src_cor/ft_ld.c
 
 CMakeFiles/arina.dir/src_cor/ft_liba.c.o: ../includes/corewar.h

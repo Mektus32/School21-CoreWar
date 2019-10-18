@@ -39,7 +39,7 @@ short			read_byte_2(const char *src, int i)
 	c_2 = src[i % MEM_SIZE];
 	c_2 = c_2 << 8;
 	c_2 = c_2 | (unsigned char)src[(i + 1) % MEM_SIZE];
-	return (c_2);
+	return ((short)c_2);
 }
 
 unsigned int	read_byte_4(const char *src, int i)

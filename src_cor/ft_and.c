@@ -2,7 +2,7 @@
 
 // точно ли не надо сначало по i еще подвинуться?
 
-int arg_1(char *b2, t_carr *tmp, t_cor *cor, int *f_err)
+int arg_1(char *b2, t_carr *tmp, t_cor *cor,  int *f_err)
 {
 	int				a1;
 	unsigned char	t_reg_3;
@@ -26,8 +26,8 @@ int arg_1(char *b2, t_carr *tmp, t_cor *cor, int *f_err)
 		}
 		else
 		{
-			t_dir = read_byte_4(cor->code, tmp->cur + tmp->i);
-			tmp->i += 4;
+			t_dir = read_byte_2(cor->code, tmp->cur + tmp->i);
+			tmp->i += 2;
 		}
 		a1 = t_dir;
 	}

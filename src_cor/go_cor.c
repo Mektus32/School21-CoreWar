@@ -72,8 +72,8 @@ void go_cor(t_cor *cor)
 	while (cor->carr && cor->live->cycles_to_die)
 	{
 
-		if (cor->live->cycles == 73301)
-			cor->live->cycles = 73301;
+		if (cor->live->cycles == 2170)
+			cor->live->cycles = 2170;
 		tmp = cor->carr;
 		// для каждой каретки иначинаем исполнять код
 		while (tmp)
@@ -136,7 +136,7 @@ void go_cor(t_cor *cor)
 			if ((cor->live->cycles % cor->live->cycles_to_die == 0) || (cor->live->cycles_to_die <= 0))// || (cor->live->cycles && (cor->live->cycles % cor->live->cycles_to_die == 0)))
 				check_live(cor);
 		}
-		if (++cor->live->cycles == cor->nbr_cycles)
+		if (++cor->live->cycles == cor->nbr_cycles || cor->nbr_cycles == 0)
 		{
 			print_dump_code(cor);
 			exit_print("");

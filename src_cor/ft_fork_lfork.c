@@ -4,6 +4,7 @@
 **  Операция fork делает копию каретки. И эту копию размещает по адресу <ПЕРВЫЙ_АРГУМЕНТ> % IDX_MOD.
 ** создадим копию каретки и вставим в начало
 ** lfork не усекает по IDX_MOD
+**
 **/
 
 t_carr				*ft_fork(t_cor *cor, t_carr *tmp, int l)
@@ -23,11 +24,12 @@ t_carr				*ft_fork(t_cor *cor, t_carr *tmp, int l)
 	t_dir = read_byte_2(cor->code, tmp->cur + 1);
 	k = tmp->cur + 3 + t_dir % (IDX_MOD - l * IDX_MOD + 1 * l);
 	new->cur = (k % MEM_SIZE);
+	while (new->cur < 0)
+		new->cur = new->cur + MEM_SIZE;
 	add_curr(&(cor->carr), new);
 
 	//сделаю копию каретки и размещу ее
-
-	//copy_p(cor->code, cor->code, new->cur, tmp->cur + 1);
+	//copy_p(cor->code, cor->code, new->cur, tmp->cur);
 	tmp->i = 3;
 	return(cor->carr);
 

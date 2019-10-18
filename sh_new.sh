@@ -8,3 +8,9 @@ echo "Cikles $i"
 md5 test
 md5 my
 done
+# ./vm_champs/asm $1.s
+# echo "Cikles $i"
+# ./vm_champs/corewar $1.cor $1.cor $1.cor  -d $2 > test
+# ./cor_1  $1.cor  $1.cor $1.cor  -dump $2 > my
+# md5 test
+# md5 my
