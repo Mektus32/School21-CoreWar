@@ -6,5 +6,43 @@
 
 #IncludeRegexTransform: 
 
-/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_ld.c
+../includes/corewar.h
+op.h
+../includes/op.h
+stdio.h
+-
+fcntl.h
+-
+libft.h
+../includes/libft.h
+ft_printf.h
+../includes/ft_printf.h
+
+../includes/ft_printf.h
+stdlib.h
+-
+stdarg.h
+-
+unistd.h
+-
+limits.h
+-
+stdint.h
+-
+
+../includes/libft.h
+string.h
+-
+unistd.h
+-
+stdlib.h
+-
+limits.h
+-
+
+../includes/op.h
+
+/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_sti.c
+corewar.h
+/Users/qgilbert/Desktop/corwar_1/arina/src_cor/corewar.h
 

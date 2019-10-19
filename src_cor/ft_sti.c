@@ -42,7 +42,7 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 		if ((b2[0] == 1 && b2[1] == 1) || (b2[0] == 1 && b2[1] == 0))
 			tmp->i += 2;
 	}
-	l += arg_1(b2 + 2, tmp, cor, &f_err);
+	l += arg_2(b2 + 2, tmp, cor, &f_err);
 //	if (b2[2] == 0 && b2[3] == 1)
 //	{
 //		t_reg_2 = read_byte_1(cor->code, tmp->cur + tmp->i++);
@@ -94,7 +94,10 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 	if (!f_err)
 	{
 		p = inttobyte(tmp->reg[t_reg - 1]);
+//		while (l < 0)
+//			l += MEM_SIZE;
 		l = tmp->cur + l % IDX_MOD;
+
 		copy_p(cor->code, p, l, 0);
 		free(p);
 	}

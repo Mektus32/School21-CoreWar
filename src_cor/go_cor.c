@@ -72,8 +72,8 @@ void go_cor(t_cor *cor)
 	while (cor->carr && cor->live->cycles_to_die)
 	{
 
-		if (cor->live->cycles == 2170)
-			cor->live->cycles = 2170;
+		if (cor->live->cycles == 2137)
+			cor->live->cycles = 2137;
 		tmp = cor->carr;
 		// для каждой каретки иначинаем исполнять код
 		while (tmp)
@@ -82,6 +82,8 @@ void go_cor(t_cor *cor)
 			{
 				tmp->cur = (tmp->cur + tmp->i) % MEM_SIZE;
 				tmp->i = 0;
+				while (tmp->cur < 0)
+					tmp->cur += MEM_SIZE;
 				tmp->prog = read_byte_1(cor->code, tmp->cur);
 				//ft_memcpy_all(&tmp->prog, cor->code, 1, tmp->cur, 0);
 				tmp->cycles_to = ft_cycles_to(tmp->prog);

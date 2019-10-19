@@ -25,7 +25,7 @@ unsigned char	read_byte_1(const char *src, int i)
 	unsigned char	c_1;
 
 	while (i < 0)
-		i = MEM_SIZE + i;
+		i += MEM_SIZE;
 	c_1 = src[i % MEM_SIZE];
 	return (c_1);
 }
