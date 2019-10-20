@@ -6,7 +6,7 @@ t_carr *new_curr(int id_par)
 	int i;
 
 	new = NULL;
-	new = (t_carr*)malloc(sizeof(t_carr));
+	new = ft_memalloc(sizeof(t_carr));
 	if (!new)
 		return (NULL);
 	new->id_par = id_par;

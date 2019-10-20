@@ -13,7 +13,7 @@ unsigned char *inttobyte(int a)
 {
 	unsigned char *bt;
 
-	bt = malloc(sizeof(unsigned char) * 4);
+	bt = ft_memalloc(sizeof(unsigned char) * 4);
 	bt[0] = (unsigned char)((a >> 24) & 0xff);
 	bt[1] = (unsigned char)((a >> 16) & 0xff);
 	bt[2] = (unsigned char)((a >> 8) & 0xff);
@@ -62,12 +62,14 @@ void	check_live(t_cor *cor)
 	cor->live->live_count = 0;
 }
 
+
+
 void go_cor(t_cor *cor)
 {
 
 	t_carr	*tmp;
 
-	// обнулим live
+
 	zero_live(cor);
 	while (cor->carr && cor->live->cycles_to_die)
 	{
@@ -88,45 +90,8 @@ void go_cor(t_cor *cor)
 				//ft_memcpy_all(&tmp->prog, cor->code, 1, tmp->cur, 0);
 				tmp->cycles_to = ft_cycles_to(tmp->prog);
 			}
-
-			// если не доступная операция - двигаем каретку
 			if (--tmp->cycles_to == 0)
-			{
-				if	(tmp->prog == 1)
-					ft_live(cor, tmp);
-				else if (tmp->prog == 2)
-					ft_ld(cor, tmp, 0);
-				else if (tmp->prog == 3)
-					ft_st(cor, tmp);
-				else if (tmp->prog == 4)
-					ft_add(cor, tmp);
-				else if (tmp->prog == 5)
-					ft_sub(cor, tmp);
-				else if (tmp->prog == 6)
-					ft_and(cor, tmp);
-				else if (tmp->prog == 7)
-					ft_or(cor, tmp);
-				else if (tmp->prog == 8)
-					ft_xor(cor, tmp);
-				else if (tmp->prog == 9)
-					ft_zjmp(cor, tmp);
-				else if (tmp->prog == 10)
-					ft_ldi(cor, tmp, 0);
-				else if (tmp->prog == 11)
-					ft_sti(cor, tmp);
-				else if (tmp->prog == 12)
-					ft_fork(cor, tmp, 0);
-				else if (tmp->prog == 13)
-					ft_ld(cor, tmp, 1);
-				else if (tmp->prog == 14)
-                	ft_ldi(cor, tmp, 1);
-				else if (tmp->prog == 15)
-                	ft_fork(cor, tmp, 1);
-				else if (tmp->prog == 16)
-					ft_aff(cor, tmp);
-				else
-					tmp->i = 1;
-			}
+				do_op(cor, tmp);
 			tmp = tmp->next;
 		}
 

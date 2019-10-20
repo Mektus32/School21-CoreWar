@@ -12,10 +12,9 @@ void	arena(t_cor *cor)
 	int i;
 	char *code_i;
 
-	cor->code = (char *)malloc(sizeof(char) * MEM_SIZE);
-	cor->live = (t_live *)malloc(sizeof(t_live));
-	ft_memset(cor->code, 0, sizeof(char) * MEM_SIZE);
-	cor->colormap = (int*)malloc(sizeof(int) * MEM_SIZE);
+	cor->code = ft_memalloc(sizeof(char) * MEM_SIZE);
+	cor->live = ft_memalloc(sizeof(t_live));
+	cor->colormap = ft_memalloc(sizeof(int) * MEM_SIZE);
 	i = 0;
 	while (i < cor->n)
 	{

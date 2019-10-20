@@ -31,7 +31,6 @@ t_cor *parse_av(int ac, char **av)
 		exit_print("malloc error");
 	cor->nbr_cycles = -1;
 	ft_bzero(cor, sizeof(t_cor));
-	//cor->n = 0;
 	i = 1;
 	while (i < ac)
 	{
@@ -41,24 +40,6 @@ t_cor *parse_av(int ac, char **av)
 	}
 	if (cor->n > MAX_PLAYERS)
 		exit_print("number players more than MAX_PLAYERS\n");
-	i = 1;
-//	while (i < ac)
-//	{
-//		if (ft_strcmp("-n", av[i])))
-//		{
-//			j = ft_atoi(av[++i]);
-//			if (j && j <= cor->n)
-//			{
-//				if (cor->f[j - 1] == 0)
-//					cor->f[j - 1] = 1;
-//				else
-//					exit_print("number not unique");
-//			}
-//			else
-//				exit_print("number not valid"); // число больше кол - ва чемпионов или = 0
-//		}
-//		i++;
-//	}
 	i = 1;
 	j = 0;
 	while (i < ac)

@@ -222,4 +222,6 @@ unsigned int read_byte_4(const char *src, int i);
 void copy_p(void *dst, const void *src, int d_s, int s_s);
 int arg_1(char *b2, t_carr *tmp, t_cor *cor, int *f_err);
 int arg_2(char *b2, t_carr *tmp, t_cor *cor,  int *f_err);
+void do_op(t_cor *cor, t_carr	*tmp);
+void free_cor(t_cor *cor);
 #endif

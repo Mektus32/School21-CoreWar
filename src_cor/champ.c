@@ -11,7 +11,7 @@ t_champ *write_name(int fd)
 	unsigned char	c[4];
 	size_t st;
 
-	ch = (t_champ*)malloc(sizeof(t_champ));
+	ch = ft_memalloc(sizeof(t_champ));
 	st = read(fd, &c, 4); // COREWAR_EXEC_MAGIC
 	ch->magic = (c[0] << 24) | (c[1] << 16) | (c[2] << 8) | c[3];
 	st = read(fd, (ch->prog_name), PROG_NAME_LENGTH);

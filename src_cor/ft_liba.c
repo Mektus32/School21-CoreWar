@@ -62,29 +62,19 @@ char	*ft_strncpy_all(char *dest, const char *source, size_t n)
 	return (dest);
 }
 
-char *base16_2(unsigned c)
+char		*base16_2_cor(t_cor *cor, t_carr *tmp)
 {
-	char *b2;
-	int		i;
+	char		*b2;
+	unsigned	char c;
+	int			i;
 
+	b2 = ft_memalloc(sizeof(char) * 9);
+	c = read_byte_1(cor->code, tmp->cur + 1);
 	i = 7;
-	b2 = (char *)malloc(sizeof(char) * 9);
-	b2[8] = '\0';
 	while (i >= 0)
 	{
-		b2[i] = c % 2;
-		c = c/2;
-		i--;
+		b2[i--] = c % 2;
+		c = c / 2;
 	}
 	return  (b2);
-}
-
-char *base16_2_cor(t_cor *cor, t_carr *tmp)
-{
-	unsigned char	*k;
-
-	k = malloc(sizeof(char));
-	ft_memcpy(k, cor->code + (tmp->cur + 1) % MEM_SIZE, 1);
-	free(k);
-	return  (base16_2(k[0]));
 }

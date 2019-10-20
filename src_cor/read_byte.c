@@ -27,7 +27,7 @@ unsigned char	read_byte_1(const char *src, int i)
 	while (i < 0)
 		i += MEM_SIZE;
 	c_1 = src[i % MEM_SIZE];
-	return (c_1);
+	return ((unsigned char)c_1);
 }
 
 short			read_byte_2(const char *src, int i)
@@ -57,5 +57,43 @@ unsigned int	read_byte_4(const char *src, int i)
 	c_4 = c_4 | (unsigned char)(src[(i + 2) % MEM_SIZE]);
 	c_4 = (c_4 << 8);
 	c_4 = c_4 | (unsigned char)(src[(i + 3) % MEM_SIZE]);
-	return (c_4);
+	return ((unsigned int)c_4);
+}
+
+void do_op(t_cor *cor, t_carr	*tmp)
+{
+	if	(tmp->prog == 1)
+		ft_live(cor, tmp);
+	else if (tmp->prog == 2)
+		ft_ld(cor, tmp, 0);
+	else if (tmp->prog == 3)
+		ft_st(cor, tmp);
+	else if (tmp->prog == 4)
+		ft_add(cor, tmp);
+	else if (tmp->prog == 5)
+		ft_sub(cor, tmp);
+	else if (tmp->prog == 6)
+		ft_and(cor, tmp);
+	else if (tmp->prog == 7)
+		ft_or(cor, tmp);
+	else if (tmp->prog == 8)
+		ft_xor(cor, tmp);
+	else if (tmp->prog == 9)
+		ft_zjmp(cor, tmp);
+	else if (tmp->prog == 10)
+		ft_ldi(cor, tmp, 0);
+	else if (tmp->prog == 11)
+		ft_sti(cor, tmp);
+	else if (tmp->prog == 12)
+		ft_fork(cor, tmp, 0);
+	else if (tmp->prog == 13)
+		ft_ld(cor, tmp, 1);
+	else if (tmp->prog == 14)
+		ft_ldi(cor, tmp, 1);
+	else if (tmp->prog == 15)
+		ft_fork(cor, tmp, 1);
+	else if (tmp->prog == 16)
+		ft_aff(cor, tmp);
+	else
+		tmp->i = 1;
 }

@@ -18,12 +18,10 @@ static void	ft_sub_1(t_cor *cor, t_carr *tmp)
 	unsigned char	t_reg_2;
 	unsigned char	t_reg_3;
 
-	t_reg = read_byte_1(cor->code, tmp->cur + 2 + 1);
-	t_reg_2 = read_byte_1(cor->code, tmp->cur + 2 + 2);
-	t_reg_3 = read_byte_1(cor->code, tmp->cur + 2 + 3);
-	if ((t_reg > 0 && (t_reg) <= REG_NUMBER) &&
-		(t_reg_2 > 0 && (t_reg_2) <= REG_NUMBER) &&
-		(t_reg_3 > 0 && (t_reg_3) <= REG_NUMBER))
+	t_reg = read_byte_1(cor->code, tmp->cur + 2);
+	t_reg_2 = read_byte_1(cor->code, tmp->cur + 3);
+	t_reg_3 = read_byte_1(cor->code, tmp->cur + 4);
+	if (VAL_REG(t_reg) && VAL_REG(t_reg_2) && VAL_REG(t_reg_3))
 	{
 		tmp->reg[(int)t_reg_3 - 1] = tmp->reg[(int)t_reg - 1] -
 									tmp->reg[(int)t_reg_2 - 1];

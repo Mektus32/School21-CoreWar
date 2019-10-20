@@ -43,7 +43,7 @@ void	ft_live(t_cor *cor, t_carr *tmp)
 //		}
 //		i++;
 //	}
-	tmp->live = 1;
+	//tmp->live = 1;
 	cor->live->live_count++;
 	tmp->i = 5;
 }
