@@ -92,7 +92,7 @@ int main(int ac, char **av)
 {
 	t_cor *cor;
 
-	if (ac >= 1)
+	if (ac > 1)
 	{
 		cor = parse_av(ac, av);
 		arena(cor);
