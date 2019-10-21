@@ -2742,33 +2742,6 @@ libft/get_next_line.c.s:
 	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/libft/get_next_line.c.s
 .PHONY : libft/get_next_line.c.s
 
-main_c.o: main_c.c.o
-
-.PHONY : main_c.o
-
-# target to build an object file
-main_c.c.o:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/main_c.c.o
-.PHONY : main_c.c.o
-
-main_c.i: main_c.c.i
-
-.PHONY : main_c.i
-
-# target to preprocess a source file
-main_c.c.i:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/main_c.c.i
-.PHONY : main_c.c.i
-
-main_c.s: main_c.c.s
-
-.PHONY : main_c.s
-
-# target to generate assembly for a file
-main_c.c.s:
-	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/main_c.c.s
-.PHONY : main_c.c.s
-
 src_cor/arena.o: src_cor/arena.c.o
 
 .PHONY : src_cor/arena.o
@@ -3582,9 +3555,6 @@ help:
 	@echo "... libft/get_next_line.o"
 	@echo "... libft/get_next_line.i"
 	@echo "... libft/get_next_line.s"
-	@echo "... main_c.o"
-	@echo "... main_c.i"
-	@echo "... main_c.s"
 	@echo "... src_cor/arena.o"
 	@echo "... src_cor/arena.i"
 	@echo "... src_cor/arena.s"

@@ -10,15 +10,15 @@ t_carr *new_curr(int id_par)
 	if (!new)
 		return (NULL);
 	new->id_par = id_par;
-	new->cur = 0;
-	new->carry = 0;
+//	new->cur = 0;
+//	new->carry = 0;
+//	new->prog = 0;
+//	new->cycles_to = 0;
 	i = 0;
 	new->reg[i] = -id_par;
 	while (++i <= REG_NUMBER)
 		new->reg[i] = 0;
 	new->live = 1;
-	new->prog = 0;
-	new->cycles_to = 0;
 	new->next = NULL;
 	return (new);
 }

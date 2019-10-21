@@ -115,7 +115,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/arina.dir/src_cor/arena.c.o"
   "CMakeFiles/arina.dir/src_cor/champ.c.o"
   "CMakeFiles/arina.dir/vm_champs/op.c.o"
-  "CMakeFiles/arina.dir/main_c.c.o"
   "arina.pdb"
   "arina"
 )

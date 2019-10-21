@@ -37,7 +37,7 @@ void copy_p(void *dst, const void *src, int d_s, int s_s)
 	while (i < 4)
 	{
 		c[0] = str2[(i + s_s) % MEM_SIZE];
-		str1[(i + d_s) % MEM_SIZE] = (unsigned char)str2[(i + s_s) % MEM_SIZE];
+		str1[(i + d_s) % MEM_SIZE] = str2[(i + s_s) % MEM_SIZE];
 		i++;
 	}
 }
@@ -77,16 +77,17 @@ void	ft_st_write(t_cor *cor, t_carr *tmp, int b2_2)
 			p = inttobyte(tmp->reg[t_reg - 1]);
 //			while (t_ind < 0)
 //				t_ind += MEM_SIZE;
-			copy_p(cor->code, p, tmp->cur + t_ind % IDX_MOD, 0); //+3
+			copy_p(cor->code, p, tmp->cur + t_ind % IDX_MOD, 0);
 			free(p);
 		}
 		else
 		{
 			t_reg_2 = read_byte_1(cor->code, tmp->cur + 3);
-			if (t_reg_2 > 0 && t_reg_2 <= REG_NUMBER)
+			if (VAL_REG(t_reg_2))
 				tmp->reg[t_reg_2 - 1] = tmp->reg[t_reg - 1];
 		}
 	}
+	tmp->carry = 0;
 
 }
 
@@ -94,22 +95,20 @@ void	ft_st(t_cor *cor, t_carr *tmp)
 {
 	char	*b2;
 	int		i;
+	int		f_err;
 
 	i = 2;
 	b2 = base16_2_cor(cor, tmp);
+	f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;
 	if (b2[0] == 0 && b2[1] == 1)
 		i += 1;
 	else if ((b2[0] == 1 && b2[1] == 0) || (b2[0] == 1 && b2[1] == 1))
 		i += 4 * (int)b2[0] - 2 * (int)b2[1];
 	if ((b2[2] == 0 && b2[3] == 1) || (b2[2] == 1 && b2[3] == 1))
 	{
-		if (i == 3)
-		{
+		if (i == 3 && !f_err)
 			ft_st_write(cor, tmp, b2[2]);
-			i += (b2[2] == 1) ? 2 : 1;
-		}
-		else
-			i = i + (b2[2] == 0 ? 1 : 2);
+		i +=  (b2[2] == 0) ? 1 : 2;
 	}
 	else if (b2[2] == 1 && b2[3] == 0)
 		i += 4;

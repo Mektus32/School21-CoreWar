@@ -101,7 +101,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/qgilbert/Desktop/corwar_1/arina/libft/ft_ultoa.c" "/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles/arina.dir/libft/ft_ultoa.c.o"
   "/Users/qgilbert/Desktop/corwar_1/arina/libft/ft_ultoa_base.c" "/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles/arina.dir/libft/ft_ultoa_base.c.o"
   "/Users/qgilbert/Desktop/corwar_1/arina/libft/get_next_line.c" "/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles/arina.dir/libft/get_next_line.c.o"
-  "/Users/qgilbert/Desktop/corwar_1/arina/main_c.c" "/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles/arina.dir/main_c.c.o"
   "/Users/qgilbert/Desktop/corwar_1/arina/src_cor/arena.c" "/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles/arina.dir/src_cor/arena.c.o"
   "/Users/qgilbert/Desktop/corwar_1/arina/src_cor/carr_list.c" "/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles/arina.dir/src_cor/carr_list.c.o"
   "/Users/qgilbert/Desktop/corwar_1/arina/src_cor/champ.c" "/Users/qgilbert/Desktop/corwar_1/arina/cmake-build-debug/CMakeFiles/arina.dir/src_cor/champ.c.o"

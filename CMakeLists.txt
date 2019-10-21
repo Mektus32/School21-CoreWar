@@ -151,4 +151,4 @@ add_executable(arina
 
         vm_champs/op.c
         vm_champs/op.h
-        main_c.c)
+        )

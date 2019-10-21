@@ -2,9 +2,9 @@
 
 // точно ли не надо сначало по i еще подвинуться?
 
-int arg_1(char *b2, t_carr *tmp, t_cor *cor,  int *f_err)
+unsigned int arg_4(char *b2, t_carr *tmp, t_cor *cor,  int *f_err)
 {
-	int				a1;
+	unsigned int				a1;
 	unsigned char	t_reg_3;
 	short			t_ind;
 	unsigned int	t_dir;
@@ -12,7 +12,7 @@ int arg_1(char *b2, t_carr *tmp, t_cor *cor,  int *f_err)
 	if (b2[0] == 0 && b2[1] == 1)
 	{
 		t_reg_3 = read_byte_1(cor->code, tmp->cur + tmp->i++);
-		a1 = tmp->reg[(int)t_reg_3 - 1];
+		a1 = tmp->reg[t_reg_3 - 1];
 		if (!(VAL_REG(t_reg_3)))
 			*f_err = 1;
 	}
@@ -21,7 +21,9 @@ int arg_1(char *b2, t_carr *tmp, t_cor *cor,  int *f_err)
 		if (b2[1] == 1)
 		{
 			t_ind = read_byte_2(cor->code, tmp->cur + tmp->i);
-			t_dir = read_byte_4(cor->code, tmp->cur + tmp->i + t_ind % IDX_MOD);
+			while (t_ind < 0)
+				t_ind += MEM_SIZE;
+			t_dir = read_byte_4(cor->code, tmp->cur + t_ind % IDX_MOD);//++ tmp->i
 			tmp->i += 2;
 		}
 		else
@@ -36,17 +38,18 @@ int arg_1(char *b2, t_carr *tmp, t_cor *cor,  int *f_err)
 	return (a1);
 }
 
-int arg_2(char *b2, t_carr *tmp, t_cor *cor,  int *f_err)
+unsigned int arg_2(char *b2, t_carr *tmp, t_cor *cor,  int *f_err)
 {
-	int				a1;
+	unsigned int	a1;
 	unsigned char	t_reg_3;
 	short			t_ind;
 	unsigned int	t_dir;
 
+	a1 = 0;
 	if (b2[0] == 0 && b2[1] == 1)
 	{
 		t_reg_3 = read_byte_1(cor->code, tmp->cur + tmp->i++);
-		a1 = tmp->reg[(int)t_reg_3 - 1];
+		a1 = tmp->reg[t_reg_3 - 1];
 		if (!(VAL_REG(t_reg_3)))
 			*f_err = 1;
 	}
@@ -58,15 +61,14 @@ int arg_2(char *b2, t_carr *tmp, t_cor *cor,  int *f_err)
 			while (t_ind < 0)
 				t_ind += MEM_SIZE;
 			t_dir = read_byte_4(cor->code, tmp->cur + tmp->i + t_ind % IDX_MOD);
-			tmp->i += 2;
 			a1 = t_dir;
 		}
 		else
 		{
 			t_ind = read_byte_2(cor->code, tmp->cur + tmp->i);
-			tmp->i += 2;
 			a1 = t_ind;
 		}
+		tmp->i += 2;
 	}
 	else
 		*f_err = 1;
@@ -83,21 +85,27 @@ void    ft_and(t_cor *cor, t_carr *tmp)
 	int f_err;
 
 	tmp->i = 2;
-	f_err = 0;
 	b2 = base16_2_cor(cor, tmp);
-	a1 = arg_1(b2, tmp, cor, &f_err);
-	a2 = arg_1(b2 + 2, tmp, cor, &f_err);
-
+	f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;
+	a1 = arg_4(b2, tmp, cor, &f_err);
+	a2 = arg_4(b2 + 2, tmp, cor, &f_err);
 	if (b2[4] == 0 && b2[5] == 1)
 	{
 		t_reg_3 = read_byte_1(cor->code, tmp->cur + tmp->i++);
 		if ((VAL_REG(t_reg_3)) && !f_err)
 		{
-			tmp->reg[(int)t_reg_3 - 1] = a1 & a2;
-			tmp->carry = (tmp->reg[(int)t_reg_3 - 1] == 0) ? 1 : 0;
+			tmp->reg[t_reg_3 - 1] = a1 & a2;
+
 		}
+		tmp->carry = (tmp->reg[t_reg_3 - 1] == 0) ? 1 : 0;
+
 	}
 	else
 		tmp->i += 4 * (int)b2[4] - 2 * (int)b2[5];
+//	if (b2[2] == 1 && b2[3] == 0)
+//		tmp->i += 2;
+//	if (b2[0] == 1 && b2[1] == 0)
+//		tmp->i += 2;
+	tmp->carry = (tmp->reg[t_reg_3 - 1] == 0) ? 1 : 0;
 	free(b2);
 }

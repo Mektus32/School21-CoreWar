@@ -25,10 +25,10 @@ void	ft_or(t_cor *cor, t_carr *tmp)
 	int				f_err;
 
 	tmp->i = 2;
-	f_err = 0;
 	b2 = base16_2_cor(cor, tmp);
-	a1 = arg_1(b2, tmp, cor, &f_err);
-	a2 = arg_1(b2 + 2, tmp, cor, &f_err);
+	f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;
+	a1 = arg_4(b2, tmp, cor, &f_err);
+	a2 = arg_4(b2 + 2, tmp, cor, &f_err);
 	if (b2[4] == 0 && b2[5] == 1)
 	{
 		t_reg_3 = read_byte_1(cor->code, tmp->cur + tmp->i++);
@@ -52,10 +52,10 @@ void	ft_xor(t_cor *cor, t_carr *tmp)
 	int				f_err;
 
 	tmp->i = 2;
-	f_err = 0;
 	b2 = base16_2_cor(cor, tmp);
-	a1 = arg_1(b2, tmp, cor, &f_err);
-	a2 = arg_1(b2 + 2, tmp, cor, &f_err);
+	f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;
+	a1 = arg_4(b2, tmp, cor, &f_err);
+	a2 = arg_4(b2 + 2, tmp, cor, &f_err);
 	if (b2[4] == 0 && b2[5] == 1)
 	{
 		t_reg_3 = read_byte_1(cor->code, tmp->cur + tmp->i++);

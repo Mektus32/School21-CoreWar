@@ -281,8 +281,6 @@ CMakeFiles/arina.dir/libft/get_next_line.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
  /Users/qgilbert/Desktop/corwar_1/arina/libft/get_next_line.c
-CMakeFiles/arina.dir/main_c.c.o
- /Users/qgilbert/Desktop/corwar_1/arina/main_c.c
 CMakeFiles/arina.dir/src_cor/arena.c.o
  ../includes/corewar.h
  ../includes/ft_printf.h

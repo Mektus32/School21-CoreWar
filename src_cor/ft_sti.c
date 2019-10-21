@@ -25,10 +25,11 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 	char *b2;
 	unsigned char *p;
 
-	f_err = 0;
 	tmp->i = 2;
 	l = 0;
 	b2 = base16_2_cor(cor, tmp);
+	f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;
+	// 1 - ый аргумент
 	if (b2[0] == 0 && b2[1] == 1)
 	{
 		t_reg = read_byte_1(cor->code, tmp->cur + tmp->i++);
@@ -41,14 +42,15 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 		if ((b2[0] == 1 && b2[1] == 1) || (b2[0] == 1 && b2[1] == 0))
 			tmp->i += 2;
 	}
+	// 2 - ой аргумент
 	l += arg_2(b2 + 2, tmp, cor, &f_err);
+	// 3 - ий аргумент
 	if (b2[4] == 0 && b2[5] == 1)
 	{
 		t_reg_2 = read_byte_1(cor->code, tmp->cur + tmp->i++);
 		if (!(VAL_REG(t_reg_2)))
 			f_err = 1;
-		else
-			l = l + tmp->reg[t_reg_2 - 1];
+		l = l + (unsigned int)tmp->reg[t_reg_2 - 1];
 	}
 	else if (b2[4] == 1 && b2[5] == 0)
 	{
@@ -64,7 +66,10 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 	if (!f_err)
 	{
 		p = inttobyte(tmp->reg[t_reg - 1]);
+//		while (l < 0)
+//			l+= MEM_SIZE;
 		l = tmp->cur + l % IDX_MOD;
+
 		copy_p(cor->code, p, l, 0);
 		free(p);
 	}
