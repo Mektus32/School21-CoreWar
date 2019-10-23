@@ -27,10 +27,10 @@ t_cor *parse_av(int ac, char **av)
 	char *name;
 
 
-	if (!(cor = (t_cor *)malloc(sizeof(t_cor))))
+	if (!(cor = (t_cor *)ft_memalloc(sizeof(t_cor))))
 		exit_print("malloc error");
 	cor->nbr_cycles = -1;
-	ft_bzero(cor, sizeof(t_cor));
+	//ft_bzero(cor, sizeof(t_cor));
 	i = 1;
 	while (i < ac)
 	{

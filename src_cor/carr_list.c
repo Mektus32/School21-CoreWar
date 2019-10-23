@@ -6,7 +6,7 @@ t_carr *new_curr(int id_par)
 	int i;
 
 	new = NULL;
-	new = ft_memalloc(sizeof(t_carr));
+	new = (t_carr *)ft_memalloc(sizeof(t_carr));
 	if (!new)
 		return (NULL);
 	new->id_par = id_par;
@@ -39,10 +39,10 @@ void remove_curr_if(t_cor *cor, int num)
 	carr = cor->carr;
 	if (carr->num == num)
 	{
-		//if (carr->next)
+		if (carr->next)
 		cor->carr = carr->next;
-//		else
-//			cor->carr = NULL;
+		else
+			cor->carr = NULL;
 		//printf("carr- %d\n", carr->num);
 		free(carr);
 		cor->n_curr--;
@@ -53,10 +53,10 @@ void remove_curr_if(t_cor *cor, int num)
 	{
 		if (carr->num == num)
 		{
-			//if (carr->next)
-			tmp->next = carr->next;
-//			else
-//				tmp->next = NULL;
+			if (carr->next)
+				tmp->next = carr->next;
+			else
+				tmp->next = NULL;
 			free(carr);
 			cor->n_curr--;
 			return ;

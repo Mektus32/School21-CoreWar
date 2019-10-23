@@ -68,7 +68,7 @@ char		*base16_2_cor(t_cor *cor, t_carr *tmp)
 	unsigned	char c;
 	int			i;
 
-	b2 = ft_memalloc(sizeof(char) * 9);
+	b2 = (char *)ft_memalloc(sizeof(char) * 9);
 	c = read_byte_1(cor->code, tmp->cur + 1);
 	i = 7;
 	while (i >= 0)

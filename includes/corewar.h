@@ -100,6 +100,8 @@ typedef struct 			s_carr
 ** cycles_to_die - длительность периода до проверки
 ** изменяется в 2ух случаях
 ** check_count - количество проведенных проверок
+ * - обнуляется, если меняется cycles to die
+ * cycle_new - кол -во циклов после обнуления
 ** */
 
 typedef  struct			s_live
@@ -109,6 +111,7 @@ typedef  struct			s_live
 	int					live_count;
 	int					cycles_to_die;
 	int					check_count;
+	int					cycle_new;
 }						t_live;
 
 /*

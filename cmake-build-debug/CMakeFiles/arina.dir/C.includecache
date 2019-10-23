@@ -42,37 +42,7 @@ limits.h
 
 ../includes/op.h
 
-/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_add.c
-corewar.h
-/Users/qgilbert/Desktop/corwar_1/arina/src_cor/corewar.h
-
-/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_aff.c
-corewar.h
-/Users/qgilbert/Desktop/corwar_1/arina/src_cor/corewar.h
-
-/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_and.c
-corewar.h
-/Users/qgilbert/Desktop/corwar_1/arina/src_cor/corewar.h
-
-/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_ld.c
-
-/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_or_xor.c
-corewar.h
-/Users/qgilbert/Desktop/corwar_1/arina/src_cor/corewar.h
-
-/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_st.c
-corewar.h
-/Users/qgilbert/Desktop/corwar_1/arina/src_cor/corewar.h
-
-/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_sti.c
-corewar.h
-/Users/qgilbert/Desktop/corwar_1/arina/src_cor/corewar.h
-
-/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_sub.c
-corewar.h
-/Users/qgilbert/Desktop/corwar_1/arina/src_cor/corewar.h
-
-/Users/qgilbert/Desktop/corwar_1/arina/src_cor/go_cor.c
+/Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_live.c
 corewar.h
 /Users/qgilbert/Desktop/corwar_1/arina/src_cor/corewar.h
 

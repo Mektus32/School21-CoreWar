@@ -13,7 +13,7 @@ unsigned char *inttobyte(int a)
 {
 	char *bt;
 
-	bt = ft_memalloc(sizeof(char) * 4);
+	bt = (char *)ft_memalloc(sizeof(char) * 4);
 	bt[0] = (char)((a >> 24) & 0xff);
 	bt[1] = (char)((a >> 16) & 0xff);
 	bt[2] = (char)((a >> 8) & 0xff);
@@ -36,20 +36,26 @@ void	check_live(t_cor *cor)
 		//Мертвой считается каретка, которая выполняла операцию live cycles_to_die циклов назад или более.
 		//Также мертвой считается любая каретка, если cycles_to_die <= 0.
 		//
-		if ((cor->live->cycles - carr->cycles_live - 1) > cor->live->cycles_to_die)
+		//ft_printf("num_1 = %d\t",cor->n_curr);
+		int d;
+		d =  cor->live->cycles - carr->cycles_live;
+		if (((cor->live->cycles - carr->cycles_live) >= cor->live->cycles_to_die) || cor->live->cycles_to_die <= 0)
 		{
 			remove_curr_if(cor, carr->num);
 			carr = cor->carr;
 		}
 		else
 			carr = carr->next;
+		//ft_printf("num_2 = %d\n",cor->n_curr);
 	}
 	//Если количество выполненных за cycles_to_die период
 	// операций live больше или равно NBR_LIVE, значение cycles_to_die уменьшается на CYCLE_DELTA.
-	if (cor->live->live_count >= NBR_LIVE || (cor->live->check_count > MAX_CHECKS))
+	if (cor->live->live_count >= NBR_LIVE || (cor->live->check_count >= MAX_CHECKS))
 	{
-		//cor->live->cycles_to_die = cor->live->cycles_to_die - CYCLE_DELTA;
+		cor->live->cycles_to_die = cor->live->cycles_to_die - CYCLE_DELTA;
 		cor->live->check_count = 0;
+		cor->live->cycle_new = 0;
+
 	}
 	//Если же количество выполненных операций live меньше установленного лимита,
 	// то виртуальная машина просто запоминает, что была выполнена проверка.
@@ -75,8 +81,15 @@ void go_cor(t_cor *cor)
 
 
 	zero_live(cor);
-	while (cor->carr && cor->live->cycles_to_die)
+	while (cor->carr && cor->live->cycles_to_die > 0)
 	{
+		//сначала проведем проверку
+		//Проверка происходит через каждые cycles_to_die циклов пока значение cycles_to_die больше нуля.
+		// А после того, как его значение станет меньше или равным нулю, проверка начинает проводиться после каждого цикла.
+		if (cor->live->cycles_to_die <= 0)
+			check_live(cor);
+		if (((++cor->live->cycle_new % cor->live->cycles_to_die) == 0) && cor->live->cycle_new != 0)
+			check_live(cor);
 
 		tmp = cor->carr;
 		// для каждой каретки иначинаем исполнять код
@@ -95,6 +108,7 @@ void go_cor(t_cor *cor)
 				do_op(cor, tmp);
 			tmp = tmp->next;
 		}
+		// похоже не имеет значение когда делать
 //		tmp = cor->carr;
 //		while (tmp)
 //		{
@@ -102,33 +116,19 @@ void go_cor(t_cor *cor)
 //				do_op(cor, tmp);
 //			tmp = tmp->next;
 //		}
-
-		//Проверка происходит через каждые cycles_to_die циклов пока значение cycles_to_die больше нуля.
-		// А после того, как его значение станет меньше или равным нулю, проверка начинает проводиться после каждого цикла.
-
-		if (cor->carr)
-		{
-			//cor->live->cycles_to_die <= 0 - игра закончилась -удяляем все каретки
-			if (cor->live->cycles_to_die <= 0)
-			{
-				tmp = cor->carr;
-				while (tmp)
-				{
-					remove_curr_if(cor, tmp->num);
-					tmp = cor->carr;
-				}
-			}
-			else if (((cor->live->cycles++ % cor->live->cycles_to_die) == 0))
-				check_live(cor);
-		}
-		if (cor->live->cycles == cor->nbr_cycles || cor->nbr_cycles == 0)
+		if (++cor->live->cycles == cor->nbr_cycles || cor->nbr_cycles == 0)
 		{
 			print_dump_code(cor);
 			exit_print("");
 		}
-
-//я не понимаю -  всегда буду удалять каретку
-
 	}
-
+	if (cor->carr)
+	{
+		tmp = cor->carr;
+		while (tmp)
+		{
+			remove_curr_if(cor, tmp->num);
+			tmp = cor->carr;
+		}
+	}
 }
