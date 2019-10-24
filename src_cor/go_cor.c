@@ -5,6 +5,7 @@ void	zero_live(t_cor *cor)
 	cor->live->id_live = cor->n;
 	cor->live->cycles = 0;//количество прошедших с начала игры циклов
 	cor->live->live_count = 0;
+	cor->live->cycle_new = 0;
 	cor->live->cycles_to_die = CYCLE_TO_DIE;
 	cor->live->check_count = 0;
 }
@@ -35,17 +36,21 @@ void	check_live(t_cor *cor)
 	{
 		//Мертвой считается каретка, которая выполняла операцию live cycles_to_die циклов назад или более.
 		//Также мертвой считается любая каретка, если cycles_to_die <= 0.
-		//
+		// carr - текущая каретка
 		//ft_printf("num_1 = %d\t",cor->n_curr);
 		int d;
 		d =  cor->live->cycles - carr->cycles_live;
 		if (((cor->live->cycles - carr->cycles_live) >= cor->live->cycles_to_die) || cor->live->cycles_to_die <= 0)
 		{
-			remove_curr_if(cor, carr->num);
+			 //по идее удаляет только одну каретку с номером carr->num (он уникален) carr->num)
+			remove_curr_if(cor,carr->num);
 			carr = cor->carr;
 		}
 		else
+		{
+			carr->cycles_live = cor->live->cycles;// типо каретка сказала что жива в операции
 			carr = carr->next;
+		}
 		//ft_printf("num_2 = %d\n",cor->n_curr);
 	}
 	//Если количество выполненных за cycles_to_die период
@@ -88,9 +93,12 @@ void go_cor(t_cor *cor)
 		// А после того, как его значение станет меньше или равным нулю, проверка начинает проводиться после каждого цикла.
 		if (cor->live->cycles_to_die <= 0)
 			check_live(cor);
-		if (((++cor->live->cycle_new % cor->live->cycles_to_die) == 0) && cor->live->cycle_new != 0)
-			check_live(cor);
 
+		if (((cor->live->cycle_new % cor->live->cycles_to_die) == 0) && cor->live->cycle_new != 0)
+			check_live(cor);
+		//сделали проверку - увеличили цикл, он понадобиться в live
+		cor->live->cycle_new++;
+		cor->live->cycles++;
 		tmp = cor->carr;
 		// для каждой каретки иначинаем исполнять код
 		while (tmp)
@@ -116,7 +124,7 @@ void go_cor(t_cor *cor)
 //				do_op(cor, tmp);
 //			tmp = tmp->next;
 //		}
-		if (++cor->live->cycles == cor->nbr_cycles || cor->nbr_cycles == 0)
+		if (cor->live->cycles == cor->nbr_cycles || cor->nbr_cycles == 0)
 		{
 			print_dump_code(cor);
 			exit_print("");
