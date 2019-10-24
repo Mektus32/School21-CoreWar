@@ -17,7 +17,7 @@ v_1=$(cut -d= -f2 md_test)
 v_2=$(cut -d= -f2 md_my)
 if [ "$v_1" = "$v_2" ]
 then
-	echo "$v_1 = $v_2"
+	echo "$i $v_1 = $v_2"
 else
 	echo "Cikles $i"
 	echo "test = $v_1 != my = $v_2"

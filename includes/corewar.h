@@ -111,7 +111,7 @@ typedef  struct			s_live
 	int					live_count;
 	int					cycles_to_die;
 	int					check_count;
-	int					cycle_new;
+	int					cycles_temp;
 }						t_live;
 
 /*

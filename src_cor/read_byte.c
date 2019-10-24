@@ -87,7 +87,8 @@ void do_op(t_cor *cor, t_carr	*tmp)
 	else if (tmp->prog == 12)
 		ft_fork(cor, tmp, 0);
 	else if (tmp->prog == 13)
-		ft_ld(cor, tmp, 1);
+		ft_lld(cor, tmp);
+		//ft_ld(cor, tmp, 1);
 	else if (tmp->prog == 14)
 		ft_ldi(cor, tmp, 1);
 	else if (tmp->prog == 15)

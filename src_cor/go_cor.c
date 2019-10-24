@@ -2,6 +2,7 @@
 
 void	zero_live(t_cor *cor)
 {
+	cor->live->cycles_temp = 0;
 	cor->live->id_live = cor->n;
 	cor->live->cycles = 0;//количество прошедших с начала игры циклов
 	cor->live->live_count = 0;
@@ -11,13 +12,13 @@ void	zero_live(t_cor *cor)
 
 unsigned char *inttobyte(int a)
 {
-	char *bt;
+	unsigned char *bt;
 
-	bt = (char *)ft_memalloc(sizeof(char) * 4);
-	bt[0] = (char)((a >> 24) & 0xff);
-	bt[1] = (char)((a >> 16) & 0xff);
-	bt[2] = (char)((a >> 8) & 0xff);
-	bt[3] = (char)((a >> 0) & 0xff);
+	bt = (unsigned char *)ft_memalloc(sizeof(unsigned char) * 4);
+	bt[0] = (unsigned char)((a >> 24) & 0xff);
+	bt[1] = (unsigned char)((a >> 16) & 0xff);
+	bt[2] = (unsigned char)((a >> 8) & 0xff);
+	bt[3] = (unsigned char)((a >> 0) & 0xff);
 	return (bt);
 }
 
@@ -25,6 +26,8 @@ unsigned char *inttobyte(int a)
 void	check_live(t_cor *cor)
 {
 	t_carr *carr;
+	static int counter = 0;
+	static int pre_cycles_to_die = CYCLE_TO_DIE;
 
 	carr = cor->carr;
 	//«Текущее количество проверок» включает и проводящуюся в
@@ -36,9 +39,7 @@ void	check_live(t_cor *cor)
 		//Мертвой считается каретка, которая выполняла операцию live cycles_to_die циклов назад или более.
 		//Также мертвой считается любая каретка, если cycles_to_die <= 0.
 		//
-		//ft_printf("num_1 = %d\t",cor->n_curr);
-		int d;
-		d =  cor->live->cycles - carr->cycles_live;
+		//ft_printf("num_1 = ",cor->z)
 		if (((cor->live->cycles - carr->cycles_live) >= cor->live->cycles_to_die) || cor->live->cycles_to_die <= 0)
 		{
 			remove_curr_if(cor, carr->num);
@@ -46,17 +47,35 @@ void	check_live(t_cor *cor)
 		}
 		else
 			carr = carr->next;
-		//ft_printf("num_2 = %d\n",cor->n_curr);
 	}
 	//Если количество выполненных за cycles_to_die период
 	// операций live больше или равно NBR_LIVE, значение cycles_to_die уменьшается на CYCLE_DELTA.
-	if (cor->live->live_count >= NBR_LIVE || (cor->live->check_count >= MAX_CHECKS))
-	{
-		cor->live->cycles_to_die = cor->live->cycles_to_die - CYCLE_DELTA;
-		cor->live->check_count = 0;
-		cor->live->cycle_new = 0;
 
+	if (cor->live->live_count >= NBR_LIVE)
+		cor->live->cycles_to_die = cor->live->cycles_to_die - CYCLE_DELTA;
+	if (cor->live->cycles_to_die == pre_cycles_to_die)
+	{
+		counter++;
+		if (counter == MAX_CHECKS)
+		{
+			cor->live->cycles_to_die = cor->live->cycles_to_die - CYCLE_DELTA;
+			counter = 0;
+			pre_cycles_to_die = cor->live->cycles_to_die;
+		}
 	}
+	else
+	{
+		counter = 0;
+		pre_cycles_to_die = cor->live->cycles_to_die;
+	}
+
+	//	if (cor->live->live_count >= NBR_LIVE || (cor->live->check_count >= MAX_CHECKS))
+//	{
+//		cor->live->cycles_to_die = cor->live->cycles_to_die - CYCLE_DELTA;
+//		cor->live->check_count = 0;
+//
+//	}
+
 	//Если же количество выполненных операций live меньше установленного лимита,
 	// то виртуальная машина просто запоминает, что была выполнена проверка.
 
@@ -81,14 +100,12 @@ void go_cor(t_cor *cor)
 
 
 	zero_live(cor);
-	while (cor->carr && cor->live->cycles_to_die > 0)
+	while (cor->carr /*&& cor->live->cycles_to_die > 0*/)
 	{
 		//сначала проведем проверку
 		//Проверка происходит через каждые cycles_to_die циклов пока значение cycles_to_die больше нуля.
 		// А после того, как его значение станет меньше или равным нулю, проверка начинает проводиться после каждого цикла.
-		if (cor->live->cycles_to_die <= 0)
-			check_live(cor);
-		if (((++cor->live->cycle_new % cor->live->cycles_to_die) == 0) && cor->live->cycle_new != 0)
+		if (cor->live->cycles_to_die <= 0 || ((cor->live->cycles - cor->live->cycles_temp) ==  cor->live->cycles_to_die))
 			check_live(cor);
 
 		tmp = cor->carr;

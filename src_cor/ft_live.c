@@ -24,7 +24,7 @@
 void	ft_live(t_cor *cor, t_carr *tmp)
 {
 	unsigned int	t_dir;
-	int dit;
+
 	int i;
 
 	i = 0;
@@ -33,9 +33,8 @@ void	ft_live(t_cor *cor, t_carr *tmp)
 	t_dir = read_byte_4(cor->code, tmp->cur + 1);
 	if (-t_dir == (tmp->id_par))
 	{
-		tmp->cycles_live = cor->live->cycles;
+		//tmp->cycles_live = cor->live->cycles;
 		cor->live->id_live = tmp->id_par;
-		//cor->live->live_count++;
 	}
 //	while (i < cor->n)
 //	{
@@ -49,7 +48,7 @@ void	ft_live(t_cor *cor, t_carr *tmp)
 //		}
 //		i++;
 //	}
-	tmp->live = 1;
+//	tmp->live = 1;
 	cor->live->live_count++;
 	tmp->i = 5;
 }

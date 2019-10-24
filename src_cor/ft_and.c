@@ -23,7 +23,7 @@ unsigned int arg_4(char *b2, t_carr *tmp, t_cor *cor,  int *f_err)
 			t_ind = read_byte_2(cor->code, tmp->cur + tmp->i);
 			while (t_ind < 0)
 				t_ind += MEM_SIZE;
-			t_dir = read_byte_4(cor->code, tmp->cur + t_ind % IDX_MOD);//++ tmp->i
+			t_dir = read_byte_4(cor->code, tmp->cur +tmp->i + t_ind % IDX_MOD);//++ tmp->i???
 			tmp->i += 2;
 		}
 		else
