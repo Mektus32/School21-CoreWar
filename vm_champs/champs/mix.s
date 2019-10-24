@@ -14,15 +14,15 @@
   st r5, -400
   st r6, -500
     #live    %-3
-  ld   %0, r6
-  ld   %0, r7
-  ld   %0, r8
-  ld   %0, r9
+  ld   %10, r6
+  ld   %1000, r7
+  ld   %888, r8
+  ld   %666, r9
   ld   %0, r10
-    #live    %-1
+  #live    %-1
   sti r6,  %100, %0
   sti r7,  %100, %0
   sti r8,  %100, %0
   sti r9,  %100, %0
   sti r10, %100, %0
-    #live    %-2
+ # live    %-2
