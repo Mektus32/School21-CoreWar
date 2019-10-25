@@ -26,6 +26,7 @@ void	ft_or(t_cor *cor, t_carr *tmp)
 
 	tmp->i = 2;
 	b2 = base16_2_cor(cor, tmp);
+	f_err = 0;
 	f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;
 	a1 = arg_4(b2, tmp, cor, &f_err);
 	a2 = arg_4(b2 + 2, tmp, cor, &f_err);
@@ -53,6 +54,7 @@ void	ft_xor(t_cor *cor, t_carr *tmp)
 
 	tmp->i = 2;
 	b2 = base16_2_cor(cor, tmp);
+	f_err = 0;
 	f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;
 	a1 = arg_4(b2, tmp, cor, &f_err);
 	a2 = arg_4(b2 + 2, tmp, cor, &f_err);

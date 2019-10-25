@@ -62,7 +62,7 @@ unsigned int	read_byte_4(const char *src, int i)
 
 void do_op(t_cor *cor, t_carr	*tmp)
 {
-	//ft_printf()
+	//ft_printf("prog = %d\n", tmp->prog);
 	if	(tmp->prog == 1)
 		ft_live(cor, tmp);
 	else if (tmp->prog == 2)

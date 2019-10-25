@@ -2,6 +2,8 @@
 .comment    "Jour J"
 # ls - 5 cicle
 # st - 5 cicle
+
+one:
   ld   0, r2
   ld   0, r3
   ld   0, r4
@@ -13,13 +15,16 @@
   st r4, -300
   st r5, -400
   st r6, -500
-    live    %-3
+  live    %-3
   ld   %10, r6
   ld   %1000, r7
   ld   %888, r8
   ld   %666, r9
   ld   %0, r10
+  sub r2, r2, r2
   live    %-1
+  zjmp %:write
+two:
   sti r2,  %100, %0
   sti r2,  %100, %0
   sti r4,  %100, %0
@@ -32,4 +37,11 @@
   ld %1879113730, r1
   ld %4, r4
   xor r2, r2, r2
-
+  zjmp %:one
+sub:
+  sub r2, r2, r2
+write:
+  sti r5, r4, r3
+  live %0
+  zjmp %497 #PAS LA
+zjmp %:two

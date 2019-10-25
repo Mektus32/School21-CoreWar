@@ -23,6 +23,7 @@ static void	ft_sub_1(t_cor *cor, t_carr *tmp)
 	t_reg_3 = read_byte_1(cor->code, tmp->cur + 4);
 	if (VAL_REG(t_reg) && VAL_REG(t_reg_2) && VAL_REG(t_reg_3))
 	{
+		tmp->reg[t_reg_3 - 1] = 0;
 		tmp->reg[t_reg_3 - 1] = tmp->reg[t_reg - 1] -
 									tmp->reg[t_reg_2 - 1];
 	}
@@ -37,7 +38,8 @@ void		ft_sub(t_cor *cor, t_carr *tmp)
 
 	i = 2;
 	b2 = base16_2_cor(cor, tmp);
-	f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;
+	f_err = 0;
+	//f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;
 	if (b2[0] == 0 && b2[1] == 1)
 		i += 1;
 	else

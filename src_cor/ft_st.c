@@ -69,7 +69,7 @@ void	ft_st_write(t_cor *cor, t_carr *tmp, int b2_2)
 	unsigned char	t_reg_2;
 
 	t_reg = read_byte_1(cor->code, tmp->cur + 2);
-	if (t_reg > 0 && t_reg <= REG_NUMBER)
+	if (VAL_REG(t_reg))
 	{
 		if (b2_2 == 1)
 		{
@@ -83,6 +83,7 @@ void	ft_st_write(t_cor *cor, t_carr *tmp, int b2_2)
 		else
 		{
 			t_reg_2 = read_byte_1(cor->code, tmp->cur + 3);
+
 			if (VAL_REG(t_reg_2))
 				tmp->reg[t_reg_2 - 1] = tmp->reg[t_reg - 1];
 		}
@@ -99,7 +100,8 @@ void	ft_st(t_cor *cor, t_carr *tmp)
 
 	i = 2;
 	b2 = base16_2_cor(cor, tmp);
-	f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;
+	//f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;
+	f_err = 0;
 	if (b2[0] == 0 && b2[1] == 1)
 		i += 1;
 	else if ((b2[0] == 1 && b2[1] == 0) || (b2[0] == 1 && b2[1] == 1))
