@@ -3,6 +3,7 @@
 # ls - 5 cicle
 # st - 5 cicle
 
+#fork %:two
 one:
   ld   0, r2
   ld   0, r3
@@ -23,7 +24,8 @@ one:
   ld   %0, r10
   sub r2, r2, r2
   live    %-1
-  zjmp %:write
+  #zjmp %:write
+ # fork %:two
 two:
   sti r2,  %100, %0
   sti r2,  %100, %0
@@ -37,11 +39,8 @@ two:
   ld %1879113730, r1
   ld %4, r4
   xor r2, r2, r2
+  #fork %:two
   zjmp %:one
-sub:
-  sub r2, r2, r2
-write:
-  sti r5, r4, r3
-  live %0
-  zjmp %497 #PAS LA
-zjmp %:two
+# sub:
+#   sub r2, r2, r2
+zjmp %:one

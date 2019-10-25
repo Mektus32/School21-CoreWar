@@ -135,7 +135,19 @@ void go_cor(t_cor *cor)
 				tmp->cycles_to = ft_cycles_to(tmp->prog);
 			}
 			if (--tmp->cycles_to == 0)
-				do_op(cor, tmp);
+			{
+				//все таки надо продолжать обычную итерацию
+				if (tmp->prog == 15 || tmp->prog == 12)
+				{
+					//ft_printf("p1 = %p\n", tmp->next);
+//					do_op(cor, tmp);
+//					tmp = cor->carr;
+					//continue;
+				}
+//				else
+					do_op(cor, tmp);
+			}
+			//ft_printf("p2 = %p\n", tmp->next);
 			tmp = tmp->next;
 		}
 
