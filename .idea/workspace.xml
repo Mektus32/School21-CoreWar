@@ -19,12 +19,10 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/arina.dir/src_cor/go_cor.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/arina.dir/src_cor/go_cor.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/arina" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/arina" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cor_1" beforeDir="false" afterPath="$PROJECT_DIR$/cor_1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/md_my" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/md_test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my" beforeDir="false" afterPath="$PROJECT_DIR$/my" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/go_cor.o" beforeDir="false" afterPath="$PROJECT_DIR$/obj/go_cor.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sh_new.sh" beforeDir="false" afterPath="$PROJECT_DIR$/sh_new.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src_cor/go_cor.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/go_cor.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test" beforeDir="false" afterPath="$PROJECT_DIR$/test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vm_champs/champs/mix.s" beforeDir="false" afterPath="$PROJECT_DIR$/vm_champs/champs/mix.s" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -461,7 +459,7 @@
       <workItem from="1571844345219" duration="12038000" />
       <workItem from="1571930408182" duration="3565000" />
       <workItem from="1571940321499" duration="3403000" />
-      <workItem from="1572013546890" duration="3567000" />
+      <workItem from="1572013546890" duration="3595000" />
     </task>
     <task id="LOCAL-00001" summary="h">
       <created>1568228679904</created>
@@ -474,7 +472,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="367697000" />
+    <option name="totallyTimeSpent" value="367725000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -494,12 +492,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33934426" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3295082" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32924527" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.14262295" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.14262295" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3295082" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.32868853" />

@@ -25,8 +25,8 @@ then
 else
 		echo "Cikles $i"
 #	echo "test = $v_1 != my = $v_2"
-	echo "v_1_end = $v_1_end"
-	echo "v_2_end = $v_1_end"
+	echo "size_end_test = $v_1_end"
+	echo "size_end_my = $v_1_end"
 	break
 fi
 done
