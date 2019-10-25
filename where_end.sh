@@ -9,7 +9,7 @@ for ((i = $3; i <= $4; i = i + $2))
 do
 #echo "Cikles $i"
 ./vm_champs/corewar $1.cor $1.cor $1.cor  -d $i > test
-sss=13000
+end_file=13000
 v_1=$(wc -c <test)
 
 if [ "$v_1" -ge $sss ]
