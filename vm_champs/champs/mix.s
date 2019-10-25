@@ -7,7 +7,7 @@
   ld   0, r4
   ld   0, r5
   ld   0, r6
-    live    %0
+  live    %0
   st r2, -100
   st r3, -200
   st r4, -300

@@ -99,14 +99,13 @@ void go_cor(t_cor *cor)
 	zero_live(cor);
 	while (cor->carr)
 	{
-		if ((cor->live->cycles++ == cor->nbr_cycles || cor->nbr_cycles == 0) && cor->carr)
+		if (cor->live->cycles++ == cor->nbr_cycles || cor->nbr_cycles == 0)
 		{
 			print_dump_code(cor);
 			exit_print("");
 		}
-		//cor->live->cycles++;
 
-		if (cor->live->cycles == 50124)
+		if (cor->live->cycles == 930)
 		{
 			i++;
 		}

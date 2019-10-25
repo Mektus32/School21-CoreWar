@@ -12,15 +12,21 @@ do
 ./cor_1  $1.cor  $1.cor $1.cor  -dump $i > my
 md5 test > md_test
 md5 my > md_my
+end_file=13000
+v_1_end=$(wc -c <test)
+v_2_end=$(wc -c <my)
+
 
 v_1=$(cut -d= -f2 md_test)
 v_2=$(cut -d= -f2 md_my)
-if [ "$v_1" = "$v_2" ]
+if [  \( "$v_1" = "$v_2" \) -a \( "$v_1_end" -gt $end_file \) ]
 then
-	echo "$i $v_1 = $v_2"
+	echo "$i Cikles size = $v_1_end md5 = $v_1"
 else
-	echo "Cikles $i"
-	echo "test = $v_1 != my = $v_2"
+		echo "Cikles $i"
+#	echo "test = $v_1 != my = $v_2"
+	echo "v_1_end = $v_1_end"
+	echo "v_2_end = $v_1_end"
 	break
 fi
 done
