@@ -28,13 +28,14 @@ void	ft_live(t_cor *cor, t_carr *tmp)
 	int i;
 
 	i = 0;
-	//tmp->cycles_live = cor->live->cycles;
+	tmp->cycles_live = cor->live->cycles;
 	//cor->live->id_live = tmp->id_par;
 	t_dir = read_byte_4(cor->code, tmp->cur + 1);
 	if (-t_dir == (tmp->id_par))
 	{
 		tmp->cycles_live = cor->live->cycles;
 		cor->live->id_live = tmp->id_par;
+
 	}
 	while (i < cor->n)
 	{
@@ -42,7 +43,7 @@ void	ft_live(t_cor *cor, t_carr *tmp)
 		{
 			//cor->m_ch[i]->live = 1;
 			cor->live->id_live = i + 1;
-			cor->live->live_count++;
+			//cor->live->live_count++;
 			//ft_printf("A process shows that player %s is alive\n", cor->m_ch[i]->prog_name);
 		}
 		i++;

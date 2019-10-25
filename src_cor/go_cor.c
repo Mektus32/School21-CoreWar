@@ -49,7 +49,7 @@ void	check_live(t_cor *cor) /*Это проверка???????????????????????????
 		}
 		else
 		{
-			carr->cycles_live = cor->live->cycles;
+			//carr->cycles_live = cor->live->cycles;
 			carr = carr->next;
 		}
 	}
@@ -99,9 +99,15 @@ void go_cor(t_cor *cor)
 	zero_live(cor);
 	while (cor->carr)
 	{
-		if (cor->live->cycles == 52896)
+		if ((cor->live->cycles++ == cor->nbr_cycles || cor->nbr_cycles == 0) && cor->carr)
 		{
+			print_dump_code(cor);
+			exit_print("");
+		}
+		//cor->live->cycles++;
 
+		if (cor->live->cycles == 50124)
+		{
 			i++;
 		}
 			//cor->live->cycles_to_die <= 0 - игра закончилась -удяляем все каретки
@@ -115,11 +121,7 @@ void go_cor(t_cor *cor)
 			cor->live->cycles_temp = cor->live->cycles;
 			check_live(cor);
 		}
-		if (cor->live->cycles == cor->nbr_cycles || cor->nbr_cycles == 0)
-		{
-			print_dump_code(cor);
-			exit_print("");
-		}
+
 		tmp = cor->carr;
 		// для каждой каретки иначинаем исполнять код
 		while (tmp)
@@ -141,7 +143,7 @@ void go_cor(t_cor *cor)
 		//Проверка происходит через каждые cycles_to_die циклов пока значение cycles_to_die больше нуля.
 		// А после того, как его значение станет меньше или равным нулю, проверка начинает проводиться после каждого цикла.
 
-		cor->live->cycles++;
+		//cor->live->cycles++;
 
 	}
 }
