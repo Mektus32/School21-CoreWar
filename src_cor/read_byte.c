@@ -26,6 +26,7 @@ unsigned char	read_byte_1(const char *src, int i)
 
 	while (i < 0)
 		i += MEM_SIZE;
+	c_1 = 0;
 	c_1 = src[i % MEM_SIZE];
 	return ((unsigned char)c_1);
 }
@@ -62,7 +63,7 @@ unsigned int	read_byte_4(const char *src, int i)
 
 void do_op(t_cor *cor, t_carr	*tmp)
 {
-	//ft_printf("prog = %d\n", tmp->prog);
+//ft_printf("cyc = %d, prog = %d\n",cor->live->cycles, tmp->prog);
 	if	(tmp->prog == 1)
 		ft_live(cor, tmp);
 	else if (tmp->prog == 2)

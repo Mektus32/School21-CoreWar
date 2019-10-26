@@ -88,7 +88,7 @@ void	ft_st_write(t_cor *cor, t_carr *tmp, int b2_2)
 				tmp->reg[t_reg_2 - 1] = tmp->reg[t_reg - 1];
 		}
 	}
-	tmp->carry = 0;
+	//tmp->carry = 0;
 
 }
 
@@ -108,7 +108,7 @@ void	ft_st(t_cor *cor, t_carr *tmp)
 		i += 4 * (int)b2[0] - 2 * (int)b2[1];
 	if ((b2[2] == 0 && b2[3] == 1) || (b2[2] == 1 && b2[3] == 1))
 	{
-		if (i == 3 && !f_err)
+		if (i == 3)
 			ft_st_write(cor, tmp, b2[2]);
 		i +=  (b2[2] == 0) ? 1 : 2;
 	}

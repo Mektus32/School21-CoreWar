@@ -3,7 +3,7 @@
 # ls - 5 cicle
 # st - 5 cicle
 
-#fork %:two
+fork %:two
 one:
   ld   0, r2
   ld   0, r3

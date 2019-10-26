@@ -55,5 +55,6 @@ void		ft_sub(t_cor *cor, t_carr *tmp)
 	if (i == 5 && !f_err)
 		ft_sub_1(cor, tmp);
 	free(b2);
+	//ft_printf("i = %d", i);
 	tmp->i = i;
 }

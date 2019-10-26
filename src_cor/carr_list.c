@@ -49,7 +49,7 @@ void remove_curr_if(t_cor *cor, int num)
 		return ;
 	}
 	tmp = carr;
-	while (carr->next)
+	while (carr)
 	{
 		if (carr->num == num)
 		{
@@ -65,6 +65,11 @@ void remove_curr_if(t_cor *cor, int num)
 		tmp = carr;
 		carr = carr->next;
 	}
+//	if (tmp->num == num)
+//	{
+//		free(tmp);
+//		cor->n_curr--;
+//	}
 }
 
 int	ft_cycles_to(char p)

@@ -20,7 +20,7 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 {
 	unsigned char t_reg;
 	unsigned char t_reg_2;
-	int l;
+	short l;
 	int f_err;
 	char *b2;
 	unsigned char *p;
@@ -28,7 +28,8 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 	tmp->i = 2;
 	l = 0;
 	b2 = base16_2_cor(cor, tmp);
-	f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;
+	//f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;
+	f_err = 0;
 	// 1 - ый аргумент
 	if (b2[0] == 0 && b2[1] == 1)
 	{

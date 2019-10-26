@@ -324,6 +324,10 @@ CMakeFiles/arina.dir/src_cor/ft_fork_lfork.c.o
  ../includes/op.h
  /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_fork_lfork.c
 CMakeFiles/arina.dir/src_cor/ft_ld.c.o
+ ../includes/corewar.h
+ ../includes/ft_printf.h
+ ../includes/libft.h
+ ../includes/op.h
  /Users/qgilbert/Desktop/corwar_1/arina/src_cor/ft_ld.c
 CMakeFiles/arina.dir/src_cor/ft_liba.c.o
  ../includes/corewar.h

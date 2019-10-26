@@ -60,7 +60,7 @@ unsigned int arg_2(char *b2, t_carr *tmp, t_cor *cor,  int *f_err)
 			t_ind = read_byte_2(cor->code, tmp->cur + tmp->i);
 			while (t_ind < 0)
 				t_ind += MEM_SIZE;
-			t_dir = read_byte_4(cor->code, tmp->cur + tmp->i + t_ind % IDX_MOD);
+			t_dir = read_byte_4(cor->code, tmp->cur /*+ tmp->i*/ + t_ind % IDX_MOD);
 			a1 = t_dir;
 		}
 		else
