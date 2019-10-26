@@ -3,7 +3,7 @@
 # ls - 5 cicle
 # st - 5 cicle
 
-sub r2, r2, r2
+#sub r2, r2, r2
 
 start:
         # st r1, 11

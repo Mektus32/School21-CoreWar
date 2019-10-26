@@ -28,10 +28,8 @@ void	ft_live(t_cor *cor, t_carr *tmp)
 	int i;
 
 	i = 0;
-	//ft_printf("c_live = %d\n",  cor->live->cycles);
-	//if (cor->live->cycles != 27557)//27833 27878 27798 27763 27717
-		tmp->cycles_live = cor->live->cycles;
-	//cor->live->id_live = tmp->id_par;
+	tmp->cycles_live = cor->live->cycles;
+	cor->live->live_count++;
 	t_dir = 0;
 	t_dir = read_byte_4(cor->code, tmp->cur + 1);
 //	if (-t_dir == tmp->id_par)
@@ -52,7 +50,5 @@ void	ft_live(t_cor *cor, t_carr *tmp)
 		}
 		i++;
 	}
-//	tmp->live = 1;
-	cor->live->live_count++;
 	tmp->i = 5;
 }

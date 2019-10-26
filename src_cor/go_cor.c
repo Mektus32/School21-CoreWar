@@ -23,50 +23,39 @@ unsigned char *inttobyte(int a)
 	return (bt);
 }
 
-void	check_live(t_cor *cor) /*Это проверка??????????????????????????????????????????*/
+/*
+** ПРОВЕРКА
+** Текущее количество проверок» включает и проводящуюся в данный момент проверку.
+** Мертвой считается каретка, которая выполняла операцию live cycles_to_die циклов назад или более.
+** Также мертвой считается любая каретка, если cycles_to_die <= 0.
+**
+** Если количество выполненных за cycles_to_die период
+** операций live больше или равно NBR_LIVE, значение cycles_to_die уменьшается на CYCLE_DELTA.
+** Если в течение MAX_CHECKS раз проверок Cycle_to_die не уменьшался //
+** то cycle_to_die уменьшается на CYCLE_DELTA
+** Если же количество выполненных операций live меньше установленного лимита,
+** то виртуальная машина просто запоминает, что была выполнена проверка.
+** Количество операций live обнуляется после каждой
+** проверки вне зависимости от ее результатов.
+*/
+
+void	check_live(t_cor *cor)
 {
 	t_carr *carr;
 
-
-	// Добавил!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	static int pre_cycles_to_die = CYCLE_TO_DIE;
 	static int counter = 0;
-	//«Текущее количество проверок» включает и проводящуюся в
-	// данный момент проверку.
-	//cor->live->check_count++;
-//	carr = cor->carr;
-//	while(carr)
-//	{
-//		//Мертвой считается каретка, которая выполняла операцию live cycles_to_die циклов назад или более.
-//		//Также мертвой считается любая каретка, если cycles_to_die <= 0.
-//		if (((cor->live->cycles - carr->cycles_live)) >= cor->live->cycles_to_die)
-//		{
-//			//ft_printf("p1 = %p\n", carr->next);
-//			remove_curr_if(cor, carr->num);
-//			//carr = cor->carr;
-//		}
-////		else
-////		{
-//			//carr->cycles_live = cor->live->cycles;
-//			carr = carr->next;
-//		//ft_printf("p1 = %p\n", carr);
-////		}
-//	}
+
 	counter++;
-	//Если количество выполненных за cycles_to_die период
-	// операций live больше или равно NBR_LIVE, значение cycles_to_die уменьшается на CYCLE_DELTA.
 	if (cor->live->live_count >= NBR_LIVE)
 		cor->live->cycles_to_die = cor->live->cycles_to_die - CYCLE_DELTA;
+	cor->live->live_count = 0;
 	if (cor->live->cycles_to_die == pre_cycles_to_die)
 	{
-	//	counter++;
-		//Если в течение MAX_CHECKS раз проверок Cycle_to_die не уменьшался //
-		// то cycle_to_die уменьшается на CYCLE_DELTA
 		if (counter == MAX_CHECKS)
 		{
 			cor->live->cycles_to_die = cor->live->cycles_to_die - CYCLE_DELTA;
 			counter = 0;
-			//cor->live->check_count = 0;
 			pre_cycles_to_die = cor->live->cycles_to_die;
 		}
 	}
@@ -75,39 +64,12 @@ void	check_live(t_cor *cor) /*Это проверка???????????????????????????
 		counter = 0;
 		pre_cycles_to_die = cor->live->cycles_to_die;
 	}
-	/*
-	if (cor->live->check_count > MAX_CHECKS)
-	{
-		cor->live->cycles_to_die = cor->live->cycles_to_die - CYCLE_DELTA;
-		cor->live->check_count = 0;
-	}
-	*/
-	//Если же количество выполненных операций live меньше установленного лимита,
-	// то виртуальная машина просто запоминает, что была выполнена проверка.
-
-	//Количество операций live обнуляется после каждой
-	// проверки вне зависимости от ее результатов.
-	cor->live->live_count = 0;
 	carr = cor->carr;
 	while(carr)
 	{
-		//Мертвой считается каретка, которая выполняла операцию live cycles_to_die циклов назад или более.
-		//Также мертвой считается любая каретка, если cycles_to_die <= 0.
 		if (((cor->live->cycles - carr->cycles_live)) >= cor->live->cycles_to_die)
-		{
-			//ft_printf("p1 = %p\n", carr->next);
-			if (carr->num == 0)
-				cor->live->live_count = 0;
-
 			remove_curr_if(cor, carr->num);
-			//carr = cor->carr;
-		}
-//		else
-//		{
-		//carr->cycles_live = cor->live->cycles;
 		carr = carr->next;
-		//ft_printf("p1 = %p\n", carr);
-//		}
 	}
 	if (cor->live->cycles_to_die <= 0)
 	{
@@ -129,14 +91,15 @@ void go_cor(t_cor *cor)
 	zero_live(cor);
 	while (cor->carr)
 	{
-		if (cor->live->cycles == 27065)
+		if (cor->live->cycles == 2977)
 		{
 			i++;
 		}
 		cor->live->cycles++;
 		tmp = cor->carr;
 		// для каждой каретки иначинаем исполнять код
-		while (tmp) {
+		while (tmp)
+		{
 			if (tmp->cycles_to == 0) {
 				tmp->cur = (tmp->cur + tmp->i) % MEM_SIZE;
 				tmp->i = 0;
