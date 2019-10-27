@@ -73,7 +73,7 @@ void	ft_st_write(t_cor *cor, t_carr *tmp, int b2_2)
 	{
 		if (b2_2 == 1)
 		{
-			t_ind = read_byte_2(cor->code, tmp->cur + 3);
+			t_ind = read_byte_2_min(cor->code, tmp->cur + 3);
 			p = inttobyte(tmp->reg[t_reg - 1]);
 //			while (t_ind < 0)
 //				t_ind += MEM_SIZE;

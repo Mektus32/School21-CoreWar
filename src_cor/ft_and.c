@@ -2,9 +2,9 @@
 
 // точно ли не надо сначало по i еще подвинуться?
 
-unsigned int arg_4(char *b2, t_carr *tmp, t_cor *cor,  int *f_err)
+int arg_4(char *b2, t_carr *tmp, t_cor *cor,  int *f_err)
 {
-	unsigned int				a1;
+	int				a1;
 	unsigned char	t_reg_3;
 	short			t_ind;
 	unsigned int	t_dir;
@@ -20,7 +20,7 @@ unsigned int arg_4(char *b2, t_carr *tmp, t_cor *cor,  int *f_err)
 	{
 		if (b2[1] == 1)
 		{
-			t_ind = read_byte_2(cor->code, tmp->cur + tmp->i);
+			t_ind = read_byte_2_min(cor->code, tmp->cur + tmp->i);
 			while (t_ind < 0)
 				t_ind += MEM_SIZE;
 			t_dir = read_byte_4(cor->code, tmp->cur +tmp->i + t_ind % IDX_MOD);//++ tmp->i???
@@ -38,9 +38,9 @@ unsigned int arg_4(char *b2, t_carr *tmp, t_cor *cor,  int *f_err)
 	return (a1);
 }
 
-unsigned int arg_2(char *b2, t_carr *tmp, t_cor *cor,  int *f_err)
+int arg_2(char *b2, t_carr *tmp, t_cor *cor,  int *f_err)
 {
-	unsigned int	a1;
+	int	a1;
 	unsigned char	t_reg_3;
 	short			t_ind;
 	unsigned int	t_dir;
@@ -57,7 +57,7 @@ unsigned int arg_2(char *b2, t_carr *tmp, t_cor *cor,  int *f_err)
 	{
 		if (b2[1] == 1)
 		{
-			t_ind = read_byte_2(cor->code, tmp->cur + tmp->i);
+			t_ind = read_byte_2_min(cor->code, tmp->cur + tmp->i);
 			while (t_ind < 0)
 				t_ind += MEM_SIZE;
 			t_dir = read_byte_4(cor->code, tmp->cur /*+ tmp->i*/ + t_ind % IDX_MOD);
@@ -65,7 +65,7 @@ unsigned int arg_2(char *b2, t_carr *tmp, t_cor *cor,  int *f_err)
 		}
 		else
 		{
-			t_ind = read_byte_2(cor->code, tmp->cur + tmp->i);
+			t_ind = read_byte_2_min(cor->code, tmp->cur + tmp->i);
 			a1 = t_ind;
 		}
 		tmp->i += 2;

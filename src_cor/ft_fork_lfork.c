@@ -7,6 +7,20 @@
 **
 **/
 
+short read_byte_2_min(const char *src, int i)
+{
+	short	c_2;
+
+	while (i < 0)
+		i = MEM_SIZE + i;
+	c_2 = 0;
+	c_2 = (c_2 << 8);
+	c_2 = c_2 | (char)src[(i) % MEM_SIZE];
+	c_2 = (c_2 << 8);
+	c_2 = c_2 | (char)src[(i + 1) % MEM_SIZE];
+	return ((short)c_2);
+}
+
 t_carr				*ft_fork(t_cor *cor, t_carr *tmp, int l)
 {
 	t_carr			*new;
@@ -20,7 +34,7 @@ t_carr				*ft_fork(t_cor *cor, t_carr *tmp, int l)
 	k = -1;
 	while (++k < REG_NUMBER)
 		new->reg[k] = tmp->reg[k];
-	t_dir = read_byte_2(cor->code, tmp->cur + 1);
+	t_dir = read_byte_2_min(cor->code, tmp->cur + 1);
 //	while (t_dir < 0)
 //		t_dir += MEM_SIZE;
 	if (l == 0)
@@ -29,6 +43,7 @@ t_carr				*ft_fork(t_cor *cor, t_carr *tmp, int l)
 		new->cur = tmp->cur + t_dir % (IDX_MOD - l * IDX_MOD + 1 * l);
 	while (new->cur < 0)
 		new->cur += MEM_SIZE;
+	new->cur = new->cur % MEM_SIZE;
 	new->i = 0;
 	add_curr(&(cor->carr), new);
 	//сделаю копию каретки и размещу ее

@@ -20,7 +20,7 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 {
 	unsigned char t_reg;
 	unsigned char t_reg_2;
-	short l;
+	int l;
 	int f_err;
 	char *b2;
 	unsigned char *p;
@@ -55,7 +55,7 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 	}
 	else if (b2[4] == 1 && b2[5] == 0)
 	{
-
+		//почему я не могу считать знаковый??????????????
 		l += read_byte_2(cor->code, tmp->cur + tmp->i);
 		tmp->i += 2;
 	}
@@ -67,10 +67,10 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 	if (!f_err)
 	{
 		p = inttobyte(tmp->reg[t_reg - 1]);
-//		while (l < 0)
-//			l+= MEM_SIZE;
-		l = tmp->cur + l % IDX_MOD;
 
+		l = tmp->cur + l % IDX_MOD;
+		while (l < 0)
+			l+= MEM_SIZE;
 		copy_p(cor->code, p, l, 0);
 		free(p);
 	}

@@ -46,7 +46,7 @@ short			read_byte_2(const char *src, int i)
 //	c_2 = src[i % MEM_SIZE];
 //	c_2 = c_2 << 8;
 //	c_2 = c_2 | (unsigned char)src[(i + 1) % MEM_SIZE];
-//	return ((short)c_2);
+	return ((short)c_2);
 }
 
 unsigned int	read_byte_4(const char *src, int i)
@@ -69,7 +69,8 @@ unsigned int	read_byte_4(const char *src, int i)
 
 void do_op(t_cor *cor, t_carr	*tmp)
 {
-//ft_printf("cyc = %d, prog = %d\n",cor->live->cycles, tmp->prog);
+//	if (tmp->prog)
+//		ft_printf("cyc = %d, prog = %d\n",cor->live->cycles, tmp->prog);
 	if	(tmp->prog == 1)
 		ft_live(cor, tmp);
 	else if (tmp->prog == 2)

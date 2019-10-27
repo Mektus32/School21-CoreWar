@@ -9,10 +9,12 @@ int					ft_ld_write(t_cor *cor, t_carr *tmp, int i, int l)
 	t_dir = 0;
 	if (i == 5)
 	{
+		// и тут не могу беззнаковый шорт прочитать
 		t_ind = read_byte_2(cor->code, tmp->cur + 2);
-		while (t_ind < 0)
-			t_ind += MEM_SIZE;
+
 		t_ind = (l == 1) ? t_ind : t_ind % IDX_MOD;
+		while ((t_ind + tmp->cur) < 0)
+			t_ind += MEM_SIZE;
 		t_dir = read_byte_4(cor->code, (tmp->cur + t_ind));
 	}
 	else
@@ -65,10 +67,11 @@ int					ft_lld_write(t_cor *cor, t_carr *tmp, int i)
 	t_ind = 0;
 	if (i == 5)
 	{
-		t_ind = read_byte_2(cor->code, tmp->cur + 2);
+		t_ind = read_byte_2_min(cor->code, tmp->cur + 2);
 //		while (t_ind < 0)
 //			t_ind += MEM_SIZE;
 		//t_ind = (l == 1) ? t_ind : t_ind % IDX_MOD;
+		//тут беззнаковый надо
 		t_ind = read_byte_2(cor->code, (tmp->cur + t_ind));
 	}
 	else

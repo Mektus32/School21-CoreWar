@@ -91,13 +91,13 @@ void go_cor(t_cor *cor)
 	zero_live(cor);
 	while (cor->carr)
 	{
-		cor->live->cycles++;
+		//cor->live->cycles++;
 		if ((cor->live->cycles - cor->live->cycles_temp) ==  cor->live->cycles_to_die)
 		{
 			cor->live->cycles_temp = cor->live->cycles;
 			check_live(cor);
 		}
-		if (cor->live->cycles == 2977)
+		if (cor->live->cycles == 12985)
 		{
 			i++;
 		}
@@ -147,7 +147,7 @@ void go_cor(t_cor *cor)
 //			cor->live->cycles_temp = cor->live->cycles;
 //			check_live(cor);
 //		}
-		//cor->live->cycles++;
+		cor->live->cycles++;
 		if (cor->carr && (cor->live->cycles == cor->nbr_cycles || cor->nbr_cycles == 0))
 		{
 			print_dump_code(cor);
