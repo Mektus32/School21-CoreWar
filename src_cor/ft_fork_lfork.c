@@ -23,11 +23,18 @@ t_carr				*ft_fork(t_cor *cor, t_carr *tmp, int l)
 	t_dir = read_byte_2(cor->code, tmp->cur + 1);
 //	while (t_dir < 0)
 //		t_dir += MEM_SIZE;
-	new->cur = tmp->cur + t_dir % (IDX_MOD - l * IDX_MOD + 1 * l);
+	if (l == 0)
+		new->cur = tmp->cur + t_dir % IDX_MOD;
+	else
+		new->cur = tmp->cur + t_dir % (IDX_MOD - l * IDX_MOD + 1 * l);
+	while (new->cur < 0)
+		new->cur += MEM_SIZE;
+	new->i = 0;
 	add_curr(&(cor->carr), new);
 	//сделаю копию каретки и размещу ее
 	//copy_p(cor->code, cor->code, new->cur, tmp->cur);
 	tmp->i = 3;
+	//tmp->cur = new->cur;
 	return(cor->carr);
 
 

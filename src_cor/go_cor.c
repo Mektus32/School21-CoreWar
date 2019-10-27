@@ -91,11 +91,17 @@ void go_cor(t_cor *cor)
 	zero_live(cor);
 	while (cor->carr)
 	{
+		cor->live->cycles++;
+		if ((cor->live->cycles - cor->live->cycles_temp) ==  cor->live->cycles_to_die)
+		{
+			cor->live->cycles_temp = cor->live->cycles;
+			check_live(cor);
+		}
 		if (cor->live->cycles == 2977)
 		{
 			i++;
 		}
-		cor->live->cycles++;
+
 		tmp = cor->carr;
 		// для каждой каретки иначинаем исполнять код
 		while (tmp)
@@ -136,11 +142,11 @@ void go_cor(t_cor *cor)
 
 		//cor->live->cycles_to_die <= 0 - игра закончилась -удяляем все каретки
 		i = cor->live->cycles - cor->live->cycles_temp;
-		if ((cor->live->cycles - cor->live->cycles_temp) ==  cor->live->cycles_to_die)
-		{
-			cor->live->cycles_temp = cor->live->cycles;
-			check_live(cor);
-		}
+//		if ((cor->live->cycles - cor->live->cycles_temp) ==  cor->live->cycles_to_die)
+//		{
+//			cor->live->cycles_temp = cor->live->cycles;
+//			check_live(cor);
+//		}
 		//cor->live->cycles++;
 		if (cor->carr && (cor->live->cycles == cor->nbr_cycles || cor->nbr_cycles == 0))
 		{
