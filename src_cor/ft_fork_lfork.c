@@ -24,25 +24,25 @@ short read_byte_2_min(const char *src, int i)
 t_carr				*ft_fork(t_cor *cor, t_carr *tmp, int l)
 {
 	t_carr			*new;
-	short			t_dir;
+	short			t_ind;
 	int				k;
 
 	new = new_curr(tmp->id_par);
 	new->carry = tmp->carry;
 	new->cycles_live = tmp->cycles_live;
 	new->num = (cor->n_curr)++;
-	k = -1;
+	k = 0;
 	while (++k < REG_NUMBER)
 		new->reg[k] = tmp->reg[k];
-	t_dir = read_byte_2_min(cor->code, tmp->cur + 1);
+	t_ind = read_byte_2_min(cor->code, tmp->cur + 1);
 //	while (t_dir < 0)
 //		t_dir += MEM_SIZE;
 	if (l == 0)
-		new->cur = tmp->cur + t_dir % IDX_MOD;
+		new->cur = tmp->cur + t_ind % IDX_MOD;
 	else
-		new->cur = tmp->cur + t_dir % (IDX_MOD - l * IDX_MOD + 1 * l);
-	while (new->cur < 0)
-		new->cur += MEM_SIZE;
+		new->cur = tmp->cur + t_ind;
+//	while (new->cur < 0)
+//		new->cur += MEM_SIZE;
 	new->cur = new->cur % MEM_SIZE;
 	new->i = 0;
 	add_curr(&(cor->carr), new);

@@ -91,7 +91,7 @@ void go_cor(t_cor *cor)
 	zero_live(cor);
 	while (cor->carr)
 	{
-		//cor->live->cycles++;
+		cor->live->cycles++;
 		if ((cor->live->cycles - cor->live->cycles_temp) ==  cor->live->cycles_to_die)
 		{
 			cor->live->cycles_temp = cor->live->cycles;
@@ -106,7 +106,8 @@ void go_cor(t_cor *cor)
 		// для каждой каретки иначинаем исполнять код
 		while (tmp)
 		{
-			if (tmp->cycles_to == 0) {
+			if (tmp->cycles_to == 0)
+			{
 				tmp->cur = (tmp->cur + tmp->i) % MEM_SIZE;
 				tmp->i = 0;
 				while (tmp->cur < 0)
@@ -147,7 +148,7 @@ void go_cor(t_cor *cor)
 //			cor->live->cycles_temp = cor->live->cycles;
 //			check_live(cor);
 //		}
-		cor->live->cycles++;
+		//cor->live->cycles++;
 		if (cor->carr && (cor->live->cycles == cor->nbr_cycles || cor->nbr_cycles == 0))
 		{
 			print_dump_code(cor);
