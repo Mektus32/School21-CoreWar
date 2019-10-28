@@ -69,6 +69,7 @@ void	check_live(t_cor *cor)
 	{
 		if (((cor->live->cycles - carr->cycles_live)) > cor->live->cycles_to_die)
 			remove_curr_if(cor, carr->num);
+
 		carr = carr->next;
 	}
 	if (cor->live->cycles_to_die <= 0)
@@ -95,13 +96,13 @@ void go_cor(t_cor *cor)
 		{
 			i++;
 		}
-		//cor->live->cycles++;
-		if ((cor->live->cycles++ - cor->live->cycles_temp) ==  cor->live->cycles_to_die)
+
+		if ((cor->live->cycles - cor->live->cycles_temp) ==  cor->live->cycles_to_die)
 		{
 			cor->live->cycles_temp = cor->live->cycles;
 			check_live(cor);
 		}
-
+		cor->live->cycles++;
 
 		tmp = cor->carr;
 		// для каждой каретки иначинаем исполнять код
@@ -109,18 +110,18 @@ void go_cor(t_cor *cor)
 		{
 			if (tmp->cycles_to == 0)
 			{
-				tmp->cur = (tmp->cur + tmp->i) % MEM_SIZE;
+ 				tmp->cur = (tmp->cur + tmp->i) % MEM_SIZE;
 				tmp->i = 0;
 				while (tmp->cur < 0)
 					tmp->cur += MEM_SIZE;
 				tmp->prog = read_byte_1(cor->code, tmp->cur);
 				tmp->cycles_to = ft_cycles_to(tmp->prog);
 			}
-			tmp = tmp->next;
-		}
-		tmp = cor->carr;
-		while (tmp)
-		{
+//			tmp = tmp->next;
+//		}
+//		tmp = cor->carr;
+//		while (tmp)
+//		{
 			if (--tmp->cycles_to == 0)
 			{
 				//все таки надо продолжать обычную итерацию

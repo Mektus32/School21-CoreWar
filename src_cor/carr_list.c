@@ -10,6 +10,7 @@ t_carr *new_curr(int id_par)
 	if (!new)
 		return (NULL);
 	new->id_par = id_par;
+	new->i = 0;
 //	new->cur = 0;
 //	new->carry = 0;
 //	new->prog = 0;

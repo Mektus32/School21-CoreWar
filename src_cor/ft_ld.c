@@ -80,7 +80,7 @@ int					ft_lld_write(t_cor *cor, t_carr *tmp, int i)
 		tmp->reg[t_reg - 1] = (t_ind == 0) ? t_dir : t_ind;
 		tmp->carry = (tmp->reg[t_reg - 1] == 0) ? 1 : 0;
 	}
-	tmp->carry = (tmp->reg[t_reg - 1] == 0) ? 1 : 0;
+	//tmp->carry = (tmp->reg[t_reg - 1] == 0) ? 1 : 0;
 
 	return (1);
 }

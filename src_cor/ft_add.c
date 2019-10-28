@@ -50,12 +50,8 @@ void				ft_zjmp(t_cor *cor, t_carr *tmp)
 	if (tmp->carry == 1)
 	{
 		t_ind = read_byte_2(cor->code, tmp->cur + 1);
-//		while (t_ind < 0)
-//			t_ind += MEM_SIZE;
 		a = idx_mod(t_ind);
-
 		tmp->cur = mem_size(tmp->cur + a);
-
 		tmp->i = 0;
 	}
 	else
