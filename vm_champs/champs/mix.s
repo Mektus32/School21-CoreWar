@@ -20,7 +20,7 @@
   ld   %888, r8
   ld   %666, r9
   ld   %0, r10
-  sub r2, r2, r2
+  #sub r2, r2, r2
   live    %-1
   sti r2,  %100, %0
   sti r5,  %100, %1800
@@ -34,5 +34,5 @@
   ld %50921977, r6
   ld %1879113730, r1
   ld %4, r4
-  xor r2, r2, r2
-  sub r2, r2, r2
+  #xor r2, r2, r2
+  #sub r2, r2, r2

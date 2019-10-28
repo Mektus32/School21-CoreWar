@@ -73,17 +73,15 @@ void	ft_st_write(t_cor *cor, t_carr *tmp, int b2_2)
 	{
 		if (b2_2 == 1)
 		{
-			t_ind = read_byte_2_min(cor->code, tmp->cur + 3);
+			t_ind = read_byte_2(cor->code, tmp->cur + 3);
+			t_ind = idx_mod(t_ind);
 			p = inttobyte(tmp->reg[t_reg - 1]);
-//			while (t_ind < 0)
-//				t_ind += MEM_SIZE;
-			copy_p(cor->code, p, tmp->cur + t_ind % IDX_MOD, 0);
+			copy_p(cor->code, p, tmp->cur + t_ind, 0);
 			free(p);
 		}
 		else
 		{
 			t_reg_2 = read_byte_1(cor->code, tmp->cur + 3);
-
 			if (VAL_REG(t_reg_2))
 				tmp->reg[t_reg_2 - 1] = tmp->reg[t_reg - 1];
 		}

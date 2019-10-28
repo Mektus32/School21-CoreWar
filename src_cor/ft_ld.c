@@ -7,19 +7,19 @@ int					ft_ld_write(t_cor *cor, t_carr *tmp, int i, int l)
 	unsigned char	t_reg;
 
 	t_dir = 0;
-	if (i == 5)
+	if ((i + 2) == 5)
 	{
 		// и тут не могу беззнаковый шорт прочитать
 		t_ind = read_byte_2(cor->code, tmp->cur + 2);
 
-		t_ind = (l == 1) ? t_ind : t_ind % IDX_MOD;
-		while ((t_ind + tmp->cur) < 0)
-			t_ind += MEM_SIZE;
+		t_ind = (l == 1) ? t_ind : idx_mod(t_ind);
+		//t_ind = mem_size(t_ind);
 		t_dir = read_byte_4(cor->code, (tmp->cur + t_ind));
 	}
 	else
 		t_dir = read_byte_4(cor->code, tmp->cur + 2);
-	t_reg = read_byte_1(cor->code, tmp->cur + (i - 1));
+	t_reg = read_byte_1(cor->code, tmp->cur + i);
+	//ft_printf("reg = %d, val = %d", t_reg, VAL_REG(t_reg));
 	if (VAL_REG(t_reg))
 	{
 		tmp->reg[t_reg - 1] = 0;
@@ -49,7 +49,7 @@ void	ft_ld(t_cor *cor, t_carr *tmp, int l)
 	{
 		i += 1;
 		if ((i == 5 || i == 7) && !f_err)
-			ft_ld_write(cor, tmp, i, l);
+			ft_ld_write(cor, tmp, (i - 2), l);
 	}
 	else if ((b2[2] == 1 && b2[3] == 1) || (b2[2] == 1 && b2[3] == 0))
 		i += 4 * (int)b2[0] - 2 * (int)b2[1];
@@ -65,18 +65,15 @@ int					ft_lld_write(t_cor *cor, t_carr *tmp, int i)
 
 	t_dir = 0;
 	t_ind = 0;
-	if (i == 5)
+	if ((i + 2) == 5)
 	{
-		t_ind = read_byte_2_min(cor->code, tmp->cur + 2);
-//		while (t_ind < 0)
-//			t_ind += MEM_SIZE;
-		//t_ind = (l == 1) ? t_ind : t_ind % IDX_MOD;
-		//тут беззнаковый надо
+		t_ind = read_byte_2(cor->code, tmp->cur + 2);
+		t_ind = idx_mod(t_ind);
 		t_ind = read_byte_2(cor->code, (tmp->cur + t_ind));
 	}
 	else
 		t_dir = read_byte_2(cor->code, tmp->cur + 2);
-	t_reg = read_byte_1(cor->code, tmp->cur + i - 1);
+	t_reg = read_byte_1(cor->code, tmp->cur + i);
 	if (VAL_REG(t_reg))
 	{
 		tmp->reg[t_reg - 1] = 0;
@@ -103,7 +100,7 @@ void	ft_lld(t_cor *cor, t_carr *tmp)
 	{
 		i += 1;
 		if (i == 5 || i == 7)
-			ft_lld_write(cor, tmp, i);
+			ft_lld_write(cor, tmp, i - 2);
 	}
 	else if ((b2[2] == 1 && b2[3] == 1) || (b2[2] == 1 && b2[3] == 0))
 		i += 4 * (int)b2[0] - 2 * (int)b2[1];

@@ -20,10 +20,11 @@ int arg_4(char *b2, t_carr *tmp, t_cor *cor,  int *f_err)
 	{
 		if (b2[1] == 1)
 		{
-			t_ind = read_byte_2_min(cor->code, tmp->cur + tmp->i);
-			while (t_ind < 0)
-				t_ind += MEM_SIZE;
-			t_dir = read_byte_4(cor->code, tmp->cur +tmp->i + t_ind % IDX_MOD);//++ tmp->i???
+			t_ind = read_byte_2(cor->code, tmp->cur + tmp->i);
+//			while (t_ind < 0)
+//				t_ind += MEM_SIZE;
+			t_ind = idx_mod(t_ind);
+			t_dir = read_byte_4(cor->code, tmp->cur  + t_ind);//++ tmp->i???
 			tmp->i += 2;
 		}
 		else
@@ -57,16 +58,15 @@ int arg_2(char *b2, t_carr *tmp, t_cor *cor,  int *f_err)
 	{
 		if (b2[1] == 1)
 		{
-			t_ind = read_byte_2_min(cor->code, tmp->cur + tmp->i);
-			while (t_ind < 0)
-				t_ind += MEM_SIZE;
-			t_dir = read_byte_4(cor->code, tmp->cur /*+ tmp->i*/ + t_ind % IDX_MOD);
+			t_ind = read_byte_2(cor->code, tmp->cur + tmp->i);
+			t_ind = idx_mod(t_ind);
+			t_dir = read_byte_4(cor->code, tmp->cur /*+ tmp->i*/ + t_ind);
 			a1 = t_dir;
 		}
 		else
 		{
-			t_ind = read_byte_2_min(cor->code, tmp->cur + tmp->i);
-			a1 = t_ind;
+			t_ind = read_byte_2(cor->code, tmp->cur + tmp->i);
+			a1 = idx_mod(t_ind);
 		}
 		tmp->i += 2;
 	}
