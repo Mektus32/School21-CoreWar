@@ -66,6 +66,7 @@ char		*base16_2_cor(t_cor *cor, t_carr *tmp)
 {
 	char		*b2;
 	unsigned	char c;
+	char	bb;
 	int			i;
 
 	b2 = (char *)ft_memalloc(sizeof(char) * 9);
@@ -73,7 +74,9 @@ char		*base16_2_cor(t_cor *cor, t_carr *tmp)
 	i = 7;
 	while (i >= 0)
 	{
+		bb = c % 2;
 		b2[i--] = c % 2;
+
 		c = c / 2;
 	}
 	return  (b2);

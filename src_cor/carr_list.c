@@ -26,7 +26,7 @@ t_carr *new_curr(int id_par)
 
 void add_curr(t_carr **all_carr, t_carr *new)
 {
-	if (!all_carr)
+	if (!all_carr || !*all_carr)
 		return ;
 	new->next = *all_carr;
 	*all_carr = new;

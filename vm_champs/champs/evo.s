@@ -11,4 +11,4 @@ one:
 	#live %0
 	#ld %507, r3
 	#fork %1000
-	zjmp  %:one
+	#zjmp  %:one

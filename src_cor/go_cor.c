@@ -14,12 +14,17 @@ void	zero_live(t_cor *cor)
 unsigned char *inttobyte(int a)
 {
 	unsigned char *bt;
+	unsigned char c;
 
 	bt = (unsigned char *)ft_memalloc(sizeof(unsigned char) * 4);
 	bt[0] = (unsigned char)((a >> 24) & 0xff);
+	c = bt[0];
 	bt[1] = (unsigned char)((a >> 16) & 0xff);
+	c = bt[1];
 	bt[2] = (unsigned char)((a >> 8) & 0xff);
+	c = bt[2];
 	bt[3] = (unsigned char)((a >> 0) & 0xff);
+	c = bt[3];
 	return (bt);
 }
 
@@ -67,7 +72,7 @@ void	check_live(t_cor *cor)
 	carr = cor->carr;
 	while(carr)
 	{
-		if (((cor->live->cycles - carr->cycles_live)) > cor->live->cycles_to_die)
+		if (((cor->live->cycles - carr->cycles_live)) >= cor->live->cycles_to_die)
 			remove_curr_if(cor, carr->num);
 
 		carr = carr->next;
@@ -92,6 +97,12 @@ void go_cor(t_cor *cor)
 	zero_live(cor);
 	while (cor->carr)
 	{
+		if (cor->carr && (cor->live->cycles == cor->nbr_cycles || cor->nbr_cycles == 0))
+		{
+			print_dump_code(cor);
+			exit_print("");
+		}
+		cor->live->cycles++;
 		if (cor->live->cycles == 7600)
 		{
 			i++;
@@ -102,7 +113,7 @@ void go_cor(t_cor *cor)
 			cor->live->cycles_temp = cor->live->cycles;
 			check_live(cor);
 		}
-		cor->live->cycles++;
+
 
 		tmp = cor->carr;
 		// для каждой каретки иначинаем исполнять код
@@ -111,11 +122,19 @@ void go_cor(t_cor *cor)
 			if (tmp->cycles_to == 0)
 			{
  				tmp->cur = (tmp->cur + tmp->i) % MEM_SIZE;
-				tmp->i = 0;
+				//tmp->i = 0;
 				while (tmp->cur < 0)
 					tmp->cur += MEM_SIZE;
-				tmp->prog = read_byte_1(cor->code, tmp->cur);
+				tmp->prog = (unsigned char)cor->code[tmp->cur];
+// = read_byte_1(cor->code, tmp->cur);
+				unsigned char c;
+//				c = cor->code[0];
+//				c = cor->code[5];
+				c = cor->code[12];
+				c = cor->code[11];
+				c = cor->code[13];
 				tmp->cycles_to = ft_cycles_to(tmp->prog);
+				tmp->i = 0;
 			}
 //			tmp = tmp->next;
 //		}
@@ -152,11 +171,7 @@ void go_cor(t_cor *cor)
 //		}
 		//cor->live->cycles++;
 
-		if (cor->carr && (cor->live->cycles == cor->nbr_cycles || cor->nbr_cycles == 0))
-		{
-			print_dump_code(cor);
-			exit_print("");
-		}
+
 	}
 }
 

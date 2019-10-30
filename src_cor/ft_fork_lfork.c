@@ -76,7 +76,7 @@ int mem_size(int cur)
 	{
 		while (cur < 0)
 			cur += MEM_SIZE;
-		return (cur);
+		//return (cur);
 	}
 	cur = cur % MEM_SIZE;
 	return (cur);

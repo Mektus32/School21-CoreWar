@@ -7,7 +7,7 @@ int					ft_ld_write(t_cor *cor, t_carr *tmp, int i, int l)
 	unsigned char	t_reg;
 
 	t_dir = 0;
-	if ((i + 2) == 5)
+	if (i == 4)
 	{
 		// и тут не могу беззнаковый шорт прочитать
 		t_ind = read_byte_2(cor->code, tmp->cur + 2);
@@ -40,7 +40,7 @@ void	ft_ld(t_cor *cor, t_carr *tmp, int l)
 	i = 2;
 	b2 = base16_2_cor(cor, tmp);
 	f_err = 0;
-	//f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;
+	f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;
 	if ((b2[0] == 1 && b2[1] == 0) || (b2[0] == 1 && b2[1] == 1))
 		i += 4 * (int)b2[0] - 2 * (int)b2[1];
 	else if (b2[0] == 0 && b2[1] == 1)
@@ -49,7 +49,7 @@ void	ft_ld(t_cor *cor, t_carr *tmp, int l)
 	{
 		i += 1;
 		if ((i == 5 || i == 7) && !f_err)
-			ft_ld_write(cor, tmp, (i - 2), l);
+			ft_ld_write(cor, tmp, (i - 1), l);
 	}
 	else if ((b2[2] == 1 && b2[3] == 1) || (b2[2] == 1 && b2[3] == 0))
 		i += 4 * (int)b2[0] - 2 * (int)b2[1];

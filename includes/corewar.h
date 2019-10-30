@@ -85,7 +85,7 @@ typedef struct 			s_carr
 	int					id_par;
 	unsigned int		reg[REG_NUMBER];
 	int					live;
-	char				prog;
+	unsigned char				prog;
 	int					cycles_to;
 	int					i;
 	struct s_carr		*next;
