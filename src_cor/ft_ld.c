@@ -116,7 +116,7 @@ void    ft_ldi(t_cor *cor, t_carr *tmp, int l)
 	int f_err;
 	int k;// на сколько надо передвинуть
 
-
+//02 [0:op]0a [1:ca]a4  [2:ind] 2305 /=8965 [4:dir] [23 080f 0b] [6 : treg]64 0f00 000e
 	tmp->i = 2;
 	k = 0;
 	b2 = base16_2_cor(cor, tmp);
@@ -135,8 +135,10 @@ void    ft_ldi(t_cor *cor, t_carr *tmp, int l)
 	else if ((b2[2] == 1 && b2[3] == 0))
 	{
 		//может и 2
-		k += read_byte_4(cor->code, tmp->cur + tmp->i);
-		tmp->i += 4;
+		int d;
+		d = read_byte_2(cor->code, tmp->cur + tmp->i);
+		k += read_byte_2(cor->code, tmp->cur + tmp->i);
+		tmp->i += 2;
 	}
 	else
 	{
