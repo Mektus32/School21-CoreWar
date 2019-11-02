@@ -36,9 +36,9 @@ void				ft_add(t_cor *cor, t_carr *tmp)
 	{
 			tmp->reg[t_reg_3 - 1] = tmp->reg[t_reg - 1] +
 					tmp->reg[t_reg_2 - 1];
-
+		tmp->carry = (tmp->reg[t_reg_3 - 1] == 0) ? 1 : 0;
 	}
-	tmp->carry = (tmp->reg[t_reg_3 - 1] == 0) ? 1 : 0;
+
 	free(b2);
 }
 
@@ -52,8 +52,9 @@ void				ft_zjmp(t_cor *cor, t_carr *tmp)
 		t_ind = read_byte_2(cor->code, tmp->cur + 1);
 		a = idx_mod(t_ind);
 		tmp->cur = mem_size(tmp->cur + a);
-		tmp->i = 0;
+		//tmp->i = 3;
 	}
 	else
 		tmp->i = 3;
+	//tmp->carry = 0;
 }

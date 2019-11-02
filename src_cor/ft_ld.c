@@ -13,7 +13,8 @@ int					ft_ld_write(t_cor *cor, t_carr *tmp, int i, int l)
 		t_ind = read_byte_2(cor->code, tmp->cur + 2);
 
 		t_ind = (l == 1) ? t_ind : idx_mod(t_ind);
-		//t_ind = mem_size(t_ind);
+		t_ind = mem_size(t_ind);
+		t_ind = mem_size((tmp->cur + t_ind));
 		t_dir = read_byte_4(cor->code, (tmp->cur + t_ind));
 	}
 	else
@@ -22,7 +23,7 @@ int					ft_ld_write(t_cor *cor, t_carr *tmp, int i, int l)
 	//ft_printf("reg = %d, val = %d", t_reg, VAL_REG(t_reg));
 	if (VAL_REG(t_reg))
 	{
-		tmp->reg[t_reg - 1] = 0;
+		//tmp->reg[t_reg - 1] = 0;
 		tmp->reg[t_reg - 1] = t_dir;
 		tmp->carry = (tmp->reg[t_reg - 1] == 0) ? 1 : 0;
 	}
@@ -52,7 +53,7 @@ void	ft_ld(t_cor *cor, t_carr *tmp, int l)
 			ft_ld_write(cor, tmp, (i - 1), l);
 	}
 	else if ((b2[2] == 1 && b2[3] == 1) || (b2[2] == 1 && b2[3] == 0))
-		i += 4 * (int)b2[0] - 2 * (int)b2[1];
+		i += 4 * (int)b2[2] - 2 * (int)b2[3];
 	free(b2);
 	tmp->i = i;
 }
@@ -76,7 +77,7 @@ int					ft_lld_write(t_cor *cor, t_carr *tmp, int i)
 	t_reg = read_byte_1(cor->code, tmp->cur + i);
 	if (VAL_REG(t_reg))
 	{
-		tmp->reg[t_reg - 1] = 0;
+		//tmp->reg[t_reg - 1] = 0;
 		tmp->reg[t_reg - 1] = (t_ind == 0) ? t_dir : t_ind;
 		tmp->carry = (tmp->reg[t_reg - 1] == 0) ? 1 : 0;
 	}
@@ -103,7 +104,7 @@ void	ft_lld(t_cor *cor, t_carr *tmp)
 			ft_lld_write(cor, tmp, i - 2);
 	}
 	else if ((b2[2] == 1 && b2[3] == 1) || (b2[2] == 1 && b2[3] == 0))
-		i += 4 * (int)b2[0] - 2 * (int)b2[1];
+		i += 4 * (int)b2[2] - 2 * (int)b2[3];
 	free(b2);
 	tmp->i = i;
 }

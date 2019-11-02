@@ -111,7 +111,7 @@ t_carr				*ft_fork(t_cor *cor, t_carr *tmp, int l)
 	//ft_printf("new->cur = {%hd} {%#x}\n", new->cur, new->cur);
 	new->cur = mem_size(new->cur);
 	//ft_printf("new->cur = {%hd} {%#x}\n", new->cur, new->cur);
-	new->i = 0;
+	//new->i = 3;
 	add_curr(&(cor->carr), new);
 	//printList(cor->carr);
 	//сделаю копию каретки и размещу ее

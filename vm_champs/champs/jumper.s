@@ -10,7 +10,7 @@ debut:	ld %0,r7
 	zjmp %:suite
 
 goboucle0:	live %66
-		#ldi %-5,r3,r1
+		ldi %-5,r3,r1
 		sti r1,%-173,r3
 		add r3,r4,r3
 		xor r5,r3,r6
