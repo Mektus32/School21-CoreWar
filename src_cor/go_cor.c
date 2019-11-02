@@ -51,7 +51,17 @@ void	check_live(t_cor *cor)
 	static int pre_cycles_to_die = CYCLE_TO_DIE;
 	static int counter = 0;
 	carr = cor->carr;
-	//ft_printf("check cycle = %d, n_cur = %d\n", cor->live->cycles,cor->n_curr);
+	if (cor->live->cycles_to_die <= 0)
+	{
+		carr = cor->carr;
+		while (carr)
+		{
+			remove_curr_if(cor, carr->num);
+			carr = carr->next;
+		}
+
+	}
+//	ft_printf("check cycle = %d, n_cur = %d\n", cor->live->cycles,cor->n_curr);
 //	ft_printf("to die = %d\n",cor->live->cycles_to_die);
 	while(carr)
 	{
@@ -84,16 +94,7 @@ void	check_live(t_cor *cor)
 	}
 
 
-	if (cor->live->cycles_to_die <= 0)
-	{
-		carr = cor->carr;
-		while (carr)
-		{
-			remove_curr_if(cor, carr->num);
-			carr = carr->next;
-		}
 
-	}
 	//ft_printf("n_cur_after = %d\n", cor->n_curr);
 }
 
@@ -121,8 +122,6 @@ void go_cor(t_cor *cor)
 			cor->live->cycles_temp = cor->live->cycles;
 			check_live(cor);
 		}
-
-
 		tmp = cor->carr;
 		// для каждой каретки иначинаем исполнять код
 		while (tmp)
@@ -130,11 +129,9 @@ void go_cor(t_cor *cor)
 			if (tmp->cycles_to == 0)
 			{
  				tmp->cur = (tmp->cur + tmp->i) % MEM_SIZE;
-				//tmp->i = 0;
-				while (tmp->cur < 0)
-					tmp->cur += MEM_SIZE;
-				tmp->prog = (unsigned char)cor->code[tmp->cur];
-// = read_byte_1(cor->code, tmp->cur);
+				tmp->cur = mem_size(tmp->cur);
+				tmp->prog = //(unsigned char)cor->code[tmp->cur];
+       read_byte_1(cor->code, tmp->cur);
 				unsigned char c;
 //				c = cor->code[0];
 //				c = cor->code[5];
@@ -144,11 +141,11 @@ void go_cor(t_cor *cor)
 				tmp->cycles_to = ft_cycles_to(tmp->prog);
 				tmp->i = 0;
 			}
-//			tmp = tmp->next;
-//		}
-//		tmp = cor->carr;
-//		while (tmp)
-//		{
+			tmp = tmp->next;
+		}
+		tmp = cor->carr;
+		while (tmp)
+		{
 			if (--tmp->cycles_to == 0)
 			{
 				//все таки надо продолжать обычную итерацию

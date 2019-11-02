@@ -90,9 +90,9 @@ t_carr				*ft_fork(t_cor *cor, t_carr *tmp, int l)
 
 	new = new_curr(tmp->id_par);
 	new->carry = tmp->carry;
-	new->cycles_live = tmp->cycles_live;
+	new->cycles_live = cor->live->cycles;//tmp->cycles_live;
 	new->num = (cor->n_curr)++;
-	k = 0;
+	k = -1;
 	while (++k < REG_NUMBER)
 		new->reg[k] = tmp->reg[k];
 	t_ind = read_byte_2(cor->code, tmp->cur + 1);
@@ -110,14 +110,11 @@ t_carr				*ft_fork(t_cor *cor, t_carr *tmp, int l)
 	//	new->cur += MEM_SIZE;
 	//ft_printf("new->cur = {%hd} {%#x}\n", new->cur, new->cur);
 	new->cur = mem_size(new->cur);
-	//ft_printf("new->cur = {%hd} {%#x}\n", new->cur, new->cur);
-	//new->i = 3;
+
 	add_curr(&(cor->carr), new);
 	//printList(cor->carr);
-	//сделаю копию каретки и размещу ее
-	//copy_p(cor->code, cor->code, new->cur, tmp->cur);
+
 	tmp->i = 3;
-	//tmp->cur = new->cur;
 	return(cor->carr);
 }
 

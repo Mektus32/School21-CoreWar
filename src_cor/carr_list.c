@@ -12,7 +12,7 @@ t_carr *new_curr(int id_par)
 	new->id_par = id_par;
 	new->i = 0;
 //	new->cur = 0;
-//	new->carry = 0;
+	new->carry = 0;
 //	new->prog = 0;
 //	new->cycles_to = 0;
 	i = 0;
@@ -45,7 +45,7 @@ void remove_curr_if(t_cor *cor, int num)
 		else
 			cor->carr = NULL;
 		free(carr);
-		cor->n_curr--;
+		//cor->n_curr--;
 		return ;
 	}
 	tmp = carr;
@@ -58,7 +58,7 @@ void remove_curr_if(t_cor *cor, int num)
 			else
 				tmp->next = NULL;
 			free(carr);
-			cor->n_curr--;
+			//cor->n_curr--;
 			return ;
 
 		}

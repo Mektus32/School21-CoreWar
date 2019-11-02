@@ -14,7 +14,6 @@ int					ft_ld_write(t_cor *cor, t_carr *tmp, int i, int l)
 
 		t_ind = (l == 1) ? t_ind : idx_mod(t_ind);
 		t_ind = mem_size(t_ind);
-		t_ind = mem_size((tmp->cur + t_ind));
 		t_dir = read_byte_4(cor->code, (tmp->cur + t_ind));
 	}
 	else
@@ -61,15 +60,15 @@ void	ft_ld(t_cor *cor, t_carr *tmp, int l)
 int					ft_lld_write(t_cor *cor, t_carr *tmp, int i)
 {
 	short			t_ind;
-	unsigned int	t_dir;
+	short	t_dir;
 	unsigned char	t_reg;
 
 	t_dir = 0;
 	t_ind = 0;
-	if ((i + 2) == 5)
+	if (i == 4)
 	{
 		t_ind = read_byte_2(cor->code, tmp->cur + 2);
-		t_ind = idx_mod(t_ind);
+		//t_ind = idx_mod(t_ind);
 		t_ind = read_byte_2(cor->code, (tmp->cur + t_ind));
 	}
 	else
@@ -77,11 +76,9 @@ int					ft_lld_write(t_cor *cor, t_carr *tmp, int i)
 	t_reg = read_byte_1(cor->code, tmp->cur + i);
 	if (VAL_REG(t_reg))
 	{
-		//tmp->reg[t_reg - 1] = 0;
 		tmp->reg[t_reg - 1] = (t_ind == 0) ? t_dir : t_ind;
 		tmp->carry = (tmp->reg[t_reg - 1] == 0) ? 1 : 0;
 	}
-	//tmp->carry = (tmp->reg[t_reg - 1] == 0) ? 1 : 0;
 
 	return (1);
 }
@@ -101,7 +98,7 @@ void	ft_lld(t_cor *cor, t_carr *tmp)
 	{
 		i += 1;
 		if (i == 5 || i == 7)
-			ft_lld_write(cor, tmp, i - 2);
+			ft_lld_write(cor, tmp, i - 1);
 	}
 	else if ((b2[2] == 1 && b2[3] == 1) || (b2[2] == 1 && b2[3] == 0))
 		i += 4 * (int)b2[2] - 2 * (int)b2[3];
@@ -151,8 +148,7 @@ void    ft_ldi(t_cor *cor, t_carr *tmp, int l)
 		t_reg = read_byte_1(cor->code, tmp->cur + tmp->i++);
 		if (f_err == 0 && (VAL_REG(t_reg)))
 		{
-//			while (k < 0)
-//				k += MEM_SIZE;
+
 			tmp->reg[(int)t_reg - 1] =
 				read_byte_4(cor->code, tmp->cur  + k % (IDX_MOD - l *  IDX_MOD + 1 * l));
 			if (l)
