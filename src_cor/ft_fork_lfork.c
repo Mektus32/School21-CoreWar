@@ -91,24 +91,15 @@ t_carr				*ft_fork(t_cor *cor, t_carr *tmp, int l)
 	new = new_curr(tmp->id_par);
 	new->carry = tmp->carry;
 	new->cycles_live = tmp->cycles_live;
-	new->num = (cor->n_curr)++;
+	new->num = cor->n_curr++;
 	k = -1;
 	while (++k < REG_NUMBER)
 		new->reg[k] = tmp->reg[k];
 	t_ind = read_byte_2(cor->code, tmp->cur + 1);
-	//ft_printf("t_ind = {%hd} {%#x}\n", t_ind, t_ind);
-//	while (t_dir < 0)
-//		t_dir += MEM_SIZE;
-	//if (t_ind < 0)
-	//	ft_printf("t_ind = {%d} {%#x}\n", t_ind, t_ind);
-	//ft_printf("tmp->cur = {%hd} {%#x}\n", tmp->cur, tmp->cur);
 	if (l == 0)
 		new->cur = tmp->cur + idx_mod(t_ind);
 	else
 		new->cur = tmp->cur + t_ind;
-	//while (new->cur < 0)
-	//	new->cur += MEM_SIZE;
-	//ft_printf("new->cur = {%hd} {%#x}\n", new->cur, new->cur);
 	new->cur = mem_size(new->cur);
 
 	add_curr(&(cor->carr), new);

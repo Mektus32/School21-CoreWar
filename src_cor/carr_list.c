@@ -45,7 +45,6 @@ void remove_curr_if(t_cor *cor, int num)
 		else
 			cor->carr = NULL;
 		free(carr);
-		//cor->n_curr--;
 		return ;
 	}
 	tmp = carr;
@@ -58,7 +57,6 @@ void remove_curr_if(t_cor *cor, int num)
 			else
 				tmp->next = NULL;
 			free(carr);
-			//cor->n_curr--;
 			return ;
 
 		}

@@ -28,8 +28,8 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 	tmp->i = 2;
 	l = 0;
 	b2 = base16_2_cor(cor, tmp);
-	//f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;
-	f_err = 0;
+	f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;
+	//f_err = 0;
 	// 1 - ый аргумент
 	if (b2[0] == 0 && b2[1] == 1)
 	{
@@ -51,7 +51,7 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 		t_reg_2 = read_byte_1(cor->code, tmp->cur + tmp->i++);
 		if (!(VAL_REG(t_reg_2)))
 			f_err = 1;
-		l = l + (unsigned int)tmp->reg[t_reg_2 - 1];
+		l = l + (int)tmp->reg[t_reg_2 - 1];
 	}
 	else if (b2[4] == 1 && b2[5] == 0)
 	{
@@ -67,10 +67,7 @@ void    ft_sti(t_cor *cor, t_carr *tmp)
 	if (!f_err)
 	{
 		p = inttobyte(tmp->reg[t_reg - 1]);
-
-		l = tmp->cur + l % IDX_MOD;
-		while (l < 0)
-			l+= MEM_SIZE;
+		l = mem_size(tmp->cur + l % IDX_MOD);
 		copy_p(cor->code, p, l, 0);
 		free(p);
 	}

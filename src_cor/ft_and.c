@@ -72,7 +72,7 @@ int arg_2(char *b2, t_carr *tmp, t_cor *cor,  int *f_err)
 	}
 	else
 		*f_err = 1;
-	return (a1);
+	return ((int)a1);
 }
 
 

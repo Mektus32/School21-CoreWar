@@ -51,16 +51,7 @@ void	check_live(t_cor *cor)
 	static int pre_cycles_to_die = CYCLE_TO_DIE;
 	static int counter = 0;
 	carr = cor->carr;
-	if (cor->live->cycles_to_die <= 0)
-	{
-		carr = cor->carr;
-		while (carr)
-		{
-			remove_curr_if(cor, carr->num);
-			carr = carr->next;
-		}
 
-	}
 	//ft_printf("check cycle = %d, n_cur = %d\n", cor->live->cycles,cor->n_curr);
 	//ft_printf("to die = %d\n",cor->live->cycles_to_die);
 	while(carr)
@@ -93,7 +84,16 @@ void	check_live(t_cor *cor)
 		//pre_cycles_to_die = cor->live->cycles_to_die;
 	}
 
+	if (cor->live->cycles_to_die <= 0)
+	{
+		carr = cor->carr;
+		while (carr)
+		{
+			remove_curr_if(cor, carr->num);
+			carr = carr->next;
+		}
 
+	}
 
 	//ft_printf("n_cur_after = %d\n", cor->n_curr);
 }
@@ -112,7 +112,7 @@ void go_cor(t_cor *cor)
 			exit_print("");
 		}
 		cor->live->cycles++;
-		if (cor->live->cycles == 6980)
+		if (cor->live->cycles == 10238)
 		{
 			i++;
 		}

@@ -18,22 +18,28 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/arina.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/arina.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/arina.dir/src_cor/carr_list.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/arina.dir/src_cor/carr_list.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/arina.dir/src_cor/ft_fork_lfork.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/arina.dir/src_cor/ft_fork_lfork.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/arina.dir/src_cor/ft_sti.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/arina.dir/src_cor/ft_sti.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/arina.dir/src_cor/go_cor.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/arina.dir/src_cor/go_cor.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/arina.dir/src_cor/read_byte.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/arina.dir/src_cor/read_byte.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/arina" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/arina" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cor_1" beforeDir="false" afterPath="$PROJECT_DIR$/cor_1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/md_my" beforeDir="false" afterPath="$PROJECT_DIR$/md_my" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/md_test" beforeDir="false" afterPath="$PROJECT_DIR$/md_test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my" beforeDir="false" afterPath="$PROJECT_DIR$/my" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/ft_sti.o" beforeDir="false" afterPath="$PROJECT_DIR$/obj/ft_sti.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/go_cor.o" beforeDir="false" afterPath="$PROJECT_DIR$/obj/go_cor.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/read_byte.o" beforeDir="false" afterPath="$PROJECT_DIR$/obj/read_byte.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sh_new.sh" beforeDir="false" afterPath="$PROJECT_DIR$/sh_new.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src_cor/carr_list.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/carr_list.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src_cor/ft_and.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/ft_and.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src_cor/ft_fork_lfork.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/ft_fork_lfork.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src_cor/ft_sub.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/ft_sub.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src_cor/ft_ld.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/ft_ld.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src_cor/ft_sti.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/ft_sti.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src_cor/go_cor.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/go_cor.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test" beforeDir="false" afterPath="$PROJECT_DIR$/test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttt" beforeDir="false" afterPath="$PROJECT_DIR$/ttt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttt_my" beforeDir="false" afterPath="$PROJECT_DIR$/ttt_my" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vm_champs/champs/jumper.cor" beforeDir="false" afterPath="$PROJECT_DIR$/vm_champs/champs/jumper.cor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm_champs/champs/mat.s" beforeDir="false" afterPath="$PROJECT_DIR$/vm_champs/champs/mat.s" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vm_champs/champs/mix.cor" beforeDir="false" afterPath="$PROJECT_DIR$/vm_champs/champs/mix.cor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vm_champs/champs/mix.s" beforeDir="false" afterPath="$PROJECT_DIR$/vm_champs/champs/mix.s" afterDir="false" />
     </list>
@@ -52,11 +58,29 @@
     <splitter split-orientation="horizontal" split-proportion="0.49058756">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src_cor/ft_liba.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="549">
+                <state relative-caret-position="559">
                   <caret line="81" selection-start-line="81" selection-end-line="81" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/libft/ft_memalloc.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="360">
+                  <caret line="24" selection-start-line="24" selection-end-line="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/libft/ft_memset.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="315">
+                  <caret line="21" selection-start-line="21" selection-end-line="21" />
                 </state>
               </provider>
             </entry>
@@ -64,26 +88,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src_cor/ft_ld.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2084">
-                  <caret line="152" selection-start-line="152" selection-end-line="152" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src_cor/champ.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/includes/op.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+                <state relative-caret-position="375">
+                  <caret line="25" selection-start-line="25" selection-end-line="25" />
                 </state>
               </provider>
             </entry>
@@ -91,7 +97,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src_cor/ft_live.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="575">
+                <state relative-caret-position="653">
                   <caret line="53" selection-start-line="53" selection-end-line="53" />
                 </state>
               </provider>
@@ -101,16 +107,16 @@
             <entry file="file://$PROJECT_DIR$/vm_champs/champs/mix.s">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="1680">
-                  <caret line="118" selection-start-line="118" selection-end-line="118" />
+                  <caret line="117" selection-start-line="117" selection-end-line="117" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src_cor/carr_list.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="397">
-                  <caret line="102" selection-start-line="102" selection-end-line="102" />
+                <state relative-caret-position="289">
+                  <caret line="99" selection-start-line="99" selection-end-line="99" />
                 </state>
               </provider>
             </entry>
@@ -146,11 +152,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src_cor/go_cor.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-529">
-                  <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+                <state relative-caret-position="551">
+                  <caret line="159" selection-start-line="159" selection-end-line="159" />
                 </state>
               </provider>
             </entry>
@@ -158,17 +164,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src_cor/ft_sti.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="5">
-                  <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+                <state relative-caret-position="439">
+                  <caret line="46" column="11" lean-forward="true" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src_cor/ft_and.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="222">
-                  <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+                <state relative-caret-position="512">
+                  <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -188,8 +194,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src_cor/arena.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
-                  <caret line="26" selection-start-line="26" selection-end-line="26" />
+                <state relative-caret-position="30">
+                  <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
                 </state>
               </provider>
             </entry>
@@ -197,8 +203,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src_cor/read_byte.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="400">
-                  <caret line="82" selection-start-line="82" selection-start-column="2" selection-end-line="83" selection-end-column="76" />
+                <state relative-caret-position="364">
+                  <caret line="105" selection-start-line="105" selection-end-line="105" />
                 </state>
               </provider>
             </entry>
@@ -224,8 +230,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src_cor/ft_st.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="881">
-                  <caret line="121" selection-start-line="121" selection-end-line="121" />
+                <state relative-caret-position="402">
+                  <caret line="43" selection-start-line="43" selection-end-line="43" />
                 </state>
               </provider>
             </entry>
@@ -234,7 +240,7 @@
             <entry file="file://$PROJECT_DIR$/src_cor/ft_fork_lfork.c">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="462">
-                  <caret line="92" column="29" lean-forward="true" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
+                  <caret line="92" column="29" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -245,7 +251,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ште</find>
       <find>id_par</find>
       <find>copy_p</find>
       <find>arg_1</find>
@@ -269,12 +274,13 @@
       <find>read_byte_2</find>
       <find>8917</find>
       <find>no NULL in name</find>
-      <find>tmp-&gt;carry</find>
       <find>2895</find>
       <find>remove_curr_if</find>
       <find>1070</find>
       <find>4605</find>
       <find>n_curr</find>
+      <find>tmp-&gt;carry</find>
+      <find>tmp-&gt;reg</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src_cor</dir>
@@ -303,26 +309,26 @@
         <option value="$PROJECT_DIR$/src_cor/arena.c" />
         <option value="$PROJECT_DIR$/src_cor/ft_aff.c" />
         <option value="$PROJECT_DIR$/src_cor/ft_live.c" />
-        <option value="$PROJECT_DIR$/src_cor/ft_sti.c" />
         <option value="$PROJECT_DIR$/includes/corewar.h" />
         <option value="$PROJECT_DIR$/src_cor/ft_liba.c" />
         <option value="$PROJECT_DIR$/src_cor/ft_st.c" />
         <option value="$PROJECT_DIR$/src_cor/champ.c" />
-        <option value="$PROJECT_DIR$/src_cor/ft_and.c" />
         <option value="$PROJECT_DIR$/src_cor/ft_add.c" />
-        <option value="$PROJECT_DIR$/src_cor/ft_ld.c" />
-        <option value="$PROJECT_DIR$/src_cor/carr_list.c" />
         <option value="$PROJECT_DIR$/src_cor/ft_sub.c" />
-        <option value="$PROJECT_DIR$/src_cor/ft_fork_lfork.c" />
         <option value="$PROJECT_DIR$/src_cor/read_byte.c" />
+        <option value="$PROJECT_DIR$/src_cor/carr_list.c" />
+        <option value="$PROJECT_DIR$/src_cor/ft_fork_lfork.c" />
+        <option value="$PROJECT_DIR$/src_cor/ft_ld.c" />
         <option value="$PROJECT_DIR$/src_cor/go_cor.c" />
+        <option value="$PROJECT_DIR$/src_cor/ft_sti.c" />
+        <option value="$PROJECT_DIR$/src_cor/ft_and.c" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="504" />
-    <option name="y" value="48" />
+    <option name="x" value="361" />
+    <option name="y" value="23" />
     <option name="width" value="1676" />
     <option name="height" value="1335" />
   </component>
@@ -411,7 +417,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="arina" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../vm_champs/champs/mix.cor " PASS_PARENT_ENVS_2="true" PROJECT_NAME="arina" TARGET_NAME="arina" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="arina" RUN_TARGET_NAME="arina">
+    <configuration name="arina" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../vm_champs/champs/Gagnant.cor ../vm_champs/champs/Gagnant.cor ../vm_champs/champs/Gagnant.cor " PASS_PARENT_ENVS_2="true" PROJECT_NAME="arina" TARGET_NAME="arina" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="arina" RUN_TARGET_NAME="arina">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -479,7 +485,7 @@
       <workItem from="1572288129221" duration="3046000" />
       <workItem from="1572447903031" duration="15535000" />
       <workItem from="1572618104487" duration="11821000" />
-      <workItem from="1572697346352" duration="14777000" />
+      <workItem from="1572697346352" duration="19167000" />
     </task>
     <task id="LOCAL-00001" summary="h">
       <created>1568228679904</created>
@@ -492,7 +498,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="469178000" />
+    <option name="totallyTimeSpent" value="473568000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -504,25 +510,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="504" y="48" width="1676" height="1335" extended-state="0" />
+    <frame x="361" y="23" width="1676" height="1335" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17380661" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17380661" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3147541" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48102814" visible="true" weight="0.40409836" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4749082" visible="true" weight="0.40409836" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32924527" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49694002" weight="0.14262295" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.51897186" side_tool="true" visible="true" weight="0.40409836" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49632803" weight="0.14262295" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5250918" side_tool="true" visible="true" weight="0.40409836" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3295082" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.32868853" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.48164016" weight="0.32786885" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4755202" weight="0.32786885" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -573,16 +579,14 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src_cor/go_cor.c</url>
-          <line>49</line>
-          <option name="timeStamp" value="652" />
+          <line>116</line>
+          <option name="timeStamp" value="656" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
-        <watch expression="cor-&gt;live-&gt;id_live" />
         <watch expression="cor-&gt;live-&gt;cycles" />
-        <watch expression="cor-&gt;n_curr" />
         <watch expression="tmp-&gt;prog" />
         <watch expression="tmp-&gt;cur" />
         <watch expression="carr-&gt;cycles_live" />
@@ -592,9 +596,6 @@
         <watch expression="carr-&gt;cycles_live" />
         <watch expression="cor-&gt;live-&gt;live_count" />
         <watch expression="cor-&gt;live-&gt;cycles_temp" />
-        <watch expression="tmp-&gt;prog" />
-        <watch expression="tmp-&gt;prog" />
-        <watch expression="tmp-&gt;prog" />
         <watch expression="tmp-&gt;prog" />
       </configuration>
     </watches-manager>
@@ -691,13 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libft/ft_memset.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libft/ft_isdigit.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -761,13 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libft/ft_memalloc.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src_cor/ft_aff.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -792,7 +779,7 @@
     <entry file="file://$PROJECT_DIR$/vm_champs/champs/mix.s">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1680">
-          <caret line="118" selection-start-line="118" selection-end-line="118" />
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
         </state>
       </provider>
     </entry>
@@ -803,59 +790,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/ft_or_xor.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="37" column="20" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src_cor/ft_add.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
           <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/ft_liba.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/ft_and.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/ft_st.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="881">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/ft_live.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/ft_sti.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/ft_ld.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2084">
-          <caret line="152" selection-start-line="152" selection-end-line="152" />
         </state>
       </provider>
     </entry>
@@ -866,13 +804,6 @@
           <folding>
             <element signature="e#930#946#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/arena.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
@@ -890,31 +821,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/carr_list.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src_cor/ft_fork_lfork.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
-          <caret line="92" column="29" lean-forward="true" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
+          <caret line="92" column="29" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/read_byte.c">
+    <entry file="file://$PROJECT_DIR$/src_cor/ft_or_xor.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="82" selection-start-line="82" selection-start-column="2" selection-end-line="83" selection-end-column="76" />
+        <state relative-caret-position="542">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_cor/arena.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_cor/carr_list.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libft/ft_memset.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libft/ft_memalloc.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_cor/ft_ld.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_cor/ft_st.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src_cor/go_cor.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-529">
-          <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+        <state relative-caret-position="551">
+          <caret line="159" selection-start-line="159" selection-end-line="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_cor/read_byte.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_cor/ft_live.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_cor/ft_liba.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_cor/ft_sti.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="46" column="11" lean-forward="true" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_cor/ft_and.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
         </state>
       </provider>
     </entry>

@@ -91,7 +91,7 @@ void	ft_lld(t_cor *cor, t_carr *tmp)
 	i = 2;
 	b2 = base16_2_cor(cor, tmp);
 	if ((b2[0] == 1 && b2[1] == 0) || (b2[0] == 1 && b2[1] == 1))
-		i += 4 * (int)b2[0] - 2 * (int)b2[1];
+		i += 4 * (int)b2[0] - 2 * (int)b2[1];//i+=2;//
 	else if (b2[0] == 0 && b2[1] == 1)
 		i += 1;
 	if (b2[2] == 0 && b2[3] == 1)
