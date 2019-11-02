@@ -114,7 +114,7 @@ t_carr *carr_list(t_cor *cor)
 		carr_tmp->i = 0;
 		carr_tmp->num = (i - 1);
 		add_curr(&carr, carr_tmp);
-		cor->n_curr++;
+		++cor->n_curr;
 		i++;
 	}
 	return (carr);

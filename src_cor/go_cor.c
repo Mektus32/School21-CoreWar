@@ -61,8 +61,8 @@ void	check_live(t_cor *cor)
 		}
 
 	}
-//	ft_printf("check cycle = %d, n_cur = %d\n", cor->live->cycles,cor->n_curr);
-//	ft_printf("to die = %d\n",cor->live->cycles_to_die);
+	//ft_printf("check cycle = %d, n_cur = %d\n", cor->live->cycles,cor->n_curr);
+	//ft_printf("to die = %d\n",cor->live->cycles_to_die);
 	while(carr)
 	{
 		//ft_printf("%d\n", cor->live->cycles - carr->cycles_live);
