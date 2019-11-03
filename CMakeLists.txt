@@ -148,7 +148,5 @@ add_executable(arina
         src_cor/main.c
         src_cor/arena.c
         src_cor/champ.c
-
-        vm_champs/op.c
-        vm_champs/op.h
+        src_cor/parse_av.c
         )

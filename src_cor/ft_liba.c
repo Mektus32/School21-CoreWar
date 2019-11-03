@@ -22,24 +22,18 @@ void	exit_print(char *str)
 void	free_cor(t_cor *cor)
 {
 	int	i;
-
+	t_carr *carr;
 	i = 0;
 	free(cor->code);
 	free(cor->colormap);
 	free(cor->live);
-	while (cor->carr)
-		remove_curr_if(cor, cor->carr->num);
+	carr = cor->carr;
+	while (carr)
+		carr = remove_head(cor, carr);
 	while (i < cor->n)
 	{
-		free(cor->m_2[i]->code);
-		free(cor->m_2[i]);
-		//free(cor->m_ch[i]);
-		//free(cor->m_2[i]);
-//		if (cor->m_2[i]->code)
-//		{
-//			free(cor->m_2[i]->code);
-//			free(cor->m_2[i]);
-//		}
+		free(cor->m_ch[i]->code);
+		free(cor->m_ch[i]);
 		i++;
 	}
 	free(cor);

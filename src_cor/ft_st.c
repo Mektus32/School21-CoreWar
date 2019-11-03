@@ -32,7 +32,7 @@ void copy_p(void *dst, const void *src, int d_s, int s_s)
 	while (d_s < 0)
 		d_s = MEM_SIZE + d_s;
 	str1 = (unsigned char *)dst;
-	str2 = (char *)src;
+	str2 = (unsigned char *)src;
 	i = 0;
 	while (i < 4)
 	{

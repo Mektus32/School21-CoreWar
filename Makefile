@@ -32,7 +32,8 @@ SRC =	main.c \
 		ft_liba.c \
 		read_byte.c \
 		arena.c \
-		champ.c
+		champ.c \
+		parse_av.c
 
 
 

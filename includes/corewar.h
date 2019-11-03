@@ -19,35 +19,10 @@
 # include "libft.h"
 # include "ft_printf.h"
 
-//#define IFR16(x)	(unsigned int)(x[0] << 24 | x[1] << 16 | x[2] << 8 | x[3])
-//#define IFR8(x)		(short)(x[0] << 8 | x[1])
 
-#define IFR16(bytes)	(unsigned int)(((bytes[3] & 0xFF) << 24) + ((bytes[2] & 0xFF) << 16) + ((bytes[1] & 0xFF) << 8) + (bytes[0] & 0xFF))
-//#define IFR8(bytes)		(short)(((bytes[1] & 0xFF) << 8) + (bytes[0] & 0xFF))
-
-#define IFR16(bytes)	(unsigned int)(((bytes[0]) << 24) + ((bytes[1]) << 16) + ((bytes[2]) << 8) + (bytes[3]))
-#define IFR8(bytes)		(short)(((bytes[0]) << 8) + (bytes[1]))
 #define VAL_REG(reg) (reg > 0 && reg <= REG_NUMBER) ? 1 : 0
-/*
- * при копировании мне нужно
- * 1. что
- * 2. с какой позиции
- * 3. куда | и я хз как наверняка это сделать
- * 4. с какой позиции
- * 5. сколько символов
- * */
-typedef struct		s_copy
-{
-	const void *src;
-	int 		i_s;
-	int 		i_d;
-	size_t		n;
 
-}					t_copy;
 
-/*
- * чемпион
- * */
 
 typedef struct		s_champ
 {
@@ -84,7 +59,6 @@ typedef struct 			s_carr
 	int					carry;
 	int					id_par;
 	unsigned int		reg[REG_NUMBER];
-	int					live;
 	unsigned char				prog;
 	int					cycles_to;
 	int					i;
@@ -142,14 +116,9 @@ typedef struct			s_cor
 	struct s_live		*live;
 }						t_cor;
 
-void *read_byte(const char *src, int i, int c);
 
 void		exit_print(char *str);
 void		print_dump_code(t_cor *cor);
-
-void		*ft_memcpy_all(void *dst, const void *src, size_t n, int start, int start_d);
-
-//void	*ft_memcpy_all(void *dst, const void *src, size_t n);
 char	*ft_strncpy_all(char *dest, const char *source, size_t n);
 
 t_champ *write_name(int fd);
@@ -158,8 +127,6 @@ void make_champ_n(int ac, char **av, int n, t_cor *cor);
 t_cor *parse_av(int ac, char **av);
 void	arena(t_cor *cor);
 char *base16_2_cor(t_cor *cor, t_carr *tmp);
-
-char *base16_2(unsigned c);
 
 
 t_carr *new_curr(int id_par);
@@ -170,26 +137,8 @@ t_carr *carr_list(t_cor *cor);
 int	ft_cycles_to(char p);
 
 void go_cor(t_cor *cor);
-//там может нужен unsigned
 unsigned char *inttobyte(int a);
 
-/*
-* когда заходим в функцию - знаем что она валидна
- * поэтому codage забираем из +1
- * i на старте, где он есть стартуем с позиции 2
- * далее по очереди проверяем аргументы
- * если функция не выполнится, она все = перейдет на то кол-во байтов,
- * котороу указано в codage
- */
-
-/*
- * 	запоминаем номер цикла в котором проводилась опирация live
- * Если указанный в качестве аргумента операции live
-*	номер совпадает с номером игрока, то она засчитывает,
-*	что это игрок жив. Например, если значение аргумента равно -2,
- *	значит игрок с номером 2 жив.
- *
- */
 
 
 
@@ -222,7 +171,6 @@ void    ft_aff(t_cor *cor, t_carr *tmp);
 
 unsigned char read_byte_1(const char *src, int i);
 short read_byte_2(const char *src, int i);
-short read_byte_2_min(const char *src, int i);
 
 int len_curr(t_carr *list);
 
@@ -236,4 +184,5 @@ int arg_4(char *b2, t_carr *tmp, t_cor *cor, int *f_err);
 int arg_2(char *b2, t_carr *tmp, t_cor *cor,  int *f_err);
 void do_op(t_cor *cor, t_carr	*tmp);
 void free_cor(t_cor *cor);
+t_carr	*remove_head(t_cor *cor, t_carr *curr);
 #endif

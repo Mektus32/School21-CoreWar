@@ -33,12 +33,5 @@ void	arena(t_cor *cor)
 				  (cor->m_ch[i])->comment);
 		i++;
 	}
-//	ft_printf("=============\n");
-//	print_dump_code(cor);
-//	ft_printf("=============\n");
-	go_cor(cor);
-	//ft_printf("end = %d\n", cor->live->cycles);
-	ft_printf("Contestant %d, \"%s\", has won !\n", cor->live->id_live, (cor->m_ch[cor->live->id_live - 1])->prog_name);
-	free_cor(cor);
 
 }

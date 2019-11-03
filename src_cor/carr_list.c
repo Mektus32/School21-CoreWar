@@ -19,7 +19,6 @@ t_carr *new_curr(int id_par)
 	new->reg[i] = -id_par;
 	while (++i <= REG_NUMBER)
 		new->reg[i] = 0;
-	new->live = 1;
 	new->next = NULL;
 	return (new);
 }
