@@ -14,6 +14,7 @@
 
 void	exit_print(char *str)
 {
+	//ft_putstr_fd(str, 2);
 	ft_printf("%s\n", str);
 	exit(0);
 }
@@ -53,6 +54,7 @@ char	*ft_strncpy_all(char *dest, const char *source, size_t n)
 	{
 		dest[i] = source[i];
 		i++;
+
 	}
 	while (i < n)
 	{

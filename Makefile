@@ -34,7 +34,7 @@ SRC =	main.c \
 		arena.c \
 		champ.c
 
-		
+
 
 
 OBJ = $(addprefix $(OBJDIR), $(SRC:.c=.o))
