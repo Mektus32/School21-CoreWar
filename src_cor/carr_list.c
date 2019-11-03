@@ -44,84 +44,23 @@ int len_curr(t_carr *list)
 	return (i);
 }
 
-
-void remove_curr(t_cor *cor, t_carr *carr)
+t_carr	*remove_head(t_cor *cor, t_carr *curr)
 {
-
-	t_carr	*tmp;
-	t_carr	*del;
-
-	del = carr;
-	tmp = carr->next;
-	if (tmp)
-		carr->next = tmp;
-	else
-		carr->next = NULL;
-	free(del);
-	return ;
+	cor->carr = curr->next;
+	free(curr);
+	curr = cor->carr;
+	return (curr);
 }
 
 
-void remove_curr_if(t_cor *cor, int num)
+t_carr	*remove_elem(t_carr *curr, t_carr **prev)
 {
-	t_carr *carr;
-	t_carr	*tmp;
-
-	carr = cor->carr;
-	if (carr->num == num)
-	{
-		if (carr->next)
-			cor->carr = carr->next;
-		else
-		{
-			cor->carr = NULL;
-		}
-		free(carr);
-		return ;
-	}
-	tmp = carr;
-	while (carr)
-	{
-		if (carr->num == num)
-		{
-			if (carr->next)
-				tmp->next = carr->next;
-			else
-				tmp->next = NULL;
-			free(carr);
-			return ;
-
-		}
-		tmp = carr;
-		carr = carr->next;
-	}
+	curr = curr->next;
+	free((*prev)->next);
+	(*prev)->next = curr;
+	return (curr);
 }
 
-int	ft_cycles_to(char p)
-{
-	int cycles;
-
-	cycles = 1;
-	if (p == 1 || p == 4 || p == 5 || p == 13)
-		cycles = 10;
-	else if (p == 2 || p == 3)
-		cycles = 5;
-	else if (p == 6 || p == 7 || p == 8)
-		cycles = 6;
-	else if (p == 9)
-		cycles = 20;
-	else if (p == 10 || p == 11)
-		cycles = 25;
-	else if (p == 12)
-		cycles = 800;
-	else if (p == 14)
-		cycles = 50;
-	else if (p == 15)
-		cycles = 1000;
-	else if (p == 16)
-		cycles = 2;
-	return (cycles);
-}
 
 t_carr *carr_list(t_cor *cor)
 {

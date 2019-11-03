@@ -1,13 +1,76 @@
 
 #include "corewar.h"
 
-/*
-** я не знаю чит ли это
-** //		if (((int)t_reg > 0 && (int)(t_reg) <= REG_NUMBER) &&
-** //			((int)t_reg_2 > 0 && (int)(t_reg_2) <= REG_NUMBER) &&
-** //				((int)t_reg_3 > 0 && (int)(t_reg_3) <= REG_NUMBER))
-** запихнуть в дифайн
-*/
+int arg_4(char *b2, t_carr *tmp, t_cor *cor,  int *f_err)
+{
+	int				a1;
+	unsigned char	t_reg_3;
+	short			t_ind;
+	unsigned int	t_dir;
+
+	if (b2[0] == 0 && b2[1] == 1)
+	{
+		t_reg_3 = read_byte_1(cor->code, tmp->cur + tmp->i++);
+		a1 = tmp->reg[t_reg_3 - 1];
+		if (!(VAL_REG(t_reg_3)))
+			*f_err = 1;
+	}
+	else if ((b2[0] == 1 && b2[1] == 1) || (b2[0] == 1 && b2[1] == 0))
+	{
+		if (b2[1] == 1)
+		{
+			t_ind = read_byte_2(cor->code, tmp->cur + tmp->i);
+			t_ind = idx_mod(t_ind);
+			t_dir = read_byte_4(cor->code, tmp->cur  + t_ind);//++ tmp->i???
+			tmp->i += 2;
+		}
+		else
+		{
+			t_dir = read_byte_4(cor->code, tmp->cur + tmp->i);
+			tmp->i += 4;
+		}
+		a1 = t_dir;
+	}
+	else
+		*f_err = 1;
+	return (a1);
+}
+
+int arg_2(char *b2, t_carr *tmp, t_cor *cor,  int *f_err)
+{
+	int	a1;
+	unsigned char	t_reg_3;
+	short			t_ind;
+	unsigned int	t_dir;
+
+	a1 = 0;
+	if (b2[0] == 0 && b2[1] == 1)
+	{
+		t_reg_3 = read_byte_1(cor->code, tmp->cur + tmp->i++);
+		a1 = tmp->reg[t_reg_3 - 1];
+		if (!(VAL_REG(t_reg_3)))
+			*f_err = 1;
+	}
+	else if ((b2[0] == 1 && b2[1] == 1) || (b2[0] == 1 && b2[1] == 0))
+	{
+		if (b2[1] == 1)
+		{
+			t_ind = read_byte_2(cor->code, tmp->cur + tmp->i);
+			t_ind = idx_mod(t_ind);
+			t_dir = read_byte_2(cor->code, tmp->cur /*+ tmp->i*/ + t_ind);
+			a1 = t_dir;
+		}
+		else
+		{
+			t_ind = read_byte_2(cor->code, tmp->cur + tmp->i);
+			a1 = idx_mod(t_ind);
+		}
+		tmp->i += 2;
+	}
+	else
+		*f_err = 1;
+	return ((int)a1);
+}
 
 void				ft_add(t_cor *cor, t_carr *tmp)
 {

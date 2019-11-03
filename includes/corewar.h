@@ -21,7 +21,7 @@
 
 
 #define VAL_REG(reg) (reg > 0 && reg <= REG_NUMBER) ? 1 : 0
-
+#define  TO_INT(c) ((c[0] << 24) | (c[1] << 16) | (c[2] << 8) | c[3])
 
 
 typedef struct		s_champ
@@ -68,23 +68,22 @@ typedef struct 			s_carr
 ** все о текузем положении и live:
 ** id_live - игрок, о котором в последний раз сказали, что он жив (ПОБЕДИТЕЛЬ)
 ** ИНФОРМАЦИЮ О НЁМ МЫ ПОЛУЧАЕМ ТОЛЬКО В оп_LIVE ????
-** cycles - количество прошедших с начала игры циклов
+** cyc - количество прошедших с начала игры циклов
 ** live_count - количество выполненных операций live за последний период, длинной в cycles_to_die
 ** обнуляется каждую проверку?
 ** cycles_to_die - длительность периода до проверки
 ** изменяется в 2ух случаях
 ** check_count - количество проведенных проверок
- * - обнуляется, если меняется cycles to die
+ * - обнуляется, если меняется cyc to die
  * cycle_new - кол -во циклов после обнуления
 ** */
 
 typedef  struct			s_live
 {
 	int					id_live;
-	int					cycles;
+	int					cyc;
 	int					live_count;
 	int					cycles_to_die;
-	int					check_count;
 	int					cycles_temp;
 }						t_live;
 
@@ -92,7 +91,7 @@ typedef  struct			s_live
 ** Общая структура для игры
 ** n - общее кол - во игроков
 ** n_curr - число кареток в настоящий момент
- * nbr_cycles - если есть dump
+ * nbr_cyc - если есть dump
 ** f - набор флажков для заполнения с флагом -n
 ** m_ch - основной хранитель чемпионов
 ** (хранит ссылки на m_2)
@@ -100,13 +99,14 @@ typedef  struct			s_live
 ** code - все игровое поле
 ** carr - список всех кареток
 ** live
+** нет общего числа кареток больше
 ** */
 
 typedef struct			s_cor
 {
 	int					n;
 	int					n_curr;
-	int 				nbr_cycles;
+	int 				nbr_cyc;
 	int 				f[MAX_PLAYERS];
 	t_champ				*m_ch[MAX_PLAYERS];
 	t_champ				*m_2[MAX_PLAYERS];
@@ -116,39 +116,76 @@ typedef struct			s_cor
 	struct s_live		*live;
 }						t_cor;
 
+/*
+ ****** parse_av ******
+ * */
+t_cor *parse_av(int ac, char **av);
 
-void		exit_print(char *str);
-void		print_dump_code(t_cor *cor);
-char	*ft_strncpy_all(char *dest, const char *source, size_t n);
-
+/*
+ * ***** champ ******
+ * */
 t_champ *write_name(int fd);
 t_champ *valid_champ(int i, char **av);
 void make_champ_n(int ac, char **av, int n, t_cor *cor);
-t_cor *parse_av(int ac, char **av);
-void	arena(t_cor *cor);
-char *base16_2_cor(t_cor *cor, t_carr *tmp);
-
-
-t_carr *new_curr(int id_par);
-void add_curr(t_carr **all_carr, t_carr *new);
-void remove_curr_if(t_cor *cor, int num);
-void remove_curr(t_cor *cor, t_carr *carr);
-t_carr *carr_list(t_cor *cor);
-int	ft_cycles_to(char p);
-
-void go_cor(t_cor *cor);
-unsigned char *inttobyte(int a);
-
-
-
 
 /*
- * Эта операция записывает значение из регистра, который был передан
- * как первый параметр. А вот куда данная операция его записывает,
- * зависит от типа второго аргумента:
- *
- * // нужно ли удалять из рег первого значение?
- */
+ * ****** arena ******
+ * */
+void	arena(t_cor *cor);
+
+/*
+ * ***** go_cor ******
+ * */
+
+void go_cor(t_cor *cor);
+
+/*
+ * ***** carr_list ******
+ * */
+t_carr *new_curr(int id_par);
+void add_curr(t_carr **all_carr, t_carr *new);
+int len_curr(t_carr *list);
+t_carr	*remove_head(t_cor *cor, t_carr *curr);
+t_carr	*remove_elem(t_carr *curr, t_carr **prev);
+t_carr *carr_list(t_cor *cor);
+
+/*
+ * ***** do_op ******
+ * */
+
+int	ft_cycles_to(char p);
+void do_op(t_cor *cor, t_carr	*tmp);
+
+/*
+ * ***** print_code ******
+ * */
+void	print_dump_code(t_cor *cor);
+void	exit_print(char *str);
+
+/*
+ * ***** read_byte ******
+ * */
+unsigned char read_byte_1(const char *src, int i);
+short read_byte_2(const char *src, int i);
+unsigned int read_byte_4(const char *src, int i);
+unsigned char *inttobyte(int a);
+char *base16_2_cor(t_cor *cor, t_carr *tmp);
+
+/*
+ * ***** ft_liba ******
+ * */
+void free_cor(t_cor *cor);
+char	*ft_strncpy_all(char *dest, const char *source, size_t n);
+int mem_size(int cur);
+short	idx_mod(short t_ind);
+
+/*
+ * ***** ft_add ******
+ * */
+void    ft_add(t_cor *cor, t_carr *tmp);
+void    ft_zjmp(t_cor *cor, t_carr *tmp);
+int arg_4(char *b2, t_carr *tmp, t_cor *cor, int *f_err);
+int arg_2(char *b2, t_carr *tmp, t_cor *cor,  int *f_err);
 
 /*
  * все операции, что с флагом l - реализованы с переменной l
@@ -158,31 +195,19 @@ void    ft_live(t_cor *cor, t_carr *tmp);
 void    ft_ld(t_cor *cor, t_carr *tmp, int l);
 void	ft_lld(t_cor *cor, t_carr *tmp);
 void    ft_st(t_cor *cor, t_carr *tmp);
-void    ft_add(t_cor *cor, t_carr *tmp);
+void copy_p(void *dst, const void *src, int d_s, int s_s);
+
 void    ft_sub(t_cor *cor, t_carr *tmp);
 void    ft_and(t_cor *cor, t_carr *tmp);
 void    ft_or(t_cor *cor, t_carr *tmp);
 void    ft_xor(t_cor *cor, t_carr *tmp);
-void    ft_zjmp(t_cor *cor, t_carr *tmp);
+
 void    ft_ldi(t_cor *cor, t_carr *tmp, int l);
 void    ft_sti(t_cor *cor, t_carr *tmp);
 t_carr *   ft_fork(t_cor *cor, t_carr *tmp, int l);
 void    ft_aff(t_cor *cor, t_carr *tmp);
 
-unsigned char read_byte_1(const char *src, int i);
-short read_byte_2(const char *src, int i);
 
 int len_curr(t_carr *list);
 
-unsigned int read_byte_4(const char *src, int i);
-
-int mem_size(int cur);
-short	idx_mod(short t_ind);
-
-void copy_p(void *dst, const void *src, int d_s, int s_s);
-int arg_4(char *b2, t_carr *tmp, t_cor *cor, int *f_err);
-int arg_2(char *b2, t_carr *tmp, t_cor *cor,  int *f_err);
-void do_op(t_cor *cor, t_carr	*tmp);
-void free_cor(t_cor *cor);
-t_carr	*remove_head(t_cor *cor, t_carr *curr);
 #endif

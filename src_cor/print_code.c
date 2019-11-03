@@ -12,6 +12,13 @@
 
 #include "corewar.h"
 
+void	exit_print(char *str)
+{
+	//ft_putstr_fd(str, 2);
+	ft_printf("%s\n", str);
+	exit(0);
+}
+
 void print_dump_code(t_cor *cor)
 {
 	int i;

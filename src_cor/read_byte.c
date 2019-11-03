@@ -28,18 +28,6 @@ unsigned char	read_byte_1(const char *src, int i)
 	c_1 = 0;
 	c_1 = src[i % MEM_SIZE];
 	return ((unsigned char)c_1);
-
-//unsigned char	read_byte_1(const char *src, int i)
-//{
-//	unsigned char	c_1;
-//
-//	while (i < 0)
-//		i += MEM_SIZE;
-//	c_1 = 0;
-//	c_1 = (c_1 << 8);
-//	c_1 = c_1 | (unsigned char)src[i % MEM_SIZE];
-//	//c_1 = (unsigned char)src[i % MEM_SIZE];
-//	return ((unsigned char)c_1);
 }
 
 short			read_byte_2(const char *src, int i)
@@ -53,10 +41,6 @@ short			read_byte_2(const char *src, int i)
 	c_2 = c_2 | (unsigned char)src[(i) % MEM_SIZE];
 	c_2 = (c_2 << 8);
 	c_2 = c_2 | (unsigned char)src[(i + 1) % MEM_SIZE];
-	return ((short)c_2);
-//	c_2 = src[i % MEM_SIZE];
-//	c_2 = c_2 << 8;
-//	c_2 = c_2 | (unsigned char)src[(i + 1) % MEM_SIZE];
 	return ((short)c_2);
 }
 
@@ -78,43 +62,39 @@ unsigned int	read_byte_4(const char *src, int i)
 	return ((unsigned int)c_4);
 }
 
-void do_op(t_cor *cor, t_carr	*tmp)
+char		*base16_2_cor(t_cor *cor, t_carr *tmp)
 {
-//	if (tmp->prog > 0 && tmp->prog  <=16)
-//		ft_printf("cyc = %d, prog = %d\n",cor->live->cycles, tmp->prog - 1);
-	if	(tmp->prog == 1)
-		ft_live(cor, tmp);
-	else if (tmp->prog == 2)
-		ft_ld(cor, tmp, 0);
-	else if (tmp->prog == 3)
-		ft_st(cor, tmp);
-	else if (tmp->prog == 4)
-		ft_add(cor, tmp);
-	else if (tmp->prog == 5)
-		ft_sub(cor, tmp);
-	else if (tmp->prog == 6)
-		ft_and(cor, tmp);
-	else if (tmp->prog == 7)
-		ft_or(cor, tmp);
-	else if (tmp->prog == 8)
-		ft_xor(cor, tmp);
-	else if (tmp->prog == 9)
-		ft_zjmp(cor, tmp);
-	else if (tmp->prog == 10)
-		ft_ldi(cor, tmp, 0);
-	else if (tmp->prog == 11)
-		ft_sti(cor, tmp);
-	else if (tmp->prog == 12)
-		ft_fork(cor, tmp, 0);
-	else if (tmp->prog == 13)
-		ft_lld(cor, tmp);
-		//ft_ld(cor, tmp, 1);
-	else if (tmp->prog == 14)
-		ft_ldi(cor, tmp, 1);
-	else if (tmp->prog == 15)
-		ft_fork(cor, tmp, 1);
-	else if (tmp->prog == 16)
-		ft_aff(cor, tmp);
-	else
-		tmp->i = 1;
+	char		*b2;
+	unsigned	char c;
+	char	bb;
+	int			i;
+
+	b2 = (char *)ft_memalloc(sizeof(char) * 9);
+	c = read_byte_1(cor->code, tmp->cur + 1);
+	i = 7;
+	while (i >= 0)
+	{
+		bb = c % 2;
+		b2[i--] = c % 2;
+
+		c = c / 2;
+	}
+	return  (b2);
+}
+
+unsigned char *inttobyte(int a)
+{
+	unsigned char *bt;
+	unsigned char c;
+
+	bt = (unsigned char *)ft_memalloc(sizeof(unsigned char) * 4);
+	bt[0] = (unsigned char)((a >> 24) & 0xff);
+	c = bt[0];
+	bt[1] = (unsigned char)((a >> 16) & 0xff);
+	c = bt[1];
+	bt[2] = (unsigned char)((a >> 8) & 0xff);
+	c = bt[2];
+	bt[3] = (unsigned char)((a >> 0) & 0xff);
+	c = bt[3];
+	return (bt);
 }

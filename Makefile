@@ -33,7 +33,8 @@ SRC =	main.c \
 		read_byte.c \
 		arena.c \
 		champ.c \
-		parse_av.c
+		parse_av.c \
+		do_op.c
 
 
 

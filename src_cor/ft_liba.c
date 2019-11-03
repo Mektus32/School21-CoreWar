@@ -12,13 +12,6 @@
 
 #include "corewar.h"
 
-void	exit_print(char *str)
-{
-	//ft_putstr_fd(str, 2);
-	ft_printf("%s\n", str);
-	exit(0);
-}
-
 void	free_cor(t_cor *cor)
 {
 	int	i;
@@ -58,22 +51,26 @@ char	*ft_strncpy_all(char *dest, const char *source, size_t n)
 	return (dest);
 }
 
-char		*base16_2_cor(t_cor *cor, t_carr *tmp)
+short	idx_mod(short t_ind)
 {
-	char		*b2;
-	unsigned	char c;
-	char	bb;
-	int			i;
-
-	b2 = (char *)ft_memalloc(sizeof(char) * 9);
-	c = read_byte_1(cor->code, tmp->cur + 1);
-	i = 7;
-	while (i >= 0)
+	if (t_ind < 0)
 	{
-		bb = c % 2;
-		b2[i--] = c % 2;
-
-		c = c / 2;
+		t_ind = t_ind * (-1);
+		t_ind = t_ind % IDX_MOD;
+		return (-1 * t_ind);
 	}
-	return  (b2);
+	t_ind = t_ind % IDX_MOD;
+	return (t_ind);
+}
+
+int mem_size(int cur)
+{
+	if (cur < 0)
+	{
+		while (cur < 0)
+			cur += MEM_SIZE;
+		//return (cur);
+	}
+	cur = cur % MEM_SIZE;
+	return (cur);
 }

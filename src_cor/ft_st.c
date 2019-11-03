@@ -117,5 +117,4 @@ void	ft_st(t_cor *cor, t_carr *tmp)
 		i += 4;
 	tmp->i = i;
 	free(b2);
-	//print_dump_code(cor);
 }

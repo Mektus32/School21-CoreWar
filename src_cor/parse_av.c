@@ -69,6 +69,13 @@ static void		change_pos(t_cor *cor)
 	}
 }
 
+/*
+** 		{
+**			ft_putstr_fd("Can't read source file ", 2);
+**			exit_print(av[i]);
+**		}
+*/
+
 static void		take_cor(int ac, char **av, t_cor *cor)
 {
 	int i;
@@ -82,8 +89,8 @@ static void		take_cor(int ac, char **av, t_cor *cor)
 		{
 			if (i == (ac - 1))
 				exit_print("Can't read source file -dump");
-			cor->nbr_cycles = 0;
-			cor->nbr_cycles = ft_atoi(av[i + 1]);
+			cor->nbr_cyc = 0;
+			cor->nbr_cyc = ft_atoi(av[i + 1]);
 			i += 2;
 		}
 		else if (ft_strcmp("-n", av[i]) == 0 && (i + 2) < ac)
@@ -94,7 +101,7 @@ static void		take_cor(int ac, char **av, t_cor *cor)
 		else if (ft_strstr(av[i], ".cor") && j < MAX_PLAYERS)
 			cor->m_2[j++] = valid_champ(i++, av);
 		else
-			exit_print("ERROR\n");
+			exit_print("Can't read source file\n");
 	}
 }
 
@@ -107,7 +114,7 @@ t_cor			*parse_av(int ac, char **av)
 
 	if (!(cor = (t_cor *)ft_memalloc(sizeof(t_cor))))
 		exit_print("malloc error");
-	cor->nbr_cycles = -1;
+	cor->nbr_cyc = -1;
 	i = 1;
 	while (i < ac)
 	{
