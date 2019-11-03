@@ -226,7 +226,7 @@ short read_byte_2_min(const char *src, int i);
 unsigned int read_byte_4(const char *src, int i);
 
 int mem_size(int cur);
-int	idx_mod(int t_ind);
+short	idx_mod(short t_ind);
 
 void copy_p(void *dst, const void *src, int d_s, int s_s);
 int arg_4(char *b2, t_carr *tmp, t_cor *cor, int *f_err);

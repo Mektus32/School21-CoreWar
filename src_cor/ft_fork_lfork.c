@@ -58,7 +58,7 @@ void	printList(t_carr *tmp)
 	ft_printf("LLL\n");
 }
 
-int	idx_mod(int t_ind)
+short	idx_mod(short t_ind)
 {
 	if (t_ind < 0)
 	{
@@ -92,7 +92,7 @@ t_carr				*ft_fork(t_cor *cor, t_carr *tmp, int l)
 	new->carry = tmp->carry;
 	new->cycles_live = tmp->cycles_live;
 	new->num = cor->n_curr++;
-	k = -1;
+	k = -1 ;
 	while (++k < REG_NUMBER)
 		new->reg[k] = tmp->reg[k];
 	t_ind = read_byte_2(cor->code, tmp->cur + 1);

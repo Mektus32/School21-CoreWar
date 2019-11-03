@@ -47,6 +47,16 @@ unsigned char *inttobyte(int a)
 void	check_live(t_cor *cor)
 {
 	t_carr *carr;
+//	if (cor->live->cycles_to_die <= 0)
+//	{
+//		carr = cor->carr;
+//		while (carr)
+//		{
+//			remove_curr_if(cor, carr->num);
+//			carr = carr->next;
+//		}
+//
+//	}
 
 	static int pre_cycles_to_die = CYCLE_TO_DIE;
 	static int counter = 0;
@@ -83,7 +93,6 @@ void	check_live(t_cor *cor)
 		counter = 0;
 		//pre_cycles_to_die = cor->live->cycles_to_die;
 	}
-
 	if (cor->live->cycles_to_die <= 0)
 	{
 		carr = cor->carr;
@@ -94,6 +103,7 @@ void	check_live(t_cor *cor)
 		}
 
 	}
+
 
 	//ft_printf("n_cur_after = %d\n", cor->n_curr);
 }
@@ -111,17 +121,12 @@ void go_cor(t_cor *cor)
 			print_dump_code(cor);
 			exit_print("");
 		}
-		cor->live->cycles++;
+
 		if (cor->live->cycles == 10238)
 		{
 			i++;
 		}
 
-		if ((cor->live->cycles - cor->live->cycles_temp) ==  cor->live->cycles_to_die)
-		{
-			cor->live->cycles_temp = cor->live->cycles;
-			check_live(cor);
-		}
 		tmp = cor->carr;
 		// для каждой каретки иначинаем исполнять код
 		while (tmp)
@@ -130,33 +135,17 @@ void go_cor(t_cor *cor)
 			{
  				tmp->cur = (tmp->cur + tmp->i) % MEM_SIZE;
 				tmp->cur = mem_size(tmp->cur);
-				tmp->prog = //(unsigned char)cor->code[tmp->cur];
-       read_byte_1(cor->code, tmp->cur);
-				unsigned char c;
-//				c = cor->code[0];
-//				c = cor->code[5];
-				c = cor->code[12];
-				c = cor->code[11];
-				c = cor->code[13];
+				tmp->prog = read_byte_1(cor->code, tmp->cur);
 				tmp->cycles_to = ft_cycles_to(tmp->prog);
 				tmp->i = 0;
 			}
-			tmp = tmp->next;
-		}
-		tmp = cor->carr;
-		while (tmp)
-		{
+//			tmp = tmp->next;
+//		}
+//		tmp = cor->carr;
+//		while (tmp)
+//		{
 			if (--tmp->cycles_to == 0)
 			{
-				//все таки надо продолжать обычную итерацию
-				if (tmp->prog == 15 || tmp->prog == 12)
-				{
-					//ft_printf("p1 = %p\n", tmp->next);
-//					do_op(cor, tmp);
-//					tmp = cor->carr;
-					//continue;
-				}
-//				else
 					do_op(cor, tmp);
 			}
 			//ft_printf("p2 = %p\n", tmp->next);
@@ -168,13 +157,12 @@ void go_cor(t_cor *cor)
 		//cor->live->cycles++;
 
 		//cor->live->cycles_to_die <= 0 - игра закончилась -удяляем все каретки
-		i = cor->live->cycles - cor->live->cycles_temp;
-//		if ((cor->live->cycles - cor->live->cycles_temp) ==  cor->live->cycles_to_die)
-//		{
-//			cor->live->cycles_temp = cor->live->cycles;
-//			check_live(cor);
-//		}
-		//cor->live->cycles++;
+		cor->live->cycles++;
+		if ((cor->live->cycles - cor->live->cycles_temp) ==  cor->live->cycles_to_die)
+		{
+			cor->live->cycles_temp = cor->live->cycles;
+			check_live(cor);
+		}
 
 
 	}
