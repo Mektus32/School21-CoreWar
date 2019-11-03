@@ -4,11 +4,11 @@
 # st - 5 cicle
 one:
 	st r1, 11
-	#st r0, 200
+	st r0, 200
 	ld %6, r10
-	#live %0
+	live %0
 	st r10, 6
-	#live %0
-	#ld %507, r3
-	#fork %1000
-	#zjmp  %:one
+	live %0
+	ld %507, r3
+	fork %1000
+	zjmp  %:one

@@ -4,9 +4,8 @@ void	zero_live(t_cor *cor)
 {
 	cor->live->cycles_temp = 0;
 	cor->live->id_live = cor->n;
-	cor->live->cycles = 0;//количество прошедших с начала игры циклов
+	cor->live->cycles = 0;
 	cor->live->live_count = 0;
-	//cor->live->cycle_new = 0;
 	cor->live->cycles_to_die = CYCLE_TO_DIE;
 	cor->live->check_count = 0;
 }
@@ -44,34 +43,64 @@ unsigned char *inttobyte(int a)
 ** проверки вне зависимости от ее результатов.
 */
 
+t_carr	*remove_head(t_cor *cor, t_carr *curr)
+{
+	cor->carr = curr->next;
+	free(curr);
+	curr = cor->carr;
+	return (curr);
+}
+
+
+t_carr	*remove_elem(t_carr *curr, t_carr **prev)
+{
+	curr = curr->next;
+	free((*prev)->next);
+	(*prev)->next = curr;
+	return (curr);
+}
+
 void	check_live(t_cor *cor)
 {
 	t_carr *carr;
-//	if (cor->live->cycles_to_die <= 0)
-//	{
-//		carr = cor->carr;
-//		while (carr)
-//		{
-//			remove_curr_if(cor, carr->num);
-//			carr = carr->next;
-//		}
-//
-//	}
+	t_carr *prev;
 
+	int i;
+	int k;
 	static int pre_cycles_to_die = CYCLE_TO_DIE;
 	static int counter = 0;
 	carr = cor->carr;
+	prev = NULL;
+	//i = len_curr(carr);
+	if (cor->live->cycles == 22242 || cor->live->cycles == 21756)//
+	{
 
+
+		k = 0;
+		i = 0;
+	}
 	//ft_printf("check cycle = %d, n_cur = %d\n", cor->live->cycles,cor->n_curr);
 	//ft_printf("to die = %d\n",cor->live->cycles_to_die);
 	while(carr)
 	{
-		//ft_printf("%d\n", cor->live->cycles - carr->cycles_live);
-		if (((cor->live->cycles - carr->cycles_live)) >= cor->live->cycles_to_die)
-			remove_curr_if(cor, carr->num);
-//		else
-//			carr->cycles_live = cor->live->cycles;
-		carr = carr->next;
+
+		if (((cor->live->cycles - carr->cycles_live) >= cor->live->cycles_to_die) || cor->live->cycles < 0)
+		{
+			if (cor->carr == carr)
+				carr = remove_head(cor, carr);
+			else
+				carr = remove_elem(carr, &prev);
+			//remove_curr_if(cor, carr->num);
+//			i++;
+//			remove_curr(cor, carr);
+		}
+		else
+		{
+			prev = carr;
+			carr = carr->next;
+		}
+
+//			k++;
 	}
 
 
@@ -97,10 +126,7 @@ void	check_live(t_cor *cor)
 	{
 		carr = cor->carr;
 		while (carr)
-		{
-			remove_curr_if(cor, carr->num);
-			carr = carr->next;
-		}
+			carr = remove_head(cor, carr);
 
 	}
 
@@ -122,7 +148,7 @@ void go_cor(t_cor *cor)
 			exit_print("");
 		}
 
-		if (cor->live->cycles == 10238)
+		if (cor->live->cycles == 22242)
 		{
 			i++;
 		}
@@ -145,10 +171,8 @@ void go_cor(t_cor *cor)
 //		while (tmp)
 //		{
 			if (--tmp->cycles_to == 0)
-			{
 					do_op(cor, tmp);
-			}
-			//ft_printf("p2 = %p\n", tmp->next);
+
 			tmp = tmp->next;
 		}
 

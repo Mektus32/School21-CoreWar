@@ -165,6 +165,7 @@ char *base16_2(unsigned c);
 t_carr *new_curr(int id_par);
 void add_curr(t_carr **all_carr, t_carr *new);
 void remove_curr_if(t_cor *cor, int num);
+void remove_curr(t_cor *cor, t_carr *carr);
 t_carr *carr_list(t_cor *cor);
 int	ft_cycles_to(char p);
 
@@ -222,6 +223,8 @@ void    ft_aff(t_cor *cor, t_carr *tmp);
 unsigned char read_byte_1(const char *src, int i);
 short read_byte_2(const char *src, int i);
 short read_byte_2_min(const char *src, int i);
+
+int len_curr(t_carr *list);
 
 unsigned int read_byte_4(const char *src, int i);
 

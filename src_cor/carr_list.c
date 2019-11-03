@@ -32,6 +32,37 @@ void add_curr(t_carr **all_carr, t_carr *new)
 	*all_carr = new;
 }
 
+
+int len_curr(t_carr *list)
+{
+	int i;
+	i = 0;
+	while(list)
+	{
+		i++;
+		list = list->next;
+	}
+	return (i);
+}
+
+
+void remove_curr(t_cor *cor, t_carr *carr)
+{
+
+	t_carr	*tmp;
+	t_carr	*del;
+
+	del = carr;
+	tmp = carr->next;
+	if (tmp)
+		carr->next = tmp;
+	else
+		carr->next = NULL;
+	free(del);
+	return ;
+}
+
+
 void remove_curr_if(t_cor *cor, int num)
 {
 	t_carr *carr;
@@ -41,9 +72,11 @@ void remove_curr_if(t_cor *cor, int num)
 	if (carr->num == num)
 	{
 		if (carr->next)
-		cor->carr = carr->next;
+			cor->carr = carr->next;
 		else
+		{
 			cor->carr = NULL;
+		}
 		free(carr);
 		return ;
 	}
