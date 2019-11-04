@@ -102,7 +102,7 @@ typedef  struct			s_live
 ** carr - список всех кареток
 ** live
 ** нет общего числа кареток больше
-** */
+*/
 
 typedef struct			s_cor
 {
@@ -120,30 +120,33 @@ typedef struct			s_cor
 
 /*
  ****** parse_av ******
- * */
+*/
+
 t_cor	*parse_av(int ac, char **av);
 
 /*
  * ***** champ ******
- * */
+*/
+
 t_champ	*write_name(int fd);
 t_champ	*valid_champ(int i, char **av);
 void	make_champ_n(int ac, char **av, int n, t_cor *cor);
 
 /*
  * ****** arena ******
- * */
+*/
+
 void	arena(t_cor *cor);
 
 /*
  * ***** go_cor ******
- * */
+*/
 
 void	go_cor(t_cor *cor);
 
 /*
  * ***** carr_list ******
- * */
+*/
 
 t_carr	*new_curr(int id_par);
 void	add_curr(t_carr **all_carr, t_carr *new);
@@ -154,14 +157,15 @@ t_carr	*carr_list(t_cor *cor);
 
 /*
  * ***** do_op ******
- * */
+*/
 
 int		ft_cycles_to(char p);
 void	do_op(t_cor *cor, t_carr	*tmp);
 
 /*
  * ***** print_code ******
- * */
+*/
+
 void	print_dump_code(t_cor *cor);
 void	exit_print(char *str);
 
@@ -169,7 +173,7 @@ void	exit_print(char *str);
  * ***** read_byte ******
  * inttobyte - переводит инт в байт
  * base16_2_cor - из одного байта делает 8 бит
- * */
+*/
 
 unsigned char	read_byte_1(const char *src, int i);
 short			read_byte_2(const char *src, int i);

@@ -1,10 +1,8 @@
 #include "corewar.h"
 
-void	do_op(t_cor *cor, t_carr	*tmp)
+void	do_op_two(t_cor *cor, t_carr *tmp)
 {
-//	if (tmp->prog > 0 && tmp->prog  <=16)
-//		ft_printf("cyc = %d, prog = %d\n",cor->live->cyc, tmp->prog - 1);
-	if	(tmp->prog == 1)
+	if (tmp->prog == 1)
 		ft_live(cor, tmp);
 	else if (tmp->prog == 2)
 		ft_ld(cor, tmp, 0);
@@ -28,8 +26,14 @@ void	do_op(t_cor *cor, t_carr	*tmp)
 		ft_sti(cor, tmp);
 	else if (tmp->prog == 12)
 		ft_fork(cor, tmp, 0);
+}
+
+void	do_op(t_cor *cor, t_carr *tmp)
+{
+	if (tmp->prog > 0 && tmp->prog < 13)
+		do_op_two(cor, tmp);
 	else if (tmp->prog == 13)
-		ft_lld(cor, tmp); //ft_ld(cor, tmp, 1);
+		ft_lld(cor, tmp);
 	else if (tmp->prog == 14)
 		ft_ldi(cor, tmp, 1);
 	else if (tmp->prog == 15)
@@ -40,7 +44,7 @@ void	do_op(t_cor *cor, t_carr	*tmp)
 		tmp->i = 1;
 }
 
-int	ft_cycles_to(char p)
+int		ft_cycles_to(char p)
 {
 	int	cycles;
 

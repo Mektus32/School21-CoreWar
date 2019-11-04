@@ -1,9 +1,9 @@
 #include "corewar.h"
 
-t_carr *new_curr(int id_par)
+t_carr	*new_curr(int id_par)
 {
-	t_carr *new;
-	int i;
+	t_carr	*new;
+	int		i;
 
 	new = NULL;
 	new = (t_carr *)ft_memalloc(sizeof(t_carr));
@@ -20,7 +20,7 @@ t_carr *new_curr(int id_par)
 	return (new);
 }
 
-void add_curr(t_carr **all_carr, t_carr *new)
+void	add_curr(t_carr **all_carr, t_carr *new)
 {
 	if (!all_carr || !*all_carr)
 		return ;
@@ -28,13 +28,12 @@ void add_curr(t_carr **all_carr, t_carr *new)
 	*all_carr = new;
 }
 
-
-int len_curr(t_carr *list)
+int		len_curr(t_carr *list)
 {
 	int i;
 
 	i = 0;
-	while(list)
+	while (list)
 	{
 		i++;
 		list = list->next;
@@ -50,7 +49,6 @@ t_carr	*remove_head(t_cor *cor, t_carr *curr)
 	return (curr);
 }
 
-
 t_carr	*remove_elem(t_carr *curr, t_carr **prev)
 {
 	curr = curr->next;
@@ -59,12 +57,11 @@ t_carr	*remove_elem(t_carr *curr, t_carr **prev)
 	return (curr);
 }
 
-
-t_carr *carr_list(t_cor *cor)
+t_carr	*carr_list(t_cor *cor)
 {
-	int	i;
-	t_carr *carr;
-	t_carr *carr_tmp;
+	int		i;
+	t_carr	*carr;
+	t_carr	*carr_tmp;
 
 	carr = new_curr(1);
 	carr->cycles_to = 0;

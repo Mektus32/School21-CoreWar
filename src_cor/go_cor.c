@@ -32,6 +32,7 @@ static void	check_to_die(t_cor *cor)
 		cor->live->counter = 0;
 	}
 	cor->live->live_count = 0;
+
 	if (cor->live->counter == MAX_CHECKS)
 	{
 		cor->live->cycles_to_die = cor->live->cycles_to_die - CYCLE_DELTA;
@@ -69,25 +70,22 @@ static void	check_live(t_cor *cor)
 	}
 	check_to_die(cor);
 }
+
 /*
 ** основная ф игры
 ** print_dump_code - печатает код и выходит из игры, если есть dump
 ** do_op - переходит к оперециям 2 из них изменяют код(st и sti), и одна состояние лайв
 ** check_live - в т.ч. меняет время до смерти и делает проверку(удаляет лишние каретки)
 */
+
 void	go_cor(t_cor *cor)
 {
 	t_carr	*tmp;
-	int len;
-
 
 	while (cor->carr)
 	{
-
 		if (cor->carr && (cor->live->cyc++ == cor->nbr_cyc || cor->nbr_cyc == 0))
 			print_dump_code(cor);
-		if (cor->live->cyc == 32715)
-			len = len_curr(cor->carr);
 		tmp = cor->carr;
 		while (tmp)
 		{
