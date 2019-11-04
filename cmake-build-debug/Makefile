@@ -2823,6 +2823,33 @@ src_cor/champ.c.s:
 	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/champ.c.s
 .PHONY : src_cor/champ.c.s
 
+src_cor/do_op.o: src_cor/do_op.c.o
+
+.PHONY : src_cor/do_op.o
+
+# target to build an object file
+src_cor/do_op.c.o:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/do_op.c.o
+.PHONY : src_cor/do_op.c.o
+
+src_cor/do_op.i: src_cor/do_op.c.i
+
+.PHONY : src_cor/do_op.i
+
+# target to preprocess a source file
+src_cor/do_op.c.i:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/do_op.c.i
+.PHONY : src_cor/do_op.c.i
+
+src_cor/do_op.s: src_cor/do_op.c.s
+
+.PHONY : src_cor/do_op.s
+
+# target to generate assembly for a file
+src_cor/do_op.c.s:
+	$(MAKE) -f CMakeFiles/arina.dir/build.make CMakeFiles/arina.dir/src_cor/do_op.c.s
+.PHONY : src_cor/do_op.c.s
+
 src_cor/ft_add.o: src_cor/ft_add.c.o
 
 .PHONY : src_cor/ft_add.o
@@ -3564,6 +3591,9 @@ help:
 	@echo "... src_cor/champ.o"
 	@echo "... src_cor/champ.i"
 	@echo "... src_cor/champ.s"
+	@echo "... src_cor/do_op.o"
+	@echo "... src_cor/do_op.i"
+	@echo "... src_cor/do_op.s"
 	@echo "... src_cor/ft_add.o"
 	@echo "... src_cor/ft_add.i"
 	@echo "... src_cor/ft_add.s"

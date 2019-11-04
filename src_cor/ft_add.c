@@ -21,7 +21,7 @@ int arg_4(char *b2, t_carr *tmp, t_cor *cor,  int *f_err)
 		{
 			t_ind = read_byte_2(cor->code, tmp->cur + tmp->i);
 			t_ind = idx_mod(t_ind);
-			t_dir = read_byte_4(cor->code, tmp->cur  + t_ind);//++ tmp->i???
+			t_dir = read_byte_4(cor->code, tmp->cur  + t_ind);
 			tmp->i += 2;
 		}
 		else
@@ -36,9 +36,9 @@ int arg_4(char *b2, t_carr *tmp, t_cor *cor,  int *f_err)
 	return (a1);
 }
 
-int arg_2(char *b2, t_carr *tmp, t_cor *cor,  int *f_err)
+short arg_2(char *b2, t_carr *tmp, t_cor *cor,  int *f_err)
 {
-	int	a1;
+	short				a1;
 	unsigned char	t_reg_3;
 	short			t_ind;
 	unsigned int	t_dir;
@@ -47,7 +47,7 @@ int arg_2(char *b2, t_carr *tmp, t_cor *cor,  int *f_err)
 	if (b2[0] == 0 && b2[1] == 1)
 	{
 		t_reg_3 = read_byte_1(cor->code, tmp->cur + tmp->i++);
-		a1 = tmp->reg[t_reg_3 - 1];
+		a1 = (short)tmp->reg[t_reg_3 - 1];
 		if (!(VAL_REG(t_reg_3)))
 			*f_err = 1;
 	}

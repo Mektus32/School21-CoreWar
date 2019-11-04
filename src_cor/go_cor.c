@@ -54,6 +54,7 @@ static void	check_live(t_cor *cor)
 {
 	t_carr *carr;
 	t_carr *prev;
+	int len;
 
 	carr = cor->carr;
 	prev = NULL;
@@ -61,10 +62,12 @@ static void	check_live(t_cor *cor)
 	{
 		if ((cor->live->cyc - carr->cycles_live) >= cor->live->cycles_to_die)
 		{
+			len = len_curr(cor->carr);
 			if (cor->carr == carr)
 				carr = remove_head(cor, carr);
 			else
 				carr = remove_elem(carr, &prev);
+			len = len_curr(cor->carr);
 		}
 		else
 		{
@@ -86,7 +89,7 @@ void	go_cor(t_cor *cor)
 
 	while (cor->carr)
 	{
-		if (cor->carr && (cor->live->cyc == cor->nbr_cyc || cor->nbr_cyc == 0))
+		if (cor->carr && (cor->live->cyc++ == cor->nbr_cyc || cor->nbr_cyc == 0))
 			print_dump_code(cor);
 		tmp = cor->carr;
 		while (tmp)
@@ -102,7 +105,7 @@ void	go_cor(t_cor *cor)
 					do_op(cor, tmp);
 			tmp = tmp->next;
 		}
-		if ((++cor->live->cyc - cor->live->cycles_temp) ==
+		if ((cor->live->cyc - cor->live->cycles_temp) ==
 		cor->live->cycles_to_die)
 		{
 			cor->live->cycles_temp = cor->live->cyc;

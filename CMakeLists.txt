@@ -145,6 +145,7 @@ add_executable(arina
         src_cor/ft_sub.c
         src_cor/print_code.c
         src_cor/go_cor.c
+        src_cor/do_op.c
         src_cor/main.c
         src_cor/arena.c
         src_cor/champ.c

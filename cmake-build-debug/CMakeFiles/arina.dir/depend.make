@@ -299,6 +299,12 @@ CMakeFiles/arina.dir/src_cor/champ.c.o: ../includes/libft.h
 CMakeFiles/arina.dir/src_cor/champ.c.o: ../includes/op.h
 CMakeFiles/arina.dir/src_cor/champ.c.o: ../src_cor/champ.c
 
+CMakeFiles/arina.dir/src_cor/do_op.c.o: ../includes/corewar.h
+CMakeFiles/arina.dir/src_cor/do_op.c.o: ../includes/ft_printf.h
+CMakeFiles/arina.dir/src_cor/do_op.c.o: ../includes/libft.h
+CMakeFiles/arina.dir/src_cor/do_op.c.o: ../includes/op.h
+CMakeFiles/arina.dir/src_cor/do_op.c.o: ../src_cor/do_op.c
+
 CMakeFiles/arina.dir/src_cor/ft_add.c.o: ../includes/corewar.h
 CMakeFiles/arina.dir/src_cor/ft_add.c.o: ../includes/ft_printf.h
 CMakeFiles/arina.dir/src_cor/ft_add.c.o: ../includes/libft.h
