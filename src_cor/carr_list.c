@@ -11,10 +11,7 @@ t_carr *new_curr(int id_par)
 		return (NULL);
 	new->id_par = id_par;
 	new->i = 0;
-//	new->cur = 0;
 	new->carry = 0;
-//	new->prog = 0;
-//	new->cycles_to = 0;
 	i = 0;
 	new->reg[i] = -id_par;
 	while (++i <= REG_NUMBER)
@@ -35,6 +32,7 @@ void add_curr(t_carr **all_carr, t_carr *new)
 int len_curr(t_carr *list)
 {
 	int i;
+
 	i = 0;
 	while(list)
 	{

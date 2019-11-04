@@ -25,7 +25,6 @@ unsigned char	read_byte_1(const char *src, int i)
 
 	while (i < 0)
 		i += MEM_SIZE;
-	c_1 = 0;
 	c_1 = src[i % MEM_SIZE];
 	return ((unsigned char)c_1);
 }
@@ -66,7 +65,6 @@ char		*base16_2_cor(t_cor *cor, t_carr *tmp)
 {
 	char		*b2;
 	unsigned	char c;
-	char	bb;
 	int			i;
 
 	b2 = (char *)ft_memalloc(sizeof(char) * 9);
@@ -74,27 +72,20 @@ char		*base16_2_cor(t_cor *cor, t_carr *tmp)
 	i = 7;
 	while (i >= 0)
 	{
-		bb = c % 2;
 		b2[i--] = c % 2;
-
 		c = c / 2;
 	}
-	return  (b2);
+	return (b2);
 }
 
 unsigned char *inttobyte(int a)
 {
-	unsigned char *bt;
-	unsigned char c;
+	unsigned char	*bt;
 
 	bt = (unsigned char *)ft_memalloc(sizeof(unsigned char) * 4);
 	bt[0] = (unsigned char)((a >> 24) & 0xff);
-	c = bt[0];
 	bt[1] = (unsigned char)((a >> 16) & 0xff);
-	c = bt[1];
 	bt[2] = (unsigned char)((a >> 8) & 0xff);
-	c = bt[2];
 	bt[3] = (unsigned char)((a >> 0) & 0xff);
-	c = bt[3];
 	return (bt);
 }

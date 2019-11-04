@@ -59,7 +59,7 @@ typedef struct 			s_carr
 	int					carry;
 	int					id_par;
 	unsigned int		reg[REG_NUMBER];
-	unsigned char				prog;
+	unsigned char		prog;
 	int					cycles_to;
 	int					i;
 	struct s_carr		*next;
@@ -74,8 +74,9 @@ typedef struct 			s_carr
 ** cycles_to_die - длительность периода до проверки
 ** изменяется в 2ух случаях
 ** check_count - количество проведенных проверок
- * - обнуляется, если меняется cyc to die
- * cycle_new - кол -во циклов после обнуления
+** - обнуляется, если меняется cyc to die
+** cycle_new - кол -во циклов после обнуления
+ * counter - считает проверки без изменения to_die
 ** */
 
 typedef  struct			s_live
@@ -85,6 +86,7 @@ typedef  struct			s_live
 	int					live_count;
 	int					cycles_to_die;
 	int					cycles_temp;
+	int					counter;
 }						t_live;
 
 /*
@@ -213,6 +215,5 @@ t_carr *	ft_fork(t_cor *cor, t_carr *tmp, int l);
 void		ft_lld(t_cor *cor, t_carr *tmp);
 void		ft_aff(t_cor *cor, t_carr *tmp);
 void		copy_p(void *dst, const void *src, int d_s, int s_s);
-
 
 #endif

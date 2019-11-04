@@ -23,25 +23,20 @@
 
 static void	check_to_die(t_cor *cor)
 {
-	static int pre_cycles_to_die = CYCLE_TO_DIE;
-	static int counter = 0;
 	t_carr		*carr;
 
-	counter++;
+	cor->live->counter++;
 	if (cor->live->live_count >= NBR_LIVE)
-		cor->live->cycles_to_die = cor->live->cycles_to_die - CYCLE_DELTA;
-	cor->live->live_count = 0;
-	if (cor->live->cycles_to_die == pre_cycles_to_die)
 	{
-		if (counter == MAX_CHECKS)
-		{
-			cor->live->cycles_to_die = cor->live->cycles_to_die - CYCLE_DELTA;
-			counter = 0;
-			pre_cycles_to_die = cor->live->cycles_to_die;
-		}
+		cor->live->cycles_to_die = cor->live->cycles_to_die - CYCLE_DELTA;
+		cor->live->counter = 0;
 	}
-	else
-		counter = 0;
+	cor->live->live_count = 0;
+	if (cor->live->counter == MAX_CHECKS)
+	{
+		cor->live->cycles_to_die = cor->live->cycles_to_die - CYCLE_DELTA;
+		cor->live->counter = 0;
+	}
 	if (cor->live->cycles_to_die <= 0)
 	{
 		carr = cor->carr;
@@ -54,7 +49,6 @@ static void	check_live(t_cor *cor)
 {
 	t_carr *carr;
 	t_carr *prev;
-	int len;
 
 	carr = cor->carr;
 	prev = NULL;
@@ -62,12 +56,10 @@ static void	check_live(t_cor *cor)
 	{
 		if ((cor->live->cyc - carr->cycles_live) >= cor->live->cycles_to_die)
 		{
-			len = len_curr(cor->carr);
 			if (cor->carr == carr)
 				carr = remove_head(cor, carr);
 			else
 				carr = remove_elem(carr, &prev);
-			len = len_curr(cor->carr);
 		}
 		else
 		{
@@ -86,11 +78,16 @@ static void	check_live(t_cor *cor)
 void	go_cor(t_cor *cor)
 {
 	t_carr	*tmp;
+	int len;
+
 
 	while (cor->carr)
 	{
+
 		if (cor->carr && (cor->live->cyc++ == cor->nbr_cyc || cor->nbr_cyc == 0))
 			print_dump_code(cor);
+		if (cor->live->cyc == 32715)
+			len = len_curr(cor->carr);
 		tmp = cor->carr;
 		while (tmp)
 		{
@@ -105,8 +102,7 @@ void	go_cor(t_cor *cor)
 					do_op(cor, tmp);
 			tmp = tmp->next;
 		}
-		if ((cor->live->cyc - cor->live->cycles_temp) ==
-		cor->live->cycles_to_die)
+		if ((cor->live->cyc - cor->live->cycles_temp) >= cor->live->cycles_to_die)
 		{
 			cor->live->cycles_temp = cor->live->cyc;
 			check_live(cor);

@@ -6,11 +6,11 @@
 ** если 00 = 0
 */
 
-void    ft_aff(t_cor *cor, t_carr *tmp)
+void	ft_aff(t_cor *cor, t_carr *tmp)
 {
-	unsigned char t_reg;
-	char *b2;
-	int i;
+	unsigned char	t_reg;
+	char			*b2;
+	int				i;
 
 	i = 2;
 	b2 = base16_2_cor(cor, tmp);

@@ -7,20 +7,6 @@
 **
 **/
 
-//short read_byte_2_min(const char *src, int i)
-//{
-//	short	c_2;
-//
-//	while (i < 0)
-//		i = MEM_SIZE + i;
-//	c_2 = 0;
-//	c_2 = (c_2 << 8);
-//	c_2 = c_2 | (char)src[(i) % MEM_SIZE];
-//	c_2 = (c_2 << 8);
-//	c_2 = c_2 | (char)src[(i + 1) % MEM_SIZE];
-//	return ((short)c_2);
-//}
-
 
 #include "corewar.h"
 
@@ -31,23 +17,9 @@
 **
 **/
 
-//short read_byte_2_min(const char *src, int i)
-//{
-//	short	c_2;
-//
-//	while (i < 0)
-//		i = MEM_SIZE + i;
-//	c_2 = 0;
-//	c_2 = (c_2 << 8);
-//	c_2 = c_2 | (char)src[(i) % MEM_SIZE];
-//	c_2 = (c_2 << 8);
-//	c_2 = c_2 | (char)src[(i + 1) % MEM_SIZE];
-//	return ((short)c_2);
-//}
-
 void	printList(t_carr *tmp)
 {
-	t_carr *car;
+	t_carr	*car;
 
 	car = tmp;
 	while(car)

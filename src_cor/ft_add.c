@@ -116,6 +116,7 @@ void				ft_zjmp(t_cor *cor, t_carr *tmp)
 		a = idx_mod(t_ind);
 		tmp->cur = mem_size(tmp->cur + a);
 		//tmp->i = 3;
+
 	}
 	else
 		tmp->i = 3;
