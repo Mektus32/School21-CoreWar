@@ -69,9 +69,9 @@ typedef struct 			s_carr
 ** id_live - игрок, о котором в последний раз сказали, что он жив (ПОБЕДИТЕЛЬ)
 ** ИНФОРМАЦИЮ О НЁМ МЫ ПОЛУЧАЕМ ТОЛЬКО В оп_LIVE ????
 ** cyc - количество прошедших с начала игры циклов
-** live_count - количество выполненных операций live за последний период, длинной в cycles_to_die
+** live_count - количество выполненных операций live за последний период, длинной в cyc_to_die
 ** обнуляется каждую проверку?
-** cycles_to_die - длительность периода до проверки
+** cyc_to_die - длительность периода до проверки
 ** изменяется в 2ух случаях
 ** check_count - количество проведенных проверок
 ** - обнуляется, если меняется cyc to die
@@ -84,8 +84,8 @@ typedef  struct			s_live
 	int					id_live;
 	int					cyc;
 	int					live_count;
-	int					cycles_to_die;
-	int					cycles_temp;
+	int					cyc_to_die;
+	int					cyc_tmp;
 	int					counter;
 }						t_live;
 

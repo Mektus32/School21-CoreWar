@@ -4,12 +4,12 @@
 ** ПРОВЕРКА
 ** Текущее количество проверок» включает и проводящуюся в
 ** данный момент проверку.
-** Мертвой считается каретка, которая выполняла операцию live cycles_to_die
+** Мертвой считается каретка, которая выполняла операцию live cyc_to_die
 ** циклов назад или более.
-** Также мертвой считается любая каретка, если cycles_to_die <= 0.
+** Также мертвой считается любая каретка, если cyc_to_die <= 0.
 **
-** Если количество выполненных за cycles_to_die период
-** операций live больше или равно NBR_LIVE, значение cycles_to_die
+** Если количество выполненных за cyc_to_die период
+** операций live больше или равно NBR_LIVE, значение cyc_to_die
 ** уменьшается на CYCLE_DELTA.
 ** Если в течение MAX_CHECKS раз проверок Cycle_to_die не уменьшался //
 ** то cycle_to_die уменьшается на CYCLE_DELTA
@@ -28,17 +28,16 @@ static void	check_to_die(t_cor *cor)
 	cor->live->counter++;
 	if (cor->live->live_count >= NBR_LIVE)
 	{
-		cor->live->cycles_to_die = cor->live->cycles_to_die - CYCLE_DELTA;
+		cor->live->cyc_to_die = cor->live->cyc_to_die - CYCLE_DELTA;
 		cor->live->counter = 0;
 	}
 	cor->live->live_count = 0;
-
 	if (cor->live->counter == MAX_CHECKS)
 	{
-		cor->live->cycles_to_die = cor->live->cycles_to_die - CYCLE_DELTA;
+		cor->live->cyc_to_die = cor->live->cyc_to_die - CYCLE_DELTA;
 		cor->live->counter = 0;
 	}
-	if (cor->live->cycles_to_die <= 0)
+	if (cor->live->cyc_to_die <= 0)
 	{
 		carr = cor->carr;
 		while (carr)
@@ -55,7 +54,7 @@ static void	check_live(t_cor *cor)
 	prev = NULL;
 	while (carr)
 	{
-		if ((cor->live->cyc - carr->cycles_live) >= cor->live->cycles_to_die)
+		if ((cor->live->cyc - carr->cycles_live) >= cor->live->cyc_to_die)
 		{
 			if (cor->carr == carr)
 				carr = remove_head(cor, carr);
@@ -75,7 +74,8 @@ static void	check_live(t_cor *cor)
 ** основная ф игры
 ** print_dump_code - печатает код и выходит из игры, если есть dump
 ** do_op - переходит к оперециям 2 из них изменяют код(st и sti), и одна состояние лайв
-** check_live - в т.ч. меняет время до смерти и делает проверку(удаляет лишние каретки)
+** check_live - в т.ч. меняет время до смерти и
+** делает проверку(удаляет лишние каретки)
 */
 
 void	go_cor(t_cor *cor)
@@ -100,9 +100,9 @@ void	go_cor(t_cor *cor)
 					do_op(cor, tmp);
 			tmp = tmp->next;
 		}
-		if ((cor->live->cyc - cor->live->cycles_temp) >= cor->live->cycles_to_die)
+		if ((cor->live->cyc - cor->live->cyc_tmp) >= cor->live->cyc_to_die)
 		{
-			cor->live->cycles_temp = cor->live->cyc;
+			cor->live->cyc_tmp = cor->live->cyc;
 			check_live(cor);
 		}
 	}

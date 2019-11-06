@@ -12,10 +12,11 @@
 
 #include "corewar.h"
 
-void	free_cor(t_cor *cor)
+void		free_cor(t_cor *cor)
 {
-	int	i;
-	t_carr *carr;
+	int		i;
+	t_carr	*carr;
+
 	i = 0;
 	free(cor->code);
 	free(cor->colormap);
@@ -32,7 +33,7 @@ void	free_cor(t_cor *cor)
 	free(cor);
 }
 
-char	*ft_strncpy_all(char *dest, const char *source, size_t n)
+char		*ft_strncpy_all(char *dest, const char *source, size_t n)
 {
 	size_t	i;
 
@@ -41,7 +42,6 @@ char	*ft_strncpy_all(char *dest, const char *source, size_t n)
 	{
 		dest[i] = source[i];
 		i++;
-
 	}
 	while (i < n)
 	{
@@ -51,7 +51,7 @@ char	*ft_strncpy_all(char *dest, const char *source, size_t n)
 	return (dest);
 }
 
-short	idx_mod(short t_ind)
+short		idx_mod(short t_ind)
 {
 	if (t_ind < 0)
 	{
@@ -63,13 +63,12 @@ short	idx_mod(short t_ind)
 	return (t_ind);
 }
 
-int mem_size(int cur)
+int			mem_size(int cur)
 {
 	if (cur < 0)
 	{
 		while (cur < 0)
 			cur += MEM_SIZE;
-		//return (cur);
 	}
 	cur = cur % MEM_SIZE;
 	return (cur);

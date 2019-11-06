@@ -27,7 +27,6 @@ static void	ft_sub_1(t_cor *cor, t_carr *tmp)
 									tmp->reg[t_reg_2 - 1];
 		tmp->carry = (tmp->reg[(int)t_reg_3 - 1] == 0) ? 1 : 0;
 	}
-
 }
 
 void		ft_sub(t_cor *cor, t_carr *tmp)
@@ -39,7 +38,6 @@ void		ft_sub(t_cor *cor, t_carr *tmp)
 	i = 2;
 	b2 = base16_2_cor(cor, tmp);
 	f_err = 0;
-	//f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;
 	if (b2[0] == 0 && b2[1] == 1)
 		i += 1;
 	else
@@ -55,6 +53,5 @@ void		ft_sub(t_cor *cor, t_carr *tmp)
 	if (i == 5 && !f_err)
 		ft_sub_1(cor, tmp);
 	free(b2);
-	//ft_printf("i = %d", i);
 	tmp->i = i;
 }

@@ -12,14 +12,17 @@
 
 #include "corewar.h"
 
+/*
+** ft_printf("%s\n", str);
+*/
+
 void	exit_print(char *str)
 {
-	//ft_putstr_fd(str, 2);
-	ft_printf("%s\n", str);
+	ft_putstr_fd(str, 2);
 	exit(0);
 }
 
-void print_dump_code(t_cor *cor)
+void	print_dump_code(t_cor *cor)
 {
 	int i;
 	int k;
@@ -41,5 +44,6 @@ void print_dump_code(t_cor *cor)
 			ft_printf("%.2x ", cor->code[i]);
 		i++;
 	}
-	exit_print("");
+	ft_printf("\n");
+	exit(0);
 }

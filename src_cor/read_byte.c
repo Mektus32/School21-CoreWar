@@ -61,11 +61,11 @@ unsigned int	read_byte_4(const char *src, int i)
 	return ((unsigned int)c_4);
 }
 
-char		*base16_2_cor(t_cor *cor, t_carr *tmp)
+char			*base16_2_cor(t_cor *cor, t_carr *tmp)
 {
-	char		*b2;
-	unsigned	char c;
-	int			i;
+	char			*b2;
+	unsigned char	c;
+	int				i;
 
 	b2 = (char *)ft_memalloc(sizeof(char) * 9);
 	c = read_byte_1(cor->code, tmp->cur + 1);
@@ -78,7 +78,7 @@ char		*base16_2_cor(t_cor *cor, t_carr *tmp)
 	return (b2);
 }
 
-unsigned char *inttobyte(int a)
+unsigned char	*inttobyte(int a)
 {
 	unsigned char	*bt;
 

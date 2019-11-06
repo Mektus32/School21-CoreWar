@@ -129,8 +129,9 @@ add_executable(arina
         libft/get_next_line.c
 
         src_cor/carr_list.c
-        src_cor/ft_add.c
         src_cor/ft_ld.c
+        src_cor/ft_ldi.c
+
         src_cor/ft_fork_lfork.c
         src_cor/ft_live.c
         src_cor/ft_st.c

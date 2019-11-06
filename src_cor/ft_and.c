@@ -1,15 +1,24 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_and.c                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: qgilbert <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/11/06 19:51:35 by qgilbert          #+#    #+#             */
+/*   Updated: 2019/11/06 19:51:36 by qgilbert         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "corewar.h"
 
-
-
-
-void    ft_and(t_cor *cor, t_carr *tmp)
+void	ft_and(t_cor *cor, t_carr *tmp)
 {
 	int				a1;
 	int				a2;
 	unsigned char	t_reg_3;
-	char *b2;
-	int f_err;
+	char			*b2;
+	int				f_err;
 
 	tmp->i = 2;
 	b2 = base16_2_cor(cor, tmp);

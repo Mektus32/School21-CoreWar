@@ -14,11 +14,11 @@
 
 static void	zero_live(t_cor *cor)
 {
-	cor->live->cycles_temp = 0;
+	cor->live->cyc_tmp = 0;
 	cor->live->id_live = cor->n;
 	cor->live->cyc = 0;
 	cor->live->live_count = 0;
-	cor->live->cycles_to_die = CYCLE_TO_DIE;
+	cor->live->cyc_to_die = CYCLE_TO_DIE;
 }
 
 /*
@@ -31,7 +31,7 @@ static void	zero_live(t_cor *cor)
 ** go_cor - ама игра
 */
 
-int		main(int ac, char **av)
+int			main(int ac, char **av)
 {
 	t_cor *cor;
 

@@ -18,7 +18,9 @@ NAME = cor_1
 SRC =	main.c \
 		carr_list.c \
 		ft_add.c \
+		ft_zjmp.c \
 		ft_ld.c \
+		ft_ldi.c \
 		ft_live.c \
 		ft_st.c \
 		go_cor.c \
