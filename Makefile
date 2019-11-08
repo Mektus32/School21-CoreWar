@@ -36,7 +36,9 @@ SRC =	main.c \
 		arena.c \
 		champ.c \
 		parse_av.c \
-		do_op.c
+		do_op.c \
+		visu_init.c \
+		visu_cicle.c
 
 
 
@@ -68,7 +70,7 @@ OBJDIR = ./obj/
 all: $(NAME)
 
 $(NAME): obj $(FT_LIB) $(PR_LIB) grn $(OBJ) vis
-	@$(CC) $(CFLAGS) $(OBJ) $(PR_LNK) $(FT_LNK) -lm -o $(NAME)
+	@$(CC) $(CFLAGS) $(OBJ) -lncurses $(PR_LNK) $(FT_LNK) -lm -o $(NAME)
 	@echo "\x1b[0m"
 
 red:

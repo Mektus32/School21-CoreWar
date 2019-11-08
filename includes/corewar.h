@@ -18,11 +18,23 @@
 # include <fcntl.h>
 # include "libft.h"
 # include "ft_printf.h"
+# include <ncurses.h>
 
 
 #define VAL_REG(reg) (reg > 0 && reg <= REG_NUMBER) ? 1 : 0
 #define  TO_INT(c) ((c[0] << 24) | (c[1] << 16) | (c[2] << 8) | c[3])
+#define	DELAY 14000
+# define M					MEM_SIZE
+# define MEM(x) (((x) % (M)) < 0 ? (((x) % (M)) + (M)) : ((x) % (M)))
 
+typedef struct			s_vis
+{
+	int		vis;
+	WINDOW	*main_win;
+	WINDOW	*side_win;
+	int		pause;
+
+}						t_vis;
 
 typedef struct		s_champ
 {
@@ -103,7 +115,6 @@ typedef  struct			s_live
 ** live
 ** нет общего числа кареток больше
 */
-
 typedef struct			s_cor
 {
 	int					n;
@@ -114,6 +125,7 @@ typedef struct			s_cor
 	t_champ				*m_2[MAX_PLAYERS];
 	char				*code;
 	int 				*colormap;
+	t_vis				visual;
 	struct s_carr		*carr;
 	struct s_live		*live;
 }						t_cor;
@@ -219,5 +231,20 @@ t_carr *	ft_fork(t_cor *cor, t_carr *tmp, int l);
 void		ft_lld(t_cor *cor, t_carr *tmp);
 void		ft_aff(t_cor *cor, t_carr *tmp);
 void		copy_p(void *dst, const void *src, int d_s, int s_s);
+
+/*
+** visu
+*/
+
+void		init_window(t_cor *cor);
+void		create_field(t_cor *cor);
+void		draw(t_cor *cor);
+WINDOW		*create_newwin(int height, int width, int starty, int startx);
+void		side_panel(WINDOW *side_win, t_cor *cor);
+int			players(WINDOW *side_win, int line, t_cor *cor);
+void		main_panel(WINDOW *main_win, t_cor *tool);
+void		paint_carg(t_cor *cor);
+void		visual(t_cor *cor);
+int			graph_cycle(t_cor *cor);
 
 #endif

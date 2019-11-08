@@ -1,16 +1,76 @@
 cmake_minimum_required(VERSION 3.14)
-project(arina C)
+project(coreWar C)
 
 set(CMAKE_C_STANDARD 11)
 
-include_directories(ft_printf/includes)
+include_directories(.)
+include_directories(ft_printf/head)
+include_directories(ft_printf_m/includes)
 include_directories(includes)
 include_directories(libft/includes)
 include_directories(vm_champs)
 
-add_executable(arina
+add_executable(coreWar
         ft_printf/head/libft.h
         ft_printf/head/libftprintf.h
+        ft_printf/libft/source/ft_atoi.c
+        ft_printf/libft/source/ft_bzero.c
+        ft_printf/libft/source/ft_isalnum.c
+        ft_printf/libft/source/ft_isalpha.c
+        ft_printf/libft/source/ft_isascii.c
+        ft_printf/libft/source/ft_isdigit.c
+        ft_printf/libft/source/ft_isprint.c
+        ft_printf/libft/source/ft_itoa.c
+        ft_printf/libft/source/ft_lstadd.c
+        ft_printf/libft/source/ft_lstdel.c
+        ft_printf/libft/source/ft_lstdelone.c
+        ft_printf/libft/source/ft_lstiter.c
+        ft_printf/libft/source/ft_lstmap.c
+        ft_printf/libft/source/ft_lstnew.c
+        ft_printf/libft/source/ft_memalloc.c
+        ft_printf/libft/source/ft_memccpy.c
+        ft_printf/libft/source/ft_memchr.c
+        ft_printf/libft/source/ft_memcmp.c
+        ft_printf/libft/source/ft_memcpy.c
+        ft_printf/libft/source/ft_memdel.c
+        ft_printf/libft/source/ft_memmove.c
+        ft_printf/libft/source/ft_memset.c
+        ft_printf/libft/source/ft_putchar.c
+        ft_printf/libft/source/ft_putchar_fd.c
+        ft_printf/libft/source/ft_putendl.c
+        ft_printf/libft/source/ft_putendl_fd.c
+        ft_printf/libft/source/ft_putnbr.c
+        ft_printf/libft/source/ft_putnbr_fd.c
+        ft_printf/libft/source/ft_putstr.c
+        ft_printf/libft/source/ft_putstr_fd.c
+        ft_printf/libft/source/ft_strcat.c
+        ft_printf/libft/source/ft_strchr.c
+        ft_printf/libft/source/ft_strclr.c
+        ft_printf/libft/source/ft_strcmp.c
+        ft_printf/libft/source/ft_strcpy.c
+        ft_printf/libft/source/ft_strdel.c
+        ft_printf/libft/source/ft_strdup.c
+        ft_printf/libft/source/ft_strequ.c
+        ft_printf/libft/source/ft_striter.c
+        ft_printf/libft/source/ft_striteri.c
+        ft_printf/libft/source/ft_strjoin.c
+        ft_printf/libft/source/ft_strlcat.c
+        ft_printf/libft/source/ft_strlen.c
+        ft_printf/libft/source/ft_strmap.c
+        ft_printf/libft/source/ft_strmapi.c
+        ft_printf/libft/source/ft_strncat.c
+        ft_printf/libft/source/ft_strncmp.c
+        ft_printf/libft/source/ft_strncpy.c
+        ft_printf/libft/source/ft_strnequ.c
+        ft_printf/libft/source/ft_strnew.c
+        ft_printf/libft/source/ft_strnstr.c
+        ft_printf/libft/source/ft_strrchr.c
+        ft_printf/libft/source/ft_strsplit.c
+        ft_printf/libft/source/ft_strstr.c
+        ft_printf/libft/source/ft_strsub.c
+        ft_printf/libft/source/ft_strtrim.c
+        ft_printf/libft/source/ft_tolower.c
+        ft_printf/libft/source/ft_toupper.c
         ft_printf/source/flag_check.c
         ft_printf/source/format_check.c
         ft_printf/source/ft_int_base.c
@@ -23,22 +83,40 @@ add_executable(arina
         ft_printf/source/print_o_x.c
         ft_printf/source/print_str.c
         ft_printf/source/str_format.c
-#        ft_printf/src/check_args.c
-#        ft_printf/src/choise_spec.c
-#        ft_printf/src/ft_free_strncpy.c
-#        ft_printf/src/ft_printf.c
-#        ft_printf/src/init_arg.c
-#        ft_printf/src/print_digit.c
-#        ft_printf/src/print_double.c
-#        ft_printf/src/print_non_printabl.c
-#        ft_printf/src/print_spec.c
-#        ft_printf/src/print_spec_etc.c
-#        ft_printf/src/print_xox.c
-#        ft_printf/src/settings.c
-
+        ft_printf_m/includes/ft_printf.h
+        ft_printf_m/src/check_args.c
+        ft_printf_m/src/choise_spec.c
+        ft_printf_m/src/ft_atoi.c
+        ft_printf_m/src/ft_free_strjoin_duo.c
+        ft_printf_m/src/ft_free_strjoin_rev.c
+        ft_printf_m/src/ft_free_strncpy.c
+        ft_printf_m/src/ft_ftoa.c
+        ft_printf_m/src/ft_itoa.c
+        ft_printf_m/src/ft_ltoa.c
+        ft_printf_m/src/ft_ltoa_base.c
+        ft_printf_m/src/ft_memset.c
+        ft_printf_m/src/ft_printf.c
+        ft_printf_m/src/ft_strchr.c
+        ft_printf_m/src/ft_strdup.c
+        ft_printf_m/src/ft_strjoin.c
+        ft_printf_m/src/ft_strlen.c
+        ft_printf_m/src/ft_strncmp.c
+        ft_printf_m/src/ft_strnew.c
+        ft_printf_m/src/ft_strtolower.c
+        ft_printf_m/src/ft_ultoa.c
+        ft_printf_m/src/ft_ultoa_base.c
+        ft_printf_m/src/init_arg.c
+        ft_printf_m/src/print_digit.c
+        ft_printf_m/src/print_double.c
+        ft_printf_m/src/print_non_printabl.c
+        ft_printf_m/src/print_spec.c
+        ft_printf_m/src/print_spec_etc.c
+        ft_printf_m/src/print_xox.c
+        ft_printf_m/src/settings.c
         includes/corewar.h
         includes/ft_printf.h
         includes/libft.h
+        includes/libftprintf.h
         includes/op.h
         libft/includes/get_next_line.h
         libft/includes/libft.h
@@ -127,28 +205,27 @@ add_executable(arina
         libft/ft_ultoa.c
         libft/ft_ultoa_base.c
         libft/get_next_line.c
-
+        src_cor/arena.c
         src_cor/carr_list.c
-        src_cor/ft_ld.c
-        src_cor/ft_ldi.c
-
-        src_cor/ft_fork_lfork.c
-        src_cor/ft_live.c
-        src_cor/ft_st.c
-        src_cor/ft_sti.c
-        src_cor/ft_or_xor.c
+        src_cor/champ.c
+        src_cor/do_op.c
+        src_cor/ft_add.c
         src_cor/ft_aff.c
         src_cor/ft_and.c
-        src_cor/read_byte.c
+        src_cor/ft_fork_lfork.c
+        src_cor/ft_ld.c
+        src_cor/ft_ldi.c
         src_cor/ft_liba.c
-
-
+        src_cor/ft_live.c
+        src_cor/ft_or_xor.c
+        src_cor/ft_st.c
+        src_cor/ft_sti.c
         src_cor/ft_sub.c
-        src_cor/print_code.c
+        src_cor/ft_zjmp.c
         src_cor/go_cor.c
-        src_cor/do_op.c
         src_cor/main.c
-        src_cor/arena.c
-        src_cor/champ.c
         src_cor/parse_av.c
-        )
+        src_cor/print_code.c
+        src_cor/read_byte.c
+        vm_champs/op.c
+        vm_champs/op.h src_cor/visu_init.c src_cor/visu_cicle.c src_cor/vis_etc.c)

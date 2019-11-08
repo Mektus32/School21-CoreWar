@@ -40,6 +40,8 @@ int			main(int ac, char **av)
 		cor = parse_av(ac, av);
 		arena(cor);
 		zero_live(cor);
+		cor->visual.vis = 1;
+		cor->visual.vis ? init_window(cor) : 0;
 		go_cor(cor);
 		ft_printf("Contestant %d, \"%s\", has won !\n", cor->live->id_live,
 				(cor->m_ch[cor->live->id_live - 1])->prog_name);
@@ -48,5 +50,6 @@ int			main(int ac, char **av)
 	else
 		exit_print("Usage: ./corewar [-dump N | -n --stealth]"
 	" [-a] <champion1.cor>");
+	endwin();
 	return (0);
 }
