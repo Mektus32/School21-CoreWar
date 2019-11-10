@@ -62,7 +62,7 @@ int		graph_cycle(t_cor *cor)
 	if (ch == 27)
 		return (1);
 	if (ch == ' ')
-		cor->visual.pause = 1;
+		cor->visual.pause = ++cor->visual.pause % 2;
 	else if (ch == KEY_MOUSE)
 	{
 		if (getmouse(&event) == OK)

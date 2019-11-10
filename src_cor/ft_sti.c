@@ -62,6 +62,7 @@ static void		write_sti(t_cor *cor, t_carr *tmp, unsigned char t_reg, int l)
 	unsigned char	*p;
 
 	p = inttobyte(tmp->reg[t_reg - 1]);
+	write_map_color(cor, l, 4, tmp);
 	copy_p(cor->code, p, l, 0);
 	free(p);
 }

@@ -23,7 +23,7 @@
 
 #define VAL_REG(reg) (reg > 0 && reg <= REG_NUMBER) ? 1 : 0
 #define  TO_INT(c) ((c[0] << 24) | (c[1] << 16) | (c[2] << 8) | c[3])
-#define	DELAY 14000
+#define	DELAY 1400
 # define M					MEM_SIZE
 # define MEM(x) (((x) % (M)) < 0 ? (((x) % (M)) + (M)) : ((x) % (M)))
 
@@ -163,7 +163,7 @@ void	go_cor(t_cor *cor);
 
 t_carr	*new_curr(int id_par);
 void	add_curr(t_carr **all_carr, t_carr *new);
-int	len_curr(t_carr *list);
+int		len_curr(t_carr *list);
 t_carr	*remove_head(t_cor *cor, t_carr *curr);
 t_carr	*remove_elem(t_carr *curr, t_carr **prev);
 t_carr	*carr_list(t_cor *cor);
@@ -247,5 +247,8 @@ void		main_panel(WINDOW *main_win, t_cor *tool);
 void		paint_carg(t_cor *cor);
 void		visual(t_cor *cor);
 int			graph_cycle(t_cor *cor);
+void		write_map_color(t_cor *cor, int pos, int len, t_carr *carg);
+void		end_game(t_cor *cor);
+void		stop_visual(t_cor *cor);
 
 #endif

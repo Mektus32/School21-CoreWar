@@ -209,6 +209,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/School21_CoreWar.dir/src_cor/visu_cicle.c.o"
   "CMakeFiles/School21_CoreWar.dir/src_cor/visu_init.c.o"
   "CMakeFiles/School21_CoreWar.dir/vm_champs/op.c.o"
+  "CMakeFiles/School21_CoreWar.dir/src_cor/write_map.c.o"
   "School21_CoreWar.pdb"
   "School21_CoreWar"
 )

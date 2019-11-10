@@ -747,6 +747,9 @@
 		<Unit filename="/Users/ojessi/Desktop/School21-CoreWar/src_cor/visu_init.c">
 			<Option target="School21_CoreWar"/>
 		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/School21-CoreWar/src_cor/write_map.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
 		<Unit filename="/Users/ojessi/Desktop/School21-CoreWar/vm_champs/op.c">
 			<Option target="School21_CoreWar"/>
 		</Unit>

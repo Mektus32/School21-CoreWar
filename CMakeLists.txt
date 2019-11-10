@@ -230,4 +230,4 @@ add_executable(School21_CoreWar
         src_cor/visu_cicle.c
         src_cor/visu_init.c
         vm_champs/op.c
-        vm_champs/op.h)
+        vm_champs/op.h src_cor/write_map.c)

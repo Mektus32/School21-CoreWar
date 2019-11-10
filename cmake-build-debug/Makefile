@@ -5766,6 +5766,33 @@ src_cor/visu_init.c.s:
 	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor/visu_init.c.s
 .PHONY : src_cor/visu_init.c.s
 
+src_cor/write_map.o: src_cor/write_map.c.o
+
+.PHONY : src_cor/write_map.o
+
+# target to build an object file
+src_cor/write_map.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor/write_map.c.o
+.PHONY : src_cor/write_map.c.o
+
+src_cor/write_map.i: src_cor/write_map.c.i
+
+.PHONY : src_cor/write_map.i
+
+# target to preprocess a source file
+src_cor/write_map.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor/write_map.c.i
+.PHONY : src_cor/write_map.c.i
+
+src_cor/write_map.s: src_cor/write_map.c.s
+
+.PHONY : src_cor/write_map.s
+
+# target to generate assembly for a file
+src_cor/write_map.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor/write_map.c.s
+.PHONY : src_cor/write_map.c.s
+
 vm_champs/op.o: vm_champs/op.c.o
 
 .PHONY : vm_champs/op.o
@@ -6429,6 +6456,9 @@ help:
 	@echo "... src_cor/visu_init.o"
 	@echo "... src_cor/visu_init.i"
 	@echo "... src_cor/visu_init.s"
+	@echo "... src_cor/write_map.o"
+	@echo "... src_cor/write_map.i"
+	@echo "... src_cor/write_map.s"
 	@echo "... vm_champs/op.o"
 	@echo "... vm_champs/op.i"
 	@echo "... vm_champs/op.s"

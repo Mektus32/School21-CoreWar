@@ -38,7 +38,8 @@ SRC =	main.c \
 		parse_av.c \
 		do_op.c \
 		visu_init.c \
-		visu_cicle.c
+		visu_cicle.c \
+		write_map.c
 
 
 

@@ -33,9 +33,16 @@ int		players(WINDOW *side_win, int line, t_cor *cor)
 		mvwprintw(side_win, line++, 2, "Player %d : %s \n",
 				  cor->m_ch[i]->id + 1, cor->m_ch[i]->prog_name);
 		wattroff(side_win, COLOR_PAIR(cor->m_ch[i]->id + 1));
-		//len_car(cor->carr);
-//		mvwprintw(side_win, line++, 4, "Lives in current period :\t\t%d    ",
-//				  cor->m_2[i]->count_live);
+		int j = 0;
+		t_carr *tmp = cor->carr;
+		while (tmp) {
+			if (tmp->id_par == i + 1) {
+				++j;
+			}
+			tmp = tmp->next;
+		}
+		mvwprintw(side_win, line++, 4, "Lives in current period :\t\t%d    ",
+				  j);
 		line++;
 	}
 	return (line);
@@ -100,13 +107,16 @@ void	main_panel(WINDOW *main_win, t_cor *cor)
 		j = -1;
 		while (++j < 64)
 		{
-//			if (cor->bold[i * 64 + j] && (tool->bold[i * 64 + j] -= 1))
-//				wattron(main_win, A_BOLD);
+			if (cor->bold[i * 64 + j] && (cor->bold[i * 64 + j] -= 1))
+				wattron(main_win, A_BOLD);
 			wattron(main_win, COLOR_PAIR(cor->colormap[i * 64 + j]));
-			mvwprintw(main_win, line, col, "%.2x ", cor->code[i * 64 + j]);
+			if (cor->code[i * 64 + j] < 0)
+				mvwprintw(main_win, line, col, "%.2x ", 256 - -1 * cor->code[i * 64 + j]);
+			else
+				mvwprintw(main_win, line, col, "%.2x ", cor->code[i * 64 + j]);
 			wattroff(main_win, COLOR_PAIR(cor->colormap[i * 64 + j]));
-//			if (tool->bold[i * 64 + j])
-//				wattroff(main_win, A_BOLD);
+			if (cor->bold[i * 64 + j])
+				wattroff(main_win, A_BOLD);
 			col += 3;
 		}
 		line++;

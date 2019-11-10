@@ -117,8 +117,9 @@ void	go_cor(t_cor *cor)
 			cor->live->cyc_tmp = cor->live->cyc;
 			check_live(cor);
 		}
-		//getch() == 32 ? cor->visual.pause = 0 : 0;
 		cor->visual.vis ? visual(cor) : 0;
-		//visu_cicle
+	}
+	if (cor->visual.vis) {
+		stop_visual(cor);
 	}
 }
