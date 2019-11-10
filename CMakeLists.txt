@@ -1,16 +1,15 @@
 cmake_minimum_required(VERSION 3.14)
-project(coreWar C)
+project(School21_CoreWar C)
 
 set(CMAKE_C_STANDARD 11)
 
-include_directories(.)
 include_directories(ft_printf/head)
 include_directories(ft_printf_m/includes)
 include_directories(includes)
 include_directories(libft/includes)
 include_directories(vm_champs)
 
-add_executable(coreWar
+add_executable(School21_CoreWar
         ft_printf/head/libft.h
         ft_printf/head/libftprintf.h
         ft_printf/libft/source/ft_atoi.c
@@ -227,5 +226,8 @@ add_executable(coreWar
         src_cor/parse_av.c
         src_cor/print_code.c
         src_cor/read_byte.c
+        src_cor/vis_etc.c
+        src_cor/visu_cicle.c
+        src_cor/visu_init.c
         vm_champs/op.c
-        vm_champs/op.h src_cor/visu_init.c src_cor/visu_cicle.c src_cor/vis_etc.c)
+        vm_champs/op.h)

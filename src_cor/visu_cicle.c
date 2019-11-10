@@ -102,7 +102,7 @@ void	main_panel(WINDOW *main_win, t_cor *cor)
 		{
 //			if (cor->bold[i * 64 + j] && (tool->bold[i * 64 + j] -= 1))
 //				wattron(main_win, A_BOLD);
-//			wattron(main_win, COLOR_PAIR(tool->colors[i * 64 + j]));
+			wattron(main_win, COLOR_PAIR(cor->colormap[i * 64 + j]));
 			mvwprintw(main_win, line, col, "%.2x ", cor->code[i * 64 + j]);
 			wattroff(main_win, COLOR_PAIR(cor->colormap[i * 64 + j]));
 //			if (tool->bold[i * 64 + j])

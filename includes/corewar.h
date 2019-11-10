@@ -124,7 +124,8 @@ typedef struct			s_cor
 	t_champ				*m_ch[MAX_PLAYERS];
 	t_champ				*m_2[MAX_PLAYERS];
 	char				*code;
-	int 				*colormap;
+	unsigned char		*colormap;
+	unsigned char		*bold;
 	t_vis				visual;
 	struct s_carr		*carr;
 	struct s_live		*live;

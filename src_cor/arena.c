@@ -51,10 +51,10 @@ void	memset_colormap(t_cor *cor, int i)
 {
 	int		k;
 
-	k = i * (MEM_SIZE / cor->n);
-	while (k < (i + 1) * (MEM_SIZE / cor->n))
+	k = 0;
+	while (k < cor->m_ch[i]->prog_size)
 	{
-		cor->colormap[k] = i;
+		cor->colormap[k + i * (MEM_SIZE / cor->n)] = i + 1;
 		k++;
 	}
 }
@@ -66,7 +66,8 @@ void	arena(t_cor *cor)
 
 	cor->code = (char *)ft_memalloc(sizeof(char) * MEM_SIZE);
 	cor->live = (t_live *)ft_memalloc(sizeof(t_live));
-	cor->colormap = (int *)ft_memalloc(sizeof(int) * MEM_SIZE);
+	cor->colormap = (unsigned char *)ft_memalloc(MEM_SIZE);
+	cor->bold = (unsigned char *)ft_memalloc(MEM_SIZE);
 	i = 0;
 	while (i < cor->n)
 	{
@@ -75,10 +76,10 @@ void	arena(t_cor *cor)
 		memset_colormap(cor, i);
 		i++;
 	}
-//	i = 0;
+	i = 0;
 //while (i < MEM_SIZE)
 //{
-//	ft_printf("%d",cor->colormap[i]);
+//	ft_printf("%c",cor->colormap[i] + '0');
 //	i++;
 //	if ((i % (MEM_SIZE / cor->n)) == 0)
 //		ft_printf("\n");
