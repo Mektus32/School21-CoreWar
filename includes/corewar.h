@@ -29,6 +29,7 @@
 typedef struct	s_vis
 {
 	int		vis;
+	int		delay;
 	WINDOW	*main_win;
 	WINDOW	*side_win;
 	int		pause;

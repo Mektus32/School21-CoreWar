@@ -24,7 +24,7 @@ void	create_field(t_cor *cor)
 void	draw(t_cor *cor)
 {
 	curs_set(0);
-	usleep(DELAY);
+	usleep(cor->visual.delay);
 	side_panel(cor->visual.side_win, cor);
 	main_panel(cor->visual.main_win, cor);
 	box(cor->visual.side_win, 0, 0);
@@ -36,9 +36,11 @@ void	draw(t_cor *cor)
 void	init_window(t_cor *cor)
 {
 	initscr();
+	cor->visual.delay = DELAY;
 	cbreak();
 	noecho();
 	keypad(stdscr, TRUE);
+	nodelay(stdscr, TRUE);
 	create_field(cor);
 	start_color();
 	init_pair(1, COLOR_GREEN, COLOR_BLACK);
@@ -62,7 +64,11 @@ int		graph_cycle(t_cor *cor)
 	if (ch == 27)
 		return (1);
 	if (ch == ' ')
-		cor->visual.pause = ++cor->visual.pause % 2;
+		cor->visual.pause = (++cor->visual.pause) % 2;
+	else if (ch == '+' && cor->visual.delay <= 50000)
+		cor->visual.delay += 1000;
+	else if (ch == '-' && cor->visual.delay > 1000)
+		cor->visual.delay -= 1000;
 	else if (ch == KEY_MOUSE)
 	{
 		if (getmouse(&event) == OK)
@@ -74,12 +80,20 @@ int		graph_cycle(t_cor *cor)
 void	visual(t_cor *cor)
 {
 	draw(cor);
+	graph_cycle(cor);
 	while (cor->visual.pause == 0)
 	{
+		wattron(cor->visual.side_win, COLOR_PAIR(2));
+		mvwprintw(cor->visual.side_win, 1, 2, "** PAUSED  **");
+		wattroff(cor->visual.side_win, COLOR_PAIR(2));
+		mvwprintw(cor->visual.side_win, 17, 2, "DELTA_TIME_PRINT : %d ",
+				cor->visual.delay);
+		wrefresh(cor->visual.side_win);
 		if (graph_cycle(cor) == 1)
 		{
 			delwin(cor->visual.main_win);
 			delwin(cor->visual.side_win);
+			free_cor(cor);
 			endwin();
 			exit(1);
 		}
