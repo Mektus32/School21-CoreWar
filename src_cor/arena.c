@@ -6,7 +6,7 @@
 /*   By: qgilbert <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/06 20:30:26 by qgilbert          #+#    #+#             */
-/*   Updated: 2019/11/06 20:30:27 by qgilbert         ###   ########.fr       */
+/*   Updated: 2019/11/12 17:00:53 by ojessi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,7 @@ t_carr	*carr_list(t_cor *cor)
 
 void	memset_colormap(t_cor *cor, int i)
 {
-	int		k;
+	unsigned int		k;
 
 	k = 0;
 	while (k < cor->m_ch[i]->prog_size)
@@ -76,14 +76,6 @@ void	arena(t_cor *cor)
 		memset_colormap(cor, i);
 		i++;
 	}
-	i = 0;
-//while (i < MEM_SIZE)
-//{
-//	ft_printf("%c",cor->colormap[i] + '0');
-//	i++;
-//	if ((i % (MEM_SIZE / cor->n)) == 0)
-//		ft_printf("\n");
-//}
 	cor->carr = carr_list(cor);
 	i = 0;
 	ft_printf("Introducing contestants...\n");

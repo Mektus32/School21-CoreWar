@@ -6,7 +6,7 @@
 /*   By: qgilbert <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/03 20:54:02 by qgilbert          #+#    #+#             */
-/*   Updated: 2019/11/03 20:54:04 by qgilbert         ###   ########.fr       */
+/*   Updated: 2019/11/12 17:01:27 by ojessi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,6 +96,7 @@ void	make_champ_n(int ac, char **av, int n, t_cor *cor)
 {
 	int	i;
 
+	ac = 0;
 	i = ft_atoi(av[n]);
 	if (i && i <= cor->n)
 	{

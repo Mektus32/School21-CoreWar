@@ -6,7 +6,7 @@
 /*   By: ojessi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/08 14:11:29 by ojessi            #+#    #+#             */
-/*   Updated: 2019/11/08 14:11:30 by ojessi           ###   ########.fr       */
+/*   Updated: 2019/11/12 16:57:30 by ojessi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,25 +24,26 @@ WINDOW	*create_newwin(int height, int width, int starty, int startx)
 
 int		players(WINDOW *side_win, int line, t_cor *cor)
 {
-	int i;
+	int		i;
+	int		j;
+	t_carr	*tmp;
 
 	i = -1;
 	while (++i < cor->n)
 	{
 		wattron(side_win, COLOR_PAIR(cor->m_ch[i]->id + 1));
 		mvwprintw(side_win, line++, 2, "Player %d : %s \n",
-				  cor->m_ch[i]->id + 1, cor->m_ch[i]->prog_name);
+				cor->m_ch[i]->id + 1, cor->m_ch[i]->prog_name);
 		wattroff(side_win, COLOR_PAIR(cor->m_ch[i]->id + 1));
-		int j = 0;
-		t_carr *tmp = cor->carr;
-		while (tmp) {
-			if (tmp->id_par == i + 1) {
-				++j;
-			}
+		j = 0;
+		tmp = cor->carr;
+		while (tmp)
+		{
+			tmp->id_par == i + 1 ? ++j : 0;
 			tmp = tmp->next;
 		}
 		mvwprintw(side_win, line++, 4, "Lives in current period :\t\t%d    ",
-				  j);
+				j);
 		line++;
 	}
 	return (line);
@@ -84,8 +85,7 @@ void	paint_carg(t_cor *cor)
 		color = cor->colormap[carg->cur] + 10;
 		wattron(cor->visual.main_win, COLOR_PAIR(color));
 		mvwprintw(cor->visual.main_win, carg->cur / 64 + 1,
-				  2 + (carg->cur % 64) * 3, "%.2x",
-				  cor->code[carg->cur]);
+				2 + (carg->cur % 64) * 3, "%.2x", cor->code[carg->cur]);
 		wattroff(cor->visual.main_win, COLOR_PAIR(color));
 		carg = carg->next;
 	}
@@ -111,7 +111,8 @@ void	main_panel(WINDOW *main_win, t_cor *cor)
 				wattron(main_win, A_BOLD);
 			wattron(main_win, COLOR_PAIR(cor->colormap[i * 64 + j]));
 			if (cor->code[i * 64 + j] < 0)
-				mvwprintw(main_win, line, col, "%.2x ", 256 - -1 * cor->code[i * 64 + j]);
+				mvwprintw(main_win, line, col, "%.2x ", 256 - -1
+						* cor->code[i * 64 + j]);
 			else
 				mvwprintw(main_win, line, col, "%.2x ", cor->code[i * 64 + j]);
 			wattroff(main_win, COLOR_PAIR(cor->colormap[i * 64 + j]));

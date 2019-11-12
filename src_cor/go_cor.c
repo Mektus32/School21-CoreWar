@@ -6,7 +6,7 @@
 /*   By: qgilbert <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/06 20:31:25 by qgilbert          #+#    #+#             */
-/*   Updated: 2019/11/06 20:31:26 by qgilbert         ###   ########.fr       */
+/*   Updated: 2019/11/12 16:52:25 by ojessi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,31 +85,32 @@ static void	check_live(t_cor *cor)
 /*
 ** основная ф игры
 ** print_dump_code - печатает код и выходит из игры, если есть dump
-** do_op - переходит к оперециям 2 из них изменяют код(st и sti), и одна состояние лайв
+** do_op - переходит к оперециям 2 из них изменяют код(st и sti),
+** и одна состояние лайв
 ** check_live - в т.ч. меняет время до смерти и
 ** делает проверку(удаляет лишние каретки)
 */
 
-void	go_cor(t_cor *cor)
+void		go_cor(t_cor *cor)
 {
 	t_carr	*tmp;
 
 	while (cor->carr)
 	{
-		if (cor->carr && (cor->live->cyc++ == cor->nbr_cyc || cor->nbr_cyc == 0))
+		if (cor->carr && (cor->live->cyc++ == cor->nbr_cyc
+					|| cor->nbr_cyc == 0))
 			print_dump_code(cor);
 		tmp = cor->carr;
 		while (tmp)
 		{
 			if (tmp->cycles_to == 0)
 			{
- 				tmp->cur = mem_size(tmp->cur + tmp->i);
+				tmp->cur = mem_size(tmp->cur + tmp->i);
 				tmp->prog = read_byte_1(cor->code, tmp->cur);
 				tmp->cycles_to = ft_cycles_to(tmp->prog);
 				tmp->i = 0;
 			}
-			if (--tmp->cycles_to == 0)
-					do_op(cor, tmp);
+			--tmp->cycles_to == 0 ? do_op(cor, tmp) : 0;
 			tmp = tmp->next;
 		}
 		if ((cor->live->cyc - cor->live->cyc_tmp) >= cor->live->cyc_to_die)
@@ -119,7 +120,5 @@ void	go_cor(t_cor *cor)
 		}
 		cor->visual.vis ? visual(cor) : 0;
 	}
-	if (cor->visual.vis) {
-		stop_visual(cor);
-	}
+	cor->visual.vis ? stop_visual(cor) : 0;
 }

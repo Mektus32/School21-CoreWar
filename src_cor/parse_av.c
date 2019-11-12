@@ -6,7 +6,7 @@
 /*   By: qgilbert <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/03 19:58:09 by qgilbert          #+#    #+#             */
-/*   Updated: 2019/11/03 19:58:10 by qgilbert         ###   ########.fr       */
+/*   Updated: 2019/11/12 17:01:46 by ojessi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -108,7 +108,6 @@ static void		take_cor(int ac, char **av, t_cor *cor)
 t_cor			*parse_av(int ac, char **av)
 {
 	int		i;
-	int		j;
 	t_cor	*cor;
 	char	*name;
 

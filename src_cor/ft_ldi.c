@@ -6,7 +6,7 @@
 /*   By: qgilbert <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/06 19:44:18 by qgilbert          #+#    #+#             */
-/*   Updated: 2019/11/06 19:44:20 by qgilbert         ###   ########.fr       */
+/*   Updated: 2019/11/12 17:00:10 by ojessi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@ static short		len_k(t_cor *cor, t_carr *tmp, char *b2, int *f_err)
 	short			k;
 	unsigned char	t_reg;
 
+	k = 0;
 	k += arg_2(b2, tmp, cor, f_err);
 	if (b2[2] == 0 && b2[3] == 1)
 	{

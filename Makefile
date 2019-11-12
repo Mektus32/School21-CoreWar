@@ -6,13 +6,13 @@
 #    By: qgilbert <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/09/02 19:44:17 by qgilbert          #+#    #+#              #
-#    Updated: 2019/09/02 19:45:21 by qgilbert         ###   ########.fr        #
+#    Updated: 2019/11/12 17:22:01 by ojessi           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 .PHONY: all, clean, fclean, re, obj, red, grn, off, vis
 
-NAME = cor_1
+NAME = corewar
 
 # src / obj files
 SRC =	main.c \
@@ -48,7 +48,7 @@ OBJ = $(addprefix $(OBJDIR), $(SRC:.c=.o))
 
 # compiler
 CC = gcc
-#CFLAGS = -Wextra -Wall -Werror
+CFLAGS = -Wextra -Wall -Werror
 
 # ft library
 FT = ./libft

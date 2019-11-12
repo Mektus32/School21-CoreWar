@@ -6,7 +6,7 @@
 /*   By: qgilbert <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/23 21:46:07 by qgilbert          #+#    #+#             */
-/*   Updated: 2019/09/23 21:46:09 by qgilbert         ###   ########.fr       */
+/*   Updated: 2019/11/12 16:47:46 by ojessi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,6 @@ void	ft_live(t_cor *cor, t_carr *tmp)
 		if ((cor->m_ch[i]->id + 1) == -t_dir)
 		{
 			cor->live->id_live = i + 1;
-			//ft_printf("A process shows that player %s is alive\n", cor->m_ch[i]->prog_name);
 		}
 		i++;
 	}

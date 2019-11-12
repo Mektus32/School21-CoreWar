@@ -6,7 +6,7 @@
 /*   By: qgilbert <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/06 19:55:18 by qgilbert          #+#    #+#             */
-/*   Updated: 2019/11/06 19:55:20 by qgilbert         ###   ########.fr       */
+/*   Updated: 2019/11/12 16:59:44 by ojessi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@ static unsigned int	arg_dir(char *b2, t_cor *cor, t_carr *tmp)
 	unsigned int	t_dir;
 	short			t_ind;
 
+	t_dir = 0;
 	if (b2[1] == 1)
 	{
 		t_ind = read_byte_2(cor->code, tmp->cur + tmp->i);
@@ -35,6 +36,7 @@ int					arg_4(char *b2, t_carr *tmp, t_cor *cor, int *f_err)
 	unsigned char	t_reg_3;
 	unsigned int	t_dir;
 
+	t_dir = 0;
 	if (b2[0] == 0 && b2[1] == 1)
 	{
 		t_reg_3 = read_byte_1(cor->code, tmp->cur + tmp->i++);
@@ -57,6 +59,7 @@ short				arg_2(char *b2, t_carr *tmp, t_cor *cor, int *f_err)
 	unsigned char	t_reg_3;
 	short			t_ind;
 
+	a1 = 0;
 	if (b2[0] == 0 && b2[1] == 1)
 	{
 		t_reg_3 = read_byte_1(cor->code, tmp->cur + tmp->i++);
