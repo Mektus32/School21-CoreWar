@@ -29,13 +29,12 @@ int		players(WINDOW *side_win, int line, t_cor *cor)
 	t_carr	*tmp;
 
 	i = -1;
-	while (++i < cor->n)
+	while (++i < cor->n && !(j = 0))
 	{
 		wattron(side_win, COLOR_PAIR(cor->m_ch[i]->id + 1));
 		mvwprintw(side_win, line++, 2, "Player %d : %s \n",
 				cor->m_ch[i]->id + 1, cor->m_ch[i]->prog_name);
 		wattroff(side_win, COLOR_PAIR(cor->m_ch[i]->id + 1));
-		j = 0;
 		tmp = cor->carr;
 		while (tmp)
 		{
@@ -95,31 +94,13 @@ void	paint_carg(t_cor *cor)
 void	main_panel(WINDOW *main_win, t_cor *cor)
 {
 	int		i;
-	int		j;
 	int		line;
-	int		col;
 
 	line = 1;
 	i = -1;
 	while (++i < 64)
 	{
-		col = 2;
-		j = -1;
-		while (++j < 64)
-		{
-			if (cor->bold[i * 64 + j] && (cor->bold[i * 64 + j] -= 1))
-				wattron(main_win, A_BOLD);
-			wattron(main_win, COLOR_PAIR(cor->colormap[i * 64 + j]));
-			if (cor->code[i * 64 + j] < 0)
-				mvwprintw(main_win, line, col, "%.2x ", 256 - -1
-						* cor->code[i * 64 + j]);
-			else
-				mvwprintw(main_win, line, col, "%.2x ", cor->code[i * 64 + j]);
-			wattroff(main_win, COLOR_PAIR(cor->colormap[i * 64 + j]));
-			if (cor->bold[i * 64 + j])
-				wattroff(main_win, A_BOLD);
-			col += 3;
-		}
+		panel_help(cor, main_win, i, line);
 		line++;
 	}
 	paint_carg(cor);

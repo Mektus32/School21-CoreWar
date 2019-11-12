@@ -21,6 +21,7 @@ void		free_cor(t_cor *cor)
 	free(cor->code);
 	free(cor->colormap);
 	free(cor->live);
+	free(cor->bold);
 	carr = cor->carr;
 	while (carr)
 		carr = remove_head(cor, carr);

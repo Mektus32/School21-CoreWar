@@ -91,6 +91,17 @@ static void	check_live(t_cor *cor)
 ** делает проверку(удаляет лишние каретки)
 */
 
+static void	cycles_read(t_cor *cor, t_carr *tmp)
+{
+	if (tmp->cycles_to == 0)
+	{
+		tmp->cur = mem_size(tmp->cur + tmp->i);
+		tmp->prog = read_byte_1(cor->code, tmp->cur);
+		tmp->cycles_to = ft_cycles_to(tmp->prog);
+		tmp->i = 0;
+	}
+}
+
 void		go_cor(t_cor *cor)
 {
 	t_carr	*tmp;
@@ -103,13 +114,7 @@ void		go_cor(t_cor *cor)
 		tmp = cor->carr;
 		while (tmp)
 		{
-			if (tmp->cycles_to == 0)
-			{
-				tmp->cur = mem_size(tmp->cur + tmp->i);
-				tmp->prog = read_byte_1(cor->code, tmp->cur);
-				tmp->cycles_to = ft_cycles_to(tmp->prog);
-				tmp->i = 0;
-			}
+			cycles_read(cor, tmp);
 			--tmp->cycles_to == 0 ? do_op(cor, tmp) : 0;
 			tmp = tmp->next;
 		}

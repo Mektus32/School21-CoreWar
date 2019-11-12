@@ -47,7 +47,6 @@ typedef struct	s_champ
 
 /*
 ** каретка:
-**
 ** Название регистра (r1, r2...) в байт-коде занимает 1 байт.
 ** Но сам регистр вмещает в себя 4 байта, как указано в константе REG_SIZE.
 ** num - уникальный номер каретки !!! ЗАЧЕМ?
@@ -62,7 +61,6 @@ typedef struct	s_champ
 ** cycles_to - количество циклов, сколько ему осталось ждать
 ** до исполнения команды.
 ** i - перемещение каретки на шаге (длина предыдущего хода)
-**
 */
 
 typedef struct	s_carr
@@ -91,8 +89,8 @@ typedef struct	s_carr
 ** check_count - количество проведенных проверок
 ** - обнуляется, если меняется cyc to die
 ** cycle_new - кол -во циклов после обнуления
- * counter - считает проверки без изменения to_die
-** */
+** counter - считает проверки без изменения to_die
+*/
 
 typedef struct	s_live
 {
@@ -108,7 +106,7 @@ typedef struct	s_live
 ** Общая структура для игры
 ** n - общее кол - во игроков
 ** n_curr - число кареток в настоящий момент
- * nbr_cyc - если есть dump
+** nbr_cyc - если есть dump
 ** f - набор флажков для заполнения с флагом -n
 ** m_ch - основной хранитель чемпионов
 ** (хранит ссылки на m_2)
@@ -186,9 +184,9 @@ void			print_dump_code(t_cor *cor);
 void			exit_print(char *str);
 
 /*
- * ***** read_byte ******
- * inttobyte - переводит инт в байт
- * base16_2_cor - из одного байта делает 8 бит
+** ***** read_byte ******
+** inttobyte - переводит инт в байт
+** base16_2_cor - из одного байта делает 8 бит
 */
 
 unsigned char	read_byte_1(const char *src, int i);
@@ -198,8 +196,8 @@ unsigned char	*inttobyte(int a);
 char			*base16_2_cor(t_cor *cor, t_carr *tmp);
 
 /*
- * ***** ft_liba ******
- * */
+** ***** ft_liba ******
+*/
 
 void			free_cor(t_cor *cor);
 char			*ft_strncpy_all(char *dest, const char *source, size_t n);
@@ -207,12 +205,12 @@ int				mem_size(int cur);
 short			idx_mod(short t_ind);
 
 /*
- * ***** ft_add ******
- * arg_4 - считает откуда считывать 4 байта, если возможные аргументы t_reg,
- * t_dir(4 байта) или t_ind
- * arg_2 - считает откуда считывать 4 байта  t_dir(2 байта) или t_ind
- *
- * */
+** ***** ft_add ******
+** arg_4 - считает откуда считывать 4 байта, если возможные аргументы t_reg,
+** t_dir(4 байта) или t_ind
+** arg_2 - считает откуда считывать 4 байта  t_dir(2 байта) или t_ind
+*/
+
 void			ft_add(t_cor *cor, t_carr *tmp);
 void			ft_zjmp(t_cor *cor, t_carr *tmp);
 int				arg_4(char *b2, t_carr *tmp, t_cor *cor, int *f_err);
@@ -254,5 +252,6 @@ int				graph_cycle(t_cor *cor);
 void			write_map_color(t_cor *cor, int pos, int len, t_carr *carg);
 void			end_game(t_cor *cor);
 void			stop_visual(t_cor *cor);
+void			panel_help(t_cor *cor, WINDOW *main_win, int i, int line);
 
 #endif

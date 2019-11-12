@@ -76,6 +76,15 @@ static void		change_pos(t_cor *cor)
 **		}
 */
 
+static void		dump_arg(int *i, t_cor *cor, int ac, char **av)
+{
+	if (*i == (ac - 1))
+		exit_print("Can't read source file -dump");
+	cor->nbr_cyc = 0;
+	cor->nbr_cyc = ft_atoi(av[*i + 1]);
+	*i += 2;
+}
+
 static void		take_cor(int ac, char **av, t_cor *cor)
 {
 	int i;
@@ -86,13 +95,7 @@ static void		take_cor(int ac, char **av, t_cor *cor)
 	while (i < ac)
 	{
 		if (!(ft_strcmp("-dump", av[i])))
-		{
-			if (i == (ac - 1))
-				exit_print("Can't read source file -dump");
-			cor->nbr_cyc = 0;
-			cor->nbr_cyc = ft_atoi(av[i + 1]);
-			i += 2;
-		}
+			dump_arg(&i, cor, ac, av);
 		else if (ft_strcmp("-n", av[i]) == 0 && (i + 2) < ac)
 		{
 			make_champ_n(ac, av, ++i, cor);
@@ -100,6 +103,11 @@ static void		take_cor(int ac, char **av, t_cor *cor)
 		}
 		else if (ft_strstr(av[i], ".cor") && j < MAX_PLAYERS)
 			cor->m_2[j++] = valid_champ(i++, av);
+		else if (ft_strcmp("-v", av[i]) == 0)
+		{
+			cor->visual.vis = 1;
+			i++;
+		}
 		else
 			exit_print("Can't read source file\n");
 	}
