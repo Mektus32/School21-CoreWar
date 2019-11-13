@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <limits.h>
 
 static void		itoa_isnegative(long *n, int *negative)
 {
