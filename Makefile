@@ -6,11 +6,11 @@
 #    By: qgilbert <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/09/02 19:44:17 by qgilbert          #+#    #+#              #
-#    Updated: 2019/11/12 21:08:10 by qgilbert         ###   ########.fr        #
+#    Updated: 2019/11/13 19:53:58 by ojessi           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-.PHONY: all, clean, fclean, re, obj, red, grn, off, vis
+.PHONY: all, clean, fclean, re, obj, red, grn, off, asm, diasm
 
 NAME = corewar
 
@@ -68,9 +68,15 @@ SRCDIR = ./src_cor/
 INCDIR = -I ./includes/
 OBJDIR = ./obj/
 
+# asm
+ASM = ./corewar_asm
+
+# diasm
+DIASM = ./corewar_diasm
+
 all: $(NAME)
 
-$(NAME): obj $(FT_LIB) $(PR_LIB) grn $(OBJ) vis
+$(NAME): obj $(FT_LIB) $(PR_LIB) grn $(OBJ) asm diasm
 	@$(CC) $(CFLAGS) $(OBJ) -lncurses $(PR_LNK) $(FT_LNK) -lm -o $(NAME)
 	@echo "\x1b[0m"
 
@@ -92,6 +98,12 @@ $(FT_LIB):
 $(PR_LIB):
 	@make -C $(PR)
 
+asm:
+	@make -C $(ASM)
+
+diasm:
+	@make -C $(DIASM)
+
 
 $(OBJDIR)%.o:$(SRCDIR)%.c
 	$(CC) $(CFLAGS) $(PR_INC) $(FT_INC) $(INCDIR) -o $@ -c $<
@@ -100,11 +112,15 @@ clean: red
 	/bin/rm -rf $(OBJDIR)
 	@make -C $(FT) clean
 	@make -C $(PR) clean
+	@make -C $(ASM) clean
+	@make -C $(DIASM) clean
 
 
 fclean: clean
 	/bin/rm -rf $(NAME)
 	make -C $(FT) fclean
 	make -C $(PR) fclean
+	make -C $(ASM) fclean
+	make -C $(DIASM) fclean
 
 re: fclean all

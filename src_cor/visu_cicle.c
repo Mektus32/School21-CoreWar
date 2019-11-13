@@ -70,7 +70,7 @@ void	side_panel(WINDOW *side_win, t_cor *cor)
 	line = players(side_win, line, cor);
 	mvwprintw(side_win, line, 2, "CYCLE_TO_DIE : %d ", cor->live->cyc_to_die);
 	mvwprintw(side_win, line + 2, 2, "CYCLE_DELTA : %d ", CYCLE_DELTA);
-	mvwprintw(side_win, line + 4, 2, "DELTA_TIME_PRINT : %d ",
+	mvwprintw(side_win, 23, 2, "DELTA_TIME_PRINT : %d ",
 	cor->visual.delay);
 }
 

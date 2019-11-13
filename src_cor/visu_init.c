@@ -86,7 +86,7 @@ void	visual(t_cor *cor)
 		wattron(cor->visual.side_win, COLOR_PAIR(2));
 		mvwprintw(cor->visual.side_win, 1, 2, "** PAUSED  **");
 		wattroff(cor->visual.side_win, COLOR_PAIR(2));
-		mvwprintw(cor->visual.side_win, 17, 2, "DELTA_TIME_PRINT : %d ",
+		mvwprintw(cor->visual.side_win, 23, 2, "DELTA_TIME_PRINT : %d ",
 				cor->visual.delay);
 		wrefresh(cor->visual.side_win);
 		if (graph_cycle(cor) == 1)
