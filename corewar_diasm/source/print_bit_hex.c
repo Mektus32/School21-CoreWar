@@ -6,7 +6,7 @@
 /*   By: widraugr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/13 13:02:02 by widraugr          #+#    #+#             */
-/*   Updated: 2019/11/13 18:56:09 by widraugr         ###   ########.fr       */
+/*   Updated: 2019/11/13 21:14:15 by widraugr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,11 +38,13 @@ void	open_file_cor(t_diasm *diasm, char *name)
 char	*dot_s(char *name)
 {
 	char	*dot_cor;
+	char	*tmp;
 	size_t	len;
 
 	len = ft_strlen(name);
 	dot_cor = ft_strnew(len);
-	ft_memccpy(dot_cor, name, '.', len);
+	tmp = ft_strstr(name, ".cor");
+	ft_memcpy(dot_cor, name, (tmp - name) + 1);
 	ft_strcat(dot_cor, "dis");
 	return (dot_cor);
 }
