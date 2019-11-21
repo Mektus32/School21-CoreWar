@@ -22,6 +22,7 @@ void				ft_zjmp(t_cor *cor, t_carr *tmp)
 		t_ind = read_byte_2(cor->code, tmp->cur + 1);
 		a = idx_mod(t_ind);
 		tmp->cur = mem_size(tmp->cur + a);
+		tmp->i = 0;
 	}
 	else
 		tmp->i = 3;
