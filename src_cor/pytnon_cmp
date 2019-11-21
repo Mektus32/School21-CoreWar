@@ -1,0 +1,23 @@
+f_my = open('test_my_print', 'r')
+f_not = open('test_not_my_print', 'r').readlines()
+i = 0
+for line in f_my:
+  pr = line.split(sep=",")
+  pr_not = f_not[i].split(sep = ",")
+  if len(pr) >= 2: #если в строке есть запятая
+    cyc = pr[0].split(sep = "=")
+    cyc_not = pr_not[0].split(sep="=")
+    op = pr[1].split(sep = "=")
+    op_not = pr_not[1].split(sep="=")
+  
+    if (len(cyc) > 1 and len(cyc_not) > 1):
+      if (int(cyc[1]) == int(cyc_not[1])):
+        print("cyc_ok = ", cyc[1])
+        if (int(op[1]) == int(op_not[1]) + 1):
+          print("op_ok")
+        else:
+          print("op_NO_OK")
+      else:
+        print("cyc_error = ", cyc_not[1])
+        break
+  i+=1
