@@ -34,8 +34,8 @@ void	ft_live(t_cor *cor, t_carr *tmp)
 		if ((cor->m_ch[i]->id + 1) == -t_dir)
 		{
 			cor->live->id_live = i + 1;
-			ft_printf("A process shows that player %s is alive\n",
-				cor->m_ch[i]->prog_name);
+			//ft_printf("A process shows that player %s is alive\n",
+				//cor->m_ch[i]->prog_name);
 		}
 		i++;
 	}
