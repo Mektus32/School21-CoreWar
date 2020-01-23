@@ -108,12 +108,13 @@ void		go_cor(t_cor *cor)
 
 	while (cor->carr)
 	{
-		if (cor->carr && (cor->live->cyc++ == cor->nbr_cyc
-					|| cor->nbr_cyc == 0))
-			print_dump_code(cor);
+
 		tmp = cor->carr;
 		while (tmp)
 		{
+		if (cor->carr && (cor->live->cyc++ == cor->nbr_cyc
+		|| cor->nbr_cyc == 0))
+		print_dump_code(cor);
 			cycles_read(cor, tmp);
 			--tmp->cycles_to == 0 ? do_op(cor, tmp) : 0;
 			tmp = tmp->next;

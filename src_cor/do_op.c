@@ -44,14 +44,20 @@ void	do_op_two(t_cor *cor, t_carr *tmp)
 
 void	do_op(t_cor *cor, t_carr *tmp)
 {
-	if (tmp->prog  > 0 && tmp->prog <= 16)
-		printf("cyc = %d, op = %d, cur = %d, cyc_live = %d\n", cor->live->cyc, tmp->prog, tmp->cur,tmp->cycles_live);
-	for (int i = 0; i < 16; ++i)
-					{	
-						int in_reg =tmp->reg[i];
-						printf(" reg[%d] = %d", i, in_reg);
-					}
-				printf("\n");
+	// if (tmp->prog  > 0 && tmp->prog <= 16)
+	// {
+	// 	printf("cyc = %d, op = %d, cur = %d, cyc_live = %d\n", cor->live->cyc, tmp->prog, tmp->cur,tmp->cycles_live);
+
+	// for (int i = 0; i < 16; ++i)
+	// 				{	
+	// 					int in_reg =tmp->reg[i];
+	// 					printf(" reg[%d] = %d", i, in_reg);
+	// 				}
+	// 			printf("\n");
+	// }
+	// // else
+	// // 	ft_printf("bbbbbl op = %d", tmp->prog);
+
 	if (tmp->prog > 0 && tmp->prog < 13)
 		do_op_two(cor, tmp);
 	else if (tmp->prog == 13)

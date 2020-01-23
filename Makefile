@@ -12,7 +12,7 @@
 
 .PHONY: all, clean, fclean, re, obj, red, grn, off, asm, diasm
 
-NAME = corewar
+NAME = corewar_arina
 
 # src / obj files
 SRC =	main.c \
@@ -65,6 +65,7 @@ PR_LNK = ./ft_printf/libftprintf.a
 
 # directories
 SRCDIR = ./src_cor/
+#SRCDIR = ./src_cor_arina/
 INCDIR = -I ./includes/
 OBJDIR = ./obj/
 

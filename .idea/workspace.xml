@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="School21_CoreWar" targetName="School21_CoreWar" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -10,9 +12,131 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dba0760a-be80-42ac-8118-f56ddc27b286" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/arina.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/arina.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src_cor/ft_live.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/ft_live.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/add_lable_list.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/check_op_or_xor_and_arg.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/check_op_st_arg.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/delete_list.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/four_char_operator.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/init_agr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/isprint_char.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_atoi.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_bzero.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_check_dimension.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_check_flag_spetia_type.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_check_un_dimension.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_concat_str.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_cop_str_left_or_right.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_copy_string_left.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_copy_string_left_wchar.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_copy_string_right.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_copy_string_right_wchar.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_create_new_lst_strchar.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_float_inf.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_is_flag_type_size.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_isalnum.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_isalpha.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_isascii.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_isdigit.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_isprint.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_itoa.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_itoa_llint.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_itoo.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_itox.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_lstadd.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_lstdel.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_lstdelone.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_lstiter.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_lstmap.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_lstnew.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_memalloc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_memccpy.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_memchr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_memcmp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_memcpy.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_memdel.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_memmove.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_memset.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_memset_wchar.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_multi_strdup.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_numwr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_octotorp_hex.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_printf.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_put_decimal.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_put_hexadecimal.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_put_octal.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_put_percent.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_put_pointer.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_put_unsigned.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_putchar.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_putchar_fd.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_putchar_wchar.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_putendl.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_putendl_fd.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_putnbr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_putnbr_fd.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_putstr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_putstr_fd.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_putstr_wchar.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_read_format.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strcat.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strchr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strcl.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strclr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strcmp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strcpy.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strdel.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strdel_wchar.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strdup.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strdup_wchar.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strequ.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strfr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_striter.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_striteri.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strjoin.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strlcat.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strlen.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strlen_wchar.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strmap.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strmapi.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strncat.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strncmp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strncpy.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strncpy_wchar.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strnequ.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strnew.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strnew_char_wchar.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strnew_wchar.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strnjoin.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strnjoinfree.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strnstr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strrchr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strsplit.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strstr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strsub.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strtrim.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_tolower.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_toupper.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_un_itoa.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/get_next_line.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/libftprintf.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/sys_err.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/type_char.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/type_float.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/type_float2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/type_string.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/read_comment_champ.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/read_dir_arg.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/read_name_comment.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/search_lbl.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/write_header.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src_cor/do_op.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/do_op.c" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,22 +146,32 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src_cor/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
+            <state relative-caret-position="540">
               <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src_cor/ft_live.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
-              <caret line="36" column="92" lean-forward="true" selection-start-line="36" selection-start-column="92" selection-end-line="36" selection-end-column="92" />
+              <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src_cor/do_op.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="602">
+              <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -45,7 +179,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src_cor/arena.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
+            <state relative-caret-position="420">
               <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
             </state>
           </provider>
@@ -53,30 +187,22 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src_cor/champ.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-634" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src_cor/parse_av.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1416" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src_cor/print_code.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-81" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src_cor/go_cor.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1281" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -97,6 +223,7 @@
       <list>
         <option value="$PROJECT_DIR$/src_cor/main.c" />
         <option value="$PROJECT_DIR$/src_cor/ft_live.c" />
+        <option value="$PROJECT_DIR$/src_cor/do_op.c" />
       </list>
     </option>
   </component>
@@ -111,8 +238,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="749" />
-    <option name="y" value="25" />
+    <option name="x" value="329" />
+    <option name="y" value="190" />
     <option name="width" value="1753" />
     <option name="height" value="1335" />
   </component>
@@ -126,12 +253,12 @@
         <subPane>
           <expand>
             <path>
-              <item name="arina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arina" type="462c0819:PsiDirectoryNode" />
+              <item name="School21_CoreWar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="School21-CoreWar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="arina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arina" type="462c0819:PsiDirectoryNode" />
+              <item name="School21_CoreWar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="School21-CoreWar" type="462c0819:PsiDirectoryNode" />
               <item name="src_cor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -159,6 +286,13 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="School21_CoreWar" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="School21_CoreWar" TARGET_NAME="School21_CoreWar" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="School21_CoreWar" RUN_TARGET_NAME="School21_CoreWar">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -170,23 +304,21 @@
       <option name="presentableId" value="Default" />
       <updated>1573659649569</updated>
       <workItem from="1573659652630" duration="1886000" />
+      <workItem from="1579438543900" duration="1391000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1886000" />
+    <option name="totallyTimeSpent" value="3277000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="749" y="25" width="1753" height="1335" extended-state="0" />
+    <frame x="329" y="190" width="1753" height="1335" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24956165" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25248393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.4991233" visible="true" weight="0.3295082" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50087667" side_tool="true" visible="true" weight="0.3295082" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -194,54 +326,64 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49853885" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50146115" side_tool="true" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src_cor/go_cor.c">
+    <entry file="file://$PROJECT_DIR$/src_cor/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1281" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/champ.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-634" />
+        <state relative-caret-position="540">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src_cor/arena.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
+        <state relative-caret-position="420">
           <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/print_code.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src_cor/champ.c">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src_cor/parse_av.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1416" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/main.c">
+    <entry file="file://$PROJECT_DIR$/src_cor/print_code.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_cor/go_cor.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="540">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src_cor/ft_live.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
-          <caret line="36" column="92" lean-forward="true" selection-start-line="36" selection-start-column="92" selection-end-line="36" selection-end-column="92" />
+          <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_cor/do_op.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
         </state>
       </provider>
     </entry>
