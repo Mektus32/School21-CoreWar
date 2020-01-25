@@ -8,7 +8,9 @@ rm -f md_my
 for ((i = $3; i <= $4; i = i + $2))
 do
 #echo "Cikles $i"
-./check_kk/Corewar/corewar   $1.cor $5.cor  -dump $i > test # $1.cor $1.cor
+#./check_kk/Corewar/corewar   $1.cor $5.cor  -dump $i > test # $1.cor $1.cor
+./corewar_copy   $1.cor $5.cor  -d  $i > test # $1.cor $1.cor
+
 ./corewar_arina $1.cor $5.cor -dump $i   > my #   $1.cor $1.cor
 md5 test > md_test
 md5 my > md_my
