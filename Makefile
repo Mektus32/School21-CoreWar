@@ -66,7 +66,7 @@ PR_LNK = ./ft_printf/libftprintf.a
 # directories
 #SRCDIR = ./src_cor/
 #SRCDIR = ./src_cor_arina/
-SRCDIR = ./src_cor_last/
+SRCDIR = ./src_cor/
 
 INCDIR = -I ./includes/
 OBJDIR = ./obj/

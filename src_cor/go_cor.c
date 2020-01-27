@@ -108,6 +108,7 @@ void		go_cor(t_cor *cor)
 
 	while (cor->carr)
 	{
+
 		if (cor->carr && (cor->live->cyc++ == cor->nbr_cyc
 					|| cor->nbr_cyc == 0))
 			print_dump_code(cor);
@@ -118,6 +119,7 @@ void		go_cor(t_cor *cor)
 			--tmp->cycles_to == 0 ? do_op(cor, tmp) : 0;
 			tmp = tmp->next;
 		}
+
 		if ((cor->live->cyc - cor->live->cyc_tmp) >= cor->live->cyc_to_die)
 		{
 			cor->live->cyc_tmp = cor->live->cyc;

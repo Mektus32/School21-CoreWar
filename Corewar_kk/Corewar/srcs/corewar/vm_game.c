@@ -51,6 +51,7 @@ void	browse_processes_lst(t_vm *v)
 		{
 			if (NEXT_OP >= 0 && NEXT_OP < 16)
 			{
+				ft_printf("cyc = %d, op = %d", PC, NEXT_OP);
 				g_op_tab[NEXT_OP].f(v, process);
 				NEXT_OP = -1;
 			}
