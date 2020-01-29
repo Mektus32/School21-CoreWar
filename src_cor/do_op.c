@@ -45,8 +45,8 @@ void	do_op_two(t_cor *cor, t_carr *tmp)
 void	do_op(t_cor *cor, t_carr *tmp)
 {
 	
-	if (tmp->prog  > 0 && tmp->prog <= 16)
-		ft_printf("cyc = %d, op = %d", cor->live->cyc, tmp->prog);
+	// if (tmp->prog  > 0 && tmp->prog <= 16)
+	// 	ft_printf("cyc = %d, op = %d", cor->live->cyc, tmp->prog);
 	// {
 	// 	printf("cyc = %d, op = %d, cur = %d, cyc_live = %d\n", cor->live->cyc, tmp->prog, tmp->cur,tmp->cycles_live);
 
