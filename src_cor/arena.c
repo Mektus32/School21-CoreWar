@@ -80,7 +80,7 @@ void	arena(t_cor *cor)
 	i = 0;
 	ft_printf("Introducing contestants...\n");
 	while (i < cor->n)
-	{
+	 {
 		ft_printf("* Player %d, weighing %d bytes, \"%s\" (\"%s\") !\n", i + 1,
 				(cor->m_ch[i])->prog_size, (cor->m_ch[i])->prog_name,
 				(cor->m_ch[i])->comment);

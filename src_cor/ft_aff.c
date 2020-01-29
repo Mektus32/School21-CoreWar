@@ -30,8 +30,9 @@ void	ft_aff(t_cor *cor, t_carr *tmp)
 	if (b2[0] == 0 && b2[1] == 1)
 	{
 		t_reg = read_byte_1(cor->code, (tmp->cur + i++));
-		if (VAL_REG(t_reg))
-			ft_putchar((char)tmp->reg[(int)t_reg]);
+		//if (VAL_REG(t_reg))
+		//	ft_putchar((char)tmp->reg[(int)t_reg]);
+		//	ft_putchar('+');
 	}
 	else
 		i = i + 4 * (int)b2[0] - 2 * (int)b2[1];

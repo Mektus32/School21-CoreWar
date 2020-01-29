@@ -1,4 +1,4 @@
-/* ************************************************************************** */
+ /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
 /*   go_cor.c                                           :+:      :+:    :+:   */
@@ -68,6 +68,7 @@ static void	check_live(t_cor *cor)
 	{
 		if ((cor->live->cyc - carr->cycles_live) >= cor->live->cyc_to_die)
 		{
+			ft_printf("ddd_c = %d\n", cor->live->cyc);
 			if (cor->carr == carr)
 				carr = remove_head(cor, carr);
 			else
