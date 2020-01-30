@@ -49,12 +49,17 @@ static void	check_to_die(t_cor *cor)
 		cor->live->cyc_to_die = cor->live->cyc_to_die - CYCLE_DELTA;
 		cor->live->counter = 0;
 	}
+
 	if (cor->live->cyc_to_die <= 0)
 	{
 		carr = cor->carr;
 		while (carr)
+			{
+				//ft_printf("ddd_chtodie = %d\n", cor->live->cyc);
 			carr = remove_head(cor, carr);
+			}
 	}
+
 }
 
 static void	check_live(t_cor *cor)
@@ -66,9 +71,11 @@ static void	check_live(t_cor *cor)
 	prev = NULL;
 	while (carr)
 	{
+			//ft_printf("check_live_c = %d\n", cor->live->cyc);
+
 		if ((cor->live->cyc - carr->cycles_live) >= cor->live->cyc_to_die)
 		{
-			ft_printf("ddd_c = %d\n", cor->live->cyc);
+			//ft_printf("ddd_c = %d\n", cor->live->cyc);
 			if (cor->carr == carr)
 				carr = remove_head(cor, carr);
 			else
@@ -109,8 +116,9 @@ void		go_cor(t_cor *cor)
 
 	while (cor->carr)
 	{
+		//ft_printf("c = %d, cyc_to_die=%d\n", cor->live->cyc, cor->live->cyc_to_die);
 
-		if (cor->carr && (cor->live->cyc++ == cor->nbr_cyc
+		if (cor->carr && (cor->live->cyc == cor->nbr_cyc
 					|| cor->nbr_cyc == 0))
 			print_dump_code(cor);
 		tmp = cor->carr;
@@ -127,6 +135,7 @@ void		go_cor(t_cor *cor)
 			check_live(cor);
 		}
 		cor->visual.vis ? visual(cor) : 0;
+		cor->live->cyc++;
 	}
 	cor->visual.vis ? stop_visual(cor) : 0;
 }
