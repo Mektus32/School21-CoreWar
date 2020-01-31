@@ -31,21 +31,26 @@
 ** проверки вне зависимости от ее результатов.
 ** check_to_die - изменяет кол-во циклов до смерти
 ** check_live - удаляет каретки
+** cor->live->live_count - кол - во  операуий лайв
+** cor->live->counter - счетчик проверок от последнего изменени cyc_to_die 
 */
 
 static void	check_to_die(t_cor *cor)
 {
 	t_carr		*carr;
 
-	cor->live->counter++;
+	//cor->live->counter++;
 	if (cor->live->live_count >= NBR_LIVE)
 	{
+		ft_printf("-NBR_LIVE\n");
 		cor->live->cyc_to_die = cor->live->cyc_to_die - CYCLE_DELTA;
 		cor->live->counter = 0;
 	}
-	cor->live->live_count = 0;
-	if (cor->live->counter == MAX_CHECKS)
+	//cor->live->live_count = 0;
+	else if (cor->live->counter == MAX_CHECKS)
 	{
+		ft_printf("-MAX_CHECKS\n");
+		// ft_printf("222\n");
 		cor->live->cyc_to_die = cor->live->cyc_to_die - CYCLE_DELTA;
 		cor->live->counter = 0;
 	}
@@ -59,6 +64,7 @@ static void	check_to_die(t_cor *cor)
 			carr = remove_head(cor, carr);
 			}
 	}
+	cor->live->live_count = 0;
 
 }
 
@@ -69,13 +75,14 @@ static void	check_live(t_cor *cor)
 
 	carr = cor->carr;
 	prev = NULL;
+	cor->live->counter++;
 	while (carr)
 	{
 			//ft_printf("check_live_c = %d\n", cor->live->cyc);
 
 		if ((cor->live->cyc - carr->cycles_live) >= cor->live->cyc_to_die)
 		{
-			//ft_printf("ddd_c = %d\n", cor->live->cyc);
+			ft_printf("ddd_c = %d\n", cor->live->cyc);
 			if (cor->carr == carr)
 				carr = remove_head(cor, carr);
 			else
@@ -87,7 +94,7 @@ static void	check_live(t_cor *cor)
 			carr = carr->next;
 		}
 	}
-	check_to_die(cor);
+	//check_to_die(cor);
 }
 
 /*
@@ -116,27 +123,41 @@ void		go_cor(t_cor *cor)
 
 	while (cor->carr)
 	{
-		//ft_printf("c = %d, cyc_to_die=%d\n", cor->live->cyc, cor->live->cyc_to_die);
+		ft_printf("c = %d, cyc_to_die=%d\n", cor->live->cyc, cor->live->cyc_to_die);
+
+
+		
 
 		if (cor->carr && (cor->live->cyc == cor->nbr_cyc
 					|| cor->nbr_cyc == 0))
 			print_dump_code(cor);
 		tmp = cor->carr;
+		//cor->live->cyc++;
+		
+		if ((cor->live->cyc - cor->live->cyc_tmp) >= cor->live->cyc_to_die)
+		{
+
+			cor->live->cyc_tmp = cor->live->cyc;
+			check_live(cor);
+		}
+		check_to_die(cor);
+		cor->visual.vis ? visual(cor) : 0;
+		
+		cor->live->cyc++;
 		while (tmp)
 		{
 			cycles_read(cor, tmp);
 			--tmp->cycles_to == 0 ? do_op(cor, tmp) : 0;
 			tmp = tmp->next;
 		}
-
-		if ((cor->live->cyc - cor->live->cyc_tmp) >= cor->live->cyc_to_die)
-		{
-			cor->live->cyc_tmp = cor->live->cyc;
-			check_live(cor);
-		}
-		cor->visual.vis ? visual(cor) : 0;
-		cor->live->cyc++;
+		
+		
+		
+		
 	}
+	
+	
+
 	cor->visual.vis ? stop_visual(cor) : 0;
 }
 
@@ -186,7 +207,6 @@ void		go_cor(t_cor *cor)
 // 			carr = carr->next;
 // 		}
 // 	}
-// 	check_to_die(cor);
 // }
 
 // /*

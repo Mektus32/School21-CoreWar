@@ -31,7 +31,7 @@ else
 	echo "size_end_test = $v_1_end"
 	echo "size_end_my = $v_2_end"
 	diff my test  > ddd
-	cat my 
+	#cat my 
 	break
 fi
 done
