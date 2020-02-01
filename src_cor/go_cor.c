@@ -42,14 +42,14 @@ static void	check_to_die(t_cor *cor)
 	//cor->live->counter++;
 	if (cor->live->live_count >= NBR_LIVE)
 	{
-		ft_printf("-NBR_LIVE\n");
+		//ft_printf("-NBR_LIVE\n");
 		cor->live->cyc_to_die = cor->live->cyc_to_die - CYCLE_DELTA;
 		cor->live->counter = 0;
 	}
 	//cor->live->live_count = 0;
 	else if (cor->live->counter == MAX_CHECKS)
 	{
-		ft_printf("-MAX_CHECKS\n");
+		//ft_printf("-MAX_CHECKS\n");
 		// ft_printf("222\n");
 		cor->live->cyc_to_die = cor->live->cyc_to_die - CYCLE_DELTA;
 		cor->live->counter = 0;
@@ -61,6 +61,7 @@ static void	check_to_die(t_cor *cor)
 		while (carr)
 			{
 				//ft_printf("ddd_chtodie = %d\n", cor->live->cyc);
+				ft_printf("ddd_c = %d\n", cor->live->cyc);
 			carr = remove_head(cor, carr);
 			}
 	}
@@ -123,7 +124,7 @@ void		go_cor(t_cor *cor)
 
 	while (cor->carr)
 	{
-		ft_printf("c = %d, cyc_to_die=%d\n", cor->live->cyc, cor->live->cyc_to_die);
+		//ft_printf("c = %d, cyc_to_die=%d\n", cor->live->cyc, cor->live->cyc_to_die);
 
 
 		

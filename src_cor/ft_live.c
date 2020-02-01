@@ -28,7 +28,7 @@ void	ft_live(t_cor *cor, t_carr *tmp)
 	i = 0;
 	tmp->cycles_live = cor->live->cyc;
 	cor->live->live_count++;
-	ft_printf("live c = %d\n", cor->live->cyc);
+	//ft_printf("live c = %d\n", cor->live->cyc);
 	t_dir = read_byte_4(cor->code, tmp->cur + 1);
 	while (i < cor->n)
 	{
