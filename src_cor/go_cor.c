@@ -132,7 +132,8 @@ void		go_cor(t_cor *cor)
 					|| cor->nbr_cyc == 0))
 			print_dump_code(cor);
 		tmp = cor->carr;
-		//cor->live->cyc++;
+		check_to_die(cor);
+		cor->live->cyc++;
 		
 		if ((cor->live->cyc - cor->live->cyc_tmp) >= cor->live->cyc_to_die)
 		{
@@ -140,10 +141,11 @@ void		go_cor(t_cor *cor)
 			cor->live->cyc_tmp = cor->live->cyc;
 			check_live(cor);
 		}
-		check_to_die(cor);
+		//cor->live->cyc++;
+		//check_to_die(cor);
 		cor->visual.vis ? visual(cor) : 0;
 		
-		cor->live->cyc++;
+		
 		while (tmp)
 		{
 			cycles_read(cor, tmp);
