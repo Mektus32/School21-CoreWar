@@ -41,4 +41,5 @@ void	ft_live(t_cor *cor, t_carr *tmp)
 		i++;
 	}
 	tmp->i = 5;
+	//ft_printf("i = 5\n");
 }

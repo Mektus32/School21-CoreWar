@@ -61,7 +61,7 @@ static void	check_to_die(t_cor *cor)
 		while (carr)
 			{
 				//ft_printf("ddd_chtodie = %d\n", cor->live->cyc);
-				ft_printf("ddd_c = %d\n", cor->live->cyc);
+				//ft_printf("ddd_c = %d\n", cor->live->cyc);
 			carr = remove_head(cor, carr);
 			}
 	}
@@ -83,7 +83,7 @@ static void	check_live(t_cor *cor)
 
 		if ((cor->live->cyc - carr->cycles_live) >= cor->live->cyc_to_die)
 		{
-			ft_printf("ddd_c = %d\n", cor->live->cyc);
+			//ft_printf("ddd_c = %d\n", cor->live->cyc);
 			if (cor->carr == carr)
 				carr = remove_head(cor, carr);
 			else
@@ -112,6 +112,7 @@ static void	cycles_read(t_cor *cor, t_carr *tmp)
 	if (tmp->cycles_to == 0)
 	{
 		tmp->cur = mem_size(tmp->cur + tmp->i);
+		//ft_printf("i = %d\n", tmp->i);
 		tmp->prog = read_byte_1(cor->code, tmp->cur);
 		tmp->cycles_to = ft_cycles_to(tmp->prog);
 		tmp->i = 0;
@@ -150,6 +151,7 @@ void		go_cor(t_cor *cor)
 		while (tmp)
 		{
 			cycles_read(cor, tmp);
+			 //ft_printf("next_c = %d, pc_next_c = %d\n", cor->live->cyc, tmp->cur);
 			--tmp->cycles_to == 0 ? do_op(cor, tmp) : 0;
 			tmp = tmp->next;
 		}

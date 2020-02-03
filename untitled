@@ -48,6 +48,8 @@ ddd_c = 3072
 ddd_c = 3072
 c = 3072, cyc_to_die=1536
 c = 3073, cyc_to_die=1536
+
+наступает цикл 3072 - оригинал удаляет каретки, потом переходит  дальше
 ----------my 2226
 c = 3070, cyc_to_die=1536
 c = 3071, cyc_to_die=1536
@@ -56,3 +58,16 @@ ddd_c = 3072
 ddd_c = 3072
 ddd_c = 3072
 c = 3072, cyc_to_die=1536
+
+
+test
+16336
+
+c = 15360, cyc_to_die=1536 / -MAX_CHECKS
+
+-MAX_CHECKS / c = 15360, cyc_to_die=1486
+
+c = 15361, cyc_to_die=1486 / c = 15361, cyc_to_die=1486
+
+
+

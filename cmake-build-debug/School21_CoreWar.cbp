@@ -1,0 +1,1863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="School21_CoreWar"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/qgilbert/Desktop/School21-CoreWar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/School21-CoreWar/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/School21-CoreWar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/School21-CoreWar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/School21-CoreWar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/qgilbert/Desktop/School21-CoreWar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/School21-CoreWar/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/School21-CoreWar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/School21-CoreWar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/School21-CoreWar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/qgilbert/Desktop/School21-CoreWar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/School21-CoreWar/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/School21-CoreWar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/School21-CoreWar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/School21-CoreWar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="School21_CoreWar">
+				<Option output="/Users/qgilbert/Desktop/School21-CoreWar/cmake-build-debug/School21_CoreWar" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qgilbert/Desktop/School21-CoreWar/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/includes"/>
+					<Add directory="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/includes"/>
+					<Add directory="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/head"/>
+					<Add directory="/Users/qgilbert/Desktop/School21-CoreWar/includes"/>
+					<Add directory="/Users/qgilbert/Desktop/School21-CoreWar/libft/includes"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/School21-CoreWar/cmake-build-debug/Makefile&quot;  VERBOSE=1 School21_CoreWar"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/School21-CoreWar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/School21-CoreWar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/School21-CoreWar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="School21_CoreWar/fast">
+				<Option output="/Users/qgilbert/Desktop/School21-CoreWar/cmake-build-debug/School21_CoreWar" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qgilbert/Desktop/School21-CoreWar/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/includes"/>
+					<Add directory="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/includes"/>
+					<Add directory="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/head"/>
+					<Add directory="/Users/qgilbert/Desktop/School21-CoreWar/includes"/>
+					<Add directory="/Users/qgilbert/Desktop/School21-CoreWar/libft/includes"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/School21-CoreWar/cmake-build-debug/Makefile&quot;  VERBOSE=1 School21_CoreWar/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/School21-CoreWar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/School21-CoreWar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/School21-CoreWar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/CMakeLists.txt">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/Horace.cor">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/Makefile">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/asm">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/auteur">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/cmake-build-debug/CMakeCache.txt">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/cmake-build-debug/Corewar.cbp">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/cmake-build-debug/Makefile">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/cmake-build-debug/cmake_install.cmake">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/corelol.cor">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/corewar">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/includes/asm.h">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/includes/corewar.h">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/includes/deasm.h">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/includes/fixed_io.h">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/includes/ft_fct_tab.h">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/includes/ft_printf.h">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/includes/label.h">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/includes/lexer.h">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/includes/libft.h">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/includes/op.h">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/includes/parser.h">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/includes/ressources.h">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/includes/scanner.h">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/includes/viewer.h">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/Makefile">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/auteur">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/includes/ft_fct_tab.h">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/includes/ft_printf.h">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/includes/libft.h">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/libft.a">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/ft_printf/buffer.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/ft_printf/cast_mod.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/ft_printf/format.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/ft_printf/ft_nblen.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/ft_printf/ft_nblen_b.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/ft_printf/ft_power.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/ft_printf/ft_printf.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/ft_printf/ft_u_nblen.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/ft_printf/ft_u_power.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/ft_printf/fwp_bin.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/ft_printf/fwp_char.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/ft_printf/fwp_hex.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/ft_printf/fwp_int.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/ft_printf/fwp_oct.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/ft_printf/fwp_ptr.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/ft_printf/fwp_u_int.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/ft_printf/fwp_wchar.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/ft_printf/fwp_wstr.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/ft_printf/lst_arg.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/ft_printf/num_field.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/ft_printf/parser.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/ft_printf/str_field.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/get_next_line/ft_getline.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/get_next_line/get_next_line.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/memory/ft_bzero.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/memory/ft_memalloc.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/memory/ft_memccpy.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/memory/ft_memchr.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/memory/ft_memcmp.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/memory/ft_memcpy.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/memory/ft_memdel.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/memory/ft_memmove.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/memory/ft_memset.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/print/ft_putchar.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/print/ft_putchar_fd.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/print/ft_putendl.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/print/ft_putendl_fd.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/print/ft_putnbr.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/print/ft_putnbr_fd.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/print/ft_putstr.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/print/ft_putstr_fd.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/single_linked_list/ft_lstadd.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/single_linked_list/ft_lstaddback.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/single_linked_list/ft_lstappend.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/single_linked_list/ft_lstdel.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/single_linked_list/ft_lstdelone.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/single_linked_list/ft_lstinttab.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/single_linked_list/ft_lstiter.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/single_linked_list/ft_lstlen.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/single_linked_list/ft_lstmap.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/single_linked_list/ft_lstnew.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/single_linked_list/ft_lstpop.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/single_linked_list/ft_lstpush.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/strings/ft_strcat.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/strings/ft_strchr.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/strings/ft_strclr.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/strings/ft_strcmp.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/strings/ft_strcpy.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/strings/ft_strdel.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/strings/ft_strdup.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/strings/ft_strequ.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/strings/ft_striter.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/strings/ft_striteri.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/strings/ft_strjoin.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/strings/ft_strlcat.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/strings/ft_strlen.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/strings/ft_strmap.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/strings/ft_strmapi.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/strings/ft_strncat.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/strings/ft_strncmp.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/strings/ft_strncpy.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/strings/ft_strnequ.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/strings/ft_strnew.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/strings/ft_strnstr.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/strings/ft_strrchr.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/strings/ft_strrev.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/strings/ft_strsplit.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/strings/ft_strsplitdel.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/strings/ft_strstr.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/strings/ft_strsub.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/strings/ft_strtrim.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/utils/ft_atoi.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/utils/ft_isalnum.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/utils/ft_isalpha.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/utils/ft_isascii.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/utils/ft_isdigit.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/utils/ft_isdigitstr.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/utils/ft_islower.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/utils/ft_isprint.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/utils/ft_isspace.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/utils/ft_isupper.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/utils/ft_itoa.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/utils/ft_squeeze.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/utils/ft_tolower.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/objs/utils/ft_toupper.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/ft_printf/buffer.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/ft_printf/cast_mod.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/ft_printf/format.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/ft_printf/ft_nblen.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/ft_printf/ft_nblen_b.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/ft_printf/ft_power.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/ft_printf/ft_printf.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/ft_printf/ft_u_nblen.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/ft_printf/ft_u_power.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/ft_printf/fwp_bin.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/ft_printf/fwp_char.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/ft_printf/fwp_hex.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/ft_printf/fwp_int.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/ft_printf/fwp_oct.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/ft_printf/fwp_ptr.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/ft_printf/fwp_u_int.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/ft_printf/fwp_wchar.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/ft_printf/fwp_wstr.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/ft_printf/lst_arg.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/ft_printf/num_field.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/ft_printf/parser.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/ft_printf/str_field.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/get_next_line/ft_getline.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/get_next_line/get_next_line.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/memory/ft_bzero.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/memory/ft_memalloc.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/memory/ft_memccpy.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/memory/ft_memchr.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/memory/ft_memcmp.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/memory/ft_memcpy.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/memory/ft_memdel.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/memory/ft_memmove.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/memory/ft_memset.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/print/ft_putchar.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/print/ft_putchar_fd.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/print/ft_putendl.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/print/ft_putendl_fd.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/print/ft_putnbr.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/print/ft_putnbr_fd.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/print/ft_putstr.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/print/ft_putstr_fd.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/single_linked_list/ft_lstadd.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/single_linked_list/ft_lstaddback.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/single_linked_list/ft_lstappend.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdel.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdelone.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/single_linked_list/ft_lstinttab.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/single_linked_list/ft_lstiter.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/single_linked_list/ft_lstlen.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/single_linked_list/ft_lstmap.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/single_linked_list/ft_lstnew.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpop.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpush.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/strings/ft_strcat.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/strings/ft_strchr.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/strings/ft_strclr.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/strings/ft_strcmp.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/strings/ft_strcpy.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/strings/ft_strdel.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/strings/ft_strdup.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/strings/ft_strequ.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/strings/ft_striter.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/strings/ft_striteri.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/strings/ft_strjoin.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/strings/ft_strlcat.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/strings/ft_strlen.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/strings/ft_strmap.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/strings/ft_strmapi.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/strings/ft_strncat.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/strings/ft_strncmp.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/strings/ft_strncpy.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/strings/ft_strnequ.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/strings/ft_strnew.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/strings/ft_strnstr.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/strings/ft_strrchr.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/strings/ft_strrev.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/strings/ft_strsplit.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/strings/ft_strsplitdel.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/strings/ft_strstr.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/strings/ft_strsub.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/strings/ft_strtrim.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/utils/ft_atoi.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/utils/ft_isalnum.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/utils/ft_isalpha.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/utils/ft_isascii.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/utils/ft_isdigit.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/utils/ft_isdigitstr.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/utils/ft_islower.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/utils/ft_isprint.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/utils/ft_isspace.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/utils/ft_isupper.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/utils/ft_itoa.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/utils/ft_squeeze.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/utils/ft_tolower.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/libft/srcs/utils/ft_toupper.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/asm/asm.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/asm/asm_utils.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/asm/deasm.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/asm/deasm_manage.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/asm/fixed_io.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/asm/label.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/asm/label_init.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/asm/label_utils.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/asm/lexer.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/asm/op.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/asm/parser.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/asm/parser_header.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/asm/parser_init.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/asm/scanner.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/corewar/corewar.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/corewar/get_players.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/corewar/get_players_errors.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/corewar/load_arena.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/corewar/op.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/corewar/op_shift.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/corewar/operate.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/corewar/operation_1.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/corewar/operation_2.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/corewar/operation_2b.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/corewar/operation_3.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/corewar/operation_4.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/corewar/operation_4b.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/corewar/vm_debbug.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/corewar/vm_game.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/corewar/vm_init_free.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/corewar/vm_parsing.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/corewar/vw_draw_img.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/corewar/vw_draw_life.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/corewar/vw_draw_tools.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/corewar/vw_init.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/corewar/vw_init_win.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/corewar/vw_maj_process.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/corewar/vw_maj_win.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/corewar/vw_th_anim.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/corewar/vw_th_core.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/corewar/vw_th_input.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/corewar/vw_th_render.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/objs/corewar/vw_th_timer.o">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/asm/asm.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/asm/asm_utils.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/asm/deasm.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/asm/deasm_manage.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/asm/fixed_io.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/asm/label.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/asm/label_init.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/asm/label_utils.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/asm/lexer.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/asm/op.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/asm/parser.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/asm/parser_header.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/asm/parser_init.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/asm/scanner.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/champion/chickabomb.cor">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/champion/chickabomb.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/champion/chicken.cor">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/champion/chicken.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/champion/chicken_fork.cor">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/champion/chicken_fork.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/champion/fork_hacking.cor">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/champion/fork_hacking.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/champion/test_octal_1.cor">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/champion/test_octal_1.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/champion/test_octal_2.cor">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/champion/test_octal_2.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/champion/test_octal_3.cor">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/champion/test_octal_3.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/champion/test_octal_4.cor">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/champion/test_octal_4.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/champion/toto.cor">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/champion/toto.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/corewar/corewar.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/corewar/get_players.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/corewar/get_players_errors.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/corewar/load_arena.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/corewar/op.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/corewar/op_shift.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/corewar/operate.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/corewar/operation_1.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/corewar/operation_2.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/corewar/operation_2b.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/corewar/operation_3.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/corewar/operation_4.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/corewar/operation_4b.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/corewar/vm_debbug.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/corewar/vm_game.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/corewar/vm_init_free.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/corewar/vm_parsing.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/corewar/vw_draw_img.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/corewar/vw_draw_life.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/corewar/vw_draw_tools.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/corewar/vw_init.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/corewar/vw_init_win.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/corewar/vw_maj_process.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/corewar/vw_maj_win.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/corewar/vw_th_anim.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/corewar/vw_th_core.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/corewar/vw_th_input.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/corewar/vw_th_render.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/Corewar/srcs/corewar/vw_th_timer.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/README.md">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/check_asm.sh">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/corewar.pdf">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/corewar_en.pdf">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/images/Corewar.gif">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/images/Life.gif">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/note_corewar.txt">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/asm">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/42.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/Asombra.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/Backward.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/Car.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/Death.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/Gagnant.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/Kappa.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/Machine-gun.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/MarineKing.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/Misaka_Mikoto.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/Octobre_Rouge_V4.2.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/Rainbow_dash.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/Survivor.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/THUNDER.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/Torpille.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/Varimathras.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/Wall.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/_.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/_honeybadger.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/barriere.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/big_feet.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/casimir.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/champ.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/chicken.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/corelol.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/darksasuke.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/doge.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/dubo.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/ex.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/fluttershy.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/gedeon.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/helltrain.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/jinx.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/jumper.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/justin_bee.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/lde.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/leeloo.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/littlepuppy.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/live.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/loose.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/mandragore.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/mat.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/maxidef.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/meowluigi.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/mortel.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/new.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/salamahenagalabadoun.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/sam_2.0.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/sebc.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/skynet.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/slider2.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/tdc2.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/tdc3.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/tdc4.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/terminator.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/toto.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/ultimate-surrender.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/youforkmytralala.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/zork.cor">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/champions/zork.s">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources/corewar">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/resources_corewar.pdf">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/check_kk/script_v.sh">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/head/libft.h">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/head/libftprintf.h">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_atoi.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_bzero.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_isalnum.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_isalpha.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_isascii.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_isdigit.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_isprint.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_itoa.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_lstadd.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_lstdel.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_lstdelone.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_lstiter.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_lstmap.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_lstnew.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_memalloc.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_memccpy.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_memchr.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_memcmp.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_memcpy.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_memdel.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_memmove.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_memset.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_putchar.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_putchar_fd.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_putendl.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_putendl_fd.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_putnbr.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_putnbr_fd.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_putstr.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_putstr_fd.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_strcat.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_strchr.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_strclr.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_strcmp.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_strcpy.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_strdel.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_strdup.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_strequ.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_striter.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_striteri.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_strjoin.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_strlcat.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_strlen.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_strmap.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_strmapi.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_strncat.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_strncmp.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_strncpy.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_strnequ.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_strnew.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_strnstr.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_strrchr.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_strsplit.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_strstr.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_strsub.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_strtrim.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_tolower.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/libft/source/ft_toupper.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/source/flag_check.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/source/format_check.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/source/ft_int_base.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/source/ft_itoa_ll.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/source/one.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/source/print_c_u.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/source/print_d.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/source/print_f.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/source/print_num.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/source/print_o_x.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/source/print_str.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/ft_printf/source/str_format.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/includes/corewar.h">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/includes/ft_printf.h">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/includes/libft.h">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/includes/libftprintf.h">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/includes/op.h">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_abs.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_absf.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_atoi.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_bzero.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_count_words.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_free_join.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_free_strjoin_duo.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_free_strjoin_rev.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_frtwarr.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_ftoa.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_isalnum.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_isalpha.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_isascii.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_isdigit.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_isprint.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_isspace.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_itoa.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_list_add.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_list_foreach_if.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_list_push_back.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_list_remove_free_if.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_lstadd.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_lstaddback.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_lstdel.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_lstdelone.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_lstiter.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_lstmap.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_lstnew.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_ltoa.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_ltoa_base.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_max.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_memalloc.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_memccpy.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_memchr.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_memcmp.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_memcpy.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_memdel.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_memmove.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_memset.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_min.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_pow.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_putchar.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_putchar_fd.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_putendl.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_putendl_fd.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_putnbr.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_putnbr_fd.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_putstr.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_putstr_fd.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_setbackground_fd.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_strcat.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_strchr.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_strclr.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_strcmp.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_strcpy.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_strdel.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_strdup.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_strequ.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_striter.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_striteri.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_strjoin.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_strlcat.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_strlcpy.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_strlen.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_strmap.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_strmapi.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_strncat.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_strncmp.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_strncpy.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_strnequ.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_strnew.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_strnstr.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_strrchr.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_strrev.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_strsplit.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_strstr.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_strsub.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_strtolower.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_strtrim.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_tolower.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_toupper.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_truncf.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_ultoa.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/ft_ultoa_base.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/get_next_line.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/includes/get_next_line.h">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/libft/includes/libft.h">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/src_cor/arena.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/src_cor/carr_list.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/src_cor/champ.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/src_cor/do_op.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/src_cor/ft_add.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/src_cor/ft_aff.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/src_cor/ft_and.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/src_cor/ft_fork_lfork.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/src_cor/ft_ld.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/src_cor/ft_ldi.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/src_cor/ft_liba.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/src_cor/ft_live.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/src_cor/ft_or_xor.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/src_cor/ft_st.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/src_cor/ft_sti.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/src_cor/ft_sub.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/src_cor/ft_zjmp.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/src_cor/go_cor.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/src_cor/main.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/src_cor/parse_av.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/src_cor/print_code.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/src_cor/pytnon_cmp">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/src_cor/read_byte.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/src_cor/test_my_01">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/src_cor/test_not_my_01">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/src_cor/visu_cicle.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/src_cor/visu_init.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/src_cor/write_map.c">
+			<Option target="School21_CoreWar"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/School21-CoreWar/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

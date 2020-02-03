@@ -90,6 +90,7 @@ void			ft_sti(t_cor *cor, t_carr *tmp)
 			tmp->i += 2;
 	}
 	l = mem_size(tmp->cur + (len_l(cor, tmp, b2, &f_err)) % IDX_MOD);
+	//l = mem_size((tmp->cur + len_l(cor, tmp, b2, &f_err)) % IDX_MOD);
 	if (!f_err)
 		write_sti(cor, tmp, t_reg, l);
 	free(b2);
