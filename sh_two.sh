@@ -8,7 +8,7 @@ rm -f md_my
 for ((i = $3; i <= $4; i = i + $2))
 do
 #echo "Cikles $i"
-./new_check_kk/Corewar/corewar  $1.cor $5.cor  -dump $i > test # $1.cor $1.cor#$6.cor $7.cor
+./check_kk/Corewar/corewar  $1.cor $5.cor  -dump $i > test # $1.cor $1.cor#$6.cor $7.cor
 #оригинал
 #./corewar_copy   $1.cor $5.cor $6.cor $7.cor -d  $i > test # $1.cor $1.cor # $6.cor $7.cor
 

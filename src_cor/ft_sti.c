@@ -37,23 +37,27 @@ static int		len_l(t_cor *cor, t_carr *tmp, char *b2, int *f_err)
 
 	l = 0;
 	l += arg_2(b2 + 2, tmp, cor, f_err);
+	//ft_printf("arg2 = %d\n", l);
 	if (b2[4] == 0 && b2[5] == 1)
 	{
 		t_reg_2 = read_byte_1(cor->code, tmp->cur + tmp->i++);
 		if (!(VAL_REG(t_reg_2)))
 			*f_err = 1;
 		l = l + (int)tmp->reg[t_reg_2 - 1];
+		
 	}
 	else if (b2[4] == 1 && b2[5] == 0)
 	{
 		l += read_byte_2(cor->code, tmp->cur + tmp->i);
 		tmp->i += 2;
 	}
+	
 	else
 	{
 		tmp->i += 2 * b2[4];
 		*f_err = 1;
 	}
+	//ft_printf("%arg2 = %d\n", l);
 	return (l);
 }
 

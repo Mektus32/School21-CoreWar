@@ -44,6 +44,8 @@ void	exe_lld(t_vm *v, t_list *process, int shift)
 void	exe_sti(t_vm *v, t_list *process, int val[3])
 {
 	print_reg(v, process, REG[val[2]], PC + ((val[0] + val[1]) % IDX_MOD) + 3);
+	//ft_printf("l_arg2 = %d\n", val[2]);
+	//ft_printf( "arg2 = %d\n", val[2] + val[1] + val[0]) ;
 	if (DISPLAY && (v->verbose_param & FLAG_VERBOSE_OPERATIONS))
 		ft_printf("P %4d | sti r%d %d %d\n       | -> store to %d + %d = %d"
 		" (with pc and mod %d)\n", NPRO, val[2] + 1, val[1], val[0], val[1],
