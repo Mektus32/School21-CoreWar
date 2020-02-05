@@ -42,32 +42,44 @@ c = 3023, cyc_to_die=1436
 
 
 test 2226
-c = 3070, cyc_to_die=1536
-c = 3071, cyc_to_die=1536
-ddd_c = 3072
-ddd_c = 3072
-c = 3072, cyc_to_die=1536
-c = 3073, cyc_to_die=1536
-
-наступает цикл 3072 - оригинал удаляет каретки, потом переходит  дальше
-----------my 2226
-c = 3070, cyc_to_die=1536
-c = 3071, cyc_to_die=1536
-c = 3072, cyc_to_die=1536
-ddd_c = 3072
-ddd_c = 3072
-ddd_c = 3072
-c = 3072, cyc_to_die=1536
+c
 
 
-test
-16336
 
-c = 15360, cyc_to_die=1536 / -MAX_CHECKS
 
--MAX_CHECKS / c = 15360, cyc_to_die=1486
 
-c = 15361, cyc_to_die=1486 / c = 15361, cyc_to_die=1486
 
+на цикле после sti печатаестся другой 
+Cikles 11836
+
+size_end_test =   117126
+size_end_my =   117126
+
+
+
+
+вот операции до - на которых все ок
+
+cyc = 11760, op = 11, cur = 58, cyc_live = 11710
+cyc = 11770, op = 1, cur = 63, cyc_live = 11710
+cyc = 11778, op = 11, cur = 113, cyc_live = 11753
+cyc = 11783, op = 11, cur = 118, cyc_live = 11733
+cyc = 11784, op = 15, cur = 123, cyc_live = 9763
+cyc = 11793, op = 1, cur = 123, cyc_live = 11733
+cyc = 11795, op = 11, cur = 68, cyc_live = 11770
+cyc = 11803, op = 11, cur = 118, cyc_live = 11753
+
+cyc = 11804, op = 9, cur = 122, cyc_live = 9763
+cyc = 11811, op = 11, cur = 128, cyc_live = 9763
+cyc = 11813, op = 1, cur = 123, cyc_live = 11753
+cyc = 11815, op = 15, cur = 138, cyc_live = 9763
+cyc = 11818, op = 11, cur = 128, cyc_live = 11793
+cyc = 11819, op = 16, cur = 132, cyc_live = 11813
+cyc = 11820, op = 11, cur = 73, cyc_live = 11770
+cyc = 11824, op = 9, cur = 633, cyc_live = 9763
+cyc = 11825, op = 2, cur = 135, cyc_live = 11813
+cyc = 11829, op = 1, cur = 145, cyc_live = 9763
+cyc = 11830, op = 1, cur = 78, cyc_live = 11770
+cyc = 11835, op = 9, cur = 137, cyc_live = 9763
 
 

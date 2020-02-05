@@ -1,0 +1,1856 @@
+Introducing contestants...
+* Player 1, weighing 23 bytes, "laugh" ("aff, just kidding") !
+* Player 2, weighing 636 bytes, "Horace" ("Le horace qui vaincra les curiaces (bon en vrai c'est vraiment 
+a titre historique uniquement, c'est plus vraiment le cas maintenant)") !
+c = 0, cyc_to_die=1536, len_cur = 2
+c = 1, cyc_to_die=1536, len_cur = 2
+c = 2, cyc_to_die=1536, len_cur = 2
+c = 3, cyc_to_die=1536, len_cur = 2
+c = 4, cyc_to_die=1536, len_cur = 2
+cyc = 5, op = 3, cur = 2048, cyc_live = 0
+ reg[0] = -2 reg[1] = 0 reg[2] = 0 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+addr_st = [2175]
+after op
+ reg[0] = -2 reg[1] = 0 reg[2] = 0 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+c = 5, cyc_to_die=1536, len_cur = 2
+c = 6, cyc_to_die=1536, len_cur = 2
+c = 7, cyc_to_die=1536, len_cur = 2
+c = 8, cyc_to_die=1536, len_cur = 2
+c = 9, cyc_to_die=1536, len_cur = 2
+cyc = 10, op = 2, cur = 2053, cyc_live = 0
+ reg[0] = -2 reg[1] = 0 reg[2] = 0 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 0 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+c = 10, cyc_to_die=1536, len_cur = 2
+c = 11, cyc_to_die=1536, len_cur = 2
+c = 12, cyc_to_die=1536, len_cur = 2
+c = 13, cyc_to_die=1536, len_cur = 2
+c = 14, cyc_to_die=1536, len_cur = 2
+cyc = 15, op = 3, cur = 2058, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 0 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+addr_st = [2168]
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 0 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+c = 15, cyc_to_die=1536, len_cur = 2
+c = 16, cyc_to_die=1536, len_cur = 2
+c = 17, cyc_to_die=1536, len_cur = 2
+c = 18, cyc_to_die=1536, len_cur = 2
+c = 19, cyc_to_die=1536, len_cur = 2
+cyc = 20, op = 3, cur = 2063, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 0 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+addr_st = [2058]
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 0 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+c = 20, cyc_to_die=1536, len_cur = 2
+c = 21, cyc_to_die=1536, len_cur = 2
+c = 22, cyc_to_die=1536, len_cur = 2
+c = 23, cyc_to_die=1536, len_cur = 2
+c = 24, cyc_to_die=1536, len_cur = 2
+cyc = 25, op = 2, cur = 2068, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 0 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 25, op = 11, cur = 0, cyc_live = 0
+ reg[0] = -1 reg[1] = 0 reg[2] = 0 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+len_l = 2052, 
+addr_st = [16]
+after op
+ reg[0] = -1 reg[1] = 0 reg[2] = 0 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+c = 25, cyc_to_die=1536, len_cur = 2
+c = 26, cyc_to_die=1536, len_cur = 2
+c = 27, cyc_to_die=1536, len_cur = 2
+c = 28, cyc_to_die=1536, len_cur = 2
+c = 29, cyc_to_die=1536, len_cur = 2
+cyc = 30, op = 2, cur = 2075, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+c = 30, cyc_to_die=1536, len_cur = 2
+cyc = 31, op = 2, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 0 reg[2] = 0 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 0 reg[2] = 0 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+c = 31, cyc_to_die=1536, len_cur = 2
+c = 32, cyc_to_die=1536, len_cur = 2
+c = 33, cyc_to_die=1536, len_cur = 2
+c = 34, cyc_to_die=1536, len_cur = 2
+cyc = 35, op = 2, cur = 2082, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+c = 35, cyc_to_die=1536, len_cur = 2
+c = 36, cyc_to_die=1536, len_cur = 2
+c = 37, cyc_to_die=1536, len_cur = 2
+c = 38, cyc_to_die=1536, len_cur = 2
+c = 39, cyc_to_die=1536, len_cur = 2
+cyc = 40, op = 2, cur = 2089, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+c = 40, cyc_to_die=1536, len_cur = 2
+cyc = 41, op = 4, cur = 14, cyc_live = 0
+ reg[0] = -1 reg[1] = 0 reg[2] = 0 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 0 reg[2] = 0 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+c = 41, cyc_to_die=1536, len_cur = 2
+c = 42, cyc_to_die=1536, len_cur = 2
+c = 43, cyc_to_die=1536, len_cur = 2
+c = 44, cyc_to_die=1536, len_cur = 2
+cyc = 45, op = 2, cur = 2096, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+c = 45, cyc_to_die=1536, len_cur = 2
+c = 46, cyc_to_die=1536, len_cur = 2
+c = 47, cyc_to_die=1536, len_cur = 2
+c = 48, cyc_to_die=1536, len_cur = 2
+c = 49, cyc_to_die=1536, len_cur = 2
+cyc = 50, op = 2, cur = 2103, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+c = 50, cyc_to_die=1536, len_cur = 2
+c = 51, cyc_to_die=1536, len_cur = 2
+c = 52, cyc_to_die=1536, len_cur = 2
+c = 53, cyc_to_die=1536, len_cur = 2
+c = 54, cyc_to_die=1536, len_cur = 2
+cyc = 55, op = 2, cur = 2110, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+c = 55, cyc_to_die=1536, len_cur = 2
+c = 56, cyc_to_die=1536, len_cur = 2
+c = 57, cyc_to_die=1536, len_cur = 2
+c = 58, cyc_to_die=1536, len_cur = 2
+c = 59, cyc_to_die=1536, len_cur = 2
+cyc = 60, op = 2, cur = 2117, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+c = 60, cyc_to_die=1536, len_cur = 2
+c = 61, cyc_to_die=1536, len_cur = 2
+c = 62, cyc_to_die=1536, len_cur = 2
+c = 63, cyc_to_die=1536, len_cur = 2
+c = 64, cyc_to_die=1536, len_cur = 2
+cyc = 65, op = 2, cur = 2124, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 65, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 0 reg[2] = 0 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 0 reg[2] = 0 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+c = 65, cyc_to_die=1536, len_cur = 2
+c = 66, cyc_to_die=1536, len_cur = 2
+c = 67, cyc_to_die=1536, len_cur = 2
+c = 68, cyc_to_die=1536, len_cur = 2
+c = 69, cyc_to_die=1536, len_cur = 2
+cyc = 70, op = 2, cur = 2131, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 0 reg[14] = 0 reg[15] = 0
+c = 70, cyc_to_die=1536, len_cur = 2
+c = 71, cyc_to_die=1536, len_cur = 2
+c = 72, cyc_to_die=1536, len_cur = 2
+c = 73, cyc_to_die=1536, len_cur = 2
+c = 74, cyc_to_die=1536, len_cur = 2
+cyc = 75, op = 2, cur = 2138, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = 0 reg[15] = 0
+c = 75, cyc_to_die=1536, len_cur = 2
+c = 76, cyc_to_die=1536, len_cur = 2
+c = 77, cyc_to_die=1536, len_cur = 2
+c = 78, cyc_to_die=1536, len_cur = 2
+c = 79, cyc_to_die=1536, len_cur = 2
+cyc = 80, op = 2, cur = 2145, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 80, cyc_to_die=1536, len_cur = 2
+c = 81, cyc_to_die=1536, len_cur = 2
+c = 82, cyc_to_die=1536, len_cur = 2
+c = 83, cyc_to_die=1536, len_cur = 2
+c = 84, cyc_to_die=1536, len_cur = 2
+cyc = 85, op = 2, cur = 2152, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 85, cyc_to_die=1536, len_cur = 2
+c = 86, cyc_to_die=1536, len_cur = 2
+c = 87, cyc_to_die=1536, len_cur = 2
+c = 88, cyc_to_die=1536, len_cur = 2
+c = 89, cyc_to_die=1536, len_cur = 2
+c = 90, cyc_to_die=1536, len_cur = 2
+c = 91, cyc_to_die=1536, len_cur = 2
+c = 92, cyc_to_die=1536, len_cur = 2
+c = 93, cyc_to_die=1536, len_cur = 2
+c = 94, cyc_to_die=1536, len_cur = 2
+c = 95, cyc_to_die=1536, len_cur = 2
+c = 96, cyc_to_die=1536, len_cur = 2
+c = 97, cyc_to_die=1536, len_cur = 2
+c = 98, cyc_to_die=1536, len_cur = 2
+c = 99, cyc_to_die=1536, len_cur = 2
+c = 100, cyc_to_die=1536, len_cur = 2
+c = 101, cyc_to_die=1536, len_cur = 2
+c = 102, cyc_to_die=1536, len_cur = 2
+c = 103, cyc_to_die=1536, len_cur = 2
+c = 104, cyc_to_die=1536, len_cur = 2
+cyc = 105, op = 9, cur = 2159, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 105, cyc_to_die=1536, len_cur = 2
+c = 106, cyc_to_die=1536, len_cur = 2
+c = 107, cyc_to_die=1536, len_cur = 2
+c = 108, cyc_to_die=1536, len_cur = 2
+c = 109, cyc_to_die=1536, len_cur = 2
+cyc = 110, op = 3, cur = 2548, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+addr_st = [2159]
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 110, cyc_to_die=1536, len_cur = 2
+c = 111, cyc_to_die=1536, len_cur = 2
+c = 112, cyc_to_die=1536, len_cur = 2
+c = 113, cyc_to_die=1536, len_cur = 2
+c = 114, cyc_to_die=1536, len_cur = 2
+cyc = 115, op = 3, cur = 2553, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+addr_st = [3064]
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 115, cyc_to_die=1536, len_cur = 2
+c = 116, cyc_to_die=1536, len_cur = 2
+c = 117, cyc_to_die=1536, len_cur = 2
+c = 118, cyc_to_die=1536, len_cur = 2
+c = 119, cyc_to_die=1536, len_cur = 2
+cyc = 120, op = 3, cur = 2558, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+addr_st = [3068]
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 120, cyc_to_die=1536, len_cur = 2
+c = 121, cyc_to_die=1536, len_cur = 2
+c = 122, cyc_to_die=1536, len_cur = 2
+c = 123, cyc_to_die=1536, len_cur = 2
+c = 124, cyc_to_die=1536, len_cur = 2
+cyc = 125, op = 3, cur = 2563, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+addr_st = [3072]
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 125, cyc_to_die=1536, len_cur = 2
+c = 126, cyc_to_die=1536, len_cur = 2
+c = 127, cyc_to_die=1536, len_cur = 2
+c = 128, cyc_to_die=1536, len_cur = 2
+c = 129, cyc_to_die=1536, len_cur = 2
+cyc = 130, op = 3, cur = 2568, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+addr_st = [3076]
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 130, cyc_to_die=1536, len_cur = 2
+c = 131, cyc_to_die=1536, len_cur = 2
+c = 132, cyc_to_die=1536, len_cur = 2
+c = 133, cyc_to_die=1536, len_cur = 2
+c = 134, cyc_to_die=1536, len_cur = 2
+cyc = 135, op = 3, cur = 2573, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+addr_st = [3080]
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 135, cyc_to_die=1536, len_cur = 2
+c = 136, cyc_to_die=1536, len_cur = 2
+c = 137, cyc_to_die=1536, len_cur = 2
+c = 138, cyc_to_die=1536, len_cur = 2
+c = 139, cyc_to_die=1536, len_cur = 2
+cyc = 140, op = 3, cur = 2578, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+addr_st = [3084]
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 140, cyc_to_die=1536, len_cur = 2
+c = 141, cyc_to_die=1536, len_cur = 2
+c = 142, cyc_to_die=1536, len_cur = 2
+c = 143, cyc_to_die=1536, len_cur = 2
+c = 144, cyc_to_die=1536, len_cur = 2
+cyc = 145, op = 3, cur = 2583, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+addr_st = [3088]
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 145, cyc_to_die=1536, len_cur = 2
+c = 146, cyc_to_die=1536, len_cur = 2
+c = 147, cyc_to_die=1536, len_cur = 2
+c = 148, cyc_to_die=1536, len_cur = 2
+c = 149, cyc_to_die=1536, len_cur = 2
+cyc = 150, op = 3, cur = 2588, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+addr_st = [3092]
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 150, cyc_to_die=1536, len_cur = 2
+c = 151, cyc_to_die=1536, len_cur = 2
+c = 152, cyc_to_die=1536, len_cur = 2
+c = 153, cyc_to_die=1536, len_cur = 2
+c = 154, cyc_to_die=1536, len_cur = 2
+cyc = 155, op = 3, cur = 2593, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+addr_st = [3096]
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 155, cyc_to_die=1536, len_cur = 2
+c = 156, cyc_to_die=1536, len_cur = 2
+c = 157, cyc_to_die=1536, len_cur = 2
+c = 158, cyc_to_die=1536, len_cur = 2
+c = 159, cyc_to_die=1536, len_cur = 2
+cyc = 160, op = 3, cur = 2598, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+addr_st = [3100]
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 160, cyc_to_die=1536, len_cur = 2
+c = 161, cyc_to_die=1536, len_cur = 2
+c = 162, cyc_to_die=1536, len_cur = 2
+c = 163, cyc_to_die=1536, len_cur = 2
+c = 164, cyc_to_die=1536, len_cur = 2
+cyc = 165, op = 3, cur = 2603, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+addr_st = [3104]
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 165, cyc_to_die=1536, len_cur = 2
+c = 166, cyc_to_die=1536, len_cur = 2
+c = 167, cyc_to_die=1536, len_cur = 2
+c = 168, cyc_to_die=1536, len_cur = 2
+c = 169, cyc_to_die=1536, len_cur = 2
+cyc = 170, op = 3, cur = 2608, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+addr_st = [3108]
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 170, cyc_to_die=1536, len_cur = 2
+c = 171, cyc_to_die=1536, len_cur = 2
+c = 172, cyc_to_die=1536, len_cur = 2
+c = 173, cyc_to_die=1536, len_cur = 2
+c = 174, cyc_to_die=1536, len_cur = 2
+cyc = 175, op = 2, cur = 2613, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 57673217 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 1770192 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 175, cyc_to_die=1536, len_cur = 2
+c = 176, cyc_to_die=1536, len_cur = 2
+c = 177, cyc_to_die=1536, len_cur = 2
+c = 178, cyc_to_die=1536, len_cur = 2
+c = 179, cyc_to_die=1536, len_cur = 2
+cyc = 180, op = 2, cur = 2620, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 1770192 reg[3] = -33329149 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 180, cyc_to_die=1536, len_cur = 2
+c = 181, cyc_to_die=1536, len_cur = 2
+c = 182, cyc_to_die=1536, len_cur = 2
+c = 183, cyc_to_die=1536, len_cur = 2
+c = 184, cyc_to_die=1536, len_cur = 2
+cyc = 185, op = 2, cur = 2627, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 33227632 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 185, cyc_to_die=1536, len_cur = 2
+c = 186, cyc_to_die=1536, len_cur = 2
+c = 187, cyc_to_die=1536, len_cur = 2
+c = 188, cyc_to_die=1536, len_cur = 2
+c = 189, cyc_to_die=1536, len_cur = 2
+cyc = 190, op = 2, cur = 2634, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 67238659 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 190, cyc_to_die=1536, len_cur = 2
+c = 191, cyc_to_die=1536, len_cur = 2
+c = 192, cyc_to_die=1536, len_cur = 2
+c = 193, cyc_to_die=1536, len_cur = 2
+c = 194, cyc_to_die=1536, len_cur = 2
+cyc = 195, op = 2, cur = 2641, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 1879376379 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 195, cyc_to_die=1536, len_cur = 2
+c = 196, cyc_to_die=1536, len_cur = 2
+c = 197, cyc_to_die=1536, len_cur = 2
+c = 198, cyc_to_die=1536, len_cur = 2
+c = 199, cyc_to_die=1536, len_cur = 2
+cyc = 200, op = 2, cur = 2648, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 57673217 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 200, cyc_to_die=1536, len_cur = 2
+c = 201, cyc_to_die=1536, len_cur = 2
+c = 202, cyc_to_die=1536, len_cur = 2
+c = 203, cyc_to_die=1536, len_cur = 2
+c = 204, cyc_to_die=1536, len_cur = 2
+cyc = 205, op = 2, cur = 2655, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 134348291 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+after op
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 205, cyc_to_die=1536, len_cur = 2
+c = 206, cyc_to_die=1536, len_cur = 2
+c = 207, cyc_to_die=1536, len_cur = 2
+c = 208, cyc_to_die=1536, len_cur = 2
+c = 209, cyc_to_die=1536, len_cur = 2
+cyc = 210, op = 2, cur = 2662, cyc_live = 0
+ reg[0] = -2 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+after op
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 210, cyc_to_die=1536, len_cur = 2
+c = 211, cyc_to_die=1536, len_cur = 2
+c = 212, cyc_to_die=1536, len_cur = 2
+c = 213, cyc_to_die=1536, len_cur = 2
+c = 214, cyc_to_die=1536, len_cur = 2
+cyc = 215, op = 2, cur = 2669, cyc_live = 0
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 0 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+after op
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 215, cyc_to_die=1536, len_cur = 2
+c = 216, cyc_to_die=1536, len_cur = 2
+c = 217, cyc_to_die=1536, len_cur = 2
+c = 218, cyc_to_die=1536, len_cur = 2
+c = 219, cyc_to_die=1536, len_cur = 2
+cyc = 220, op = 2, cur = 2676, cyc_live = 0
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = -50106361 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+after op
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 220, cyc_to_die=1536, len_cur = 2
+c = 221, cyc_to_die=1536, len_cur = 2
+c = 222, cyc_to_die=1536, len_cur = 2
+c = 223, cyc_to_die=1536, len_cur = 2
+c = 224, cyc_to_die=1536, len_cur = 2
+c = 225, cyc_to_die=1536, len_cur = 2
+c = 226, cyc_to_die=1536, len_cur = 2
+c = 227, cyc_to_die=1536, len_cur = 2
+c = 228, cyc_to_die=1536, len_cur = 2
+c = 229, cyc_to_die=1536, len_cur = 2
+c = 230, cyc_to_die=1536, len_cur = 2
+c = 231, cyc_to_die=1536, len_cur = 2
+c = 232, cyc_to_die=1536, len_cur = 2
+c = 233, cyc_to_die=1536, len_cur = 2
+c = 234, cyc_to_die=1536, len_cur = 2
+c = 235, cyc_to_die=1536, len_cur = 2
+c = 236, cyc_to_die=1536, len_cur = 2
+c = 237, cyc_to_die=1536, len_cur = 2
+c = 238, cyc_to_die=1536, len_cur = 2
+c = 239, cyc_to_die=1536, len_cur = 2
+cyc = 240, op = 9, cur = 2681, cyc_live = 0
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+after op
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 240, cyc_to_die=1536, len_cur = 2
+c = 241, cyc_to_die=1536, len_cur = 2
+c = 242, cyc_to_die=1536, len_cur = 2
+c = 243, cyc_to_die=1536, len_cur = 2
+c = 244, cyc_to_die=1536, len_cur = 2
+c = 245, cyc_to_die=1536, len_cur = 2
+c = 246, cyc_to_die=1536, len_cur = 2
+c = 247, cyc_to_die=1536, len_cur = 2
+c = 248, cyc_to_die=1536, len_cur = 2
+c = 249, cyc_to_die=1536, len_cur = 2
+c = 250, cyc_to_die=1536, len_cur = 2
+c = 251, cyc_to_die=1536, len_cur = 2
+c = 252, cyc_to_die=1536, len_cur = 2
+cyc = 253, op = 3, cur = 3064, cyc_live = 0
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+addr_st = [3574]
+after op
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 253, cyc_to_die=1536, len_cur = 2
+c = 254, cyc_to_die=1536, len_cur = 2
+c = 255, cyc_to_die=1536, len_cur = 2
+c = 256, cyc_to_die=1536, len_cur = 2
+c = 257, cyc_to_die=1536, len_cur = 2
+cyc = 258, op = 3, cur = 3069, cyc_live = 0
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+addr_st = [3576]
+after op
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 258, cyc_to_die=1536, len_cur = 2
+c = 259, cyc_to_die=1536, len_cur = 2
+c = 260, cyc_to_die=1536, len_cur = 2
+c = 261, cyc_to_die=1536, len_cur = 2
+c = 262, cyc_to_die=1536, len_cur = 2
+cyc = 263, op = 3, cur = 3074, cyc_live = 0
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+addr_st = [3581]
+after op
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 263, cyc_to_die=1536, len_cur = 2
+c = 264, cyc_to_die=1536, len_cur = 2
+c = 265, cyc_to_die=1536, len_cur = 2
+c = 266, cyc_to_die=1536, len_cur = 2
+c = 267, cyc_to_die=1536, len_cur = 2
+cyc = 268, op = 3, cur = 3079, cyc_live = 0
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+addr_st = [3586]
+after op
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 268, cyc_to_die=1536, len_cur = 2
+c = 269, cyc_to_die=1536, len_cur = 2
+c = 270, cyc_to_die=1536, len_cur = 2
+c = 271, cyc_to_die=1536, len_cur = 2
+c = 272, cyc_to_die=1536, len_cur = 2
+cyc = 273, op = 3, cur = 3084, cyc_live = 0
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+addr_st = [3593]
+after op
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 273, cyc_to_die=1536, len_cur = 2
+c = 274, cyc_to_die=1536, len_cur = 2
+c = 275, cyc_to_die=1536, len_cur = 2
+c = 276, cyc_to_die=1536, len_cur = 2
+c = 277, cyc_to_die=1536, len_cur = 2
+cyc = 278, op = 3, cur = 3089, cyc_live = 0
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+addr_st = [3600]
+after op
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 278, cyc_to_die=1536, len_cur = 2
+c = 279, cyc_to_die=1536, len_cur = 2
+c = 280, cyc_to_die=1536, len_cur = 2
+c = 281, cyc_to_die=1536, len_cur = 2
+c = 282, cyc_to_die=1536, len_cur = 2
+cyc = 283, op = 3, cur = 3094, cyc_live = 0
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+addr_st = [3604]
+after op
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 283, cyc_to_die=1536, len_cur = 2
+c = 284, cyc_to_die=1536, len_cur = 2
+c = 285, cyc_to_die=1536, len_cur = 2
+c = 286, cyc_to_die=1536, len_cur = 2
+c = 287, cyc_to_die=1536, len_cur = 2
+cyc = 288, op = 3, cur = 3099, cyc_live = 0
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+addr_st = [3608]
+after op
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 288, cyc_to_die=1536, len_cur = 2
+c = 289, cyc_to_die=1536, len_cur = 2
+c = 290, cyc_to_die=1536, len_cur = 2
+c = 291, cyc_to_die=1536, len_cur = 2
+c = 292, cyc_to_die=1536, len_cur = 2
+cyc = 293, op = 3, cur = 3104, cyc_live = 0
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+addr_st = [3612]
+after op
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 293, cyc_to_die=1536, len_cur = 2
+c = 294, cyc_to_die=1536, len_cur = 2
+c = 295, cyc_to_die=1536, len_cur = 2
+c = 296, cyc_to_die=1536, len_cur = 2
+c = 297, cyc_to_die=1536, len_cur = 2
+c = 298, cyc_to_die=1536, len_cur = 2
+c = 299, cyc_to_die=1536, len_cur = 2
+c = 300, cyc_to_die=1536, len_cur = 2
+c = 301, cyc_to_die=1536, len_cur = 2
+c = 302, cyc_to_die=1536, len_cur = 2
+c = 303, cyc_to_die=1536, len_cur = 2
+c = 304, cyc_to_die=1536, len_cur = 2
+c = 305, cyc_to_die=1536, len_cur = 2
+c = 306, cyc_to_die=1536, len_cur = 2
+c = 307, cyc_to_die=1536, len_cur = 2
+c = 308, cyc_to_die=1536, len_cur = 2
+c = 309, cyc_to_die=1536, len_cur = 2
+c = 310, cyc_to_die=1536, len_cur = 2
+c = 311, cyc_to_die=1536, len_cur = 2
+c = 312, cyc_to_die=1536, len_cur = 2
+cyc = 313, op = 9, cur = 3109, cyc_live = 0
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+after op
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 313, cyc_to_die=1536, len_cur = 2
+c = 314, cyc_to_die=1536, len_cur = 2
+c = 315, cyc_to_die=1536, len_cur = 2
+c = 316, cyc_to_die=1536, len_cur = 2
+c = 317, cyc_to_die=1536, len_cur = 2
+c = 318, cyc_to_die=1536, len_cur = 2
+c = 319, cyc_to_die=1536, len_cur = 2
+c = 320, cyc_to_die=1536, len_cur = 2
+c = 321, cyc_to_die=1536, len_cur = 2
+c = 322, cyc_to_die=1536, len_cur = 2
+c = 323, cyc_to_die=1536, len_cur = 2
+c = 324, cyc_to_die=1536, len_cur = 2
+c = 325, cyc_to_die=1536, len_cur = 2
+c = 326, cyc_to_die=1536, len_cur = 2
+c = 327, cyc_to_die=1536, len_cur = 2
+c = 328, cyc_to_die=1536, len_cur = 2
+c = 329, cyc_to_die=1536, len_cur = 2
+c = 330, cyc_to_die=1536, len_cur = 2
+c = 331, cyc_to_die=1536, len_cur = 2
+c = 332, cyc_to_die=1536, len_cur = 2
+c = 333, cyc_to_die=1536, len_cur = 2
+c = 334, cyc_to_die=1536, len_cur = 2
+c = 335, cyc_to_die=1536, len_cur = 2
+c = 336, cyc_to_die=1536, len_cur = 2
+c = 337, cyc_to_die=1536, len_cur = 2
+c = 338, cyc_to_die=1536, len_cur = 2
+c = 339, cyc_to_die=1536, len_cur = 2
+c = 340, cyc_to_die=1536, len_cur = 2
+c = 341, cyc_to_die=1536, len_cur = 2
+c = 342, cyc_to_die=1536, len_cur = 2
+c = 343, cyc_to_die=1536, len_cur = 2
+c = 344, cyc_to_die=1536, len_cur = 2
+c = 345, cyc_to_die=1536, len_cur = 2
+c = 346, cyc_to_die=1536, len_cur = 2
+c = 347, cyc_to_die=1536, len_cur = 2
+c = 348, cyc_to_die=1536, len_cur = 2
+c = 349, cyc_to_die=1536, len_cur = 2
+c = 350, cyc_to_die=1536, len_cur = 2
+c = 351, cyc_to_die=1536, len_cur = 2
+c = 352, cyc_to_die=1536, len_cur = 2
+c = 353, cyc_to_die=1536, len_cur = 2
+c = 354, cyc_to_die=1536, len_cur = 2
+c = 355, cyc_to_die=1536, len_cur = 2
+c = 356, cyc_to_die=1536, len_cur = 2
+c = 357, cyc_to_die=1536, len_cur = 2
+c = 358, cyc_to_die=1536, len_cur = 2
+c = 359, cyc_to_die=1536, len_cur = 2
+c = 360, cyc_to_die=1536, len_cur = 2
+c = 361, cyc_to_die=1536, len_cur = 2
+c = 362, cyc_to_die=1536, len_cur = 2
+c = 363, cyc_to_die=1536, len_cur = 2
+c = 364, cyc_to_die=1536, len_cur = 2
+c = 365, cyc_to_die=1536, len_cur = 2
+c = 366, cyc_to_die=1536, len_cur = 2
+c = 367, cyc_to_die=1536, len_cur = 2
+c = 368, cyc_to_die=1536, len_cur = 2
+c = 369, cyc_to_die=1536, len_cur = 2
+c = 370, cyc_to_die=1536, len_cur = 2
+c = 371, cyc_to_die=1536, len_cur = 2
+c = 372, cyc_to_die=1536, len_cur = 2
+c = 373, cyc_to_die=1536, len_cur = 2
+c = 374, cyc_to_die=1536, len_cur = 2
+c = 375, cyc_to_die=1536, len_cur = 2
+c = 376, cyc_to_die=1536, len_cur = 2
+c = 377, cyc_to_die=1536, len_cur = 2
+c = 378, cyc_to_die=1536, len_cur = 2
+c = 379, cyc_to_die=1536, len_cur = 2
+c = 380, cyc_to_die=1536, len_cur = 2
+c = 381, cyc_to_die=1536, len_cur = 2
+c = 382, cyc_to_die=1536, len_cur = 2
+c = 383, cyc_to_die=1536, len_cur = 2
+c = 384, cyc_to_die=1536, len_cur = 2
+c = 385, cyc_to_die=1536, len_cur = 2
+c = 386, cyc_to_die=1536, len_cur = 2
+c = 387, cyc_to_die=1536, len_cur = 2
+c = 388, cyc_to_die=1536, len_cur = 2
+c = 389, cyc_to_die=1536, len_cur = 2
+c = 390, cyc_to_die=1536, len_cur = 2
+c = 391, cyc_to_die=1536, len_cur = 2
+c = 392, cyc_to_die=1536, len_cur = 2
+c = 393, cyc_to_die=1536, len_cur = 2
+c = 394, cyc_to_die=1536, len_cur = 2
+c = 395, cyc_to_die=1536, len_cur = 2
+c = 396, cyc_to_die=1536, len_cur = 2
+c = 397, cyc_to_die=1536, len_cur = 2
+c = 398, cyc_to_die=1536, len_cur = 2
+c = 399, cyc_to_die=1536, len_cur = 2
+c = 400, cyc_to_die=1536, len_cur = 2
+c = 401, cyc_to_die=1536, len_cur = 2
+c = 402, cyc_to_die=1536, len_cur = 2
+c = 403, cyc_to_die=1536, len_cur = 2
+c = 404, cyc_to_die=1536, len_cur = 2
+c = 405, cyc_to_die=1536, len_cur = 2
+c = 406, cyc_to_die=1536, len_cur = 2
+c = 407, cyc_to_die=1536, len_cur = 2
+c = 408, cyc_to_die=1536, len_cur = 2
+c = 409, cyc_to_die=1536, len_cur = 2
+c = 410, cyc_to_die=1536, len_cur = 2
+c = 411, cyc_to_die=1536, len_cur = 2
+c = 412, cyc_to_die=1536, len_cur = 2
+c = 413, cyc_to_die=1536, len_cur = 2
+c = 414, cyc_to_die=1536, len_cur = 2
+c = 415, cyc_to_die=1536, len_cur = 2
+c = 416, cyc_to_die=1536, len_cur = 2
+c = 417, cyc_to_die=1536, len_cur = 2
+c = 418, cyc_to_die=1536, len_cur = 2
+c = 419, cyc_to_die=1536, len_cur = 2
+c = 420, cyc_to_die=1536, len_cur = 2
+c = 421, cyc_to_die=1536, len_cur = 2
+c = 422, cyc_to_die=1536, len_cur = 2
+c = 423, cyc_to_die=1536, len_cur = 2
+c = 424, cyc_to_die=1536, len_cur = 2
+c = 425, cyc_to_die=1536, len_cur = 2
+c = 426, cyc_to_die=1536, len_cur = 2
+c = 427, cyc_to_die=1536, len_cur = 2
+c = 428, cyc_to_die=1536, len_cur = 2
+c = 429, cyc_to_die=1536, len_cur = 2
+c = 430, cyc_to_die=1536, len_cur = 2
+c = 431, cyc_to_die=1536, len_cur = 2
+c = 432, cyc_to_die=1536, len_cur = 2
+c = 433, cyc_to_die=1536, len_cur = 2
+c = 434, cyc_to_die=1536, len_cur = 2
+c = 435, cyc_to_die=1536, len_cur = 2
+c = 436, cyc_to_die=1536, len_cur = 2
+c = 437, cyc_to_die=1536, len_cur = 2
+c = 438, cyc_to_die=1536, len_cur = 2
+c = 439, cyc_to_die=1536, len_cur = 2
+c = 440, cyc_to_die=1536, len_cur = 2
+c = 441, cyc_to_die=1536, len_cur = 2
+c = 442, cyc_to_die=1536, len_cur = 2
+c = 443, cyc_to_die=1536, len_cur = 2
+c = 444, cyc_to_die=1536, len_cur = 2
+c = 445, cyc_to_die=1536, len_cur = 2
+c = 446, cyc_to_die=1536, len_cur = 2
+c = 447, cyc_to_die=1536, len_cur = 2
+c = 448, cyc_to_die=1536, len_cur = 2
+c = 449, cyc_to_die=1536, len_cur = 2
+c = 450, cyc_to_die=1536, len_cur = 2
+c = 451, cyc_to_die=1536, len_cur = 2
+c = 452, cyc_to_die=1536, len_cur = 2
+c = 453, cyc_to_die=1536, len_cur = 2
+c = 454, cyc_to_die=1536, len_cur = 2
+c = 455, cyc_to_die=1536, len_cur = 2
+c = 456, cyc_to_die=1536, len_cur = 2
+c = 457, cyc_to_die=1536, len_cur = 2
+c = 458, cyc_to_die=1536, len_cur = 2
+c = 459, cyc_to_die=1536, len_cur = 2
+c = 460, cyc_to_die=1536, len_cur = 2
+c = 461, cyc_to_die=1536, len_cur = 2
+c = 462, cyc_to_die=1536, len_cur = 2
+c = 463, cyc_to_die=1536, len_cur = 2
+c = 464, cyc_to_die=1536, len_cur = 2
+c = 465, cyc_to_die=1536, len_cur = 2
+c = 466, cyc_to_die=1536, len_cur = 2
+c = 467, cyc_to_die=1536, len_cur = 2
+c = 468, cyc_to_die=1536, len_cur = 2
+c = 469, cyc_to_die=1536, len_cur = 2
+c = 470, cyc_to_die=1536, len_cur = 2
+c = 471, cyc_to_die=1536, len_cur = 2
+c = 472, cyc_to_die=1536, len_cur = 2
+c = 473, cyc_to_die=1536, len_cur = 2
+c = 474, cyc_to_die=1536, len_cur = 2
+c = 475, cyc_to_die=1536, len_cur = 2
+c = 476, cyc_to_die=1536, len_cur = 2
+c = 477, cyc_to_die=1536, len_cur = 2
+c = 478, cyc_to_die=1536, len_cur = 2
+c = 479, cyc_to_die=1536, len_cur = 2
+c = 480, cyc_to_die=1536, len_cur = 2
+c = 481, cyc_to_die=1536, len_cur = 2
+c = 482, cyc_to_die=1536, len_cur = 2
+c = 483, cyc_to_die=1536, len_cur = 2
+c = 484, cyc_to_die=1536, len_cur = 2
+c = 485, cyc_to_die=1536, len_cur = 2
+c = 486, cyc_to_die=1536, len_cur = 2
+c = 487, cyc_to_die=1536, len_cur = 2
+c = 488, cyc_to_die=1536, len_cur = 2
+c = 489, cyc_to_die=1536, len_cur = 2
+c = 490, cyc_to_die=1536, len_cur = 2
+c = 491, cyc_to_die=1536, len_cur = 2
+c = 492, cyc_to_die=1536, len_cur = 2
+c = 493, cyc_to_die=1536, len_cur = 2
+c = 494, cyc_to_die=1536, len_cur = 2
+c = 495, cyc_to_die=1536, len_cur = 2
+c = 496, cyc_to_die=1536, len_cur = 2
+c = 497, cyc_to_die=1536, len_cur = 2
+c = 498, cyc_to_die=1536, len_cur = 2
+c = 499, cyc_to_die=1536, len_cur = 2
+c = 500, cyc_to_die=1536, len_cur = 2
+c = 501, cyc_to_die=1536, len_cur = 2
+c = 502, cyc_to_die=1536, len_cur = 2
+c = 503, cyc_to_die=1536, len_cur = 2
+c = 504, cyc_to_die=1536, len_cur = 2
+c = 505, cyc_to_die=1536, len_cur = 2
+c = 506, cyc_to_die=1536, len_cur = 2
+c = 507, cyc_to_die=1536, len_cur = 2
+c = 508, cyc_to_die=1536, len_cur = 2
+c = 509, cyc_to_die=1536, len_cur = 2
+c = 510, cyc_to_die=1536, len_cur = 2
+c = 511, cyc_to_die=1536, len_cur = 2
+c = 512, cyc_to_die=1536, len_cur = 2
+c = 513, cyc_to_die=1536, len_cur = 2
+c = 514, cyc_to_die=1536, len_cur = 2
+c = 515, cyc_to_die=1536, len_cur = 2
+c = 516, cyc_to_die=1536, len_cur = 2
+c = 517, cyc_to_die=1536, len_cur = 2
+c = 518, cyc_to_die=1536, len_cur = 2
+c = 519, cyc_to_die=1536, len_cur = 2
+c = 520, cyc_to_die=1536, len_cur = 2
+c = 521, cyc_to_die=1536, len_cur = 2
+c = 522, cyc_to_die=1536, len_cur = 2
+c = 523, cyc_to_die=1536, len_cur = 2
+c = 524, cyc_to_die=1536, len_cur = 2
+c = 525, cyc_to_die=1536, len_cur = 2
+c = 526, cyc_to_die=1536, len_cur = 2
+c = 527, cyc_to_die=1536, len_cur = 2
+c = 528, cyc_to_die=1536, len_cur = 2
+c = 529, cyc_to_die=1536, len_cur = 2
+c = 530, cyc_to_die=1536, len_cur = 2
+c = 531, cyc_to_die=1536, len_cur = 2
+c = 532, cyc_to_die=1536, len_cur = 2
+c = 533, cyc_to_die=1536, len_cur = 2
+c = 534, cyc_to_die=1536, len_cur = 2
+c = 535, cyc_to_die=1536, len_cur = 2
+c = 536, cyc_to_die=1536, len_cur = 2
+c = 537, cyc_to_die=1536, len_cur = 2
+c = 538, cyc_to_die=1536, len_cur = 2
+c = 539, cyc_to_die=1536, len_cur = 2
+c = 540, cyc_to_die=1536, len_cur = 2
+c = 541, cyc_to_die=1536, len_cur = 2
+c = 542, cyc_to_die=1536, len_cur = 2
+c = 543, cyc_to_die=1536, len_cur = 2
+c = 544, cyc_to_die=1536, len_cur = 2
+c = 545, cyc_to_die=1536, len_cur = 2
+c = 546, cyc_to_die=1536, len_cur = 2
+c = 547, cyc_to_die=1536, len_cur = 2
+c = 548, cyc_to_die=1536, len_cur = 2
+c = 549, cyc_to_die=1536, len_cur = 2
+c = 550, cyc_to_die=1536, len_cur = 2
+c = 551, cyc_to_die=1536, len_cur = 2
+c = 552, cyc_to_die=1536, len_cur = 2
+c = 553, cyc_to_die=1536, len_cur = 2
+c = 554, cyc_to_die=1536, len_cur = 2
+c = 555, cyc_to_die=1536, len_cur = 2
+c = 556, cyc_to_die=1536, len_cur = 2
+c = 557, cyc_to_die=1536, len_cur = 2
+c = 558, cyc_to_die=1536, len_cur = 2
+c = 559, cyc_to_die=1536, len_cur = 2
+c = 560, cyc_to_die=1536, len_cur = 2
+c = 561, cyc_to_die=1536, len_cur = 2
+c = 562, cyc_to_die=1536, len_cur = 2
+c = 563, cyc_to_die=1536, len_cur = 2
+c = 564, cyc_to_die=1536, len_cur = 2
+c = 565, cyc_to_die=1536, len_cur = 2
+c = 566, cyc_to_die=1536, len_cur = 2
+c = 567, cyc_to_die=1536, len_cur = 2
+c = 568, cyc_to_die=1536, len_cur = 2
+c = 569, cyc_to_die=1536, len_cur = 2
+c = 570, cyc_to_die=1536, len_cur = 2
+c = 571, cyc_to_die=1536, len_cur = 2
+c = 572, cyc_to_die=1536, len_cur = 2
+c = 573, cyc_to_die=1536, len_cur = 2
+c = 574, cyc_to_die=1536, len_cur = 2
+c = 575, cyc_to_die=1536, len_cur = 2
+c = 576, cyc_to_die=1536, len_cur = 2
+c = 577, cyc_to_die=1536, len_cur = 2
+c = 578, cyc_to_die=1536, len_cur = 2
+c = 579, cyc_to_die=1536, len_cur = 2
+c = 580, cyc_to_die=1536, len_cur = 2
+c = 581, cyc_to_die=1536, len_cur = 2
+c = 582, cyc_to_die=1536, len_cur = 2
+c = 583, cyc_to_die=1536, len_cur = 2
+c = 584, cyc_to_die=1536, len_cur = 2
+c = 585, cyc_to_die=1536, len_cur = 2
+c = 586, cyc_to_die=1536, len_cur = 2
+c = 587, cyc_to_die=1536, len_cur = 2
+c = 588, cyc_to_die=1536, len_cur = 2
+c = 589, cyc_to_die=1536, len_cur = 2
+c = 590, cyc_to_die=1536, len_cur = 2
+c = 591, cyc_to_die=1536, len_cur = 2
+c = 592, cyc_to_die=1536, len_cur = 2
+c = 593, cyc_to_die=1536, len_cur = 2
+c = 594, cyc_to_die=1536, len_cur = 2
+c = 595, cyc_to_die=1536, len_cur = 2
+c = 596, cyc_to_die=1536, len_cur = 2
+c = 597, cyc_to_die=1536, len_cur = 2
+c = 598, cyc_to_die=1536, len_cur = 2
+c = 599, cyc_to_die=1536, len_cur = 2
+c = 600, cyc_to_die=1536, len_cur = 2
+c = 601, cyc_to_die=1536, len_cur = 2
+c = 602, cyc_to_die=1536, len_cur = 2
+c = 603, cyc_to_die=1536, len_cur = 2
+c = 604, cyc_to_die=1536, len_cur = 2
+c = 605, cyc_to_die=1536, len_cur = 2
+c = 606, cyc_to_die=1536, len_cur = 2
+c = 607, cyc_to_die=1536, len_cur = 2
+c = 608, cyc_to_die=1536, len_cur = 2
+c = 609, cyc_to_die=1536, len_cur = 2
+c = 610, cyc_to_die=1536, len_cur = 2
+c = 611, cyc_to_die=1536, len_cur = 2
+c = 612, cyc_to_die=1536, len_cur = 2
+c = 613, cyc_to_die=1536, len_cur = 2
+c = 614, cyc_to_die=1536, len_cur = 2
+c = 615, cyc_to_die=1536, len_cur = 2
+c = 616, cyc_to_die=1536, len_cur = 2
+c = 617, cyc_to_die=1536, len_cur = 2
+c = 618, cyc_to_die=1536, len_cur = 2
+c = 619, cyc_to_die=1536, len_cur = 2
+c = 620, cyc_to_die=1536, len_cur = 2
+c = 621, cyc_to_die=1536, len_cur = 2
+c = 622, cyc_to_die=1536, len_cur = 2
+c = 623, cyc_to_die=1536, len_cur = 2
+c = 624, cyc_to_die=1536, len_cur = 2
+c = 625, cyc_to_die=1536, len_cur = 2
+c = 626, cyc_to_die=1536, len_cur = 2
+c = 627, cyc_to_die=1536, len_cur = 2
+c = 628, cyc_to_die=1536, len_cur = 2
+c = 629, cyc_to_die=1536, len_cur = 2
+c = 630, cyc_to_die=1536, len_cur = 2
+c = 631, cyc_to_die=1536, len_cur = 2
+c = 632, cyc_to_die=1536, len_cur = 2
+c = 633, cyc_to_die=1536, len_cur = 2
+c = 634, cyc_to_die=1536, len_cur = 2
+c = 635, cyc_to_die=1536, len_cur = 2
+c = 636, cyc_to_die=1536, len_cur = 2
+c = 637, cyc_to_die=1536, len_cur = 2
+c = 638, cyc_to_die=1536, len_cur = 2
+c = 639, cyc_to_die=1536, len_cur = 2
+c = 640, cyc_to_die=1536, len_cur = 2
+c = 641, cyc_to_die=1536, len_cur = 2
+c = 642, cyc_to_die=1536, len_cur = 2
+c = 643, cyc_to_die=1536, len_cur = 2
+c = 644, cyc_to_die=1536, len_cur = 2
+c = 645, cyc_to_die=1536, len_cur = 2
+c = 646, cyc_to_die=1536, len_cur = 2
+c = 647, cyc_to_die=1536, len_cur = 2
+c = 648, cyc_to_die=1536, len_cur = 2
+c = 649, cyc_to_die=1536, len_cur = 2
+c = 650, cyc_to_die=1536, len_cur = 2
+c = 651, cyc_to_die=1536, len_cur = 2
+c = 652, cyc_to_die=1536, len_cur = 2
+c = 653, cyc_to_die=1536, len_cur = 2
+c = 654, cyc_to_die=1536, len_cur = 2
+c = 655, cyc_to_die=1536, len_cur = 2
+c = 656, cyc_to_die=1536, len_cur = 2
+c = 657, cyc_to_die=1536, len_cur = 2
+c = 658, cyc_to_die=1536, len_cur = 2
+c = 659, cyc_to_die=1536, len_cur = 2
+c = 660, cyc_to_die=1536, len_cur = 2
+c = 661, cyc_to_die=1536, len_cur = 2
+c = 662, cyc_to_die=1536, len_cur = 2
+c = 663, cyc_to_die=1536, len_cur = 2
+c = 664, cyc_to_die=1536, len_cur = 2
+c = 665, cyc_to_die=1536, len_cur = 2
+c = 666, cyc_to_die=1536, len_cur = 2
+c = 667, cyc_to_die=1536, len_cur = 2
+c = 668, cyc_to_die=1536, len_cur = 2
+c = 669, cyc_to_die=1536, len_cur = 2
+c = 670, cyc_to_die=1536, len_cur = 2
+c = 671, cyc_to_die=1536, len_cur = 2
+c = 672, cyc_to_die=1536, len_cur = 2
+c = 673, cyc_to_die=1536, len_cur = 2
+c = 674, cyc_to_die=1536, len_cur = 2
+c = 675, cyc_to_die=1536, len_cur = 2
+c = 676, cyc_to_die=1536, len_cur = 2
+c = 677, cyc_to_die=1536, len_cur = 2
+c = 678, cyc_to_die=1536, len_cur = 2
+c = 679, cyc_to_die=1536, len_cur = 2
+c = 680, cyc_to_die=1536, len_cur = 2
+c = 681, cyc_to_die=1536, len_cur = 2
+c = 682, cyc_to_die=1536, len_cur = 2
+c = 683, cyc_to_die=1536, len_cur = 2
+c = 684, cyc_to_die=1536, len_cur = 2
+c = 685, cyc_to_die=1536, len_cur = 2
+c = 686, cyc_to_die=1536, len_cur = 2
+c = 687, cyc_to_die=1536, len_cur = 2
+c = 688, cyc_to_die=1536, len_cur = 2
+c = 689, cyc_to_die=1536, len_cur = 2
+c = 690, cyc_to_die=1536, len_cur = 2
+c = 691, cyc_to_die=1536, len_cur = 2
+c = 692, cyc_to_die=1536, len_cur = 2
+c = 693, cyc_to_die=1536, len_cur = 2
+c = 694, cyc_to_die=1536, len_cur = 2
+c = 695, cyc_to_die=1536, len_cur = 2
+c = 696, cyc_to_die=1536, len_cur = 2
+c = 697, cyc_to_die=1536, len_cur = 2
+c = 698, cyc_to_die=1536, len_cur = 2
+c = 699, cyc_to_die=1536, len_cur = 2
+c = 700, cyc_to_die=1536, len_cur = 2
+c = 701, cyc_to_die=1536, len_cur = 2
+c = 702, cyc_to_die=1536, len_cur = 2
+c = 703, cyc_to_die=1536, len_cur = 2
+c = 704, cyc_to_die=1536, len_cur = 2
+c = 705, cyc_to_die=1536, len_cur = 2
+c = 706, cyc_to_die=1536, len_cur = 2
+c = 707, cyc_to_die=1536, len_cur = 2
+c = 708, cyc_to_die=1536, len_cur = 2
+c = 709, cyc_to_die=1536, len_cur = 2
+c = 710, cyc_to_die=1536, len_cur = 2
+c = 711, cyc_to_die=1536, len_cur = 2
+c = 712, cyc_to_die=1536, len_cur = 2
+c = 713, cyc_to_die=1536, len_cur = 2
+c = 714, cyc_to_die=1536, len_cur = 2
+c = 715, cyc_to_die=1536, len_cur = 2
+c = 716, cyc_to_die=1536, len_cur = 2
+c = 717, cyc_to_die=1536, len_cur = 2
+c = 718, cyc_to_die=1536, len_cur = 2
+c = 719, cyc_to_die=1536, len_cur = 2
+c = 720, cyc_to_die=1536, len_cur = 2
+c = 721, cyc_to_die=1536, len_cur = 2
+c = 722, cyc_to_die=1536, len_cur = 2
+c = 723, cyc_to_die=1536, len_cur = 2
+c = 724, cyc_to_die=1536, len_cur = 2
+c = 725, cyc_to_die=1536, len_cur = 2
+c = 726, cyc_to_die=1536, len_cur = 2
+c = 727, cyc_to_die=1536, len_cur = 2
+c = 728, cyc_to_die=1536, len_cur = 2
+c = 729, cyc_to_die=1536, len_cur = 2
+c = 730, cyc_to_die=1536, len_cur = 2
+c = 731, cyc_to_die=1536, len_cur = 2
+c = 732, cyc_to_die=1536, len_cur = 2
+c = 733, cyc_to_die=1536, len_cur = 2
+c = 734, cyc_to_die=1536, len_cur = 2
+c = 735, cyc_to_die=1536, len_cur = 2
+c = 736, cyc_to_die=1536, len_cur = 2
+c = 737, cyc_to_die=1536, len_cur = 2
+c = 738, cyc_to_die=1536, len_cur = 2
+c = 739, cyc_to_die=1536, len_cur = 2
+c = 740, cyc_to_die=1536, len_cur = 2
+c = 741, cyc_to_die=1536, len_cur = 2
+c = 742, cyc_to_die=1536, len_cur = 2
+c = 743, cyc_to_die=1536, len_cur = 2
+c = 744, cyc_to_die=1536, len_cur = 2
+c = 745, cyc_to_die=1536, len_cur = 2
+c = 746, cyc_to_die=1536, len_cur = 2
+c = 747, cyc_to_die=1536, len_cur = 2
+c = 748, cyc_to_die=1536, len_cur = 2
+c = 749, cyc_to_die=1536, len_cur = 2
+c = 750, cyc_to_die=1536, len_cur = 2
+c = 751, cyc_to_die=1536, len_cur = 2
+c = 752, cyc_to_die=1536, len_cur = 2
+c = 753, cyc_to_die=1536, len_cur = 2
+c = 754, cyc_to_die=1536, len_cur = 2
+c = 755, cyc_to_die=1536, len_cur = 2
+c = 756, cyc_to_die=1536, len_cur = 2
+c = 757, cyc_to_die=1536, len_cur = 2
+c = 758, cyc_to_die=1536, len_cur = 2
+c = 759, cyc_to_die=1536, len_cur = 2
+c = 760, cyc_to_die=1536, len_cur = 2
+c = 761, cyc_to_die=1536, len_cur = 2
+c = 762, cyc_to_die=1536, len_cur = 2
+c = 763, cyc_to_die=1536, len_cur = 2
+c = 764, cyc_to_die=1536, len_cur = 2
+c = 765, cyc_to_die=1536, len_cur = 2
+c = 766, cyc_to_die=1536, len_cur = 2
+c = 767, cyc_to_die=1536, len_cur = 2
+c = 768, cyc_to_die=1536, len_cur = 2
+c = 769, cyc_to_die=1536, len_cur = 2
+c = 770, cyc_to_die=1536, len_cur = 2
+c = 771, cyc_to_die=1536, len_cur = 2
+c = 772, cyc_to_die=1536, len_cur = 2
+c = 773, cyc_to_die=1536, len_cur = 2
+c = 774, cyc_to_die=1536, len_cur = 2
+c = 775, cyc_to_die=1536, len_cur = 2
+c = 776, cyc_to_die=1536, len_cur = 2
+c = 777, cyc_to_die=1536, len_cur = 2
+c = 778, cyc_to_die=1536, len_cur = 2
+c = 779, cyc_to_die=1536, len_cur = 2
+c = 780, cyc_to_die=1536, len_cur = 2
+c = 781, cyc_to_die=1536, len_cur = 2
+c = 782, cyc_to_die=1536, len_cur = 2
+c = 783, cyc_to_die=1536, len_cur = 2
+c = 784, cyc_to_die=1536, len_cur = 2
+c = 785, cyc_to_die=1536, len_cur = 2
+c = 786, cyc_to_die=1536, len_cur = 2
+c = 787, cyc_to_die=1536, len_cur = 2
+c = 788, cyc_to_die=1536, len_cur = 2
+c = 789, cyc_to_die=1536, len_cur = 2
+c = 790, cyc_to_die=1536, len_cur = 2
+c = 791, cyc_to_die=1536, len_cur = 2
+c = 792, cyc_to_die=1536, len_cur = 2
+c = 793, cyc_to_die=1536, len_cur = 2
+c = 794, cyc_to_die=1536, len_cur = 2
+c = 795, cyc_to_die=1536, len_cur = 2
+c = 796, cyc_to_die=1536, len_cur = 2
+c = 797, cyc_to_die=1536, len_cur = 2
+c = 798, cyc_to_die=1536, len_cur = 2
+c = 799, cyc_to_die=1536, len_cur = 2
+c = 800, cyc_to_die=1536, len_cur = 2
+c = 801, cyc_to_die=1536, len_cur = 2
+c = 802, cyc_to_die=1536, len_cur = 2
+c = 803, cyc_to_die=1536, len_cur = 2
+c = 804, cyc_to_die=1536, len_cur = 2
+c = 805, cyc_to_die=1536, len_cur = 2
+c = 806, cyc_to_die=1536, len_cur = 2
+c = 807, cyc_to_die=1536, len_cur = 2
+c = 808, cyc_to_die=1536, len_cur = 2
+c = 809, cyc_to_die=1536, len_cur = 2
+c = 810, cyc_to_die=1536, len_cur = 2
+c = 811, cyc_to_die=1536, len_cur = 2
+c = 812, cyc_to_die=1536, len_cur = 2
+c = 813, cyc_to_die=1536, len_cur = 2
+c = 814, cyc_to_die=1536, len_cur = 2
+c = 815, cyc_to_die=1536, len_cur = 2
+c = 816, cyc_to_die=1536, len_cur = 2
+c = 817, cyc_to_die=1536, len_cur = 2
+c = 818, cyc_to_die=1536, len_cur = 2
+c = 819, cyc_to_die=1536, len_cur = 2
+c = 820, cyc_to_die=1536, len_cur = 2
+c = 821, cyc_to_die=1536, len_cur = 2
+c = 822, cyc_to_die=1536, len_cur = 2
+c = 823, cyc_to_die=1536, len_cur = 2
+c = 824, cyc_to_die=1536, len_cur = 2
+c = 825, cyc_to_die=1536, len_cur = 2
+c = 826, cyc_to_die=1536, len_cur = 2
+c = 827, cyc_to_die=1536, len_cur = 2
+c = 828, cyc_to_die=1536, len_cur = 2
+c = 829, cyc_to_die=1536, len_cur = 2
+c = 830, cyc_to_die=1536, len_cur = 2
+c = 831, cyc_to_die=1536, len_cur = 2
+c = 832, cyc_to_die=1536, len_cur = 2
+c = 833, cyc_to_die=1536, len_cur = 2
+c = 834, cyc_to_die=1536, len_cur = 2
+c = 835, cyc_to_die=1536, len_cur = 2
+c = 836, cyc_to_die=1536, len_cur = 2
+c = 837, cyc_to_die=1536, len_cur = 2
+c = 838, cyc_to_die=1536, len_cur = 2
+c = 839, cyc_to_die=1536, len_cur = 2
+c = 840, cyc_to_die=1536, len_cur = 2
+c = 841, cyc_to_die=1536, len_cur = 2
+c = 842, cyc_to_die=1536, len_cur = 2
+c = 843, cyc_to_die=1536, len_cur = 2
+c = 844, cyc_to_die=1536, len_cur = 2
+c = 845, cyc_to_die=1536, len_cur = 2
+c = 846, cyc_to_die=1536, len_cur = 2
+c = 847, cyc_to_die=1536, len_cur = 2
+c = 848, cyc_to_die=1536, len_cur = 2
+c = 849, cyc_to_die=1536, len_cur = 2
+c = 850, cyc_to_die=1536, len_cur = 2
+c = 851, cyc_to_die=1536, len_cur = 2
+c = 852, cyc_to_die=1536, len_cur = 2
+c = 853, cyc_to_die=1536, len_cur = 2
+c = 854, cyc_to_die=1536, len_cur = 2
+c = 855, cyc_to_die=1536, len_cur = 2
+c = 856, cyc_to_die=1536, len_cur = 2
+c = 857, cyc_to_die=1536, len_cur = 2
+c = 858, cyc_to_die=1536, len_cur = 2
+c = 859, cyc_to_die=1536, len_cur = 2
+c = 860, cyc_to_die=1536, len_cur = 2
+c = 861, cyc_to_die=1536, len_cur = 2
+c = 862, cyc_to_die=1536, len_cur = 2
+c = 863, cyc_to_die=1536, len_cur = 2
+c = 864, cyc_to_die=1536, len_cur = 2
+c = 865, cyc_to_die=1536, len_cur = 2
+c = 866, cyc_to_die=1536, len_cur = 2
+c = 867, cyc_to_die=1536, len_cur = 2
+c = 868, cyc_to_die=1536, len_cur = 2
+c = 869, cyc_to_die=1536, len_cur = 2
+c = 870, cyc_to_die=1536, len_cur = 2
+c = 871, cyc_to_die=1536, len_cur = 2
+c = 872, cyc_to_die=1536, len_cur = 2
+c = 873, cyc_to_die=1536, len_cur = 2
+c = 874, cyc_to_die=1536, len_cur = 2
+c = 875, cyc_to_die=1536, len_cur = 2
+c = 876, cyc_to_die=1536, len_cur = 2
+c = 877, cyc_to_die=1536, len_cur = 2
+c = 878, cyc_to_die=1536, len_cur = 2
+c = 879, cyc_to_die=1536, len_cur = 2
+c = 880, cyc_to_die=1536, len_cur = 2
+c = 881, cyc_to_die=1536, len_cur = 2
+c = 882, cyc_to_die=1536, len_cur = 2
+c = 883, cyc_to_die=1536, len_cur = 2
+c = 884, cyc_to_die=1536, len_cur = 2
+c = 885, cyc_to_die=1536, len_cur = 2
+c = 886, cyc_to_die=1536, len_cur = 2
+c = 887, cyc_to_die=1536, len_cur = 2
+c = 888, cyc_to_die=1536, len_cur = 2
+c = 889, cyc_to_die=1536, len_cur = 2
+c = 890, cyc_to_die=1536, len_cur = 2
+c = 891, cyc_to_die=1536, len_cur = 2
+c = 892, cyc_to_die=1536, len_cur = 2
+c = 893, cyc_to_die=1536, len_cur = 2
+c = 894, cyc_to_die=1536, len_cur = 2
+c = 895, cyc_to_die=1536, len_cur = 2
+c = 896, cyc_to_die=1536, len_cur = 2
+c = 897, cyc_to_die=1536, len_cur = 2
+c = 898, cyc_to_die=1536, len_cur = 2
+c = 899, cyc_to_die=1536, len_cur = 2
+c = 900, cyc_to_die=1536, len_cur = 2
+c = 901, cyc_to_die=1536, len_cur = 2
+c = 902, cyc_to_die=1536, len_cur = 2
+c = 903, cyc_to_die=1536, len_cur = 2
+c = 904, cyc_to_die=1536, len_cur = 2
+c = 905, cyc_to_die=1536, len_cur = 2
+c = 906, cyc_to_die=1536, len_cur = 2
+c = 907, cyc_to_die=1536, len_cur = 2
+c = 908, cyc_to_die=1536, len_cur = 2
+c = 909, cyc_to_die=1536, len_cur = 2
+c = 910, cyc_to_die=1536, len_cur = 2
+c = 911, cyc_to_die=1536, len_cur = 2
+c = 912, cyc_to_die=1536, len_cur = 2
+c = 913, cyc_to_die=1536, len_cur = 2
+c = 914, cyc_to_die=1536, len_cur = 2
+c = 915, cyc_to_die=1536, len_cur = 2
+c = 916, cyc_to_die=1536, len_cur = 2
+c = 917, cyc_to_die=1536, len_cur = 2
+c = 918, cyc_to_die=1536, len_cur = 2
+c = 919, cyc_to_die=1536, len_cur = 2
+c = 920, cyc_to_die=1536, len_cur = 2
+c = 921, cyc_to_die=1536, len_cur = 2
+c = 922, cyc_to_die=1536, len_cur = 2
+c = 923, cyc_to_die=1536, len_cur = 2
+c = 924, cyc_to_die=1536, len_cur = 2
+c = 925, cyc_to_die=1536, len_cur = 2
+c = 926, cyc_to_die=1536, len_cur = 2
+c = 927, cyc_to_die=1536, len_cur = 2
+c = 928, cyc_to_die=1536, len_cur = 2
+c = 929, cyc_to_die=1536, len_cur = 2
+c = 930, cyc_to_die=1536, len_cur = 2
+c = 931, cyc_to_die=1536, len_cur = 2
+c = 932, cyc_to_die=1536, len_cur = 2
+c = 933, cyc_to_die=1536, len_cur = 2
+c = 934, cyc_to_die=1536, len_cur = 2
+c = 935, cyc_to_die=1536, len_cur = 2
+c = 936, cyc_to_die=1536, len_cur = 2
+c = 937, cyc_to_die=1536, len_cur = 2
+c = 938, cyc_to_die=1536, len_cur = 2
+c = 939, cyc_to_die=1536, len_cur = 2
+c = 940, cyc_to_die=1536, len_cur = 2
+c = 941, cyc_to_die=1536, len_cur = 2
+c = 942, cyc_to_die=1536, len_cur = 2
+c = 943, cyc_to_die=1536, len_cur = 2
+c = 944, cyc_to_die=1536, len_cur = 2
+c = 945, cyc_to_die=1536, len_cur = 2
+c = 946, cyc_to_die=1536, len_cur = 2
+c = 947, cyc_to_die=1536, len_cur = 2
+c = 948, cyc_to_die=1536, len_cur = 2
+c = 949, cyc_to_die=1536, len_cur = 2
+c = 950, cyc_to_die=1536, len_cur = 2
+c = 951, cyc_to_die=1536, len_cur = 2
+c = 952, cyc_to_die=1536, len_cur = 2
+c = 953, cyc_to_die=1536, len_cur = 2
+c = 954, cyc_to_die=1536, len_cur = 2
+c = 955, cyc_to_die=1536, len_cur = 2
+c = 956, cyc_to_die=1536, len_cur = 2
+c = 957, cyc_to_die=1536, len_cur = 2
+c = 958, cyc_to_die=1536, len_cur = 2
+c = 959, cyc_to_die=1536, len_cur = 2
+c = 960, cyc_to_die=1536, len_cur = 2
+c = 961, cyc_to_die=1536, len_cur = 2
+c = 962, cyc_to_die=1536, len_cur = 2
+c = 963, cyc_to_die=1536, len_cur = 2
+c = 964, cyc_to_die=1536, len_cur = 2
+c = 965, cyc_to_die=1536, len_cur = 2
+c = 966, cyc_to_die=1536, len_cur = 2
+c = 967, cyc_to_die=1536, len_cur = 2
+c = 968, cyc_to_die=1536, len_cur = 2
+c = 969, cyc_to_die=1536, len_cur = 2
+c = 970, cyc_to_die=1536, len_cur = 2
+c = 971, cyc_to_die=1536, len_cur = 2
+c = 972, cyc_to_die=1536, len_cur = 2
+c = 973, cyc_to_die=1536, len_cur = 2
+c = 974, cyc_to_die=1536, len_cur = 2
+c = 975, cyc_to_die=1536, len_cur = 2
+c = 976, cyc_to_die=1536, len_cur = 2
+c = 977, cyc_to_die=1536, len_cur = 2
+c = 978, cyc_to_die=1536, len_cur = 2
+c = 979, cyc_to_die=1536, len_cur = 2
+c = 980, cyc_to_die=1536, len_cur = 2
+c = 981, cyc_to_die=1536, len_cur = 2
+c = 982, cyc_to_die=1536, len_cur = 2
+c = 983, cyc_to_die=1536, len_cur = 2
+c = 984, cyc_to_die=1536, len_cur = 2
+c = 985, cyc_to_die=1536, len_cur = 2
+c = 986, cyc_to_die=1536, len_cur = 2
+c = 987, cyc_to_die=1536, len_cur = 2
+c = 988, cyc_to_die=1536, len_cur = 2
+c = 989, cyc_to_die=1536, len_cur = 2
+c = 990, cyc_to_die=1536, len_cur = 2
+c = 991, cyc_to_die=1536, len_cur = 2
+c = 992, cyc_to_die=1536, len_cur = 2
+c = 993, cyc_to_die=1536, len_cur = 2
+c = 994, cyc_to_die=1536, len_cur = 2
+c = 995, cyc_to_die=1536, len_cur = 2
+c = 996, cyc_to_die=1536, len_cur = 2
+c = 997, cyc_to_die=1536, len_cur = 2
+c = 998, cyc_to_die=1536, len_cur = 2
+c = 999, cyc_to_die=1536, len_cur = 2
+c = 1000, cyc_to_die=1536, len_cur = 2
+c = 1001, cyc_to_die=1536, len_cur = 2
+c = 1002, cyc_to_die=1536, len_cur = 2
+c = 1003, cyc_to_die=1536, len_cur = 2
+c = 1004, cyc_to_die=1536, len_cur = 2
+c = 1005, cyc_to_die=1536, len_cur = 2
+c = 1006, cyc_to_die=1536, len_cur = 2
+c = 1007, cyc_to_die=1536, len_cur = 2
+c = 1008, cyc_to_die=1536, len_cur = 2
+c = 1009, cyc_to_die=1536, len_cur = 2
+c = 1010, cyc_to_die=1536, len_cur = 2
+c = 1011, cyc_to_die=1536, len_cur = 2
+c = 1012, cyc_to_die=1536, len_cur = 2
+c = 1013, cyc_to_die=1536, len_cur = 2
+c = 1014, cyc_to_die=1536, len_cur = 2
+c = 1015, cyc_to_die=1536, len_cur = 2
+c = 1016, cyc_to_die=1536, len_cur = 2
+c = 1017, cyc_to_die=1536, len_cur = 2
+c = 1018, cyc_to_die=1536, len_cur = 2
+c = 1019, cyc_to_die=1536, len_cur = 2
+c = 1020, cyc_to_die=1536, len_cur = 2
+c = 1021, cyc_to_die=1536, len_cur = 2
+c = 1022, cyc_to_die=1536, len_cur = 2
+c = 1023, cyc_to_die=1536, len_cur = 2
+c = 1024, cyc_to_die=1536, len_cur = 2
+c = 1025, cyc_to_die=1536, len_cur = 2
+c = 1026, cyc_to_die=1536, len_cur = 2
+c = 1027, cyc_to_die=1536, len_cur = 2
+c = 1028, cyc_to_die=1536, len_cur = 2
+c = 1029, cyc_to_die=1536, len_cur = 2
+c = 1030, cyc_to_die=1536, len_cur = 2
+c = 1031, cyc_to_die=1536, len_cur = 2
+c = 1032, cyc_to_die=1536, len_cur = 2
+c = 1033, cyc_to_die=1536, len_cur = 2
+c = 1034, cyc_to_die=1536, len_cur = 2
+c = 1035, cyc_to_die=1536, len_cur = 2
+c = 1036, cyc_to_die=1536, len_cur = 2
+c = 1037, cyc_to_die=1536, len_cur = 2
+c = 1038, cyc_to_die=1536, len_cur = 2
+c = 1039, cyc_to_die=1536, len_cur = 2
+c = 1040, cyc_to_die=1536, len_cur = 2
+c = 1041, cyc_to_die=1536, len_cur = 2
+c = 1042, cyc_to_die=1536, len_cur = 2
+c = 1043, cyc_to_die=1536, len_cur = 2
+c = 1044, cyc_to_die=1536, len_cur = 2
+c = 1045, cyc_to_die=1536, len_cur = 2
+c = 1046, cyc_to_die=1536, len_cur = 2
+c = 1047, cyc_to_die=1536, len_cur = 2
+c = 1048, cyc_to_die=1536, len_cur = 2
+c = 1049, cyc_to_die=1536, len_cur = 2
+c = 1050, cyc_to_die=1536, len_cur = 2
+c = 1051, cyc_to_die=1536, len_cur = 2
+c = 1052, cyc_to_die=1536, len_cur = 2
+c = 1053, cyc_to_die=1536, len_cur = 2
+c = 1054, cyc_to_die=1536, len_cur = 2
+c = 1055, cyc_to_die=1536, len_cur = 2
+c = 1056, cyc_to_die=1536, len_cur = 2
+c = 1057, cyc_to_die=1536, len_cur = 2
+c = 1058, cyc_to_die=1536, len_cur = 2
+c = 1059, cyc_to_die=1536, len_cur = 2
+c = 1060, cyc_to_die=1536, len_cur = 2
+c = 1061, cyc_to_die=1536, len_cur = 2
+c = 1062, cyc_to_die=1536, len_cur = 2
+c = 1063, cyc_to_die=1536, len_cur = 2
+c = 1064, cyc_to_die=1536, len_cur = 2
+c = 1065, cyc_to_die=1536, len_cur = 2
+c = 1066, cyc_to_die=1536, len_cur = 2
+c = 1067, cyc_to_die=1536, len_cur = 2
+c = 1068, cyc_to_die=1536, len_cur = 2
+c = 1069, cyc_to_die=1536, len_cur = 2
+c = 1070, cyc_to_die=1536, len_cur = 2
+c = 1071, cyc_to_die=1536, len_cur = 2
+c = 1072, cyc_to_die=1536, len_cur = 2
+c = 1073, cyc_to_die=1536, len_cur = 2
+c = 1074, cyc_to_die=1536, len_cur = 2
+c = 1075, cyc_to_die=1536, len_cur = 2
+c = 1076, cyc_to_die=1536, len_cur = 2
+c = 1077, cyc_to_die=1536, len_cur = 2
+c = 1078, cyc_to_die=1536, len_cur = 2
+c = 1079, cyc_to_die=1536, len_cur = 2
+c = 1080, cyc_to_die=1536, len_cur = 2
+c = 1081, cyc_to_die=1536, len_cur = 2
+c = 1082, cyc_to_die=1536, len_cur = 2
+c = 1083, cyc_to_die=1536, len_cur = 2
+c = 1084, cyc_to_die=1536, len_cur = 2
+c = 1085, cyc_to_die=1536, len_cur = 2
+c = 1086, cyc_to_die=1536, len_cur = 2
+c = 1087, cyc_to_die=1536, len_cur = 2
+c = 1088, cyc_to_die=1536, len_cur = 2
+c = 1089, cyc_to_die=1536, len_cur = 2
+c = 1090, cyc_to_die=1536, len_cur = 2
+c = 1091, cyc_to_die=1536, len_cur = 2
+c = 1092, cyc_to_die=1536, len_cur = 2
+c = 1093, cyc_to_die=1536, len_cur = 2
+c = 1094, cyc_to_die=1536, len_cur = 2
+c = 1095, cyc_to_die=1536, len_cur = 2
+c = 1096, cyc_to_die=1536, len_cur = 2
+c = 1097, cyc_to_die=1536, len_cur = 2
+c = 1098, cyc_to_die=1536, len_cur = 2
+c = 1099, cyc_to_die=1536, len_cur = 2
+c = 1100, cyc_to_die=1536, len_cur = 2
+c = 1101, cyc_to_die=1536, len_cur = 2
+c = 1102, cyc_to_die=1536, len_cur = 2
+c = 1103, cyc_to_die=1536, len_cur = 2
+c = 1104, cyc_to_die=1536, len_cur = 2
+c = 1105, cyc_to_die=1536, len_cur = 2
+c = 1106, cyc_to_die=1536, len_cur = 2
+c = 1107, cyc_to_die=1536, len_cur = 2
+c = 1108, cyc_to_die=1536, len_cur = 2
+c = 1109, cyc_to_die=1536, len_cur = 2
+c = 1110, cyc_to_die=1536, len_cur = 2
+c = 1111, cyc_to_die=1536, len_cur = 2
+c = 1112, cyc_to_die=1536, len_cur = 2
+cyc = 1113, op = 12, cur = 3575, cyc_live = 0
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+after op
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 1113, cyc_to_die=1536, len_cur = 3
+c = 1114, cyc_to_die=1536, len_cur = 3
+c = 1115, cyc_to_die=1536, len_cur = 3
+c = 1116, cyc_to_die=1536, len_cur = 3
+c = 1117, cyc_to_die=1536, len_cur = 3
+cyc = 1118, op = 2, cur = 3578, cyc_live = 0
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+after op
+ reg[0] = 185600852 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 1118, cyc_to_die=1536, len_cur = 3
+c = 1119, cyc_to_die=1536, len_cur = 3
+c = 1120, cyc_to_die=1536, len_cur = 3
+c = 1121, cyc_to_die=1536, len_cur = 3
+c = 1122, cyc_to_die=1536, len_cur = 3
+cyc = 1123, op = 2, cur = 3583, cyc_live = 0
+ reg[0] = 185600852 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+after op
+ reg[0] = 185600852 reg[1] = 34343169 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 1123, cyc_to_die=1536, len_cur = 3
+c = 1124, cyc_to_die=1536, len_cur = 3
+c = 1125, cyc_to_die=1536, len_cur = 3
+c = 1126, cyc_to_die=1536, len_cur = 3
+c = 1127, cyc_to_die=1536, len_cur = 3
+cyc = 1128, op = 2, cur = 3588, cyc_live = 0
+ reg[0] = 185600852 reg[1] = 34343169 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+after op
+ reg[0] = 185600852 reg[1] = 34343169 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 17 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 1128, cyc_to_die=1536, len_cur = 3
+c = 1129, cyc_to_die=1536, len_cur = 3
+c = 1130, cyc_to_die=1536, len_cur = 3
+c = 1131, cyc_to_die=1536, len_cur = 3
+c = 1132, cyc_to_die=1536, len_cur = 3
+cyc = 1133, op = 2, cur = 3595, cyc_live = 0
+ reg[0] = 185600852 reg[1] = 34343169 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 17 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+after op
+ reg[0] = 185600852 reg[1] = 34343169 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 18 reg[11] = 17 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 1133, cyc_to_die=1536, len_cur = 3
+c = 1134, cyc_to_die=1536, len_cur = 3
+c = 1135, cyc_to_die=1536, len_cur = 3
+c = 1136, cyc_to_die=1536, len_cur = 3
+c = 1137, cyc_to_die=1536, len_cur = 3
+cyc = 1138, op = 11, cur = 3602, cyc_live = 0
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+len_l = 505, 
+after op
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 1138, cyc_to_die=1536, len_cur = 3
+c = 1139, cyc_to_die=1536, len_cur = 3
+c = 1140, cyc_to_die=1536, len_cur = 3
+c = 1141, cyc_to_die=1536, len_cur = 3
+c = 1142, cyc_to_die=1536, len_cur = 3
+cyc = 1143, op = 2, cur = 3609, cyc_live = 0
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+after op
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 1143, cyc_to_die=1536, len_cur = 3
+c = 1144, cyc_to_die=1536, len_cur = 3
+c = 1145, cyc_to_die=1536, len_cur = 3
+c = 1146, cyc_to_die=1536, len_cur = 3
+c = 1147, cyc_to_die=1536, len_cur = 3
+c = 1148, cyc_to_die=1536, len_cur = 3
+c = 1149, cyc_to_die=1536, len_cur = 3
+c = 1150, cyc_to_die=1536, len_cur = 3
+c = 1151, cyc_to_die=1536, len_cur = 3
+c = 1152, cyc_to_die=1536, len_cur = 3
+c = 1153, cyc_to_die=1536, len_cur = 3
+c = 1154, cyc_to_die=1536, len_cur = 3
+c = 1155, cyc_to_die=1536, len_cur = 3
+c = 1156, cyc_to_die=1536, len_cur = 3
+c = 1157, cyc_to_die=1536, len_cur = 3
+cyc = 1158, op = 11, cur = 3602, cyc_live = 0
+ reg[0] = 185600852 reg[1] = 34343169 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 18 reg[11] = 17 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+len_l = 1769218163, 
+after op
+ reg[0] = 185600852 reg[1] = 34343169 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 18 reg[11] = 17 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 1158, cyc_to_die=1536, len_cur = 3
+c = 1159, cyc_to_die=1536, len_cur = 3
+c = 1160, cyc_to_die=1536, len_cur = 3
+c = 1161, cyc_to_die=1536, len_cur = 3
+c = 1162, cyc_to_die=1536, len_cur = 3
+cyc = 1163, op = 9, cur = 3611, cyc_live = 0
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+after op
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+cyc = 1163, op = 2, cur = 3609, cyc_live = 0
+ reg[0] = 185600852 reg[1] = 34343169 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 18 reg[11] = 17 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+after op
+ reg[0] = 185600852 reg[1] = 34343169 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 18 reg[11] = 17 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 1163, cyc_to_die=1536, len_cur = 3
+c = 1164, cyc_to_die=1536, len_cur = 3
+c = 1165, cyc_to_die=1536, len_cur = 3
+c = 1166, cyc_to_die=1536, len_cur = 3
+c = 1167, cyc_to_die=1536, len_cur = 3
+c = 1168, cyc_to_die=1536, len_cur = 3
+c = 1169, cyc_to_die=1536, len_cur = 3
+c = 1170, cyc_to_die=1536, len_cur = 3
+c = 1171, cyc_to_die=1536, len_cur = 3
+c = 1172, cyc_to_die=1536, len_cur = 3
+c = 1173, cyc_to_die=1536, len_cur = 3
+c = 1174, cyc_to_die=1536, len_cur = 3
+c = 1175, cyc_to_die=1536, len_cur = 3
+c = 1176, cyc_to_die=1536, len_cur = 3
+c = 1177, cyc_to_die=1536, len_cur = 3
+c = 1178, cyc_to_die=1536, len_cur = 3
+c = 1179, cyc_to_die=1536, len_cur = 3
+c = 1180, cyc_to_die=1536, len_cur = 3
+c = 1181, cyc_to_die=1536, len_cur = 3
+c = 1182, cyc_to_die=1536, len_cur = 3
+cyc = 1183, op = 9, cur = 3611, cyc_live = 0
+ reg[0] = 185600852 reg[1] = 34343169 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 18 reg[11] = 17 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+after op
+ reg[0] = 185600852 reg[1] = 34343169 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 18 reg[11] = 17 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 1183, cyc_to_die=1536, len_cur = 3
+c = 1184, cyc_to_die=1536, len_cur = 3
+cyc = 1185, op = 16, cur = 3614, cyc_live = 0
+ reg[0] = 185600852 reg[1] = 34343169 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 18 reg[11] = 17 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+after op
+ reg[0] = 185600852 reg[1] = 34343169 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 18 reg[11] = 17 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 1185, cyc_to_die=1536, len_cur = 3
+c = 1186, cyc_to_die=1536, len_cur = 3
+c = 1187, cyc_to_die=1536, len_cur = 3
+c = 1188, cyc_to_die=1536, len_cur = 3
+c = 1189, cyc_to_die=1536, len_cur = 3
+c = 1190, cyc_to_die=1536, len_cur = 3
+c = 1191, cyc_to_die=1536, len_cur = 3
+c = 1192, cyc_to_die=1536, len_cur = 3
+c = 1193, cyc_to_die=1536, len_cur = 3
+c = 1194, cyc_to_die=1536, len_cur = 3
+c = 1195, cyc_to_die=1536, len_cur = 3
+c = 1196, cyc_to_die=1536, len_cur = 3
+c = 1197, cyc_to_die=1536, len_cur = 3
+c = 1198, cyc_to_die=1536, len_cur = 3
+c = 1199, cyc_to_die=1536, len_cur = 3
+c = 1200, cyc_to_die=1536, len_cur = 3
+c = 1201, cyc_to_die=1536, len_cur = 3
+c = 1202, cyc_to_die=1536, len_cur = 3
+c = 1203, cyc_to_die=1536, len_cur = 3
+c = 1204, cyc_to_die=1536, len_cur = 3
+c = 1205, cyc_to_die=1536, len_cur = 3
+c = 1206, cyc_to_die=1536, len_cur = 3
+c = 1207, cyc_to_die=1536, len_cur = 3
+c = 1208, cyc_to_die=1536, len_cur = 3
+c = 1209, cyc_to_die=1536, len_cur = 3
+c = 1210, cyc_to_die=1536, len_cur = 3
+c = 1211, cyc_to_die=1536, len_cur = 3
+c = 1212, cyc_to_die=1536, len_cur = 3
+c = 1213, cyc_to_die=1536, len_cur = 3
+c = 1214, cyc_to_die=1536, len_cur = 3
+c = 1215, cyc_to_die=1536, len_cur = 3
+c = 1216, cyc_to_die=1536, len_cur = 3
+c = 1217, cyc_to_die=1536, len_cur = 3
+c = 1218, cyc_to_die=1536, len_cur = 3
+c = 1219, cyc_to_die=1536, len_cur = 3
+c = 1220, cyc_to_die=1536, len_cur = 3
+c = 1221, cyc_to_die=1536, len_cur = 3
+c = 1222, cyc_to_die=1536, len_cur = 3
+c = 1223, cyc_to_die=1536, len_cur = 3
+c = 1224, cyc_to_die=1536, len_cur = 3
+c = 1225, cyc_to_die=1536, len_cur = 3
+c = 1226, cyc_to_die=1536, len_cur = 3
+c = 1227, cyc_to_die=1536, len_cur = 3
+c = 1228, cyc_to_die=1536, len_cur = 3
+c = 1229, cyc_to_die=1536, len_cur = 3
+c = 1230, cyc_to_die=1536, len_cur = 3
+c = 1231, cyc_to_die=1536, len_cur = 3
+c = 1232, cyc_to_die=1536, len_cur = 3
+c = 1233, cyc_to_die=1536, len_cur = 3
+c = 1234, cyc_to_die=1536, len_cur = 3
+c = 1235, cyc_to_die=1536, len_cur = 3
+c = 1236, cyc_to_die=1536, len_cur = 3
+c = 1237, cyc_to_die=1536, len_cur = 3
+c = 1238, cyc_to_die=1536, len_cur = 3
+c = 1239, cyc_to_die=1536, len_cur = 3
+c = 1240, cyc_to_die=1536, len_cur = 3
+c = 1241, cyc_to_die=1536, len_cur = 3
+c = 1242, cyc_to_die=1536, len_cur = 3
+c = 1243, cyc_to_die=1536, len_cur = 3
+c = 1244, cyc_to_die=1536, len_cur = 3
+c = 1245, cyc_to_die=1536, len_cur = 3
+c = 1246, cyc_to_die=1536, len_cur = 3
+c = 1247, cyc_to_die=1536, len_cur = 3
+c = 1248, cyc_to_die=1536, len_cur = 3
+c = 1249, cyc_to_die=1536, len_cur = 3
+c = 1250, cyc_to_die=1536, len_cur = 3
+c = 1251, cyc_to_die=1536, len_cur = 3
+c = 1252, cyc_to_die=1536, len_cur = 3
+c = 1253, cyc_to_die=1536, len_cur = 3
+c = 1254, cyc_to_die=1536, len_cur = 3
+c = 1255, cyc_to_die=1536, len_cur = 3
+c = 1256, cyc_to_die=1536, len_cur = 3
+c = 1257, cyc_to_die=1536, len_cur = 3
+c = 1258, cyc_to_die=1536, len_cur = 3
+c = 1259, cyc_to_die=1536, len_cur = 3
+c = 1260, cyc_to_die=1536, len_cur = 3
+c = 1261, cyc_to_die=1536, len_cur = 3
+c = 1262, cyc_to_die=1536, len_cur = 3
+c = 1263, cyc_to_die=1536, len_cur = 3
+c = 1264, cyc_to_die=1536, len_cur = 3
+c = 1265, cyc_to_die=1536, len_cur = 3
+c = 1266, cyc_to_die=1536, len_cur = 3
+c = 1267, cyc_to_die=1536, len_cur = 3
+c = 1268, cyc_to_die=1536, len_cur = 3
+c = 1269, cyc_to_die=1536, len_cur = 3
+c = 1270, cyc_to_die=1536, len_cur = 3
+c = 1271, cyc_to_die=1536, len_cur = 3
+c = 1272, cyc_to_die=1536, len_cur = 3
+c = 1273, cyc_to_die=1536, len_cur = 3
+c = 1274, cyc_to_die=1536, len_cur = 3
+c = 1275, cyc_to_die=1536, len_cur = 3
+c = 1276, cyc_to_die=1536, len_cur = 3
+c = 1277, cyc_to_die=1536, len_cur = 3
+c = 1278, cyc_to_die=1536, len_cur = 3
+c = 1279, cyc_to_die=1536, len_cur = 3
+c = 1280, cyc_to_die=1536, len_cur = 3
+c = 1281, cyc_to_die=1536, len_cur = 3
+c = 1282, cyc_to_die=1536, len_cur = 3
+c = 1283, cyc_to_die=1536, len_cur = 3
+c = 1284, cyc_to_die=1536, len_cur = 3
+c = 1285, cyc_to_die=1536, len_cur = 3
+c = 1286, cyc_to_die=1536, len_cur = 3
+c = 1287, cyc_to_die=1536, len_cur = 3
+c = 1288, cyc_to_die=1536, len_cur = 3
+c = 1289, cyc_to_die=1536, len_cur = 3
+c = 1290, cyc_to_die=1536, len_cur = 3
+c = 1291, cyc_to_die=1536, len_cur = 3
+c = 1292, cyc_to_die=1536, len_cur = 3
+c = 1293, cyc_to_die=1536, len_cur = 3
+c = 1294, cyc_to_die=1536, len_cur = 3
+c = 1295, cyc_to_die=1536, len_cur = 3
+c = 1296, cyc_to_die=1536, len_cur = 3
+c = 1297, cyc_to_die=1536, len_cur = 3
+c = 1298, cyc_to_die=1536, len_cur = 3
+c = 1299, cyc_to_die=1536, len_cur = 3
+c = 1300, cyc_to_die=1536, len_cur = 3
+c = 1301, cyc_to_die=1536, len_cur = 3
+c = 1302, cyc_to_die=1536, len_cur = 3
+c = 1303, cyc_to_die=1536, len_cur = 3
+c = 1304, cyc_to_die=1536, len_cur = 3
+c = 1305, cyc_to_die=1536, len_cur = 3
+c = 1306, cyc_to_die=1536, len_cur = 3
+c = 1307, cyc_to_die=1536, len_cur = 3
+c = 1308, cyc_to_die=1536, len_cur = 3
+c = 1309, cyc_to_die=1536, len_cur = 3
+c = 1310, cyc_to_die=1536, len_cur = 3
+c = 1311, cyc_to_die=1536, len_cur = 3
+c = 1312, cyc_to_die=1536, len_cur = 3
+c = 1313, cyc_to_die=1536, len_cur = 3
+c = 1314, cyc_to_die=1536, len_cur = 3
+c = 1315, cyc_to_die=1536, len_cur = 3
+c = 1316, cyc_to_die=1536, len_cur = 3
+c = 1317, cyc_to_die=1536, len_cur = 3
+c = 1318, cyc_to_die=1536, len_cur = 3
+c = 1319, cyc_to_die=1536, len_cur = 3
+c = 1320, cyc_to_die=1536, len_cur = 3
+c = 1321, cyc_to_die=1536, len_cur = 3
+c = 1322, cyc_to_die=1536, len_cur = 3
+c = 1323, cyc_to_die=1536, len_cur = 3
+c = 1324, cyc_to_die=1536, len_cur = 3
+c = 1325, cyc_to_die=1536, len_cur = 3
+c = 1326, cyc_to_die=1536, len_cur = 3
+c = 1327, cyc_to_die=1536, len_cur = 3
+c = 1328, cyc_to_die=1536, len_cur = 3
+c = 1329, cyc_to_die=1536, len_cur = 3
+c = 1330, cyc_to_die=1536, len_cur = 3
+c = 1331, cyc_to_die=1536, len_cur = 3
+c = 1332, cyc_to_die=1536, len_cur = 3
+c = 1333, cyc_to_die=1536, len_cur = 3
+c = 1334, cyc_to_die=1536, len_cur = 3
+c = 1335, cyc_to_die=1536, len_cur = 3
+c = 1336, cyc_to_die=1536, len_cur = 3
+c = 1337, cyc_to_die=1536, len_cur = 3
+c = 1338, cyc_to_die=1536, len_cur = 3
+c = 1339, cyc_to_die=1536, len_cur = 3
+c = 1340, cyc_to_die=1536, len_cur = 3
+c = 1341, cyc_to_die=1536, len_cur = 3
+c = 1342, cyc_to_die=1536, len_cur = 3
+c = 1343, cyc_to_die=1536, len_cur = 3
+c = 1344, cyc_to_die=1536, len_cur = 3
+c = 1345, cyc_to_die=1536, len_cur = 3
+c = 1346, cyc_to_die=1536, len_cur = 3
+c = 1347, cyc_to_die=1536, len_cur = 3
+c = 1348, cyc_to_die=1536, len_cur = 3
+c = 1349, cyc_to_die=1536, len_cur = 3
+c = 1350, cyc_to_die=1536, len_cur = 3
+c = 1351, cyc_to_die=1536, len_cur = 3
+c = 1352, cyc_to_die=1536, len_cur = 3
+c = 1353, cyc_to_die=1536, len_cur = 3
+c = 1354, cyc_to_die=1536, len_cur = 3
+c = 1355, cyc_to_die=1536, len_cur = 3
+c = 1356, cyc_to_die=1536, len_cur = 3
+c = 1357, cyc_to_die=1536, len_cur = 3
+c = 1358, cyc_to_die=1536, len_cur = 3
+c = 1359, cyc_to_die=1536, len_cur = 3
+c = 1360, cyc_to_die=1536, len_cur = 3
+c = 1361, cyc_to_die=1536, len_cur = 3
+c = 1362, cyc_to_die=1536, len_cur = 3
+c = 1363, cyc_to_die=1536, len_cur = 3
+c = 1364, cyc_to_die=1536, len_cur = 3
+c = 1365, cyc_to_die=1536, len_cur = 3
+c = 1366, cyc_to_die=1536, len_cur = 3
+c = 1367, cyc_to_die=1536, len_cur = 3
+c = 1368, cyc_to_die=1536, len_cur = 3
+c = 1369, cyc_to_die=1536, len_cur = 3
+c = 1370, cyc_to_die=1536, len_cur = 3
+c = 1371, cyc_to_die=1536, len_cur = 3
+c = 1372, cyc_to_die=1536, len_cur = 3
+c = 1373, cyc_to_die=1536, len_cur = 3
+c = 1374, cyc_to_die=1536, len_cur = 3
+c = 1375, cyc_to_die=1536, len_cur = 3
+c = 1376, cyc_to_die=1536, len_cur = 3
+c = 1377, cyc_to_die=1536, len_cur = 3
+c = 1378, cyc_to_die=1536, len_cur = 3
+c = 1379, cyc_to_die=1536, len_cur = 3
+c = 1380, cyc_to_die=1536, len_cur = 3
+c = 1381, cyc_to_die=1536, len_cur = 3
+c = 1382, cyc_to_die=1536, len_cur = 3
+c = 1383, cyc_to_die=1536, len_cur = 3
+c = 1384, cyc_to_die=1536, len_cur = 3
+c = 1385, cyc_to_die=1536, len_cur = 3
+c = 1386, cyc_to_die=1536, len_cur = 3
+c = 1387, cyc_to_die=1536, len_cur = 3
+c = 1388, cyc_to_die=1536, len_cur = 3
+c = 1389, cyc_to_die=1536, len_cur = 3
+c = 1390, cyc_to_die=1536, len_cur = 3
+c = 1391, cyc_to_die=1536, len_cur = 3
+c = 1392, cyc_to_die=1536, len_cur = 3
+c = 1393, cyc_to_die=1536, len_cur = 3
+c = 1394, cyc_to_die=1536, len_cur = 3
+c = 1395, cyc_to_die=1536, len_cur = 3
+c = 1396, cyc_to_die=1536, len_cur = 3
+c = 1397, cyc_to_die=1536, len_cur = 3
+c = 1398, cyc_to_die=1536, len_cur = 3
+c = 1399, cyc_to_die=1536, len_cur = 3
+c = 1400, cyc_to_die=1536, len_cur = 3
+c = 1401, cyc_to_die=1536, len_cur = 3
+c = 1402, cyc_to_die=1536, len_cur = 3
+c = 1403, cyc_to_die=1536, len_cur = 3
+c = 1404, cyc_to_die=1536, len_cur = 3
+c = 1405, cyc_to_die=1536, len_cur = 3
+cyc = 1406, op = 11, cur = 0, cyc_live = 0
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+len_l = 2052, 
+addr_st = [16]
+after op
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 1406, cyc_to_die=1536, len_cur = 3
+c = 1407, cyc_to_die=1536, len_cur = 3
+c = 1408, cyc_to_die=1536, len_cur = 3
+c = 1409, cyc_to_die=1536, len_cur = 3
+c = 1410, cyc_to_die=1536, len_cur = 3
+c = 1411, cyc_to_die=1536, len_cur = 3
+cyc = 1412, op = 2, cur = 12, cyc_live = 0
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+after op
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 1412, cyc_to_die=1536, len_cur = 3
+c = 1413, cyc_to_die=1536, len_cur = 3
+c = 1414, cyc_to_die=1536, len_cur = 3
+c = 1415, cyc_to_die=1536, len_cur = 3
+c = 1416, cyc_to_die=1536, len_cur = 3
+c = 1417, cyc_to_die=1536, len_cur = 3
+c = 1418, cyc_to_die=1536, len_cur = 3
+c = 1419, cyc_to_die=1536, len_cur = 3
+c = 1420, cyc_to_die=1536, len_cur = 3
+c = 1421, cyc_to_die=1536, len_cur = 3
+cyc = 1422, op = 4, cur = 14, cyc_live = 0
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+after op
+ reg[0] = 268435455 reg[1] = -32812031 reg[2] = 1770192 reg[3] = 453051088 reg[4] = 436339344 reg[5] = 285999760 reg[6] = 302713684 reg[7] = 17502219 reg[8] = 0 reg[9] = 33489776 reg[10] = 505 reg[11] = 1409420297 reg[12] = 1879835133 reg[13] = 57673729 reg[14] = -66518574 reg[15] = 0
+c = 1422, cyc_to_die=1536, len_cur = 3
+c = 1423, cyc_to_die=1536, len_cur = 3
+c = 1424, cyc_to_die=1536, len_cur = 3
+c = 1425, cyc_to_die=1536, len_cur = 3
+c = 1426, cyc_to_die=1536, len_cur = 3
+c = 1427, cyc_to_die=1536, len_cur = 3
+c = 1428, cyc_to_die=1536, len_cur = 3
+c = 1429, cyc_to_die=1536, len_cur = 3
+c = 1430, cyc_to_die=1536, len_cur = 3
+c = 1431, cyc_to_die=1536, len_cur = 3
+c = 1432, cyc_to_die=1536, len_cur = 3
+c = 1433, cyc_to_die=1536, len_cur = 3
+c = 1434, cyc_to_die=1536, len_cur = 3
+c = 1435, cyc_to_die=1536, len_cur = 3
+c = 1436, cyc_to_die=1536, len_cur = 3
+c = 1437, cyc_to_die=1536, len_cur = 3
+c = 1438, cyc_to_die=1536, len_cur = 3
+c = 1439, cyc_to_die=1536, len_cur = 3
+c = 1440, cyc_to_die=1536, len_cur = 3
+c = 1441, cyc_to_die=1536, len_cur = 3
+c = 1442, cyc_to_die=1536, len_cur = 3
+c = 1443, cyc_to_die=1536, len_cur = 3
+c = 1444, cyc_to_die=1536, len_cur = 3
+c = 1445, cyc_to_die=1536, len_cur = 3
+c = 1446, cyc_to_die=1536, len_cur = 3
+c = 1447, cyc_to_die=1536, len_cur = 3
+c = 1448, cyc_to_die=1536, len_cur = 3
+c = 1449, cyc_to_die=1536, len_cur = 3
+c = 1450, cyc_to_die=1536, len_cur = 3
+c = 1451, cyc_to_die=1536, len_cur = 3
+c = 1452, cyc_to_die=1536, len_cur = 3
+c = 1453, cyc_to_die=1536, len_cur = 3
+c = 1454, cyc_to_die=1536, len_cur = 3
+c = 1455, cyc_to_die=1536, len_cur = 3
+c = 1456, cyc_to_die=1536, len_cur = 3
+c = 1457, cyc_to_die=1536, len_cur = 3
+c = 1458, cyc_to_die=1536, len_cur = 3
+c = 1459, cyc_to_die=1536, len_cur = 3
+c = 1460, cyc_to_die=1536, len_cur = 3
+c = 1461, cyc_to_die=1536, len_cur = 3
+c = 1462, cyc_to_die=1536, len_cur = 3
+c = 1463, cyc_to_die=1536, len_cur = 3
+c = 1464, cyc_to_die=1536, len_cur = 3
+c = 1465, cyc_to_die=1536, len_cur = 3
+c = 1466, cyc_to_die=1536, len_cur = 3
+c = 1467, cyc_to_die=1536, len_cur = 3
+c = 1468, cyc_to_die=1536, len_cur = 3
+c = 1469, cyc_to_die=1536, len_cur = 3
+c = 1470, cyc_to_die=1536, len_cur = 3
+c = 1471, cyc_to_die=1536, len_cur = 3
+c = 1472, cyc_to_die=1536, len_cur = 3
+c = 1473, cyc_to_die=1536, len_cur = 3
+c = 1474, cyc_to_die=1536, len_cur = 3
+c = 1475, cyc_to_die=1536, len_cur = 3
+c = 1476, cyc_to_die=1536, len_cur = 3
+c = 1477, cyc_to_die=1536, len_cur = 3
+c = 1478, cyc_to_die=1536, len_cur = 3
+c = 1479, cyc_to_die=1536, len_cur = 3
+c = 1480, cyc_to_die=1536, len_cur = 3
+c = 1481, cyc_to_die=1536, len_cur = 3
+c = 1482, cyc_to_die=1536, len_cur = 3
+c = 1483, cyc_to_die=1536, len_cur = 3
+c = 1484, cyc_to_die=1536, len_cur = 3
+c = 1485, cyc_to_die=1536, len_cur = 3
+c = 1486, cyc_to_die=1536, len_cur = 3
+c = 1487, cyc_to_die=1536, len_cur = 3
+c = 1488, cyc_to_die=1536, len_cur = 3
+c = 1489, cyc_to_die=1536, len_cur = 3
+c = 1490, cyc_to_die=1536, len_cur = 3
+c = 1491, cyc_to_die=1536, len_cur = 3
+c = 1492, cyc_to_die=1536, len_cur = 3
+c = 1493, cyc_to_die=1536, len_cur = 3
+c = 1494, cyc_to_die=1536, len_cur = 3
+c = 1495, cyc_to_die=1536, len_cur = 3
+c = 1496, cyc_to_die=1536, len_cur = 3
+c = 1497, cyc_to_die=1536, len_cur = 3
+c = 1498, cyc_to_die=1536, len_cur = 3
+c = 1499, cyc_to_die=1536, len_cur = 3
+c = 1500, cyc_to_die=1536, len_cur = 3
+c = 1501, cyc_to_die=1536, len_cur = 3
+c = 1502, cyc_to_die=1536, len_cur = 3
+c = 1503, cyc_to_die=1536, len_cur = 3
+c = 1504, cyc_to_die=1536, len_cur = 3
+c = 1505, cyc_to_die=1536, len_cur = 3
+c = 1506, cyc_to_die=1536, len_cur = 3
+c = 1507, cyc_to_die=1536, len_cur = 3
+c = 1508, cyc_to_die=1536, len_cur = 3
+c = 1509, cyc_to_die=1536, len_cur = 3
+c = 1510, cyc_to_die=1536, len_cur = 3
+c = 1511, cyc_to_die=1536, len_cur = 3
+c = 1512, cyc_to_die=1536, len_cur = 3
+c = 1513, cyc_to_die=1536, len_cur = 3
+c = 1514, cyc_to_die=1536, len_cur = 3
+c = 1515, cyc_to_die=1536, len_cur = 3
+c = 1516, cyc_to_die=1536, len_cur = 3
+c = 1517, cyc_to_die=1536, len_cur = 3
+c = 1518, cyc_to_die=1536, len_cur = 3
+c = 1519, cyc_to_die=1536, len_cur = 3
+c = 1520, cyc_to_die=1536, len_cur = 3
+c = 1521, cyc_to_die=1536, len_cur = 3
+c = 1522, cyc_to_die=1536, len_cur = 3
+c = 1523, cyc_to_die=1536, len_cur = 3
+c = 1524, cyc_to_die=1536, len_cur = 3
+c = 1525, cyc_to_die=1536, len_cur = 3
+c = 1526, cyc_to_die=1536, len_cur = 3
+c = 1527, cyc_to_die=1536, len_cur = 3
+c = 1528, cyc_to_die=1536, len_cur = 3
+c = 1529, cyc_to_die=1536, len_cur = 3
+c = 1530, cyc_to_die=1536, len_cur = 3
+c = 1531, cyc_to_die=1536, len_cur = 3
+c = 1532, cyc_to_die=1536, len_cur = 3
+c = 1533, cyc_to_die=1536, len_cur = 3
+c = 1534, cyc_to_die=1536, len_cur = 3
+c = 1535, cyc_to_die=1536, len_cur = 3
+Contestant 2, "Horace", has won !

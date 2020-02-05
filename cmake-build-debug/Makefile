@@ -123,6 +123,3732 @@ School21_CoreWar/fast:
 	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/build
 .PHONY : School21_CoreWar/fast
 
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/buffer.o: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/buffer.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/buffer.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/buffer.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/buffer.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/buffer.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/buffer.i: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/buffer.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/buffer.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/buffer.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/buffer.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/buffer.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/buffer.s: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/buffer.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/buffer.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/buffer.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/buffer.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/buffer.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/cast_mod.o: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/cast_mod.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/cast_mod.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/cast_mod.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/cast_mod.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/cast_mod.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/cast_mod.i: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/cast_mod.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/cast_mod.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/cast_mod.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/cast_mod.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/cast_mod.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/cast_mod.s: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/cast_mod.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/cast_mod.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/cast_mod.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/cast_mod.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/cast_mod.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/format.o: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/format.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/format.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/format.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/format.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/format.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/format.i: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/format.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/format.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/format.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/format.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/format.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/format.s: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/format.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/format.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/format.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/format.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/format.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen.o: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen.i: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen.s: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen_b.o: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen_b.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen_b.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen_b.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen_b.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen_b.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen_b.i: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen_b.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen_b.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen_b.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen_b.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen_b.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen_b.s: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen_b.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen_b.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen_b.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen_b.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen_b.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_power.o: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_power.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_power.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_power.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_power.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_power.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_power.i: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_power.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_power.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_power.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_power.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_power.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_power.s: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_power.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_power.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_power.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_power.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_power.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_printf.o: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_printf.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_printf.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_printf.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_printf.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_printf.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_printf.i: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_printf.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_printf.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_printf.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_printf.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_printf.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_printf.s: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_printf.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_printf.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_printf.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_printf.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_printf.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_nblen.o: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_nblen.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_nblen.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_nblen.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_nblen.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_nblen.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_nblen.i: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_nblen.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_nblen.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_nblen.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_nblen.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_nblen.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_nblen.s: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_nblen.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_nblen.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_nblen.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_nblen.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_nblen.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_power.o: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_power.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_power.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_power.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_power.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_power.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_power.i: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_power.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_power.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_power.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_power.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_power.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_power.s: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_power.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_power.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_power.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_power.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_power.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_bin.o: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_bin.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_bin.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_bin.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_bin.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_bin.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_bin.i: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_bin.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_bin.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_bin.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_bin.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_bin.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_bin.s: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_bin.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_bin.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_bin.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_bin.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_bin.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_char.o: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_char.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_char.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_char.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_char.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_char.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_char.i: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_char.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_char.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_char.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_char.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_char.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_char.s: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_char.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_char.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_char.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_char.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_char.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_hex.o: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_hex.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_hex.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_hex.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_hex.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_hex.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_hex.i: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_hex.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_hex.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_hex.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_hex.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_hex.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_hex.s: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_hex.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_hex.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_hex.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_hex.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_hex.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_int.o: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_int.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_int.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_int.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_int.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_int.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_int.i: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_int.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_int.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_int.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_int.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_int.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_int.s: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_int.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_int.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_int.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_int.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_int.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_oct.o: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_oct.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_oct.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_oct.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_oct.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_oct.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_oct.i: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_oct.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_oct.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_oct.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_oct.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_oct.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_oct.s: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_oct.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_oct.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_oct.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_oct.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_oct.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_ptr.o: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_ptr.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_ptr.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_ptr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_ptr.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_ptr.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_ptr.i: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_ptr.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_ptr.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_ptr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_ptr.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_ptr.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_ptr.s: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_ptr.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_ptr.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_ptr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_ptr.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_ptr.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_u_int.o: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_u_int.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_u_int.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_u_int.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_u_int.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_u_int.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_u_int.i: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_u_int.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_u_int.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_u_int.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_u_int.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_u_int.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_u_int.s: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_u_int.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_u_int.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_u_int.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_u_int.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_u_int.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wchar.o: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wchar.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wchar.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wchar.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wchar.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wchar.i: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wchar.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wchar.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wchar.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wchar.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wchar.s: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wchar.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wchar.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wchar.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wchar.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wstr.o: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wstr.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wstr.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wstr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wstr.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wstr.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wstr.i: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wstr.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wstr.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wstr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wstr.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wstr.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wstr.s: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wstr.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wstr.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wstr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wstr.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wstr.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/lst_arg.o: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/lst_arg.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/lst_arg.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/lst_arg.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/lst_arg.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/lst_arg.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/lst_arg.i: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/lst_arg.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/lst_arg.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/lst_arg.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/lst_arg.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/lst_arg.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/lst_arg.s: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/lst_arg.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/lst_arg.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/lst_arg.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/lst_arg.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/lst_arg.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/num_field.o: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/num_field.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/num_field.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/num_field.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/num_field.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/num_field.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/num_field.i: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/num_field.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/num_field.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/num_field.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/num_field.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/num_field.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/num_field.s: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/num_field.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/num_field.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/num_field.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/num_field.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/num_field.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/parser.o: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/parser.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/parser.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/parser.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/parser.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/parser.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/parser.i: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/parser.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/parser.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/parser.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/parser.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/parser.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/parser.s: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/parser.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/parser.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/parser.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/parser.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/parser.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/str_field.o: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/str_field.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/str_field.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/str_field.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/str_field.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/str_field.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/str_field.i: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/str_field.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/str_field.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/str_field.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/str_field.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/str_field.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/str_field.s: Corewar_kk_xx/Corewar/libft/srcs/ft_printf/str_field.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/str_field.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/ft_printf/str_field.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/ft_printf/str_field.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/ft_printf/str_field.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/get_next_line/ft_getline.o: Corewar_kk_xx/Corewar/libft/srcs/get_next_line/ft_getline.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/get_next_line/ft_getline.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/get_next_line/ft_getline.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/get_next_line/ft_getline.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/get_next_line/ft_getline.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/get_next_line/ft_getline.i: Corewar_kk_xx/Corewar/libft/srcs/get_next_line/ft_getline.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/get_next_line/ft_getline.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/get_next_line/ft_getline.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/get_next_line/ft_getline.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/get_next_line/ft_getline.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/get_next_line/ft_getline.s: Corewar_kk_xx/Corewar/libft/srcs/get_next_line/ft_getline.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/get_next_line/ft_getline.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/get_next_line/ft_getline.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/get_next_line/ft_getline.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/get_next_line/ft_getline.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/get_next_line/get_next_line.o: Corewar_kk_xx/Corewar/libft/srcs/get_next_line/get_next_line.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/get_next_line/get_next_line.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/get_next_line/get_next_line.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/get_next_line/get_next_line.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/get_next_line/get_next_line.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/get_next_line/get_next_line.i: Corewar_kk_xx/Corewar/libft/srcs/get_next_line/get_next_line.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/get_next_line/get_next_line.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/get_next_line/get_next_line.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/get_next_line/get_next_line.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/get_next_line/get_next_line.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/get_next_line/get_next_line.s: Corewar_kk_xx/Corewar/libft/srcs/get_next_line/get_next_line.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/get_next_line/get_next_line.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/get_next_line/get_next_line.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/get_next_line/get_next_line.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/get_next_line/get_next_line.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_bzero.o: Corewar_kk_xx/Corewar/libft/srcs/memory/ft_bzero.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_bzero.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_bzero.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/memory/ft_bzero.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_bzero.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_bzero.i: Corewar_kk_xx/Corewar/libft/srcs/memory/ft_bzero.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_bzero.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_bzero.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/memory/ft_bzero.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_bzero.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_bzero.s: Corewar_kk_xx/Corewar/libft/srcs/memory/ft_bzero.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_bzero.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_bzero.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/memory/ft_bzero.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_bzero.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memalloc.o: Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memalloc.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memalloc.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memalloc.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memalloc.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memalloc.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memalloc.i: Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memalloc.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memalloc.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memalloc.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memalloc.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memalloc.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memalloc.s: Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memalloc.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memalloc.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memalloc.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memalloc.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memalloc.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memccpy.o: Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memccpy.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memccpy.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memccpy.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memccpy.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memccpy.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memccpy.i: Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memccpy.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memccpy.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memccpy.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memccpy.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memccpy.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memccpy.s: Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memccpy.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memccpy.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memccpy.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memccpy.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memccpy.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memchr.o: Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memchr.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memchr.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memchr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memchr.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memchr.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memchr.i: Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memchr.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memchr.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memchr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memchr.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memchr.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memchr.s: Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memchr.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memchr.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memchr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memchr.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memchr.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcmp.o: Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcmp.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcmp.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcmp.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcmp.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcmp.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcmp.i: Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcmp.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcmp.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcmp.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcmp.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcmp.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcmp.s: Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcmp.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcmp.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcmp.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcmp.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcmp.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcpy.o: Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcpy.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcpy.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcpy.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcpy.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcpy.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcpy.i: Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcpy.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcpy.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcpy.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcpy.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcpy.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcpy.s: Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcpy.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcpy.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcpy.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcpy.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcpy.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memdel.o: Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memdel.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memdel.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memdel.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memdel.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memdel.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memdel.i: Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memdel.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memdel.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memdel.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memdel.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memdel.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memdel.s: Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memdel.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memdel.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memdel.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memdel.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memdel.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memmove.o: Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memmove.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memmove.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memmove.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memmove.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memmove.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memmove.i: Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memmove.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memmove.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memmove.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memmove.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memmove.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memmove.s: Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memmove.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memmove.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memmove.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memmove.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memmove.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memset.o: Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memset.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memset.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memset.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memset.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memset.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memset.i: Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memset.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memset.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memset.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memset.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memset.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memset.s: Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memset.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memset.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memset.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memset.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memset.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar.o: Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar.i: Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar.s: Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar_fd.o: Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar_fd.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar_fd.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar_fd.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar_fd.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar_fd.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar_fd.i: Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar_fd.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar_fd.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar_fd.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar_fd.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar_fd.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar_fd.s: Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar_fd.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar_fd.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar_fd.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar_fd.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar_fd.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl.o: Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl.i: Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl.s: Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl_fd.o: Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl_fd.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl_fd.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl_fd.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl_fd.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl_fd.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl_fd.i: Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl_fd.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl_fd.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl_fd.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl_fd.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl_fd.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl_fd.s: Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl_fd.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl_fd.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl_fd.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl_fd.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl_fd.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr.o: Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr.i: Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr.s: Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr_fd.o: Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr_fd.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr_fd.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr_fd.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr_fd.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr_fd.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr_fd.i: Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr_fd.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr_fd.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr_fd.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr_fd.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr_fd.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr_fd.s: Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr_fd.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr_fd.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr_fd.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr_fd.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr_fd.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr.o: Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr.i: Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr.s: Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr_fd.o: Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr_fd.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr_fd.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr_fd.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr_fd.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr_fd.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr_fd.i: Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr_fd.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr_fd.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr_fd.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr_fd.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr_fd.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr_fd.s: Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr_fd.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr_fd.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr_fd.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr_fd.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr_fd.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstadd.o: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstadd.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstadd.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstadd.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstadd.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstadd.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstadd.i: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstadd.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstadd.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstadd.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstadd.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstadd.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstadd.s: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstadd.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstadd.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstadd.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstadd.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstadd.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstaddback.o: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstaddback.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstaddback.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstaddback.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstaddback.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstaddback.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstaddback.i: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstaddback.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstaddback.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstaddback.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstaddback.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstaddback.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstaddback.s: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstaddback.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstaddback.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstaddback.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstaddback.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstaddback.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstappend.o: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstappend.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstappend.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstappend.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstappend.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstappend.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstappend.i: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstappend.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstappend.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstappend.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstappend.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstappend.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstappend.s: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstappend.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstappend.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstappend.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstappend.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstappend.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdel.o: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdel.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdel.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdel.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdel.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdel.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdel.i: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdel.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdel.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdel.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdel.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdel.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdel.s: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdel.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdel.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdel.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdel.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdel.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdelone.o: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdelone.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdelone.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdelone.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdelone.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdelone.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdelone.i: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdelone.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdelone.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdelone.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdelone.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdelone.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdelone.s: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdelone.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdelone.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdelone.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdelone.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdelone.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstinttab.o: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstinttab.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstinttab.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstinttab.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstinttab.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstinttab.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstinttab.i: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstinttab.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstinttab.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstinttab.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstinttab.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstinttab.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstinttab.s: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstinttab.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstinttab.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstinttab.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstinttab.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstinttab.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstiter.o: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstiter.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstiter.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstiter.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstiter.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstiter.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstiter.i: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstiter.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstiter.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstiter.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstiter.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstiter.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstiter.s: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstiter.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstiter.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstiter.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstiter.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstiter.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstlen.o: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstlen.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstlen.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstlen.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstlen.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstlen.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstlen.i: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstlen.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstlen.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstlen.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstlen.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstlen.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstlen.s: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstlen.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstlen.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstlen.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstlen.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstlen.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstmap.o: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstmap.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstmap.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstmap.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstmap.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstmap.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstmap.i: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstmap.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstmap.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstmap.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstmap.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstmap.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstmap.s: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstmap.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstmap.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstmap.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstmap.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstmap.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstnew.o: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstnew.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstnew.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstnew.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstnew.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstnew.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstnew.i: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstnew.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstnew.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstnew.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstnew.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstnew.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstnew.s: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstnew.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstnew.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstnew.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstnew.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstnew.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpop.o: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpop.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpop.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpop.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpop.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpop.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpop.i: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpop.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpop.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpop.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpop.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpop.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpop.s: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpop.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpop.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpop.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpop.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpop.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpush.o: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpush.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpush.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpush.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpush.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpush.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpush.i: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpush.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpush.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpush.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpush.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpush.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpush.s: Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpush.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpush.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpush.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpush.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpush.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcat.o: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcat.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcat.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcat.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcat.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcat.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcat.i: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcat.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcat.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcat.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcat.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcat.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcat.s: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcat.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcat.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcat.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcat.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcat.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strchr.o: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strchr.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strchr.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strchr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strchr.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strchr.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strchr.i: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strchr.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strchr.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strchr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strchr.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strchr.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strchr.s: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strchr.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strchr.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strchr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strchr.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strchr.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strclr.o: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strclr.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strclr.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strclr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strclr.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strclr.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strclr.i: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strclr.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strclr.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strclr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strclr.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strclr.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strclr.s: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strclr.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strclr.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strclr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strclr.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strclr.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcmp.o: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcmp.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcmp.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcmp.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcmp.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcmp.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcmp.i: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcmp.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcmp.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcmp.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcmp.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcmp.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcmp.s: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcmp.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcmp.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcmp.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcmp.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcmp.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcpy.o: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcpy.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcpy.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcpy.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcpy.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcpy.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcpy.i: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcpy.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcpy.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcpy.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcpy.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcpy.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcpy.s: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcpy.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcpy.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcpy.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcpy.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcpy.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdel.o: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdel.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdel.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdel.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdel.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdel.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdel.i: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdel.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdel.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdel.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdel.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdel.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdel.s: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdel.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdel.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdel.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdel.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdel.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdup.o: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdup.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdup.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdup.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdup.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdup.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdup.i: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdup.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdup.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdup.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdup.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdup.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdup.s: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdup.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdup.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdup.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdup.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdup.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strequ.o: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strequ.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strequ.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strequ.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strequ.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strequ.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strequ.i: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strequ.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strequ.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strequ.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strequ.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strequ.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strequ.s: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strequ.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strequ.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strequ.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strequ.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strequ.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striter.o: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striter.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striter.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striter.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striter.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striter.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striter.i: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striter.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striter.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striter.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striter.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striter.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striter.s: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striter.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striter.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striter.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striter.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striter.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striteri.o: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striteri.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striteri.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striteri.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striteri.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striteri.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striteri.i: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striteri.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striteri.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striteri.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striteri.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striteri.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striteri.s: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striteri.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striteri.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striteri.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striteri.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striteri.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strjoin.o: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strjoin.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strjoin.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strjoin.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strjoin.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strjoin.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strjoin.i: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strjoin.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strjoin.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strjoin.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strjoin.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strjoin.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strjoin.s: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strjoin.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strjoin.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strjoin.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strjoin.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strjoin.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlcat.o: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlcat.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlcat.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlcat.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlcat.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlcat.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlcat.i: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlcat.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlcat.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlcat.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlcat.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlcat.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlcat.s: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlcat.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlcat.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlcat.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlcat.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlcat.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlen.o: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlen.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlen.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlen.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlen.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlen.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlen.i: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlen.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlen.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlen.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlen.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlen.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlen.s: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlen.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlen.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlen.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlen.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlen.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmap.o: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmap.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmap.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmap.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmap.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmap.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmap.i: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmap.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmap.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmap.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmap.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmap.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmap.s: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmap.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmap.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmap.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmap.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmap.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmapi.o: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmapi.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmapi.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmapi.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmapi.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmapi.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmapi.i: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmapi.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmapi.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmapi.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmapi.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmapi.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmapi.s: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmapi.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmapi.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmapi.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmapi.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmapi.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncat.o: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncat.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncat.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncat.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncat.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncat.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncat.i: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncat.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncat.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncat.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncat.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncat.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncat.s: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncat.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncat.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncat.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncat.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncat.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncmp.o: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncmp.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncmp.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncmp.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncmp.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncmp.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncmp.i: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncmp.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncmp.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncmp.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncmp.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncmp.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncmp.s: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncmp.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncmp.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncmp.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncmp.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncmp.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncpy.o: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncpy.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncpy.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncpy.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncpy.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncpy.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncpy.i: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncpy.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncpy.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncpy.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncpy.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncpy.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncpy.s: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncpy.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncpy.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncpy.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncpy.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncpy.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnequ.o: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnequ.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnequ.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnequ.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnequ.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnequ.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnequ.i: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnequ.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnequ.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnequ.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnequ.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnequ.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnequ.s: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnequ.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnequ.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnequ.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnequ.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnequ.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnew.o: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnew.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnew.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnew.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnew.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnew.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnew.i: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnew.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnew.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnew.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnew.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnew.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnew.s: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnew.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnew.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnew.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnew.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnew.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnstr.o: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnstr.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnstr.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnstr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnstr.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnstr.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnstr.i: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnstr.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnstr.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnstr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnstr.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnstr.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnstr.s: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnstr.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnstr.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnstr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnstr.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnstr.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrchr.o: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrchr.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrchr.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrchr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrchr.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrchr.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrchr.i: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrchr.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrchr.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrchr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrchr.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrchr.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrchr.s: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrchr.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrchr.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrchr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrchr.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrchr.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrev.o: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrev.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrev.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrev.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrev.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrev.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrev.i: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrev.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrev.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrev.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrev.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrev.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrev.s: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrev.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrev.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrev.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrev.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrev.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplit.o: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplit.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplit.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplit.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplit.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplit.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplit.i: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplit.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplit.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplit.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplit.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplit.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplit.s: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplit.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplit.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplit.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplit.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplit.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplitdel.o: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplitdel.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplitdel.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplitdel.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplitdel.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplitdel.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplitdel.i: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplitdel.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplitdel.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplitdel.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplitdel.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplitdel.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplitdel.s: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplitdel.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplitdel.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplitdel.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplitdel.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplitdel.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strstr.o: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strstr.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strstr.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strstr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strstr.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strstr.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strstr.i: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strstr.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strstr.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strstr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strstr.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strstr.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strstr.s: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strstr.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strstr.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strstr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strstr.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strstr.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsub.o: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsub.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsub.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsub.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsub.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsub.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsub.i: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsub.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsub.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsub.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsub.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsub.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsub.s: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsub.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsub.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsub.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsub.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsub.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strtrim.o: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strtrim.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strtrim.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strtrim.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strtrim.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strtrim.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strtrim.i: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strtrim.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strtrim.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strtrim.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strtrim.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strtrim.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strtrim.s: Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strtrim.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strtrim.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strtrim.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strtrim.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strtrim.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_atoi.o: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_atoi.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_atoi.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_atoi.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_atoi.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_atoi.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_atoi.i: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_atoi.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_atoi.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_atoi.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_atoi.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_atoi.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_atoi.s: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_atoi.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_atoi.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_atoi.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_atoi.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_atoi.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalnum.o: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalnum.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalnum.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalnum.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalnum.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalnum.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalnum.i: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalnum.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalnum.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalnum.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalnum.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalnum.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalnum.s: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalnum.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalnum.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalnum.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalnum.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalnum.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalpha.o: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalpha.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalpha.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalpha.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalpha.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalpha.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalpha.i: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalpha.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalpha.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalpha.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalpha.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalpha.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalpha.s: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalpha.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalpha.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalpha.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalpha.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalpha.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isascii.o: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isascii.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isascii.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isascii.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isascii.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isascii.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isascii.i: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isascii.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isascii.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isascii.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isascii.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isascii.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isascii.s: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isascii.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isascii.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isascii.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isascii.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isascii.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigit.o: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigit.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigit.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigit.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigit.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigit.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigit.i: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigit.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigit.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigit.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigit.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigit.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigit.s: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigit.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigit.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigit.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigit.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigit.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigitstr.o: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigitstr.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigitstr.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigitstr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigitstr.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigitstr.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigitstr.i: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigitstr.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigitstr.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigitstr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigitstr.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigitstr.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigitstr.s: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigitstr.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigitstr.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigitstr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigitstr.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigitstr.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_islower.o: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_islower.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_islower.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_islower.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_islower.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_islower.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_islower.i: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_islower.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_islower.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_islower.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_islower.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_islower.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_islower.s: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_islower.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_islower.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_islower.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_islower.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_islower.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isprint.o: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isprint.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isprint.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isprint.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isprint.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isprint.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isprint.i: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isprint.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isprint.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isprint.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isprint.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isprint.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isprint.s: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isprint.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isprint.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isprint.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isprint.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isprint.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isspace.o: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isspace.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isspace.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isspace.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isspace.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isspace.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isspace.i: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isspace.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isspace.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isspace.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isspace.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isspace.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isspace.s: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isspace.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isspace.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isspace.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isspace.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isspace.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isupper.o: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isupper.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isupper.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isupper.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isupper.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isupper.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isupper.i: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isupper.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isupper.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isupper.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isupper.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isupper.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isupper.s: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isupper.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isupper.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isupper.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isupper.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isupper.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_itoa.o: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_itoa.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_itoa.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_itoa.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_itoa.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_itoa.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_itoa.i: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_itoa.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_itoa.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_itoa.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_itoa.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_itoa.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_itoa.s: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_itoa.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_itoa.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_itoa.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_itoa.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_itoa.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_squeeze.o: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_squeeze.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_squeeze.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_squeeze.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_squeeze.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_squeeze.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_squeeze.i: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_squeeze.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_squeeze.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_squeeze.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_squeeze.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_squeeze.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_squeeze.s: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_squeeze.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_squeeze.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_squeeze.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_squeeze.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_squeeze.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_tolower.o: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_tolower.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_tolower.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_tolower.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_tolower.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_tolower.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_tolower.i: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_tolower.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_tolower.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_tolower.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_tolower.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_tolower.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_tolower.s: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_tolower.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_tolower.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_tolower.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_tolower.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_tolower.c.s
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_toupper.o: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_toupper.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_toupper.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_toupper.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_toupper.c.o
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_toupper.c.o
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_toupper.i: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_toupper.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_toupper.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_toupper.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_toupper.c.i
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_toupper.c.i
+
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_toupper.s: Corewar_kk_xx/Corewar/libft/srcs/utils/ft_toupper.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_toupper.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/libft/srcs/utils/ft_toupper.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/libft/srcs/utils/ft_toupper.c.s
+.PHONY : Corewar_kk_xx/Corewar/libft/srcs/utils/ft_toupper.c.s
+
+Corewar_kk_xx/Corewar/srcs/asm/asm.o: Corewar_kk_xx/Corewar/srcs/asm/asm.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/asm.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/asm/asm.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/asm.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/asm.c.o
+
+Corewar_kk_xx/Corewar/srcs/asm/asm.i: Corewar_kk_xx/Corewar/srcs/asm/asm.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/asm.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/asm/asm.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/asm.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/asm.c.i
+
+Corewar_kk_xx/Corewar/srcs/asm/asm.s: Corewar_kk_xx/Corewar/srcs/asm/asm.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/asm.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/asm/asm.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/asm.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/asm.c.s
+
+Corewar_kk_xx/Corewar/srcs/asm/asm_utils.o: Corewar_kk_xx/Corewar/srcs/asm/asm_utils.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/asm_utils.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/asm/asm_utils.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/asm_utils.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/asm_utils.c.o
+
+Corewar_kk_xx/Corewar/srcs/asm/asm_utils.i: Corewar_kk_xx/Corewar/srcs/asm/asm_utils.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/asm_utils.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/asm/asm_utils.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/asm_utils.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/asm_utils.c.i
+
+Corewar_kk_xx/Corewar/srcs/asm/asm_utils.s: Corewar_kk_xx/Corewar/srcs/asm/asm_utils.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/asm_utils.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/asm/asm_utils.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/asm_utils.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/asm_utils.c.s
+
+Corewar_kk_xx/Corewar/srcs/asm/deasm.o: Corewar_kk_xx/Corewar/srcs/asm/deasm.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/deasm.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/asm/deasm.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/deasm.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/deasm.c.o
+
+Corewar_kk_xx/Corewar/srcs/asm/deasm.i: Corewar_kk_xx/Corewar/srcs/asm/deasm.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/deasm.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/asm/deasm.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/deasm.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/deasm.c.i
+
+Corewar_kk_xx/Corewar/srcs/asm/deasm.s: Corewar_kk_xx/Corewar/srcs/asm/deasm.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/deasm.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/asm/deasm.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/deasm.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/deasm.c.s
+
+Corewar_kk_xx/Corewar/srcs/asm/deasm_manage.o: Corewar_kk_xx/Corewar/srcs/asm/deasm_manage.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/deasm_manage.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/asm/deasm_manage.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/deasm_manage.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/deasm_manage.c.o
+
+Corewar_kk_xx/Corewar/srcs/asm/deasm_manage.i: Corewar_kk_xx/Corewar/srcs/asm/deasm_manage.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/deasm_manage.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/asm/deasm_manage.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/deasm_manage.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/deasm_manage.c.i
+
+Corewar_kk_xx/Corewar/srcs/asm/deasm_manage.s: Corewar_kk_xx/Corewar/srcs/asm/deasm_manage.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/deasm_manage.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/asm/deasm_manage.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/deasm_manage.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/deasm_manage.c.s
+
+Corewar_kk_xx/Corewar/srcs/asm/fixed_io.o: Corewar_kk_xx/Corewar/srcs/asm/fixed_io.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/fixed_io.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/asm/fixed_io.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/fixed_io.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/fixed_io.c.o
+
+Corewar_kk_xx/Corewar/srcs/asm/fixed_io.i: Corewar_kk_xx/Corewar/srcs/asm/fixed_io.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/fixed_io.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/asm/fixed_io.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/fixed_io.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/fixed_io.c.i
+
+Corewar_kk_xx/Corewar/srcs/asm/fixed_io.s: Corewar_kk_xx/Corewar/srcs/asm/fixed_io.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/fixed_io.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/asm/fixed_io.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/fixed_io.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/fixed_io.c.s
+
+Corewar_kk_xx/Corewar/srcs/asm/label.o: Corewar_kk_xx/Corewar/srcs/asm/label.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/label.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/asm/label.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/label.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/label.c.o
+
+Corewar_kk_xx/Corewar/srcs/asm/label.i: Corewar_kk_xx/Corewar/srcs/asm/label.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/label.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/asm/label.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/label.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/label.c.i
+
+Corewar_kk_xx/Corewar/srcs/asm/label.s: Corewar_kk_xx/Corewar/srcs/asm/label.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/label.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/asm/label.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/label.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/label.c.s
+
+Corewar_kk_xx/Corewar/srcs/asm/label_init.o: Corewar_kk_xx/Corewar/srcs/asm/label_init.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/label_init.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/asm/label_init.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/label_init.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/label_init.c.o
+
+Corewar_kk_xx/Corewar/srcs/asm/label_init.i: Corewar_kk_xx/Corewar/srcs/asm/label_init.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/label_init.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/asm/label_init.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/label_init.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/label_init.c.i
+
+Corewar_kk_xx/Corewar/srcs/asm/label_init.s: Corewar_kk_xx/Corewar/srcs/asm/label_init.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/label_init.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/asm/label_init.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/label_init.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/label_init.c.s
+
+Corewar_kk_xx/Corewar/srcs/asm/label_utils.o: Corewar_kk_xx/Corewar/srcs/asm/label_utils.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/label_utils.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/asm/label_utils.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/label_utils.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/label_utils.c.o
+
+Corewar_kk_xx/Corewar/srcs/asm/label_utils.i: Corewar_kk_xx/Corewar/srcs/asm/label_utils.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/label_utils.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/asm/label_utils.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/label_utils.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/label_utils.c.i
+
+Corewar_kk_xx/Corewar/srcs/asm/label_utils.s: Corewar_kk_xx/Corewar/srcs/asm/label_utils.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/label_utils.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/asm/label_utils.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/label_utils.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/label_utils.c.s
+
+Corewar_kk_xx/Corewar/srcs/asm/lexer.o: Corewar_kk_xx/Corewar/srcs/asm/lexer.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/lexer.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/asm/lexer.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/lexer.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/lexer.c.o
+
+Corewar_kk_xx/Corewar/srcs/asm/lexer.i: Corewar_kk_xx/Corewar/srcs/asm/lexer.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/lexer.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/asm/lexer.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/lexer.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/lexer.c.i
+
+Corewar_kk_xx/Corewar/srcs/asm/lexer.s: Corewar_kk_xx/Corewar/srcs/asm/lexer.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/lexer.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/asm/lexer.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/lexer.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/lexer.c.s
+
+Corewar_kk_xx/Corewar/srcs/asm/op.o: Corewar_kk_xx/Corewar/srcs/asm/op.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/op.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/asm/op.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/op.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/op.c.o
+
+Corewar_kk_xx/Corewar/srcs/asm/op.i: Corewar_kk_xx/Corewar/srcs/asm/op.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/op.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/asm/op.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/op.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/op.c.i
+
+Corewar_kk_xx/Corewar/srcs/asm/op.s: Corewar_kk_xx/Corewar/srcs/asm/op.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/op.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/asm/op.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/op.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/op.c.s
+
+Corewar_kk_xx/Corewar/srcs/asm/parser.o: Corewar_kk_xx/Corewar/srcs/asm/parser.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/parser.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/asm/parser.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/parser.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/parser.c.o
+
+Corewar_kk_xx/Corewar/srcs/asm/parser.i: Corewar_kk_xx/Corewar/srcs/asm/parser.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/parser.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/asm/parser.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/parser.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/parser.c.i
+
+Corewar_kk_xx/Corewar/srcs/asm/parser.s: Corewar_kk_xx/Corewar/srcs/asm/parser.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/parser.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/asm/parser.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/parser.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/parser.c.s
+
+Corewar_kk_xx/Corewar/srcs/asm/parser_header.o: Corewar_kk_xx/Corewar/srcs/asm/parser_header.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/parser_header.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/asm/parser_header.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/parser_header.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/parser_header.c.o
+
+Corewar_kk_xx/Corewar/srcs/asm/parser_header.i: Corewar_kk_xx/Corewar/srcs/asm/parser_header.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/parser_header.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/asm/parser_header.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/parser_header.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/parser_header.c.i
+
+Corewar_kk_xx/Corewar/srcs/asm/parser_header.s: Corewar_kk_xx/Corewar/srcs/asm/parser_header.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/parser_header.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/asm/parser_header.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/parser_header.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/parser_header.c.s
+
+Corewar_kk_xx/Corewar/srcs/asm/parser_init.o: Corewar_kk_xx/Corewar/srcs/asm/parser_init.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/parser_init.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/asm/parser_init.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/parser_init.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/parser_init.c.o
+
+Corewar_kk_xx/Corewar/srcs/asm/parser_init.i: Corewar_kk_xx/Corewar/srcs/asm/parser_init.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/parser_init.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/asm/parser_init.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/parser_init.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/parser_init.c.i
+
+Corewar_kk_xx/Corewar/srcs/asm/parser_init.s: Corewar_kk_xx/Corewar/srcs/asm/parser_init.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/parser_init.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/asm/parser_init.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/parser_init.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/parser_init.c.s
+
+Corewar_kk_xx/Corewar/srcs/asm/scanner.o: Corewar_kk_xx/Corewar/srcs/asm/scanner.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/scanner.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/asm/scanner.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/scanner.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/scanner.c.o
+
+Corewar_kk_xx/Corewar/srcs/asm/scanner.i: Corewar_kk_xx/Corewar/srcs/asm/scanner.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/scanner.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/asm/scanner.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/scanner.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/scanner.c.i
+
+Corewar_kk_xx/Corewar/srcs/asm/scanner.s: Corewar_kk_xx/Corewar/srcs/asm/scanner.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/scanner.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/asm/scanner.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/asm/scanner.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/asm/scanner.c.s
+
+Corewar_kk_xx/Corewar/srcs/corewar/corewar.o: Corewar_kk_xx/Corewar/srcs/corewar/corewar.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/corewar.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/corewar/corewar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/corewar.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/corewar.c.o
+
+Corewar_kk_xx/Corewar/srcs/corewar/corewar.i: Corewar_kk_xx/Corewar/srcs/corewar/corewar.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/corewar.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/corewar/corewar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/corewar.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/corewar.c.i
+
+Corewar_kk_xx/Corewar/srcs/corewar/corewar.s: Corewar_kk_xx/Corewar/srcs/corewar/corewar.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/corewar.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/corewar/corewar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/corewar.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/corewar.c.s
+
+Corewar_kk_xx/Corewar/srcs/corewar/get_players.o: Corewar_kk_xx/Corewar/srcs/corewar/get_players.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/get_players.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/corewar/get_players.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/get_players.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/get_players.c.o
+
+Corewar_kk_xx/Corewar/srcs/corewar/get_players.i: Corewar_kk_xx/Corewar/srcs/corewar/get_players.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/get_players.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/corewar/get_players.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/get_players.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/get_players.c.i
+
+Corewar_kk_xx/Corewar/srcs/corewar/get_players.s: Corewar_kk_xx/Corewar/srcs/corewar/get_players.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/get_players.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/corewar/get_players.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/get_players.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/get_players.c.s
+
+Corewar_kk_xx/Corewar/srcs/corewar/get_players_errors.o: Corewar_kk_xx/Corewar/srcs/corewar/get_players_errors.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/get_players_errors.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/corewar/get_players_errors.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/get_players_errors.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/get_players_errors.c.o
+
+Corewar_kk_xx/Corewar/srcs/corewar/get_players_errors.i: Corewar_kk_xx/Corewar/srcs/corewar/get_players_errors.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/get_players_errors.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/corewar/get_players_errors.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/get_players_errors.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/get_players_errors.c.i
+
+Corewar_kk_xx/Corewar/srcs/corewar/get_players_errors.s: Corewar_kk_xx/Corewar/srcs/corewar/get_players_errors.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/get_players_errors.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/corewar/get_players_errors.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/get_players_errors.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/get_players_errors.c.s
+
+Corewar_kk_xx/Corewar/srcs/corewar/load_arena.o: Corewar_kk_xx/Corewar/srcs/corewar/load_arena.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/load_arena.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/corewar/load_arena.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/load_arena.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/load_arena.c.o
+
+Corewar_kk_xx/Corewar/srcs/corewar/load_arena.i: Corewar_kk_xx/Corewar/srcs/corewar/load_arena.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/load_arena.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/corewar/load_arena.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/load_arena.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/load_arena.c.i
+
+Corewar_kk_xx/Corewar/srcs/corewar/load_arena.s: Corewar_kk_xx/Corewar/srcs/corewar/load_arena.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/load_arena.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/corewar/load_arena.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/load_arena.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/load_arena.c.s
+
+Corewar_kk_xx/Corewar/srcs/corewar/op.o: Corewar_kk_xx/Corewar/srcs/corewar/op.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/op.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/corewar/op.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/op.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/op.c.o
+
+Corewar_kk_xx/Corewar/srcs/corewar/op.i: Corewar_kk_xx/Corewar/srcs/corewar/op.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/op.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/corewar/op.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/op.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/op.c.i
+
+Corewar_kk_xx/Corewar/srcs/corewar/op.s: Corewar_kk_xx/Corewar/srcs/corewar/op.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/op.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/corewar/op.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/op.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/op.c.s
+
+Corewar_kk_xx/Corewar/srcs/corewar/op_shift.o: Corewar_kk_xx/Corewar/srcs/corewar/op_shift.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/op_shift.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/corewar/op_shift.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/op_shift.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/op_shift.c.o
+
+Corewar_kk_xx/Corewar/srcs/corewar/op_shift.i: Corewar_kk_xx/Corewar/srcs/corewar/op_shift.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/op_shift.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/corewar/op_shift.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/op_shift.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/op_shift.c.i
+
+Corewar_kk_xx/Corewar/srcs/corewar/op_shift.s: Corewar_kk_xx/Corewar/srcs/corewar/op_shift.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/op_shift.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/corewar/op_shift.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/op_shift.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/op_shift.c.s
+
+Corewar_kk_xx/Corewar/srcs/corewar/operate.o: Corewar_kk_xx/Corewar/srcs/corewar/operate.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operate.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/corewar/operate.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/operate.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operate.c.o
+
+Corewar_kk_xx/Corewar/srcs/corewar/operate.i: Corewar_kk_xx/Corewar/srcs/corewar/operate.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operate.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/corewar/operate.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/operate.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operate.c.i
+
+Corewar_kk_xx/Corewar/srcs/corewar/operate.s: Corewar_kk_xx/Corewar/srcs/corewar/operate.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operate.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/corewar/operate.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/operate.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operate.c.s
+
+Corewar_kk_xx/Corewar/srcs/corewar/operation_1.o: Corewar_kk_xx/Corewar/srcs/corewar/operation_1.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_1.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/corewar/operation_1.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/operation_1.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_1.c.o
+
+Corewar_kk_xx/Corewar/srcs/corewar/operation_1.i: Corewar_kk_xx/Corewar/srcs/corewar/operation_1.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_1.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/corewar/operation_1.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/operation_1.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_1.c.i
+
+Corewar_kk_xx/Corewar/srcs/corewar/operation_1.s: Corewar_kk_xx/Corewar/srcs/corewar/operation_1.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_1.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/corewar/operation_1.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/operation_1.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_1.c.s
+
+Corewar_kk_xx/Corewar/srcs/corewar/operation_2.o: Corewar_kk_xx/Corewar/srcs/corewar/operation_2.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_2.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/corewar/operation_2.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/operation_2.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_2.c.o
+
+Corewar_kk_xx/Corewar/srcs/corewar/operation_2.i: Corewar_kk_xx/Corewar/srcs/corewar/operation_2.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_2.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/corewar/operation_2.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/operation_2.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_2.c.i
+
+Corewar_kk_xx/Corewar/srcs/corewar/operation_2.s: Corewar_kk_xx/Corewar/srcs/corewar/operation_2.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_2.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/corewar/operation_2.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/operation_2.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_2.c.s
+
+Corewar_kk_xx/Corewar/srcs/corewar/operation_2b.o: Corewar_kk_xx/Corewar/srcs/corewar/operation_2b.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_2b.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/corewar/operation_2b.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/operation_2b.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_2b.c.o
+
+Corewar_kk_xx/Corewar/srcs/corewar/operation_2b.i: Corewar_kk_xx/Corewar/srcs/corewar/operation_2b.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_2b.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/corewar/operation_2b.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/operation_2b.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_2b.c.i
+
+Corewar_kk_xx/Corewar/srcs/corewar/operation_2b.s: Corewar_kk_xx/Corewar/srcs/corewar/operation_2b.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_2b.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/corewar/operation_2b.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/operation_2b.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_2b.c.s
+
+Corewar_kk_xx/Corewar/srcs/corewar/operation_3.o: Corewar_kk_xx/Corewar/srcs/corewar/operation_3.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_3.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/corewar/operation_3.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/operation_3.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_3.c.o
+
+Corewar_kk_xx/Corewar/srcs/corewar/operation_3.i: Corewar_kk_xx/Corewar/srcs/corewar/operation_3.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_3.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/corewar/operation_3.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/operation_3.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_3.c.i
+
+Corewar_kk_xx/Corewar/srcs/corewar/operation_3.s: Corewar_kk_xx/Corewar/srcs/corewar/operation_3.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_3.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/corewar/operation_3.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/operation_3.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_3.c.s
+
+Corewar_kk_xx/Corewar/srcs/corewar/operation_4.o: Corewar_kk_xx/Corewar/srcs/corewar/operation_4.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_4.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/corewar/operation_4.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/operation_4.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_4.c.o
+
+Corewar_kk_xx/Corewar/srcs/corewar/operation_4.i: Corewar_kk_xx/Corewar/srcs/corewar/operation_4.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_4.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/corewar/operation_4.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/operation_4.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_4.c.i
+
+Corewar_kk_xx/Corewar/srcs/corewar/operation_4.s: Corewar_kk_xx/Corewar/srcs/corewar/operation_4.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_4.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/corewar/operation_4.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/operation_4.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_4.c.s
+
+Corewar_kk_xx/Corewar/srcs/corewar/operation_4b.o: Corewar_kk_xx/Corewar/srcs/corewar/operation_4b.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_4b.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/corewar/operation_4b.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/operation_4b.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_4b.c.o
+
+Corewar_kk_xx/Corewar/srcs/corewar/operation_4b.i: Corewar_kk_xx/Corewar/srcs/corewar/operation_4b.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_4b.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/corewar/operation_4b.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/operation_4b.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_4b.c.i
+
+Corewar_kk_xx/Corewar/srcs/corewar/operation_4b.s: Corewar_kk_xx/Corewar/srcs/corewar/operation_4b.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_4b.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/corewar/operation_4b.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/operation_4b.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/operation_4b.c.s
+
+Corewar_kk_xx/Corewar/srcs/corewar/vm_debbug.o: Corewar_kk_xx/Corewar/srcs/corewar/vm_debbug.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vm_debbug.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/corewar/vm_debbug.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vm_debbug.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vm_debbug.c.o
+
+Corewar_kk_xx/Corewar/srcs/corewar/vm_debbug.i: Corewar_kk_xx/Corewar/srcs/corewar/vm_debbug.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vm_debbug.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/corewar/vm_debbug.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vm_debbug.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vm_debbug.c.i
+
+Corewar_kk_xx/Corewar/srcs/corewar/vm_debbug.s: Corewar_kk_xx/Corewar/srcs/corewar/vm_debbug.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vm_debbug.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/corewar/vm_debbug.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vm_debbug.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vm_debbug.c.s
+
+Corewar_kk_xx/Corewar/srcs/corewar/vm_game.o: Corewar_kk_xx/Corewar/srcs/corewar/vm_game.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vm_game.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/corewar/vm_game.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vm_game.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vm_game.c.o
+
+Corewar_kk_xx/Corewar/srcs/corewar/vm_game.i: Corewar_kk_xx/Corewar/srcs/corewar/vm_game.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vm_game.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/corewar/vm_game.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vm_game.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vm_game.c.i
+
+Corewar_kk_xx/Corewar/srcs/corewar/vm_game.s: Corewar_kk_xx/Corewar/srcs/corewar/vm_game.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vm_game.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/corewar/vm_game.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vm_game.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vm_game.c.s
+
+Corewar_kk_xx/Corewar/srcs/corewar/vm_init_free.o: Corewar_kk_xx/Corewar/srcs/corewar/vm_init_free.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vm_init_free.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/corewar/vm_init_free.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vm_init_free.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vm_init_free.c.o
+
+Corewar_kk_xx/Corewar/srcs/corewar/vm_init_free.i: Corewar_kk_xx/Corewar/srcs/corewar/vm_init_free.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vm_init_free.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/corewar/vm_init_free.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vm_init_free.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vm_init_free.c.i
+
+Corewar_kk_xx/Corewar/srcs/corewar/vm_init_free.s: Corewar_kk_xx/Corewar/srcs/corewar/vm_init_free.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vm_init_free.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/corewar/vm_init_free.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vm_init_free.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vm_init_free.c.s
+
+Corewar_kk_xx/Corewar/srcs/corewar/vm_parsing.o: Corewar_kk_xx/Corewar/srcs/corewar/vm_parsing.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vm_parsing.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/corewar/vm_parsing.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vm_parsing.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vm_parsing.c.o
+
+Corewar_kk_xx/Corewar/srcs/corewar/vm_parsing.i: Corewar_kk_xx/Corewar/srcs/corewar/vm_parsing.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vm_parsing.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/corewar/vm_parsing.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vm_parsing.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vm_parsing.c.i
+
+Corewar_kk_xx/Corewar/srcs/corewar/vm_parsing.s: Corewar_kk_xx/Corewar/srcs/corewar/vm_parsing.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vm_parsing.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/corewar/vm_parsing.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vm_parsing.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vm_parsing.c.s
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_img.o: Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_img.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_img.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_img.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_img.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_img.c.o
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_img.i: Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_img.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_img.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_img.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_img.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_img.c.i
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_img.s: Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_img.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_img.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_img.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_img.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_img.c.s
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_life.o: Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_life.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_life.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_life.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_life.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_life.c.o
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_life.i: Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_life.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_life.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_life.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_life.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_life.c.i
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_life.s: Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_life.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_life.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_life.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_life.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_life.c.s
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_tools.o: Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_tools.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_tools.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_tools.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_tools.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_tools.c.o
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_tools.i: Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_tools.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_tools.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_tools.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_tools.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_tools.c.i
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_tools.s: Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_tools.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_tools.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_tools.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_tools.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_tools.c.s
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_init.o: Corewar_kk_xx/Corewar/srcs/corewar/vw_init.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_init.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_init.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_init.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_init.c.o
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_init.i: Corewar_kk_xx/Corewar/srcs/corewar/vw_init.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_init.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_init.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_init.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_init.c.i
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_init.s: Corewar_kk_xx/Corewar/srcs/corewar/vw_init.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_init.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_init.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_init.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_init.c.s
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_init_win.o: Corewar_kk_xx/Corewar/srcs/corewar/vw_init_win.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_init_win.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_init_win.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_init_win.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_init_win.c.o
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_init_win.i: Corewar_kk_xx/Corewar/srcs/corewar/vw_init_win.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_init_win.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_init_win.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_init_win.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_init_win.c.i
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_init_win.s: Corewar_kk_xx/Corewar/srcs/corewar/vw_init_win.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_init_win.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_init_win.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_init_win.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_init_win.c.s
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_process.o: Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_process.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_process.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_process.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_process.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_process.c.o
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_process.i: Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_process.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_process.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_process.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_process.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_process.c.i
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_process.s: Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_process.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_process.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_process.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_process.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_process.c.s
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_win.o: Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_win.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_win.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_win.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_win.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_win.c.o
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_win.i: Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_win.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_win.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_win.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_win.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_win.c.i
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_win.s: Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_win.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_win.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_win.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_win.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_win.c.s
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_anim.o: Corewar_kk_xx/Corewar/srcs/corewar/vw_th_anim.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_anim.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_anim.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_th_anim.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_anim.c.o
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_anim.i: Corewar_kk_xx/Corewar/srcs/corewar/vw_th_anim.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_anim.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_anim.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_th_anim.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_anim.c.i
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_anim.s: Corewar_kk_xx/Corewar/srcs/corewar/vw_th_anim.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_anim.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_anim.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_th_anim.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_anim.c.s
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_core.o: Corewar_kk_xx/Corewar/srcs/corewar/vw_th_core.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_core.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_core.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_th_core.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_core.c.o
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_core.i: Corewar_kk_xx/Corewar/srcs/corewar/vw_th_core.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_core.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_core.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_th_core.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_core.c.i
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_core.s: Corewar_kk_xx/Corewar/srcs/corewar/vw_th_core.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_core.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_core.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_th_core.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_core.c.s
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_input.o: Corewar_kk_xx/Corewar/srcs/corewar/vw_th_input.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_input.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_input.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_th_input.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_input.c.o
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_input.i: Corewar_kk_xx/Corewar/srcs/corewar/vw_th_input.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_input.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_input.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_th_input.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_input.c.i
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_input.s: Corewar_kk_xx/Corewar/srcs/corewar/vw_th_input.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_input.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_input.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_th_input.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_input.c.s
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_render.o: Corewar_kk_xx/Corewar/srcs/corewar/vw_th_render.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_render.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_render.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_th_render.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_render.c.o
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_render.i: Corewar_kk_xx/Corewar/srcs/corewar/vw_th_render.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_render.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_render.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_th_render.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_render.c.i
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_render.s: Corewar_kk_xx/Corewar/srcs/corewar/vw_th_render.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_render.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_render.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_th_render.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_render.c.s
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_timer.o: Corewar_kk_xx/Corewar/srcs/corewar/vw_th_timer.c.o
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_timer.o
+
+# target to build an object file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_timer.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_th_timer.c.o
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_timer.c.o
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_timer.i: Corewar_kk_xx/Corewar/srcs/corewar/vw_th_timer.c.i
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_timer.i
+
+# target to preprocess a source file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_timer.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_th_timer.c.i
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_timer.c.i
+
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_timer.s: Corewar_kk_xx/Corewar/srcs/corewar/vw_th_timer.c.s
+
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_timer.s
+
+# target to generate assembly for a file
+Corewar_kk_xx/Corewar/srcs/corewar/vw_th_timer.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/Corewar_kk_xx/Corewar/srcs/corewar/vw_th_timer.c.s
+.PHONY : Corewar_kk_xx/Corewar/srcs/corewar/vw_th_timer.c.s
+
 check_kk/Corewar/libft/srcs/ft_printf/buffer.o: check_kk/Corewar/libft/srcs/ft_printf/buffer.c.o
 
 .PHONY : check_kk/Corewar/libft/srcs/ft_printf/buffer.o
@@ -3848,6 +7574,6162 @@ check_kk/Corewar/srcs/corewar/vw_th_timer.s: check_kk/Corewar/srcs/corewar/vw_th
 check_kk/Corewar/srcs/corewar/vw_th_timer.c.s:
 	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/check_kk/Corewar/srcs/corewar/vw_th_timer.c.s
 .PHONY : check_kk/Corewar/srcs/corewar/vw_th_timer.c.s
+
+corewar_asm/libft/ft_atoi.o: corewar_asm/libft/ft_atoi.c.o
+
+.PHONY : corewar_asm/libft/ft_atoi.o
+
+# target to build an object file
+corewar_asm/libft/ft_atoi.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_atoi.c.o
+.PHONY : corewar_asm/libft/ft_atoi.c.o
+
+corewar_asm/libft/ft_atoi.i: corewar_asm/libft/ft_atoi.c.i
+
+.PHONY : corewar_asm/libft/ft_atoi.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_atoi.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_atoi.c.i
+.PHONY : corewar_asm/libft/ft_atoi.c.i
+
+corewar_asm/libft/ft_atoi.s: corewar_asm/libft/ft_atoi.c.s
+
+.PHONY : corewar_asm/libft/ft_atoi.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_atoi.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_atoi.c.s
+.PHONY : corewar_asm/libft/ft_atoi.c.s
+
+corewar_asm/libft/ft_bzero.o: corewar_asm/libft/ft_bzero.c.o
+
+.PHONY : corewar_asm/libft/ft_bzero.o
+
+# target to build an object file
+corewar_asm/libft/ft_bzero.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_bzero.c.o
+.PHONY : corewar_asm/libft/ft_bzero.c.o
+
+corewar_asm/libft/ft_bzero.i: corewar_asm/libft/ft_bzero.c.i
+
+.PHONY : corewar_asm/libft/ft_bzero.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_bzero.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_bzero.c.i
+.PHONY : corewar_asm/libft/ft_bzero.c.i
+
+corewar_asm/libft/ft_bzero.s: corewar_asm/libft/ft_bzero.c.s
+
+.PHONY : corewar_asm/libft/ft_bzero.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_bzero.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_bzero.c.s
+.PHONY : corewar_asm/libft/ft_bzero.c.s
+
+corewar_asm/libft/ft_check_dimension.o: corewar_asm/libft/ft_check_dimension.c.o
+
+.PHONY : corewar_asm/libft/ft_check_dimension.o
+
+# target to build an object file
+corewar_asm/libft/ft_check_dimension.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_check_dimension.c.o
+.PHONY : corewar_asm/libft/ft_check_dimension.c.o
+
+corewar_asm/libft/ft_check_dimension.i: corewar_asm/libft/ft_check_dimension.c.i
+
+.PHONY : corewar_asm/libft/ft_check_dimension.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_check_dimension.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_check_dimension.c.i
+.PHONY : corewar_asm/libft/ft_check_dimension.c.i
+
+corewar_asm/libft/ft_check_dimension.s: corewar_asm/libft/ft_check_dimension.c.s
+
+.PHONY : corewar_asm/libft/ft_check_dimension.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_check_dimension.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_check_dimension.c.s
+.PHONY : corewar_asm/libft/ft_check_dimension.c.s
+
+corewar_asm/libft/ft_check_flag_spetia_type.o: corewar_asm/libft/ft_check_flag_spetia_type.c.o
+
+.PHONY : corewar_asm/libft/ft_check_flag_spetia_type.o
+
+# target to build an object file
+corewar_asm/libft/ft_check_flag_spetia_type.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_check_flag_spetia_type.c.o
+.PHONY : corewar_asm/libft/ft_check_flag_spetia_type.c.o
+
+corewar_asm/libft/ft_check_flag_spetia_type.i: corewar_asm/libft/ft_check_flag_spetia_type.c.i
+
+.PHONY : corewar_asm/libft/ft_check_flag_spetia_type.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_check_flag_spetia_type.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_check_flag_spetia_type.c.i
+.PHONY : corewar_asm/libft/ft_check_flag_spetia_type.c.i
+
+corewar_asm/libft/ft_check_flag_spetia_type.s: corewar_asm/libft/ft_check_flag_spetia_type.c.s
+
+.PHONY : corewar_asm/libft/ft_check_flag_spetia_type.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_check_flag_spetia_type.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_check_flag_spetia_type.c.s
+.PHONY : corewar_asm/libft/ft_check_flag_spetia_type.c.s
+
+corewar_asm/libft/ft_check_un_dimension.o: corewar_asm/libft/ft_check_un_dimension.c.o
+
+.PHONY : corewar_asm/libft/ft_check_un_dimension.o
+
+# target to build an object file
+corewar_asm/libft/ft_check_un_dimension.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_check_un_dimension.c.o
+.PHONY : corewar_asm/libft/ft_check_un_dimension.c.o
+
+corewar_asm/libft/ft_check_un_dimension.i: corewar_asm/libft/ft_check_un_dimension.c.i
+
+.PHONY : corewar_asm/libft/ft_check_un_dimension.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_check_un_dimension.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_check_un_dimension.c.i
+.PHONY : corewar_asm/libft/ft_check_un_dimension.c.i
+
+corewar_asm/libft/ft_check_un_dimension.s: corewar_asm/libft/ft_check_un_dimension.c.s
+
+.PHONY : corewar_asm/libft/ft_check_un_dimension.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_check_un_dimension.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_check_un_dimension.c.s
+.PHONY : corewar_asm/libft/ft_check_un_dimension.c.s
+
+corewar_asm/libft/ft_concat_str.o: corewar_asm/libft/ft_concat_str.c.o
+
+.PHONY : corewar_asm/libft/ft_concat_str.o
+
+# target to build an object file
+corewar_asm/libft/ft_concat_str.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_concat_str.c.o
+.PHONY : corewar_asm/libft/ft_concat_str.c.o
+
+corewar_asm/libft/ft_concat_str.i: corewar_asm/libft/ft_concat_str.c.i
+
+.PHONY : corewar_asm/libft/ft_concat_str.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_concat_str.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_concat_str.c.i
+.PHONY : corewar_asm/libft/ft_concat_str.c.i
+
+corewar_asm/libft/ft_concat_str.s: corewar_asm/libft/ft_concat_str.c.s
+
+.PHONY : corewar_asm/libft/ft_concat_str.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_concat_str.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_concat_str.c.s
+.PHONY : corewar_asm/libft/ft_concat_str.c.s
+
+corewar_asm/libft/ft_cop_str_left_or_right.o: corewar_asm/libft/ft_cop_str_left_or_right.c.o
+
+.PHONY : corewar_asm/libft/ft_cop_str_left_or_right.o
+
+# target to build an object file
+corewar_asm/libft/ft_cop_str_left_or_right.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_cop_str_left_or_right.c.o
+.PHONY : corewar_asm/libft/ft_cop_str_left_or_right.c.o
+
+corewar_asm/libft/ft_cop_str_left_or_right.i: corewar_asm/libft/ft_cop_str_left_or_right.c.i
+
+.PHONY : corewar_asm/libft/ft_cop_str_left_or_right.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_cop_str_left_or_right.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_cop_str_left_or_right.c.i
+.PHONY : corewar_asm/libft/ft_cop_str_left_or_right.c.i
+
+corewar_asm/libft/ft_cop_str_left_or_right.s: corewar_asm/libft/ft_cop_str_left_or_right.c.s
+
+.PHONY : corewar_asm/libft/ft_cop_str_left_or_right.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_cop_str_left_or_right.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_cop_str_left_or_right.c.s
+.PHONY : corewar_asm/libft/ft_cop_str_left_or_right.c.s
+
+corewar_asm/libft/ft_copy_string_left.o: corewar_asm/libft/ft_copy_string_left.c.o
+
+.PHONY : corewar_asm/libft/ft_copy_string_left.o
+
+# target to build an object file
+corewar_asm/libft/ft_copy_string_left.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_copy_string_left.c.o
+.PHONY : corewar_asm/libft/ft_copy_string_left.c.o
+
+corewar_asm/libft/ft_copy_string_left.i: corewar_asm/libft/ft_copy_string_left.c.i
+
+.PHONY : corewar_asm/libft/ft_copy_string_left.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_copy_string_left.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_copy_string_left.c.i
+.PHONY : corewar_asm/libft/ft_copy_string_left.c.i
+
+corewar_asm/libft/ft_copy_string_left.s: corewar_asm/libft/ft_copy_string_left.c.s
+
+.PHONY : corewar_asm/libft/ft_copy_string_left.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_copy_string_left.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_copy_string_left.c.s
+.PHONY : corewar_asm/libft/ft_copy_string_left.c.s
+
+corewar_asm/libft/ft_copy_string_left_wchar.o: corewar_asm/libft/ft_copy_string_left_wchar.c.o
+
+.PHONY : corewar_asm/libft/ft_copy_string_left_wchar.o
+
+# target to build an object file
+corewar_asm/libft/ft_copy_string_left_wchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_copy_string_left_wchar.c.o
+.PHONY : corewar_asm/libft/ft_copy_string_left_wchar.c.o
+
+corewar_asm/libft/ft_copy_string_left_wchar.i: corewar_asm/libft/ft_copy_string_left_wchar.c.i
+
+.PHONY : corewar_asm/libft/ft_copy_string_left_wchar.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_copy_string_left_wchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_copy_string_left_wchar.c.i
+.PHONY : corewar_asm/libft/ft_copy_string_left_wchar.c.i
+
+corewar_asm/libft/ft_copy_string_left_wchar.s: corewar_asm/libft/ft_copy_string_left_wchar.c.s
+
+.PHONY : corewar_asm/libft/ft_copy_string_left_wchar.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_copy_string_left_wchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_copy_string_left_wchar.c.s
+.PHONY : corewar_asm/libft/ft_copy_string_left_wchar.c.s
+
+corewar_asm/libft/ft_copy_string_right.o: corewar_asm/libft/ft_copy_string_right.c.o
+
+.PHONY : corewar_asm/libft/ft_copy_string_right.o
+
+# target to build an object file
+corewar_asm/libft/ft_copy_string_right.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_copy_string_right.c.o
+.PHONY : corewar_asm/libft/ft_copy_string_right.c.o
+
+corewar_asm/libft/ft_copy_string_right.i: corewar_asm/libft/ft_copy_string_right.c.i
+
+.PHONY : corewar_asm/libft/ft_copy_string_right.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_copy_string_right.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_copy_string_right.c.i
+.PHONY : corewar_asm/libft/ft_copy_string_right.c.i
+
+corewar_asm/libft/ft_copy_string_right.s: corewar_asm/libft/ft_copy_string_right.c.s
+
+.PHONY : corewar_asm/libft/ft_copy_string_right.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_copy_string_right.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_copy_string_right.c.s
+.PHONY : corewar_asm/libft/ft_copy_string_right.c.s
+
+corewar_asm/libft/ft_copy_string_right_wchar.o: corewar_asm/libft/ft_copy_string_right_wchar.c.o
+
+.PHONY : corewar_asm/libft/ft_copy_string_right_wchar.o
+
+# target to build an object file
+corewar_asm/libft/ft_copy_string_right_wchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_copy_string_right_wchar.c.o
+.PHONY : corewar_asm/libft/ft_copy_string_right_wchar.c.o
+
+corewar_asm/libft/ft_copy_string_right_wchar.i: corewar_asm/libft/ft_copy_string_right_wchar.c.i
+
+.PHONY : corewar_asm/libft/ft_copy_string_right_wchar.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_copy_string_right_wchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_copy_string_right_wchar.c.i
+.PHONY : corewar_asm/libft/ft_copy_string_right_wchar.c.i
+
+corewar_asm/libft/ft_copy_string_right_wchar.s: corewar_asm/libft/ft_copy_string_right_wchar.c.s
+
+.PHONY : corewar_asm/libft/ft_copy_string_right_wchar.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_copy_string_right_wchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_copy_string_right_wchar.c.s
+.PHONY : corewar_asm/libft/ft_copy_string_right_wchar.c.s
+
+corewar_asm/libft/ft_create_new_lst_strchar.o: corewar_asm/libft/ft_create_new_lst_strchar.c.o
+
+.PHONY : corewar_asm/libft/ft_create_new_lst_strchar.o
+
+# target to build an object file
+corewar_asm/libft/ft_create_new_lst_strchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_create_new_lst_strchar.c.o
+.PHONY : corewar_asm/libft/ft_create_new_lst_strchar.c.o
+
+corewar_asm/libft/ft_create_new_lst_strchar.i: corewar_asm/libft/ft_create_new_lst_strchar.c.i
+
+.PHONY : corewar_asm/libft/ft_create_new_lst_strchar.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_create_new_lst_strchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_create_new_lst_strchar.c.i
+.PHONY : corewar_asm/libft/ft_create_new_lst_strchar.c.i
+
+corewar_asm/libft/ft_create_new_lst_strchar.s: corewar_asm/libft/ft_create_new_lst_strchar.c.s
+
+.PHONY : corewar_asm/libft/ft_create_new_lst_strchar.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_create_new_lst_strchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_create_new_lst_strchar.c.s
+.PHONY : corewar_asm/libft/ft_create_new_lst_strchar.c.s
+
+corewar_asm/libft/ft_float_inf.o: corewar_asm/libft/ft_float_inf.c.o
+
+.PHONY : corewar_asm/libft/ft_float_inf.o
+
+# target to build an object file
+corewar_asm/libft/ft_float_inf.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_float_inf.c.o
+.PHONY : corewar_asm/libft/ft_float_inf.c.o
+
+corewar_asm/libft/ft_float_inf.i: corewar_asm/libft/ft_float_inf.c.i
+
+.PHONY : corewar_asm/libft/ft_float_inf.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_float_inf.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_float_inf.c.i
+.PHONY : corewar_asm/libft/ft_float_inf.c.i
+
+corewar_asm/libft/ft_float_inf.s: corewar_asm/libft/ft_float_inf.c.s
+
+.PHONY : corewar_asm/libft/ft_float_inf.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_float_inf.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_float_inf.c.s
+.PHONY : corewar_asm/libft/ft_float_inf.c.s
+
+corewar_asm/libft/ft_is_flag_type_size.o: corewar_asm/libft/ft_is_flag_type_size.c.o
+
+.PHONY : corewar_asm/libft/ft_is_flag_type_size.o
+
+# target to build an object file
+corewar_asm/libft/ft_is_flag_type_size.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_is_flag_type_size.c.o
+.PHONY : corewar_asm/libft/ft_is_flag_type_size.c.o
+
+corewar_asm/libft/ft_is_flag_type_size.i: corewar_asm/libft/ft_is_flag_type_size.c.i
+
+.PHONY : corewar_asm/libft/ft_is_flag_type_size.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_is_flag_type_size.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_is_flag_type_size.c.i
+.PHONY : corewar_asm/libft/ft_is_flag_type_size.c.i
+
+corewar_asm/libft/ft_is_flag_type_size.s: corewar_asm/libft/ft_is_flag_type_size.c.s
+
+.PHONY : corewar_asm/libft/ft_is_flag_type_size.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_is_flag_type_size.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_is_flag_type_size.c.s
+.PHONY : corewar_asm/libft/ft_is_flag_type_size.c.s
+
+corewar_asm/libft/ft_isalnum.o: corewar_asm/libft/ft_isalnum.c.o
+
+.PHONY : corewar_asm/libft/ft_isalnum.o
+
+# target to build an object file
+corewar_asm/libft/ft_isalnum.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_isalnum.c.o
+.PHONY : corewar_asm/libft/ft_isalnum.c.o
+
+corewar_asm/libft/ft_isalnum.i: corewar_asm/libft/ft_isalnum.c.i
+
+.PHONY : corewar_asm/libft/ft_isalnum.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_isalnum.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_isalnum.c.i
+.PHONY : corewar_asm/libft/ft_isalnum.c.i
+
+corewar_asm/libft/ft_isalnum.s: corewar_asm/libft/ft_isalnum.c.s
+
+.PHONY : corewar_asm/libft/ft_isalnum.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_isalnum.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_isalnum.c.s
+.PHONY : corewar_asm/libft/ft_isalnum.c.s
+
+corewar_asm/libft/ft_isalpha.o: corewar_asm/libft/ft_isalpha.c.o
+
+.PHONY : corewar_asm/libft/ft_isalpha.o
+
+# target to build an object file
+corewar_asm/libft/ft_isalpha.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_isalpha.c.o
+.PHONY : corewar_asm/libft/ft_isalpha.c.o
+
+corewar_asm/libft/ft_isalpha.i: corewar_asm/libft/ft_isalpha.c.i
+
+.PHONY : corewar_asm/libft/ft_isalpha.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_isalpha.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_isalpha.c.i
+.PHONY : corewar_asm/libft/ft_isalpha.c.i
+
+corewar_asm/libft/ft_isalpha.s: corewar_asm/libft/ft_isalpha.c.s
+
+.PHONY : corewar_asm/libft/ft_isalpha.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_isalpha.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_isalpha.c.s
+.PHONY : corewar_asm/libft/ft_isalpha.c.s
+
+corewar_asm/libft/ft_isascii.o: corewar_asm/libft/ft_isascii.c.o
+
+.PHONY : corewar_asm/libft/ft_isascii.o
+
+# target to build an object file
+corewar_asm/libft/ft_isascii.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_isascii.c.o
+.PHONY : corewar_asm/libft/ft_isascii.c.o
+
+corewar_asm/libft/ft_isascii.i: corewar_asm/libft/ft_isascii.c.i
+
+.PHONY : corewar_asm/libft/ft_isascii.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_isascii.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_isascii.c.i
+.PHONY : corewar_asm/libft/ft_isascii.c.i
+
+corewar_asm/libft/ft_isascii.s: corewar_asm/libft/ft_isascii.c.s
+
+.PHONY : corewar_asm/libft/ft_isascii.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_isascii.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_isascii.c.s
+.PHONY : corewar_asm/libft/ft_isascii.c.s
+
+corewar_asm/libft/ft_isdigit.o: corewar_asm/libft/ft_isdigit.c.o
+
+.PHONY : corewar_asm/libft/ft_isdigit.o
+
+# target to build an object file
+corewar_asm/libft/ft_isdigit.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_isdigit.c.o
+.PHONY : corewar_asm/libft/ft_isdigit.c.o
+
+corewar_asm/libft/ft_isdigit.i: corewar_asm/libft/ft_isdigit.c.i
+
+.PHONY : corewar_asm/libft/ft_isdigit.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_isdigit.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_isdigit.c.i
+.PHONY : corewar_asm/libft/ft_isdigit.c.i
+
+corewar_asm/libft/ft_isdigit.s: corewar_asm/libft/ft_isdigit.c.s
+
+.PHONY : corewar_asm/libft/ft_isdigit.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_isdigit.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_isdigit.c.s
+.PHONY : corewar_asm/libft/ft_isdigit.c.s
+
+corewar_asm/libft/ft_isprint.o: corewar_asm/libft/ft_isprint.c.o
+
+.PHONY : corewar_asm/libft/ft_isprint.o
+
+# target to build an object file
+corewar_asm/libft/ft_isprint.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_isprint.c.o
+.PHONY : corewar_asm/libft/ft_isprint.c.o
+
+corewar_asm/libft/ft_isprint.i: corewar_asm/libft/ft_isprint.c.i
+
+.PHONY : corewar_asm/libft/ft_isprint.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_isprint.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_isprint.c.i
+.PHONY : corewar_asm/libft/ft_isprint.c.i
+
+corewar_asm/libft/ft_isprint.s: corewar_asm/libft/ft_isprint.c.s
+
+.PHONY : corewar_asm/libft/ft_isprint.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_isprint.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_isprint.c.s
+.PHONY : corewar_asm/libft/ft_isprint.c.s
+
+corewar_asm/libft/ft_itoa.o: corewar_asm/libft/ft_itoa.c.o
+
+.PHONY : corewar_asm/libft/ft_itoa.o
+
+# target to build an object file
+corewar_asm/libft/ft_itoa.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_itoa.c.o
+.PHONY : corewar_asm/libft/ft_itoa.c.o
+
+corewar_asm/libft/ft_itoa.i: corewar_asm/libft/ft_itoa.c.i
+
+.PHONY : corewar_asm/libft/ft_itoa.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_itoa.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_itoa.c.i
+.PHONY : corewar_asm/libft/ft_itoa.c.i
+
+corewar_asm/libft/ft_itoa.s: corewar_asm/libft/ft_itoa.c.s
+
+.PHONY : corewar_asm/libft/ft_itoa.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_itoa.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_itoa.c.s
+.PHONY : corewar_asm/libft/ft_itoa.c.s
+
+corewar_asm/libft/ft_itoa_llint.o: corewar_asm/libft/ft_itoa_llint.c.o
+
+.PHONY : corewar_asm/libft/ft_itoa_llint.o
+
+# target to build an object file
+corewar_asm/libft/ft_itoa_llint.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_itoa_llint.c.o
+.PHONY : corewar_asm/libft/ft_itoa_llint.c.o
+
+corewar_asm/libft/ft_itoa_llint.i: corewar_asm/libft/ft_itoa_llint.c.i
+
+.PHONY : corewar_asm/libft/ft_itoa_llint.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_itoa_llint.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_itoa_llint.c.i
+.PHONY : corewar_asm/libft/ft_itoa_llint.c.i
+
+corewar_asm/libft/ft_itoa_llint.s: corewar_asm/libft/ft_itoa_llint.c.s
+
+.PHONY : corewar_asm/libft/ft_itoa_llint.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_itoa_llint.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_itoa_llint.c.s
+.PHONY : corewar_asm/libft/ft_itoa_llint.c.s
+
+corewar_asm/libft/ft_itoo.o: corewar_asm/libft/ft_itoo.c.o
+
+.PHONY : corewar_asm/libft/ft_itoo.o
+
+# target to build an object file
+corewar_asm/libft/ft_itoo.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_itoo.c.o
+.PHONY : corewar_asm/libft/ft_itoo.c.o
+
+corewar_asm/libft/ft_itoo.i: corewar_asm/libft/ft_itoo.c.i
+
+.PHONY : corewar_asm/libft/ft_itoo.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_itoo.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_itoo.c.i
+.PHONY : corewar_asm/libft/ft_itoo.c.i
+
+corewar_asm/libft/ft_itoo.s: corewar_asm/libft/ft_itoo.c.s
+
+.PHONY : corewar_asm/libft/ft_itoo.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_itoo.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_itoo.c.s
+.PHONY : corewar_asm/libft/ft_itoo.c.s
+
+corewar_asm/libft/ft_itox.o: corewar_asm/libft/ft_itox.c.o
+
+.PHONY : corewar_asm/libft/ft_itox.o
+
+# target to build an object file
+corewar_asm/libft/ft_itox.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_itox.c.o
+.PHONY : corewar_asm/libft/ft_itox.c.o
+
+corewar_asm/libft/ft_itox.i: corewar_asm/libft/ft_itox.c.i
+
+.PHONY : corewar_asm/libft/ft_itox.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_itox.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_itox.c.i
+.PHONY : corewar_asm/libft/ft_itox.c.i
+
+corewar_asm/libft/ft_itox.s: corewar_asm/libft/ft_itox.c.s
+
+.PHONY : corewar_asm/libft/ft_itox.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_itox.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_itox.c.s
+.PHONY : corewar_asm/libft/ft_itox.c.s
+
+corewar_asm/libft/ft_lstadd.o: corewar_asm/libft/ft_lstadd.c.o
+
+.PHONY : corewar_asm/libft/ft_lstadd.o
+
+# target to build an object file
+corewar_asm/libft/ft_lstadd.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_lstadd.c.o
+.PHONY : corewar_asm/libft/ft_lstadd.c.o
+
+corewar_asm/libft/ft_lstadd.i: corewar_asm/libft/ft_lstadd.c.i
+
+.PHONY : corewar_asm/libft/ft_lstadd.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_lstadd.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_lstadd.c.i
+.PHONY : corewar_asm/libft/ft_lstadd.c.i
+
+corewar_asm/libft/ft_lstadd.s: corewar_asm/libft/ft_lstadd.c.s
+
+.PHONY : corewar_asm/libft/ft_lstadd.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_lstadd.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_lstadd.c.s
+.PHONY : corewar_asm/libft/ft_lstadd.c.s
+
+corewar_asm/libft/ft_lstdel.o: corewar_asm/libft/ft_lstdel.c.o
+
+.PHONY : corewar_asm/libft/ft_lstdel.o
+
+# target to build an object file
+corewar_asm/libft/ft_lstdel.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_lstdel.c.o
+.PHONY : corewar_asm/libft/ft_lstdel.c.o
+
+corewar_asm/libft/ft_lstdel.i: corewar_asm/libft/ft_lstdel.c.i
+
+.PHONY : corewar_asm/libft/ft_lstdel.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_lstdel.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_lstdel.c.i
+.PHONY : corewar_asm/libft/ft_lstdel.c.i
+
+corewar_asm/libft/ft_lstdel.s: corewar_asm/libft/ft_lstdel.c.s
+
+.PHONY : corewar_asm/libft/ft_lstdel.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_lstdel.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_lstdel.c.s
+.PHONY : corewar_asm/libft/ft_lstdel.c.s
+
+corewar_asm/libft/ft_lstdelone.o: corewar_asm/libft/ft_lstdelone.c.o
+
+.PHONY : corewar_asm/libft/ft_lstdelone.o
+
+# target to build an object file
+corewar_asm/libft/ft_lstdelone.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_lstdelone.c.o
+.PHONY : corewar_asm/libft/ft_lstdelone.c.o
+
+corewar_asm/libft/ft_lstdelone.i: corewar_asm/libft/ft_lstdelone.c.i
+
+.PHONY : corewar_asm/libft/ft_lstdelone.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_lstdelone.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_lstdelone.c.i
+.PHONY : corewar_asm/libft/ft_lstdelone.c.i
+
+corewar_asm/libft/ft_lstdelone.s: corewar_asm/libft/ft_lstdelone.c.s
+
+.PHONY : corewar_asm/libft/ft_lstdelone.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_lstdelone.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_lstdelone.c.s
+.PHONY : corewar_asm/libft/ft_lstdelone.c.s
+
+corewar_asm/libft/ft_lstiter.o: corewar_asm/libft/ft_lstiter.c.o
+
+.PHONY : corewar_asm/libft/ft_lstiter.o
+
+# target to build an object file
+corewar_asm/libft/ft_lstiter.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_lstiter.c.o
+.PHONY : corewar_asm/libft/ft_lstiter.c.o
+
+corewar_asm/libft/ft_lstiter.i: corewar_asm/libft/ft_lstiter.c.i
+
+.PHONY : corewar_asm/libft/ft_lstiter.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_lstiter.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_lstiter.c.i
+.PHONY : corewar_asm/libft/ft_lstiter.c.i
+
+corewar_asm/libft/ft_lstiter.s: corewar_asm/libft/ft_lstiter.c.s
+
+.PHONY : corewar_asm/libft/ft_lstiter.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_lstiter.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_lstiter.c.s
+.PHONY : corewar_asm/libft/ft_lstiter.c.s
+
+corewar_asm/libft/ft_lstmap.o: corewar_asm/libft/ft_lstmap.c.o
+
+.PHONY : corewar_asm/libft/ft_lstmap.o
+
+# target to build an object file
+corewar_asm/libft/ft_lstmap.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_lstmap.c.o
+.PHONY : corewar_asm/libft/ft_lstmap.c.o
+
+corewar_asm/libft/ft_lstmap.i: corewar_asm/libft/ft_lstmap.c.i
+
+.PHONY : corewar_asm/libft/ft_lstmap.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_lstmap.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_lstmap.c.i
+.PHONY : corewar_asm/libft/ft_lstmap.c.i
+
+corewar_asm/libft/ft_lstmap.s: corewar_asm/libft/ft_lstmap.c.s
+
+.PHONY : corewar_asm/libft/ft_lstmap.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_lstmap.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_lstmap.c.s
+.PHONY : corewar_asm/libft/ft_lstmap.c.s
+
+corewar_asm/libft/ft_lstnew.o: corewar_asm/libft/ft_lstnew.c.o
+
+.PHONY : corewar_asm/libft/ft_lstnew.o
+
+# target to build an object file
+corewar_asm/libft/ft_lstnew.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_lstnew.c.o
+.PHONY : corewar_asm/libft/ft_lstnew.c.o
+
+corewar_asm/libft/ft_lstnew.i: corewar_asm/libft/ft_lstnew.c.i
+
+.PHONY : corewar_asm/libft/ft_lstnew.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_lstnew.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_lstnew.c.i
+.PHONY : corewar_asm/libft/ft_lstnew.c.i
+
+corewar_asm/libft/ft_lstnew.s: corewar_asm/libft/ft_lstnew.c.s
+
+.PHONY : corewar_asm/libft/ft_lstnew.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_lstnew.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_lstnew.c.s
+.PHONY : corewar_asm/libft/ft_lstnew.c.s
+
+corewar_asm/libft/ft_memalloc.o: corewar_asm/libft/ft_memalloc.c.o
+
+.PHONY : corewar_asm/libft/ft_memalloc.o
+
+# target to build an object file
+corewar_asm/libft/ft_memalloc.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_memalloc.c.o
+.PHONY : corewar_asm/libft/ft_memalloc.c.o
+
+corewar_asm/libft/ft_memalloc.i: corewar_asm/libft/ft_memalloc.c.i
+
+.PHONY : corewar_asm/libft/ft_memalloc.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_memalloc.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_memalloc.c.i
+.PHONY : corewar_asm/libft/ft_memalloc.c.i
+
+corewar_asm/libft/ft_memalloc.s: corewar_asm/libft/ft_memalloc.c.s
+
+.PHONY : corewar_asm/libft/ft_memalloc.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_memalloc.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_memalloc.c.s
+.PHONY : corewar_asm/libft/ft_memalloc.c.s
+
+corewar_asm/libft/ft_memccpy.o: corewar_asm/libft/ft_memccpy.c.o
+
+.PHONY : corewar_asm/libft/ft_memccpy.o
+
+# target to build an object file
+corewar_asm/libft/ft_memccpy.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_memccpy.c.o
+.PHONY : corewar_asm/libft/ft_memccpy.c.o
+
+corewar_asm/libft/ft_memccpy.i: corewar_asm/libft/ft_memccpy.c.i
+
+.PHONY : corewar_asm/libft/ft_memccpy.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_memccpy.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_memccpy.c.i
+.PHONY : corewar_asm/libft/ft_memccpy.c.i
+
+corewar_asm/libft/ft_memccpy.s: corewar_asm/libft/ft_memccpy.c.s
+
+.PHONY : corewar_asm/libft/ft_memccpy.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_memccpy.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_memccpy.c.s
+.PHONY : corewar_asm/libft/ft_memccpy.c.s
+
+corewar_asm/libft/ft_memchr.o: corewar_asm/libft/ft_memchr.c.o
+
+.PHONY : corewar_asm/libft/ft_memchr.o
+
+# target to build an object file
+corewar_asm/libft/ft_memchr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_memchr.c.o
+.PHONY : corewar_asm/libft/ft_memchr.c.o
+
+corewar_asm/libft/ft_memchr.i: corewar_asm/libft/ft_memchr.c.i
+
+.PHONY : corewar_asm/libft/ft_memchr.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_memchr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_memchr.c.i
+.PHONY : corewar_asm/libft/ft_memchr.c.i
+
+corewar_asm/libft/ft_memchr.s: corewar_asm/libft/ft_memchr.c.s
+
+.PHONY : corewar_asm/libft/ft_memchr.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_memchr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_memchr.c.s
+.PHONY : corewar_asm/libft/ft_memchr.c.s
+
+corewar_asm/libft/ft_memcmp.o: corewar_asm/libft/ft_memcmp.c.o
+
+.PHONY : corewar_asm/libft/ft_memcmp.o
+
+# target to build an object file
+corewar_asm/libft/ft_memcmp.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_memcmp.c.o
+.PHONY : corewar_asm/libft/ft_memcmp.c.o
+
+corewar_asm/libft/ft_memcmp.i: corewar_asm/libft/ft_memcmp.c.i
+
+.PHONY : corewar_asm/libft/ft_memcmp.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_memcmp.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_memcmp.c.i
+.PHONY : corewar_asm/libft/ft_memcmp.c.i
+
+corewar_asm/libft/ft_memcmp.s: corewar_asm/libft/ft_memcmp.c.s
+
+.PHONY : corewar_asm/libft/ft_memcmp.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_memcmp.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_memcmp.c.s
+.PHONY : corewar_asm/libft/ft_memcmp.c.s
+
+corewar_asm/libft/ft_memcpy.o: corewar_asm/libft/ft_memcpy.c.o
+
+.PHONY : corewar_asm/libft/ft_memcpy.o
+
+# target to build an object file
+corewar_asm/libft/ft_memcpy.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_memcpy.c.o
+.PHONY : corewar_asm/libft/ft_memcpy.c.o
+
+corewar_asm/libft/ft_memcpy.i: corewar_asm/libft/ft_memcpy.c.i
+
+.PHONY : corewar_asm/libft/ft_memcpy.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_memcpy.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_memcpy.c.i
+.PHONY : corewar_asm/libft/ft_memcpy.c.i
+
+corewar_asm/libft/ft_memcpy.s: corewar_asm/libft/ft_memcpy.c.s
+
+.PHONY : corewar_asm/libft/ft_memcpy.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_memcpy.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_memcpy.c.s
+.PHONY : corewar_asm/libft/ft_memcpy.c.s
+
+corewar_asm/libft/ft_memdel.o: corewar_asm/libft/ft_memdel.c.o
+
+.PHONY : corewar_asm/libft/ft_memdel.o
+
+# target to build an object file
+corewar_asm/libft/ft_memdel.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_memdel.c.o
+.PHONY : corewar_asm/libft/ft_memdel.c.o
+
+corewar_asm/libft/ft_memdel.i: corewar_asm/libft/ft_memdel.c.i
+
+.PHONY : corewar_asm/libft/ft_memdel.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_memdel.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_memdel.c.i
+.PHONY : corewar_asm/libft/ft_memdel.c.i
+
+corewar_asm/libft/ft_memdel.s: corewar_asm/libft/ft_memdel.c.s
+
+.PHONY : corewar_asm/libft/ft_memdel.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_memdel.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_memdel.c.s
+.PHONY : corewar_asm/libft/ft_memdel.c.s
+
+corewar_asm/libft/ft_memmove.o: corewar_asm/libft/ft_memmove.c.o
+
+.PHONY : corewar_asm/libft/ft_memmove.o
+
+# target to build an object file
+corewar_asm/libft/ft_memmove.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_memmove.c.o
+.PHONY : corewar_asm/libft/ft_memmove.c.o
+
+corewar_asm/libft/ft_memmove.i: corewar_asm/libft/ft_memmove.c.i
+
+.PHONY : corewar_asm/libft/ft_memmove.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_memmove.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_memmove.c.i
+.PHONY : corewar_asm/libft/ft_memmove.c.i
+
+corewar_asm/libft/ft_memmove.s: corewar_asm/libft/ft_memmove.c.s
+
+.PHONY : corewar_asm/libft/ft_memmove.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_memmove.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_memmove.c.s
+.PHONY : corewar_asm/libft/ft_memmove.c.s
+
+corewar_asm/libft/ft_memset.o: corewar_asm/libft/ft_memset.c.o
+
+.PHONY : corewar_asm/libft/ft_memset.o
+
+# target to build an object file
+corewar_asm/libft/ft_memset.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_memset.c.o
+.PHONY : corewar_asm/libft/ft_memset.c.o
+
+corewar_asm/libft/ft_memset.i: corewar_asm/libft/ft_memset.c.i
+
+.PHONY : corewar_asm/libft/ft_memset.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_memset.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_memset.c.i
+.PHONY : corewar_asm/libft/ft_memset.c.i
+
+corewar_asm/libft/ft_memset.s: corewar_asm/libft/ft_memset.c.s
+
+.PHONY : corewar_asm/libft/ft_memset.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_memset.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_memset.c.s
+.PHONY : corewar_asm/libft/ft_memset.c.s
+
+corewar_asm/libft/ft_memset_wchar.o: corewar_asm/libft/ft_memset_wchar.c.o
+
+.PHONY : corewar_asm/libft/ft_memset_wchar.o
+
+# target to build an object file
+corewar_asm/libft/ft_memset_wchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_memset_wchar.c.o
+.PHONY : corewar_asm/libft/ft_memset_wchar.c.o
+
+corewar_asm/libft/ft_memset_wchar.i: corewar_asm/libft/ft_memset_wchar.c.i
+
+.PHONY : corewar_asm/libft/ft_memset_wchar.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_memset_wchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_memset_wchar.c.i
+.PHONY : corewar_asm/libft/ft_memset_wchar.c.i
+
+corewar_asm/libft/ft_memset_wchar.s: corewar_asm/libft/ft_memset_wchar.c.s
+
+.PHONY : corewar_asm/libft/ft_memset_wchar.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_memset_wchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_memset_wchar.c.s
+.PHONY : corewar_asm/libft/ft_memset_wchar.c.s
+
+corewar_asm/libft/ft_multi_strdup.o: corewar_asm/libft/ft_multi_strdup.c.o
+
+.PHONY : corewar_asm/libft/ft_multi_strdup.o
+
+# target to build an object file
+corewar_asm/libft/ft_multi_strdup.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_multi_strdup.c.o
+.PHONY : corewar_asm/libft/ft_multi_strdup.c.o
+
+corewar_asm/libft/ft_multi_strdup.i: corewar_asm/libft/ft_multi_strdup.c.i
+
+.PHONY : corewar_asm/libft/ft_multi_strdup.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_multi_strdup.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_multi_strdup.c.i
+.PHONY : corewar_asm/libft/ft_multi_strdup.c.i
+
+corewar_asm/libft/ft_multi_strdup.s: corewar_asm/libft/ft_multi_strdup.c.s
+
+.PHONY : corewar_asm/libft/ft_multi_strdup.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_multi_strdup.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_multi_strdup.c.s
+.PHONY : corewar_asm/libft/ft_multi_strdup.c.s
+
+corewar_asm/libft/ft_numwr.o: corewar_asm/libft/ft_numwr.c.o
+
+.PHONY : corewar_asm/libft/ft_numwr.o
+
+# target to build an object file
+corewar_asm/libft/ft_numwr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_numwr.c.o
+.PHONY : corewar_asm/libft/ft_numwr.c.o
+
+corewar_asm/libft/ft_numwr.i: corewar_asm/libft/ft_numwr.c.i
+
+.PHONY : corewar_asm/libft/ft_numwr.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_numwr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_numwr.c.i
+.PHONY : corewar_asm/libft/ft_numwr.c.i
+
+corewar_asm/libft/ft_numwr.s: corewar_asm/libft/ft_numwr.c.s
+
+.PHONY : corewar_asm/libft/ft_numwr.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_numwr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_numwr.c.s
+.PHONY : corewar_asm/libft/ft_numwr.c.s
+
+corewar_asm/libft/ft_octotorp_hex.o: corewar_asm/libft/ft_octotorp_hex.c.o
+
+.PHONY : corewar_asm/libft/ft_octotorp_hex.o
+
+# target to build an object file
+corewar_asm/libft/ft_octotorp_hex.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_octotorp_hex.c.o
+.PHONY : corewar_asm/libft/ft_octotorp_hex.c.o
+
+corewar_asm/libft/ft_octotorp_hex.i: corewar_asm/libft/ft_octotorp_hex.c.i
+
+.PHONY : corewar_asm/libft/ft_octotorp_hex.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_octotorp_hex.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_octotorp_hex.c.i
+.PHONY : corewar_asm/libft/ft_octotorp_hex.c.i
+
+corewar_asm/libft/ft_octotorp_hex.s: corewar_asm/libft/ft_octotorp_hex.c.s
+
+.PHONY : corewar_asm/libft/ft_octotorp_hex.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_octotorp_hex.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_octotorp_hex.c.s
+.PHONY : corewar_asm/libft/ft_octotorp_hex.c.s
+
+corewar_asm/libft/ft_printf.o: corewar_asm/libft/ft_printf.c.o
+
+.PHONY : corewar_asm/libft/ft_printf.o
+
+# target to build an object file
+corewar_asm/libft/ft_printf.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_printf.c.o
+.PHONY : corewar_asm/libft/ft_printf.c.o
+
+corewar_asm/libft/ft_printf.i: corewar_asm/libft/ft_printf.c.i
+
+.PHONY : corewar_asm/libft/ft_printf.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_printf.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_printf.c.i
+.PHONY : corewar_asm/libft/ft_printf.c.i
+
+corewar_asm/libft/ft_printf.s: corewar_asm/libft/ft_printf.c.s
+
+.PHONY : corewar_asm/libft/ft_printf.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_printf.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_printf.c.s
+.PHONY : corewar_asm/libft/ft_printf.c.s
+
+corewar_asm/libft/ft_put_decimal.o: corewar_asm/libft/ft_put_decimal.c.o
+
+.PHONY : corewar_asm/libft/ft_put_decimal.o
+
+# target to build an object file
+corewar_asm/libft/ft_put_decimal.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_put_decimal.c.o
+.PHONY : corewar_asm/libft/ft_put_decimal.c.o
+
+corewar_asm/libft/ft_put_decimal.i: corewar_asm/libft/ft_put_decimal.c.i
+
+.PHONY : corewar_asm/libft/ft_put_decimal.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_put_decimal.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_put_decimal.c.i
+.PHONY : corewar_asm/libft/ft_put_decimal.c.i
+
+corewar_asm/libft/ft_put_decimal.s: corewar_asm/libft/ft_put_decimal.c.s
+
+.PHONY : corewar_asm/libft/ft_put_decimal.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_put_decimal.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_put_decimal.c.s
+.PHONY : corewar_asm/libft/ft_put_decimal.c.s
+
+corewar_asm/libft/ft_put_hexadecimal.o: corewar_asm/libft/ft_put_hexadecimal.c.o
+
+.PHONY : corewar_asm/libft/ft_put_hexadecimal.o
+
+# target to build an object file
+corewar_asm/libft/ft_put_hexadecimal.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_put_hexadecimal.c.o
+.PHONY : corewar_asm/libft/ft_put_hexadecimal.c.o
+
+corewar_asm/libft/ft_put_hexadecimal.i: corewar_asm/libft/ft_put_hexadecimal.c.i
+
+.PHONY : corewar_asm/libft/ft_put_hexadecimal.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_put_hexadecimal.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_put_hexadecimal.c.i
+.PHONY : corewar_asm/libft/ft_put_hexadecimal.c.i
+
+corewar_asm/libft/ft_put_hexadecimal.s: corewar_asm/libft/ft_put_hexadecimal.c.s
+
+.PHONY : corewar_asm/libft/ft_put_hexadecimal.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_put_hexadecimal.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_put_hexadecimal.c.s
+.PHONY : corewar_asm/libft/ft_put_hexadecimal.c.s
+
+corewar_asm/libft/ft_put_octal.o: corewar_asm/libft/ft_put_octal.c.o
+
+.PHONY : corewar_asm/libft/ft_put_octal.o
+
+# target to build an object file
+corewar_asm/libft/ft_put_octal.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_put_octal.c.o
+.PHONY : corewar_asm/libft/ft_put_octal.c.o
+
+corewar_asm/libft/ft_put_octal.i: corewar_asm/libft/ft_put_octal.c.i
+
+.PHONY : corewar_asm/libft/ft_put_octal.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_put_octal.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_put_octal.c.i
+.PHONY : corewar_asm/libft/ft_put_octal.c.i
+
+corewar_asm/libft/ft_put_octal.s: corewar_asm/libft/ft_put_octal.c.s
+
+.PHONY : corewar_asm/libft/ft_put_octal.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_put_octal.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_put_octal.c.s
+.PHONY : corewar_asm/libft/ft_put_octal.c.s
+
+corewar_asm/libft/ft_put_percent.o: corewar_asm/libft/ft_put_percent.c.o
+
+.PHONY : corewar_asm/libft/ft_put_percent.o
+
+# target to build an object file
+corewar_asm/libft/ft_put_percent.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_put_percent.c.o
+.PHONY : corewar_asm/libft/ft_put_percent.c.o
+
+corewar_asm/libft/ft_put_percent.i: corewar_asm/libft/ft_put_percent.c.i
+
+.PHONY : corewar_asm/libft/ft_put_percent.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_put_percent.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_put_percent.c.i
+.PHONY : corewar_asm/libft/ft_put_percent.c.i
+
+corewar_asm/libft/ft_put_percent.s: corewar_asm/libft/ft_put_percent.c.s
+
+.PHONY : corewar_asm/libft/ft_put_percent.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_put_percent.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_put_percent.c.s
+.PHONY : corewar_asm/libft/ft_put_percent.c.s
+
+corewar_asm/libft/ft_put_pointer.o: corewar_asm/libft/ft_put_pointer.c.o
+
+.PHONY : corewar_asm/libft/ft_put_pointer.o
+
+# target to build an object file
+corewar_asm/libft/ft_put_pointer.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_put_pointer.c.o
+.PHONY : corewar_asm/libft/ft_put_pointer.c.o
+
+corewar_asm/libft/ft_put_pointer.i: corewar_asm/libft/ft_put_pointer.c.i
+
+.PHONY : corewar_asm/libft/ft_put_pointer.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_put_pointer.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_put_pointer.c.i
+.PHONY : corewar_asm/libft/ft_put_pointer.c.i
+
+corewar_asm/libft/ft_put_pointer.s: corewar_asm/libft/ft_put_pointer.c.s
+
+.PHONY : corewar_asm/libft/ft_put_pointer.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_put_pointer.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_put_pointer.c.s
+.PHONY : corewar_asm/libft/ft_put_pointer.c.s
+
+corewar_asm/libft/ft_put_unsigned.o: corewar_asm/libft/ft_put_unsigned.c.o
+
+.PHONY : corewar_asm/libft/ft_put_unsigned.o
+
+# target to build an object file
+corewar_asm/libft/ft_put_unsigned.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_put_unsigned.c.o
+.PHONY : corewar_asm/libft/ft_put_unsigned.c.o
+
+corewar_asm/libft/ft_put_unsigned.i: corewar_asm/libft/ft_put_unsigned.c.i
+
+.PHONY : corewar_asm/libft/ft_put_unsigned.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_put_unsigned.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_put_unsigned.c.i
+.PHONY : corewar_asm/libft/ft_put_unsigned.c.i
+
+corewar_asm/libft/ft_put_unsigned.s: corewar_asm/libft/ft_put_unsigned.c.s
+
+.PHONY : corewar_asm/libft/ft_put_unsigned.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_put_unsigned.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_put_unsigned.c.s
+.PHONY : corewar_asm/libft/ft_put_unsigned.c.s
+
+corewar_asm/libft/ft_putchar.o: corewar_asm/libft/ft_putchar.c.o
+
+.PHONY : corewar_asm/libft/ft_putchar.o
+
+# target to build an object file
+corewar_asm/libft/ft_putchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putchar.c.o
+.PHONY : corewar_asm/libft/ft_putchar.c.o
+
+corewar_asm/libft/ft_putchar.i: corewar_asm/libft/ft_putchar.c.i
+
+.PHONY : corewar_asm/libft/ft_putchar.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_putchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putchar.c.i
+.PHONY : corewar_asm/libft/ft_putchar.c.i
+
+corewar_asm/libft/ft_putchar.s: corewar_asm/libft/ft_putchar.c.s
+
+.PHONY : corewar_asm/libft/ft_putchar.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_putchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putchar.c.s
+.PHONY : corewar_asm/libft/ft_putchar.c.s
+
+corewar_asm/libft/ft_putchar_fd.o: corewar_asm/libft/ft_putchar_fd.c.o
+
+.PHONY : corewar_asm/libft/ft_putchar_fd.o
+
+# target to build an object file
+corewar_asm/libft/ft_putchar_fd.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putchar_fd.c.o
+.PHONY : corewar_asm/libft/ft_putchar_fd.c.o
+
+corewar_asm/libft/ft_putchar_fd.i: corewar_asm/libft/ft_putchar_fd.c.i
+
+.PHONY : corewar_asm/libft/ft_putchar_fd.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_putchar_fd.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putchar_fd.c.i
+.PHONY : corewar_asm/libft/ft_putchar_fd.c.i
+
+corewar_asm/libft/ft_putchar_fd.s: corewar_asm/libft/ft_putchar_fd.c.s
+
+.PHONY : corewar_asm/libft/ft_putchar_fd.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_putchar_fd.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putchar_fd.c.s
+.PHONY : corewar_asm/libft/ft_putchar_fd.c.s
+
+corewar_asm/libft/ft_putchar_wchar.o: corewar_asm/libft/ft_putchar_wchar.c.o
+
+.PHONY : corewar_asm/libft/ft_putchar_wchar.o
+
+# target to build an object file
+corewar_asm/libft/ft_putchar_wchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putchar_wchar.c.o
+.PHONY : corewar_asm/libft/ft_putchar_wchar.c.o
+
+corewar_asm/libft/ft_putchar_wchar.i: corewar_asm/libft/ft_putchar_wchar.c.i
+
+.PHONY : corewar_asm/libft/ft_putchar_wchar.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_putchar_wchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putchar_wchar.c.i
+.PHONY : corewar_asm/libft/ft_putchar_wchar.c.i
+
+corewar_asm/libft/ft_putchar_wchar.s: corewar_asm/libft/ft_putchar_wchar.c.s
+
+.PHONY : corewar_asm/libft/ft_putchar_wchar.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_putchar_wchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putchar_wchar.c.s
+.PHONY : corewar_asm/libft/ft_putchar_wchar.c.s
+
+corewar_asm/libft/ft_putendl.o: corewar_asm/libft/ft_putendl.c.o
+
+.PHONY : corewar_asm/libft/ft_putendl.o
+
+# target to build an object file
+corewar_asm/libft/ft_putendl.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putendl.c.o
+.PHONY : corewar_asm/libft/ft_putendl.c.o
+
+corewar_asm/libft/ft_putendl.i: corewar_asm/libft/ft_putendl.c.i
+
+.PHONY : corewar_asm/libft/ft_putendl.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_putendl.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putendl.c.i
+.PHONY : corewar_asm/libft/ft_putendl.c.i
+
+corewar_asm/libft/ft_putendl.s: corewar_asm/libft/ft_putendl.c.s
+
+.PHONY : corewar_asm/libft/ft_putendl.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_putendl.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putendl.c.s
+.PHONY : corewar_asm/libft/ft_putendl.c.s
+
+corewar_asm/libft/ft_putendl_fd.o: corewar_asm/libft/ft_putendl_fd.c.o
+
+.PHONY : corewar_asm/libft/ft_putendl_fd.o
+
+# target to build an object file
+corewar_asm/libft/ft_putendl_fd.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putendl_fd.c.o
+.PHONY : corewar_asm/libft/ft_putendl_fd.c.o
+
+corewar_asm/libft/ft_putendl_fd.i: corewar_asm/libft/ft_putendl_fd.c.i
+
+.PHONY : corewar_asm/libft/ft_putendl_fd.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_putendl_fd.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putendl_fd.c.i
+.PHONY : corewar_asm/libft/ft_putendl_fd.c.i
+
+corewar_asm/libft/ft_putendl_fd.s: corewar_asm/libft/ft_putendl_fd.c.s
+
+.PHONY : corewar_asm/libft/ft_putendl_fd.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_putendl_fd.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putendl_fd.c.s
+.PHONY : corewar_asm/libft/ft_putendl_fd.c.s
+
+corewar_asm/libft/ft_putnbr.o: corewar_asm/libft/ft_putnbr.c.o
+
+.PHONY : corewar_asm/libft/ft_putnbr.o
+
+# target to build an object file
+corewar_asm/libft/ft_putnbr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putnbr.c.o
+.PHONY : corewar_asm/libft/ft_putnbr.c.o
+
+corewar_asm/libft/ft_putnbr.i: corewar_asm/libft/ft_putnbr.c.i
+
+.PHONY : corewar_asm/libft/ft_putnbr.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_putnbr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putnbr.c.i
+.PHONY : corewar_asm/libft/ft_putnbr.c.i
+
+corewar_asm/libft/ft_putnbr.s: corewar_asm/libft/ft_putnbr.c.s
+
+.PHONY : corewar_asm/libft/ft_putnbr.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_putnbr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putnbr.c.s
+.PHONY : corewar_asm/libft/ft_putnbr.c.s
+
+corewar_asm/libft/ft_putnbr_fd.o: corewar_asm/libft/ft_putnbr_fd.c.o
+
+.PHONY : corewar_asm/libft/ft_putnbr_fd.o
+
+# target to build an object file
+corewar_asm/libft/ft_putnbr_fd.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putnbr_fd.c.o
+.PHONY : corewar_asm/libft/ft_putnbr_fd.c.o
+
+corewar_asm/libft/ft_putnbr_fd.i: corewar_asm/libft/ft_putnbr_fd.c.i
+
+.PHONY : corewar_asm/libft/ft_putnbr_fd.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_putnbr_fd.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putnbr_fd.c.i
+.PHONY : corewar_asm/libft/ft_putnbr_fd.c.i
+
+corewar_asm/libft/ft_putnbr_fd.s: corewar_asm/libft/ft_putnbr_fd.c.s
+
+.PHONY : corewar_asm/libft/ft_putnbr_fd.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_putnbr_fd.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putnbr_fd.c.s
+.PHONY : corewar_asm/libft/ft_putnbr_fd.c.s
+
+corewar_asm/libft/ft_putstr.o: corewar_asm/libft/ft_putstr.c.o
+
+.PHONY : corewar_asm/libft/ft_putstr.o
+
+# target to build an object file
+corewar_asm/libft/ft_putstr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putstr.c.o
+.PHONY : corewar_asm/libft/ft_putstr.c.o
+
+corewar_asm/libft/ft_putstr.i: corewar_asm/libft/ft_putstr.c.i
+
+.PHONY : corewar_asm/libft/ft_putstr.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_putstr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putstr.c.i
+.PHONY : corewar_asm/libft/ft_putstr.c.i
+
+corewar_asm/libft/ft_putstr.s: corewar_asm/libft/ft_putstr.c.s
+
+.PHONY : corewar_asm/libft/ft_putstr.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_putstr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putstr.c.s
+.PHONY : corewar_asm/libft/ft_putstr.c.s
+
+corewar_asm/libft/ft_putstr_fd.o: corewar_asm/libft/ft_putstr_fd.c.o
+
+.PHONY : corewar_asm/libft/ft_putstr_fd.o
+
+# target to build an object file
+corewar_asm/libft/ft_putstr_fd.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putstr_fd.c.o
+.PHONY : corewar_asm/libft/ft_putstr_fd.c.o
+
+corewar_asm/libft/ft_putstr_fd.i: corewar_asm/libft/ft_putstr_fd.c.i
+
+.PHONY : corewar_asm/libft/ft_putstr_fd.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_putstr_fd.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putstr_fd.c.i
+.PHONY : corewar_asm/libft/ft_putstr_fd.c.i
+
+corewar_asm/libft/ft_putstr_fd.s: corewar_asm/libft/ft_putstr_fd.c.s
+
+.PHONY : corewar_asm/libft/ft_putstr_fd.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_putstr_fd.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putstr_fd.c.s
+.PHONY : corewar_asm/libft/ft_putstr_fd.c.s
+
+corewar_asm/libft/ft_putstr_wchar.o: corewar_asm/libft/ft_putstr_wchar.c.o
+
+.PHONY : corewar_asm/libft/ft_putstr_wchar.o
+
+# target to build an object file
+corewar_asm/libft/ft_putstr_wchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putstr_wchar.c.o
+.PHONY : corewar_asm/libft/ft_putstr_wchar.c.o
+
+corewar_asm/libft/ft_putstr_wchar.i: corewar_asm/libft/ft_putstr_wchar.c.i
+
+.PHONY : corewar_asm/libft/ft_putstr_wchar.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_putstr_wchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putstr_wchar.c.i
+.PHONY : corewar_asm/libft/ft_putstr_wchar.c.i
+
+corewar_asm/libft/ft_putstr_wchar.s: corewar_asm/libft/ft_putstr_wchar.c.s
+
+.PHONY : corewar_asm/libft/ft_putstr_wchar.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_putstr_wchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_putstr_wchar.c.s
+.PHONY : corewar_asm/libft/ft_putstr_wchar.c.s
+
+corewar_asm/libft/ft_read_format.o: corewar_asm/libft/ft_read_format.c.o
+
+.PHONY : corewar_asm/libft/ft_read_format.o
+
+# target to build an object file
+corewar_asm/libft/ft_read_format.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_read_format.c.o
+.PHONY : corewar_asm/libft/ft_read_format.c.o
+
+corewar_asm/libft/ft_read_format.i: corewar_asm/libft/ft_read_format.c.i
+
+.PHONY : corewar_asm/libft/ft_read_format.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_read_format.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_read_format.c.i
+.PHONY : corewar_asm/libft/ft_read_format.c.i
+
+corewar_asm/libft/ft_read_format.s: corewar_asm/libft/ft_read_format.c.s
+
+.PHONY : corewar_asm/libft/ft_read_format.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_read_format.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_read_format.c.s
+.PHONY : corewar_asm/libft/ft_read_format.c.s
+
+corewar_asm/libft/ft_strcat.o: corewar_asm/libft/ft_strcat.c.o
+
+.PHONY : corewar_asm/libft/ft_strcat.o
+
+# target to build an object file
+corewar_asm/libft/ft_strcat.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strcat.c.o
+.PHONY : corewar_asm/libft/ft_strcat.c.o
+
+corewar_asm/libft/ft_strcat.i: corewar_asm/libft/ft_strcat.c.i
+
+.PHONY : corewar_asm/libft/ft_strcat.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strcat.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strcat.c.i
+.PHONY : corewar_asm/libft/ft_strcat.c.i
+
+corewar_asm/libft/ft_strcat.s: corewar_asm/libft/ft_strcat.c.s
+
+.PHONY : corewar_asm/libft/ft_strcat.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strcat.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strcat.c.s
+.PHONY : corewar_asm/libft/ft_strcat.c.s
+
+corewar_asm/libft/ft_strchr.o: corewar_asm/libft/ft_strchr.c.o
+
+.PHONY : corewar_asm/libft/ft_strchr.o
+
+# target to build an object file
+corewar_asm/libft/ft_strchr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strchr.c.o
+.PHONY : corewar_asm/libft/ft_strchr.c.o
+
+corewar_asm/libft/ft_strchr.i: corewar_asm/libft/ft_strchr.c.i
+
+.PHONY : corewar_asm/libft/ft_strchr.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strchr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strchr.c.i
+.PHONY : corewar_asm/libft/ft_strchr.c.i
+
+corewar_asm/libft/ft_strchr.s: corewar_asm/libft/ft_strchr.c.s
+
+.PHONY : corewar_asm/libft/ft_strchr.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strchr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strchr.c.s
+.PHONY : corewar_asm/libft/ft_strchr.c.s
+
+corewar_asm/libft/ft_strcl.o: corewar_asm/libft/ft_strcl.c.o
+
+.PHONY : corewar_asm/libft/ft_strcl.o
+
+# target to build an object file
+corewar_asm/libft/ft_strcl.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strcl.c.o
+.PHONY : corewar_asm/libft/ft_strcl.c.o
+
+corewar_asm/libft/ft_strcl.i: corewar_asm/libft/ft_strcl.c.i
+
+.PHONY : corewar_asm/libft/ft_strcl.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strcl.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strcl.c.i
+.PHONY : corewar_asm/libft/ft_strcl.c.i
+
+corewar_asm/libft/ft_strcl.s: corewar_asm/libft/ft_strcl.c.s
+
+.PHONY : corewar_asm/libft/ft_strcl.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strcl.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strcl.c.s
+.PHONY : corewar_asm/libft/ft_strcl.c.s
+
+corewar_asm/libft/ft_strclr.o: corewar_asm/libft/ft_strclr.c.o
+
+.PHONY : corewar_asm/libft/ft_strclr.o
+
+# target to build an object file
+corewar_asm/libft/ft_strclr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strclr.c.o
+.PHONY : corewar_asm/libft/ft_strclr.c.o
+
+corewar_asm/libft/ft_strclr.i: corewar_asm/libft/ft_strclr.c.i
+
+.PHONY : corewar_asm/libft/ft_strclr.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strclr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strclr.c.i
+.PHONY : corewar_asm/libft/ft_strclr.c.i
+
+corewar_asm/libft/ft_strclr.s: corewar_asm/libft/ft_strclr.c.s
+
+.PHONY : corewar_asm/libft/ft_strclr.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strclr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strclr.c.s
+.PHONY : corewar_asm/libft/ft_strclr.c.s
+
+corewar_asm/libft/ft_strcmp.o: corewar_asm/libft/ft_strcmp.c.o
+
+.PHONY : corewar_asm/libft/ft_strcmp.o
+
+# target to build an object file
+corewar_asm/libft/ft_strcmp.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strcmp.c.o
+.PHONY : corewar_asm/libft/ft_strcmp.c.o
+
+corewar_asm/libft/ft_strcmp.i: corewar_asm/libft/ft_strcmp.c.i
+
+.PHONY : corewar_asm/libft/ft_strcmp.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strcmp.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strcmp.c.i
+.PHONY : corewar_asm/libft/ft_strcmp.c.i
+
+corewar_asm/libft/ft_strcmp.s: corewar_asm/libft/ft_strcmp.c.s
+
+.PHONY : corewar_asm/libft/ft_strcmp.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strcmp.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strcmp.c.s
+.PHONY : corewar_asm/libft/ft_strcmp.c.s
+
+corewar_asm/libft/ft_strcpy.o: corewar_asm/libft/ft_strcpy.c.o
+
+.PHONY : corewar_asm/libft/ft_strcpy.o
+
+# target to build an object file
+corewar_asm/libft/ft_strcpy.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strcpy.c.o
+.PHONY : corewar_asm/libft/ft_strcpy.c.o
+
+corewar_asm/libft/ft_strcpy.i: corewar_asm/libft/ft_strcpy.c.i
+
+.PHONY : corewar_asm/libft/ft_strcpy.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strcpy.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strcpy.c.i
+.PHONY : corewar_asm/libft/ft_strcpy.c.i
+
+corewar_asm/libft/ft_strcpy.s: corewar_asm/libft/ft_strcpy.c.s
+
+.PHONY : corewar_asm/libft/ft_strcpy.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strcpy.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strcpy.c.s
+.PHONY : corewar_asm/libft/ft_strcpy.c.s
+
+corewar_asm/libft/ft_strdel.o: corewar_asm/libft/ft_strdel.c.o
+
+.PHONY : corewar_asm/libft/ft_strdel.o
+
+# target to build an object file
+corewar_asm/libft/ft_strdel.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strdel.c.o
+.PHONY : corewar_asm/libft/ft_strdel.c.o
+
+corewar_asm/libft/ft_strdel.i: corewar_asm/libft/ft_strdel.c.i
+
+.PHONY : corewar_asm/libft/ft_strdel.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strdel.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strdel.c.i
+.PHONY : corewar_asm/libft/ft_strdel.c.i
+
+corewar_asm/libft/ft_strdel.s: corewar_asm/libft/ft_strdel.c.s
+
+.PHONY : corewar_asm/libft/ft_strdel.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strdel.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strdel.c.s
+.PHONY : corewar_asm/libft/ft_strdel.c.s
+
+corewar_asm/libft/ft_strdel_wchar.o: corewar_asm/libft/ft_strdel_wchar.c.o
+
+.PHONY : corewar_asm/libft/ft_strdel_wchar.o
+
+# target to build an object file
+corewar_asm/libft/ft_strdel_wchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strdel_wchar.c.o
+.PHONY : corewar_asm/libft/ft_strdel_wchar.c.o
+
+corewar_asm/libft/ft_strdel_wchar.i: corewar_asm/libft/ft_strdel_wchar.c.i
+
+.PHONY : corewar_asm/libft/ft_strdel_wchar.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strdel_wchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strdel_wchar.c.i
+.PHONY : corewar_asm/libft/ft_strdel_wchar.c.i
+
+corewar_asm/libft/ft_strdel_wchar.s: corewar_asm/libft/ft_strdel_wchar.c.s
+
+.PHONY : corewar_asm/libft/ft_strdel_wchar.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strdel_wchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strdel_wchar.c.s
+.PHONY : corewar_asm/libft/ft_strdel_wchar.c.s
+
+corewar_asm/libft/ft_strdup.o: corewar_asm/libft/ft_strdup.c.o
+
+.PHONY : corewar_asm/libft/ft_strdup.o
+
+# target to build an object file
+corewar_asm/libft/ft_strdup.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strdup.c.o
+.PHONY : corewar_asm/libft/ft_strdup.c.o
+
+corewar_asm/libft/ft_strdup.i: corewar_asm/libft/ft_strdup.c.i
+
+.PHONY : corewar_asm/libft/ft_strdup.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strdup.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strdup.c.i
+.PHONY : corewar_asm/libft/ft_strdup.c.i
+
+corewar_asm/libft/ft_strdup.s: corewar_asm/libft/ft_strdup.c.s
+
+.PHONY : corewar_asm/libft/ft_strdup.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strdup.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strdup.c.s
+.PHONY : corewar_asm/libft/ft_strdup.c.s
+
+corewar_asm/libft/ft_strdup_wchar.o: corewar_asm/libft/ft_strdup_wchar.c.o
+
+.PHONY : corewar_asm/libft/ft_strdup_wchar.o
+
+# target to build an object file
+corewar_asm/libft/ft_strdup_wchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strdup_wchar.c.o
+.PHONY : corewar_asm/libft/ft_strdup_wchar.c.o
+
+corewar_asm/libft/ft_strdup_wchar.i: corewar_asm/libft/ft_strdup_wchar.c.i
+
+.PHONY : corewar_asm/libft/ft_strdup_wchar.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strdup_wchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strdup_wchar.c.i
+.PHONY : corewar_asm/libft/ft_strdup_wchar.c.i
+
+corewar_asm/libft/ft_strdup_wchar.s: corewar_asm/libft/ft_strdup_wchar.c.s
+
+.PHONY : corewar_asm/libft/ft_strdup_wchar.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strdup_wchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strdup_wchar.c.s
+.PHONY : corewar_asm/libft/ft_strdup_wchar.c.s
+
+corewar_asm/libft/ft_strequ.o: corewar_asm/libft/ft_strequ.c.o
+
+.PHONY : corewar_asm/libft/ft_strequ.o
+
+# target to build an object file
+corewar_asm/libft/ft_strequ.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strequ.c.o
+.PHONY : corewar_asm/libft/ft_strequ.c.o
+
+corewar_asm/libft/ft_strequ.i: corewar_asm/libft/ft_strequ.c.i
+
+.PHONY : corewar_asm/libft/ft_strequ.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strequ.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strequ.c.i
+.PHONY : corewar_asm/libft/ft_strequ.c.i
+
+corewar_asm/libft/ft_strequ.s: corewar_asm/libft/ft_strequ.c.s
+
+.PHONY : corewar_asm/libft/ft_strequ.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strequ.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strequ.c.s
+.PHONY : corewar_asm/libft/ft_strequ.c.s
+
+corewar_asm/libft/ft_strfr.o: corewar_asm/libft/ft_strfr.c.o
+
+.PHONY : corewar_asm/libft/ft_strfr.o
+
+# target to build an object file
+corewar_asm/libft/ft_strfr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strfr.c.o
+.PHONY : corewar_asm/libft/ft_strfr.c.o
+
+corewar_asm/libft/ft_strfr.i: corewar_asm/libft/ft_strfr.c.i
+
+.PHONY : corewar_asm/libft/ft_strfr.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strfr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strfr.c.i
+.PHONY : corewar_asm/libft/ft_strfr.c.i
+
+corewar_asm/libft/ft_strfr.s: corewar_asm/libft/ft_strfr.c.s
+
+.PHONY : corewar_asm/libft/ft_strfr.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strfr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strfr.c.s
+.PHONY : corewar_asm/libft/ft_strfr.c.s
+
+corewar_asm/libft/ft_striter.o: corewar_asm/libft/ft_striter.c.o
+
+.PHONY : corewar_asm/libft/ft_striter.o
+
+# target to build an object file
+corewar_asm/libft/ft_striter.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_striter.c.o
+.PHONY : corewar_asm/libft/ft_striter.c.o
+
+corewar_asm/libft/ft_striter.i: corewar_asm/libft/ft_striter.c.i
+
+.PHONY : corewar_asm/libft/ft_striter.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_striter.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_striter.c.i
+.PHONY : corewar_asm/libft/ft_striter.c.i
+
+corewar_asm/libft/ft_striter.s: corewar_asm/libft/ft_striter.c.s
+
+.PHONY : corewar_asm/libft/ft_striter.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_striter.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_striter.c.s
+.PHONY : corewar_asm/libft/ft_striter.c.s
+
+corewar_asm/libft/ft_striteri.o: corewar_asm/libft/ft_striteri.c.o
+
+.PHONY : corewar_asm/libft/ft_striteri.o
+
+# target to build an object file
+corewar_asm/libft/ft_striteri.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_striteri.c.o
+.PHONY : corewar_asm/libft/ft_striteri.c.o
+
+corewar_asm/libft/ft_striteri.i: corewar_asm/libft/ft_striteri.c.i
+
+.PHONY : corewar_asm/libft/ft_striteri.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_striteri.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_striteri.c.i
+.PHONY : corewar_asm/libft/ft_striteri.c.i
+
+corewar_asm/libft/ft_striteri.s: corewar_asm/libft/ft_striteri.c.s
+
+.PHONY : corewar_asm/libft/ft_striteri.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_striteri.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_striteri.c.s
+.PHONY : corewar_asm/libft/ft_striteri.c.s
+
+corewar_asm/libft/ft_strjoin.o: corewar_asm/libft/ft_strjoin.c.o
+
+.PHONY : corewar_asm/libft/ft_strjoin.o
+
+# target to build an object file
+corewar_asm/libft/ft_strjoin.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strjoin.c.o
+.PHONY : corewar_asm/libft/ft_strjoin.c.o
+
+corewar_asm/libft/ft_strjoin.i: corewar_asm/libft/ft_strjoin.c.i
+
+.PHONY : corewar_asm/libft/ft_strjoin.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strjoin.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strjoin.c.i
+.PHONY : corewar_asm/libft/ft_strjoin.c.i
+
+corewar_asm/libft/ft_strjoin.s: corewar_asm/libft/ft_strjoin.c.s
+
+.PHONY : corewar_asm/libft/ft_strjoin.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strjoin.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strjoin.c.s
+.PHONY : corewar_asm/libft/ft_strjoin.c.s
+
+corewar_asm/libft/ft_strlcat.o: corewar_asm/libft/ft_strlcat.c.o
+
+.PHONY : corewar_asm/libft/ft_strlcat.o
+
+# target to build an object file
+corewar_asm/libft/ft_strlcat.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strlcat.c.o
+.PHONY : corewar_asm/libft/ft_strlcat.c.o
+
+corewar_asm/libft/ft_strlcat.i: corewar_asm/libft/ft_strlcat.c.i
+
+.PHONY : corewar_asm/libft/ft_strlcat.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strlcat.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strlcat.c.i
+.PHONY : corewar_asm/libft/ft_strlcat.c.i
+
+corewar_asm/libft/ft_strlcat.s: corewar_asm/libft/ft_strlcat.c.s
+
+.PHONY : corewar_asm/libft/ft_strlcat.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strlcat.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strlcat.c.s
+.PHONY : corewar_asm/libft/ft_strlcat.c.s
+
+corewar_asm/libft/ft_strlen.o: corewar_asm/libft/ft_strlen.c.o
+
+.PHONY : corewar_asm/libft/ft_strlen.o
+
+# target to build an object file
+corewar_asm/libft/ft_strlen.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strlen.c.o
+.PHONY : corewar_asm/libft/ft_strlen.c.o
+
+corewar_asm/libft/ft_strlen.i: corewar_asm/libft/ft_strlen.c.i
+
+.PHONY : corewar_asm/libft/ft_strlen.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strlen.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strlen.c.i
+.PHONY : corewar_asm/libft/ft_strlen.c.i
+
+corewar_asm/libft/ft_strlen.s: corewar_asm/libft/ft_strlen.c.s
+
+.PHONY : corewar_asm/libft/ft_strlen.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strlen.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strlen.c.s
+.PHONY : corewar_asm/libft/ft_strlen.c.s
+
+corewar_asm/libft/ft_strlen_wchar.o: corewar_asm/libft/ft_strlen_wchar.c.o
+
+.PHONY : corewar_asm/libft/ft_strlen_wchar.o
+
+# target to build an object file
+corewar_asm/libft/ft_strlen_wchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strlen_wchar.c.o
+.PHONY : corewar_asm/libft/ft_strlen_wchar.c.o
+
+corewar_asm/libft/ft_strlen_wchar.i: corewar_asm/libft/ft_strlen_wchar.c.i
+
+.PHONY : corewar_asm/libft/ft_strlen_wchar.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strlen_wchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strlen_wchar.c.i
+.PHONY : corewar_asm/libft/ft_strlen_wchar.c.i
+
+corewar_asm/libft/ft_strlen_wchar.s: corewar_asm/libft/ft_strlen_wchar.c.s
+
+.PHONY : corewar_asm/libft/ft_strlen_wchar.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strlen_wchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strlen_wchar.c.s
+.PHONY : corewar_asm/libft/ft_strlen_wchar.c.s
+
+corewar_asm/libft/ft_strmap.o: corewar_asm/libft/ft_strmap.c.o
+
+.PHONY : corewar_asm/libft/ft_strmap.o
+
+# target to build an object file
+corewar_asm/libft/ft_strmap.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strmap.c.o
+.PHONY : corewar_asm/libft/ft_strmap.c.o
+
+corewar_asm/libft/ft_strmap.i: corewar_asm/libft/ft_strmap.c.i
+
+.PHONY : corewar_asm/libft/ft_strmap.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strmap.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strmap.c.i
+.PHONY : corewar_asm/libft/ft_strmap.c.i
+
+corewar_asm/libft/ft_strmap.s: corewar_asm/libft/ft_strmap.c.s
+
+.PHONY : corewar_asm/libft/ft_strmap.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strmap.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strmap.c.s
+.PHONY : corewar_asm/libft/ft_strmap.c.s
+
+corewar_asm/libft/ft_strmapi.o: corewar_asm/libft/ft_strmapi.c.o
+
+.PHONY : corewar_asm/libft/ft_strmapi.o
+
+# target to build an object file
+corewar_asm/libft/ft_strmapi.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strmapi.c.o
+.PHONY : corewar_asm/libft/ft_strmapi.c.o
+
+corewar_asm/libft/ft_strmapi.i: corewar_asm/libft/ft_strmapi.c.i
+
+.PHONY : corewar_asm/libft/ft_strmapi.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strmapi.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strmapi.c.i
+.PHONY : corewar_asm/libft/ft_strmapi.c.i
+
+corewar_asm/libft/ft_strmapi.s: corewar_asm/libft/ft_strmapi.c.s
+
+.PHONY : corewar_asm/libft/ft_strmapi.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strmapi.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strmapi.c.s
+.PHONY : corewar_asm/libft/ft_strmapi.c.s
+
+corewar_asm/libft/ft_strncat.o: corewar_asm/libft/ft_strncat.c.o
+
+.PHONY : corewar_asm/libft/ft_strncat.o
+
+# target to build an object file
+corewar_asm/libft/ft_strncat.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strncat.c.o
+.PHONY : corewar_asm/libft/ft_strncat.c.o
+
+corewar_asm/libft/ft_strncat.i: corewar_asm/libft/ft_strncat.c.i
+
+.PHONY : corewar_asm/libft/ft_strncat.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strncat.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strncat.c.i
+.PHONY : corewar_asm/libft/ft_strncat.c.i
+
+corewar_asm/libft/ft_strncat.s: corewar_asm/libft/ft_strncat.c.s
+
+.PHONY : corewar_asm/libft/ft_strncat.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strncat.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strncat.c.s
+.PHONY : corewar_asm/libft/ft_strncat.c.s
+
+corewar_asm/libft/ft_strncmp.o: corewar_asm/libft/ft_strncmp.c.o
+
+.PHONY : corewar_asm/libft/ft_strncmp.o
+
+# target to build an object file
+corewar_asm/libft/ft_strncmp.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strncmp.c.o
+.PHONY : corewar_asm/libft/ft_strncmp.c.o
+
+corewar_asm/libft/ft_strncmp.i: corewar_asm/libft/ft_strncmp.c.i
+
+.PHONY : corewar_asm/libft/ft_strncmp.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strncmp.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strncmp.c.i
+.PHONY : corewar_asm/libft/ft_strncmp.c.i
+
+corewar_asm/libft/ft_strncmp.s: corewar_asm/libft/ft_strncmp.c.s
+
+.PHONY : corewar_asm/libft/ft_strncmp.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strncmp.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strncmp.c.s
+.PHONY : corewar_asm/libft/ft_strncmp.c.s
+
+corewar_asm/libft/ft_strncpy.o: corewar_asm/libft/ft_strncpy.c.o
+
+.PHONY : corewar_asm/libft/ft_strncpy.o
+
+# target to build an object file
+corewar_asm/libft/ft_strncpy.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strncpy.c.o
+.PHONY : corewar_asm/libft/ft_strncpy.c.o
+
+corewar_asm/libft/ft_strncpy.i: corewar_asm/libft/ft_strncpy.c.i
+
+.PHONY : corewar_asm/libft/ft_strncpy.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strncpy.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strncpy.c.i
+.PHONY : corewar_asm/libft/ft_strncpy.c.i
+
+corewar_asm/libft/ft_strncpy.s: corewar_asm/libft/ft_strncpy.c.s
+
+.PHONY : corewar_asm/libft/ft_strncpy.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strncpy.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strncpy.c.s
+.PHONY : corewar_asm/libft/ft_strncpy.c.s
+
+corewar_asm/libft/ft_strncpy_wchar.o: corewar_asm/libft/ft_strncpy_wchar.c.o
+
+.PHONY : corewar_asm/libft/ft_strncpy_wchar.o
+
+# target to build an object file
+corewar_asm/libft/ft_strncpy_wchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strncpy_wchar.c.o
+.PHONY : corewar_asm/libft/ft_strncpy_wchar.c.o
+
+corewar_asm/libft/ft_strncpy_wchar.i: corewar_asm/libft/ft_strncpy_wchar.c.i
+
+.PHONY : corewar_asm/libft/ft_strncpy_wchar.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strncpy_wchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strncpy_wchar.c.i
+.PHONY : corewar_asm/libft/ft_strncpy_wchar.c.i
+
+corewar_asm/libft/ft_strncpy_wchar.s: corewar_asm/libft/ft_strncpy_wchar.c.s
+
+.PHONY : corewar_asm/libft/ft_strncpy_wchar.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strncpy_wchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strncpy_wchar.c.s
+.PHONY : corewar_asm/libft/ft_strncpy_wchar.c.s
+
+corewar_asm/libft/ft_strnequ.o: corewar_asm/libft/ft_strnequ.c.o
+
+.PHONY : corewar_asm/libft/ft_strnequ.o
+
+# target to build an object file
+corewar_asm/libft/ft_strnequ.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strnequ.c.o
+.PHONY : corewar_asm/libft/ft_strnequ.c.o
+
+corewar_asm/libft/ft_strnequ.i: corewar_asm/libft/ft_strnequ.c.i
+
+.PHONY : corewar_asm/libft/ft_strnequ.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strnequ.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strnequ.c.i
+.PHONY : corewar_asm/libft/ft_strnequ.c.i
+
+corewar_asm/libft/ft_strnequ.s: corewar_asm/libft/ft_strnequ.c.s
+
+.PHONY : corewar_asm/libft/ft_strnequ.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strnequ.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strnequ.c.s
+.PHONY : corewar_asm/libft/ft_strnequ.c.s
+
+corewar_asm/libft/ft_strnew.o: corewar_asm/libft/ft_strnew.c.o
+
+.PHONY : corewar_asm/libft/ft_strnew.o
+
+# target to build an object file
+corewar_asm/libft/ft_strnew.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strnew.c.o
+.PHONY : corewar_asm/libft/ft_strnew.c.o
+
+corewar_asm/libft/ft_strnew.i: corewar_asm/libft/ft_strnew.c.i
+
+.PHONY : corewar_asm/libft/ft_strnew.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strnew.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strnew.c.i
+.PHONY : corewar_asm/libft/ft_strnew.c.i
+
+corewar_asm/libft/ft_strnew.s: corewar_asm/libft/ft_strnew.c.s
+
+.PHONY : corewar_asm/libft/ft_strnew.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strnew.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strnew.c.s
+.PHONY : corewar_asm/libft/ft_strnew.c.s
+
+corewar_asm/libft/ft_strnew_char_wchar.o: corewar_asm/libft/ft_strnew_char_wchar.c.o
+
+.PHONY : corewar_asm/libft/ft_strnew_char_wchar.o
+
+# target to build an object file
+corewar_asm/libft/ft_strnew_char_wchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strnew_char_wchar.c.o
+.PHONY : corewar_asm/libft/ft_strnew_char_wchar.c.o
+
+corewar_asm/libft/ft_strnew_char_wchar.i: corewar_asm/libft/ft_strnew_char_wchar.c.i
+
+.PHONY : corewar_asm/libft/ft_strnew_char_wchar.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strnew_char_wchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strnew_char_wchar.c.i
+.PHONY : corewar_asm/libft/ft_strnew_char_wchar.c.i
+
+corewar_asm/libft/ft_strnew_char_wchar.s: corewar_asm/libft/ft_strnew_char_wchar.c.s
+
+.PHONY : corewar_asm/libft/ft_strnew_char_wchar.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strnew_char_wchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strnew_char_wchar.c.s
+.PHONY : corewar_asm/libft/ft_strnew_char_wchar.c.s
+
+corewar_asm/libft/ft_strnew_wchar.o: corewar_asm/libft/ft_strnew_wchar.c.o
+
+.PHONY : corewar_asm/libft/ft_strnew_wchar.o
+
+# target to build an object file
+corewar_asm/libft/ft_strnew_wchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strnew_wchar.c.o
+.PHONY : corewar_asm/libft/ft_strnew_wchar.c.o
+
+corewar_asm/libft/ft_strnew_wchar.i: corewar_asm/libft/ft_strnew_wchar.c.i
+
+.PHONY : corewar_asm/libft/ft_strnew_wchar.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strnew_wchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strnew_wchar.c.i
+.PHONY : corewar_asm/libft/ft_strnew_wchar.c.i
+
+corewar_asm/libft/ft_strnew_wchar.s: corewar_asm/libft/ft_strnew_wchar.c.s
+
+.PHONY : corewar_asm/libft/ft_strnew_wchar.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strnew_wchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strnew_wchar.c.s
+.PHONY : corewar_asm/libft/ft_strnew_wchar.c.s
+
+corewar_asm/libft/ft_strnjoin.o: corewar_asm/libft/ft_strnjoin.c.o
+
+.PHONY : corewar_asm/libft/ft_strnjoin.o
+
+# target to build an object file
+corewar_asm/libft/ft_strnjoin.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strnjoin.c.o
+.PHONY : corewar_asm/libft/ft_strnjoin.c.o
+
+corewar_asm/libft/ft_strnjoin.i: corewar_asm/libft/ft_strnjoin.c.i
+
+.PHONY : corewar_asm/libft/ft_strnjoin.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strnjoin.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strnjoin.c.i
+.PHONY : corewar_asm/libft/ft_strnjoin.c.i
+
+corewar_asm/libft/ft_strnjoin.s: corewar_asm/libft/ft_strnjoin.c.s
+
+.PHONY : corewar_asm/libft/ft_strnjoin.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strnjoin.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strnjoin.c.s
+.PHONY : corewar_asm/libft/ft_strnjoin.c.s
+
+corewar_asm/libft/ft_strnjoinfree.o: corewar_asm/libft/ft_strnjoinfree.c.o
+
+.PHONY : corewar_asm/libft/ft_strnjoinfree.o
+
+# target to build an object file
+corewar_asm/libft/ft_strnjoinfree.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strnjoinfree.c.o
+.PHONY : corewar_asm/libft/ft_strnjoinfree.c.o
+
+corewar_asm/libft/ft_strnjoinfree.i: corewar_asm/libft/ft_strnjoinfree.c.i
+
+.PHONY : corewar_asm/libft/ft_strnjoinfree.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strnjoinfree.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strnjoinfree.c.i
+.PHONY : corewar_asm/libft/ft_strnjoinfree.c.i
+
+corewar_asm/libft/ft_strnjoinfree.s: corewar_asm/libft/ft_strnjoinfree.c.s
+
+.PHONY : corewar_asm/libft/ft_strnjoinfree.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strnjoinfree.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strnjoinfree.c.s
+.PHONY : corewar_asm/libft/ft_strnjoinfree.c.s
+
+corewar_asm/libft/ft_strnstr.o: corewar_asm/libft/ft_strnstr.c.o
+
+.PHONY : corewar_asm/libft/ft_strnstr.o
+
+# target to build an object file
+corewar_asm/libft/ft_strnstr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strnstr.c.o
+.PHONY : corewar_asm/libft/ft_strnstr.c.o
+
+corewar_asm/libft/ft_strnstr.i: corewar_asm/libft/ft_strnstr.c.i
+
+.PHONY : corewar_asm/libft/ft_strnstr.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strnstr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strnstr.c.i
+.PHONY : corewar_asm/libft/ft_strnstr.c.i
+
+corewar_asm/libft/ft_strnstr.s: corewar_asm/libft/ft_strnstr.c.s
+
+.PHONY : corewar_asm/libft/ft_strnstr.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strnstr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strnstr.c.s
+.PHONY : corewar_asm/libft/ft_strnstr.c.s
+
+corewar_asm/libft/ft_strrchr.o: corewar_asm/libft/ft_strrchr.c.o
+
+.PHONY : corewar_asm/libft/ft_strrchr.o
+
+# target to build an object file
+corewar_asm/libft/ft_strrchr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strrchr.c.o
+.PHONY : corewar_asm/libft/ft_strrchr.c.o
+
+corewar_asm/libft/ft_strrchr.i: corewar_asm/libft/ft_strrchr.c.i
+
+.PHONY : corewar_asm/libft/ft_strrchr.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strrchr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strrchr.c.i
+.PHONY : corewar_asm/libft/ft_strrchr.c.i
+
+corewar_asm/libft/ft_strrchr.s: corewar_asm/libft/ft_strrchr.c.s
+
+.PHONY : corewar_asm/libft/ft_strrchr.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strrchr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strrchr.c.s
+.PHONY : corewar_asm/libft/ft_strrchr.c.s
+
+corewar_asm/libft/ft_strsplit.o: corewar_asm/libft/ft_strsplit.c.o
+
+.PHONY : corewar_asm/libft/ft_strsplit.o
+
+# target to build an object file
+corewar_asm/libft/ft_strsplit.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strsplit.c.o
+.PHONY : corewar_asm/libft/ft_strsplit.c.o
+
+corewar_asm/libft/ft_strsplit.i: corewar_asm/libft/ft_strsplit.c.i
+
+.PHONY : corewar_asm/libft/ft_strsplit.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strsplit.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strsplit.c.i
+.PHONY : corewar_asm/libft/ft_strsplit.c.i
+
+corewar_asm/libft/ft_strsplit.s: corewar_asm/libft/ft_strsplit.c.s
+
+.PHONY : corewar_asm/libft/ft_strsplit.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strsplit.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strsplit.c.s
+.PHONY : corewar_asm/libft/ft_strsplit.c.s
+
+corewar_asm/libft/ft_strstr.o: corewar_asm/libft/ft_strstr.c.o
+
+.PHONY : corewar_asm/libft/ft_strstr.o
+
+# target to build an object file
+corewar_asm/libft/ft_strstr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strstr.c.o
+.PHONY : corewar_asm/libft/ft_strstr.c.o
+
+corewar_asm/libft/ft_strstr.i: corewar_asm/libft/ft_strstr.c.i
+
+.PHONY : corewar_asm/libft/ft_strstr.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strstr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strstr.c.i
+.PHONY : corewar_asm/libft/ft_strstr.c.i
+
+corewar_asm/libft/ft_strstr.s: corewar_asm/libft/ft_strstr.c.s
+
+.PHONY : corewar_asm/libft/ft_strstr.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strstr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strstr.c.s
+.PHONY : corewar_asm/libft/ft_strstr.c.s
+
+corewar_asm/libft/ft_strsub.o: corewar_asm/libft/ft_strsub.c.o
+
+.PHONY : corewar_asm/libft/ft_strsub.o
+
+# target to build an object file
+corewar_asm/libft/ft_strsub.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strsub.c.o
+.PHONY : corewar_asm/libft/ft_strsub.c.o
+
+corewar_asm/libft/ft_strsub.i: corewar_asm/libft/ft_strsub.c.i
+
+.PHONY : corewar_asm/libft/ft_strsub.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strsub.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strsub.c.i
+.PHONY : corewar_asm/libft/ft_strsub.c.i
+
+corewar_asm/libft/ft_strsub.s: corewar_asm/libft/ft_strsub.c.s
+
+.PHONY : corewar_asm/libft/ft_strsub.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strsub.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strsub.c.s
+.PHONY : corewar_asm/libft/ft_strsub.c.s
+
+corewar_asm/libft/ft_strtrim.o: corewar_asm/libft/ft_strtrim.c.o
+
+.PHONY : corewar_asm/libft/ft_strtrim.o
+
+# target to build an object file
+corewar_asm/libft/ft_strtrim.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strtrim.c.o
+.PHONY : corewar_asm/libft/ft_strtrim.c.o
+
+corewar_asm/libft/ft_strtrim.i: corewar_asm/libft/ft_strtrim.c.i
+
+.PHONY : corewar_asm/libft/ft_strtrim.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_strtrim.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strtrim.c.i
+.PHONY : corewar_asm/libft/ft_strtrim.c.i
+
+corewar_asm/libft/ft_strtrim.s: corewar_asm/libft/ft_strtrim.c.s
+
+.PHONY : corewar_asm/libft/ft_strtrim.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_strtrim.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_strtrim.c.s
+.PHONY : corewar_asm/libft/ft_strtrim.c.s
+
+corewar_asm/libft/ft_tolower.o: corewar_asm/libft/ft_tolower.c.o
+
+.PHONY : corewar_asm/libft/ft_tolower.o
+
+# target to build an object file
+corewar_asm/libft/ft_tolower.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_tolower.c.o
+.PHONY : corewar_asm/libft/ft_tolower.c.o
+
+corewar_asm/libft/ft_tolower.i: corewar_asm/libft/ft_tolower.c.i
+
+.PHONY : corewar_asm/libft/ft_tolower.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_tolower.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_tolower.c.i
+.PHONY : corewar_asm/libft/ft_tolower.c.i
+
+corewar_asm/libft/ft_tolower.s: corewar_asm/libft/ft_tolower.c.s
+
+.PHONY : corewar_asm/libft/ft_tolower.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_tolower.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_tolower.c.s
+.PHONY : corewar_asm/libft/ft_tolower.c.s
+
+corewar_asm/libft/ft_toupper.o: corewar_asm/libft/ft_toupper.c.o
+
+.PHONY : corewar_asm/libft/ft_toupper.o
+
+# target to build an object file
+corewar_asm/libft/ft_toupper.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_toupper.c.o
+.PHONY : corewar_asm/libft/ft_toupper.c.o
+
+corewar_asm/libft/ft_toupper.i: corewar_asm/libft/ft_toupper.c.i
+
+.PHONY : corewar_asm/libft/ft_toupper.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_toupper.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_toupper.c.i
+.PHONY : corewar_asm/libft/ft_toupper.c.i
+
+corewar_asm/libft/ft_toupper.s: corewar_asm/libft/ft_toupper.c.s
+
+.PHONY : corewar_asm/libft/ft_toupper.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_toupper.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_toupper.c.s
+.PHONY : corewar_asm/libft/ft_toupper.c.s
+
+corewar_asm/libft/ft_un_itoa.o: corewar_asm/libft/ft_un_itoa.c.o
+
+.PHONY : corewar_asm/libft/ft_un_itoa.o
+
+# target to build an object file
+corewar_asm/libft/ft_un_itoa.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_un_itoa.c.o
+.PHONY : corewar_asm/libft/ft_un_itoa.c.o
+
+corewar_asm/libft/ft_un_itoa.i: corewar_asm/libft/ft_un_itoa.c.i
+
+.PHONY : corewar_asm/libft/ft_un_itoa.i
+
+# target to preprocess a source file
+corewar_asm/libft/ft_un_itoa.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_un_itoa.c.i
+.PHONY : corewar_asm/libft/ft_un_itoa.c.i
+
+corewar_asm/libft/ft_un_itoa.s: corewar_asm/libft/ft_un_itoa.c.s
+
+.PHONY : corewar_asm/libft/ft_un_itoa.s
+
+# target to generate assembly for a file
+corewar_asm/libft/ft_un_itoa.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/ft_un_itoa.c.s
+.PHONY : corewar_asm/libft/ft_un_itoa.c.s
+
+corewar_asm/libft/get_next_line.o: corewar_asm/libft/get_next_line.c.o
+
+.PHONY : corewar_asm/libft/get_next_line.o
+
+# target to build an object file
+corewar_asm/libft/get_next_line.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/get_next_line.c.o
+.PHONY : corewar_asm/libft/get_next_line.c.o
+
+corewar_asm/libft/get_next_line.i: corewar_asm/libft/get_next_line.c.i
+
+.PHONY : corewar_asm/libft/get_next_line.i
+
+# target to preprocess a source file
+corewar_asm/libft/get_next_line.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/get_next_line.c.i
+.PHONY : corewar_asm/libft/get_next_line.c.i
+
+corewar_asm/libft/get_next_line.s: corewar_asm/libft/get_next_line.c.s
+
+.PHONY : corewar_asm/libft/get_next_line.s
+
+# target to generate assembly for a file
+corewar_asm/libft/get_next_line.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/get_next_line.c.s
+.PHONY : corewar_asm/libft/get_next_line.c.s
+
+corewar_asm/libft/sys_err.o: corewar_asm/libft/sys_err.c.o
+
+.PHONY : corewar_asm/libft/sys_err.o
+
+# target to build an object file
+corewar_asm/libft/sys_err.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/sys_err.c.o
+.PHONY : corewar_asm/libft/sys_err.c.o
+
+corewar_asm/libft/sys_err.i: corewar_asm/libft/sys_err.c.i
+
+.PHONY : corewar_asm/libft/sys_err.i
+
+# target to preprocess a source file
+corewar_asm/libft/sys_err.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/sys_err.c.i
+.PHONY : corewar_asm/libft/sys_err.c.i
+
+corewar_asm/libft/sys_err.s: corewar_asm/libft/sys_err.c.s
+
+.PHONY : corewar_asm/libft/sys_err.s
+
+# target to generate assembly for a file
+corewar_asm/libft/sys_err.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/sys_err.c.s
+.PHONY : corewar_asm/libft/sys_err.c.s
+
+corewar_asm/libft/type_char.o: corewar_asm/libft/type_char.c.o
+
+.PHONY : corewar_asm/libft/type_char.o
+
+# target to build an object file
+corewar_asm/libft/type_char.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/type_char.c.o
+.PHONY : corewar_asm/libft/type_char.c.o
+
+corewar_asm/libft/type_char.i: corewar_asm/libft/type_char.c.i
+
+.PHONY : corewar_asm/libft/type_char.i
+
+# target to preprocess a source file
+corewar_asm/libft/type_char.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/type_char.c.i
+.PHONY : corewar_asm/libft/type_char.c.i
+
+corewar_asm/libft/type_char.s: corewar_asm/libft/type_char.c.s
+
+.PHONY : corewar_asm/libft/type_char.s
+
+# target to generate assembly for a file
+corewar_asm/libft/type_char.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/type_char.c.s
+.PHONY : corewar_asm/libft/type_char.c.s
+
+corewar_asm/libft/type_float.o: corewar_asm/libft/type_float.c.o
+
+.PHONY : corewar_asm/libft/type_float.o
+
+# target to build an object file
+corewar_asm/libft/type_float.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/type_float.c.o
+.PHONY : corewar_asm/libft/type_float.c.o
+
+corewar_asm/libft/type_float.i: corewar_asm/libft/type_float.c.i
+
+.PHONY : corewar_asm/libft/type_float.i
+
+# target to preprocess a source file
+corewar_asm/libft/type_float.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/type_float.c.i
+.PHONY : corewar_asm/libft/type_float.c.i
+
+corewar_asm/libft/type_float.s: corewar_asm/libft/type_float.c.s
+
+.PHONY : corewar_asm/libft/type_float.s
+
+# target to generate assembly for a file
+corewar_asm/libft/type_float.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/type_float.c.s
+.PHONY : corewar_asm/libft/type_float.c.s
+
+corewar_asm/libft/type_float2.o: corewar_asm/libft/type_float2.c.o
+
+.PHONY : corewar_asm/libft/type_float2.o
+
+# target to build an object file
+corewar_asm/libft/type_float2.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/type_float2.c.o
+.PHONY : corewar_asm/libft/type_float2.c.o
+
+corewar_asm/libft/type_float2.i: corewar_asm/libft/type_float2.c.i
+
+.PHONY : corewar_asm/libft/type_float2.i
+
+# target to preprocess a source file
+corewar_asm/libft/type_float2.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/type_float2.c.i
+.PHONY : corewar_asm/libft/type_float2.c.i
+
+corewar_asm/libft/type_float2.s: corewar_asm/libft/type_float2.c.s
+
+.PHONY : corewar_asm/libft/type_float2.s
+
+# target to generate assembly for a file
+corewar_asm/libft/type_float2.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/type_float2.c.s
+.PHONY : corewar_asm/libft/type_float2.c.s
+
+corewar_asm/libft/type_string.o: corewar_asm/libft/type_string.c.o
+
+.PHONY : corewar_asm/libft/type_string.o
+
+# target to build an object file
+corewar_asm/libft/type_string.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/type_string.c.o
+.PHONY : corewar_asm/libft/type_string.c.o
+
+corewar_asm/libft/type_string.i: corewar_asm/libft/type_string.c.i
+
+.PHONY : corewar_asm/libft/type_string.i
+
+# target to preprocess a source file
+corewar_asm/libft/type_string.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/type_string.c.i
+.PHONY : corewar_asm/libft/type_string.c.i
+
+corewar_asm/libft/type_string.s: corewar_asm/libft/type_string.c.s
+
+.PHONY : corewar_asm/libft/type_string.s
+
+# target to generate assembly for a file
+corewar_asm/libft/type_string.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/libft/type_string.c.s
+.PHONY : corewar_asm/libft/type_string.c.s
+
+corewar_asm/source/add_lable_list.o: corewar_asm/source/add_lable_list.c.o
+
+.PHONY : corewar_asm/source/add_lable_list.o
+
+# target to build an object file
+corewar_asm/source/add_lable_list.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/add_lable_list.c.o
+.PHONY : corewar_asm/source/add_lable_list.c.o
+
+corewar_asm/source/add_lable_list.i: corewar_asm/source/add_lable_list.c.i
+
+.PHONY : corewar_asm/source/add_lable_list.i
+
+# target to preprocess a source file
+corewar_asm/source/add_lable_list.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/add_lable_list.c.i
+.PHONY : corewar_asm/source/add_lable_list.c.i
+
+corewar_asm/source/add_lable_list.s: corewar_asm/source/add_lable_list.c.s
+
+.PHONY : corewar_asm/source/add_lable_list.s
+
+# target to generate assembly for a file
+corewar_asm/source/add_lable_list.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/add_lable_list.c.s
+.PHONY : corewar_asm/source/add_lable_list.c.s
+
+corewar_asm/source/check_op_or_xor_and_arg.o: corewar_asm/source/check_op_or_xor_and_arg.c.o
+
+.PHONY : corewar_asm/source/check_op_or_xor_and_arg.o
+
+# target to build an object file
+corewar_asm/source/check_op_or_xor_and_arg.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/check_op_or_xor_and_arg.c.o
+.PHONY : corewar_asm/source/check_op_or_xor_and_arg.c.o
+
+corewar_asm/source/check_op_or_xor_and_arg.i: corewar_asm/source/check_op_or_xor_and_arg.c.i
+
+.PHONY : corewar_asm/source/check_op_or_xor_and_arg.i
+
+# target to preprocess a source file
+corewar_asm/source/check_op_or_xor_and_arg.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/check_op_or_xor_and_arg.c.i
+.PHONY : corewar_asm/source/check_op_or_xor_and_arg.c.i
+
+corewar_asm/source/check_op_or_xor_and_arg.s: corewar_asm/source/check_op_or_xor_and_arg.c.s
+
+.PHONY : corewar_asm/source/check_op_or_xor_and_arg.s
+
+# target to generate assembly for a file
+corewar_asm/source/check_op_or_xor_and_arg.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/check_op_or_xor_and_arg.c.s
+.PHONY : corewar_asm/source/check_op_or_xor_and_arg.c.s
+
+corewar_asm/source/check_op_st_arg.o: corewar_asm/source/check_op_st_arg.c.o
+
+.PHONY : corewar_asm/source/check_op_st_arg.o
+
+# target to build an object file
+corewar_asm/source/check_op_st_arg.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/check_op_st_arg.c.o
+.PHONY : corewar_asm/source/check_op_st_arg.c.o
+
+corewar_asm/source/check_op_st_arg.i: corewar_asm/source/check_op_st_arg.c.i
+
+.PHONY : corewar_asm/source/check_op_st_arg.i
+
+# target to preprocess a source file
+corewar_asm/source/check_op_st_arg.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/check_op_st_arg.c.i
+.PHONY : corewar_asm/source/check_op_st_arg.c.i
+
+corewar_asm/source/check_op_st_arg.s: corewar_asm/source/check_op_st_arg.c.s
+
+.PHONY : corewar_asm/source/check_op_st_arg.s
+
+# target to generate assembly for a file
+corewar_asm/source/check_op_st_arg.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/check_op_st_arg.c.s
+.PHONY : corewar_asm/source/check_op_st_arg.c.s
+
+corewar_asm/source/delete_list.o: corewar_asm/source/delete_list.c.o
+
+.PHONY : corewar_asm/source/delete_list.o
+
+# target to build an object file
+corewar_asm/source/delete_list.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/delete_list.c.o
+.PHONY : corewar_asm/source/delete_list.c.o
+
+corewar_asm/source/delete_list.i: corewar_asm/source/delete_list.c.i
+
+.PHONY : corewar_asm/source/delete_list.i
+
+# target to preprocess a source file
+corewar_asm/source/delete_list.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/delete_list.c.i
+.PHONY : corewar_asm/source/delete_list.c.i
+
+corewar_asm/source/delete_list.s: corewar_asm/source/delete_list.c.s
+
+.PHONY : corewar_asm/source/delete_list.s
+
+# target to generate assembly for a file
+corewar_asm/source/delete_list.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/delete_list.c.s
+.PHONY : corewar_asm/source/delete_list.c.s
+
+corewar_asm/source/four_char_operator.o: corewar_asm/source/four_char_operator.c.o
+
+.PHONY : corewar_asm/source/four_char_operator.o
+
+# target to build an object file
+corewar_asm/source/four_char_operator.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/four_char_operator.c.o
+.PHONY : corewar_asm/source/four_char_operator.c.o
+
+corewar_asm/source/four_char_operator.i: corewar_asm/source/four_char_operator.c.i
+
+.PHONY : corewar_asm/source/four_char_operator.i
+
+# target to preprocess a source file
+corewar_asm/source/four_char_operator.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/four_char_operator.c.i
+.PHONY : corewar_asm/source/four_char_operator.c.i
+
+corewar_asm/source/four_char_operator.s: corewar_asm/source/four_char_operator.c.s
+
+.PHONY : corewar_asm/source/four_char_operator.s
+
+# target to generate assembly for a file
+corewar_asm/source/four_char_operator.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/four_char_operator.c.s
+.PHONY : corewar_asm/source/four_char_operator.c.s
+
+corewar_asm/source/init_agr.o: corewar_asm/source/init_agr.c.o
+
+.PHONY : corewar_asm/source/init_agr.o
+
+# target to build an object file
+corewar_asm/source/init_agr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/init_agr.c.o
+.PHONY : corewar_asm/source/init_agr.c.o
+
+corewar_asm/source/init_agr.i: corewar_asm/source/init_agr.c.i
+
+.PHONY : corewar_asm/source/init_agr.i
+
+# target to preprocess a source file
+corewar_asm/source/init_agr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/init_agr.c.i
+.PHONY : corewar_asm/source/init_agr.c.i
+
+corewar_asm/source/init_agr.s: corewar_asm/source/init_agr.c.s
+
+.PHONY : corewar_asm/source/init_agr.s
+
+# target to generate assembly for a file
+corewar_asm/source/init_agr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/init_agr.c.s
+.PHONY : corewar_asm/source/init_agr.c.s
+
+corewar_asm/source/isprint_char.o: corewar_asm/source/isprint_char.c.o
+
+.PHONY : corewar_asm/source/isprint_char.o
+
+# target to build an object file
+corewar_asm/source/isprint_char.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/isprint_char.c.o
+.PHONY : corewar_asm/source/isprint_char.c.o
+
+corewar_asm/source/isprint_char.i: corewar_asm/source/isprint_char.c.i
+
+.PHONY : corewar_asm/source/isprint_char.i
+
+# target to preprocess a source file
+corewar_asm/source/isprint_char.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/isprint_char.c.i
+.PHONY : corewar_asm/source/isprint_char.c.i
+
+corewar_asm/source/isprint_char.s: corewar_asm/source/isprint_char.c.s
+
+.PHONY : corewar_asm/source/isprint_char.s
+
+# target to generate assembly for a file
+corewar_asm/source/isprint_char.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/isprint_char.c.s
+.PHONY : corewar_asm/source/isprint_char.c.s
+
+corewar_asm/source/main.o: corewar_asm/source/main.c.o
+
+.PHONY : corewar_asm/source/main.o
+
+# target to build an object file
+corewar_asm/source/main.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/main.c.o
+.PHONY : corewar_asm/source/main.c.o
+
+corewar_asm/source/main.i: corewar_asm/source/main.c.i
+
+.PHONY : corewar_asm/source/main.i
+
+# target to preprocess a source file
+corewar_asm/source/main.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/main.c.i
+.PHONY : corewar_asm/source/main.c.i
+
+corewar_asm/source/main.s: corewar_asm/source/main.c.s
+
+.PHONY : corewar_asm/source/main.s
+
+# target to generate assembly for a file
+corewar_asm/source/main.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/main.c.s
+.PHONY : corewar_asm/source/main.c.s
+
+corewar_asm/source/read_comment_champ.o: corewar_asm/source/read_comment_champ.c.o
+
+.PHONY : corewar_asm/source/read_comment_champ.o
+
+# target to build an object file
+corewar_asm/source/read_comment_champ.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/read_comment_champ.c.o
+.PHONY : corewar_asm/source/read_comment_champ.c.o
+
+corewar_asm/source/read_comment_champ.i: corewar_asm/source/read_comment_champ.c.i
+
+.PHONY : corewar_asm/source/read_comment_champ.i
+
+# target to preprocess a source file
+corewar_asm/source/read_comment_champ.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/read_comment_champ.c.i
+.PHONY : corewar_asm/source/read_comment_champ.c.i
+
+corewar_asm/source/read_comment_champ.s: corewar_asm/source/read_comment_champ.c.s
+
+.PHONY : corewar_asm/source/read_comment_champ.s
+
+# target to generate assembly for a file
+corewar_asm/source/read_comment_champ.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/read_comment_champ.c.s
+.PHONY : corewar_asm/source/read_comment_champ.c.s
+
+corewar_asm/source/read_dir_arg.o: corewar_asm/source/read_dir_arg.c.o
+
+.PHONY : corewar_asm/source/read_dir_arg.o
+
+# target to build an object file
+corewar_asm/source/read_dir_arg.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/read_dir_arg.c.o
+.PHONY : corewar_asm/source/read_dir_arg.c.o
+
+corewar_asm/source/read_dir_arg.i: corewar_asm/source/read_dir_arg.c.i
+
+.PHONY : corewar_asm/source/read_dir_arg.i
+
+# target to preprocess a source file
+corewar_asm/source/read_dir_arg.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/read_dir_arg.c.i
+.PHONY : corewar_asm/source/read_dir_arg.c.i
+
+corewar_asm/source/read_dir_arg.s: corewar_asm/source/read_dir_arg.c.s
+
+.PHONY : corewar_asm/source/read_dir_arg.s
+
+# target to generate assembly for a file
+corewar_asm/source/read_dir_arg.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/read_dir_arg.c.s
+.PHONY : corewar_asm/source/read_dir_arg.c.s
+
+corewar_asm/source/read_name_comment.o: corewar_asm/source/read_name_comment.c.o
+
+.PHONY : corewar_asm/source/read_name_comment.o
+
+# target to build an object file
+corewar_asm/source/read_name_comment.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/read_name_comment.c.o
+.PHONY : corewar_asm/source/read_name_comment.c.o
+
+corewar_asm/source/read_name_comment.i: corewar_asm/source/read_name_comment.c.i
+
+.PHONY : corewar_asm/source/read_name_comment.i
+
+# target to preprocess a source file
+corewar_asm/source/read_name_comment.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/read_name_comment.c.i
+.PHONY : corewar_asm/source/read_name_comment.c.i
+
+corewar_asm/source/read_name_comment.s: corewar_asm/source/read_name_comment.c.s
+
+.PHONY : corewar_asm/source/read_name_comment.s
+
+# target to generate assembly for a file
+corewar_asm/source/read_name_comment.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/read_name_comment.c.s
+.PHONY : corewar_asm/source/read_name_comment.c.s
+
+corewar_asm/source/search_lbl.o: corewar_asm/source/search_lbl.c.o
+
+.PHONY : corewar_asm/source/search_lbl.o
+
+# target to build an object file
+corewar_asm/source/search_lbl.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/search_lbl.c.o
+.PHONY : corewar_asm/source/search_lbl.c.o
+
+corewar_asm/source/search_lbl.i: corewar_asm/source/search_lbl.c.i
+
+.PHONY : corewar_asm/source/search_lbl.i
+
+# target to preprocess a source file
+corewar_asm/source/search_lbl.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/search_lbl.c.i
+.PHONY : corewar_asm/source/search_lbl.c.i
+
+corewar_asm/source/search_lbl.s: corewar_asm/source/search_lbl.c.s
+
+.PHONY : corewar_asm/source/search_lbl.s
+
+# target to generate assembly for a file
+corewar_asm/source/search_lbl.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/search_lbl.c.s
+.PHONY : corewar_asm/source/search_lbl.c.s
+
+corewar_asm/source/write_header.o: corewar_asm/source/write_header.c.o
+
+.PHONY : corewar_asm/source/write_header.o
+
+# target to build an object file
+corewar_asm/source/write_header.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/write_header.c.o
+.PHONY : corewar_asm/source/write_header.c.o
+
+corewar_asm/source/write_header.i: corewar_asm/source/write_header.c.i
+
+.PHONY : corewar_asm/source/write_header.i
+
+# target to preprocess a source file
+corewar_asm/source/write_header.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/write_header.c.i
+.PHONY : corewar_asm/source/write_header.c.i
+
+corewar_asm/source/write_header.s: corewar_asm/source/write_header.c.s
+
+.PHONY : corewar_asm/source/write_header.s
+
+# target to generate assembly for a file
+corewar_asm/source/write_header.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_asm/source/write_header.c.s
+.PHONY : corewar_asm/source/write_header.c.s
+
+corewar_diasm/libft/ft_atoi.o: corewar_diasm/libft/ft_atoi.c.o
+
+.PHONY : corewar_diasm/libft/ft_atoi.o
+
+# target to build an object file
+corewar_diasm/libft/ft_atoi.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_atoi.c.o
+.PHONY : corewar_diasm/libft/ft_atoi.c.o
+
+corewar_diasm/libft/ft_atoi.i: corewar_diasm/libft/ft_atoi.c.i
+
+.PHONY : corewar_diasm/libft/ft_atoi.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_atoi.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_atoi.c.i
+.PHONY : corewar_diasm/libft/ft_atoi.c.i
+
+corewar_diasm/libft/ft_atoi.s: corewar_diasm/libft/ft_atoi.c.s
+
+.PHONY : corewar_diasm/libft/ft_atoi.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_atoi.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_atoi.c.s
+.PHONY : corewar_diasm/libft/ft_atoi.c.s
+
+corewar_diasm/libft/ft_bzero.o: corewar_diasm/libft/ft_bzero.c.o
+
+.PHONY : corewar_diasm/libft/ft_bzero.o
+
+# target to build an object file
+corewar_diasm/libft/ft_bzero.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_bzero.c.o
+.PHONY : corewar_diasm/libft/ft_bzero.c.o
+
+corewar_diasm/libft/ft_bzero.i: corewar_diasm/libft/ft_bzero.c.i
+
+.PHONY : corewar_diasm/libft/ft_bzero.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_bzero.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_bzero.c.i
+.PHONY : corewar_diasm/libft/ft_bzero.c.i
+
+corewar_diasm/libft/ft_bzero.s: corewar_diasm/libft/ft_bzero.c.s
+
+.PHONY : corewar_diasm/libft/ft_bzero.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_bzero.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_bzero.c.s
+.PHONY : corewar_diasm/libft/ft_bzero.c.s
+
+corewar_diasm/libft/ft_check_dimension.o: corewar_diasm/libft/ft_check_dimension.c.o
+
+.PHONY : corewar_diasm/libft/ft_check_dimension.o
+
+# target to build an object file
+corewar_diasm/libft/ft_check_dimension.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_check_dimension.c.o
+.PHONY : corewar_diasm/libft/ft_check_dimension.c.o
+
+corewar_diasm/libft/ft_check_dimension.i: corewar_diasm/libft/ft_check_dimension.c.i
+
+.PHONY : corewar_diasm/libft/ft_check_dimension.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_check_dimension.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_check_dimension.c.i
+.PHONY : corewar_diasm/libft/ft_check_dimension.c.i
+
+corewar_diasm/libft/ft_check_dimension.s: corewar_diasm/libft/ft_check_dimension.c.s
+
+.PHONY : corewar_diasm/libft/ft_check_dimension.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_check_dimension.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_check_dimension.c.s
+.PHONY : corewar_diasm/libft/ft_check_dimension.c.s
+
+corewar_diasm/libft/ft_check_flag_spetia_type.o: corewar_diasm/libft/ft_check_flag_spetia_type.c.o
+
+.PHONY : corewar_diasm/libft/ft_check_flag_spetia_type.o
+
+# target to build an object file
+corewar_diasm/libft/ft_check_flag_spetia_type.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_check_flag_spetia_type.c.o
+.PHONY : corewar_diasm/libft/ft_check_flag_spetia_type.c.o
+
+corewar_diasm/libft/ft_check_flag_spetia_type.i: corewar_diasm/libft/ft_check_flag_spetia_type.c.i
+
+.PHONY : corewar_diasm/libft/ft_check_flag_spetia_type.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_check_flag_spetia_type.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_check_flag_spetia_type.c.i
+.PHONY : corewar_diasm/libft/ft_check_flag_spetia_type.c.i
+
+corewar_diasm/libft/ft_check_flag_spetia_type.s: corewar_diasm/libft/ft_check_flag_spetia_type.c.s
+
+.PHONY : corewar_diasm/libft/ft_check_flag_spetia_type.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_check_flag_spetia_type.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_check_flag_spetia_type.c.s
+.PHONY : corewar_diasm/libft/ft_check_flag_spetia_type.c.s
+
+corewar_diasm/libft/ft_check_un_dimension.o: corewar_diasm/libft/ft_check_un_dimension.c.o
+
+.PHONY : corewar_diasm/libft/ft_check_un_dimension.o
+
+# target to build an object file
+corewar_diasm/libft/ft_check_un_dimension.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_check_un_dimension.c.o
+.PHONY : corewar_diasm/libft/ft_check_un_dimension.c.o
+
+corewar_diasm/libft/ft_check_un_dimension.i: corewar_diasm/libft/ft_check_un_dimension.c.i
+
+.PHONY : corewar_diasm/libft/ft_check_un_dimension.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_check_un_dimension.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_check_un_dimension.c.i
+.PHONY : corewar_diasm/libft/ft_check_un_dimension.c.i
+
+corewar_diasm/libft/ft_check_un_dimension.s: corewar_diasm/libft/ft_check_un_dimension.c.s
+
+.PHONY : corewar_diasm/libft/ft_check_un_dimension.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_check_un_dimension.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_check_un_dimension.c.s
+.PHONY : corewar_diasm/libft/ft_check_un_dimension.c.s
+
+corewar_diasm/libft/ft_concat_str.o: corewar_diasm/libft/ft_concat_str.c.o
+
+.PHONY : corewar_diasm/libft/ft_concat_str.o
+
+# target to build an object file
+corewar_diasm/libft/ft_concat_str.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_concat_str.c.o
+.PHONY : corewar_diasm/libft/ft_concat_str.c.o
+
+corewar_diasm/libft/ft_concat_str.i: corewar_diasm/libft/ft_concat_str.c.i
+
+.PHONY : corewar_diasm/libft/ft_concat_str.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_concat_str.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_concat_str.c.i
+.PHONY : corewar_diasm/libft/ft_concat_str.c.i
+
+corewar_diasm/libft/ft_concat_str.s: corewar_diasm/libft/ft_concat_str.c.s
+
+.PHONY : corewar_diasm/libft/ft_concat_str.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_concat_str.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_concat_str.c.s
+.PHONY : corewar_diasm/libft/ft_concat_str.c.s
+
+corewar_diasm/libft/ft_cop_str_left_or_right.o: corewar_diasm/libft/ft_cop_str_left_or_right.c.o
+
+.PHONY : corewar_diasm/libft/ft_cop_str_left_or_right.o
+
+# target to build an object file
+corewar_diasm/libft/ft_cop_str_left_or_right.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_cop_str_left_or_right.c.o
+.PHONY : corewar_diasm/libft/ft_cop_str_left_or_right.c.o
+
+corewar_diasm/libft/ft_cop_str_left_or_right.i: corewar_diasm/libft/ft_cop_str_left_or_right.c.i
+
+.PHONY : corewar_diasm/libft/ft_cop_str_left_or_right.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_cop_str_left_or_right.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_cop_str_left_or_right.c.i
+.PHONY : corewar_diasm/libft/ft_cop_str_left_or_right.c.i
+
+corewar_diasm/libft/ft_cop_str_left_or_right.s: corewar_diasm/libft/ft_cop_str_left_or_right.c.s
+
+.PHONY : corewar_diasm/libft/ft_cop_str_left_or_right.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_cop_str_left_or_right.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_cop_str_left_or_right.c.s
+.PHONY : corewar_diasm/libft/ft_cop_str_left_or_right.c.s
+
+corewar_diasm/libft/ft_copy_string_left.o: corewar_diasm/libft/ft_copy_string_left.c.o
+
+.PHONY : corewar_diasm/libft/ft_copy_string_left.o
+
+# target to build an object file
+corewar_diasm/libft/ft_copy_string_left.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_copy_string_left.c.o
+.PHONY : corewar_diasm/libft/ft_copy_string_left.c.o
+
+corewar_diasm/libft/ft_copy_string_left.i: corewar_diasm/libft/ft_copy_string_left.c.i
+
+.PHONY : corewar_diasm/libft/ft_copy_string_left.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_copy_string_left.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_copy_string_left.c.i
+.PHONY : corewar_diasm/libft/ft_copy_string_left.c.i
+
+corewar_diasm/libft/ft_copy_string_left.s: corewar_diasm/libft/ft_copy_string_left.c.s
+
+.PHONY : corewar_diasm/libft/ft_copy_string_left.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_copy_string_left.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_copy_string_left.c.s
+.PHONY : corewar_diasm/libft/ft_copy_string_left.c.s
+
+corewar_diasm/libft/ft_copy_string_left_wchar.o: corewar_diasm/libft/ft_copy_string_left_wchar.c.o
+
+.PHONY : corewar_diasm/libft/ft_copy_string_left_wchar.o
+
+# target to build an object file
+corewar_diasm/libft/ft_copy_string_left_wchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_copy_string_left_wchar.c.o
+.PHONY : corewar_diasm/libft/ft_copy_string_left_wchar.c.o
+
+corewar_diasm/libft/ft_copy_string_left_wchar.i: corewar_diasm/libft/ft_copy_string_left_wchar.c.i
+
+.PHONY : corewar_diasm/libft/ft_copy_string_left_wchar.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_copy_string_left_wchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_copy_string_left_wchar.c.i
+.PHONY : corewar_diasm/libft/ft_copy_string_left_wchar.c.i
+
+corewar_diasm/libft/ft_copy_string_left_wchar.s: corewar_diasm/libft/ft_copy_string_left_wchar.c.s
+
+.PHONY : corewar_diasm/libft/ft_copy_string_left_wchar.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_copy_string_left_wchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_copy_string_left_wchar.c.s
+.PHONY : corewar_diasm/libft/ft_copy_string_left_wchar.c.s
+
+corewar_diasm/libft/ft_copy_string_right.o: corewar_diasm/libft/ft_copy_string_right.c.o
+
+.PHONY : corewar_diasm/libft/ft_copy_string_right.o
+
+# target to build an object file
+corewar_diasm/libft/ft_copy_string_right.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_copy_string_right.c.o
+.PHONY : corewar_diasm/libft/ft_copy_string_right.c.o
+
+corewar_diasm/libft/ft_copy_string_right.i: corewar_diasm/libft/ft_copy_string_right.c.i
+
+.PHONY : corewar_diasm/libft/ft_copy_string_right.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_copy_string_right.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_copy_string_right.c.i
+.PHONY : corewar_diasm/libft/ft_copy_string_right.c.i
+
+corewar_diasm/libft/ft_copy_string_right.s: corewar_diasm/libft/ft_copy_string_right.c.s
+
+.PHONY : corewar_diasm/libft/ft_copy_string_right.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_copy_string_right.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_copy_string_right.c.s
+.PHONY : corewar_diasm/libft/ft_copy_string_right.c.s
+
+corewar_diasm/libft/ft_copy_string_right_wchar.o: corewar_diasm/libft/ft_copy_string_right_wchar.c.o
+
+.PHONY : corewar_diasm/libft/ft_copy_string_right_wchar.o
+
+# target to build an object file
+corewar_diasm/libft/ft_copy_string_right_wchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_copy_string_right_wchar.c.o
+.PHONY : corewar_diasm/libft/ft_copy_string_right_wchar.c.o
+
+corewar_diasm/libft/ft_copy_string_right_wchar.i: corewar_diasm/libft/ft_copy_string_right_wchar.c.i
+
+.PHONY : corewar_diasm/libft/ft_copy_string_right_wchar.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_copy_string_right_wchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_copy_string_right_wchar.c.i
+.PHONY : corewar_diasm/libft/ft_copy_string_right_wchar.c.i
+
+corewar_diasm/libft/ft_copy_string_right_wchar.s: corewar_diasm/libft/ft_copy_string_right_wchar.c.s
+
+.PHONY : corewar_diasm/libft/ft_copy_string_right_wchar.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_copy_string_right_wchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_copy_string_right_wchar.c.s
+.PHONY : corewar_diasm/libft/ft_copy_string_right_wchar.c.s
+
+corewar_diasm/libft/ft_create_new_lst_strchar.o: corewar_diasm/libft/ft_create_new_lst_strchar.c.o
+
+.PHONY : corewar_diasm/libft/ft_create_new_lst_strchar.o
+
+# target to build an object file
+corewar_diasm/libft/ft_create_new_lst_strchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_create_new_lst_strchar.c.o
+.PHONY : corewar_diasm/libft/ft_create_new_lst_strchar.c.o
+
+corewar_diasm/libft/ft_create_new_lst_strchar.i: corewar_diasm/libft/ft_create_new_lst_strchar.c.i
+
+.PHONY : corewar_diasm/libft/ft_create_new_lst_strchar.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_create_new_lst_strchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_create_new_lst_strchar.c.i
+.PHONY : corewar_diasm/libft/ft_create_new_lst_strchar.c.i
+
+corewar_diasm/libft/ft_create_new_lst_strchar.s: corewar_diasm/libft/ft_create_new_lst_strchar.c.s
+
+.PHONY : corewar_diasm/libft/ft_create_new_lst_strchar.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_create_new_lst_strchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_create_new_lst_strchar.c.s
+.PHONY : corewar_diasm/libft/ft_create_new_lst_strchar.c.s
+
+corewar_diasm/libft/ft_float_inf.o: corewar_diasm/libft/ft_float_inf.c.o
+
+.PHONY : corewar_diasm/libft/ft_float_inf.o
+
+# target to build an object file
+corewar_diasm/libft/ft_float_inf.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_float_inf.c.o
+.PHONY : corewar_diasm/libft/ft_float_inf.c.o
+
+corewar_diasm/libft/ft_float_inf.i: corewar_diasm/libft/ft_float_inf.c.i
+
+.PHONY : corewar_diasm/libft/ft_float_inf.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_float_inf.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_float_inf.c.i
+.PHONY : corewar_diasm/libft/ft_float_inf.c.i
+
+corewar_diasm/libft/ft_float_inf.s: corewar_diasm/libft/ft_float_inf.c.s
+
+.PHONY : corewar_diasm/libft/ft_float_inf.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_float_inf.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_float_inf.c.s
+.PHONY : corewar_diasm/libft/ft_float_inf.c.s
+
+corewar_diasm/libft/ft_is_flag_type_size.o: corewar_diasm/libft/ft_is_flag_type_size.c.o
+
+.PHONY : corewar_diasm/libft/ft_is_flag_type_size.o
+
+# target to build an object file
+corewar_diasm/libft/ft_is_flag_type_size.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_is_flag_type_size.c.o
+.PHONY : corewar_diasm/libft/ft_is_flag_type_size.c.o
+
+corewar_diasm/libft/ft_is_flag_type_size.i: corewar_diasm/libft/ft_is_flag_type_size.c.i
+
+.PHONY : corewar_diasm/libft/ft_is_flag_type_size.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_is_flag_type_size.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_is_flag_type_size.c.i
+.PHONY : corewar_diasm/libft/ft_is_flag_type_size.c.i
+
+corewar_diasm/libft/ft_is_flag_type_size.s: corewar_diasm/libft/ft_is_flag_type_size.c.s
+
+.PHONY : corewar_diasm/libft/ft_is_flag_type_size.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_is_flag_type_size.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_is_flag_type_size.c.s
+.PHONY : corewar_diasm/libft/ft_is_flag_type_size.c.s
+
+corewar_diasm/libft/ft_isalnum.o: corewar_diasm/libft/ft_isalnum.c.o
+
+.PHONY : corewar_diasm/libft/ft_isalnum.o
+
+# target to build an object file
+corewar_diasm/libft/ft_isalnum.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_isalnum.c.o
+.PHONY : corewar_diasm/libft/ft_isalnum.c.o
+
+corewar_diasm/libft/ft_isalnum.i: corewar_diasm/libft/ft_isalnum.c.i
+
+.PHONY : corewar_diasm/libft/ft_isalnum.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_isalnum.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_isalnum.c.i
+.PHONY : corewar_diasm/libft/ft_isalnum.c.i
+
+corewar_diasm/libft/ft_isalnum.s: corewar_diasm/libft/ft_isalnum.c.s
+
+.PHONY : corewar_diasm/libft/ft_isalnum.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_isalnum.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_isalnum.c.s
+.PHONY : corewar_diasm/libft/ft_isalnum.c.s
+
+corewar_diasm/libft/ft_isalpha.o: corewar_diasm/libft/ft_isalpha.c.o
+
+.PHONY : corewar_diasm/libft/ft_isalpha.o
+
+# target to build an object file
+corewar_diasm/libft/ft_isalpha.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_isalpha.c.o
+.PHONY : corewar_diasm/libft/ft_isalpha.c.o
+
+corewar_diasm/libft/ft_isalpha.i: corewar_diasm/libft/ft_isalpha.c.i
+
+.PHONY : corewar_diasm/libft/ft_isalpha.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_isalpha.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_isalpha.c.i
+.PHONY : corewar_diasm/libft/ft_isalpha.c.i
+
+corewar_diasm/libft/ft_isalpha.s: corewar_diasm/libft/ft_isalpha.c.s
+
+.PHONY : corewar_diasm/libft/ft_isalpha.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_isalpha.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_isalpha.c.s
+.PHONY : corewar_diasm/libft/ft_isalpha.c.s
+
+corewar_diasm/libft/ft_isascii.o: corewar_diasm/libft/ft_isascii.c.o
+
+.PHONY : corewar_diasm/libft/ft_isascii.o
+
+# target to build an object file
+corewar_diasm/libft/ft_isascii.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_isascii.c.o
+.PHONY : corewar_diasm/libft/ft_isascii.c.o
+
+corewar_diasm/libft/ft_isascii.i: corewar_diasm/libft/ft_isascii.c.i
+
+.PHONY : corewar_diasm/libft/ft_isascii.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_isascii.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_isascii.c.i
+.PHONY : corewar_diasm/libft/ft_isascii.c.i
+
+corewar_diasm/libft/ft_isascii.s: corewar_diasm/libft/ft_isascii.c.s
+
+.PHONY : corewar_diasm/libft/ft_isascii.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_isascii.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_isascii.c.s
+.PHONY : corewar_diasm/libft/ft_isascii.c.s
+
+corewar_diasm/libft/ft_isdigit.o: corewar_diasm/libft/ft_isdigit.c.o
+
+.PHONY : corewar_diasm/libft/ft_isdigit.o
+
+# target to build an object file
+corewar_diasm/libft/ft_isdigit.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_isdigit.c.o
+.PHONY : corewar_diasm/libft/ft_isdigit.c.o
+
+corewar_diasm/libft/ft_isdigit.i: corewar_diasm/libft/ft_isdigit.c.i
+
+.PHONY : corewar_diasm/libft/ft_isdigit.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_isdigit.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_isdigit.c.i
+.PHONY : corewar_diasm/libft/ft_isdigit.c.i
+
+corewar_diasm/libft/ft_isdigit.s: corewar_diasm/libft/ft_isdigit.c.s
+
+.PHONY : corewar_diasm/libft/ft_isdigit.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_isdigit.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_isdigit.c.s
+.PHONY : corewar_diasm/libft/ft_isdigit.c.s
+
+corewar_diasm/libft/ft_isprint.o: corewar_diasm/libft/ft_isprint.c.o
+
+.PHONY : corewar_diasm/libft/ft_isprint.o
+
+# target to build an object file
+corewar_diasm/libft/ft_isprint.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_isprint.c.o
+.PHONY : corewar_diasm/libft/ft_isprint.c.o
+
+corewar_diasm/libft/ft_isprint.i: corewar_diasm/libft/ft_isprint.c.i
+
+.PHONY : corewar_diasm/libft/ft_isprint.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_isprint.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_isprint.c.i
+.PHONY : corewar_diasm/libft/ft_isprint.c.i
+
+corewar_diasm/libft/ft_isprint.s: corewar_diasm/libft/ft_isprint.c.s
+
+.PHONY : corewar_diasm/libft/ft_isprint.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_isprint.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_isprint.c.s
+.PHONY : corewar_diasm/libft/ft_isprint.c.s
+
+corewar_diasm/libft/ft_itoa.o: corewar_diasm/libft/ft_itoa.c.o
+
+.PHONY : corewar_diasm/libft/ft_itoa.o
+
+# target to build an object file
+corewar_diasm/libft/ft_itoa.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_itoa.c.o
+.PHONY : corewar_diasm/libft/ft_itoa.c.o
+
+corewar_diasm/libft/ft_itoa.i: corewar_diasm/libft/ft_itoa.c.i
+
+.PHONY : corewar_diasm/libft/ft_itoa.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_itoa.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_itoa.c.i
+.PHONY : corewar_diasm/libft/ft_itoa.c.i
+
+corewar_diasm/libft/ft_itoa.s: corewar_diasm/libft/ft_itoa.c.s
+
+.PHONY : corewar_diasm/libft/ft_itoa.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_itoa.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_itoa.c.s
+.PHONY : corewar_diasm/libft/ft_itoa.c.s
+
+corewar_diasm/libft/ft_itoa_llint.o: corewar_diasm/libft/ft_itoa_llint.c.o
+
+.PHONY : corewar_diasm/libft/ft_itoa_llint.o
+
+# target to build an object file
+corewar_diasm/libft/ft_itoa_llint.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_itoa_llint.c.o
+.PHONY : corewar_diasm/libft/ft_itoa_llint.c.o
+
+corewar_diasm/libft/ft_itoa_llint.i: corewar_diasm/libft/ft_itoa_llint.c.i
+
+.PHONY : corewar_diasm/libft/ft_itoa_llint.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_itoa_llint.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_itoa_llint.c.i
+.PHONY : corewar_diasm/libft/ft_itoa_llint.c.i
+
+corewar_diasm/libft/ft_itoa_llint.s: corewar_diasm/libft/ft_itoa_llint.c.s
+
+.PHONY : corewar_diasm/libft/ft_itoa_llint.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_itoa_llint.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_itoa_llint.c.s
+.PHONY : corewar_diasm/libft/ft_itoa_llint.c.s
+
+corewar_diasm/libft/ft_itoo.o: corewar_diasm/libft/ft_itoo.c.o
+
+.PHONY : corewar_diasm/libft/ft_itoo.o
+
+# target to build an object file
+corewar_diasm/libft/ft_itoo.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_itoo.c.o
+.PHONY : corewar_diasm/libft/ft_itoo.c.o
+
+corewar_diasm/libft/ft_itoo.i: corewar_diasm/libft/ft_itoo.c.i
+
+.PHONY : corewar_diasm/libft/ft_itoo.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_itoo.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_itoo.c.i
+.PHONY : corewar_diasm/libft/ft_itoo.c.i
+
+corewar_diasm/libft/ft_itoo.s: corewar_diasm/libft/ft_itoo.c.s
+
+.PHONY : corewar_diasm/libft/ft_itoo.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_itoo.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_itoo.c.s
+.PHONY : corewar_diasm/libft/ft_itoo.c.s
+
+corewar_diasm/libft/ft_itox.o: corewar_diasm/libft/ft_itox.c.o
+
+.PHONY : corewar_diasm/libft/ft_itox.o
+
+# target to build an object file
+corewar_diasm/libft/ft_itox.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_itox.c.o
+.PHONY : corewar_diasm/libft/ft_itox.c.o
+
+corewar_diasm/libft/ft_itox.i: corewar_diasm/libft/ft_itox.c.i
+
+.PHONY : corewar_diasm/libft/ft_itox.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_itox.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_itox.c.i
+.PHONY : corewar_diasm/libft/ft_itox.c.i
+
+corewar_diasm/libft/ft_itox.s: corewar_diasm/libft/ft_itox.c.s
+
+.PHONY : corewar_diasm/libft/ft_itox.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_itox.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_itox.c.s
+.PHONY : corewar_diasm/libft/ft_itox.c.s
+
+corewar_diasm/libft/ft_lstadd.o: corewar_diasm/libft/ft_lstadd.c.o
+
+.PHONY : corewar_diasm/libft/ft_lstadd.o
+
+# target to build an object file
+corewar_diasm/libft/ft_lstadd.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_lstadd.c.o
+.PHONY : corewar_diasm/libft/ft_lstadd.c.o
+
+corewar_diasm/libft/ft_lstadd.i: corewar_diasm/libft/ft_lstadd.c.i
+
+.PHONY : corewar_diasm/libft/ft_lstadd.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_lstadd.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_lstadd.c.i
+.PHONY : corewar_diasm/libft/ft_lstadd.c.i
+
+corewar_diasm/libft/ft_lstadd.s: corewar_diasm/libft/ft_lstadd.c.s
+
+.PHONY : corewar_diasm/libft/ft_lstadd.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_lstadd.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_lstadd.c.s
+.PHONY : corewar_diasm/libft/ft_lstadd.c.s
+
+corewar_diasm/libft/ft_lstdel.o: corewar_diasm/libft/ft_lstdel.c.o
+
+.PHONY : corewar_diasm/libft/ft_lstdel.o
+
+# target to build an object file
+corewar_diasm/libft/ft_lstdel.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_lstdel.c.o
+.PHONY : corewar_diasm/libft/ft_lstdel.c.o
+
+corewar_diasm/libft/ft_lstdel.i: corewar_diasm/libft/ft_lstdel.c.i
+
+.PHONY : corewar_diasm/libft/ft_lstdel.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_lstdel.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_lstdel.c.i
+.PHONY : corewar_diasm/libft/ft_lstdel.c.i
+
+corewar_diasm/libft/ft_lstdel.s: corewar_diasm/libft/ft_lstdel.c.s
+
+.PHONY : corewar_diasm/libft/ft_lstdel.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_lstdel.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_lstdel.c.s
+.PHONY : corewar_diasm/libft/ft_lstdel.c.s
+
+corewar_diasm/libft/ft_lstdelone.o: corewar_diasm/libft/ft_lstdelone.c.o
+
+.PHONY : corewar_diasm/libft/ft_lstdelone.o
+
+# target to build an object file
+corewar_diasm/libft/ft_lstdelone.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_lstdelone.c.o
+.PHONY : corewar_diasm/libft/ft_lstdelone.c.o
+
+corewar_diasm/libft/ft_lstdelone.i: corewar_diasm/libft/ft_lstdelone.c.i
+
+.PHONY : corewar_diasm/libft/ft_lstdelone.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_lstdelone.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_lstdelone.c.i
+.PHONY : corewar_diasm/libft/ft_lstdelone.c.i
+
+corewar_diasm/libft/ft_lstdelone.s: corewar_diasm/libft/ft_lstdelone.c.s
+
+.PHONY : corewar_diasm/libft/ft_lstdelone.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_lstdelone.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_lstdelone.c.s
+.PHONY : corewar_diasm/libft/ft_lstdelone.c.s
+
+corewar_diasm/libft/ft_lstiter.o: corewar_diasm/libft/ft_lstiter.c.o
+
+.PHONY : corewar_diasm/libft/ft_lstiter.o
+
+# target to build an object file
+corewar_diasm/libft/ft_lstiter.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_lstiter.c.o
+.PHONY : corewar_diasm/libft/ft_lstiter.c.o
+
+corewar_diasm/libft/ft_lstiter.i: corewar_diasm/libft/ft_lstiter.c.i
+
+.PHONY : corewar_diasm/libft/ft_lstiter.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_lstiter.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_lstiter.c.i
+.PHONY : corewar_diasm/libft/ft_lstiter.c.i
+
+corewar_diasm/libft/ft_lstiter.s: corewar_diasm/libft/ft_lstiter.c.s
+
+.PHONY : corewar_diasm/libft/ft_lstiter.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_lstiter.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_lstiter.c.s
+.PHONY : corewar_diasm/libft/ft_lstiter.c.s
+
+corewar_diasm/libft/ft_lstmap.o: corewar_diasm/libft/ft_lstmap.c.o
+
+.PHONY : corewar_diasm/libft/ft_lstmap.o
+
+# target to build an object file
+corewar_diasm/libft/ft_lstmap.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_lstmap.c.o
+.PHONY : corewar_diasm/libft/ft_lstmap.c.o
+
+corewar_diasm/libft/ft_lstmap.i: corewar_diasm/libft/ft_lstmap.c.i
+
+.PHONY : corewar_diasm/libft/ft_lstmap.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_lstmap.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_lstmap.c.i
+.PHONY : corewar_diasm/libft/ft_lstmap.c.i
+
+corewar_diasm/libft/ft_lstmap.s: corewar_diasm/libft/ft_lstmap.c.s
+
+.PHONY : corewar_diasm/libft/ft_lstmap.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_lstmap.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_lstmap.c.s
+.PHONY : corewar_diasm/libft/ft_lstmap.c.s
+
+corewar_diasm/libft/ft_lstnew.o: corewar_diasm/libft/ft_lstnew.c.o
+
+.PHONY : corewar_diasm/libft/ft_lstnew.o
+
+# target to build an object file
+corewar_diasm/libft/ft_lstnew.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_lstnew.c.o
+.PHONY : corewar_diasm/libft/ft_lstnew.c.o
+
+corewar_diasm/libft/ft_lstnew.i: corewar_diasm/libft/ft_lstnew.c.i
+
+.PHONY : corewar_diasm/libft/ft_lstnew.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_lstnew.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_lstnew.c.i
+.PHONY : corewar_diasm/libft/ft_lstnew.c.i
+
+corewar_diasm/libft/ft_lstnew.s: corewar_diasm/libft/ft_lstnew.c.s
+
+.PHONY : corewar_diasm/libft/ft_lstnew.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_lstnew.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_lstnew.c.s
+.PHONY : corewar_diasm/libft/ft_lstnew.c.s
+
+corewar_diasm/libft/ft_memalloc.o: corewar_diasm/libft/ft_memalloc.c.o
+
+.PHONY : corewar_diasm/libft/ft_memalloc.o
+
+# target to build an object file
+corewar_diasm/libft/ft_memalloc.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_memalloc.c.o
+.PHONY : corewar_diasm/libft/ft_memalloc.c.o
+
+corewar_diasm/libft/ft_memalloc.i: corewar_diasm/libft/ft_memalloc.c.i
+
+.PHONY : corewar_diasm/libft/ft_memalloc.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_memalloc.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_memalloc.c.i
+.PHONY : corewar_diasm/libft/ft_memalloc.c.i
+
+corewar_diasm/libft/ft_memalloc.s: corewar_diasm/libft/ft_memalloc.c.s
+
+.PHONY : corewar_diasm/libft/ft_memalloc.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_memalloc.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_memalloc.c.s
+.PHONY : corewar_diasm/libft/ft_memalloc.c.s
+
+corewar_diasm/libft/ft_memccpy.o: corewar_diasm/libft/ft_memccpy.c.o
+
+.PHONY : corewar_diasm/libft/ft_memccpy.o
+
+# target to build an object file
+corewar_diasm/libft/ft_memccpy.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_memccpy.c.o
+.PHONY : corewar_diasm/libft/ft_memccpy.c.o
+
+corewar_diasm/libft/ft_memccpy.i: corewar_diasm/libft/ft_memccpy.c.i
+
+.PHONY : corewar_diasm/libft/ft_memccpy.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_memccpy.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_memccpy.c.i
+.PHONY : corewar_diasm/libft/ft_memccpy.c.i
+
+corewar_diasm/libft/ft_memccpy.s: corewar_diasm/libft/ft_memccpy.c.s
+
+.PHONY : corewar_diasm/libft/ft_memccpy.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_memccpy.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_memccpy.c.s
+.PHONY : corewar_diasm/libft/ft_memccpy.c.s
+
+corewar_diasm/libft/ft_memchr.o: corewar_diasm/libft/ft_memchr.c.o
+
+.PHONY : corewar_diasm/libft/ft_memchr.o
+
+# target to build an object file
+corewar_diasm/libft/ft_memchr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_memchr.c.o
+.PHONY : corewar_diasm/libft/ft_memchr.c.o
+
+corewar_diasm/libft/ft_memchr.i: corewar_diasm/libft/ft_memchr.c.i
+
+.PHONY : corewar_diasm/libft/ft_memchr.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_memchr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_memchr.c.i
+.PHONY : corewar_diasm/libft/ft_memchr.c.i
+
+corewar_diasm/libft/ft_memchr.s: corewar_diasm/libft/ft_memchr.c.s
+
+.PHONY : corewar_diasm/libft/ft_memchr.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_memchr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_memchr.c.s
+.PHONY : corewar_diasm/libft/ft_memchr.c.s
+
+corewar_diasm/libft/ft_memcmp.o: corewar_diasm/libft/ft_memcmp.c.o
+
+.PHONY : corewar_diasm/libft/ft_memcmp.o
+
+# target to build an object file
+corewar_diasm/libft/ft_memcmp.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_memcmp.c.o
+.PHONY : corewar_diasm/libft/ft_memcmp.c.o
+
+corewar_diasm/libft/ft_memcmp.i: corewar_diasm/libft/ft_memcmp.c.i
+
+.PHONY : corewar_diasm/libft/ft_memcmp.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_memcmp.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_memcmp.c.i
+.PHONY : corewar_diasm/libft/ft_memcmp.c.i
+
+corewar_diasm/libft/ft_memcmp.s: corewar_diasm/libft/ft_memcmp.c.s
+
+.PHONY : corewar_diasm/libft/ft_memcmp.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_memcmp.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_memcmp.c.s
+.PHONY : corewar_diasm/libft/ft_memcmp.c.s
+
+corewar_diasm/libft/ft_memcpy.o: corewar_diasm/libft/ft_memcpy.c.o
+
+.PHONY : corewar_diasm/libft/ft_memcpy.o
+
+# target to build an object file
+corewar_diasm/libft/ft_memcpy.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_memcpy.c.o
+.PHONY : corewar_diasm/libft/ft_memcpy.c.o
+
+corewar_diasm/libft/ft_memcpy.i: corewar_diasm/libft/ft_memcpy.c.i
+
+.PHONY : corewar_diasm/libft/ft_memcpy.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_memcpy.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_memcpy.c.i
+.PHONY : corewar_diasm/libft/ft_memcpy.c.i
+
+corewar_diasm/libft/ft_memcpy.s: corewar_diasm/libft/ft_memcpy.c.s
+
+.PHONY : corewar_diasm/libft/ft_memcpy.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_memcpy.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_memcpy.c.s
+.PHONY : corewar_diasm/libft/ft_memcpy.c.s
+
+corewar_diasm/libft/ft_memdel.o: corewar_diasm/libft/ft_memdel.c.o
+
+.PHONY : corewar_diasm/libft/ft_memdel.o
+
+# target to build an object file
+corewar_diasm/libft/ft_memdel.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_memdel.c.o
+.PHONY : corewar_diasm/libft/ft_memdel.c.o
+
+corewar_diasm/libft/ft_memdel.i: corewar_diasm/libft/ft_memdel.c.i
+
+.PHONY : corewar_diasm/libft/ft_memdel.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_memdel.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_memdel.c.i
+.PHONY : corewar_diasm/libft/ft_memdel.c.i
+
+corewar_diasm/libft/ft_memdel.s: corewar_diasm/libft/ft_memdel.c.s
+
+.PHONY : corewar_diasm/libft/ft_memdel.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_memdel.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_memdel.c.s
+.PHONY : corewar_diasm/libft/ft_memdel.c.s
+
+corewar_diasm/libft/ft_memmove.o: corewar_diasm/libft/ft_memmove.c.o
+
+.PHONY : corewar_diasm/libft/ft_memmove.o
+
+# target to build an object file
+corewar_diasm/libft/ft_memmove.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_memmove.c.o
+.PHONY : corewar_diasm/libft/ft_memmove.c.o
+
+corewar_diasm/libft/ft_memmove.i: corewar_diasm/libft/ft_memmove.c.i
+
+.PHONY : corewar_diasm/libft/ft_memmove.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_memmove.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_memmove.c.i
+.PHONY : corewar_diasm/libft/ft_memmove.c.i
+
+corewar_diasm/libft/ft_memmove.s: corewar_diasm/libft/ft_memmove.c.s
+
+.PHONY : corewar_diasm/libft/ft_memmove.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_memmove.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_memmove.c.s
+.PHONY : corewar_diasm/libft/ft_memmove.c.s
+
+corewar_diasm/libft/ft_memset.o: corewar_diasm/libft/ft_memset.c.o
+
+.PHONY : corewar_diasm/libft/ft_memset.o
+
+# target to build an object file
+corewar_diasm/libft/ft_memset.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_memset.c.o
+.PHONY : corewar_diasm/libft/ft_memset.c.o
+
+corewar_diasm/libft/ft_memset.i: corewar_diasm/libft/ft_memset.c.i
+
+.PHONY : corewar_diasm/libft/ft_memset.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_memset.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_memset.c.i
+.PHONY : corewar_diasm/libft/ft_memset.c.i
+
+corewar_diasm/libft/ft_memset.s: corewar_diasm/libft/ft_memset.c.s
+
+.PHONY : corewar_diasm/libft/ft_memset.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_memset.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_memset.c.s
+.PHONY : corewar_diasm/libft/ft_memset.c.s
+
+corewar_diasm/libft/ft_memset_wchar.o: corewar_diasm/libft/ft_memset_wchar.c.o
+
+.PHONY : corewar_diasm/libft/ft_memset_wchar.o
+
+# target to build an object file
+corewar_diasm/libft/ft_memset_wchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_memset_wchar.c.o
+.PHONY : corewar_diasm/libft/ft_memset_wchar.c.o
+
+corewar_diasm/libft/ft_memset_wchar.i: corewar_diasm/libft/ft_memset_wchar.c.i
+
+.PHONY : corewar_diasm/libft/ft_memset_wchar.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_memset_wchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_memset_wchar.c.i
+.PHONY : corewar_diasm/libft/ft_memset_wchar.c.i
+
+corewar_diasm/libft/ft_memset_wchar.s: corewar_diasm/libft/ft_memset_wchar.c.s
+
+.PHONY : corewar_diasm/libft/ft_memset_wchar.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_memset_wchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_memset_wchar.c.s
+.PHONY : corewar_diasm/libft/ft_memset_wchar.c.s
+
+corewar_diasm/libft/ft_multi_strdup.o: corewar_diasm/libft/ft_multi_strdup.c.o
+
+.PHONY : corewar_diasm/libft/ft_multi_strdup.o
+
+# target to build an object file
+corewar_diasm/libft/ft_multi_strdup.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_multi_strdup.c.o
+.PHONY : corewar_diasm/libft/ft_multi_strdup.c.o
+
+corewar_diasm/libft/ft_multi_strdup.i: corewar_diasm/libft/ft_multi_strdup.c.i
+
+.PHONY : corewar_diasm/libft/ft_multi_strdup.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_multi_strdup.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_multi_strdup.c.i
+.PHONY : corewar_diasm/libft/ft_multi_strdup.c.i
+
+corewar_diasm/libft/ft_multi_strdup.s: corewar_diasm/libft/ft_multi_strdup.c.s
+
+.PHONY : corewar_diasm/libft/ft_multi_strdup.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_multi_strdup.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_multi_strdup.c.s
+.PHONY : corewar_diasm/libft/ft_multi_strdup.c.s
+
+corewar_diasm/libft/ft_numwr.o: corewar_diasm/libft/ft_numwr.c.o
+
+.PHONY : corewar_diasm/libft/ft_numwr.o
+
+# target to build an object file
+corewar_diasm/libft/ft_numwr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_numwr.c.o
+.PHONY : corewar_diasm/libft/ft_numwr.c.o
+
+corewar_diasm/libft/ft_numwr.i: corewar_diasm/libft/ft_numwr.c.i
+
+.PHONY : corewar_diasm/libft/ft_numwr.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_numwr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_numwr.c.i
+.PHONY : corewar_diasm/libft/ft_numwr.c.i
+
+corewar_diasm/libft/ft_numwr.s: corewar_diasm/libft/ft_numwr.c.s
+
+.PHONY : corewar_diasm/libft/ft_numwr.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_numwr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_numwr.c.s
+.PHONY : corewar_diasm/libft/ft_numwr.c.s
+
+corewar_diasm/libft/ft_octotorp_hex.o: corewar_diasm/libft/ft_octotorp_hex.c.o
+
+.PHONY : corewar_diasm/libft/ft_octotorp_hex.o
+
+# target to build an object file
+corewar_diasm/libft/ft_octotorp_hex.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_octotorp_hex.c.o
+.PHONY : corewar_diasm/libft/ft_octotorp_hex.c.o
+
+corewar_diasm/libft/ft_octotorp_hex.i: corewar_diasm/libft/ft_octotorp_hex.c.i
+
+.PHONY : corewar_diasm/libft/ft_octotorp_hex.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_octotorp_hex.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_octotorp_hex.c.i
+.PHONY : corewar_diasm/libft/ft_octotorp_hex.c.i
+
+corewar_diasm/libft/ft_octotorp_hex.s: corewar_diasm/libft/ft_octotorp_hex.c.s
+
+.PHONY : corewar_diasm/libft/ft_octotorp_hex.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_octotorp_hex.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_octotorp_hex.c.s
+.PHONY : corewar_diasm/libft/ft_octotorp_hex.c.s
+
+corewar_diasm/libft/ft_printf.o: corewar_diasm/libft/ft_printf.c.o
+
+.PHONY : corewar_diasm/libft/ft_printf.o
+
+# target to build an object file
+corewar_diasm/libft/ft_printf.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_printf.c.o
+.PHONY : corewar_diasm/libft/ft_printf.c.o
+
+corewar_diasm/libft/ft_printf.i: corewar_diasm/libft/ft_printf.c.i
+
+.PHONY : corewar_diasm/libft/ft_printf.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_printf.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_printf.c.i
+.PHONY : corewar_diasm/libft/ft_printf.c.i
+
+corewar_diasm/libft/ft_printf.s: corewar_diasm/libft/ft_printf.c.s
+
+.PHONY : corewar_diasm/libft/ft_printf.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_printf.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_printf.c.s
+.PHONY : corewar_diasm/libft/ft_printf.c.s
+
+corewar_diasm/libft/ft_put_decimal.o: corewar_diasm/libft/ft_put_decimal.c.o
+
+.PHONY : corewar_diasm/libft/ft_put_decimal.o
+
+# target to build an object file
+corewar_diasm/libft/ft_put_decimal.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_put_decimal.c.o
+.PHONY : corewar_diasm/libft/ft_put_decimal.c.o
+
+corewar_diasm/libft/ft_put_decimal.i: corewar_diasm/libft/ft_put_decimal.c.i
+
+.PHONY : corewar_diasm/libft/ft_put_decimal.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_put_decimal.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_put_decimal.c.i
+.PHONY : corewar_diasm/libft/ft_put_decimal.c.i
+
+corewar_diasm/libft/ft_put_decimal.s: corewar_diasm/libft/ft_put_decimal.c.s
+
+.PHONY : corewar_diasm/libft/ft_put_decimal.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_put_decimal.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_put_decimal.c.s
+.PHONY : corewar_diasm/libft/ft_put_decimal.c.s
+
+corewar_diasm/libft/ft_put_hexadecimal.o: corewar_diasm/libft/ft_put_hexadecimal.c.o
+
+.PHONY : corewar_diasm/libft/ft_put_hexadecimal.o
+
+# target to build an object file
+corewar_diasm/libft/ft_put_hexadecimal.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_put_hexadecimal.c.o
+.PHONY : corewar_diasm/libft/ft_put_hexadecimal.c.o
+
+corewar_diasm/libft/ft_put_hexadecimal.i: corewar_diasm/libft/ft_put_hexadecimal.c.i
+
+.PHONY : corewar_diasm/libft/ft_put_hexadecimal.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_put_hexadecimal.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_put_hexadecimal.c.i
+.PHONY : corewar_diasm/libft/ft_put_hexadecimal.c.i
+
+corewar_diasm/libft/ft_put_hexadecimal.s: corewar_diasm/libft/ft_put_hexadecimal.c.s
+
+.PHONY : corewar_diasm/libft/ft_put_hexadecimal.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_put_hexadecimal.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_put_hexadecimal.c.s
+.PHONY : corewar_diasm/libft/ft_put_hexadecimal.c.s
+
+corewar_diasm/libft/ft_put_octal.o: corewar_diasm/libft/ft_put_octal.c.o
+
+.PHONY : corewar_diasm/libft/ft_put_octal.o
+
+# target to build an object file
+corewar_diasm/libft/ft_put_octal.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_put_octal.c.o
+.PHONY : corewar_diasm/libft/ft_put_octal.c.o
+
+corewar_diasm/libft/ft_put_octal.i: corewar_diasm/libft/ft_put_octal.c.i
+
+.PHONY : corewar_diasm/libft/ft_put_octal.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_put_octal.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_put_octal.c.i
+.PHONY : corewar_diasm/libft/ft_put_octal.c.i
+
+corewar_diasm/libft/ft_put_octal.s: corewar_diasm/libft/ft_put_octal.c.s
+
+.PHONY : corewar_diasm/libft/ft_put_octal.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_put_octal.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_put_octal.c.s
+.PHONY : corewar_diasm/libft/ft_put_octal.c.s
+
+corewar_diasm/libft/ft_put_percent.o: corewar_diasm/libft/ft_put_percent.c.o
+
+.PHONY : corewar_diasm/libft/ft_put_percent.o
+
+# target to build an object file
+corewar_diasm/libft/ft_put_percent.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_put_percent.c.o
+.PHONY : corewar_diasm/libft/ft_put_percent.c.o
+
+corewar_diasm/libft/ft_put_percent.i: corewar_diasm/libft/ft_put_percent.c.i
+
+.PHONY : corewar_diasm/libft/ft_put_percent.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_put_percent.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_put_percent.c.i
+.PHONY : corewar_diasm/libft/ft_put_percent.c.i
+
+corewar_diasm/libft/ft_put_percent.s: corewar_diasm/libft/ft_put_percent.c.s
+
+.PHONY : corewar_diasm/libft/ft_put_percent.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_put_percent.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_put_percent.c.s
+.PHONY : corewar_diasm/libft/ft_put_percent.c.s
+
+corewar_diasm/libft/ft_put_pointer.o: corewar_diasm/libft/ft_put_pointer.c.o
+
+.PHONY : corewar_diasm/libft/ft_put_pointer.o
+
+# target to build an object file
+corewar_diasm/libft/ft_put_pointer.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_put_pointer.c.o
+.PHONY : corewar_diasm/libft/ft_put_pointer.c.o
+
+corewar_diasm/libft/ft_put_pointer.i: corewar_diasm/libft/ft_put_pointer.c.i
+
+.PHONY : corewar_diasm/libft/ft_put_pointer.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_put_pointer.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_put_pointer.c.i
+.PHONY : corewar_diasm/libft/ft_put_pointer.c.i
+
+corewar_diasm/libft/ft_put_pointer.s: corewar_diasm/libft/ft_put_pointer.c.s
+
+.PHONY : corewar_diasm/libft/ft_put_pointer.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_put_pointer.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_put_pointer.c.s
+.PHONY : corewar_diasm/libft/ft_put_pointer.c.s
+
+corewar_diasm/libft/ft_put_unsigned.o: corewar_diasm/libft/ft_put_unsigned.c.o
+
+.PHONY : corewar_diasm/libft/ft_put_unsigned.o
+
+# target to build an object file
+corewar_diasm/libft/ft_put_unsigned.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_put_unsigned.c.o
+.PHONY : corewar_diasm/libft/ft_put_unsigned.c.o
+
+corewar_diasm/libft/ft_put_unsigned.i: corewar_diasm/libft/ft_put_unsigned.c.i
+
+.PHONY : corewar_diasm/libft/ft_put_unsigned.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_put_unsigned.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_put_unsigned.c.i
+.PHONY : corewar_diasm/libft/ft_put_unsigned.c.i
+
+corewar_diasm/libft/ft_put_unsigned.s: corewar_diasm/libft/ft_put_unsigned.c.s
+
+.PHONY : corewar_diasm/libft/ft_put_unsigned.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_put_unsigned.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_put_unsigned.c.s
+.PHONY : corewar_diasm/libft/ft_put_unsigned.c.s
+
+corewar_diasm/libft/ft_putchar.o: corewar_diasm/libft/ft_putchar.c.o
+
+.PHONY : corewar_diasm/libft/ft_putchar.o
+
+# target to build an object file
+corewar_diasm/libft/ft_putchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putchar.c.o
+.PHONY : corewar_diasm/libft/ft_putchar.c.o
+
+corewar_diasm/libft/ft_putchar.i: corewar_diasm/libft/ft_putchar.c.i
+
+.PHONY : corewar_diasm/libft/ft_putchar.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_putchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putchar.c.i
+.PHONY : corewar_diasm/libft/ft_putchar.c.i
+
+corewar_diasm/libft/ft_putchar.s: corewar_diasm/libft/ft_putchar.c.s
+
+.PHONY : corewar_diasm/libft/ft_putchar.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_putchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putchar.c.s
+.PHONY : corewar_diasm/libft/ft_putchar.c.s
+
+corewar_diasm/libft/ft_putchar_fd.o: corewar_diasm/libft/ft_putchar_fd.c.o
+
+.PHONY : corewar_diasm/libft/ft_putchar_fd.o
+
+# target to build an object file
+corewar_diasm/libft/ft_putchar_fd.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putchar_fd.c.o
+.PHONY : corewar_diasm/libft/ft_putchar_fd.c.o
+
+corewar_diasm/libft/ft_putchar_fd.i: corewar_diasm/libft/ft_putchar_fd.c.i
+
+.PHONY : corewar_diasm/libft/ft_putchar_fd.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_putchar_fd.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putchar_fd.c.i
+.PHONY : corewar_diasm/libft/ft_putchar_fd.c.i
+
+corewar_diasm/libft/ft_putchar_fd.s: corewar_diasm/libft/ft_putchar_fd.c.s
+
+.PHONY : corewar_diasm/libft/ft_putchar_fd.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_putchar_fd.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putchar_fd.c.s
+.PHONY : corewar_diasm/libft/ft_putchar_fd.c.s
+
+corewar_diasm/libft/ft_putchar_wchar.o: corewar_diasm/libft/ft_putchar_wchar.c.o
+
+.PHONY : corewar_diasm/libft/ft_putchar_wchar.o
+
+# target to build an object file
+corewar_diasm/libft/ft_putchar_wchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putchar_wchar.c.o
+.PHONY : corewar_diasm/libft/ft_putchar_wchar.c.o
+
+corewar_diasm/libft/ft_putchar_wchar.i: corewar_diasm/libft/ft_putchar_wchar.c.i
+
+.PHONY : corewar_diasm/libft/ft_putchar_wchar.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_putchar_wchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putchar_wchar.c.i
+.PHONY : corewar_diasm/libft/ft_putchar_wchar.c.i
+
+corewar_diasm/libft/ft_putchar_wchar.s: corewar_diasm/libft/ft_putchar_wchar.c.s
+
+.PHONY : corewar_diasm/libft/ft_putchar_wchar.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_putchar_wchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putchar_wchar.c.s
+.PHONY : corewar_diasm/libft/ft_putchar_wchar.c.s
+
+corewar_diasm/libft/ft_putendl.o: corewar_diasm/libft/ft_putendl.c.o
+
+.PHONY : corewar_diasm/libft/ft_putendl.o
+
+# target to build an object file
+corewar_diasm/libft/ft_putendl.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putendl.c.o
+.PHONY : corewar_diasm/libft/ft_putendl.c.o
+
+corewar_diasm/libft/ft_putendl.i: corewar_diasm/libft/ft_putendl.c.i
+
+.PHONY : corewar_diasm/libft/ft_putendl.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_putendl.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putendl.c.i
+.PHONY : corewar_diasm/libft/ft_putendl.c.i
+
+corewar_diasm/libft/ft_putendl.s: corewar_diasm/libft/ft_putendl.c.s
+
+.PHONY : corewar_diasm/libft/ft_putendl.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_putendl.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putendl.c.s
+.PHONY : corewar_diasm/libft/ft_putendl.c.s
+
+corewar_diasm/libft/ft_putendl_fd.o: corewar_diasm/libft/ft_putendl_fd.c.o
+
+.PHONY : corewar_diasm/libft/ft_putendl_fd.o
+
+# target to build an object file
+corewar_diasm/libft/ft_putendl_fd.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putendl_fd.c.o
+.PHONY : corewar_diasm/libft/ft_putendl_fd.c.o
+
+corewar_diasm/libft/ft_putendl_fd.i: corewar_diasm/libft/ft_putendl_fd.c.i
+
+.PHONY : corewar_diasm/libft/ft_putendl_fd.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_putendl_fd.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putendl_fd.c.i
+.PHONY : corewar_diasm/libft/ft_putendl_fd.c.i
+
+corewar_diasm/libft/ft_putendl_fd.s: corewar_diasm/libft/ft_putendl_fd.c.s
+
+.PHONY : corewar_diasm/libft/ft_putendl_fd.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_putendl_fd.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putendl_fd.c.s
+.PHONY : corewar_diasm/libft/ft_putendl_fd.c.s
+
+corewar_diasm/libft/ft_putnbr.o: corewar_diasm/libft/ft_putnbr.c.o
+
+.PHONY : corewar_diasm/libft/ft_putnbr.o
+
+# target to build an object file
+corewar_diasm/libft/ft_putnbr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putnbr.c.o
+.PHONY : corewar_diasm/libft/ft_putnbr.c.o
+
+corewar_diasm/libft/ft_putnbr.i: corewar_diasm/libft/ft_putnbr.c.i
+
+.PHONY : corewar_diasm/libft/ft_putnbr.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_putnbr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putnbr.c.i
+.PHONY : corewar_diasm/libft/ft_putnbr.c.i
+
+corewar_diasm/libft/ft_putnbr.s: corewar_diasm/libft/ft_putnbr.c.s
+
+.PHONY : corewar_diasm/libft/ft_putnbr.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_putnbr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putnbr.c.s
+.PHONY : corewar_diasm/libft/ft_putnbr.c.s
+
+corewar_diasm/libft/ft_putnbr_fd.o: corewar_diasm/libft/ft_putnbr_fd.c.o
+
+.PHONY : corewar_diasm/libft/ft_putnbr_fd.o
+
+# target to build an object file
+corewar_diasm/libft/ft_putnbr_fd.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putnbr_fd.c.o
+.PHONY : corewar_diasm/libft/ft_putnbr_fd.c.o
+
+corewar_diasm/libft/ft_putnbr_fd.i: corewar_diasm/libft/ft_putnbr_fd.c.i
+
+.PHONY : corewar_diasm/libft/ft_putnbr_fd.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_putnbr_fd.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putnbr_fd.c.i
+.PHONY : corewar_diasm/libft/ft_putnbr_fd.c.i
+
+corewar_diasm/libft/ft_putnbr_fd.s: corewar_diasm/libft/ft_putnbr_fd.c.s
+
+.PHONY : corewar_diasm/libft/ft_putnbr_fd.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_putnbr_fd.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putnbr_fd.c.s
+.PHONY : corewar_diasm/libft/ft_putnbr_fd.c.s
+
+corewar_diasm/libft/ft_putstr.o: corewar_diasm/libft/ft_putstr.c.o
+
+.PHONY : corewar_diasm/libft/ft_putstr.o
+
+# target to build an object file
+corewar_diasm/libft/ft_putstr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putstr.c.o
+.PHONY : corewar_diasm/libft/ft_putstr.c.o
+
+corewar_diasm/libft/ft_putstr.i: corewar_diasm/libft/ft_putstr.c.i
+
+.PHONY : corewar_diasm/libft/ft_putstr.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_putstr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putstr.c.i
+.PHONY : corewar_diasm/libft/ft_putstr.c.i
+
+corewar_diasm/libft/ft_putstr.s: corewar_diasm/libft/ft_putstr.c.s
+
+.PHONY : corewar_diasm/libft/ft_putstr.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_putstr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putstr.c.s
+.PHONY : corewar_diasm/libft/ft_putstr.c.s
+
+corewar_diasm/libft/ft_putstr_fd.o: corewar_diasm/libft/ft_putstr_fd.c.o
+
+.PHONY : corewar_diasm/libft/ft_putstr_fd.o
+
+# target to build an object file
+corewar_diasm/libft/ft_putstr_fd.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putstr_fd.c.o
+.PHONY : corewar_diasm/libft/ft_putstr_fd.c.o
+
+corewar_diasm/libft/ft_putstr_fd.i: corewar_diasm/libft/ft_putstr_fd.c.i
+
+.PHONY : corewar_diasm/libft/ft_putstr_fd.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_putstr_fd.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putstr_fd.c.i
+.PHONY : corewar_diasm/libft/ft_putstr_fd.c.i
+
+corewar_diasm/libft/ft_putstr_fd.s: corewar_diasm/libft/ft_putstr_fd.c.s
+
+.PHONY : corewar_diasm/libft/ft_putstr_fd.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_putstr_fd.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putstr_fd.c.s
+.PHONY : corewar_diasm/libft/ft_putstr_fd.c.s
+
+corewar_diasm/libft/ft_putstr_wchar.o: corewar_diasm/libft/ft_putstr_wchar.c.o
+
+.PHONY : corewar_diasm/libft/ft_putstr_wchar.o
+
+# target to build an object file
+corewar_diasm/libft/ft_putstr_wchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putstr_wchar.c.o
+.PHONY : corewar_diasm/libft/ft_putstr_wchar.c.o
+
+corewar_diasm/libft/ft_putstr_wchar.i: corewar_diasm/libft/ft_putstr_wchar.c.i
+
+.PHONY : corewar_diasm/libft/ft_putstr_wchar.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_putstr_wchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putstr_wchar.c.i
+.PHONY : corewar_diasm/libft/ft_putstr_wchar.c.i
+
+corewar_diasm/libft/ft_putstr_wchar.s: corewar_diasm/libft/ft_putstr_wchar.c.s
+
+.PHONY : corewar_diasm/libft/ft_putstr_wchar.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_putstr_wchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_putstr_wchar.c.s
+.PHONY : corewar_diasm/libft/ft_putstr_wchar.c.s
+
+corewar_diasm/libft/ft_read_format.o: corewar_diasm/libft/ft_read_format.c.o
+
+.PHONY : corewar_diasm/libft/ft_read_format.o
+
+# target to build an object file
+corewar_diasm/libft/ft_read_format.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_read_format.c.o
+.PHONY : corewar_diasm/libft/ft_read_format.c.o
+
+corewar_diasm/libft/ft_read_format.i: corewar_diasm/libft/ft_read_format.c.i
+
+.PHONY : corewar_diasm/libft/ft_read_format.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_read_format.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_read_format.c.i
+.PHONY : corewar_diasm/libft/ft_read_format.c.i
+
+corewar_diasm/libft/ft_read_format.s: corewar_diasm/libft/ft_read_format.c.s
+
+.PHONY : corewar_diasm/libft/ft_read_format.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_read_format.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_read_format.c.s
+.PHONY : corewar_diasm/libft/ft_read_format.c.s
+
+corewar_diasm/libft/ft_strcat.o: corewar_diasm/libft/ft_strcat.c.o
+
+.PHONY : corewar_diasm/libft/ft_strcat.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strcat.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strcat.c.o
+.PHONY : corewar_diasm/libft/ft_strcat.c.o
+
+corewar_diasm/libft/ft_strcat.i: corewar_diasm/libft/ft_strcat.c.i
+
+.PHONY : corewar_diasm/libft/ft_strcat.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strcat.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strcat.c.i
+.PHONY : corewar_diasm/libft/ft_strcat.c.i
+
+corewar_diasm/libft/ft_strcat.s: corewar_diasm/libft/ft_strcat.c.s
+
+.PHONY : corewar_diasm/libft/ft_strcat.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strcat.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strcat.c.s
+.PHONY : corewar_diasm/libft/ft_strcat.c.s
+
+corewar_diasm/libft/ft_strchr.o: corewar_diasm/libft/ft_strchr.c.o
+
+.PHONY : corewar_diasm/libft/ft_strchr.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strchr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strchr.c.o
+.PHONY : corewar_diasm/libft/ft_strchr.c.o
+
+corewar_diasm/libft/ft_strchr.i: corewar_diasm/libft/ft_strchr.c.i
+
+.PHONY : corewar_diasm/libft/ft_strchr.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strchr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strchr.c.i
+.PHONY : corewar_diasm/libft/ft_strchr.c.i
+
+corewar_diasm/libft/ft_strchr.s: corewar_diasm/libft/ft_strchr.c.s
+
+.PHONY : corewar_diasm/libft/ft_strchr.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strchr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strchr.c.s
+.PHONY : corewar_diasm/libft/ft_strchr.c.s
+
+corewar_diasm/libft/ft_strcl.o: corewar_diasm/libft/ft_strcl.c.o
+
+.PHONY : corewar_diasm/libft/ft_strcl.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strcl.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strcl.c.o
+.PHONY : corewar_diasm/libft/ft_strcl.c.o
+
+corewar_diasm/libft/ft_strcl.i: corewar_diasm/libft/ft_strcl.c.i
+
+.PHONY : corewar_diasm/libft/ft_strcl.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strcl.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strcl.c.i
+.PHONY : corewar_diasm/libft/ft_strcl.c.i
+
+corewar_diasm/libft/ft_strcl.s: corewar_diasm/libft/ft_strcl.c.s
+
+.PHONY : corewar_diasm/libft/ft_strcl.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strcl.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strcl.c.s
+.PHONY : corewar_diasm/libft/ft_strcl.c.s
+
+corewar_diasm/libft/ft_strclr.o: corewar_diasm/libft/ft_strclr.c.o
+
+.PHONY : corewar_diasm/libft/ft_strclr.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strclr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strclr.c.o
+.PHONY : corewar_diasm/libft/ft_strclr.c.o
+
+corewar_diasm/libft/ft_strclr.i: corewar_diasm/libft/ft_strclr.c.i
+
+.PHONY : corewar_diasm/libft/ft_strclr.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strclr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strclr.c.i
+.PHONY : corewar_diasm/libft/ft_strclr.c.i
+
+corewar_diasm/libft/ft_strclr.s: corewar_diasm/libft/ft_strclr.c.s
+
+.PHONY : corewar_diasm/libft/ft_strclr.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strclr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strclr.c.s
+.PHONY : corewar_diasm/libft/ft_strclr.c.s
+
+corewar_diasm/libft/ft_strcmp.o: corewar_diasm/libft/ft_strcmp.c.o
+
+.PHONY : corewar_diasm/libft/ft_strcmp.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strcmp.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strcmp.c.o
+.PHONY : corewar_diasm/libft/ft_strcmp.c.o
+
+corewar_diasm/libft/ft_strcmp.i: corewar_diasm/libft/ft_strcmp.c.i
+
+.PHONY : corewar_diasm/libft/ft_strcmp.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strcmp.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strcmp.c.i
+.PHONY : corewar_diasm/libft/ft_strcmp.c.i
+
+corewar_diasm/libft/ft_strcmp.s: corewar_diasm/libft/ft_strcmp.c.s
+
+.PHONY : corewar_diasm/libft/ft_strcmp.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strcmp.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strcmp.c.s
+.PHONY : corewar_diasm/libft/ft_strcmp.c.s
+
+corewar_diasm/libft/ft_strcpy.o: corewar_diasm/libft/ft_strcpy.c.o
+
+.PHONY : corewar_diasm/libft/ft_strcpy.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strcpy.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strcpy.c.o
+.PHONY : corewar_diasm/libft/ft_strcpy.c.o
+
+corewar_diasm/libft/ft_strcpy.i: corewar_diasm/libft/ft_strcpy.c.i
+
+.PHONY : corewar_diasm/libft/ft_strcpy.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strcpy.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strcpy.c.i
+.PHONY : corewar_diasm/libft/ft_strcpy.c.i
+
+corewar_diasm/libft/ft_strcpy.s: corewar_diasm/libft/ft_strcpy.c.s
+
+.PHONY : corewar_diasm/libft/ft_strcpy.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strcpy.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strcpy.c.s
+.PHONY : corewar_diasm/libft/ft_strcpy.c.s
+
+corewar_diasm/libft/ft_strdel.o: corewar_diasm/libft/ft_strdel.c.o
+
+.PHONY : corewar_diasm/libft/ft_strdel.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strdel.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strdel.c.o
+.PHONY : corewar_diasm/libft/ft_strdel.c.o
+
+corewar_diasm/libft/ft_strdel.i: corewar_diasm/libft/ft_strdel.c.i
+
+.PHONY : corewar_diasm/libft/ft_strdel.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strdel.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strdel.c.i
+.PHONY : corewar_diasm/libft/ft_strdel.c.i
+
+corewar_diasm/libft/ft_strdel.s: corewar_diasm/libft/ft_strdel.c.s
+
+.PHONY : corewar_diasm/libft/ft_strdel.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strdel.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strdel.c.s
+.PHONY : corewar_diasm/libft/ft_strdel.c.s
+
+corewar_diasm/libft/ft_strdel_wchar.o: corewar_diasm/libft/ft_strdel_wchar.c.o
+
+.PHONY : corewar_diasm/libft/ft_strdel_wchar.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strdel_wchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strdel_wchar.c.o
+.PHONY : corewar_diasm/libft/ft_strdel_wchar.c.o
+
+corewar_diasm/libft/ft_strdel_wchar.i: corewar_diasm/libft/ft_strdel_wchar.c.i
+
+.PHONY : corewar_diasm/libft/ft_strdel_wchar.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strdel_wchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strdel_wchar.c.i
+.PHONY : corewar_diasm/libft/ft_strdel_wchar.c.i
+
+corewar_diasm/libft/ft_strdel_wchar.s: corewar_diasm/libft/ft_strdel_wchar.c.s
+
+.PHONY : corewar_diasm/libft/ft_strdel_wchar.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strdel_wchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strdel_wchar.c.s
+.PHONY : corewar_diasm/libft/ft_strdel_wchar.c.s
+
+corewar_diasm/libft/ft_strdup.o: corewar_diasm/libft/ft_strdup.c.o
+
+.PHONY : corewar_diasm/libft/ft_strdup.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strdup.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strdup.c.o
+.PHONY : corewar_diasm/libft/ft_strdup.c.o
+
+corewar_diasm/libft/ft_strdup.i: corewar_diasm/libft/ft_strdup.c.i
+
+.PHONY : corewar_diasm/libft/ft_strdup.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strdup.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strdup.c.i
+.PHONY : corewar_diasm/libft/ft_strdup.c.i
+
+corewar_diasm/libft/ft_strdup.s: corewar_diasm/libft/ft_strdup.c.s
+
+.PHONY : corewar_diasm/libft/ft_strdup.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strdup.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strdup.c.s
+.PHONY : corewar_diasm/libft/ft_strdup.c.s
+
+corewar_diasm/libft/ft_strdup_wchar.o: corewar_diasm/libft/ft_strdup_wchar.c.o
+
+.PHONY : corewar_diasm/libft/ft_strdup_wchar.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strdup_wchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strdup_wchar.c.o
+.PHONY : corewar_diasm/libft/ft_strdup_wchar.c.o
+
+corewar_diasm/libft/ft_strdup_wchar.i: corewar_diasm/libft/ft_strdup_wchar.c.i
+
+.PHONY : corewar_diasm/libft/ft_strdup_wchar.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strdup_wchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strdup_wchar.c.i
+.PHONY : corewar_diasm/libft/ft_strdup_wchar.c.i
+
+corewar_diasm/libft/ft_strdup_wchar.s: corewar_diasm/libft/ft_strdup_wchar.c.s
+
+.PHONY : corewar_diasm/libft/ft_strdup_wchar.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strdup_wchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strdup_wchar.c.s
+.PHONY : corewar_diasm/libft/ft_strdup_wchar.c.s
+
+corewar_diasm/libft/ft_strequ.o: corewar_diasm/libft/ft_strequ.c.o
+
+.PHONY : corewar_diasm/libft/ft_strequ.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strequ.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strequ.c.o
+.PHONY : corewar_diasm/libft/ft_strequ.c.o
+
+corewar_diasm/libft/ft_strequ.i: corewar_diasm/libft/ft_strequ.c.i
+
+.PHONY : corewar_diasm/libft/ft_strequ.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strequ.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strequ.c.i
+.PHONY : corewar_diasm/libft/ft_strequ.c.i
+
+corewar_diasm/libft/ft_strequ.s: corewar_diasm/libft/ft_strequ.c.s
+
+.PHONY : corewar_diasm/libft/ft_strequ.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strequ.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strequ.c.s
+.PHONY : corewar_diasm/libft/ft_strequ.c.s
+
+corewar_diasm/libft/ft_strfr.o: corewar_diasm/libft/ft_strfr.c.o
+
+.PHONY : corewar_diasm/libft/ft_strfr.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strfr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strfr.c.o
+.PHONY : corewar_diasm/libft/ft_strfr.c.o
+
+corewar_diasm/libft/ft_strfr.i: corewar_diasm/libft/ft_strfr.c.i
+
+.PHONY : corewar_diasm/libft/ft_strfr.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strfr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strfr.c.i
+.PHONY : corewar_diasm/libft/ft_strfr.c.i
+
+corewar_diasm/libft/ft_strfr.s: corewar_diasm/libft/ft_strfr.c.s
+
+.PHONY : corewar_diasm/libft/ft_strfr.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strfr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strfr.c.s
+.PHONY : corewar_diasm/libft/ft_strfr.c.s
+
+corewar_diasm/libft/ft_striter.o: corewar_diasm/libft/ft_striter.c.o
+
+.PHONY : corewar_diasm/libft/ft_striter.o
+
+# target to build an object file
+corewar_diasm/libft/ft_striter.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_striter.c.o
+.PHONY : corewar_diasm/libft/ft_striter.c.o
+
+corewar_diasm/libft/ft_striter.i: corewar_diasm/libft/ft_striter.c.i
+
+.PHONY : corewar_diasm/libft/ft_striter.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_striter.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_striter.c.i
+.PHONY : corewar_diasm/libft/ft_striter.c.i
+
+corewar_diasm/libft/ft_striter.s: corewar_diasm/libft/ft_striter.c.s
+
+.PHONY : corewar_diasm/libft/ft_striter.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_striter.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_striter.c.s
+.PHONY : corewar_diasm/libft/ft_striter.c.s
+
+corewar_diasm/libft/ft_striteri.o: corewar_diasm/libft/ft_striteri.c.o
+
+.PHONY : corewar_diasm/libft/ft_striteri.o
+
+# target to build an object file
+corewar_diasm/libft/ft_striteri.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_striteri.c.o
+.PHONY : corewar_diasm/libft/ft_striteri.c.o
+
+corewar_diasm/libft/ft_striteri.i: corewar_diasm/libft/ft_striteri.c.i
+
+.PHONY : corewar_diasm/libft/ft_striteri.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_striteri.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_striteri.c.i
+.PHONY : corewar_diasm/libft/ft_striteri.c.i
+
+corewar_diasm/libft/ft_striteri.s: corewar_diasm/libft/ft_striteri.c.s
+
+.PHONY : corewar_diasm/libft/ft_striteri.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_striteri.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_striteri.c.s
+.PHONY : corewar_diasm/libft/ft_striteri.c.s
+
+corewar_diasm/libft/ft_strjoin.o: corewar_diasm/libft/ft_strjoin.c.o
+
+.PHONY : corewar_diasm/libft/ft_strjoin.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strjoin.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strjoin.c.o
+.PHONY : corewar_diasm/libft/ft_strjoin.c.o
+
+corewar_diasm/libft/ft_strjoin.i: corewar_diasm/libft/ft_strjoin.c.i
+
+.PHONY : corewar_diasm/libft/ft_strjoin.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strjoin.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strjoin.c.i
+.PHONY : corewar_diasm/libft/ft_strjoin.c.i
+
+corewar_diasm/libft/ft_strjoin.s: corewar_diasm/libft/ft_strjoin.c.s
+
+.PHONY : corewar_diasm/libft/ft_strjoin.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strjoin.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strjoin.c.s
+.PHONY : corewar_diasm/libft/ft_strjoin.c.s
+
+corewar_diasm/libft/ft_strlcat.o: corewar_diasm/libft/ft_strlcat.c.o
+
+.PHONY : corewar_diasm/libft/ft_strlcat.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strlcat.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strlcat.c.o
+.PHONY : corewar_diasm/libft/ft_strlcat.c.o
+
+corewar_diasm/libft/ft_strlcat.i: corewar_diasm/libft/ft_strlcat.c.i
+
+.PHONY : corewar_diasm/libft/ft_strlcat.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strlcat.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strlcat.c.i
+.PHONY : corewar_diasm/libft/ft_strlcat.c.i
+
+corewar_diasm/libft/ft_strlcat.s: corewar_diasm/libft/ft_strlcat.c.s
+
+.PHONY : corewar_diasm/libft/ft_strlcat.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strlcat.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strlcat.c.s
+.PHONY : corewar_diasm/libft/ft_strlcat.c.s
+
+corewar_diasm/libft/ft_strlen.o: corewar_diasm/libft/ft_strlen.c.o
+
+.PHONY : corewar_diasm/libft/ft_strlen.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strlen.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strlen.c.o
+.PHONY : corewar_diasm/libft/ft_strlen.c.o
+
+corewar_diasm/libft/ft_strlen.i: corewar_diasm/libft/ft_strlen.c.i
+
+.PHONY : corewar_diasm/libft/ft_strlen.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strlen.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strlen.c.i
+.PHONY : corewar_diasm/libft/ft_strlen.c.i
+
+corewar_diasm/libft/ft_strlen.s: corewar_diasm/libft/ft_strlen.c.s
+
+.PHONY : corewar_diasm/libft/ft_strlen.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strlen.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strlen.c.s
+.PHONY : corewar_diasm/libft/ft_strlen.c.s
+
+corewar_diasm/libft/ft_strlen_wchar.o: corewar_diasm/libft/ft_strlen_wchar.c.o
+
+.PHONY : corewar_diasm/libft/ft_strlen_wchar.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strlen_wchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strlen_wchar.c.o
+.PHONY : corewar_diasm/libft/ft_strlen_wchar.c.o
+
+corewar_diasm/libft/ft_strlen_wchar.i: corewar_diasm/libft/ft_strlen_wchar.c.i
+
+.PHONY : corewar_diasm/libft/ft_strlen_wchar.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strlen_wchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strlen_wchar.c.i
+.PHONY : corewar_diasm/libft/ft_strlen_wchar.c.i
+
+corewar_diasm/libft/ft_strlen_wchar.s: corewar_diasm/libft/ft_strlen_wchar.c.s
+
+.PHONY : corewar_diasm/libft/ft_strlen_wchar.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strlen_wchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strlen_wchar.c.s
+.PHONY : corewar_diasm/libft/ft_strlen_wchar.c.s
+
+corewar_diasm/libft/ft_strmap.o: corewar_diasm/libft/ft_strmap.c.o
+
+.PHONY : corewar_diasm/libft/ft_strmap.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strmap.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strmap.c.o
+.PHONY : corewar_diasm/libft/ft_strmap.c.o
+
+corewar_diasm/libft/ft_strmap.i: corewar_diasm/libft/ft_strmap.c.i
+
+.PHONY : corewar_diasm/libft/ft_strmap.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strmap.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strmap.c.i
+.PHONY : corewar_diasm/libft/ft_strmap.c.i
+
+corewar_diasm/libft/ft_strmap.s: corewar_diasm/libft/ft_strmap.c.s
+
+.PHONY : corewar_diasm/libft/ft_strmap.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strmap.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strmap.c.s
+.PHONY : corewar_diasm/libft/ft_strmap.c.s
+
+corewar_diasm/libft/ft_strmapi.o: corewar_diasm/libft/ft_strmapi.c.o
+
+.PHONY : corewar_diasm/libft/ft_strmapi.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strmapi.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strmapi.c.o
+.PHONY : corewar_diasm/libft/ft_strmapi.c.o
+
+corewar_diasm/libft/ft_strmapi.i: corewar_diasm/libft/ft_strmapi.c.i
+
+.PHONY : corewar_diasm/libft/ft_strmapi.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strmapi.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strmapi.c.i
+.PHONY : corewar_diasm/libft/ft_strmapi.c.i
+
+corewar_diasm/libft/ft_strmapi.s: corewar_diasm/libft/ft_strmapi.c.s
+
+.PHONY : corewar_diasm/libft/ft_strmapi.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strmapi.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strmapi.c.s
+.PHONY : corewar_diasm/libft/ft_strmapi.c.s
+
+corewar_diasm/libft/ft_strncat.o: corewar_diasm/libft/ft_strncat.c.o
+
+.PHONY : corewar_diasm/libft/ft_strncat.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strncat.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strncat.c.o
+.PHONY : corewar_diasm/libft/ft_strncat.c.o
+
+corewar_diasm/libft/ft_strncat.i: corewar_diasm/libft/ft_strncat.c.i
+
+.PHONY : corewar_diasm/libft/ft_strncat.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strncat.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strncat.c.i
+.PHONY : corewar_diasm/libft/ft_strncat.c.i
+
+corewar_diasm/libft/ft_strncat.s: corewar_diasm/libft/ft_strncat.c.s
+
+.PHONY : corewar_diasm/libft/ft_strncat.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strncat.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strncat.c.s
+.PHONY : corewar_diasm/libft/ft_strncat.c.s
+
+corewar_diasm/libft/ft_strncmp.o: corewar_diasm/libft/ft_strncmp.c.o
+
+.PHONY : corewar_diasm/libft/ft_strncmp.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strncmp.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strncmp.c.o
+.PHONY : corewar_diasm/libft/ft_strncmp.c.o
+
+corewar_diasm/libft/ft_strncmp.i: corewar_diasm/libft/ft_strncmp.c.i
+
+.PHONY : corewar_diasm/libft/ft_strncmp.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strncmp.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strncmp.c.i
+.PHONY : corewar_diasm/libft/ft_strncmp.c.i
+
+corewar_diasm/libft/ft_strncmp.s: corewar_diasm/libft/ft_strncmp.c.s
+
+.PHONY : corewar_diasm/libft/ft_strncmp.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strncmp.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strncmp.c.s
+.PHONY : corewar_diasm/libft/ft_strncmp.c.s
+
+corewar_diasm/libft/ft_strncpy.o: corewar_diasm/libft/ft_strncpy.c.o
+
+.PHONY : corewar_diasm/libft/ft_strncpy.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strncpy.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strncpy.c.o
+.PHONY : corewar_diasm/libft/ft_strncpy.c.o
+
+corewar_diasm/libft/ft_strncpy.i: corewar_diasm/libft/ft_strncpy.c.i
+
+.PHONY : corewar_diasm/libft/ft_strncpy.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strncpy.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strncpy.c.i
+.PHONY : corewar_diasm/libft/ft_strncpy.c.i
+
+corewar_diasm/libft/ft_strncpy.s: corewar_diasm/libft/ft_strncpy.c.s
+
+.PHONY : corewar_diasm/libft/ft_strncpy.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strncpy.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strncpy.c.s
+.PHONY : corewar_diasm/libft/ft_strncpy.c.s
+
+corewar_diasm/libft/ft_strncpy_wchar.o: corewar_diasm/libft/ft_strncpy_wchar.c.o
+
+.PHONY : corewar_diasm/libft/ft_strncpy_wchar.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strncpy_wchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strncpy_wchar.c.o
+.PHONY : corewar_diasm/libft/ft_strncpy_wchar.c.o
+
+corewar_diasm/libft/ft_strncpy_wchar.i: corewar_diasm/libft/ft_strncpy_wchar.c.i
+
+.PHONY : corewar_diasm/libft/ft_strncpy_wchar.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strncpy_wchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strncpy_wchar.c.i
+.PHONY : corewar_diasm/libft/ft_strncpy_wchar.c.i
+
+corewar_diasm/libft/ft_strncpy_wchar.s: corewar_diasm/libft/ft_strncpy_wchar.c.s
+
+.PHONY : corewar_diasm/libft/ft_strncpy_wchar.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strncpy_wchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strncpy_wchar.c.s
+.PHONY : corewar_diasm/libft/ft_strncpy_wchar.c.s
+
+corewar_diasm/libft/ft_strnequ.o: corewar_diasm/libft/ft_strnequ.c.o
+
+.PHONY : corewar_diasm/libft/ft_strnequ.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strnequ.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strnequ.c.o
+.PHONY : corewar_diasm/libft/ft_strnequ.c.o
+
+corewar_diasm/libft/ft_strnequ.i: corewar_diasm/libft/ft_strnequ.c.i
+
+.PHONY : corewar_diasm/libft/ft_strnequ.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strnequ.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strnequ.c.i
+.PHONY : corewar_diasm/libft/ft_strnequ.c.i
+
+corewar_diasm/libft/ft_strnequ.s: corewar_diasm/libft/ft_strnequ.c.s
+
+.PHONY : corewar_diasm/libft/ft_strnequ.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strnequ.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strnequ.c.s
+.PHONY : corewar_diasm/libft/ft_strnequ.c.s
+
+corewar_diasm/libft/ft_strnew.o: corewar_diasm/libft/ft_strnew.c.o
+
+.PHONY : corewar_diasm/libft/ft_strnew.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strnew.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strnew.c.o
+.PHONY : corewar_diasm/libft/ft_strnew.c.o
+
+corewar_diasm/libft/ft_strnew.i: corewar_diasm/libft/ft_strnew.c.i
+
+.PHONY : corewar_diasm/libft/ft_strnew.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strnew.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strnew.c.i
+.PHONY : corewar_diasm/libft/ft_strnew.c.i
+
+corewar_diasm/libft/ft_strnew.s: corewar_diasm/libft/ft_strnew.c.s
+
+.PHONY : corewar_diasm/libft/ft_strnew.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strnew.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strnew.c.s
+.PHONY : corewar_diasm/libft/ft_strnew.c.s
+
+corewar_diasm/libft/ft_strnew_char_wchar.o: corewar_diasm/libft/ft_strnew_char_wchar.c.o
+
+.PHONY : corewar_diasm/libft/ft_strnew_char_wchar.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strnew_char_wchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strnew_char_wchar.c.o
+.PHONY : corewar_diasm/libft/ft_strnew_char_wchar.c.o
+
+corewar_diasm/libft/ft_strnew_char_wchar.i: corewar_diasm/libft/ft_strnew_char_wchar.c.i
+
+.PHONY : corewar_diasm/libft/ft_strnew_char_wchar.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strnew_char_wchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strnew_char_wchar.c.i
+.PHONY : corewar_diasm/libft/ft_strnew_char_wchar.c.i
+
+corewar_diasm/libft/ft_strnew_char_wchar.s: corewar_diasm/libft/ft_strnew_char_wchar.c.s
+
+.PHONY : corewar_diasm/libft/ft_strnew_char_wchar.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strnew_char_wchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strnew_char_wchar.c.s
+.PHONY : corewar_diasm/libft/ft_strnew_char_wchar.c.s
+
+corewar_diasm/libft/ft_strnew_wchar.o: corewar_diasm/libft/ft_strnew_wchar.c.o
+
+.PHONY : corewar_diasm/libft/ft_strnew_wchar.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strnew_wchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strnew_wchar.c.o
+.PHONY : corewar_diasm/libft/ft_strnew_wchar.c.o
+
+corewar_diasm/libft/ft_strnew_wchar.i: corewar_diasm/libft/ft_strnew_wchar.c.i
+
+.PHONY : corewar_diasm/libft/ft_strnew_wchar.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strnew_wchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strnew_wchar.c.i
+.PHONY : corewar_diasm/libft/ft_strnew_wchar.c.i
+
+corewar_diasm/libft/ft_strnew_wchar.s: corewar_diasm/libft/ft_strnew_wchar.c.s
+
+.PHONY : corewar_diasm/libft/ft_strnew_wchar.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strnew_wchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strnew_wchar.c.s
+.PHONY : corewar_diasm/libft/ft_strnew_wchar.c.s
+
+corewar_diasm/libft/ft_strnjoin.o: corewar_diasm/libft/ft_strnjoin.c.o
+
+.PHONY : corewar_diasm/libft/ft_strnjoin.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strnjoin.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strnjoin.c.o
+.PHONY : corewar_diasm/libft/ft_strnjoin.c.o
+
+corewar_diasm/libft/ft_strnjoin.i: corewar_diasm/libft/ft_strnjoin.c.i
+
+.PHONY : corewar_diasm/libft/ft_strnjoin.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strnjoin.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strnjoin.c.i
+.PHONY : corewar_diasm/libft/ft_strnjoin.c.i
+
+corewar_diasm/libft/ft_strnjoin.s: corewar_diasm/libft/ft_strnjoin.c.s
+
+.PHONY : corewar_diasm/libft/ft_strnjoin.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strnjoin.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strnjoin.c.s
+.PHONY : corewar_diasm/libft/ft_strnjoin.c.s
+
+corewar_diasm/libft/ft_strnjoinfree.o: corewar_diasm/libft/ft_strnjoinfree.c.o
+
+.PHONY : corewar_diasm/libft/ft_strnjoinfree.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strnjoinfree.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strnjoinfree.c.o
+.PHONY : corewar_diasm/libft/ft_strnjoinfree.c.o
+
+corewar_diasm/libft/ft_strnjoinfree.i: corewar_diasm/libft/ft_strnjoinfree.c.i
+
+.PHONY : corewar_diasm/libft/ft_strnjoinfree.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strnjoinfree.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strnjoinfree.c.i
+.PHONY : corewar_diasm/libft/ft_strnjoinfree.c.i
+
+corewar_diasm/libft/ft_strnjoinfree.s: corewar_diasm/libft/ft_strnjoinfree.c.s
+
+.PHONY : corewar_diasm/libft/ft_strnjoinfree.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strnjoinfree.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strnjoinfree.c.s
+.PHONY : corewar_diasm/libft/ft_strnjoinfree.c.s
+
+corewar_diasm/libft/ft_strnstr.o: corewar_diasm/libft/ft_strnstr.c.o
+
+.PHONY : corewar_diasm/libft/ft_strnstr.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strnstr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strnstr.c.o
+.PHONY : corewar_diasm/libft/ft_strnstr.c.o
+
+corewar_diasm/libft/ft_strnstr.i: corewar_diasm/libft/ft_strnstr.c.i
+
+.PHONY : corewar_diasm/libft/ft_strnstr.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strnstr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strnstr.c.i
+.PHONY : corewar_diasm/libft/ft_strnstr.c.i
+
+corewar_diasm/libft/ft_strnstr.s: corewar_diasm/libft/ft_strnstr.c.s
+
+.PHONY : corewar_diasm/libft/ft_strnstr.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strnstr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strnstr.c.s
+.PHONY : corewar_diasm/libft/ft_strnstr.c.s
+
+corewar_diasm/libft/ft_strrchr.o: corewar_diasm/libft/ft_strrchr.c.o
+
+.PHONY : corewar_diasm/libft/ft_strrchr.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strrchr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strrchr.c.o
+.PHONY : corewar_diasm/libft/ft_strrchr.c.o
+
+corewar_diasm/libft/ft_strrchr.i: corewar_diasm/libft/ft_strrchr.c.i
+
+.PHONY : corewar_diasm/libft/ft_strrchr.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strrchr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strrchr.c.i
+.PHONY : corewar_diasm/libft/ft_strrchr.c.i
+
+corewar_diasm/libft/ft_strrchr.s: corewar_diasm/libft/ft_strrchr.c.s
+
+.PHONY : corewar_diasm/libft/ft_strrchr.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strrchr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strrchr.c.s
+.PHONY : corewar_diasm/libft/ft_strrchr.c.s
+
+corewar_diasm/libft/ft_strsplit.o: corewar_diasm/libft/ft_strsplit.c.o
+
+.PHONY : corewar_diasm/libft/ft_strsplit.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strsplit.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strsplit.c.o
+.PHONY : corewar_diasm/libft/ft_strsplit.c.o
+
+corewar_diasm/libft/ft_strsplit.i: corewar_diasm/libft/ft_strsplit.c.i
+
+.PHONY : corewar_diasm/libft/ft_strsplit.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strsplit.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strsplit.c.i
+.PHONY : corewar_diasm/libft/ft_strsplit.c.i
+
+corewar_diasm/libft/ft_strsplit.s: corewar_diasm/libft/ft_strsplit.c.s
+
+.PHONY : corewar_diasm/libft/ft_strsplit.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strsplit.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strsplit.c.s
+.PHONY : corewar_diasm/libft/ft_strsplit.c.s
+
+corewar_diasm/libft/ft_strstr.o: corewar_diasm/libft/ft_strstr.c.o
+
+.PHONY : corewar_diasm/libft/ft_strstr.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strstr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strstr.c.o
+.PHONY : corewar_diasm/libft/ft_strstr.c.o
+
+corewar_diasm/libft/ft_strstr.i: corewar_diasm/libft/ft_strstr.c.i
+
+.PHONY : corewar_diasm/libft/ft_strstr.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strstr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strstr.c.i
+.PHONY : corewar_diasm/libft/ft_strstr.c.i
+
+corewar_diasm/libft/ft_strstr.s: corewar_diasm/libft/ft_strstr.c.s
+
+.PHONY : corewar_diasm/libft/ft_strstr.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strstr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strstr.c.s
+.PHONY : corewar_diasm/libft/ft_strstr.c.s
+
+corewar_diasm/libft/ft_strsub.o: corewar_diasm/libft/ft_strsub.c.o
+
+.PHONY : corewar_diasm/libft/ft_strsub.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strsub.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strsub.c.o
+.PHONY : corewar_diasm/libft/ft_strsub.c.o
+
+corewar_diasm/libft/ft_strsub.i: corewar_diasm/libft/ft_strsub.c.i
+
+.PHONY : corewar_diasm/libft/ft_strsub.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strsub.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strsub.c.i
+.PHONY : corewar_diasm/libft/ft_strsub.c.i
+
+corewar_diasm/libft/ft_strsub.s: corewar_diasm/libft/ft_strsub.c.s
+
+.PHONY : corewar_diasm/libft/ft_strsub.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strsub.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strsub.c.s
+.PHONY : corewar_diasm/libft/ft_strsub.c.s
+
+corewar_diasm/libft/ft_strtrim.o: corewar_diasm/libft/ft_strtrim.c.o
+
+.PHONY : corewar_diasm/libft/ft_strtrim.o
+
+# target to build an object file
+corewar_diasm/libft/ft_strtrim.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strtrim.c.o
+.PHONY : corewar_diasm/libft/ft_strtrim.c.o
+
+corewar_diasm/libft/ft_strtrim.i: corewar_diasm/libft/ft_strtrim.c.i
+
+.PHONY : corewar_diasm/libft/ft_strtrim.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_strtrim.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strtrim.c.i
+.PHONY : corewar_diasm/libft/ft_strtrim.c.i
+
+corewar_diasm/libft/ft_strtrim.s: corewar_diasm/libft/ft_strtrim.c.s
+
+.PHONY : corewar_diasm/libft/ft_strtrim.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_strtrim.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_strtrim.c.s
+.PHONY : corewar_diasm/libft/ft_strtrim.c.s
+
+corewar_diasm/libft/ft_tolower.o: corewar_diasm/libft/ft_tolower.c.o
+
+.PHONY : corewar_diasm/libft/ft_tolower.o
+
+# target to build an object file
+corewar_diasm/libft/ft_tolower.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_tolower.c.o
+.PHONY : corewar_diasm/libft/ft_tolower.c.o
+
+corewar_diasm/libft/ft_tolower.i: corewar_diasm/libft/ft_tolower.c.i
+
+.PHONY : corewar_diasm/libft/ft_tolower.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_tolower.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_tolower.c.i
+.PHONY : corewar_diasm/libft/ft_tolower.c.i
+
+corewar_diasm/libft/ft_tolower.s: corewar_diasm/libft/ft_tolower.c.s
+
+.PHONY : corewar_diasm/libft/ft_tolower.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_tolower.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_tolower.c.s
+.PHONY : corewar_diasm/libft/ft_tolower.c.s
+
+corewar_diasm/libft/ft_toupper.o: corewar_diasm/libft/ft_toupper.c.o
+
+.PHONY : corewar_diasm/libft/ft_toupper.o
+
+# target to build an object file
+corewar_diasm/libft/ft_toupper.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_toupper.c.o
+.PHONY : corewar_diasm/libft/ft_toupper.c.o
+
+corewar_diasm/libft/ft_toupper.i: corewar_diasm/libft/ft_toupper.c.i
+
+.PHONY : corewar_diasm/libft/ft_toupper.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_toupper.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_toupper.c.i
+.PHONY : corewar_diasm/libft/ft_toupper.c.i
+
+corewar_diasm/libft/ft_toupper.s: corewar_diasm/libft/ft_toupper.c.s
+
+.PHONY : corewar_diasm/libft/ft_toupper.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_toupper.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_toupper.c.s
+.PHONY : corewar_diasm/libft/ft_toupper.c.s
+
+corewar_diasm/libft/ft_un_itoa.o: corewar_diasm/libft/ft_un_itoa.c.o
+
+.PHONY : corewar_diasm/libft/ft_un_itoa.o
+
+# target to build an object file
+corewar_diasm/libft/ft_un_itoa.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_un_itoa.c.o
+.PHONY : corewar_diasm/libft/ft_un_itoa.c.o
+
+corewar_diasm/libft/ft_un_itoa.i: corewar_diasm/libft/ft_un_itoa.c.i
+
+.PHONY : corewar_diasm/libft/ft_un_itoa.i
+
+# target to preprocess a source file
+corewar_diasm/libft/ft_un_itoa.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_un_itoa.c.i
+.PHONY : corewar_diasm/libft/ft_un_itoa.c.i
+
+corewar_diasm/libft/ft_un_itoa.s: corewar_diasm/libft/ft_un_itoa.c.s
+
+.PHONY : corewar_diasm/libft/ft_un_itoa.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/ft_un_itoa.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/ft_un_itoa.c.s
+.PHONY : corewar_diasm/libft/ft_un_itoa.c.s
+
+corewar_diasm/libft/get_next_line.o: corewar_diasm/libft/get_next_line.c.o
+
+.PHONY : corewar_diasm/libft/get_next_line.o
+
+# target to build an object file
+corewar_diasm/libft/get_next_line.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/get_next_line.c.o
+.PHONY : corewar_diasm/libft/get_next_line.c.o
+
+corewar_diasm/libft/get_next_line.i: corewar_diasm/libft/get_next_line.c.i
+
+.PHONY : corewar_diasm/libft/get_next_line.i
+
+# target to preprocess a source file
+corewar_diasm/libft/get_next_line.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/get_next_line.c.i
+.PHONY : corewar_diasm/libft/get_next_line.c.i
+
+corewar_diasm/libft/get_next_line.s: corewar_diasm/libft/get_next_line.c.s
+
+.PHONY : corewar_diasm/libft/get_next_line.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/get_next_line.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/get_next_line.c.s
+.PHONY : corewar_diasm/libft/get_next_line.c.s
+
+corewar_diasm/libft/sys_err.o: corewar_diasm/libft/sys_err.c.o
+
+.PHONY : corewar_diasm/libft/sys_err.o
+
+# target to build an object file
+corewar_diasm/libft/sys_err.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/sys_err.c.o
+.PHONY : corewar_diasm/libft/sys_err.c.o
+
+corewar_diasm/libft/sys_err.i: corewar_diasm/libft/sys_err.c.i
+
+.PHONY : corewar_diasm/libft/sys_err.i
+
+# target to preprocess a source file
+corewar_diasm/libft/sys_err.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/sys_err.c.i
+.PHONY : corewar_diasm/libft/sys_err.c.i
+
+corewar_diasm/libft/sys_err.s: corewar_diasm/libft/sys_err.c.s
+
+.PHONY : corewar_diasm/libft/sys_err.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/sys_err.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/sys_err.c.s
+.PHONY : corewar_diasm/libft/sys_err.c.s
+
+corewar_diasm/libft/type_char.o: corewar_diasm/libft/type_char.c.o
+
+.PHONY : corewar_diasm/libft/type_char.o
+
+# target to build an object file
+corewar_diasm/libft/type_char.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/type_char.c.o
+.PHONY : corewar_diasm/libft/type_char.c.o
+
+corewar_diasm/libft/type_char.i: corewar_diasm/libft/type_char.c.i
+
+.PHONY : corewar_diasm/libft/type_char.i
+
+# target to preprocess a source file
+corewar_diasm/libft/type_char.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/type_char.c.i
+.PHONY : corewar_diasm/libft/type_char.c.i
+
+corewar_diasm/libft/type_char.s: corewar_diasm/libft/type_char.c.s
+
+.PHONY : corewar_diasm/libft/type_char.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/type_char.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/type_char.c.s
+.PHONY : corewar_diasm/libft/type_char.c.s
+
+corewar_diasm/libft/type_float.o: corewar_diasm/libft/type_float.c.o
+
+.PHONY : corewar_diasm/libft/type_float.o
+
+# target to build an object file
+corewar_diasm/libft/type_float.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/type_float.c.o
+.PHONY : corewar_diasm/libft/type_float.c.o
+
+corewar_diasm/libft/type_float.i: corewar_diasm/libft/type_float.c.i
+
+.PHONY : corewar_diasm/libft/type_float.i
+
+# target to preprocess a source file
+corewar_diasm/libft/type_float.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/type_float.c.i
+.PHONY : corewar_diasm/libft/type_float.c.i
+
+corewar_diasm/libft/type_float.s: corewar_diasm/libft/type_float.c.s
+
+.PHONY : corewar_diasm/libft/type_float.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/type_float.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/type_float.c.s
+.PHONY : corewar_diasm/libft/type_float.c.s
+
+corewar_diasm/libft/type_float2.o: corewar_diasm/libft/type_float2.c.o
+
+.PHONY : corewar_diasm/libft/type_float2.o
+
+# target to build an object file
+corewar_diasm/libft/type_float2.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/type_float2.c.o
+.PHONY : corewar_diasm/libft/type_float2.c.o
+
+corewar_diasm/libft/type_float2.i: corewar_diasm/libft/type_float2.c.i
+
+.PHONY : corewar_diasm/libft/type_float2.i
+
+# target to preprocess a source file
+corewar_diasm/libft/type_float2.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/type_float2.c.i
+.PHONY : corewar_diasm/libft/type_float2.c.i
+
+corewar_diasm/libft/type_float2.s: corewar_diasm/libft/type_float2.c.s
+
+.PHONY : corewar_diasm/libft/type_float2.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/type_float2.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/type_float2.c.s
+.PHONY : corewar_diasm/libft/type_float2.c.s
+
+corewar_diasm/libft/type_string.o: corewar_diasm/libft/type_string.c.o
+
+.PHONY : corewar_diasm/libft/type_string.o
+
+# target to build an object file
+corewar_diasm/libft/type_string.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/type_string.c.o
+.PHONY : corewar_diasm/libft/type_string.c.o
+
+corewar_diasm/libft/type_string.i: corewar_diasm/libft/type_string.c.i
+
+.PHONY : corewar_diasm/libft/type_string.i
+
+# target to preprocess a source file
+corewar_diasm/libft/type_string.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/type_string.c.i
+.PHONY : corewar_diasm/libft/type_string.c.i
+
+corewar_diasm/libft/type_string.s: corewar_diasm/libft/type_string.c.s
+
+.PHONY : corewar_diasm/libft/type_string.s
+
+# target to generate assembly for a file
+corewar_diasm/libft/type_string.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/libft/type_string.c.s
+.PHONY : corewar_diasm/libft/type_string.c.s
+
+corewar_diasm/source/main.o: corewar_diasm/source/main.c.o
+
+.PHONY : corewar_diasm/source/main.o
+
+# target to build an object file
+corewar_diasm/source/main.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/source/main.c.o
+.PHONY : corewar_diasm/source/main.c.o
+
+corewar_diasm/source/main.i: corewar_diasm/source/main.c.i
+
+.PHONY : corewar_diasm/source/main.i
+
+# target to preprocess a source file
+corewar_diasm/source/main.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/source/main.c.i
+.PHONY : corewar_diasm/source/main.c.i
+
+corewar_diasm/source/main.s: corewar_diasm/source/main.c.s
+
+.PHONY : corewar_diasm/source/main.s
+
+# target to generate assembly for a file
+corewar_diasm/source/main.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/source/main.c.s
+.PHONY : corewar_diasm/source/main.c.s
+
+corewar_diasm/source/op_live_zjmp_fork_fork_add_sub_aff_and_or_xor.o: corewar_diasm/source/op_live_zjmp_fork_fork_add_sub_aff_and_or_xor.c.o
+
+.PHONY : corewar_diasm/source/op_live_zjmp_fork_fork_add_sub_aff_and_or_xor.o
+
+# target to build an object file
+corewar_diasm/source/op_live_zjmp_fork_fork_add_sub_aff_and_or_xor.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/source/op_live_zjmp_fork_fork_add_sub_aff_and_or_xor.c.o
+.PHONY : corewar_diasm/source/op_live_zjmp_fork_fork_add_sub_aff_and_or_xor.c.o
+
+corewar_diasm/source/op_live_zjmp_fork_fork_add_sub_aff_and_or_xor.i: corewar_diasm/source/op_live_zjmp_fork_fork_add_sub_aff_and_or_xor.c.i
+
+.PHONY : corewar_diasm/source/op_live_zjmp_fork_fork_add_sub_aff_and_or_xor.i
+
+# target to preprocess a source file
+corewar_diasm/source/op_live_zjmp_fork_fork_add_sub_aff_and_or_xor.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/source/op_live_zjmp_fork_fork_add_sub_aff_and_or_xor.c.i
+.PHONY : corewar_diasm/source/op_live_zjmp_fork_fork_add_sub_aff_and_or_xor.c.i
+
+corewar_diasm/source/op_live_zjmp_fork_fork_add_sub_aff_and_or_xor.s: corewar_diasm/source/op_live_zjmp_fork_fork_add_sub_aff_and_or_xor.c.s
+
+.PHONY : corewar_diasm/source/op_live_zjmp_fork_fork_add_sub_aff_and_or_xor.s
+
+# target to generate assembly for a file
+corewar_diasm/source/op_live_zjmp_fork_fork_add_sub_aff_and_or_xor.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/source/op_live_zjmp_fork_fork_add_sub_aff_and_or_xor.c.s
+.PHONY : corewar_diasm/source/op_live_zjmp_fork_fork_add_sub_aff_and_or_xor.c.s
+
+corewar_diasm/source/op_ls_lld_st_sti_ldi_lldi.o: corewar_diasm/source/op_ls_lld_st_sti_ldi_lldi.c.o
+
+.PHONY : corewar_diasm/source/op_ls_lld_st_sti_ldi_lldi.o
+
+# target to build an object file
+corewar_diasm/source/op_ls_lld_st_sti_ldi_lldi.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/source/op_ls_lld_st_sti_ldi_lldi.c.o
+.PHONY : corewar_diasm/source/op_ls_lld_st_sti_ldi_lldi.c.o
+
+corewar_diasm/source/op_ls_lld_st_sti_ldi_lldi.i: corewar_diasm/source/op_ls_lld_st_sti_ldi_lldi.c.i
+
+.PHONY : corewar_diasm/source/op_ls_lld_st_sti_ldi_lldi.i
+
+# target to preprocess a source file
+corewar_diasm/source/op_ls_lld_st_sti_ldi_lldi.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/source/op_ls_lld_st_sti_ldi_lldi.c.i
+.PHONY : corewar_diasm/source/op_ls_lld_st_sti_ldi_lldi.c.i
+
+corewar_diasm/source/op_ls_lld_st_sti_ldi_lldi.s: corewar_diasm/source/op_ls_lld_st_sti_ldi_lldi.c.s
+
+.PHONY : corewar_diasm/source/op_ls_lld_st_sti_ldi_lldi.s
+
+# target to generate assembly for a file
+corewar_diasm/source/op_ls_lld_st_sti_ldi_lldi.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/source/op_ls_lld_st_sti_ldi_lldi.c.s
+.PHONY : corewar_diasm/source/op_ls_lld_st_sti_ldi_lldi.c.s
+
+corewar_diasm/source/print_bit_hex.o: corewar_diasm/source/print_bit_hex.c.o
+
+.PHONY : corewar_diasm/source/print_bit_hex.o
+
+# target to build an object file
+corewar_diasm/source/print_bit_hex.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/source/print_bit_hex.c.o
+.PHONY : corewar_diasm/source/print_bit_hex.c.o
+
+corewar_diasm/source/print_bit_hex.i: corewar_diasm/source/print_bit_hex.c.i
+
+.PHONY : corewar_diasm/source/print_bit_hex.i
+
+# target to preprocess a source file
+corewar_diasm/source/print_bit_hex.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/source/print_bit_hex.c.i
+.PHONY : corewar_diasm/source/print_bit_hex.c.i
+
+corewar_diasm/source/print_bit_hex.s: corewar_diasm/source/print_bit_hex.c.s
+
+.PHONY : corewar_diasm/source/print_bit_hex.s
+
+# target to generate assembly for a file
+corewar_diasm/source/print_bit_hex.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/source/print_bit_hex.c.s
+.PHONY : corewar_diasm/source/print_bit_hex.c.s
+
+corewar_diasm/source/read_byts.o: corewar_diasm/source/read_byts.c.o
+
+.PHONY : corewar_diasm/source/read_byts.o
+
+# target to build an object file
+corewar_diasm/source/read_byts.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/source/read_byts.c.o
+.PHONY : corewar_diasm/source/read_byts.c.o
+
+corewar_diasm/source/read_byts.i: corewar_diasm/source/read_byts.c.i
+
+.PHONY : corewar_diasm/source/read_byts.i
+
+# target to preprocess a source file
+corewar_diasm/source/read_byts.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/source/read_byts.c.i
+.PHONY : corewar_diasm/source/read_byts.c.i
+
+corewar_diasm/source/read_byts.s: corewar_diasm/source/read_byts.c.s
+
+.PHONY : corewar_diasm/source/read_byts.s
+
+# target to generate assembly for a file
+corewar_diasm/source/read_byts.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/source/read_byts.c.s
+.PHONY : corewar_diasm/source/read_byts.c.s
+
+corewar_diasm/source/write_name_comment.o: corewar_diasm/source/write_name_comment.c.o
+
+.PHONY : corewar_diasm/source/write_name_comment.o
+
+# target to build an object file
+corewar_diasm/source/write_name_comment.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/source/write_name_comment.c.o
+.PHONY : corewar_diasm/source/write_name_comment.c.o
+
+corewar_diasm/source/write_name_comment.i: corewar_diasm/source/write_name_comment.c.i
+
+.PHONY : corewar_diasm/source/write_name_comment.i
+
+# target to preprocess a source file
+corewar_diasm/source/write_name_comment.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/source/write_name_comment.c.i
+.PHONY : corewar_diasm/source/write_name_comment.c.i
+
+corewar_diasm/source/write_name_comment.s: corewar_diasm/source/write_name_comment.c.s
+
+.PHONY : corewar_diasm/source/write_name_comment.s
+
+# target to generate assembly for a file
+corewar_diasm/source/write_name_comment.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/source/write_name_comment.c.s
+.PHONY : corewar_diasm/source/write_name_comment.c.s
+
+corewar_diasm/source/write_to_file.o: corewar_diasm/source/write_to_file.c.o
+
+.PHONY : corewar_diasm/source/write_to_file.o
+
+# target to build an object file
+corewar_diasm/source/write_to_file.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/source/write_to_file.c.o
+.PHONY : corewar_diasm/source/write_to_file.c.o
+
+corewar_diasm/source/write_to_file.i: corewar_diasm/source/write_to_file.c.i
+
+.PHONY : corewar_diasm/source/write_to_file.i
+
+# target to preprocess a source file
+corewar_diasm/source/write_to_file.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/source/write_to_file.c.i
+.PHONY : corewar_diasm/source/write_to_file.c.i
+
+corewar_diasm/source/write_to_file.s: corewar_diasm/source/write_to_file.c.s
+
+.PHONY : corewar_diasm/source/write_to_file.s
+
+# target to generate assembly for a file
+corewar_diasm/source/write_to_file.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/corewar_diasm/source/write_to_file.c.s
+.PHONY : corewar_diasm/source/write_to_file.c.s
 
 ft_printf/libft/source/ft_atoi.o: ft_printf/libft/source/ft_atoi.c.o
 
@@ -8034,6 +17916,3732 @@ libft/get_next_line.c.s:
 	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/libft/get_next_line.c.s
 .PHONY : libft/get_next_line.c.s
 
+new_check_kk/Corewar/libft/srcs/ft_printf/buffer.o: new_check_kk/Corewar/libft/srcs/ft_printf/buffer.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/buffer.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/ft_printf/buffer.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/buffer.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/buffer.c.o
+
+new_check_kk/Corewar/libft/srcs/ft_printf/buffer.i: new_check_kk/Corewar/libft/srcs/ft_printf/buffer.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/buffer.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/ft_printf/buffer.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/buffer.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/buffer.c.i
+
+new_check_kk/Corewar/libft/srcs/ft_printf/buffer.s: new_check_kk/Corewar/libft/srcs/ft_printf/buffer.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/buffer.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/ft_printf/buffer.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/buffer.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/buffer.c.s
+
+new_check_kk/Corewar/libft/srcs/ft_printf/cast_mod.o: new_check_kk/Corewar/libft/srcs/ft_printf/cast_mod.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/cast_mod.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/ft_printf/cast_mod.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/cast_mod.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/cast_mod.c.o
+
+new_check_kk/Corewar/libft/srcs/ft_printf/cast_mod.i: new_check_kk/Corewar/libft/srcs/ft_printf/cast_mod.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/cast_mod.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/ft_printf/cast_mod.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/cast_mod.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/cast_mod.c.i
+
+new_check_kk/Corewar/libft/srcs/ft_printf/cast_mod.s: new_check_kk/Corewar/libft/srcs/ft_printf/cast_mod.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/cast_mod.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/ft_printf/cast_mod.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/cast_mod.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/cast_mod.c.s
+
+new_check_kk/Corewar/libft/srcs/ft_printf/format.o: new_check_kk/Corewar/libft/srcs/ft_printf/format.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/format.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/ft_printf/format.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/format.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/format.c.o
+
+new_check_kk/Corewar/libft/srcs/ft_printf/format.i: new_check_kk/Corewar/libft/srcs/ft_printf/format.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/format.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/ft_printf/format.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/format.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/format.c.i
+
+new_check_kk/Corewar/libft/srcs/ft_printf/format.s: new_check_kk/Corewar/libft/srcs/ft_printf/format.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/format.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/ft_printf/format.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/format.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/format.c.s
+
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen.o: new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen.c.o
+
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen.i: new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen.c.i
+
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen.s: new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen.c.s
+
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen_b.o: new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen_b.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen_b.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen_b.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen_b.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen_b.c.o
+
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen_b.i: new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen_b.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen_b.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen_b.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen_b.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen_b.c.i
+
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen_b.s: new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen_b.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen_b.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen_b.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen_b.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen_b.c.s
+
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_power.o: new_check_kk/Corewar/libft/srcs/ft_printf/ft_power.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_power.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_power.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/ft_power.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_power.c.o
+
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_power.i: new_check_kk/Corewar/libft/srcs/ft_printf/ft_power.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_power.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_power.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/ft_power.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_power.c.i
+
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_power.s: new_check_kk/Corewar/libft/srcs/ft_printf/ft_power.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_power.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_power.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/ft_power.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_power.c.s
+
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_printf.o: new_check_kk/Corewar/libft/srcs/ft_printf/ft_printf.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_printf.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_printf.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/ft_printf.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_printf.c.o
+
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_printf.i: new_check_kk/Corewar/libft/srcs/ft_printf/ft_printf.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_printf.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_printf.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/ft_printf.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_printf.c.i
+
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_printf.s: new_check_kk/Corewar/libft/srcs/ft_printf/ft_printf.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_printf.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_printf.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/ft_printf.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_printf.c.s
+
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_nblen.o: new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_nblen.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_nblen.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_nblen.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_nblen.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_nblen.c.o
+
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_nblen.i: new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_nblen.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_nblen.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_nblen.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_nblen.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_nblen.c.i
+
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_nblen.s: new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_nblen.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_nblen.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_nblen.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_nblen.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_nblen.c.s
+
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_power.o: new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_power.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_power.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_power.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_power.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_power.c.o
+
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_power.i: new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_power.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_power.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_power.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_power.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_power.c.i
+
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_power.s: new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_power.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_power.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_power.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_power.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_power.c.s
+
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_bin.o: new_check_kk/Corewar/libft/srcs/ft_printf/fwp_bin.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_bin.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_bin.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/fwp_bin.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_bin.c.o
+
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_bin.i: new_check_kk/Corewar/libft/srcs/ft_printf/fwp_bin.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_bin.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_bin.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/fwp_bin.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_bin.c.i
+
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_bin.s: new_check_kk/Corewar/libft/srcs/ft_printf/fwp_bin.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_bin.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_bin.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/fwp_bin.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_bin.c.s
+
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_char.o: new_check_kk/Corewar/libft/srcs/ft_printf/fwp_char.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_char.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_char.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/fwp_char.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_char.c.o
+
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_char.i: new_check_kk/Corewar/libft/srcs/ft_printf/fwp_char.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_char.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_char.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/fwp_char.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_char.c.i
+
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_char.s: new_check_kk/Corewar/libft/srcs/ft_printf/fwp_char.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_char.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_char.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/fwp_char.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_char.c.s
+
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_hex.o: new_check_kk/Corewar/libft/srcs/ft_printf/fwp_hex.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_hex.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_hex.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/fwp_hex.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_hex.c.o
+
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_hex.i: new_check_kk/Corewar/libft/srcs/ft_printf/fwp_hex.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_hex.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_hex.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/fwp_hex.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_hex.c.i
+
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_hex.s: new_check_kk/Corewar/libft/srcs/ft_printf/fwp_hex.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_hex.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_hex.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/fwp_hex.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_hex.c.s
+
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_int.o: new_check_kk/Corewar/libft/srcs/ft_printf/fwp_int.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_int.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_int.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/fwp_int.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_int.c.o
+
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_int.i: new_check_kk/Corewar/libft/srcs/ft_printf/fwp_int.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_int.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_int.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/fwp_int.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_int.c.i
+
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_int.s: new_check_kk/Corewar/libft/srcs/ft_printf/fwp_int.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_int.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_int.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/fwp_int.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_int.c.s
+
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_oct.o: new_check_kk/Corewar/libft/srcs/ft_printf/fwp_oct.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_oct.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_oct.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/fwp_oct.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_oct.c.o
+
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_oct.i: new_check_kk/Corewar/libft/srcs/ft_printf/fwp_oct.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_oct.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_oct.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/fwp_oct.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_oct.c.i
+
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_oct.s: new_check_kk/Corewar/libft/srcs/ft_printf/fwp_oct.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_oct.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_oct.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/fwp_oct.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_oct.c.s
+
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_ptr.o: new_check_kk/Corewar/libft/srcs/ft_printf/fwp_ptr.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_ptr.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_ptr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/fwp_ptr.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_ptr.c.o
+
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_ptr.i: new_check_kk/Corewar/libft/srcs/ft_printf/fwp_ptr.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_ptr.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_ptr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/fwp_ptr.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_ptr.c.i
+
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_ptr.s: new_check_kk/Corewar/libft/srcs/ft_printf/fwp_ptr.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_ptr.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_ptr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/fwp_ptr.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_ptr.c.s
+
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_u_int.o: new_check_kk/Corewar/libft/srcs/ft_printf/fwp_u_int.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_u_int.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_u_int.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/fwp_u_int.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_u_int.c.o
+
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_u_int.i: new_check_kk/Corewar/libft/srcs/ft_printf/fwp_u_int.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_u_int.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_u_int.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/fwp_u_int.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_u_int.c.i
+
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_u_int.s: new_check_kk/Corewar/libft/srcs/ft_printf/fwp_u_int.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_u_int.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_u_int.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/fwp_u_int.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_u_int.c.s
+
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wchar.o: new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wchar.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wchar.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wchar.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wchar.c.o
+
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wchar.i: new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wchar.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wchar.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wchar.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wchar.c.i
+
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wchar.s: new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wchar.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wchar.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wchar.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wchar.c.s
+
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wstr.o: new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wstr.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wstr.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wstr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wstr.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wstr.c.o
+
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wstr.i: new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wstr.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wstr.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wstr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wstr.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wstr.c.i
+
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wstr.s: new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wstr.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wstr.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wstr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wstr.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wstr.c.s
+
+new_check_kk/Corewar/libft/srcs/ft_printf/lst_arg.o: new_check_kk/Corewar/libft/srcs/ft_printf/lst_arg.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/lst_arg.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/ft_printf/lst_arg.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/lst_arg.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/lst_arg.c.o
+
+new_check_kk/Corewar/libft/srcs/ft_printf/lst_arg.i: new_check_kk/Corewar/libft/srcs/ft_printf/lst_arg.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/lst_arg.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/ft_printf/lst_arg.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/lst_arg.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/lst_arg.c.i
+
+new_check_kk/Corewar/libft/srcs/ft_printf/lst_arg.s: new_check_kk/Corewar/libft/srcs/ft_printf/lst_arg.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/lst_arg.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/ft_printf/lst_arg.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/lst_arg.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/lst_arg.c.s
+
+new_check_kk/Corewar/libft/srcs/ft_printf/num_field.o: new_check_kk/Corewar/libft/srcs/ft_printf/num_field.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/num_field.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/ft_printf/num_field.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/num_field.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/num_field.c.o
+
+new_check_kk/Corewar/libft/srcs/ft_printf/num_field.i: new_check_kk/Corewar/libft/srcs/ft_printf/num_field.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/num_field.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/ft_printf/num_field.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/num_field.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/num_field.c.i
+
+new_check_kk/Corewar/libft/srcs/ft_printf/num_field.s: new_check_kk/Corewar/libft/srcs/ft_printf/num_field.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/num_field.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/ft_printf/num_field.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/num_field.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/num_field.c.s
+
+new_check_kk/Corewar/libft/srcs/ft_printf/parser.o: new_check_kk/Corewar/libft/srcs/ft_printf/parser.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/parser.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/ft_printf/parser.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/parser.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/parser.c.o
+
+new_check_kk/Corewar/libft/srcs/ft_printf/parser.i: new_check_kk/Corewar/libft/srcs/ft_printf/parser.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/parser.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/ft_printf/parser.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/parser.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/parser.c.i
+
+new_check_kk/Corewar/libft/srcs/ft_printf/parser.s: new_check_kk/Corewar/libft/srcs/ft_printf/parser.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/parser.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/ft_printf/parser.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/parser.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/parser.c.s
+
+new_check_kk/Corewar/libft/srcs/ft_printf/str_field.o: new_check_kk/Corewar/libft/srcs/ft_printf/str_field.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/str_field.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/ft_printf/str_field.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/str_field.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/str_field.c.o
+
+new_check_kk/Corewar/libft/srcs/ft_printf/str_field.i: new_check_kk/Corewar/libft/srcs/ft_printf/str_field.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/str_field.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/ft_printf/str_field.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/str_field.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/str_field.c.i
+
+new_check_kk/Corewar/libft/srcs/ft_printf/str_field.s: new_check_kk/Corewar/libft/srcs/ft_printf/str_field.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/str_field.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/ft_printf/str_field.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/ft_printf/str_field.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/ft_printf/str_field.c.s
+
+new_check_kk/Corewar/libft/srcs/get_next_line/ft_getline.o: new_check_kk/Corewar/libft/srcs/get_next_line/ft_getline.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/get_next_line/ft_getline.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/get_next_line/ft_getline.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/get_next_line/ft_getline.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/get_next_line/ft_getline.c.o
+
+new_check_kk/Corewar/libft/srcs/get_next_line/ft_getline.i: new_check_kk/Corewar/libft/srcs/get_next_line/ft_getline.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/get_next_line/ft_getline.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/get_next_line/ft_getline.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/get_next_line/ft_getline.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/get_next_line/ft_getline.c.i
+
+new_check_kk/Corewar/libft/srcs/get_next_line/ft_getline.s: new_check_kk/Corewar/libft/srcs/get_next_line/ft_getline.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/get_next_line/ft_getline.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/get_next_line/ft_getline.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/get_next_line/ft_getline.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/get_next_line/ft_getline.c.s
+
+new_check_kk/Corewar/libft/srcs/get_next_line/get_next_line.o: new_check_kk/Corewar/libft/srcs/get_next_line/get_next_line.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/get_next_line/get_next_line.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/get_next_line/get_next_line.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/get_next_line/get_next_line.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/get_next_line/get_next_line.c.o
+
+new_check_kk/Corewar/libft/srcs/get_next_line/get_next_line.i: new_check_kk/Corewar/libft/srcs/get_next_line/get_next_line.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/get_next_line/get_next_line.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/get_next_line/get_next_line.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/get_next_line/get_next_line.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/get_next_line/get_next_line.c.i
+
+new_check_kk/Corewar/libft/srcs/get_next_line/get_next_line.s: new_check_kk/Corewar/libft/srcs/get_next_line/get_next_line.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/get_next_line/get_next_line.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/get_next_line/get_next_line.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/get_next_line/get_next_line.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/get_next_line/get_next_line.c.s
+
+new_check_kk/Corewar/libft/srcs/memory/ft_bzero.o: new_check_kk/Corewar/libft/srcs/memory/ft_bzero.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_bzero.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/memory/ft_bzero.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/memory/ft_bzero.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_bzero.c.o
+
+new_check_kk/Corewar/libft/srcs/memory/ft_bzero.i: new_check_kk/Corewar/libft/srcs/memory/ft_bzero.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_bzero.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/memory/ft_bzero.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/memory/ft_bzero.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_bzero.c.i
+
+new_check_kk/Corewar/libft/srcs/memory/ft_bzero.s: new_check_kk/Corewar/libft/srcs/memory/ft_bzero.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_bzero.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/memory/ft_bzero.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/memory/ft_bzero.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_bzero.c.s
+
+new_check_kk/Corewar/libft/srcs/memory/ft_memalloc.o: new_check_kk/Corewar/libft/srcs/memory/ft_memalloc.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memalloc.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/memory/ft_memalloc.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/memory/ft_memalloc.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memalloc.c.o
+
+new_check_kk/Corewar/libft/srcs/memory/ft_memalloc.i: new_check_kk/Corewar/libft/srcs/memory/ft_memalloc.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memalloc.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/memory/ft_memalloc.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/memory/ft_memalloc.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memalloc.c.i
+
+new_check_kk/Corewar/libft/srcs/memory/ft_memalloc.s: new_check_kk/Corewar/libft/srcs/memory/ft_memalloc.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memalloc.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/memory/ft_memalloc.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/memory/ft_memalloc.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memalloc.c.s
+
+new_check_kk/Corewar/libft/srcs/memory/ft_memccpy.o: new_check_kk/Corewar/libft/srcs/memory/ft_memccpy.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memccpy.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/memory/ft_memccpy.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/memory/ft_memccpy.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memccpy.c.o
+
+new_check_kk/Corewar/libft/srcs/memory/ft_memccpy.i: new_check_kk/Corewar/libft/srcs/memory/ft_memccpy.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memccpy.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/memory/ft_memccpy.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/memory/ft_memccpy.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memccpy.c.i
+
+new_check_kk/Corewar/libft/srcs/memory/ft_memccpy.s: new_check_kk/Corewar/libft/srcs/memory/ft_memccpy.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memccpy.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/memory/ft_memccpy.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/memory/ft_memccpy.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memccpy.c.s
+
+new_check_kk/Corewar/libft/srcs/memory/ft_memchr.o: new_check_kk/Corewar/libft/srcs/memory/ft_memchr.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memchr.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/memory/ft_memchr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/memory/ft_memchr.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memchr.c.o
+
+new_check_kk/Corewar/libft/srcs/memory/ft_memchr.i: new_check_kk/Corewar/libft/srcs/memory/ft_memchr.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memchr.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/memory/ft_memchr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/memory/ft_memchr.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memchr.c.i
+
+new_check_kk/Corewar/libft/srcs/memory/ft_memchr.s: new_check_kk/Corewar/libft/srcs/memory/ft_memchr.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memchr.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/memory/ft_memchr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/memory/ft_memchr.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memchr.c.s
+
+new_check_kk/Corewar/libft/srcs/memory/ft_memcmp.o: new_check_kk/Corewar/libft/srcs/memory/ft_memcmp.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memcmp.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/memory/ft_memcmp.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/memory/ft_memcmp.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memcmp.c.o
+
+new_check_kk/Corewar/libft/srcs/memory/ft_memcmp.i: new_check_kk/Corewar/libft/srcs/memory/ft_memcmp.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memcmp.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/memory/ft_memcmp.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/memory/ft_memcmp.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memcmp.c.i
+
+new_check_kk/Corewar/libft/srcs/memory/ft_memcmp.s: new_check_kk/Corewar/libft/srcs/memory/ft_memcmp.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memcmp.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/memory/ft_memcmp.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/memory/ft_memcmp.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memcmp.c.s
+
+new_check_kk/Corewar/libft/srcs/memory/ft_memcpy.o: new_check_kk/Corewar/libft/srcs/memory/ft_memcpy.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memcpy.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/memory/ft_memcpy.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/memory/ft_memcpy.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memcpy.c.o
+
+new_check_kk/Corewar/libft/srcs/memory/ft_memcpy.i: new_check_kk/Corewar/libft/srcs/memory/ft_memcpy.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memcpy.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/memory/ft_memcpy.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/memory/ft_memcpy.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memcpy.c.i
+
+new_check_kk/Corewar/libft/srcs/memory/ft_memcpy.s: new_check_kk/Corewar/libft/srcs/memory/ft_memcpy.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memcpy.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/memory/ft_memcpy.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/memory/ft_memcpy.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memcpy.c.s
+
+new_check_kk/Corewar/libft/srcs/memory/ft_memdel.o: new_check_kk/Corewar/libft/srcs/memory/ft_memdel.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memdel.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/memory/ft_memdel.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/memory/ft_memdel.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memdel.c.o
+
+new_check_kk/Corewar/libft/srcs/memory/ft_memdel.i: new_check_kk/Corewar/libft/srcs/memory/ft_memdel.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memdel.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/memory/ft_memdel.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/memory/ft_memdel.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memdel.c.i
+
+new_check_kk/Corewar/libft/srcs/memory/ft_memdel.s: new_check_kk/Corewar/libft/srcs/memory/ft_memdel.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memdel.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/memory/ft_memdel.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/memory/ft_memdel.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memdel.c.s
+
+new_check_kk/Corewar/libft/srcs/memory/ft_memmove.o: new_check_kk/Corewar/libft/srcs/memory/ft_memmove.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memmove.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/memory/ft_memmove.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/memory/ft_memmove.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memmove.c.o
+
+new_check_kk/Corewar/libft/srcs/memory/ft_memmove.i: new_check_kk/Corewar/libft/srcs/memory/ft_memmove.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memmove.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/memory/ft_memmove.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/memory/ft_memmove.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memmove.c.i
+
+new_check_kk/Corewar/libft/srcs/memory/ft_memmove.s: new_check_kk/Corewar/libft/srcs/memory/ft_memmove.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memmove.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/memory/ft_memmove.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/memory/ft_memmove.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memmove.c.s
+
+new_check_kk/Corewar/libft/srcs/memory/ft_memset.o: new_check_kk/Corewar/libft/srcs/memory/ft_memset.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memset.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/memory/ft_memset.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/memory/ft_memset.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memset.c.o
+
+new_check_kk/Corewar/libft/srcs/memory/ft_memset.i: new_check_kk/Corewar/libft/srcs/memory/ft_memset.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memset.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/memory/ft_memset.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/memory/ft_memset.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memset.c.i
+
+new_check_kk/Corewar/libft/srcs/memory/ft_memset.s: new_check_kk/Corewar/libft/srcs/memory/ft_memset.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memset.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/memory/ft_memset.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/memory/ft_memset.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/memory/ft_memset.c.s
+
+new_check_kk/Corewar/libft/srcs/print/ft_putchar.o: new_check_kk/Corewar/libft/srcs/print/ft_putchar.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putchar.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/print/ft_putchar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/print/ft_putchar.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putchar.c.o
+
+new_check_kk/Corewar/libft/srcs/print/ft_putchar.i: new_check_kk/Corewar/libft/srcs/print/ft_putchar.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putchar.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/print/ft_putchar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/print/ft_putchar.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putchar.c.i
+
+new_check_kk/Corewar/libft/srcs/print/ft_putchar.s: new_check_kk/Corewar/libft/srcs/print/ft_putchar.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putchar.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/print/ft_putchar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/print/ft_putchar.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putchar.c.s
+
+new_check_kk/Corewar/libft/srcs/print/ft_putchar_fd.o: new_check_kk/Corewar/libft/srcs/print/ft_putchar_fd.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putchar_fd.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/print/ft_putchar_fd.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/print/ft_putchar_fd.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putchar_fd.c.o
+
+new_check_kk/Corewar/libft/srcs/print/ft_putchar_fd.i: new_check_kk/Corewar/libft/srcs/print/ft_putchar_fd.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putchar_fd.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/print/ft_putchar_fd.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/print/ft_putchar_fd.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putchar_fd.c.i
+
+new_check_kk/Corewar/libft/srcs/print/ft_putchar_fd.s: new_check_kk/Corewar/libft/srcs/print/ft_putchar_fd.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putchar_fd.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/print/ft_putchar_fd.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/print/ft_putchar_fd.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putchar_fd.c.s
+
+new_check_kk/Corewar/libft/srcs/print/ft_putendl.o: new_check_kk/Corewar/libft/srcs/print/ft_putendl.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putendl.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/print/ft_putendl.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/print/ft_putendl.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putendl.c.o
+
+new_check_kk/Corewar/libft/srcs/print/ft_putendl.i: new_check_kk/Corewar/libft/srcs/print/ft_putendl.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putendl.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/print/ft_putendl.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/print/ft_putendl.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putendl.c.i
+
+new_check_kk/Corewar/libft/srcs/print/ft_putendl.s: new_check_kk/Corewar/libft/srcs/print/ft_putendl.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putendl.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/print/ft_putendl.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/print/ft_putendl.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putendl.c.s
+
+new_check_kk/Corewar/libft/srcs/print/ft_putendl_fd.o: new_check_kk/Corewar/libft/srcs/print/ft_putendl_fd.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putendl_fd.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/print/ft_putendl_fd.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/print/ft_putendl_fd.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putendl_fd.c.o
+
+new_check_kk/Corewar/libft/srcs/print/ft_putendl_fd.i: new_check_kk/Corewar/libft/srcs/print/ft_putendl_fd.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putendl_fd.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/print/ft_putendl_fd.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/print/ft_putendl_fd.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putendl_fd.c.i
+
+new_check_kk/Corewar/libft/srcs/print/ft_putendl_fd.s: new_check_kk/Corewar/libft/srcs/print/ft_putendl_fd.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putendl_fd.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/print/ft_putendl_fd.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/print/ft_putendl_fd.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putendl_fd.c.s
+
+new_check_kk/Corewar/libft/srcs/print/ft_putnbr.o: new_check_kk/Corewar/libft/srcs/print/ft_putnbr.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putnbr.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/print/ft_putnbr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/print/ft_putnbr.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putnbr.c.o
+
+new_check_kk/Corewar/libft/srcs/print/ft_putnbr.i: new_check_kk/Corewar/libft/srcs/print/ft_putnbr.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putnbr.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/print/ft_putnbr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/print/ft_putnbr.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putnbr.c.i
+
+new_check_kk/Corewar/libft/srcs/print/ft_putnbr.s: new_check_kk/Corewar/libft/srcs/print/ft_putnbr.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putnbr.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/print/ft_putnbr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/print/ft_putnbr.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putnbr.c.s
+
+new_check_kk/Corewar/libft/srcs/print/ft_putnbr_fd.o: new_check_kk/Corewar/libft/srcs/print/ft_putnbr_fd.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putnbr_fd.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/print/ft_putnbr_fd.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/print/ft_putnbr_fd.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putnbr_fd.c.o
+
+new_check_kk/Corewar/libft/srcs/print/ft_putnbr_fd.i: new_check_kk/Corewar/libft/srcs/print/ft_putnbr_fd.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putnbr_fd.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/print/ft_putnbr_fd.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/print/ft_putnbr_fd.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putnbr_fd.c.i
+
+new_check_kk/Corewar/libft/srcs/print/ft_putnbr_fd.s: new_check_kk/Corewar/libft/srcs/print/ft_putnbr_fd.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putnbr_fd.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/print/ft_putnbr_fd.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/print/ft_putnbr_fd.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putnbr_fd.c.s
+
+new_check_kk/Corewar/libft/srcs/print/ft_putstr.o: new_check_kk/Corewar/libft/srcs/print/ft_putstr.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putstr.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/print/ft_putstr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/print/ft_putstr.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putstr.c.o
+
+new_check_kk/Corewar/libft/srcs/print/ft_putstr.i: new_check_kk/Corewar/libft/srcs/print/ft_putstr.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putstr.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/print/ft_putstr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/print/ft_putstr.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putstr.c.i
+
+new_check_kk/Corewar/libft/srcs/print/ft_putstr.s: new_check_kk/Corewar/libft/srcs/print/ft_putstr.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putstr.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/print/ft_putstr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/print/ft_putstr.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putstr.c.s
+
+new_check_kk/Corewar/libft/srcs/print/ft_putstr_fd.o: new_check_kk/Corewar/libft/srcs/print/ft_putstr_fd.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putstr_fd.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/print/ft_putstr_fd.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/print/ft_putstr_fd.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putstr_fd.c.o
+
+new_check_kk/Corewar/libft/srcs/print/ft_putstr_fd.i: new_check_kk/Corewar/libft/srcs/print/ft_putstr_fd.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putstr_fd.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/print/ft_putstr_fd.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/print/ft_putstr_fd.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putstr_fd.c.i
+
+new_check_kk/Corewar/libft/srcs/print/ft_putstr_fd.s: new_check_kk/Corewar/libft/srcs/print/ft_putstr_fd.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putstr_fd.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/print/ft_putstr_fd.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/print/ft_putstr_fd.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/print/ft_putstr_fd.c.s
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstadd.o: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstadd.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstadd.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstadd.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstadd.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstadd.c.o
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstadd.i: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstadd.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstadd.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstadd.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstadd.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstadd.c.i
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstadd.s: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstadd.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstadd.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstadd.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstadd.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstadd.c.s
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstaddback.o: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstaddback.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstaddback.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstaddback.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstaddback.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstaddback.c.o
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstaddback.i: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstaddback.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstaddback.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstaddback.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstaddback.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstaddback.c.i
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstaddback.s: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstaddback.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstaddback.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstaddback.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstaddback.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstaddback.c.s
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstappend.o: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstappend.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstappend.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstappend.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstappend.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstappend.c.o
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstappend.i: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstappend.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstappend.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstappend.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstappend.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstappend.c.i
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstappend.s: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstappend.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstappend.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstappend.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstappend.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstappend.c.s
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdel.o: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdel.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdel.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdel.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdel.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdel.c.o
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdel.i: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdel.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdel.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdel.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdel.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdel.c.i
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdel.s: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdel.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdel.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdel.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdel.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdel.c.s
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdelone.o: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdelone.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdelone.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdelone.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdelone.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdelone.c.o
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdelone.i: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdelone.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdelone.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdelone.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdelone.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdelone.c.i
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdelone.s: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdelone.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdelone.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdelone.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdelone.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdelone.c.s
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstinttab.o: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstinttab.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstinttab.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstinttab.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstinttab.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstinttab.c.o
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstinttab.i: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstinttab.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstinttab.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstinttab.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstinttab.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstinttab.c.i
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstinttab.s: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstinttab.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstinttab.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstinttab.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstinttab.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstinttab.c.s
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstiter.o: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstiter.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstiter.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstiter.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstiter.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstiter.c.o
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstiter.i: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstiter.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstiter.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstiter.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstiter.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstiter.c.i
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstiter.s: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstiter.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstiter.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstiter.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstiter.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstiter.c.s
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstlen.o: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstlen.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstlen.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstlen.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstlen.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstlen.c.o
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstlen.i: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstlen.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstlen.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstlen.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstlen.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstlen.c.i
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstlen.s: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstlen.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstlen.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstlen.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstlen.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstlen.c.s
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstmap.o: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstmap.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstmap.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstmap.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstmap.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstmap.c.o
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstmap.i: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstmap.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstmap.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstmap.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstmap.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstmap.c.i
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstmap.s: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstmap.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstmap.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstmap.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstmap.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstmap.c.s
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstnew.o: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstnew.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstnew.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstnew.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstnew.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstnew.c.o
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstnew.i: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstnew.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstnew.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstnew.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstnew.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstnew.c.i
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstnew.s: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstnew.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstnew.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstnew.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstnew.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstnew.c.s
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpop.o: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpop.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpop.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpop.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpop.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpop.c.o
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpop.i: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpop.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpop.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpop.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpop.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpop.c.i
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpop.s: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpop.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpop.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpop.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpop.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpop.c.s
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpush.o: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpush.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpush.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpush.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpush.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpush.c.o
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpush.i: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpush.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpush.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpush.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpush.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpush.c.i
+
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpush.s: new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpush.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpush.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpush.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpush.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpush.c.s
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strcat.o: new_check_kk/Corewar/libft/srcs/strings/ft_strcat.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strcat.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/strings/ft_strcat.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strcat.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strcat.c.o
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strcat.i: new_check_kk/Corewar/libft/srcs/strings/ft_strcat.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strcat.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/strings/ft_strcat.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strcat.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strcat.c.i
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strcat.s: new_check_kk/Corewar/libft/srcs/strings/ft_strcat.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strcat.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/strings/ft_strcat.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strcat.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strcat.c.s
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strchr.o: new_check_kk/Corewar/libft/srcs/strings/ft_strchr.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strchr.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/strings/ft_strchr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strchr.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strchr.c.o
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strchr.i: new_check_kk/Corewar/libft/srcs/strings/ft_strchr.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strchr.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/strings/ft_strchr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strchr.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strchr.c.i
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strchr.s: new_check_kk/Corewar/libft/srcs/strings/ft_strchr.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strchr.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/strings/ft_strchr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strchr.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strchr.c.s
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strclr.o: new_check_kk/Corewar/libft/srcs/strings/ft_strclr.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strclr.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/strings/ft_strclr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strclr.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strclr.c.o
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strclr.i: new_check_kk/Corewar/libft/srcs/strings/ft_strclr.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strclr.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/strings/ft_strclr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strclr.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strclr.c.i
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strclr.s: new_check_kk/Corewar/libft/srcs/strings/ft_strclr.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strclr.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/strings/ft_strclr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strclr.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strclr.c.s
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strcmp.o: new_check_kk/Corewar/libft/srcs/strings/ft_strcmp.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strcmp.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/strings/ft_strcmp.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strcmp.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strcmp.c.o
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strcmp.i: new_check_kk/Corewar/libft/srcs/strings/ft_strcmp.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strcmp.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/strings/ft_strcmp.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strcmp.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strcmp.c.i
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strcmp.s: new_check_kk/Corewar/libft/srcs/strings/ft_strcmp.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strcmp.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/strings/ft_strcmp.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strcmp.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strcmp.c.s
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strcpy.o: new_check_kk/Corewar/libft/srcs/strings/ft_strcpy.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strcpy.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/strings/ft_strcpy.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strcpy.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strcpy.c.o
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strcpy.i: new_check_kk/Corewar/libft/srcs/strings/ft_strcpy.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strcpy.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/strings/ft_strcpy.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strcpy.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strcpy.c.i
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strcpy.s: new_check_kk/Corewar/libft/srcs/strings/ft_strcpy.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strcpy.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/strings/ft_strcpy.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strcpy.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strcpy.c.s
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strdel.o: new_check_kk/Corewar/libft/srcs/strings/ft_strdel.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strdel.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/strings/ft_strdel.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strdel.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strdel.c.o
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strdel.i: new_check_kk/Corewar/libft/srcs/strings/ft_strdel.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strdel.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/strings/ft_strdel.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strdel.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strdel.c.i
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strdel.s: new_check_kk/Corewar/libft/srcs/strings/ft_strdel.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strdel.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/strings/ft_strdel.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strdel.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strdel.c.s
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strdup.o: new_check_kk/Corewar/libft/srcs/strings/ft_strdup.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strdup.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/strings/ft_strdup.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strdup.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strdup.c.o
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strdup.i: new_check_kk/Corewar/libft/srcs/strings/ft_strdup.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strdup.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/strings/ft_strdup.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strdup.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strdup.c.i
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strdup.s: new_check_kk/Corewar/libft/srcs/strings/ft_strdup.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strdup.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/strings/ft_strdup.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strdup.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strdup.c.s
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strequ.o: new_check_kk/Corewar/libft/srcs/strings/ft_strequ.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strequ.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/strings/ft_strequ.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strequ.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strequ.c.o
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strequ.i: new_check_kk/Corewar/libft/srcs/strings/ft_strequ.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strequ.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/strings/ft_strequ.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strequ.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strequ.c.i
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strequ.s: new_check_kk/Corewar/libft/srcs/strings/ft_strequ.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strequ.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/strings/ft_strequ.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strequ.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strequ.c.s
+
+new_check_kk/Corewar/libft/srcs/strings/ft_striter.o: new_check_kk/Corewar/libft/srcs/strings/ft_striter.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_striter.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/strings/ft_striter.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_striter.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_striter.c.o
+
+new_check_kk/Corewar/libft/srcs/strings/ft_striter.i: new_check_kk/Corewar/libft/srcs/strings/ft_striter.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_striter.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/strings/ft_striter.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_striter.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_striter.c.i
+
+new_check_kk/Corewar/libft/srcs/strings/ft_striter.s: new_check_kk/Corewar/libft/srcs/strings/ft_striter.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_striter.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/strings/ft_striter.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_striter.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_striter.c.s
+
+new_check_kk/Corewar/libft/srcs/strings/ft_striteri.o: new_check_kk/Corewar/libft/srcs/strings/ft_striteri.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_striteri.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/strings/ft_striteri.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_striteri.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_striteri.c.o
+
+new_check_kk/Corewar/libft/srcs/strings/ft_striteri.i: new_check_kk/Corewar/libft/srcs/strings/ft_striteri.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_striteri.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/strings/ft_striteri.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_striteri.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_striteri.c.i
+
+new_check_kk/Corewar/libft/srcs/strings/ft_striteri.s: new_check_kk/Corewar/libft/srcs/strings/ft_striteri.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_striteri.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/strings/ft_striteri.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_striteri.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_striteri.c.s
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strjoin.o: new_check_kk/Corewar/libft/srcs/strings/ft_strjoin.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strjoin.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/strings/ft_strjoin.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strjoin.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strjoin.c.o
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strjoin.i: new_check_kk/Corewar/libft/srcs/strings/ft_strjoin.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strjoin.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/strings/ft_strjoin.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strjoin.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strjoin.c.i
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strjoin.s: new_check_kk/Corewar/libft/srcs/strings/ft_strjoin.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strjoin.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/strings/ft_strjoin.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strjoin.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strjoin.c.s
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strlcat.o: new_check_kk/Corewar/libft/srcs/strings/ft_strlcat.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strlcat.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/strings/ft_strlcat.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strlcat.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strlcat.c.o
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strlcat.i: new_check_kk/Corewar/libft/srcs/strings/ft_strlcat.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strlcat.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/strings/ft_strlcat.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strlcat.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strlcat.c.i
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strlcat.s: new_check_kk/Corewar/libft/srcs/strings/ft_strlcat.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strlcat.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/strings/ft_strlcat.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strlcat.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strlcat.c.s
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strlen.o: new_check_kk/Corewar/libft/srcs/strings/ft_strlen.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strlen.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/strings/ft_strlen.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strlen.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strlen.c.o
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strlen.i: new_check_kk/Corewar/libft/srcs/strings/ft_strlen.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strlen.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/strings/ft_strlen.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strlen.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strlen.c.i
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strlen.s: new_check_kk/Corewar/libft/srcs/strings/ft_strlen.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strlen.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/strings/ft_strlen.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strlen.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strlen.c.s
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strmap.o: new_check_kk/Corewar/libft/srcs/strings/ft_strmap.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strmap.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/strings/ft_strmap.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strmap.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strmap.c.o
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strmap.i: new_check_kk/Corewar/libft/srcs/strings/ft_strmap.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strmap.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/strings/ft_strmap.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strmap.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strmap.c.i
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strmap.s: new_check_kk/Corewar/libft/srcs/strings/ft_strmap.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strmap.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/strings/ft_strmap.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strmap.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strmap.c.s
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strmapi.o: new_check_kk/Corewar/libft/srcs/strings/ft_strmapi.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strmapi.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/strings/ft_strmapi.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strmapi.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strmapi.c.o
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strmapi.i: new_check_kk/Corewar/libft/srcs/strings/ft_strmapi.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strmapi.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/strings/ft_strmapi.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strmapi.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strmapi.c.i
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strmapi.s: new_check_kk/Corewar/libft/srcs/strings/ft_strmapi.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strmapi.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/strings/ft_strmapi.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strmapi.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strmapi.c.s
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strncat.o: new_check_kk/Corewar/libft/srcs/strings/ft_strncat.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strncat.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/strings/ft_strncat.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strncat.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strncat.c.o
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strncat.i: new_check_kk/Corewar/libft/srcs/strings/ft_strncat.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strncat.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/strings/ft_strncat.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strncat.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strncat.c.i
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strncat.s: new_check_kk/Corewar/libft/srcs/strings/ft_strncat.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strncat.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/strings/ft_strncat.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strncat.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strncat.c.s
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strncmp.o: new_check_kk/Corewar/libft/srcs/strings/ft_strncmp.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strncmp.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/strings/ft_strncmp.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strncmp.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strncmp.c.o
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strncmp.i: new_check_kk/Corewar/libft/srcs/strings/ft_strncmp.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strncmp.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/strings/ft_strncmp.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strncmp.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strncmp.c.i
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strncmp.s: new_check_kk/Corewar/libft/srcs/strings/ft_strncmp.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strncmp.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/strings/ft_strncmp.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strncmp.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strncmp.c.s
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strncpy.o: new_check_kk/Corewar/libft/srcs/strings/ft_strncpy.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strncpy.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/strings/ft_strncpy.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strncpy.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strncpy.c.o
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strncpy.i: new_check_kk/Corewar/libft/srcs/strings/ft_strncpy.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strncpy.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/strings/ft_strncpy.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strncpy.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strncpy.c.i
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strncpy.s: new_check_kk/Corewar/libft/srcs/strings/ft_strncpy.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strncpy.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/strings/ft_strncpy.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strncpy.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strncpy.c.s
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strnequ.o: new_check_kk/Corewar/libft/srcs/strings/ft_strnequ.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strnequ.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/strings/ft_strnequ.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strnequ.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strnequ.c.o
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strnequ.i: new_check_kk/Corewar/libft/srcs/strings/ft_strnequ.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strnequ.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/strings/ft_strnequ.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strnequ.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strnequ.c.i
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strnequ.s: new_check_kk/Corewar/libft/srcs/strings/ft_strnequ.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strnequ.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/strings/ft_strnequ.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strnequ.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strnequ.c.s
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strnew.o: new_check_kk/Corewar/libft/srcs/strings/ft_strnew.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strnew.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/strings/ft_strnew.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strnew.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strnew.c.o
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strnew.i: new_check_kk/Corewar/libft/srcs/strings/ft_strnew.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strnew.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/strings/ft_strnew.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strnew.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strnew.c.i
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strnew.s: new_check_kk/Corewar/libft/srcs/strings/ft_strnew.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strnew.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/strings/ft_strnew.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strnew.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strnew.c.s
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strnstr.o: new_check_kk/Corewar/libft/srcs/strings/ft_strnstr.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strnstr.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/strings/ft_strnstr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strnstr.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strnstr.c.o
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strnstr.i: new_check_kk/Corewar/libft/srcs/strings/ft_strnstr.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strnstr.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/strings/ft_strnstr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strnstr.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strnstr.c.i
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strnstr.s: new_check_kk/Corewar/libft/srcs/strings/ft_strnstr.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strnstr.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/strings/ft_strnstr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strnstr.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strnstr.c.s
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strrchr.o: new_check_kk/Corewar/libft/srcs/strings/ft_strrchr.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strrchr.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/strings/ft_strrchr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strrchr.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strrchr.c.o
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strrchr.i: new_check_kk/Corewar/libft/srcs/strings/ft_strrchr.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strrchr.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/strings/ft_strrchr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strrchr.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strrchr.c.i
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strrchr.s: new_check_kk/Corewar/libft/srcs/strings/ft_strrchr.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strrchr.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/strings/ft_strrchr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strrchr.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strrchr.c.s
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strrev.o: new_check_kk/Corewar/libft/srcs/strings/ft_strrev.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strrev.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/strings/ft_strrev.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strrev.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strrev.c.o
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strrev.i: new_check_kk/Corewar/libft/srcs/strings/ft_strrev.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strrev.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/strings/ft_strrev.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strrev.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strrev.c.i
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strrev.s: new_check_kk/Corewar/libft/srcs/strings/ft_strrev.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strrev.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/strings/ft_strrev.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strrev.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strrev.c.s
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strsplit.o: new_check_kk/Corewar/libft/srcs/strings/ft_strsplit.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strsplit.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/strings/ft_strsplit.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strsplit.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strsplit.c.o
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strsplit.i: new_check_kk/Corewar/libft/srcs/strings/ft_strsplit.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strsplit.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/strings/ft_strsplit.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strsplit.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strsplit.c.i
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strsplit.s: new_check_kk/Corewar/libft/srcs/strings/ft_strsplit.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strsplit.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/strings/ft_strsplit.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strsplit.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strsplit.c.s
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strsplitdel.o: new_check_kk/Corewar/libft/srcs/strings/ft_strsplitdel.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strsplitdel.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/strings/ft_strsplitdel.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strsplitdel.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strsplitdel.c.o
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strsplitdel.i: new_check_kk/Corewar/libft/srcs/strings/ft_strsplitdel.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strsplitdel.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/strings/ft_strsplitdel.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strsplitdel.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strsplitdel.c.i
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strsplitdel.s: new_check_kk/Corewar/libft/srcs/strings/ft_strsplitdel.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strsplitdel.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/strings/ft_strsplitdel.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strsplitdel.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strsplitdel.c.s
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strstr.o: new_check_kk/Corewar/libft/srcs/strings/ft_strstr.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strstr.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/strings/ft_strstr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strstr.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strstr.c.o
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strstr.i: new_check_kk/Corewar/libft/srcs/strings/ft_strstr.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strstr.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/strings/ft_strstr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strstr.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strstr.c.i
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strstr.s: new_check_kk/Corewar/libft/srcs/strings/ft_strstr.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strstr.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/strings/ft_strstr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strstr.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strstr.c.s
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strsub.o: new_check_kk/Corewar/libft/srcs/strings/ft_strsub.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strsub.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/strings/ft_strsub.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strsub.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strsub.c.o
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strsub.i: new_check_kk/Corewar/libft/srcs/strings/ft_strsub.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strsub.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/strings/ft_strsub.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strsub.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strsub.c.i
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strsub.s: new_check_kk/Corewar/libft/srcs/strings/ft_strsub.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strsub.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/strings/ft_strsub.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strsub.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strsub.c.s
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strtrim.o: new_check_kk/Corewar/libft/srcs/strings/ft_strtrim.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strtrim.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/strings/ft_strtrim.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strtrim.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strtrim.c.o
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strtrim.i: new_check_kk/Corewar/libft/srcs/strings/ft_strtrim.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strtrim.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/strings/ft_strtrim.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strtrim.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strtrim.c.i
+
+new_check_kk/Corewar/libft/srcs/strings/ft_strtrim.s: new_check_kk/Corewar/libft/srcs/strings/ft_strtrim.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strtrim.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/strings/ft_strtrim.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/strings/ft_strtrim.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/strings/ft_strtrim.c.s
+
+new_check_kk/Corewar/libft/srcs/utils/ft_atoi.o: new_check_kk/Corewar/libft/srcs/utils/ft_atoi.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_atoi.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/utils/ft_atoi.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_atoi.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_atoi.c.o
+
+new_check_kk/Corewar/libft/srcs/utils/ft_atoi.i: new_check_kk/Corewar/libft/srcs/utils/ft_atoi.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_atoi.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/utils/ft_atoi.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_atoi.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_atoi.c.i
+
+new_check_kk/Corewar/libft/srcs/utils/ft_atoi.s: new_check_kk/Corewar/libft/srcs/utils/ft_atoi.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_atoi.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/utils/ft_atoi.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_atoi.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_atoi.c.s
+
+new_check_kk/Corewar/libft/srcs/utils/ft_isalnum.o: new_check_kk/Corewar/libft/srcs/utils/ft_isalnum.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isalnum.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/utils/ft_isalnum.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_isalnum.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isalnum.c.o
+
+new_check_kk/Corewar/libft/srcs/utils/ft_isalnum.i: new_check_kk/Corewar/libft/srcs/utils/ft_isalnum.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isalnum.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/utils/ft_isalnum.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_isalnum.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isalnum.c.i
+
+new_check_kk/Corewar/libft/srcs/utils/ft_isalnum.s: new_check_kk/Corewar/libft/srcs/utils/ft_isalnum.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isalnum.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/utils/ft_isalnum.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_isalnum.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isalnum.c.s
+
+new_check_kk/Corewar/libft/srcs/utils/ft_isalpha.o: new_check_kk/Corewar/libft/srcs/utils/ft_isalpha.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isalpha.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/utils/ft_isalpha.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_isalpha.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isalpha.c.o
+
+new_check_kk/Corewar/libft/srcs/utils/ft_isalpha.i: new_check_kk/Corewar/libft/srcs/utils/ft_isalpha.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isalpha.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/utils/ft_isalpha.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_isalpha.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isalpha.c.i
+
+new_check_kk/Corewar/libft/srcs/utils/ft_isalpha.s: new_check_kk/Corewar/libft/srcs/utils/ft_isalpha.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isalpha.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/utils/ft_isalpha.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_isalpha.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isalpha.c.s
+
+new_check_kk/Corewar/libft/srcs/utils/ft_isascii.o: new_check_kk/Corewar/libft/srcs/utils/ft_isascii.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isascii.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/utils/ft_isascii.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_isascii.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isascii.c.o
+
+new_check_kk/Corewar/libft/srcs/utils/ft_isascii.i: new_check_kk/Corewar/libft/srcs/utils/ft_isascii.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isascii.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/utils/ft_isascii.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_isascii.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isascii.c.i
+
+new_check_kk/Corewar/libft/srcs/utils/ft_isascii.s: new_check_kk/Corewar/libft/srcs/utils/ft_isascii.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isascii.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/utils/ft_isascii.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_isascii.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isascii.c.s
+
+new_check_kk/Corewar/libft/srcs/utils/ft_isdigit.o: new_check_kk/Corewar/libft/srcs/utils/ft_isdigit.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isdigit.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/utils/ft_isdigit.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_isdigit.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isdigit.c.o
+
+new_check_kk/Corewar/libft/srcs/utils/ft_isdigit.i: new_check_kk/Corewar/libft/srcs/utils/ft_isdigit.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isdigit.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/utils/ft_isdigit.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_isdigit.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isdigit.c.i
+
+new_check_kk/Corewar/libft/srcs/utils/ft_isdigit.s: new_check_kk/Corewar/libft/srcs/utils/ft_isdigit.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isdigit.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/utils/ft_isdigit.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_isdigit.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isdigit.c.s
+
+new_check_kk/Corewar/libft/srcs/utils/ft_isdigitstr.o: new_check_kk/Corewar/libft/srcs/utils/ft_isdigitstr.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isdigitstr.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/utils/ft_isdigitstr.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_isdigitstr.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isdigitstr.c.o
+
+new_check_kk/Corewar/libft/srcs/utils/ft_isdigitstr.i: new_check_kk/Corewar/libft/srcs/utils/ft_isdigitstr.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isdigitstr.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/utils/ft_isdigitstr.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_isdigitstr.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isdigitstr.c.i
+
+new_check_kk/Corewar/libft/srcs/utils/ft_isdigitstr.s: new_check_kk/Corewar/libft/srcs/utils/ft_isdigitstr.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isdigitstr.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/utils/ft_isdigitstr.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_isdigitstr.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isdigitstr.c.s
+
+new_check_kk/Corewar/libft/srcs/utils/ft_islower.o: new_check_kk/Corewar/libft/srcs/utils/ft_islower.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_islower.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/utils/ft_islower.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_islower.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_islower.c.o
+
+new_check_kk/Corewar/libft/srcs/utils/ft_islower.i: new_check_kk/Corewar/libft/srcs/utils/ft_islower.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_islower.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/utils/ft_islower.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_islower.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_islower.c.i
+
+new_check_kk/Corewar/libft/srcs/utils/ft_islower.s: new_check_kk/Corewar/libft/srcs/utils/ft_islower.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_islower.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/utils/ft_islower.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_islower.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_islower.c.s
+
+new_check_kk/Corewar/libft/srcs/utils/ft_isprint.o: new_check_kk/Corewar/libft/srcs/utils/ft_isprint.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isprint.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/utils/ft_isprint.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_isprint.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isprint.c.o
+
+new_check_kk/Corewar/libft/srcs/utils/ft_isprint.i: new_check_kk/Corewar/libft/srcs/utils/ft_isprint.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isprint.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/utils/ft_isprint.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_isprint.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isprint.c.i
+
+new_check_kk/Corewar/libft/srcs/utils/ft_isprint.s: new_check_kk/Corewar/libft/srcs/utils/ft_isprint.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isprint.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/utils/ft_isprint.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_isprint.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isprint.c.s
+
+new_check_kk/Corewar/libft/srcs/utils/ft_isspace.o: new_check_kk/Corewar/libft/srcs/utils/ft_isspace.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isspace.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/utils/ft_isspace.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_isspace.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isspace.c.o
+
+new_check_kk/Corewar/libft/srcs/utils/ft_isspace.i: new_check_kk/Corewar/libft/srcs/utils/ft_isspace.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isspace.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/utils/ft_isspace.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_isspace.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isspace.c.i
+
+new_check_kk/Corewar/libft/srcs/utils/ft_isspace.s: new_check_kk/Corewar/libft/srcs/utils/ft_isspace.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isspace.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/utils/ft_isspace.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_isspace.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isspace.c.s
+
+new_check_kk/Corewar/libft/srcs/utils/ft_isupper.o: new_check_kk/Corewar/libft/srcs/utils/ft_isupper.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isupper.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/utils/ft_isupper.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_isupper.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isupper.c.o
+
+new_check_kk/Corewar/libft/srcs/utils/ft_isupper.i: new_check_kk/Corewar/libft/srcs/utils/ft_isupper.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isupper.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/utils/ft_isupper.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_isupper.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isupper.c.i
+
+new_check_kk/Corewar/libft/srcs/utils/ft_isupper.s: new_check_kk/Corewar/libft/srcs/utils/ft_isupper.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isupper.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/utils/ft_isupper.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_isupper.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_isupper.c.s
+
+new_check_kk/Corewar/libft/srcs/utils/ft_itoa.o: new_check_kk/Corewar/libft/srcs/utils/ft_itoa.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_itoa.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/utils/ft_itoa.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_itoa.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_itoa.c.o
+
+new_check_kk/Corewar/libft/srcs/utils/ft_itoa.i: new_check_kk/Corewar/libft/srcs/utils/ft_itoa.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_itoa.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/utils/ft_itoa.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_itoa.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_itoa.c.i
+
+new_check_kk/Corewar/libft/srcs/utils/ft_itoa.s: new_check_kk/Corewar/libft/srcs/utils/ft_itoa.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_itoa.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/utils/ft_itoa.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_itoa.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_itoa.c.s
+
+new_check_kk/Corewar/libft/srcs/utils/ft_squeeze.o: new_check_kk/Corewar/libft/srcs/utils/ft_squeeze.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_squeeze.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/utils/ft_squeeze.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_squeeze.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_squeeze.c.o
+
+new_check_kk/Corewar/libft/srcs/utils/ft_squeeze.i: new_check_kk/Corewar/libft/srcs/utils/ft_squeeze.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_squeeze.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/utils/ft_squeeze.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_squeeze.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_squeeze.c.i
+
+new_check_kk/Corewar/libft/srcs/utils/ft_squeeze.s: new_check_kk/Corewar/libft/srcs/utils/ft_squeeze.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_squeeze.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/utils/ft_squeeze.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_squeeze.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_squeeze.c.s
+
+new_check_kk/Corewar/libft/srcs/utils/ft_tolower.o: new_check_kk/Corewar/libft/srcs/utils/ft_tolower.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_tolower.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/utils/ft_tolower.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_tolower.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_tolower.c.o
+
+new_check_kk/Corewar/libft/srcs/utils/ft_tolower.i: new_check_kk/Corewar/libft/srcs/utils/ft_tolower.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_tolower.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/utils/ft_tolower.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_tolower.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_tolower.c.i
+
+new_check_kk/Corewar/libft/srcs/utils/ft_tolower.s: new_check_kk/Corewar/libft/srcs/utils/ft_tolower.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_tolower.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/utils/ft_tolower.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_tolower.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_tolower.c.s
+
+new_check_kk/Corewar/libft/srcs/utils/ft_toupper.o: new_check_kk/Corewar/libft/srcs/utils/ft_toupper.c.o
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_toupper.o
+
+# target to build an object file
+new_check_kk/Corewar/libft/srcs/utils/ft_toupper.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_toupper.c.o
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_toupper.c.o
+
+new_check_kk/Corewar/libft/srcs/utils/ft_toupper.i: new_check_kk/Corewar/libft/srcs/utils/ft_toupper.c.i
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_toupper.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/libft/srcs/utils/ft_toupper.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_toupper.c.i
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_toupper.c.i
+
+new_check_kk/Corewar/libft/srcs/utils/ft_toupper.s: new_check_kk/Corewar/libft/srcs/utils/ft_toupper.c.s
+
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_toupper.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/libft/srcs/utils/ft_toupper.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/libft/srcs/utils/ft_toupper.c.s
+.PHONY : new_check_kk/Corewar/libft/srcs/utils/ft_toupper.c.s
+
+new_check_kk/Corewar/srcs/asm/asm.o: new_check_kk/Corewar/srcs/asm/asm.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/asm/asm.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/asm/asm.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/asm.c.o
+.PHONY : new_check_kk/Corewar/srcs/asm/asm.c.o
+
+new_check_kk/Corewar/srcs/asm/asm.i: new_check_kk/Corewar/srcs/asm/asm.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/asm/asm.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/asm/asm.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/asm.c.i
+.PHONY : new_check_kk/Corewar/srcs/asm/asm.c.i
+
+new_check_kk/Corewar/srcs/asm/asm.s: new_check_kk/Corewar/srcs/asm/asm.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/asm/asm.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/asm/asm.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/asm.c.s
+.PHONY : new_check_kk/Corewar/srcs/asm/asm.c.s
+
+new_check_kk/Corewar/srcs/asm/asm_utils.o: new_check_kk/Corewar/srcs/asm/asm_utils.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/asm/asm_utils.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/asm/asm_utils.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/asm_utils.c.o
+.PHONY : new_check_kk/Corewar/srcs/asm/asm_utils.c.o
+
+new_check_kk/Corewar/srcs/asm/asm_utils.i: new_check_kk/Corewar/srcs/asm/asm_utils.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/asm/asm_utils.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/asm/asm_utils.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/asm_utils.c.i
+.PHONY : new_check_kk/Corewar/srcs/asm/asm_utils.c.i
+
+new_check_kk/Corewar/srcs/asm/asm_utils.s: new_check_kk/Corewar/srcs/asm/asm_utils.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/asm/asm_utils.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/asm/asm_utils.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/asm_utils.c.s
+.PHONY : new_check_kk/Corewar/srcs/asm/asm_utils.c.s
+
+new_check_kk/Corewar/srcs/asm/deasm.o: new_check_kk/Corewar/srcs/asm/deasm.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/asm/deasm.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/asm/deasm.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/deasm.c.o
+.PHONY : new_check_kk/Corewar/srcs/asm/deasm.c.o
+
+new_check_kk/Corewar/srcs/asm/deasm.i: new_check_kk/Corewar/srcs/asm/deasm.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/asm/deasm.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/asm/deasm.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/deasm.c.i
+.PHONY : new_check_kk/Corewar/srcs/asm/deasm.c.i
+
+new_check_kk/Corewar/srcs/asm/deasm.s: new_check_kk/Corewar/srcs/asm/deasm.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/asm/deasm.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/asm/deasm.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/deasm.c.s
+.PHONY : new_check_kk/Corewar/srcs/asm/deasm.c.s
+
+new_check_kk/Corewar/srcs/asm/deasm_manage.o: new_check_kk/Corewar/srcs/asm/deasm_manage.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/asm/deasm_manage.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/asm/deasm_manage.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/deasm_manage.c.o
+.PHONY : new_check_kk/Corewar/srcs/asm/deasm_manage.c.o
+
+new_check_kk/Corewar/srcs/asm/deasm_manage.i: new_check_kk/Corewar/srcs/asm/deasm_manage.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/asm/deasm_manage.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/asm/deasm_manage.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/deasm_manage.c.i
+.PHONY : new_check_kk/Corewar/srcs/asm/deasm_manage.c.i
+
+new_check_kk/Corewar/srcs/asm/deasm_manage.s: new_check_kk/Corewar/srcs/asm/deasm_manage.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/asm/deasm_manage.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/asm/deasm_manage.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/deasm_manage.c.s
+.PHONY : new_check_kk/Corewar/srcs/asm/deasm_manage.c.s
+
+new_check_kk/Corewar/srcs/asm/fixed_io.o: new_check_kk/Corewar/srcs/asm/fixed_io.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/asm/fixed_io.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/asm/fixed_io.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/fixed_io.c.o
+.PHONY : new_check_kk/Corewar/srcs/asm/fixed_io.c.o
+
+new_check_kk/Corewar/srcs/asm/fixed_io.i: new_check_kk/Corewar/srcs/asm/fixed_io.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/asm/fixed_io.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/asm/fixed_io.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/fixed_io.c.i
+.PHONY : new_check_kk/Corewar/srcs/asm/fixed_io.c.i
+
+new_check_kk/Corewar/srcs/asm/fixed_io.s: new_check_kk/Corewar/srcs/asm/fixed_io.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/asm/fixed_io.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/asm/fixed_io.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/fixed_io.c.s
+.PHONY : new_check_kk/Corewar/srcs/asm/fixed_io.c.s
+
+new_check_kk/Corewar/srcs/asm/label.o: new_check_kk/Corewar/srcs/asm/label.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/asm/label.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/asm/label.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/label.c.o
+.PHONY : new_check_kk/Corewar/srcs/asm/label.c.o
+
+new_check_kk/Corewar/srcs/asm/label.i: new_check_kk/Corewar/srcs/asm/label.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/asm/label.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/asm/label.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/label.c.i
+.PHONY : new_check_kk/Corewar/srcs/asm/label.c.i
+
+new_check_kk/Corewar/srcs/asm/label.s: new_check_kk/Corewar/srcs/asm/label.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/asm/label.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/asm/label.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/label.c.s
+.PHONY : new_check_kk/Corewar/srcs/asm/label.c.s
+
+new_check_kk/Corewar/srcs/asm/label_init.o: new_check_kk/Corewar/srcs/asm/label_init.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/asm/label_init.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/asm/label_init.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/label_init.c.o
+.PHONY : new_check_kk/Corewar/srcs/asm/label_init.c.o
+
+new_check_kk/Corewar/srcs/asm/label_init.i: new_check_kk/Corewar/srcs/asm/label_init.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/asm/label_init.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/asm/label_init.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/label_init.c.i
+.PHONY : new_check_kk/Corewar/srcs/asm/label_init.c.i
+
+new_check_kk/Corewar/srcs/asm/label_init.s: new_check_kk/Corewar/srcs/asm/label_init.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/asm/label_init.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/asm/label_init.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/label_init.c.s
+.PHONY : new_check_kk/Corewar/srcs/asm/label_init.c.s
+
+new_check_kk/Corewar/srcs/asm/label_utils.o: new_check_kk/Corewar/srcs/asm/label_utils.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/asm/label_utils.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/asm/label_utils.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/label_utils.c.o
+.PHONY : new_check_kk/Corewar/srcs/asm/label_utils.c.o
+
+new_check_kk/Corewar/srcs/asm/label_utils.i: new_check_kk/Corewar/srcs/asm/label_utils.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/asm/label_utils.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/asm/label_utils.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/label_utils.c.i
+.PHONY : new_check_kk/Corewar/srcs/asm/label_utils.c.i
+
+new_check_kk/Corewar/srcs/asm/label_utils.s: new_check_kk/Corewar/srcs/asm/label_utils.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/asm/label_utils.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/asm/label_utils.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/label_utils.c.s
+.PHONY : new_check_kk/Corewar/srcs/asm/label_utils.c.s
+
+new_check_kk/Corewar/srcs/asm/lexer.o: new_check_kk/Corewar/srcs/asm/lexer.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/asm/lexer.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/asm/lexer.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/lexer.c.o
+.PHONY : new_check_kk/Corewar/srcs/asm/lexer.c.o
+
+new_check_kk/Corewar/srcs/asm/lexer.i: new_check_kk/Corewar/srcs/asm/lexer.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/asm/lexer.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/asm/lexer.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/lexer.c.i
+.PHONY : new_check_kk/Corewar/srcs/asm/lexer.c.i
+
+new_check_kk/Corewar/srcs/asm/lexer.s: new_check_kk/Corewar/srcs/asm/lexer.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/asm/lexer.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/asm/lexer.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/lexer.c.s
+.PHONY : new_check_kk/Corewar/srcs/asm/lexer.c.s
+
+new_check_kk/Corewar/srcs/asm/op.o: new_check_kk/Corewar/srcs/asm/op.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/asm/op.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/asm/op.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/op.c.o
+.PHONY : new_check_kk/Corewar/srcs/asm/op.c.o
+
+new_check_kk/Corewar/srcs/asm/op.i: new_check_kk/Corewar/srcs/asm/op.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/asm/op.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/asm/op.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/op.c.i
+.PHONY : new_check_kk/Corewar/srcs/asm/op.c.i
+
+new_check_kk/Corewar/srcs/asm/op.s: new_check_kk/Corewar/srcs/asm/op.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/asm/op.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/asm/op.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/op.c.s
+.PHONY : new_check_kk/Corewar/srcs/asm/op.c.s
+
+new_check_kk/Corewar/srcs/asm/parser.o: new_check_kk/Corewar/srcs/asm/parser.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/asm/parser.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/asm/parser.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/parser.c.o
+.PHONY : new_check_kk/Corewar/srcs/asm/parser.c.o
+
+new_check_kk/Corewar/srcs/asm/parser.i: new_check_kk/Corewar/srcs/asm/parser.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/asm/parser.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/asm/parser.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/parser.c.i
+.PHONY : new_check_kk/Corewar/srcs/asm/parser.c.i
+
+new_check_kk/Corewar/srcs/asm/parser.s: new_check_kk/Corewar/srcs/asm/parser.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/asm/parser.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/asm/parser.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/parser.c.s
+.PHONY : new_check_kk/Corewar/srcs/asm/parser.c.s
+
+new_check_kk/Corewar/srcs/asm/parser_header.o: new_check_kk/Corewar/srcs/asm/parser_header.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/asm/parser_header.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/asm/parser_header.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/parser_header.c.o
+.PHONY : new_check_kk/Corewar/srcs/asm/parser_header.c.o
+
+new_check_kk/Corewar/srcs/asm/parser_header.i: new_check_kk/Corewar/srcs/asm/parser_header.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/asm/parser_header.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/asm/parser_header.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/parser_header.c.i
+.PHONY : new_check_kk/Corewar/srcs/asm/parser_header.c.i
+
+new_check_kk/Corewar/srcs/asm/parser_header.s: new_check_kk/Corewar/srcs/asm/parser_header.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/asm/parser_header.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/asm/parser_header.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/parser_header.c.s
+.PHONY : new_check_kk/Corewar/srcs/asm/parser_header.c.s
+
+new_check_kk/Corewar/srcs/asm/parser_init.o: new_check_kk/Corewar/srcs/asm/parser_init.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/asm/parser_init.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/asm/parser_init.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/parser_init.c.o
+.PHONY : new_check_kk/Corewar/srcs/asm/parser_init.c.o
+
+new_check_kk/Corewar/srcs/asm/parser_init.i: new_check_kk/Corewar/srcs/asm/parser_init.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/asm/parser_init.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/asm/parser_init.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/parser_init.c.i
+.PHONY : new_check_kk/Corewar/srcs/asm/parser_init.c.i
+
+new_check_kk/Corewar/srcs/asm/parser_init.s: new_check_kk/Corewar/srcs/asm/parser_init.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/asm/parser_init.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/asm/parser_init.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/parser_init.c.s
+.PHONY : new_check_kk/Corewar/srcs/asm/parser_init.c.s
+
+new_check_kk/Corewar/srcs/asm/scanner.o: new_check_kk/Corewar/srcs/asm/scanner.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/asm/scanner.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/asm/scanner.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/scanner.c.o
+.PHONY : new_check_kk/Corewar/srcs/asm/scanner.c.o
+
+new_check_kk/Corewar/srcs/asm/scanner.i: new_check_kk/Corewar/srcs/asm/scanner.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/asm/scanner.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/asm/scanner.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/scanner.c.i
+.PHONY : new_check_kk/Corewar/srcs/asm/scanner.c.i
+
+new_check_kk/Corewar/srcs/asm/scanner.s: new_check_kk/Corewar/srcs/asm/scanner.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/asm/scanner.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/asm/scanner.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/asm/scanner.c.s
+.PHONY : new_check_kk/Corewar/srcs/asm/scanner.c.s
+
+new_check_kk/Corewar/srcs/corewar/corewar.o: new_check_kk/Corewar/srcs/corewar/corewar.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/corewar.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/corewar/corewar.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/corewar.c.o
+.PHONY : new_check_kk/Corewar/srcs/corewar/corewar.c.o
+
+new_check_kk/Corewar/srcs/corewar/corewar.i: new_check_kk/Corewar/srcs/corewar/corewar.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/corewar.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/corewar/corewar.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/corewar.c.i
+.PHONY : new_check_kk/Corewar/srcs/corewar/corewar.c.i
+
+new_check_kk/Corewar/srcs/corewar/corewar.s: new_check_kk/Corewar/srcs/corewar/corewar.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/corewar.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/corewar/corewar.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/corewar.c.s
+.PHONY : new_check_kk/Corewar/srcs/corewar/corewar.c.s
+
+new_check_kk/Corewar/srcs/corewar/get_players.o: new_check_kk/Corewar/srcs/corewar/get_players.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/get_players.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/corewar/get_players.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/get_players.c.o
+.PHONY : new_check_kk/Corewar/srcs/corewar/get_players.c.o
+
+new_check_kk/Corewar/srcs/corewar/get_players.i: new_check_kk/Corewar/srcs/corewar/get_players.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/get_players.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/corewar/get_players.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/get_players.c.i
+.PHONY : new_check_kk/Corewar/srcs/corewar/get_players.c.i
+
+new_check_kk/Corewar/srcs/corewar/get_players.s: new_check_kk/Corewar/srcs/corewar/get_players.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/get_players.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/corewar/get_players.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/get_players.c.s
+.PHONY : new_check_kk/Corewar/srcs/corewar/get_players.c.s
+
+new_check_kk/Corewar/srcs/corewar/get_players_errors.o: new_check_kk/Corewar/srcs/corewar/get_players_errors.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/get_players_errors.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/corewar/get_players_errors.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/get_players_errors.c.o
+.PHONY : new_check_kk/Corewar/srcs/corewar/get_players_errors.c.o
+
+new_check_kk/Corewar/srcs/corewar/get_players_errors.i: new_check_kk/Corewar/srcs/corewar/get_players_errors.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/get_players_errors.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/corewar/get_players_errors.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/get_players_errors.c.i
+.PHONY : new_check_kk/Corewar/srcs/corewar/get_players_errors.c.i
+
+new_check_kk/Corewar/srcs/corewar/get_players_errors.s: new_check_kk/Corewar/srcs/corewar/get_players_errors.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/get_players_errors.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/corewar/get_players_errors.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/get_players_errors.c.s
+.PHONY : new_check_kk/Corewar/srcs/corewar/get_players_errors.c.s
+
+new_check_kk/Corewar/srcs/corewar/load_arena.o: new_check_kk/Corewar/srcs/corewar/load_arena.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/load_arena.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/corewar/load_arena.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/load_arena.c.o
+.PHONY : new_check_kk/Corewar/srcs/corewar/load_arena.c.o
+
+new_check_kk/Corewar/srcs/corewar/load_arena.i: new_check_kk/Corewar/srcs/corewar/load_arena.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/load_arena.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/corewar/load_arena.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/load_arena.c.i
+.PHONY : new_check_kk/Corewar/srcs/corewar/load_arena.c.i
+
+new_check_kk/Corewar/srcs/corewar/load_arena.s: new_check_kk/Corewar/srcs/corewar/load_arena.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/load_arena.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/corewar/load_arena.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/load_arena.c.s
+.PHONY : new_check_kk/Corewar/srcs/corewar/load_arena.c.s
+
+new_check_kk/Corewar/srcs/corewar/op.o: new_check_kk/Corewar/srcs/corewar/op.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/op.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/corewar/op.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/op.c.o
+.PHONY : new_check_kk/Corewar/srcs/corewar/op.c.o
+
+new_check_kk/Corewar/srcs/corewar/op.i: new_check_kk/Corewar/srcs/corewar/op.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/op.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/corewar/op.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/op.c.i
+.PHONY : new_check_kk/Corewar/srcs/corewar/op.c.i
+
+new_check_kk/Corewar/srcs/corewar/op.s: new_check_kk/Corewar/srcs/corewar/op.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/op.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/corewar/op.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/op.c.s
+.PHONY : new_check_kk/Corewar/srcs/corewar/op.c.s
+
+new_check_kk/Corewar/srcs/corewar/op_shift.o: new_check_kk/Corewar/srcs/corewar/op_shift.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/op_shift.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/corewar/op_shift.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/op_shift.c.o
+.PHONY : new_check_kk/Corewar/srcs/corewar/op_shift.c.o
+
+new_check_kk/Corewar/srcs/corewar/op_shift.i: new_check_kk/Corewar/srcs/corewar/op_shift.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/op_shift.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/corewar/op_shift.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/op_shift.c.i
+.PHONY : new_check_kk/Corewar/srcs/corewar/op_shift.c.i
+
+new_check_kk/Corewar/srcs/corewar/op_shift.s: new_check_kk/Corewar/srcs/corewar/op_shift.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/op_shift.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/corewar/op_shift.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/op_shift.c.s
+.PHONY : new_check_kk/Corewar/srcs/corewar/op_shift.c.s
+
+new_check_kk/Corewar/srcs/corewar/operate.o: new_check_kk/Corewar/srcs/corewar/operate.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/operate.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/corewar/operate.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/operate.c.o
+.PHONY : new_check_kk/Corewar/srcs/corewar/operate.c.o
+
+new_check_kk/Corewar/srcs/corewar/operate.i: new_check_kk/Corewar/srcs/corewar/operate.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/operate.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/corewar/operate.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/operate.c.i
+.PHONY : new_check_kk/Corewar/srcs/corewar/operate.c.i
+
+new_check_kk/Corewar/srcs/corewar/operate.s: new_check_kk/Corewar/srcs/corewar/operate.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/operate.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/corewar/operate.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/operate.c.s
+.PHONY : new_check_kk/Corewar/srcs/corewar/operate.c.s
+
+new_check_kk/Corewar/srcs/corewar/operation_1.o: new_check_kk/Corewar/srcs/corewar/operation_1.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_1.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/corewar/operation_1.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/operation_1.c.o
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_1.c.o
+
+new_check_kk/Corewar/srcs/corewar/operation_1.i: new_check_kk/Corewar/srcs/corewar/operation_1.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_1.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/corewar/operation_1.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/operation_1.c.i
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_1.c.i
+
+new_check_kk/Corewar/srcs/corewar/operation_1.s: new_check_kk/Corewar/srcs/corewar/operation_1.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_1.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/corewar/operation_1.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/operation_1.c.s
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_1.c.s
+
+new_check_kk/Corewar/srcs/corewar/operation_2.o: new_check_kk/Corewar/srcs/corewar/operation_2.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_2.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/corewar/operation_2.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/operation_2.c.o
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_2.c.o
+
+new_check_kk/Corewar/srcs/corewar/operation_2.i: new_check_kk/Corewar/srcs/corewar/operation_2.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_2.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/corewar/operation_2.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/operation_2.c.i
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_2.c.i
+
+new_check_kk/Corewar/srcs/corewar/operation_2.s: new_check_kk/Corewar/srcs/corewar/operation_2.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_2.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/corewar/operation_2.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/operation_2.c.s
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_2.c.s
+
+new_check_kk/Corewar/srcs/corewar/operation_2b.o: new_check_kk/Corewar/srcs/corewar/operation_2b.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_2b.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/corewar/operation_2b.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/operation_2b.c.o
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_2b.c.o
+
+new_check_kk/Corewar/srcs/corewar/operation_2b.i: new_check_kk/Corewar/srcs/corewar/operation_2b.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_2b.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/corewar/operation_2b.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/operation_2b.c.i
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_2b.c.i
+
+new_check_kk/Corewar/srcs/corewar/operation_2b.s: new_check_kk/Corewar/srcs/corewar/operation_2b.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_2b.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/corewar/operation_2b.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/operation_2b.c.s
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_2b.c.s
+
+new_check_kk/Corewar/srcs/corewar/operation_3.o: new_check_kk/Corewar/srcs/corewar/operation_3.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_3.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/corewar/operation_3.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/operation_3.c.o
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_3.c.o
+
+new_check_kk/Corewar/srcs/corewar/operation_3.i: new_check_kk/Corewar/srcs/corewar/operation_3.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_3.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/corewar/operation_3.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/operation_3.c.i
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_3.c.i
+
+new_check_kk/Corewar/srcs/corewar/operation_3.s: new_check_kk/Corewar/srcs/corewar/operation_3.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_3.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/corewar/operation_3.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/operation_3.c.s
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_3.c.s
+
+new_check_kk/Corewar/srcs/corewar/operation_4.o: new_check_kk/Corewar/srcs/corewar/operation_4.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_4.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/corewar/operation_4.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/operation_4.c.o
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_4.c.o
+
+new_check_kk/Corewar/srcs/corewar/operation_4.i: new_check_kk/Corewar/srcs/corewar/operation_4.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_4.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/corewar/operation_4.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/operation_4.c.i
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_4.c.i
+
+new_check_kk/Corewar/srcs/corewar/operation_4.s: new_check_kk/Corewar/srcs/corewar/operation_4.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_4.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/corewar/operation_4.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/operation_4.c.s
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_4.c.s
+
+new_check_kk/Corewar/srcs/corewar/operation_4b.o: new_check_kk/Corewar/srcs/corewar/operation_4b.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_4b.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/corewar/operation_4b.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/operation_4b.c.o
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_4b.c.o
+
+new_check_kk/Corewar/srcs/corewar/operation_4b.i: new_check_kk/Corewar/srcs/corewar/operation_4b.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_4b.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/corewar/operation_4b.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/operation_4b.c.i
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_4b.c.i
+
+new_check_kk/Corewar/srcs/corewar/operation_4b.s: new_check_kk/Corewar/srcs/corewar/operation_4b.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_4b.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/corewar/operation_4b.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/operation_4b.c.s
+.PHONY : new_check_kk/Corewar/srcs/corewar/operation_4b.c.s
+
+new_check_kk/Corewar/srcs/corewar/vm_debbug.o: new_check_kk/Corewar/srcs/corewar/vm_debbug.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vm_debbug.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/corewar/vm_debbug.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vm_debbug.c.o
+.PHONY : new_check_kk/Corewar/srcs/corewar/vm_debbug.c.o
+
+new_check_kk/Corewar/srcs/corewar/vm_debbug.i: new_check_kk/Corewar/srcs/corewar/vm_debbug.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vm_debbug.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/corewar/vm_debbug.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vm_debbug.c.i
+.PHONY : new_check_kk/Corewar/srcs/corewar/vm_debbug.c.i
+
+new_check_kk/Corewar/srcs/corewar/vm_debbug.s: new_check_kk/Corewar/srcs/corewar/vm_debbug.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vm_debbug.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/corewar/vm_debbug.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vm_debbug.c.s
+.PHONY : new_check_kk/Corewar/srcs/corewar/vm_debbug.c.s
+
+new_check_kk/Corewar/srcs/corewar/vm_game.o: new_check_kk/Corewar/srcs/corewar/vm_game.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vm_game.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/corewar/vm_game.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vm_game.c.o
+.PHONY : new_check_kk/Corewar/srcs/corewar/vm_game.c.o
+
+new_check_kk/Corewar/srcs/corewar/vm_game.i: new_check_kk/Corewar/srcs/corewar/vm_game.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vm_game.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/corewar/vm_game.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vm_game.c.i
+.PHONY : new_check_kk/Corewar/srcs/corewar/vm_game.c.i
+
+new_check_kk/Corewar/srcs/corewar/vm_game.s: new_check_kk/Corewar/srcs/corewar/vm_game.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vm_game.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/corewar/vm_game.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vm_game.c.s
+.PHONY : new_check_kk/Corewar/srcs/corewar/vm_game.c.s
+
+new_check_kk/Corewar/srcs/corewar/vm_init_free.o: new_check_kk/Corewar/srcs/corewar/vm_init_free.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vm_init_free.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/corewar/vm_init_free.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vm_init_free.c.o
+.PHONY : new_check_kk/Corewar/srcs/corewar/vm_init_free.c.o
+
+new_check_kk/Corewar/srcs/corewar/vm_init_free.i: new_check_kk/Corewar/srcs/corewar/vm_init_free.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vm_init_free.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/corewar/vm_init_free.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vm_init_free.c.i
+.PHONY : new_check_kk/Corewar/srcs/corewar/vm_init_free.c.i
+
+new_check_kk/Corewar/srcs/corewar/vm_init_free.s: new_check_kk/Corewar/srcs/corewar/vm_init_free.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vm_init_free.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/corewar/vm_init_free.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vm_init_free.c.s
+.PHONY : new_check_kk/Corewar/srcs/corewar/vm_init_free.c.s
+
+new_check_kk/Corewar/srcs/corewar/vm_parsing.o: new_check_kk/Corewar/srcs/corewar/vm_parsing.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vm_parsing.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/corewar/vm_parsing.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vm_parsing.c.o
+.PHONY : new_check_kk/Corewar/srcs/corewar/vm_parsing.c.o
+
+new_check_kk/Corewar/srcs/corewar/vm_parsing.i: new_check_kk/Corewar/srcs/corewar/vm_parsing.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vm_parsing.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/corewar/vm_parsing.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vm_parsing.c.i
+.PHONY : new_check_kk/Corewar/srcs/corewar/vm_parsing.c.i
+
+new_check_kk/Corewar/srcs/corewar/vm_parsing.s: new_check_kk/Corewar/srcs/corewar/vm_parsing.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vm_parsing.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/corewar/vm_parsing.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vm_parsing.c.s
+.PHONY : new_check_kk/Corewar/srcs/corewar/vm_parsing.c.s
+
+new_check_kk/Corewar/srcs/corewar/vw_draw_img.o: new_check_kk/Corewar/srcs/corewar/vw_draw_img.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_draw_img.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/corewar/vw_draw_img.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_draw_img.c.o
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_draw_img.c.o
+
+new_check_kk/Corewar/srcs/corewar/vw_draw_img.i: new_check_kk/Corewar/srcs/corewar/vw_draw_img.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_draw_img.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/corewar/vw_draw_img.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_draw_img.c.i
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_draw_img.c.i
+
+new_check_kk/Corewar/srcs/corewar/vw_draw_img.s: new_check_kk/Corewar/srcs/corewar/vw_draw_img.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_draw_img.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/corewar/vw_draw_img.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_draw_img.c.s
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_draw_img.c.s
+
+new_check_kk/Corewar/srcs/corewar/vw_draw_life.o: new_check_kk/Corewar/srcs/corewar/vw_draw_life.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_draw_life.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/corewar/vw_draw_life.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_draw_life.c.o
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_draw_life.c.o
+
+new_check_kk/Corewar/srcs/corewar/vw_draw_life.i: new_check_kk/Corewar/srcs/corewar/vw_draw_life.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_draw_life.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/corewar/vw_draw_life.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_draw_life.c.i
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_draw_life.c.i
+
+new_check_kk/Corewar/srcs/corewar/vw_draw_life.s: new_check_kk/Corewar/srcs/corewar/vw_draw_life.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_draw_life.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/corewar/vw_draw_life.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_draw_life.c.s
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_draw_life.c.s
+
+new_check_kk/Corewar/srcs/corewar/vw_draw_tools.o: new_check_kk/Corewar/srcs/corewar/vw_draw_tools.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_draw_tools.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/corewar/vw_draw_tools.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_draw_tools.c.o
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_draw_tools.c.o
+
+new_check_kk/Corewar/srcs/corewar/vw_draw_tools.i: new_check_kk/Corewar/srcs/corewar/vw_draw_tools.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_draw_tools.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/corewar/vw_draw_tools.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_draw_tools.c.i
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_draw_tools.c.i
+
+new_check_kk/Corewar/srcs/corewar/vw_draw_tools.s: new_check_kk/Corewar/srcs/corewar/vw_draw_tools.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_draw_tools.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/corewar/vw_draw_tools.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_draw_tools.c.s
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_draw_tools.c.s
+
+new_check_kk/Corewar/srcs/corewar/vw_init.o: new_check_kk/Corewar/srcs/corewar/vw_init.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_init.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/corewar/vw_init.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_init.c.o
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_init.c.o
+
+new_check_kk/Corewar/srcs/corewar/vw_init.i: new_check_kk/Corewar/srcs/corewar/vw_init.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_init.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/corewar/vw_init.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_init.c.i
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_init.c.i
+
+new_check_kk/Corewar/srcs/corewar/vw_init.s: new_check_kk/Corewar/srcs/corewar/vw_init.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_init.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/corewar/vw_init.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_init.c.s
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_init.c.s
+
+new_check_kk/Corewar/srcs/corewar/vw_init_win.o: new_check_kk/Corewar/srcs/corewar/vw_init_win.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_init_win.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/corewar/vw_init_win.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_init_win.c.o
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_init_win.c.o
+
+new_check_kk/Corewar/srcs/corewar/vw_init_win.i: new_check_kk/Corewar/srcs/corewar/vw_init_win.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_init_win.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/corewar/vw_init_win.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_init_win.c.i
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_init_win.c.i
+
+new_check_kk/Corewar/srcs/corewar/vw_init_win.s: new_check_kk/Corewar/srcs/corewar/vw_init_win.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_init_win.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/corewar/vw_init_win.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_init_win.c.s
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_init_win.c.s
+
+new_check_kk/Corewar/srcs/corewar/vw_maj_process.o: new_check_kk/Corewar/srcs/corewar/vw_maj_process.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_maj_process.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/corewar/vw_maj_process.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_maj_process.c.o
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_maj_process.c.o
+
+new_check_kk/Corewar/srcs/corewar/vw_maj_process.i: new_check_kk/Corewar/srcs/corewar/vw_maj_process.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_maj_process.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/corewar/vw_maj_process.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_maj_process.c.i
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_maj_process.c.i
+
+new_check_kk/Corewar/srcs/corewar/vw_maj_process.s: new_check_kk/Corewar/srcs/corewar/vw_maj_process.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_maj_process.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/corewar/vw_maj_process.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_maj_process.c.s
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_maj_process.c.s
+
+new_check_kk/Corewar/srcs/corewar/vw_maj_win.o: new_check_kk/Corewar/srcs/corewar/vw_maj_win.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_maj_win.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/corewar/vw_maj_win.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_maj_win.c.o
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_maj_win.c.o
+
+new_check_kk/Corewar/srcs/corewar/vw_maj_win.i: new_check_kk/Corewar/srcs/corewar/vw_maj_win.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_maj_win.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/corewar/vw_maj_win.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_maj_win.c.i
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_maj_win.c.i
+
+new_check_kk/Corewar/srcs/corewar/vw_maj_win.s: new_check_kk/Corewar/srcs/corewar/vw_maj_win.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_maj_win.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/corewar/vw_maj_win.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_maj_win.c.s
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_maj_win.c.s
+
+new_check_kk/Corewar/srcs/corewar/vw_th_anim.o: new_check_kk/Corewar/srcs/corewar/vw_th_anim.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_anim.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/corewar/vw_th_anim.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_th_anim.c.o
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_anim.c.o
+
+new_check_kk/Corewar/srcs/corewar/vw_th_anim.i: new_check_kk/Corewar/srcs/corewar/vw_th_anim.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_anim.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/corewar/vw_th_anim.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_th_anim.c.i
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_anim.c.i
+
+new_check_kk/Corewar/srcs/corewar/vw_th_anim.s: new_check_kk/Corewar/srcs/corewar/vw_th_anim.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_anim.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/corewar/vw_th_anim.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_th_anim.c.s
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_anim.c.s
+
+new_check_kk/Corewar/srcs/corewar/vw_th_core.o: new_check_kk/Corewar/srcs/corewar/vw_th_core.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_core.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/corewar/vw_th_core.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_th_core.c.o
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_core.c.o
+
+new_check_kk/Corewar/srcs/corewar/vw_th_core.i: new_check_kk/Corewar/srcs/corewar/vw_th_core.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_core.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/corewar/vw_th_core.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_th_core.c.i
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_core.c.i
+
+new_check_kk/Corewar/srcs/corewar/vw_th_core.s: new_check_kk/Corewar/srcs/corewar/vw_th_core.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_core.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/corewar/vw_th_core.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_th_core.c.s
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_core.c.s
+
+new_check_kk/Corewar/srcs/corewar/vw_th_input.o: new_check_kk/Corewar/srcs/corewar/vw_th_input.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_input.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/corewar/vw_th_input.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_th_input.c.o
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_input.c.o
+
+new_check_kk/Corewar/srcs/corewar/vw_th_input.i: new_check_kk/Corewar/srcs/corewar/vw_th_input.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_input.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/corewar/vw_th_input.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_th_input.c.i
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_input.c.i
+
+new_check_kk/Corewar/srcs/corewar/vw_th_input.s: new_check_kk/Corewar/srcs/corewar/vw_th_input.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_input.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/corewar/vw_th_input.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_th_input.c.s
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_input.c.s
+
+new_check_kk/Corewar/srcs/corewar/vw_th_render.o: new_check_kk/Corewar/srcs/corewar/vw_th_render.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_render.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/corewar/vw_th_render.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_th_render.c.o
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_render.c.o
+
+new_check_kk/Corewar/srcs/corewar/vw_th_render.i: new_check_kk/Corewar/srcs/corewar/vw_th_render.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_render.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/corewar/vw_th_render.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_th_render.c.i
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_render.c.i
+
+new_check_kk/Corewar/srcs/corewar/vw_th_render.s: new_check_kk/Corewar/srcs/corewar/vw_th_render.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_render.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/corewar/vw_th_render.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_th_render.c.s
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_render.c.s
+
+new_check_kk/Corewar/srcs/corewar/vw_th_timer.o: new_check_kk/Corewar/srcs/corewar/vw_th_timer.c.o
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_timer.o
+
+# target to build an object file
+new_check_kk/Corewar/srcs/corewar/vw_th_timer.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_th_timer.c.o
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_timer.c.o
+
+new_check_kk/Corewar/srcs/corewar/vw_th_timer.i: new_check_kk/Corewar/srcs/corewar/vw_th_timer.c.i
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_timer.i
+
+# target to preprocess a source file
+new_check_kk/Corewar/srcs/corewar/vw_th_timer.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_th_timer.c.i
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_timer.c.i
+
+new_check_kk/Corewar/srcs/corewar/vw_th_timer.s: new_check_kk/Corewar/srcs/corewar/vw_th_timer.c.s
+
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_timer.s
+
+# target to generate assembly for a file
+new_check_kk/Corewar/srcs/corewar/vw_th_timer.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/new_check_kk/Corewar/srcs/corewar/vw_th_timer.c.s
+.PHONY : new_check_kk/Corewar/srcs/corewar/vw_th_timer.c.s
+
 src_cor/arena.o: src_cor/arena.c.o
 
 .PHONY : src_cor/arena.o
@@ -8709,6 +22317,3678 @@ src_cor/write_map.c.s:
 	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor/write_map.c.s
 .PHONY : src_cor/write_map.c.s
 
+src_cor_4/arena.o: src_cor_4/arena.c.o
+
+.PHONY : src_cor_4/arena.o
+
+# target to build an object file
+src_cor_4/arena.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/arena.c.o
+.PHONY : src_cor_4/arena.c.o
+
+src_cor_4/arena.i: src_cor_4/arena.c.i
+
+.PHONY : src_cor_4/arena.i
+
+# target to preprocess a source file
+src_cor_4/arena.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/arena.c.i
+.PHONY : src_cor_4/arena.c.i
+
+src_cor_4/arena.s: src_cor_4/arena.c.s
+
+.PHONY : src_cor_4/arena.s
+
+# target to generate assembly for a file
+src_cor_4/arena.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/arena.c.s
+.PHONY : src_cor_4/arena.c.s
+
+src_cor_4/carr_list.o: src_cor_4/carr_list.c.o
+
+.PHONY : src_cor_4/carr_list.o
+
+# target to build an object file
+src_cor_4/carr_list.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/carr_list.c.o
+.PHONY : src_cor_4/carr_list.c.o
+
+src_cor_4/carr_list.i: src_cor_4/carr_list.c.i
+
+.PHONY : src_cor_4/carr_list.i
+
+# target to preprocess a source file
+src_cor_4/carr_list.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/carr_list.c.i
+.PHONY : src_cor_4/carr_list.c.i
+
+src_cor_4/carr_list.s: src_cor_4/carr_list.c.s
+
+.PHONY : src_cor_4/carr_list.s
+
+# target to generate assembly for a file
+src_cor_4/carr_list.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/carr_list.c.s
+.PHONY : src_cor_4/carr_list.c.s
+
+src_cor_4/champ.o: src_cor_4/champ.c.o
+
+.PHONY : src_cor_4/champ.o
+
+# target to build an object file
+src_cor_4/champ.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/champ.c.o
+.PHONY : src_cor_4/champ.c.o
+
+src_cor_4/champ.i: src_cor_4/champ.c.i
+
+.PHONY : src_cor_4/champ.i
+
+# target to preprocess a source file
+src_cor_4/champ.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/champ.c.i
+.PHONY : src_cor_4/champ.c.i
+
+src_cor_4/champ.s: src_cor_4/champ.c.s
+
+.PHONY : src_cor_4/champ.s
+
+# target to generate assembly for a file
+src_cor_4/champ.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/champ.c.s
+.PHONY : src_cor_4/champ.c.s
+
+src_cor_4/ft_add.o: src_cor_4/ft_add.c.o
+
+.PHONY : src_cor_4/ft_add.o
+
+# target to build an object file
+src_cor_4/ft_add.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_add.c.o
+.PHONY : src_cor_4/ft_add.c.o
+
+src_cor_4/ft_add.i: src_cor_4/ft_add.c.i
+
+.PHONY : src_cor_4/ft_add.i
+
+# target to preprocess a source file
+src_cor_4/ft_add.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_add.c.i
+.PHONY : src_cor_4/ft_add.c.i
+
+src_cor_4/ft_add.s: src_cor_4/ft_add.c.s
+
+.PHONY : src_cor_4/ft_add.s
+
+# target to generate assembly for a file
+src_cor_4/ft_add.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_add.c.s
+.PHONY : src_cor_4/ft_add.c.s
+
+src_cor_4/ft_aff.o: src_cor_4/ft_aff.c.o
+
+.PHONY : src_cor_4/ft_aff.o
+
+# target to build an object file
+src_cor_4/ft_aff.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_aff.c.o
+.PHONY : src_cor_4/ft_aff.c.o
+
+src_cor_4/ft_aff.i: src_cor_4/ft_aff.c.i
+
+.PHONY : src_cor_4/ft_aff.i
+
+# target to preprocess a source file
+src_cor_4/ft_aff.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_aff.c.i
+.PHONY : src_cor_4/ft_aff.c.i
+
+src_cor_4/ft_aff.s: src_cor_4/ft_aff.c.s
+
+.PHONY : src_cor_4/ft_aff.s
+
+# target to generate assembly for a file
+src_cor_4/ft_aff.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_aff.c.s
+.PHONY : src_cor_4/ft_aff.c.s
+
+src_cor_4/ft_and.o: src_cor_4/ft_and.c.o
+
+.PHONY : src_cor_4/ft_and.o
+
+# target to build an object file
+src_cor_4/ft_and.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_and.c.o
+.PHONY : src_cor_4/ft_and.c.o
+
+src_cor_4/ft_and.i: src_cor_4/ft_and.c.i
+
+.PHONY : src_cor_4/ft_and.i
+
+# target to preprocess a source file
+src_cor_4/ft_and.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_and.c.i
+.PHONY : src_cor_4/ft_and.c.i
+
+src_cor_4/ft_and.s: src_cor_4/ft_and.c.s
+
+.PHONY : src_cor_4/ft_and.s
+
+# target to generate assembly for a file
+src_cor_4/ft_and.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_and.c.s
+.PHONY : src_cor_4/ft_and.c.s
+
+src_cor_4/ft_fork_lfork.o: src_cor_4/ft_fork_lfork.c.o
+
+.PHONY : src_cor_4/ft_fork_lfork.o
+
+# target to build an object file
+src_cor_4/ft_fork_lfork.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_fork_lfork.c.o
+.PHONY : src_cor_4/ft_fork_lfork.c.o
+
+src_cor_4/ft_fork_lfork.i: src_cor_4/ft_fork_lfork.c.i
+
+.PHONY : src_cor_4/ft_fork_lfork.i
+
+# target to preprocess a source file
+src_cor_4/ft_fork_lfork.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_fork_lfork.c.i
+.PHONY : src_cor_4/ft_fork_lfork.c.i
+
+src_cor_4/ft_fork_lfork.s: src_cor_4/ft_fork_lfork.c.s
+
+.PHONY : src_cor_4/ft_fork_lfork.s
+
+# target to generate assembly for a file
+src_cor_4/ft_fork_lfork.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_fork_lfork.c.s
+.PHONY : src_cor_4/ft_fork_lfork.c.s
+
+src_cor_4/ft_ld.o: src_cor_4/ft_ld.c.o
+
+.PHONY : src_cor_4/ft_ld.o
+
+# target to build an object file
+src_cor_4/ft_ld.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_ld.c.o
+.PHONY : src_cor_4/ft_ld.c.o
+
+src_cor_4/ft_ld.i: src_cor_4/ft_ld.c.i
+
+.PHONY : src_cor_4/ft_ld.i
+
+# target to preprocess a source file
+src_cor_4/ft_ld.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_ld.c.i
+.PHONY : src_cor_4/ft_ld.c.i
+
+src_cor_4/ft_ld.s: src_cor_4/ft_ld.c.s
+
+.PHONY : src_cor_4/ft_ld.s
+
+# target to generate assembly for a file
+src_cor_4/ft_ld.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_ld.c.s
+.PHONY : src_cor_4/ft_ld.c.s
+
+src_cor_4/ft_liba.o: src_cor_4/ft_liba.c.o
+
+.PHONY : src_cor_4/ft_liba.o
+
+# target to build an object file
+src_cor_4/ft_liba.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_liba.c.o
+.PHONY : src_cor_4/ft_liba.c.o
+
+src_cor_4/ft_liba.i: src_cor_4/ft_liba.c.i
+
+.PHONY : src_cor_4/ft_liba.i
+
+# target to preprocess a source file
+src_cor_4/ft_liba.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_liba.c.i
+.PHONY : src_cor_4/ft_liba.c.i
+
+src_cor_4/ft_liba.s: src_cor_4/ft_liba.c.s
+
+.PHONY : src_cor_4/ft_liba.s
+
+# target to generate assembly for a file
+src_cor_4/ft_liba.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_liba.c.s
+.PHONY : src_cor_4/ft_liba.c.s
+
+src_cor_4/ft_live.o: src_cor_4/ft_live.c.o
+
+.PHONY : src_cor_4/ft_live.o
+
+# target to build an object file
+src_cor_4/ft_live.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_live.c.o
+.PHONY : src_cor_4/ft_live.c.o
+
+src_cor_4/ft_live.i: src_cor_4/ft_live.c.i
+
+.PHONY : src_cor_4/ft_live.i
+
+# target to preprocess a source file
+src_cor_4/ft_live.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_live.c.i
+.PHONY : src_cor_4/ft_live.c.i
+
+src_cor_4/ft_live.s: src_cor_4/ft_live.c.s
+
+.PHONY : src_cor_4/ft_live.s
+
+# target to generate assembly for a file
+src_cor_4/ft_live.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_live.c.s
+.PHONY : src_cor_4/ft_live.c.s
+
+src_cor_4/ft_or_xor.o: src_cor_4/ft_or_xor.c.o
+
+.PHONY : src_cor_4/ft_or_xor.o
+
+# target to build an object file
+src_cor_4/ft_or_xor.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_or_xor.c.o
+.PHONY : src_cor_4/ft_or_xor.c.o
+
+src_cor_4/ft_or_xor.i: src_cor_4/ft_or_xor.c.i
+
+.PHONY : src_cor_4/ft_or_xor.i
+
+# target to preprocess a source file
+src_cor_4/ft_or_xor.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_or_xor.c.i
+.PHONY : src_cor_4/ft_or_xor.c.i
+
+src_cor_4/ft_or_xor.s: src_cor_4/ft_or_xor.c.s
+
+.PHONY : src_cor_4/ft_or_xor.s
+
+# target to generate assembly for a file
+src_cor_4/ft_or_xor.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_or_xor.c.s
+.PHONY : src_cor_4/ft_or_xor.c.s
+
+src_cor_4/ft_st.o: src_cor_4/ft_st.c.o
+
+.PHONY : src_cor_4/ft_st.o
+
+# target to build an object file
+src_cor_4/ft_st.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_st.c.o
+.PHONY : src_cor_4/ft_st.c.o
+
+src_cor_4/ft_st.i: src_cor_4/ft_st.c.i
+
+.PHONY : src_cor_4/ft_st.i
+
+# target to preprocess a source file
+src_cor_4/ft_st.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_st.c.i
+.PHONY : src_cor_4/ft_st.c.i
+
+src_cor_4/ft_st.s: src_cor_4/ft_st.c.s
+
+.PHONY : src_cor_4/ft_st.s
+
+# target to generate assembly for a file
+src_cor_4/ft_st.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_st.c.s
+.PHONY : src_cor_4/ft_st.c.s
+
+src_cor_4/ft_sti.o: src_cor_4/ft_sti.c.o
+
+.PHONY : src_cor_4/ft_sti.o
+
+# target to build an object file
+src_cor_4/ft_sti.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_sti.c.o
+.PHONY : src_cor_4/ft_sti.c.o
+
+src_cor_4/ft_sti.i: src_cor_4/ft_sti.c.i
+
+.PHONY : src_cor_4/ft_sti.i
+
+# target to preprocess a source file
+src_cor_4/ft_sti.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_sti.c.i
+.PHONY : src_cor_4/ft_sti.c.i
+
+src_cor_4/ft_sti.s: src_cor_4/ft_sti.c.s
+
+.PHONY : src_cor_4/ft_sti.s
+
+# target to generate assembly for a file
+src_cor_4/ft_sti.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_sti.c.s
+.PHONY : src_cor_4/ft_sti.c.s
+
+src_cor_4/ft_sub.o: src_cor_4/ft_sub.c.o
+
+.PHONY : src_cor_4/ft_sub.o
+
+# target to build an object file
+src_cor_4/ft_sub.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_sub.c.o
+.PHONY : src_cor_4/ft_sub.c.o
+
+src_cor_4/ft_sub.i: src_cor_4/ft_sub.c.i
+
+.PHONY : src_cor_4/ft_sub.i
+
+# target to preprocess a source file
+src_cor_4/ft_sub.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_sub.c.i
+.PHONY : src_cor_4/ft_sub.c.i
+
+src_cor_4/ft_sub.s: src_cor_4/ft_sub.c.s
+
+.PHONY : src_cor_4/ft_sub.s
+
+# target to generate assembly for a file
+src_cor_4/ft_sub.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/ft_sub.c.s
+.PHONY : src_cor_4/ft_sub.c.s
+
+src_cor_4/go_cor.o: src_cor_4/go_cor.c.o
+
+.PHONY : src_cor_4/go_cor.o
+
+# target to build an object file
+src_cor_4/go_cor.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/go_cor.c.o
+.PHONY : src_cor_4/go_cor.c.o
+
+src_cor_4/go_cor.i: src_cor_4/go_cor.c.i
+
+.PHONY : src_cor_4/go_cor.i
+
+# target to preprocess a source file
+src_cor_4/go_cor.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/go_cor.c.i
+.PHONY : src_cor_4/go_cor.c.i
+
+src_cor_4/go_cor.s: src_cor_4/go_cor.c.s
+
+.PHONY : src_cor_4/go_cor.s
+
+# target to generate assembly for a file
+src_cor_4/go_cor.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/go_cor.c.s
+.PHONY : src_cor_4/go_cor.c.s
+
+src_cor_4/main.o: src_cor_4/main.c.o
+
+.PHONY : src_cor_4/main.o
+
+# target to build an object file
+src_cor_4/main.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/main.c.o
+.PHONY : src_cor_4/main.c.o
+
+src_cor_4/main.i: src_cor_4/main.c.i
+
+.PHONY : src_cor_4/main.i
+
+# target to preprocess a source file
+src_cor_4/main.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/main.c.i
+.PHONY : src_cor_4/main.c.i
+
+src_cor_4/main.s: src_cor_4/main.c.s
+
+.PHONY : src_cor_4/main.s
+
+# target to generate assembly for a file
+src_cor_4/main.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/main.c.s
+.PHONY : src_cor_4/main.c.s
+
+src_cor_4/print_code.o: src_cor_4/print_code.c.o
+
+.PHONY : src_cor_4/print_code.o
+
+# target to build an object file
+src_cor_4/print_code.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/print_code.c.o
+.PHONY : src_cor_4/print_code.c.o
+
+src_cor_4/print_code.i: src_cor_4/print_code.c.i
+
+.PHONY : src_cor_4/print_code.i
+
+# target to preprocess a source file
+src_cor_4/print_code.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/print_code.c.i
+.PHONY : src_cor_4/print_code.c.i
+
+src_cor_4/print_code.s: src_cor_4/print_code.c.s
+
+.PHONY : src_cor_4/print_code.s
+
+# target to generate assembly for a file
+src_cor_4/print_code.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/print_code.c.s
+.PHONY : src_cor_4/print_code.c.s
+
+src_cor_4/read_byte.o: src_cor_4/read_byte.c.o
+
+.PHONY : src_cor_4/read_byte.o
+
+# target to build an object file
+src_cor_4/read_byte.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/read_byte.c.o
+.PHONY : src_cor_4/read_byte.c.o
+
+src_cor_4/read_byte.i: src_cor_4/read_byte.c.i
+
+.PHONY : src_cor_4/read_byte.i
+
+# target to preprocess a source file
+src_cor_4/read_byte.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/read_byte.c.i
+.PHONY : src_cor_4/read_byte.c.i
+
+src_cor_4/read_byte.s: src_cor_4/read_byte.c.s
+
+.PHONY : src_cor_4/read_byte.s
+
+# target to generate assembly for a file
+src_cor_4/read_byte.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_4/read_byte.c.s
+.PHONY : src_cor_4/read_byte.c.s
+
+src_cor_7/arena.o: src_cor_7/arena.c.o
+
+.PHONY : src_cor_7/arena.o
+
+# target to build an object file
+src_cor_7/arena.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/arena.c.o
+.PHONY : src_cor_7/arena.c.o
+
+src_cor_7/arena.i: src_cor_7/arena.c.i
+
+.PHONY : src_cor_7/arena.i
+
+# target to preprocess a source file
+src_cor_7/arena.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/arena.c.i
+.PHONY : src_cor_7/arena.c.i
+
+src_cor_7/arena.s: src_cor_7/arena.c.s
+
+.PHONY : src_cor_7/arena.s
+
+# target to generate assembly for a file
+src_cor_7/arena.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/arena.c.s
+.PHONY : src_cor_7/arena.c.s
+
+src_cor_7/carr_list.o: src_cor_7/carr_list.c.o
+
+.PHONY : src_cor_7/carr_list.o
+
+# target to build an object file
+src_cor_7/carr_list.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/carr_list.c.o
+.PHONY : src_cor_7/carr_list.c.o
+
+src_cor_7/carr_list.i: src_cor_7/carr_list.c.i
+
+.PHONY : src_cor_7/carr_list.i
+
+# target to preprocess a source file
+src_cor_7/carr_list.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/carr_list.c.i
+.PHONY : src_cor_7/carr_list.c.i
+
+src_cor_7/carr_list.s: src_cor_7/carr_list.c.s
+
+.PHONY : src_cor_7/carr_list.s
+
+# target to generate assembly for a file
+src_cor_7/carr_list.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/carr_list.c.s
+.PHONY : src_cor_7/carr_list.c.s
+
+src_cor_7/champ.o: src_cor_7/champ.c.o
+
+.PHONY : src_cor_7/champ.o
+
+# target to build an object file
+src_cor_7/champ.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/champ.c.o
+.PHONY : src_cor_7/champ.c.o
+
+src_cor_7/champ.i: src_cor_7/champ.c.i
+
+.PHONY : src_cor_7/champ.i
+
+# target to preprocess a source file
+src_cor_7/champ.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/champ.c.i
+.PHONY : src_cor_7/champ.c.i
+
+src_cor_7/champ.s: src_cor_7/champ.c.s
+
+.PHONY : src_cor_7/champ.s
+
+# target to generate assembly for a file
+src_cor_7/champ.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/champ.c.s
+.PHONY : src_cor_7/champ.c.s
+
+src_cor_7/do_op.o: src_cor_7/do_op.c.o
+
+.PHONY : src_cor_7/do_op.o
+
+# target to build an object file
+src_cor_7/do_op.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/do_op.c.o
+.PHONY : src_cor_7/do_op.c.o
+
+src_cor_7/do_op.i: src_cor_7/do_op.c.i
+
+.PHONY : src_cor_7/do_op.i
+
+# target to preprocess a source file
+src_cor_7/do_op.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/do_op.c.i
+.PHONY : src_cor_7/do_op.c.i
+
+src_cor_7/do_op.s: src_cor_7/do_op.c.s
+
+.PHONY : src_cor_7/do_op.s
+
+# target to generate assembly for a file
+src_cor_7/do_op.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/do_op.c.s
+.PHONY : src_cor_7/do_op.c.s
+
+src_cor_7/ft_add.o: src_cor_7/ft_add.c.o
+
+.PHONY : src_cor_7/ft_add.o
+
+# target to build an object file
+src_cor_7/ft_add.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_add.c.o
+.PHONY : src_cor_7/ft_add.c.o
+
+src_cor_7/ft_add.i: src_cor_7/ft_add.c.i
+
+.PHONY : src_cor_7/ft_add.i
+
+# target to preprocess a source file
+src_cor_7/ft_add.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_add.c.i
+.PHONY : src_cor_7/ft_add.c.i
+
+src_cor_7/ft_add.s: src_cor_7/ft_add.c.s
+
+.PHONY : src_cor_7/ft_add.s
+
+# target to generate assembly for a file
+src_cor_7/ft_add.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_add.c.s
+.PHONY : src_cor_7/ft_add.c.s
+
+src_cor_7/ft_aff.o: src_cor_7/ft_aff.c.o
+
+.PHONY : src_cor_7/ft_aff.o
+
+# target to build an object file
+src_cor_7/ft_aff.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_aff.c.o
+.PHONY : src_cor_7/ft_aff.c.o
+
+src_cor_7/ft_aff.i: src_cor_7/ft_aff.c.i
+
+.PHONY : src_cor_7/ft_aff.i
+
+# target to preprocess a source file
+src_cor_7/ft_aff.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_aff.c.i
+.PHONY : src_cor_7/ft_aff.c.i
+
+src_cor_7/ft_aff.s: src_cor_7/ft_aff.c.s
+
+.PHONY : src_cor_7/ft_aff.s
+
+# target to generate assembly for a file
+src_cor_7/ft_aff.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_aff.c.s
+.PHONY : src_cor_7/ft_aff.c.s
+
+src_cor_7/ft_and.o: src_cor_7/ft_and.c.o
+
+.PHONY : src_cor_7/ft_and.o
+
+# target to build an object file
+src_cor_7/ft_and.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_and.c.o
+.PHONY : src_cor_7/ft_and.c.o
+
+src_cor_7/ft_and.i: src_cor_7/ft_and.c.i
+
+.PHONY : src_cor_7/ft_and.i
+
+# target to preprocess a source file
+src_cor_7/ft_and.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_and.c.i
+.PHONY : src_cor_7/ft_and.c.i
+
+src_cor_7/ft_and.s: src_cor_7/ft_and.c.s
+
+.PHONY : src_cor_7/ft_and.s
+
+# target to generate assembly for a file
+src_cor_7/ft_and.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_and.c.s
+.PHONY : src_cor_7/ft_and.c.s
+
+src_cor_7/ft_fork_lfork.o: src_cor_7/ft_fork_lfork.c.o
+
+.PHONY : src_cor_7/ft_fork_lfork.o
+
+# target to build an object file
+src_cor_7/ft_fork_lfork.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_fork_lfork.c.o
+.PHONY : src_cor_7/ft_fork_lfork.c.o
+
+src_cor_7/ft_fork_lfork.i: src_cor_7/ft_fork_lfork.c.i
+
+.PHONY : src_cor_7/ft_fork_lfork.i
+
+# target to preprocess a source file
+src_cor_7/ft_fork_lfork.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_fork_lfork.c.i
+.PHONY : src_cor_7/ft_fork_lfork.c.i
+
+src_cor_7/ft_fork_lfork.s: src_cor_7/ft_fork_lfork.c.s
+
+.PHONY : src_cor_7/ft_fork_lfork.s
+
+# target to generate assembly for a file
+src_cor_7/ft_fork_lfork.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_fork_lfork.c.s
+.PHONY : src_cor_7/ft_fork_lfork.c.s
+
+src_cor_7/ft_ld.o: src_cor_7/ft_ld.c.o
+
+.PHONY : src_cor_7/ft_ld.o
+
+# target to build an object file
+src_cor_7/ft_ld.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_ld.c.o
+.PHONY : src_cor_7/ft_ld.c.o
+
+src_cor_7/ft_ld.i: src_cor_7/ft_ld.c.i
+
+.PHONY : src_cor_7/ft_ld.i
+
+# target to preprocess a source file
+src_cor_7/ft_ld.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_ld.c.i
+.PHONY : src_cor_7/ft_ld.c.i
+
+src_cor_7/ft_ld.s: src_cor_7/ft_ld.c.s
+
+.PHONY : src_cor_7/ft_ld.s
+
+# target to generate assembly for a file
+src_cor_7/ft_ld.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_ld.c.s
+.PHONY : src_cor_7/ft_ld.c.s
+
+src_cor_7/ft_ldi.o: src_cor_7/ft_ldi.c.o
+
+.PHONY : src_cor_7/ft_ldi.o
+
+# target to build an object file
+src_cor_7/ft_ldi.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_ldi.c.o
+.PHONY : src_cor_7/ft_ldi.c.o
+
+src_cor_7/ft_ldi.i: src_cor_7/ft_ldi.c.i
+
+.PHONY : src_cor_7/ft_ldi.i
+
+# target to preprocess a source file
+src_cor_7/ft_ldi.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_ldi.c.i
+.PHONY : src_cor_7/ft_ldi.c.i
+
+src_cor_7/ft_ldi.s: src_cor_7/ft_ldi.c.s
+
+.PHONY : src_cor_7/ft_ldi.s
+
+# target to generate assembly for a file
+src_cor_7/ft_ldi.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_ldi.c.s
+.PHONY : src_cor_7/ft_ldi.c.s
+
+src_cor_7/ft_liba.o: src_cor_7/ft_liba.c.o
+
+.PHONY : src_cor_7/ft_liba.o
+
+# target to build an object file
+src_cor_7/ft_liba.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_liba.c.o
+.PHONY : src_cor_7/ft_liba.c.o
+
+src_cor_7/ft_liba.i: src_cor_7/ft_liba.c.i
+
+.PHONY : src_cor_7/ft_liba.i
+
+# target to preprocess a source file
+src_cor_7/ft_liba.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_liba.c.i
+.PHONY : src_cor_7/ft_liba.c.i
+
+src_cor_7/ft_liba.s: src_cor_7/ft_liba.c.s
+
+.PHONY : src_cor_7/ft_liba.s
+
+# target to generate assembly for a file
+src_cor_7/ft_liba.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_liba.c.s
+.PHONY : src_cor_7/ft_liba.c.s
+
+src_cor_7/ft_live.o: src_cor_7/ft_live.c.o
+
+.PHONY : src_cor_7/ft_live.o
+
+# target to build an object file
+src_cor_7/ft_live.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_live.c.o
+.PHONY : src_cor_7/ft_live.c.o
+
+src_cor_7/ft_live.i: src_cor_7/ft_live.c.i
+
+.PHONY : src_cor_7/ft_live.i
+
+# target to preprocess a source file
+src_cor_7/ft_live.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_live.c.i
+.PHONY : src_cor_7/ft_live.c.i
+
+src_cor_7/ft_live.s: src_cor_7/ft_live.c.s
+
+.PHONY : src_cor_7/ft_live.s
+
+# target to generate assembly for a file
+src_cor_7/ft_live.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_live.c.s
+.PHONY : src_cor_7/ft_live.c.s
+
+src_cor_7/ft_or_xor.o: src_cor_7/ft_or_xor.c.o
+
+.PHONY : src_cor_7/ft_or_xor.o
+
+# target to build an object file
+src_cor_7/ft_or_xor.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_or_xor.c.o
+.PHONY : src_cor_7/ft_or_xor.c.o
+
+src_cor_7/ft_or_xor.i: src_cor_7/ft_or_xor.c.i
+
+.PHONY : src_cor_7/ft_or_xor.i
+
+# target to preprocess a source file
+src_cor_7/ft_or_xor.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_or_xor.c.i
+.PHONY : src_cor_7/ft_or_xor.c.i
+
+src_cor_7/ft_or_xor.s: src_cor_7/ft_or_xor.c.s
+
+.PHONY : src_cor_7/ft_or_xor.s
+
+# target to generate assembly for a file
+src_cor_7/ft_or_xor.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_or_xor.c.s
+.PHONY : src_cor_7/ft_or_xor.c.s
+
+src_cor_7/ft_st.o: src_cor_7/ft_st.c.o
+
+.PHONY : src_cor_7/ft_st.o
+
+# target to build an object file
+src_cor_7/ft_st.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_st.c.o
+.PHONY : src_cor_7/ft_st.c.o
+
+src_cor_7/ft_st.i: src_cor_7/ft_st.c.i
+
+.PHONY : src_cor_7/ft_st.i
+
+# target to preprocess a source file
+src_cor_7/ft_st.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_st.c.i
+.PHONY : src_cor_7/ft_st.c.i
+
+src_cor_7/ft_st.s: src_cor_7/ft_st.c.s
+
+.PHONY : src_cor_7/ft_st.s
+
+# target to generate assembly for a file
+src_cor_7/ft_st.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_st.c.s
+.PHONY : src_cor_7/ft_st.c.s
+
+src_cor_7/ft_sti.o: src_cor_7/ft_sti.c.o
+
+.PHONY : src_cor_7/ft_sti.o
+
+# target to build an object file
+src_cor_7/ft_sti.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_sti.c.o
+.PHONY : src_cor_7/ft_sti.c.o
+
+src_cor_7/ft_sti.i: src_cor_7/ft_sti.c.i
+
+.PHONY : src_cor_7/ft_sti.i
+
+# target to preprocess a source file
+src_cor_7/ft_sti.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_sti.c.i
+.PHONY : src_cor_7/ft_sti.c.i
+
+src_cor_7/ft_sti.s: src_cor_7/ft_sti.c.s
+
+.PHONY : src_cor_7/ft_sti.s
+
+# target to generate assembly for a file
+src_cor_7/ft_sti.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_sti.c.s
+.PHONY : src_cor_7/ft_sti.c.s
+
+src_cor_7/ft_sub.o: src_cor_7/ft_sub.c.o
+
+.PHONY : src_cor_7/ft_sub.o
+
+# target to build an object file
+src_cor_7/ft_sub.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_sub.c.o
+.PHONY : src_cor_7/ft_sub.c.o
+
+src_cor_7/ft_sub.i: src_cor_7/ft_sub.c.i
+
+.PHONY : src_cor_7/ft_sub.i
+
+# target to preprocess a source file
+src_cor_7/ft_sub.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_sub.c.i
+.PHONY : src_cor_7/ft_sub.c.i
+
+src_cor_7/ft_sub.s: src_cor_7/ft_sub.c.s
+
+.PHONY : src_cor_7/ft_sub.s
+
+# target to generate assembly for a file
+src_cor_7/ft_sub.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_sub.c.s
+.PHONY : src_cor_7/ft_sub.c.s
+
+src_cor_7/ft_zjmp.o: src_cor_7/ft_zjmp.c.o
+
+.PHONY : src_cor_7/ft_zjmp.o
+
+# target to build an object file
+src_cor_7/ft_zjmp.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_zjmp.c.o
+.PHONY : src_cor_7/ft_zjmp.c.o
+
+src_cor_7/ft_zjmp.i: src_cor_7/ft_zjmp.c.i
+
+.PHONY : src_cor_7/ft_zjmp.i
+
+# target to preprocess a source file
+src_cor_7/ft_zjmp.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_zjmp.c.i
+.PHONY : src_cor_7/ft_zjmp.c.i
+
+src_cor_7/ft_zjmp.s: src_cor_7/ft_zjmp.c.s
+
+.PHONY : src_cor_7/ft_zjmp.s
+
+# target to generate assembly for a file
+src_cor_7/ft_zjmp.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/ft_zjmp.c.s
+.PHONY : src_cor_7/ft_zjmp.c.s
+
+src_cor_7/go_cor.o: src_cor_7/go_cor.c.o
+
+.PHONY : src_cor_7/go_cor.o
+
+# target to build an object file
+src_cor_7/go_cor.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/go_cor.c.o
+.PHONY : src_cor_7/go_cor.c.o
+
+src_cor_7/go_cor.i: src_cor_7/go_cor.c.i
+
+.PHONY : src_cor_7/go_cor.i
+
+# target to preprocess a source file
+src_cor_7/go_cor.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/go_cor.c.i
+.PHONY : src_cor_7/go_cor.c.i
+
+src_cor_7/go_cor.s: src_cor_7/go_cor.c.s
+
+.PHONY : src_cor_7/go_cor.s
+
+# target to generate assembly for a file
+src_cor_7/go_cor.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/go_cor.c.s
+.PHONY : src_cor_7/go_cor.c.s
+
+src_cor_7/main.o: src_cor_7/main.c.o
+
+.PHONY : src_cor_7/main.o
+
+# target to build an object file
+src_cor_7/main.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/main.c.o
+.PHONY : src_cor_7/main.c.o
+
+src_cor_7/main.i: src_cor_7/main.c.i
+
+.PHONY : src_cor_7/main.i
+
+# target to preprocess a source file
+src_cor_7/main.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/main.c.i
+.PHONY : src_cor_7/main.c.i
+
+src_cor_7/main.s: src_cor_7/main.c.s
+
+.PHONY : src_cor_7/main.s
+
+# target to generate assembly for a file
+src_cor_7/main.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/main.c.s
+.PHONY : src_cor_7/main.c.s
+
+src_cor_7/parse_av.o: src_cor_7/parse_av.c.o
+
+.PHONY : src_cor_7/parse_av.o
+
+# target to build an object file
+src_cor_7/parse_av.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/parse_av.c.o
+.PHONY : src_cor_7/parse_av.c.o
+
+src_cor_7/parse_av.i: src_cor_7/parse_av.c.i
+
+.PHONY : src_cor_7/parse_av.i
+
+# target to preprocess a source file
+src_cor_7/parse_av.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/parse_av.c.i
+.PHONY : src_cor_7/parse_av.c.i
+
+src_cor_7/parse_av.s: src_cor_7/parse_av.c.s
+
+.PHONY : src_cor_7/parse_av.s
+
+# target to generate assembly for a file
+src_cor_7/parse_av.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/parse_av.c.s
+.PHONY : src_cor_7/parse_av.c.s
+
+src_cor_7/print_code.o: src_cor_7/print_code.c.o
+
+.PHONY : src_cor_7/print_code.o
+
+# target to build an object file
+src_cor_7/print_code.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/print_code.c.o
+.PHONY : src_cor_7/print_code.c.o
+
+src_cor_7/print_code.i: src_cor_7/print_code.c.i
+
+.PHONY : src_cor_7/print_code.i
+
+# target to preprocess a source file
+src_cor_7/print_code.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/print_code.c.i
+.PHONY : src_cor_7/print_code.c.i
+
+src_cor_7/print_code.s: src_cor_7/print_code.c.s
+
+.PHONY : src_cor_7/print_code.s
+
+# target to generate assembly for a file
+src_cor_7/print_code.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/print_code.c.s
+.PHONY : src_cor_7/print_code.c.s
+
+src_cor_7/read_byte.o: src_cor_7/read_byte.c.o
+
+.PHONY : src_cor_7/read_byte.o
+
+# target to build an object file
+src_cor_7/read_byte.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/read_byte.c.o
+.PHONY : src_cor_7/read_byte.c.o
+
+src_cor_7/read_byte.i: src_cor_7/read_byte.c.i
+
+.PHONY : src_cor_7/read_byte.i
+
+# target to preprocess a source file
+src_cor_7/read_byte.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/read_byte.c.i
+.PHONY : src_cor_7/read_byte.c.i
+
+src_cor_7/read_byte.s: src_cor_7/read_byte.c.s
+
+.PHONY : src_cor_7/read_byte.s
+
+# target to generate assembly for a file
+src_cor_7/read_byte.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/read_byte.c.s
+.PHONY : src_cor_7/read_byte.c.s
+
+src_cor_7/visu_cicle.o: src_cor_7/visu_cicle.c.o
+
+.PHONY : src_cor_7/visu_cicle.o
+
+# target to build an object file
+src_cor_7/visu_cicle.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/visu_cicle.c.o
+.PHONY : src_cor_7/visu_cicle.c.o
+
+src_cor_7/visu_cicle.i: src_cor_7/visu_cicle.c.i
+
+.PHONY : src_cor_7/visu_cicle.i
+
+# target to preprocess a source file
+src_cor_7/visu_cicle.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/visu_cicle.c.i
+.PHONY : src_cor_7/visu_cicle.c.i
+
+src_cor_7/visu_cicle.s: src_cor_7/visu_cicle.c.s
+
+.PHONY : src_cor_7/visu_cicle.s
+
+# target to generate assembly for a file
+src_cor_7/visu_cicle.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/visu_cicle.c.s
+.PHONY : src_cor_7/visu_cicle.c.s
+
+src_cor_7/visu_init.o: src_cor_7/visu_init.c.o
+
+.PHONY : src_cor_7/visu_init.o
+
+# target to build an object file
+src_cor_7/visu_init.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/visu_init.c.o
+.PHONY : src_cor_7/visu_init.c.o
+
+src_cor_7/visu_init.i: src_cor_7/visu_init.c.i
+
+.PHONY : src_cor_7/visu_init.i
+
+# target to preprocess a source file
+src_cor_7/visu_init.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/visu_init.c.i
+.PHONY : src_cor_7/visu_init.c.i
+
+src_cor_7/visu_init.s: src_cor_7/visu_init.c.s
+
+.PHONY : src_cor_7/visu_init.s
+
+# target to generate assembly for a file
+src_cor_7/visu_init.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/visu_init.c.s
+.PHONY : src_cor_7/visu_init.c.s
+
+src_cor_7/write_map.o: src_cor_7/write_map.c.o
+
+.PHONY : src_cor_7/write_map.o
+
+# target to build an object file
+src_cor_7/write_map.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/write_map.c.o
+.PHONY : src_cor_7/write_map.c.o
+
+src_cor_7/write_map.i: src_cor_7/write_map.c.i
+
+.PHONY : src_cor_7/write_map.i
+
+# target to preprocess a source file
+src_cor_7/write_map.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/write_map.c.i
+.PHONY : src_cor_7/write_map.c.i
+
+src_cor_7/write_map.s: src_cor_7/write_map.c.s
+
+.PHONY : src_cor_7/write_map.s
+
+# target to generate assembly for a file
+src_cor_7/write_map.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_7/write_map.c.s
+.PHONY : src_cor_7/write_map.c.s
+
+src_cor_arina_X/arena.o: src_cor_arina_X/arena.c.o
+
+.PHONY : src_cor_arina_X/arena.o
+
+# target to build an object file
+src_cor_arina_X/arena.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/arena.c.o
+.PHONY : src_cor_arina_X/arena.c.o
+
+src_cor_arina_X/arena.i: src_cor_arina_X/arena.c.i
+
+.PHONY : src_cor_arina_X/arena.i
+
+# target to preprocess a source file
+src_cor_arina_X/arena.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/arena.c.i
+.PHONY : src_cor_arina_X/arena.c.i
+
+src_cor_arina_X/arena.s: src_cor_arina_X/arena.c.s
+
+.PHONY : src_cor_arina_X/arena.s
+
+# target to generate assembly for a file
+src_cor_arina_X/arena.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/arena.c.s
+.PHONY : src_cor_arina_X/arena.c.s
+
+src_cor_arina_X/carr_list.o: src_cor_arina_X/carr_list.c.o
+
+.PHONY : src_cor_arina_X/carr_list.o
+
+# target to build an object file
+src_cor_arina_X/carr_list.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/carr_list.c.o
+.PHONY : src_cor_arina_X/carr_list.c.o
+
+src_cor_arina_X/carr_list.i: src_cor_arina_X/carr_list.c.i
+
+.PHONY : src_cor_arina_X/carr_list.i
+
+# target to preprocess a source file
+src_cor_arina_X/carr_list.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/carr_list.c.i
+.PHONY : src_cor_arina_X/carr_list.c.i
+
+src_cor_arina_X/carr_list.s: src_cor_arina_X/carr_list.c.s
+
+.PHONY : src_cor_arina_X/carr_list.s
+
+# target to generate assembly for a file
+src_cor_arina_X/carr_list.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/carr_list.c.s
+.PHONY : src_cor_arina_X/carr_list.c.s
+
+src_cor_arina_X/champ.o: src_cor_arina_X/champ.c.o
+
+.PHONY : src_cor_arina_X/champ.o
+
+# target to build an object file
+src_cor_arina_X/champ.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/champ.c.o
+.PHONY : src_cor_arina_X/champ.c.o
+
+src_cor_arina_X/champ.i: src_cor_arina_X/champ.c.i
+
+.PHONY : src_cor_arina_X/champ.i
+
+# target to preprocess a source file
+src_cor_arina_X/champ.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/champ.c.i
+.PHONY : src_cor_arina_X/champ.c.i
+
+src_cor_arina_X/champ.s: src_cor_arina_X/champ.c.s
+
+.PHONY : src_cor_arina_X/champ.s
+
+# target to generate assembly for a file
+src_cor_arina_X/champ.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/champ.c.s
+.PHONY : src_cor_arina_X/champ.c.s
+
+src_cor_arina_X/do_op.o: src_cor_arina_X/do_op.c.o
+
+.PHONY : src_cor_arina_X/do_op.o
+
+# target to build an object file
+src_cor_arina_X/do_op.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/do_op.c.o
+.PHONY : src_cor_arina_X/do_op.c.o
+
+src_cor_arina_X/do_op.i: src_cor_arina_X/do_op.c.i
+
+.PHONY : src_cor_arina_X/do_op.i
+
+# target to preprocess a source file
+src_cor_arina_X/do_op.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/do_op.c.i
+.PHONY : src_cor_arina_X/do_op.c.i
+
+src_cor_arina_X/do_op.s: src_cor_arina_X/do_op.c.s
+
+.PHONY : src_cor_arina_X/do_op.s
+
+# target to generate assembly for a file
+src_cor_arina_X/do_op.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/do_op.c.s
+.PHONY : src_cor_arina_X/do_op.c.s
+
+src_cor_arina_X/ft_add.o: src_cor_arina_X/ft_add.c.o
+
+.PHONY : src_cor_arina_X/ft_add.o
+
+# target to build an object file
+src_cor_arina_X/ft_add.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_add.c.o
+.PHONY : src_cor_arina_X/ft_add.c.o
+
+src_cor_arina_X/ft_add.i: src_cor_arina_X/ft_add.c.i
+
+.PHONY : src_cor_arina_X/ft_add.i
+
+# target to preprocess a source file
+src_cor_arina_X/ft_add.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_add.c.i
+.PHONY : src_cor_arina_X/ft_add.c.i
+
+src_cor_arina_X/ft_add.s: src_cor_arina_X/ft_add.c.s
+
+.PHONY : src_cor_arina_X/ft_add.s
+
+# target to generate assembly for a file
+src_cor_arina_X/ft_add.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_add.c.s
+.PHONY : src_cor_arina_X/ft_add.c.s
+
+src_cor_arina_X/ft_aff.o: src_cor_arina_X/ft_aff.c.o
+
+.PHONY : src_cor_arina_X/ft_aff.o
+
+# target to build an object file
+src_cor_arina_X/ft_aff.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_aff.c.o
+.PHONY : src_cor_arina_X/ft_aff.c.o
+
+src_cor_arina_X/ft_aff.i: src_cor_arina_X/ft_aff.c.i
+
+.PHONY : src_cor_arina_X/ft_aff.i
+
+# target to preprocess a source file
+src_cor_arina_X/ft_aff.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_aff.c.i
+.PHONY : src_cor_arina_X/ft_aff.c.i
+
+src_cor_arina_X/ft_aff.s: src_cor_arina_X/ft_aff.c.s
+
+.PHONY : src_cor_arina_X/ft_aff.s
+
+# target to generate assembly for a file
+src_cor_arina_X/ft_aff.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_aff.c.s
+.PHONY : src_cor_arina_X/ft_aff.c.s
+
+src_cor_arina_X/ft_and.o: src_cor_arina_X/ft_and.c.o
+
+.PHONY : src_cor_arina_X/ft_and.o
+
+# target to build an object file
+src_cor_arina_X/ft_and.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_and.c.o
+.PHONY : src_cor_arina_X/ft_and.c.o
+
+src_cor_arina_X/ft_and.i: src_cor_arina_X/ft_and.c.i
+
+.PHONY : src_cor_arina_X/ft_and.i
+
+# target to preprocess a source file
+src_cor_arina_X/ft_and.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_and.c.i
+.PHONY : src_cor_arina_X/ft_and.c.i
+
+src_cor_arina_X/ft_and.s: src_cor_arina_X/ft_and.c.s
+
+.PHONY : src_cor_arina_X/ft_and.s
+
+# target to generate assembly for a file
+src_cor_arina_X/ft_and.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_and.c.s
+.PHONY : src_cor_arina_X/ft_and.c.s
+
+src_cor_arina_X/ft_fork_lfork.o: src_cor_arina_X/ft_fork_lfork.c.o
+
+.PHONY : src_cor_arina_X/ft_fork_lfork.o
+
+# target to build an object file
+src_cor_arina_X/ft_fork_lfork.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_fork_lfork.c.o
+.PHONY : src_cor_arina_X/ft_fork_lfork.c.o
+
+src_cor_arina_X/ft_fork_lfork.i: src_cor_arina_X/ft_fork_lfork.c.i
+
+.PHONY : src_cor_arina_X/ft_fork_lfork.i
+
+# target to preprocess a source file
+src_cor_arina_X/ft_fork_lfork.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_fork_lfork.c.i
+.PHONY : src_cor_arina_X/ft_fork_lfork.c.i
+
+src_cor_arina_X/ft_fork_lfork.s: src_cor_arina_X/ft_fork_lfork.c.s
+
+.PHONY : src_cor_arina_X/ft_fork_lfork.s
+
+# target to generate assembly for a file
+src_cor_arina_X/ft_fork_lfork.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_fork_lfork.c.s
+.PHONY : src_cor_arina_X/ft_fork_lfork.c.s
+
+src_cor_arina_X/ft_ld.o: src_cor_arina_X/ft_ld.c.o
+
+.PHONY : src_cor_arina_X/ft_ld.o
+
+# target to build an object file
+src_cor_arina_X/ft_ld.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_ld.c.o
+.PHONY : src_cor_arina_X/ft_ld.c.o
+
+src_cor_arina_X/ft_ld.i: src_cor_arina_X/ft_ld.c.i
+
+.PHONY : src_cor_arina_X/ft_ld.i
+
+# target to preprocess a source file
+src_cor_arina_X/ft_ld.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_ld.c.i
+.PHONY : src_cor_arina_X/ft_ld.c.i
+
+src_cor_arina_X/ft_ld.s: src_cor_arina_X/ft_ld.c.s
+
+.PHONY : src_cor_arina_X/ft_ld.s
+
+# target to generate assembly for a file
+src_cor_arina_X/ft_ld.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_ld.c.s
+.PHONY : src_cor_arina_X/ft_ld.c.s
+
+src_cor_arina_X/ft_ldi.o: src_cor_arina_X/ft_ldi.c.o
+
+.PHONY : src_cor_arina_X/ft_ldi.o
+
+# target to build an object file
+src_cor_arina_X/ft_ldi.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_ldi.c.o
+.PHONY : src_cor_arina_X/ft_ldi.c.o
+
+src_cor_arina_X/ft_ldi.i: src_cor_arina_X/ft_ldi.c.i
+
+.PHONY : src_cor_arina_X/ft_ldi.i
+
+# target to preprocess a source file
+src_cor_arina_X/ft_ldi.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_ldi.c.i
+.PHONY : src_cor_arina_X/ft_ldi.c.i
+
+src_cor_arina_X/ft_ldi.s: src_cor_arina_X/ft_ldi.c.s
+
+.PHONY : src_cor_arina_X/ft_ldi.s
+
+# target to generate assembly for a file
+src_cor_arina_X/ft_ldi.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_ldi.c.s
+.PHONY : src_cor_arina_X/ft_ldi.c.s
+
+src_cor_arina_X/ft_liba.o: src_cor_arina_X/ft_liba.c.o
+
+.PHONY : src_cor_arina_X/ft_liba.o
+
+# target to build an object file
+src_cor_arina_X/ft_liba.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_liba.c.o
+.PHONY : src_cor_arina_X/ft_liba.c.o
+
+src_cor_arina_X/ft_liba.i: src_cor_arina_X/ft_liba.c.i
+
+.PHONY : src_cor_arina_X/ft_liba.i
+
+# target to preprocess a source file
+src_cor_arina_X/ft_liba.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_liba.c.i
+.PHONY : src_cor_arina_X/ft_liba.c.i
+
+src_cor_arina_X/ft_liba.s: src_cor_arina_X/ft_liba.c.s
+
+.PHONY : src_cor_arina_X/ft_liba.s
+
+# target to generate assembly for a file
+src_cor_arina_X/ft_liba.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_liba.c.s
+.PHONY : src_cor_arina_X/ft_liba.c.s
+
+src_cor_arina_X/ft_live.o: src_cor_arina_X/ft_live.c.o
+
+.PHONY : src_cor_arina_X/ft_live.o
+
+# target to build an object file
+src_cor_arina_X/ft_live.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_live.c.o
+.PHONY : src_cor_arina_X/ft_live.c.o
+
+src_cor_arina_X/ft_live.i: src_cor_arina_X/ft_live.c.i
+
+.PHONY : src_cor_arina_X/ft_live.i
+
+# target to preprocess a source file
+src_cor_arina_X/ft_live.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_live.c.i
+.PHONY : src_cor_arina_X/ft_live.c.i
+
+src_cor_arina_X/ft_live.s: src_cor_arina_X/ft_live.c.s
+
+.PHONY : src_cor_arina_X/ft_live.s
+
+# target to generate assembly for a file
+src_cor_arina_X/ft_live.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_live.c.s
+.PHONY : src_cor_arina_X/ft_live.c.s
+
+src_cor_arina_X/ft_or_xor.o: src_cor_arina_X/ft_or_xor.c.o
+
+.PHONY : src_cor_arina_X/ft_or_xor.o
+
+# target to build an object file
+src_cor_arina_X/ft_or_xor.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_or_xor.c.o
+.PHONY : src_cor_arina_X/ft_or_xor.c.o
+
+src_cor_arina_X/ft_or_xor.i: src_cor_arina_X/ft_or_xor.c.i
+
+.PHONY : src_cor_arina_X/ft_or_xor.i
+
+# target to preprocess a source file
+src_cor_arina_X/ft_or_xor.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_or_xor.c.i
+.PHONY : src_cor_arina_X/ft_or_xor.c.i
+
+src_cor_arina_X/ft_or_xor.s: src_cor_arina_X/ft_or_xor.c.s
+
+.PHONY : src_cor_arina_X/ft_or_xor.s
+
+# target to generate assembly for a file
+src_cor_arina_X/ft_or_xor.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_or_xor.c.s
+.PHONY : src_cor_arina_X/ft_or_xor.c.s
+
+src_cor_arina_X/ft_st.o: src_cor_arina_X/ft_st.c.o
+
+.PHONY : src_cor_arina_X/ft_st.o
+
+# target to build an object file
+src_cor_arina_X/ft_st.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_st.c.o
+.PHONY : src_cor_arina_X/ft_st.c.o
+
+src_cor_arina_X/ft_st.i: src_cor_arina_X/ft_st.c.i
+
+.PHONY : src_cor_arina_X/ft_st.i
+
+# target to preprocess a source file
+src_cor_arina_X/ft_st.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_st.c.i
+.PHONY : src_cor_arina_X/ft_st.c.i
+
+src_cor_arina_X/ft_st.s: src_cor_arina_X/ft_st.c.s
+
+.PHONY : src_cor_arina_X/ft_st.s
+
+# target to generate assembly for a file
+src_cor_arina_X/ft_st.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_st.c.s
+.PHONY : src_cor_arina_X/ft_st.c.s
+
+src_cor_arina_X/ft_sti.o: src_cor_arina_X/ft_sti.c.o
+
+.PHONY : src_cor_arina_X/ft_sti.o
+
+# target to build an object file
+src_cor_arina_X/ft_sti.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_sti.c.o
+.PHONY : src_cor_arina_X/ft_sti.c.o
+
+src_cor_arina_X/ft_sti.i: src_cor_arina_X/ft_sti.c.i
+
+.PHONY : src_cor_arina_X/ft_sti.i
+
+# target to preprocess a source file
+src_cor_arina_X/ft_sti.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_sti.c.i
+.PHONY : src_cor_arina_X/ft_sti.c.i
+
+src_cor_arina_X/ft_sti.s: src_cor_arina_X/ft_sti.c.s
+
+.PHONY : src_cor_arina_X/ft_sti.s
+
+# target to generate assembly for a file
+src_cor_arina_X/ft_sti.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_sti.c.s
+.PHONY : src_cor_arina_X/ft_sti.c.s
+
+src_cor_arina_X/ft_sub.o: src_cor_arina_X/ft_sub.c.o
+
+.PHONY : src_cor_arina_X/ft_sub.o
+
+# target to build an object file
+src_cor_arina_X/ft_sub.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_sub.c.o
+.PHONY : src_cor_arina_X/ft_sub.c.o
+
+src_cor_arina_X/ft_sub.i: src_cor_arina_X/ft_sub.c.i
+
+.PHONY : src_cor_arina_X/ft_sub.i
+
+# target to preprocess a source file
+src_cor_arina_X/ft_sub.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_sub.c.i
+.PHONY : src_cor_arina_X/ft_sub.c.i
+
+src_cor_arina_X/ft_sub.s: src_cor_arina_X/ft_sub.c.s
+
+.PHONY : src_cor_arina_X/ft_sub.s
+
+# target to generate assembly for a file
+src_cor_arina_X/ft_sub.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_sub.c.s
+.PHONY : src_cor_arina_X/ft_sub.c.s
+
+src_cor_arina_X/ft_zjmp.o: src_cor_arina_X/ft_zjmp.c.o
+
+.PHONY : src_cor_arina_X/ft_zjmp.o
+
+# target to build an object file
+src_cor_arina_X/ft_zjmp.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_zjmp.c.o
+.PHONY : src_cor_arina_X/ft_zjmp.c.o
+
+src_cor_arina_X/ft_zjmp.i: src_cor_arina_X/ft_zjmp.c.i
+
+.PHONY : src_cor_arina_X/ft_zjmp.i
+
+# target to preprocess a source file
+src_cor_arina_X/ft_zjmp.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_zjmp.c.i
+.PHONY : src_cor_arina_X/ft_zjmp.c.i
+
+src_cor_arina_X/ft_zjmp.s: src_cor_arina_X/ft_zjmp.c.s
+
+.PHONY : src_cor_arina_X/ft_zjmp.s
+
+# target to generate assembly for a file
+src_cor_arina_X/ft_zjmp.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/ft_zjmp.c.s
+.PHONY : src_cor_arina_X/ft_zjmp.c.s
+
+src_cor_arina_X/go_cor.o: src_cor_arina_X/go_cor.c.o
+
+.PHONY : src_cor_arina_X/go_cor.o
+
+# target to build an object file
+src_cor_arina_X/go_cor.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/go_cor.c.o
+.PHONY : src_cor_arina_X/go_cor.c.o
+
+src_cor_arina_X/go_cor.i: src_cor_arina_X/go_cor.c.i
+
+.PHONY : src_cor_arina_X/go_cor.i
+
+# target to preprocess a source file
+src_cor_arina_X/go_cor.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/go_cor.c.i
+.PHONY : src_cor_arina_X/go_cor.c.i
+
+src_cor_arina_X/go_cor.s: src_cor_arina_X/go_cor.c.s
+
+.PHONY : src_cor_arina_X/go_cor.s
+
+# target to generate assembly for a file
+src_cor_arina_X/go_cor.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/go_cor.c.s
+.PHONY : src_cor_arina_X/go_cor.c.s
+
+src_cor_arina_X/main.o: src_cor_arina_X/main.c.o
+
+.PHONY : src_cor_arina_X/main.o
+
+# target to build an object file
+src_cor_arina_X/main.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/main.c.o
+.PHONY : src_cor_arina_X/main.c.o
+
+src_cor_arina_X/main.i: src_cor_arina_X/main.c.i
+
+.PHONY : src_cor_arina_X/main.i
+
+# target to preprocess a source file
+src_cor_arina_X/main.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/main.c.i
+.PHONY : src_cor_arina_X/main.c.i
+
+src_cor_arina_X/main.s: src_cor_arina_X/main.c.s
+
+.PHONY : src_cor_arina_X/main.s
+
+# target to generate assembly for a file
+src_cor_arina_X/main.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/main.c.s
+.PHONY : src_cor_arina_X/main.c.s
+
+src_cor_arina_X/parse_av.o: src_cor_arina_X/parse_av.c.o
+
+.PHONY : src_cor_arina_X/parse_av.o
+
+# target to build an object file
+src_cor_arina_X/parse_av.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/parse_av.c.o
+.PHONY : src_cor_arina_X/parse_av.c.o
+
+src_cor_arina_X/parse_av.i: src_cor_arina_X/parse_av.c.i
+
+.PHONY : src_cor_arina_X/parse_av.i
+
+# target to preprocess a source file
+src_cor_arina_X/parse_av.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/parse_av.c.i
+.PHONY : src_cor_arina_X/parse_av.c.i
+
+src_cor_arina_X/parse_av.s: src_cor_arina_X/parse_av.c.s
+
+.PHONY : src_cor_arina_X/parse_av.s
+
+# target to generate assembly for a file
+src_cor_arina_X/parse_av.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/parse_av.c.s
+.PHONY : src_cor_arina_X/parse_av.c.s
+
+src_cor_arina_X/print_code.o: src_cor_arina_X/print_code.c.o
+
+.PHONY : src_cor_arina_X/print_code.o
+
+# target to build an object file
+src_cor_arina_X/print_code.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/print_code.c.o
+.PHONY : src_cor_arina_X/print_code.c.o
+
+src_cor_arina_X/print_code.i: src_cor_arina_X/print_code.c.i
+
+.PHONY : src_cor_arina_X/print_code.i
+
+# target to preprocess a source file
+src_cor_arina_X/print_code.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/print_code.c.i
+.PHONY : src_cor_arina_X/print_code.c.i
+
+src_cor_arina_X/print_code.s: src_cor_arina_X/print_code.c.s
+
+.PHONY : src_cor_arina_X/print_code.s
+
+# target to generate assembly for a file
+src_cor_arina_X/print_code.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/print_code.c.s
+.PHONY : src_cor_arina_X/print_code.c.s
+
+src_cor_arina_X/read_byte.o: src_cor_arina_X/read_byte.c.o
+
+.PHONY : src_cor_arina_X/read_byte.o
+
+# target to build an object file
+src_cor_arina_X/read_byte.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/read_byte.c.o
+.PHONY : src_cor_arina_X/read_byte.c.o
+
+src_cor_arina_X/read_byte.i: src_cor_arina_X/read_byte.c.i
+
+.PHONY : src_cor_arina_X/read_byte.i
+
+# target to preprocess a source file
+src_cor_arina_X/read_byte.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/read_byte.c.i
+.PHONY : src_cor_arina_X/read_byte.c.i
+
+src_cor_arina_X/read_byte.s: src_cor_arina_X/read_byte.c.s
+
+.PHONY : src_cor_arina_X/read_byte.s
+
+# target to generate assembly for a file
+src_cor_arina_X/read_byte.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/read_byte.c.s
+.PHONY : src_cor_arina_X/read_byte.c.s
+
+src_cor_arina_X/visu_cicle.o: src_cor_arina_X/visu_cicle.c.o
+
+.PHONY : src_cor_arina_X/visu_cicle.o
+
+# target to build an object file
+src_cor_arina_X/visu_cicle.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/visu_cicle.c.o
+.PHONY : src_cor_arina_X/visu_cicle.c.o
+
+src_cor_arina_X/visu_cicle.i: src_cor_arina_X/visu_cicle.c.i
+
+.PHONY : src_cor_arina_X/visu_cicle.i
+
+# target to preprocess a source file
+src_cor_arina_X/visu_cicle.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/visu_cicle.c.i
+.PHONY : src_cor_arina_X/visu_cicle.c.i
+
+src_cor_arina_X/visu_cicle.s: src_cor_arina_X/visu_cicle.c.s
+
+.PHONY : src_cor_arina_X/visu_cicle.s
+
+# target to generate assembly for a file
+src_cor_arina_X/visu_cicle.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/visu_cicle.c.s
+.PHONY : src_cor_arina_X/visu_cicle.c.s
+
+src_cor_arina_X/visu_init.o: src_cor_arina_X/visu_init.c.o
+
+.PHONY : src_cor_arina_X/visu_init.o
+
+# target to build an object file
+src_cor_arina_X/visu_init.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/visu_init.c.o
+.PHONY : src_cor_arina_X/visu_init.c.o
+
+src_cor_arina_X/visu_init.i: src_cor_arina_X/visu_init.c.i
+
+.PHONY : src_cor_arina_X/visu_init.i
+
+# target to preprocess a source file
+src_cor_arina_X/visu_init.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/visu_init.c.i
+.PHONY : src_cor_arina_X/visu_init.c.i
+
+src_cor_arina_X/visu_init.s: src_cor_arina_X/visu_init.c.s
+
+.PHONY : src_cor_arina_X/visu_init.s
+
+# target to generate assembly for a file
+src_cor_arina_X/visu_init.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/visu_init.c.s
+.PHONY : src_cor_arina_X/visu_init.c.s
+
+src_cor_arina_X/write_map.o: src_cor_arina_X/write_map.c.o
+
+.PHONY : src_cor_arina_X/write_map.o
+
+# target to build an object file
+src_cor_arina_X/write_map.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/write_map.c.o
+.PHONY : src_cor_arina_X/write_map.c.o
+
+src_cor_arina_X/write_map.i: src_cor_arina_X/write_map.c.i
+
+.PHONY : src_cor_arina_X/write_map.i
+
+# target to preprocess a source file
+src_cor_arina_X/write_map.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/write_map.c.i
+.PHONY : src_cor_arina_X/write_map.c.i
+
+src_cor_arina_X/write_map.s: src_cor_arina_X/write_map.c.s
+
+.PHONY : src_cor_arina_X/write_map.s
+
+# target to generate assembly for a file
+src_cor_arina_X/write_map.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_arina_X/write_map.c.s
+.PHONY : src_cor_arina_X/write_map.c.s
+
+src_cor_int/arena.o: src_cor_int/arena.c.o
+
+.PHONY : src_cor_int/arena.o
+
+# target to build an object file
+src_cor_int/arena.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/arena.c.o
+.PHONY : src_cor_int/arena.c.o
+
+src_cor_int/arena.i: src_cor_int/arena.c.i
+
+.PHONY : src_cor_int/arena.i
+
+# target to preprocess a source file
+src_cor_int/arena.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/arena.c.i
+.PHONY : src_cor_int/arena.c.i
+
+src_cor_int/arena.s: src_cor_int/arena.c.s
+
+.PHONY : src_cor_int/arena.s
+
+# target to generate assembly for a file
+src_cor_int/arena.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/arena.c.s
+.PHONY : src_cor_int/arena.c.s
+
+src_cor_int/carr_list.o: src_cor_int/carr_list.c.o
+
+.PHONY : src_cor_int/carr_list.o
+
+# target to build an object file
+src_cor_int/carr_list.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/carr_list.c.o
+.PHONY : src_cor_int/carr_list.c.o
+
+src_cor_int/carr_list.i: src_cor_int/carr_list.c.i
+
+.PHONY : src_cor_int/carr_list.i
+
+# target to preprocess a source file
+src_cor_int/carr_list.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/carr_list.c.i
+.PHONY : src_cor_int/carr_list.c.i
+
+src_cor_int/carr_list.s: src_cor_int/carr_list.c.s
+
+.PHONY : src_cor_int/carr_list.s
+
+# target to generate assembly for a file
+src_cor_int/carr_list.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/carr_list.c.s
+.PHONY : src_cor_int/carr_list.c.s
+
+src_cor_int/champ.o: src_cor_int/champ.c.o
+
+.PHONY : src_cor_int/champ.o
+
+# target to build an object file
+src_cor_int/champ.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/champ.c.o
+.PHONY : src_cor_int/champ.c.o
+
+src_cor_int/champ.i: src_cor_int/champ.c.i
+
+.PHONY : src_cor_int/champ.i
+
+# target to preprocess a source file
+src_cor_int/champ.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/champ.c.i
+.PHONY : src_cor_int/champ.c.i
+
+src_cor_int/champ.s: src_cor_int/champ.c.s
+
+.PHONY : src_cor_int/champ.s
+
+# target to generate assembly for a file
+src_cor_int/champ.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/champ.c.s
+.PHONY : src_cor_int/champ.c.s
+
+src_cor_int/do_op.o: src_cor_int/do_op.c.o
+
+.PHONY : src_cor_int/do_op.o
+
+# target to build an object file
+src_cor_int/do_op.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/do_op.c.o
+.PHONY : src_cor_int/do_op.c.o
+
+src_cor_int/do_op.i: src_cor_int/do_op.c.i
+
+.PHONY : src_cor_int/do_op.i
+
+# target to preprocess a source file
+src_cor_int/do_op.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/do_op.c.i
+.PHONY : src_cor_int/do_op.c.i
+
+src_cor_int/do_op.s: src_cor_int/do_op.c.s
+
+.PHONY : src_cor_int/do_op.s
+
+# target to generate assembly for a file
+src_cor_int/do_op.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/do_op.c.s
+.PHONY : src_cor_int/do_op.c.s
+
+src_cor_int/ft_add.o: src_cor_int/ft_add.c.o
+
+.PHONY : src_cor_int/ft_add.o
+
+# target to build an object file
+src_cor_int/ft_add.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_add.c.o
+.PHONY : src_cor_int/ft_add.c.o
+
+src_cor_int/ft_add.i: src_cor_int/ft_add.c.i
+
+.PHONY : src_cor_int/ft_add.i
+
+# target to preprocess a source file
+src_cor_int/ft_add.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_add.c.i
+.PHONY : src_cor_int/ft_add.c.i
+
+src_cor_int/ft_add.s: src_cor_int/ft_add.c.s
+
+.PHONY : src_cor_int/ft_add.s
+
+# target to generate assembly for a file
+src_cor_int/ft_add.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_add.c.s
+.PHONY : src_cor_int/ft_add.c.s
+
+src_cor_int/ft_aff.o: src_cor_int/ft_aff.c.o
+
+.PHONY : src_cor_int/ft_aff.o
+
+# target to build an object file
+src_cor_int/ft_aff.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_aff.c.o
+.PHONY : src_cor_int/ft_aff.c.o
+
+src_cor_int/ft_aff.i: src_cor_int/ft_aff.c.i
+
+.PHONY : src_cor_int/ft_aff.i
+
+# target to preprocess a source file
+src_cor_int/ft_aff.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_aff.c.i
+.PHONY : src_cor_int/ft_aff.c.i
+
+src_cor_int/ft_aff.s: src_cor_int/ft_aff.c.s
+
+.PHONY : src_cor_int/ft_aff.s
+
+# target to generate assembly for a file
+src_cor_int/ft_aff.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_aff.c.s
+.PHONY : src_cor_int/ft_aff.c.s
+
+src_cor_int/ft_and.o: src_cor_int/ft_and.c.o
+
+.PHONY : src_cor_int/ft_and.o
+
+# target to build an object file
+src_cor_int/ft_and.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_and.c.o
+.PHONY : src_cor_int/ft_and.c.o
+
+src_cor_int/ft_and.i: src_cor_int/ft_and.c.i
+
+.PHONY : src_cor_int/ft_and.i
+
+# target to preprocess a source file
+src_cor_int/ft_and.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_and.c.i
+.PHONY : src_cor_int/ft_and.c.i
+
+src_cor_int/ft_and.s: src_cor_int/ft_and.c.s
+
+.PHONY : src_cor_int/ft_and.s
+
+# target to generate assembly for a file
+src_cor_int/ft_and.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_and.c.s
+.PHONY : src_cor_int/ft_and.c.s
+
+src_cor_int/ft_fork_lfork.o: src_cor_int/ft_fork_lfork.c.o
+
+.PHONY : src_cor_int/ft_fork_lfork.o
+
+# target to build an object file
+src_cor_int/ft_fork_lfork.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_fork_lfork.c.o
+.PHONY : src_cor_int/ft_fork_lfork.c.o
+
+src_cor_int/ft_fork_lfork.i: src_cor_int/ft_fork_lfork.c.i
+
+.PHONY : src_cor_int/ft_fork_lfork.i
+
+# target to preprocess a source file
+src_cor_int/ft_fork_lfork.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_fork_lfork.c.i
+.PHONY : src_cor_int/ft_fork_lfork.c.i
+
+src_cor_int/ft_fork_lfork.s: src_cor_int/ft_fork_lfork.c.s
+
+.PHONY : src_cor_int/ft_fork_lfork.s
+
+# target to generate assembly for a file
+src_cor_int/ft_fork_lfork.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_fork_lfork.c.s
+.PHONY : src_cor_int/ft_fork_lfork.c.s
+
+src_cor_int/ft_ld.o: src_cor_int/ft_ld.c.o
+
+.PHONY : src_cor_int/ft_ld.o
+
+# target to build an object file
+src_cor_int/ft_ld.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_ld.c.o
+.PHONY : src_cor_int/ft_ld.c.o
+
+src_cor_int/ft_ld.i: src_cor_int/ft_ld.c.i
+
+.PHONY : src_cor_int/ft_ld.i
+
+# target to preprocess a source file
+src_cor_int/ft_ld.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_ld.c.i
+.PHONY : src_cor_int/ft_ld.c.i
+
+src_cor_int/ft_ld.s: src_cor_int/ft_ld.c.s
+
+.PHONY : src_cor_int/ft_ld.s
+
+# target to generate assembly for a file
+src_cor_int/ft_ld.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_ld.c.s
+.PHONY : src_cor_int/ft_ld.c.s
+
+src_cor_int/ft_ldi.o: src_cor_int/ft_ldi.c.o
+
+.PHONY : src_cor_int/ft_ldi.o
+
+# target to build an object file
+src_cor_int/ft_ldi.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_ldi.c.o
+.PHONY : src_cor_int/ft_ldi.c.o
+
+src_cor_int/ft_ldi.i: src_cor_int/ft_ldi.c.i
+
+.PHONY : src_cor_int/ft_ldi.i
+
+# target to preprocess a source file
+src_cor_int/ft_ldi.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_ldi.c.i
+.PHONY : src_cor_int/ft_ldi.c.i
+
+src_cor_int/ft_ldi.s: src_cor_int/ft_ldi.c.s
+
+.PHONY : src_cor_int/ft_ldi.s
+
+# target to generate assembly for a file
+src_cor_int/ft_ldi.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_ldi.c.s
+.PHONY : src_cor_int/ft_ldi.c.s
+
+src_cor_int/ft_liba.o: src_cor_int/ft_liba.c.o
+
+.PHONY : src_cor_int/ft_liba.o
+
+# target to build an object file
+src_cor_int/ft_liba.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_liba.c.o
+.PHONY : src_cor_int/ft_liba.c.o
+
+src_cor_int/ft_liba.i: src_cor_int/ft_liba.c.i
+
+.PHONY : src_cor_int/ft_liba.i
+
+# target to preprocess a source file
+src_cor_int/ft_liba.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_liba.c.i
+.PHONY : src_cor_int/ft_liba.c.i
+
+src_cor_int/ft_liba.s: src_cor_int/ft_liba.c.s
+
+.PHONY : src_cor_int/ft_liba.s
+
+# target to generate assembly for a file
+src_cor_int/ft_liba.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_liba.c.s
+.PHONY : src_cor_int/ft_liba.c.s
+
+src_cor_int/ft_live.o: src_cor_int/ft_live.c.o
+
+.PHONY : src_cor_int/ft_live.o
+
+# target to build an object file
+src_cor_int/ft_live.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_live.c.o
+.PHONY : src_cor_int/ft_live.c.o
+
+src_cor_int/ft_live.i: src_cor_int/ft_live.c.i
+
+.PHONY : src_cor_int/ft_live.i
+
+# target to preprocess a source file
+src_cor_int/ft_live.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_live.c.i
+.PHONY : src_cor_int/ft_live.c.i
+
+src_cor_int/ft_live.s: src_cor_int/ft_live.c.s
+
+.PHONY : src_cor_int/ft_live.s
+
+# target to generate assembly for a file
+src_cor_int/ft_live.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_live.c.s
+.PHONY : src_cor_int/ft_live.c.s
+
+src_cor_int/ft_or_xor.o: src_cor_int/ft_or_xor.c.o
+
+.PHONY : src_cor_int/ft_or_xor.o
+
+# target to build an object file
+src_cor_int/ft_or_xor.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_or_xor.c.o
+.PHONY : src_cor_int/ft_or_xor.c.o
+
+src_cor_int/ft_or_xor.i: src_cor_int/ft_or_xor.c.i
+
+.PHONY : src_cor_int/ft_or_xor.i
+
+# target to preprocess a source file
+src_cor_int/ft_or_xor.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_or_xor.c.i
+.PHONY : src_cor_int/ft_or_xor.c.i
+
+src_cor_int/ft_or_xor.s: src_cor_int/ft_or_xor.c.s
+
+.PHONY : src_cor_int/ft_or_xor.s
+
+# target to generate assembly for a file
+src_cor_int/ft_or_xor.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_or_xor.c.s
+.PHONY : src_cor_int/ft_or_xor.c.s
+
+src_cor_int/ft_st.o: src_cor_int/ft_st.c.o
+
+.PHONY : src_cor_int/ft_st.o
+
+# target to build an object file
+src_cor_int/ft_st.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_st.c.o
+.PHONY : src_cor_int/ft_st.c.o
+
+src_cor_int/ft_st.i: src_cor_int/ft_st.c.i
+
+.PHONY : src_cor_int/ft_st.i
+
+# target to preprocess a source file
+src_cor_int/ft_st.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_st.c.i
+.PHONY : src_cor_int/ft_st.c.i
+
+src_cor_int/ft_st.s: src_cor_int/ft_st.c.s
+
+.PHONY : src_cor_int/ft_st.s
+
+# target to generate assembly for a file
+src_cor_int/ft_st.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_st.c.s
+.PHONY : src_cor_int/ft_st.c.s
+
+src_cor_int/ft_sti.o: src_cor_int/ft_sti.c.o
+
+.PHONY : src_cor_int/ft_sti.o
+
+# target to build an object file
+src_cor_int/ft_sti.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_sti.c.o
+.PHONY : src_cor_int/ft_sti.c.o
+
+src_cor_int/ft_sti.i: src_cor_int/ft_sti.c.i
+
+.PHONY : src_cor_int/ft_sti.i
+
+# target to preprocess a source file
+src_cor_int/ft_sti.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_sti.c.i
+.PHONY : src_cor_int/ft_sti.c.i
+
+src_cor_int/ft_sti.s: src_cor_int/ft_sti.c.s
+
+.PHONY : src_cor_int/ft_sti.s
+
+# target to generate assembly for a file
+src_cor_int/ft_sti.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_sti.c.s
+.PHONY : src_cor_int/ft_sti.c.s
+
+src_cor_int/ft_sub.o: src_cor_int/ft_sub.c.o
+
+.PHONY : src_cor_int/ft_sub.o
+
+# target to build an object file
+src_cor_int/ft_sub.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_sub.c.o
+.PHONY : src_cor_int/ft_sub.c.o
+
+src_cor_int/ft_sub.i: src_cor_int/ft_sub.c.i
+
+.PHONY : src_cor_int/ft_sub.i
+
+# target to preprocess a source file
+src_cor_int/ft_sub.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_sub.c.i
+.PHONY : src_cor_int/ft_sub.c.i
+
+src_cor_int/ft_sub.s: src_cor_int/ft_sub.c.s
+
+.PHONY : src_cor_int/ft_sub.s
+
+# target to generate assembly for a file
+src_cor_int/ft_sub.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_sub.c.s
+.PHONY : src_cor_int/ft_sub.c.s
+
+src_cor_int/ft_zjmp.o: src_cor_int/ft_zjmp.c.o
+
+.PHONY : src_cor_int/ft_zjmp.o
+
+# target to build an object file
+src_cor_int/ft_zjmp.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_zjmp.c.o
+.PHONY : src_cor_int/ft_zjmp.c.o
+
+src_cor_int/ft_zjmp.i: src_cor_int/ft_zjmp.c.i
+
+.PHONY : src_cor_int/ft_zjmp.i
+
+# target to preprocess a source file
+src_cor_int/ft_zjmp.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_zjmp.c.i
+.PHONY : src_cor_int/ft_zjmp.c.i
+
+src_cor_int/ft_zjmp.s: src_cor_int/ft_zjmp.c.s
+
+.PHONY : src_cor_int/ft_zjmp.s
+
+# target to generate assembly for a file
+src_cor_int/ft_zjmp.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/ft_zjmp.c.s
+.PHONY : src_cor_int/ft_zjmp.c.s
+
+src_cor_int/go_cor.o: src_cor_int/go_cor.c.o
+
+.PHONY : src_cor_int/go_cor.o
+
+# target to build an object file
+src_cor_int/go_cor.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/go_cor.c.o
+.PHONY : src_cor_int/go_cor.c.o
+
+src_cor_int/go_cor.i: src_cor_int/go_cor.c.i
+
+.PHONY : src_cor_int/go_cor.i
+
+# target to preprocess a source file
+src_cor_int/go_cor.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/go_cor.c.i
+.PHONY : src_cor_int/go_cor.c.i
+
+src_cor_int/go_cor.s: src_cor_int/go_cor.c.s
+
+.PHONY : src_cor_int/go_cor.s
+
+# target to generate assembly for a file
+src_cor_int/go_cor.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/go_cor.c.s
+.PHONY : src_cor_int/go_cor.c.s
+
+src_cor_int/main.o: src_cor_int/main.c.o
+
+.PHONY : src_cor_int/main.o
+
+# target to build an object file
+src_cor_int/main.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/main.c.o
+.PHONY : src_cor_int/main.c.o
+
+src_cor_int/main.i: src_cor_int/main.c.i
+
+.PHONY : src_cor_int/main.i
+
+# target to preprocess a source file
+src_cor_int/main.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/main.c.i
+.PHONY : src_cor_int/main.c.i
+
+src_cor_int/main.s: src_cor_int/main.c.s
+
+.PHONY : src_cor_int/main.s
+
+# target to generate assembly for a file
+src_cor_int/main.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/main.c.s
+.PHONY : src_cor_int/main.c.s
+
+src_cor_int/parse_av.o: src_cor_int/parse_av.c.o
+
+.PHONY : src_cor_int/parse_av.o
+
+# target to build an object file
+src_cor_int/parse_av.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/parse_av.c.o
+.PHONY : src_cor_int/parse_av.c.o
+
+src_cor_int/parse_av.i: src_cor_int/parse_av.c.i
+
+.PHONY : src_cor_int/parse_av.i
+
+# target to preprocess a source file
+src_cor_int/parse_av.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/parse_av.c.i
+.PHONY : src_cor_int/parse_av.c.i
+
+src_cor_int/parse_av.s: src_cor_int/parse_av.c.s
+
+.PHONY : src_cor_int/parse_av.s
+
+# target to generate assembly for a file
+src_cor_int/parse_av.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/parse_av.c.s
+.PHONY : src_cor_int/parse_av.c.s
+
+src_cor_int/print_code.o: src_cor_int/print_code.c.o
+
+.PHONY : src_cor_int/print_code.o
+
+# target to build an object file
+src_cor_int/print_code.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/print_code.c.o
+.PHONY : src_cor_int/print_code.c.o
+
+src_cor_int/print_code.i: src_cor_int/print_code.c.i
+
+.PHONY : src_cor_int/print_code.i
+
+# target to preprocess a source file
+src_cor_int/print_code.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/print_code.c.i
+.PHONY : src_cor_int/print_code.c.i
+
+src_cor_int/print_code.s: src_cor_int/print_code.c.s
+
+.PHONY : src_cor_int/print_code.s
+
+# target to generate assembly for a file
+src_cor_int/print_code.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/print_code.c.s
+.PHONY : src_cor_int/print_code.c.s
+
+src_cor_int/read_byte.o: src_cor_int/read_byte.c.o
+
+.PHONY : src_cor_int/read_byte.o
+
+# target to build an object file
+src_cor_int/read_byte.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/read_byte.c.o
+.PHONY : src_cor_int/read_byte.c.o
+
+src_cor_int/read_byte.i: src_cor_int/read_byte.c.i
+
+.PHONY : src_cor_int/read_byte.i
+
+# target to preprocess a source file
+src_cor_int/read_byte.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/read_byte.c.i
+.PHONY : src_cor_int/read_byte.c.i
+
+src_cor_int/read_byte.s: src_cor_int/read_byte.c.s
+
+.PHONY : src_cor_int/read_byte.s
+
+# target to generate assembly for a file
+src_cor_int/read_byte.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/read_byte.c.s
+.PHONY : src_cor_int/read_byte.c.s
+
+src_cor_int/visu_cicle.o: src_cor_int/visu_cicle.c.o
+
+.PHONY : src_cor_int/visu_cicle.o
+
+# target to build an object file
+src_cor_int/visu_cicle.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/visu_cicle.c.o
+.PHONY : src_cor_int/visu_cicle.c.o
+
+src_cor_int/visu_cicle.i: src_cor_int/visu_cicle.c.i
+
+.PHONY : src_cor_int/visu_cicle.i
+
+# target to preprocess a source file
+src_cor_int/visu_cicle.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/visu_cicle.c.i
+.PHONY : src_cor_int/visu_cicle.c.i
+
+src_cor_int/visu_cicle.s: src_cor_int/visu_cicle.c.s
+
+.PHONY : src_cor_int/visu_cicle.s
+
+# target to generate assembly for a file
+src_cor_int/visu_cicle.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/visu_cicle.c.s
+.PHONY : src_cor_int/visu_cicle.c.s
+
+src_cor_int/visu_init.o: src_cor_int/visu_init.c.o
+
+.PHONY : src_cor_int/visu_init.o
+
+# target to build an object file
+src_cor_int/visu_init.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/visu_init.c.o
+.PHONY : src_cor_int/visu_init.c.o
+
+src_cor_int/visu_init.i: src_cor_int/visu_init.c.i
+
+.PHONY : src_cor_int/visu_init.i
+
+# target to preprocess a source file
+src_cor_int/visu_init.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/visu_init.c.i
+.PHONY : src_cor_int/visu_init.c.i
+
+src_cor_int/visu_init.s: src_cor_int/visu_init.c.s
+
+.PHONY : src_cor_int/visu_init.s
+
+# target to generate assembly for a file
+src_cor_int/visu_init.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/visu_init.c.s
+.PHONY : src_cor_int/visu_init.c.s
+
+src_cor_int/write_map.o: src_cor_int/write_map.c.o
+
+.PHONY : src_cor_int/write_map.o
+
+# target to build an object file
+src_cor_int/write_map.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/write_map.c.o
+.PHONY : src_cor_int/write_map.c.o
+
+src_cor_int/write_map.i: src_cor_int/write_map.c.i
+
+.PHONY : src_cor_int/write_map.i
+
+# target to preprocess a source file
+src_cor_int/write_map.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/write_map.c.i
+.PHONY : src_cor_int/write_map.c.i
+
+src_cor_int/write_map.s: src_cor_int/write_map.c.s
+
+.PHONY : src_cor_int/write_map.s
+
+# target to generate assembly for a file
+src_cor_int/write_map.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_int/write_map.c.s
+.PHONY : src_cor_int/write_map.c.s
+
+src_cor_last/arena.o: src_cor_last/arena.c.o
+
+.PHONY : src_cor_last/arena.o
+
+# target to build an object file
+src_cor_last/arena.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/arena.c.o
+.PHONY : src_cor_last/arena.c.o
+
+src_cor_last/arena.i: src_cor_last/arena.c.i
+
+.PHONY : src_cor_last/arena.i
+
+# target to preprocess a source file
+src_cor_last/arena.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/arena.c.i
+.PHONY : src_cor_last/arena.c.i
+
+src_cor_last/arena.s: src_cor_last/arena.c.s
+
+.PHONY : src_cor_last/arena.s
+
+# target to generate assembly for a file
+src_cor_last/arena.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/arena.c.s
+.PHONY : src_cor_last/arena.c.s
+
+src_cor_last/carr_list.o: src_cor_last/carr_list.c.o
+
+.PHONY : src_cor_last/carr_list.o
+
+# target to build an object file
+src_cor_last/carr_list.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/carr_list.c.o
+.PHONY : src_cor_last/carr_list.c.o
+
+src_cor_last/carr_list.i: src_cor_last/carr_list.c.i
+
+.PHONY : src_cor_last/carr_list.i
+
+# target to preprocess a source file
+src_cor_last/carr_list.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/carr_list.c.i
+.PHONY : src_cor_last/carr_list.c.i
+
+src_cor_last/carr_list.s: src_cor_last/carr_list.c.s
+
+.PHONY : src_cor_last/carr_list.s
+
+# target to generate assembly for a file
+src_cor_last/carr_list.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/carr_list.c.s
+.PHONY : src_cor_last/carr_list.c.s
+
+src_cor_last/champ.o: src_cor_last/champ.c.o
+
+.PHONY : src_cor_last/champ.o
+
+# target to build an object file
+src_cor_last/champ.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/champ.c.o
+.PHONY : src_cor_last/champ.c.o
+
+src_cor_last/champ.i: src_cor_last/champ.c.i
+
+.PHONY : src_cor_last/champ.i
+
+# target to preprocess a source file
+src_cor_last/champ.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/champ.c.i
+.PHONY : src_cor_last/champ.c.i
+
+src_cor_last/champ.s: src_cor_last/champ.c.s
+
+.PHONY : src_cor_last/champ.s
+
+# target to generate assembly for a file
+src_cor_last/champ.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/champ.c.s
+.PHONY : src_cor_last/champ.c.s
+
+src_cor_last/do_op.o: src_cor_last/do_op.c.o
+
+.PHONY : src_cor_last/do_op.o
+
+# target to build an object file
+src_cor_last/do_op.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/do_op.c.o
+.PHONY : src_cor_last/do_op.c.o
+
+src_cor_last/do_op.i: src_cor_last/do_op.c.i
+
+.PHONY : src_cor_last/do_op.i
+
+# target to preprocess a source file
+src_cor_last/do_op.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/do_op.c.i
+.PHONY : src_cor_last/do_op.c.i
+
+src_cor_last/do_op.s: src_cor_last/do_op.c.s
+
+.PHONY : src_cor_last/do_op.s
+
+# target to generate assembly for a file
+src_cor_last/do_op.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/do_op.c.s
+.PHONY : src_cor_last/do_op.c.s
+
+src_cor_last/ft_add.o: src_cor_last/ft_add.c.o
+
+.PHONY : src_cor_last/ft_add.o
+
+# target to build an object file
+src_cor_last/ft_add.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_add.c.o
+.PHONY : src_cor_last/ft_add.c.o
+
+src_cor_last/ft_add.i: src_cor_last/ft_add.c.i
+
+.PHONY : src_cor_last/ft_add.i
+
+# target to preprocess a source file
+src_cor_last/ft_add.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_add.c.i
+.PHONY : src_cor_last/ft_add.c.i
+
+src_cor_last/ft_add.s: src_cor_last/ft_add.c.s
+
+.PHONY : src_cor_last/ft_add.s
+
+# target to generate assembly for a file
+src_cor_last/ft_add.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_add.c.s
+.PHONY : src_cor_last/ft_add.c.s
+
+src_cor_last/ft_aff.o: src_cor_last/ft_aff.c.o
+
+.PHONY : src_cor_last/ft_aff.o
+
+# target to build an object file
+src_cor_last/ft_aff.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_aff.c.o
+.PHONY : src_cor_last/ft_aff.c.o
+
+src_cor_last/ft_aff.i: src_cor_last/ft_aff.c.i
+
+.PHONY : src_cor_last/ft_aff.i
+
+# target to preprocess a source file
+src_cor_last/ft_aff.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_aff.c.i
+.PHONY : src_cor_last/ft_aff.c.i
+
+src_cor_last/ft_aff.s: src_cor_last/ft_aff.c.s
+
+.PHONY : src_cor_last/ft_aff.s
+
+# target to generate assembly for a file
+src_cor_last/ft_aff.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_aff.c.s
+.PHONY : src_cor_last/ft_aff.c.s
+
+src_cor_last/ft_and.o: src_cor_last/ft_and.c.o
+
+.PHONY : src_cor_last/ft_and.o
+
+# target to build an object file
+src_cor_last/ft_and.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_and.c.o
+.PHONY : src_cor_last/ft_and.c.o
+
+src_cor_last/ft_and.i: src_cor_last/ft_and.c.i
+
+.PHONY : src_cor_last/ft_and.i
+
+# target to preprocess a source file
+src_cor_last/ft_and.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_and.c.i
+.PHONY : src_cor_last/ft_and.c.i
+
+src_cor_last/ft_and.s: src_cor_last/ft_and.c.s
+
+.PHONY : src_cor_last/ft_and.s
+
+# target to generate assembly for a file
+src_cor_last/ft_and.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_and.c.s
+.PHONY : src_cor_last/ft_and.c.s
+
+src_cor_last/ft_fork_lfork.o: src_cor_last/ft_fork_lfork.c.o
+
+.PHONY : src_cor_last/ft_fork_lfork.o
+
+# target to build an object file
+src_cor_last/ft_fork_lfork.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_fork_lfork.c.o
+.PHONY : src_cor_last/ft_fork_lfork.c.o
+
+src_cor_last/ft_fork_lfork.i: src_cor_last/ft_fork_lfork.c.i
+
+.PHONY : src_cor_last/ft_fork_lfork.i
+
+# target to preprocess a source file
+src_cor_last/ft_fork_lfork.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_fork_lfork.c.i
+.PHONY : src_cor_last/ft_fork_lfork.c.i
+
+src_cor_last/ft_fork_lfork.s: src_cor_last/ft_fork_lfork.c.s
+
+.PHONY : src_cor_last/ft_fork_lfork.s
+
+# target to generate assembly for a file
+src_cor_last/ft_fork_lfork.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_fork_lfork.c.s
+.PHONY : src_cor_last/ft_fork_lfork.c.s
+
+src_cor_last/ft_ld.o: src_cor_last/ft_ld.c.o
+
+.PHONY : src_cor_last/ft_ld.o
+
+# target to build an object file
+src_cor_last/ft_ld.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_ld.c.o
+.PHONY : src_cor_last/ft_ld.c.o
+
+src_cor_last/ft_ld.i: src_cor_last/ft_ld.c.i
+
+.PHONY : src_cor_last/ft_ld.i
+
+# target to preprocess a source file
+src_cor_last/ft_ld.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_ld.c.i
+.PHONY : src_cor_last/ft_ld.c.i
+
+src_cor_last/ft_ld.s: src_cor_last/ft_ld.c.s
+
+.PHONY : src_cor_last/ft_ld.s
+
+# target to generate assembly for a file
+src_cor_last/ft_ld.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_ld.c.s
+.PHONY : src_cor_last/ft_ld.c.s
+
+src_cor_last/ft_ldi.o: src_cor_last/ft_ldi.c.o
+
+.PHONY : src_cor_last/ft_ldi.o
+
+# target to build an object file
+src_cor_last/ft_ldi.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_ldi.c.o
+.PHONY : src_cor_last/ft_ldi.c.o
+
+src_cor_last/ft_ldi.i: src_cor_last/ft_ldi.c.i
+
+.PHONY : src_cor_last/ft_ldi.i
+
+# target to preprocess a source file
+src_cor_last/ft_ldi.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_ldi.c.i
+.PHONY : src_cor_last/ft_ldi.c.i
+
+src_cor_last/ft_ldi.s: src_cor_last/ft_ldi.c.s
+
+.PHONY : src_cor_last/ft_ldi.s
+
+# target to generate assembly for a file
+src_cor_last/ft_ldi.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_ldi.c.s
+.PHONY : src_cor_last/ft_ldi.c.s
+
+src_cor_last/ft_liba.o: src_cor_last/ft_liba.c.o
+
+.PHONY : src_cor_last/ft_liba.o
+
+# target to build an object file
+src_cor_last/ft_liba.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_liba.c.o
+.PHONY : src_cor_last/ft_liba.c.o
+
+src_cor_last/ft_liba.i: src_cor_last/ft_liba.c.i
+
+.PHONY : src_cor_last/ft_liba.i
+
+# target to preprocess a source file
+src_cor_last/ft_liba.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_liba.c.i
+.PHONY : src_cor_last/ft_liba.c.i
+
+src_cor_last/ft_liba.s: src_cor_last/ft_liba.c.s
+
+.PHONY : src_cor_last/ft_liba.s
+
+# target to generate assembly for a file
+src_cor_last/ft_liba.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_liba.c.s
+.PHONY : src_cor_last/ft_liba.c.s
+
+src_cor_last/ft_live.o: src_cor_last/ft_live.c.o
+
+.PHONY : src_cor_last/ft_live.o
+
+# target to build an object file
+src_cor_last/ft_live.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_live.c.o
+.PHONY : src_cor_last/ft_live.c.o
+
+src_cor_last/ft_live.i: src_cor_last/ft_live.c.i
+
+.PHONY : src_cor_last/ft_live.i
+
+# target to preprocess a source file
+src_cor_last/ft_live.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_live.c.i
+.PHONY : src_cor_last/ft_live.c.i
+
+src_cor_last/ft_live.s: src_cor_last/ft_live.c.s
+
+.PHONY : src_cor_last/ft_live.s
+
+# target to generate assembly for a file
+src_cor_last/ft_live.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_live.c.s
+.PHONY : src_cor_last/ft_live.c.s
+
+src_cor_last/ft_or_xor.o: src_cor_last/ft_or_xor.c.o
+
+.PHONY : src_cor_last/ft_or_xor.o
+
+# target to build an object file
+src_cor_last/ft_or_xor.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_or_xor.c.o
+.PHONY : src_cor_last/ft_or_xor.c.o
+
+src_cor_last/ft_or_xor.i: src_cor_last/ft_or_xor.c.i
+
+.PHONY : src_cor_last/ft_or_xor.i
+
+# target to preprocess a source file
+src_cor_last/ft_or_xor.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_or_xor.c.i
+.PHONY : src_cor_last/ft_or_xor.c.i
+
+src_cor_last/ft_or_xor.s: src_cor_last/ft_or_xor.c.s
+
+.PHONY : src_cor_last/ft_or_xor.s
+
+# target to generate assembly for a file
+src_cor_last/ft_or_xor.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_or_xor.c.s
+.PHONY : src_cor_last/ft_or_xor.c.s
+
+src_cor_last/ft_st.o: src_cor_last/ft_st.c.o
+
+.PHONY : src_cor_last/ft_st.o
+
+# target to build an object file
+src_cor_last/ft_st.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_st.c.o
+.PHONY : src_cor_last/ft_st.c.o
+
+src_cor_last/ft_st.i: src_cor_last/ft_st.c.i
+
+.PHONY : src_cor_last/ft_st.i
+
+# target to preprocess a source file
+src_cor_last/ft_st.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_st.c.i
+.PHONY : src_cor_last/ft_st.c.i
+
+src_cor_last/ft_st.s: src_cor_last/ft_st.c.s
+
+.PHONY : src_cor_last/ft_st.s
+
+# target to generate assembly for a file
+src_cor_last/ft_st.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_st.c.s
+.PHONY : src_cor_last/ft_st.c.s
+
+src_cor_last/ft_sti.o: src_cor_last/ft_sti.c.o
+
+.PHONY : src_cor_last/ft_sti.o
+
+# target to build an object file
+src_cor_last/ft_sti.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_sti.c.o
+.PHONY : src_cor_last/ft_sti.c.o
+
+src_cor_last/ft_sti.i: src_cor_last/ft_sti.c.i
+
+.PHONY : src_cor_last/ft_sti.i
+
+# target to preprocess a source file
+src_cor_last/ft_sti.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_sti.c.i
+.PHONY : src_cor_last/ft_sti.c.i
+
+src_cor_last/ft_sti.s: src_cor_last/ft_sti.c.s
+
+.PHONY : src_cor_last/ft_sti.s
+
+# target to generate assembly for a file
+src_cor_last/ft_sti.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_sti.c.s
+.PHONY : src_cor_last/ft_sti.c.s
+
+src_cor_last/ft_sub.o: src_cor_last/ft_sub.c.o
+
+.PHONY : src_cor_last/ft_sub.o
+
+# target to build an object file
+src_cor_last/ft_sub.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_sub.c.o
+.PHONY : src_cor_last/ft_sub.c.o
+
+src_cor_last/ft_sub.i: src_cor_last/ft_sub.c.i
+
+.PHONY : src_cor_last/ft_sub.i
+
+# target to preprocess a source file
+src_cor_last/ft_sub.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_sub.c.i
+.PHONY : src_cor_last/ft_sub.c.i
+
+src_cor_last/ft_sub.s: src_cor_last/ft_sub.c.s
+
+.PHONY : src_cor_last/ft_sub.s
+
+# target to generate assembly for a file
+src_cor_last/ft_sub.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_sub.c.s
+.PHONY : src_cor_last/ft_sub.c.s
+
+src_cor_last/ft_zjmp.o: src_cor_last/ft_zjmp.c.o
+
+.PHONY : src_cor_last/ft_zjmp.o
+
+# target to build an object file
+src_cor_last/ft_zjmp.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_zjmp.c.o
+.PHONY : src_cor_last/ft_zjmp.c.o
+
+src_cor_last/ft_zjmp.i: src_cor_last/ft_zjmp.c.i
+
+.PHONY : src_cor_last/ft_zjmp.i
+
+# target to preprocess a source file
+src_cor_last/ft_zjmp.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_zjmp.c.i
+.PHONY : src_cor_last/ft_zjmp.c.i
+
+src_cor_last/ft_zjmp.s: src_cor_last/ft_zjmp.c.s
+
+.PHONY : src_cor_last/ft_zjmp.s
+
+# target to generate assembly for a file
+src_cor_last/ft_zjmp.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/ft_zjmp.c.s
+.PHONY : src_cor_last/ft_zjmp.c.s
+
+src_cor_last/go_cor.o: src_cor_last/go_cor.c.o
+
+.PHONY : src_cor_last/go_cor.o
+
+# target to build an object file
+src_cor_last/go_cor.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/go_cor.c.o
+.PHONY : src_cor_last/go_cor.c.o
+
+src_cor_last/go_cor.i: src_cor_last/go_cor.c.i
+
+.PHONY : src_cor_last/go_cor.i
+
+# target to preprocess a source file
+src_cor_last/go_cor.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/go_cor.c.i
+.PHONY : src_cor_last/go_cor.c.i
+
+src_cor_last/go_cor.s: src_cor_last/go_cor.c.s
+
+.PHONY : src_cor_last/go_cor.s
+
+# target to generate assembly for a file
+src_cor_last/go_cor.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/go_cor.c.s
+.PHONY : src_cor_last/go_cor.c.s
+
+src_cor_last/main.o: src_cor_last/main.c.o
+
+.PHONY : src_cor_last/main.o
+
+# target to build an object file
+src_cor_last/main.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/main.c.o
+.PHONY : src_cor_last/main.c.o
+
+src_cor_last/main.i: src_cor_last/main.c.i
+
+.PHONY : src_cor_last/main.i
+
+# target to preprocess a source file
+src_cor_last/main.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/main.c.i
+.PHONY : src_cor_last/main.c.i
+
+src_cor_last/main.s: src_cor_last/main.c.s
+
+.PHONY : src_cor_last/main.s
+
+# target to generate assembly for a file
+src_cor_last/main.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/main.c.s
+.PHONY : src_cor_last/main.c.s
+
+src_cor_last/parse_av.o: src_cor_last/parse_av.c.o
+
+.PHONY : src_cor_last/parse_av.o
+
+# target to build an object file
+src_cor_last/parse_av.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/parse_av.c.o
+.PHONY : src_cor_last/parse_av.c.o
+
+src_cor_last/parse_av.i: src_cor_last/parse_av.c.i
+
+.PHONY : src_cor_last/parse_av.i
+
+# target to preprocess a source file
+src_cor_last/parse_av.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/parse_av.c.i
+.PHONY : src_cor_last/parse_av.c.i
+
+src_cor_last/parse_av.s: src_cor_last/parse_av.c.s
+
+.PHONY : src_cor_last/parse_av.s
+
+# target to generate assembly for a file
+src_cor_last/parse_av.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/parse_av.c.s
+.PHONY : src_cor_last/parse_av.c.s
+
+src_cor_last/print_code.o: src_cor_last/print_code.c.o
+
+.PHONY : src_cor_last/print_code.o
+
+# target to build an object file
+src_cor_last/print_code.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/print_code.c.o
+.PHONY : src_cor_last/print_code.c.o
+
+src_cor_last/print_code.i: src_cor_last/print_code.c.i
+
+.PHONY : src_cor_last/print_code.i
+
+# target to preprocess a source file
+src_cor_last/print_code.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/print_code.c.i
+.PHONY : src_cor_last/print_code.c.i
+
+src_cor_last/print_code.s: src_cor_last/print_code.c.s
+
+.PHONY : src_cor_last/print_code.s
+
+# target to generate assembly for a file
+src_cor_last/print_code.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/print_code.c.s
+.PHONY : src_cor_last/print_code.c.s
+
+src_cor_last/read_byte.o: src_cor_last/read_byte.c.o
+
+.PHONY : src_cor_last/read_byte.o
+
+# target to build an object file
+src_cor_last/read_byte.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/read_byte.c.o
+.PHONY : src_cor_last/read_byte.c.o
+
+src_cor_last/read_byte.i: src_cor_last/read_byte.c.i
+
+.PHONY : src_cor_last/read_byte.i
+
+# target to preprocess a source file
+src_cor_last/read_byte.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/read_byte.c.i
+.PHONY : src_cor_last/read_byte.c.i
+
+src_cor_last/read_byte.s: src_cor_last/read_byte.c.s
+
+.PHONY : src_cor_last/read_byte.s
+
+# target to generate assembly for a file
+src_cor_last/read_byte.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/read_byte.c.s
+.PHONY : src_cor_last/read_byte.c.s
+
+src_cor_last/visu_cicle.o: src_cor_last/visu_cicle.c.o
+
+.PHONY : src_cor_last/visu_cicle.o
+
+# target to build an object file
+src_cor_last/visu_cicle.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/visu_cicle.c.o
+.PHONY : src_cor_last/visu_cicle.c.o
+
+src_cor_last/visu_cicle.i: src_cor_last/visu_cicle.c.i
+
+.PHONY : src_cor_last/visu_cicle.i
+
+# target to preprocess a source file
+src_cor_last/visu_cicle.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/visu_cicle.c.i
+.PHONY : src_cor_last/visu_cicle.c.i
+
+src_cor_last/visu_cicle.s: src_cor_last/visu_cicle.c.s
+
+.PHONY : src_cor_last/visu_cicle.s
+
+# target to generate assembly for a file
+src_cor_last/visu_cicle.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/visu_cicle.c.s
+.PHONY : src_cor_last/visu_cicle.c.s
+
+src_cor_last/visu_init.o: src_cor_last/visu_init.c.o
+
+.PHONY : src_cor_last/visu_init.o
+
+# target to build an object file
+src_cor_last/visu_init.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/visu_init.c.o
+.PHONY : src_cor_last/visu_init.c.o
+
+src_cor_last/visu_init.i: src_cor_last/visu_init.c.i
+
+.PHONY : src_cor_last/visu_init.i
+
+# target to preprocess a source file
+src_cor_last/visu_init.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/visu_init.c.i
+.PHONY : src_cor_last/visu_init.c.i
+
+src_cor_last/visu_init.s: src_cor_last/visu_init.c.s
+
+.PHONY : src_cor_last/visu_init.s
+
+# target to generate assembly for a file
+src_cor_last/visu_init.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/visu_init.c.s
+.PHONY : src_cor_last/visu_init.c.s
+
+src_cor_last/write_map.o: src_cor_last/write_map.c.o
+
+.PHONY : src_cor_last/write_map.o
+
+# target to build an object file
+src_cor_last/write_map.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/write_map.c.o
+.PHONY : src_cor_last/write_map.c.o
+
+src_cor_last/write_map.i: src_cor_last/write_map.c.i
+
+.PHONY : src_cor_last/write_map.i
+
+# target to preprocess a source file
+src_cor_last/write_map.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/write_map.c.i
+.PHONY : src_cor_last/write_map.c.i
+
+src_cor_last/write_map.s: src_cor_last/write_map.c.s
+
+.PHONY : src_cor_last/write_map.s
+
+# target to generate assembly for a file
+src_cor_last/write_map.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_last/write_map.c.s
+.PHONY : src_cor_last/write_map.c.s
+
+src_cor_norm/arena.o: src_cor_norm/arena.c.o
+
+.PHONY : src_cor_norm/arena.o
+
+# target to build an object file
+src_cor_norm/arena.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/arena.c.o
+.PHONY : src_cor_norm/arena.c.o
+
+src_cor_norm/arena.i: src_cor_norm/arena.c.i
+
+.PHONY : src_cor_norm/arena.i
+
+# target to preprocess a source file
+src_cor_norm/arena.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/arena.c.i
+.PHONY : src_cor_norm/arena.c.i
+
+src_cor_norm/arena.s: src_cor_norm/arena.c.s
+
+.PHONY : src_cor_norm/arena.s
+
+# target to generate assembly for a file
+src_cor_norm/arena.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/arena.c.s
+.PHONY : src_cor_norm/arena.c.s
+
+src_cor_norm/carr_list.o: src_cor_norm/carr_list.c.o
+
+.PHONY : src_cor_norm/carr_list.o
+
+# target to build an object file
+src_cor_norm/carr_list.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/carr_list.c.o
+.PHONY : src_cor_norm/carr_list.c.o
+
+src_cor_norm/carr_list.i: src_cor_norm/carr_list.c.i
+
+.PHONY : src_cor_norm/carr_list.i
+
+# target to preprocess a source file
+src_cor_norm/carr_list.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/carr_list.c.i
+.PHONY : src_cor_norm/carr_list.c.i
+
+src_cor_norm/carr_list.s: src_cor_norm/carr_list.c.s
+
+.PHONY : src_cor_norm/carr_list.s
+
+# target to generate assembly for a file
+src_cor_norm/carr_list.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/carr_list.c.s
+.PHONY : src_cor_norm/carr_list.c.s
+
+src_cor_norm/champ.o: src_cor_norm/champ.c.o
+
+.PHONY : src_cor_norm/champ.o
+
+# target to build an object file
+src_cor_norm/champ.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/champ.c.o
+.PHONY : src_cor_norm/champ.c.o
+
+src_cor_norm/champ.i: src_cor_norm/champ.c.i
+
+.PHONY : src_cor_norm/champ.i
+
+# target to preprocess a source file
+src_cor_norm/champ.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/champ.c.i
+.PHONY : src_cor_norm/champ.c.i
+
+src_cor_norm/champ.s: src_cor_norm/champ.c.s
+
+.PHONY : src_cor_norm/champ.s
+
+# target to generate assembly for a file
+src_cor_norm/champ.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/champ.c.s
+.PHONY : src_cor_norm/champ.c.s
+
+src_cor_norm/ft_add.o: src_cor_norm/ft_add.c.o
+
+.PHONY : src_cor_norm/ft_add.o
+
+# target to build an object file
+src_cor_norm/ft_add.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_add.c.o
+.PHONY : src_cor_norm/ft_add.c.o
+
+src_cor_norm/ft_add.i: src_cor_norm/ft_add.c.i
+
+.PHONY : src_cor_norm/ft_add.i
+
+# target to preprocess a source file
+src_cor_norm/ft_add.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_add.c.i
+.PHONY : src_cor_norm/ft_add.c.i
+
+src_cor_norm/ft_add.s: src_cor_norm/ft_add.c.s
+
+.PHONY : src_cor_norm/ft_add.s
+
+# target to generate assembly for a file
+src_cor_norm/ft_add.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_add.c.s
+.PHONY : src_cor_norm/ft_add.c.s
+
+src_cor_norm/ft_aff.o: src_cor_norm/ft_aff.c.o
+
+.PHONY : src_cor_norm/ft_aff.o
+
+# target to build an object file
+src_cor_norm/ft_aff.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_aff.c.o
+.PHONY : src_cor_norm/ft_aff.c.o
+
+src_cor_norm/ft_aff.i: src_cor_norm/ft_aff.c.i
+
+.PHONY : src_cor_norm/ft_aff.i
+
+# target to preprocess a source file
+src_cor_norm/ft_aff.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_aff.c.i
+.PHONY : src_cor_norm/ft_aff.c.i
+
+src_cor_norm/ft_aff.s: src_cor_norm/ft_aff.c.s
+
+.PHONY : src_cor_norm/ft_aff.s
+
+# target to generate assembly for a file
+src_cor_norm/ft_aff.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_aff.c.s
+.PHONY : src_cor_norm/ft_aff.c.s
+
+src_cor_norm/ft_and.o: src_cor_norm/ft_and.c.o
+
+.PHONY : src_cor_norm/ft_and.o
+
+# target to build an object file
+src_cor_norm/ft_and.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_and.c.o
+.PHONY : src_cor_norm/ft_and.c.o
+
+src_cor_norm/ft_and.i: src_cor_norm/ft_and.c.i
+
+.PHONY : src_cor_norm/ft_and.i
+
+# target to preprocess a source file
+src_cor_norm/ft_and.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_and.c.i
+.PHONY : src_cor_norm/ft_and.c.i
+
+src_cor_norm/ft_and.s: src_cor_norm/ft_and.c.s
+
+.PHONY : src_cor_norm/ft_and.s
+
+# target to generate assembly for a file
+src_cor_norm/ft_and.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_and.c.s
+.PHONY : src_cor_norm/ft_and.c.s
+
+src_cor_norm/ft_fork_lfork.o: src_cor_norm/ft_fork_lfork.c.o
+
+.PHONY : src_cor_norm/ft_fork_lfork.o
+
+# target to build an object file
+src_cor_norm/ft_fork_lfork.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_fork_lfork.c.o
+.PHONY : src_cor_norm/ft_fork_lfork.c.o
+
+src_cor_norm/ft_fork_lfork.i: src_cor_norm/ft_fork_lfork.c.i
+
+.PHONY : src_cor_norm/ft_fork_lfork.i
+
+# target to preprocess a source file
+src_cor_norm/ft_fork_lfork.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_fork_lfork.c.i
+.PHONY : src_cor_norm/ft_fork_lfork.c.i
+
+src_cor_norm/ft_fork_lfork.s: src_cor_norm/ft_fork_lfork.c.s
+
+.PHONY : src_cor_norm/ft_fork_lfork.s
+
+# target to generate assembly for a file
+src_cor_norm/ft_fork_lfork.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_fork_lfork.c.s
+.PHONY : src_cor_norm/ft_fork_lfork.c.s
+
+src_cor_norm/ft_ld.o: src_cor_norm/ft_ld.c.o
+
+.PHONY : src_cor_norm/ft_ld.o
+
+# target to build an object file
+src_cor_norm/ft_ld.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_ld.c.o
+.PHONY : src_cor_norm/ft_ld.c.o
+
+src_cor_norm/ft_ld.i: src_cor_norm/ft_ld.c.i
+
+.PHONY : src_cor_norm/ft_ld.i
+
+# target to preprocess a source file
+src_cor_norm/ft_ld.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_ld.c.i
+.PHONY : src_cor_norm/ft_ld.c.i
+
+src_cor_norm/ft_ld.s: src_cor_norm/ft_ld.c.s
+
+.PHONY : src_cor_norm/ft_ld.s
+
+# target to generate assembly for a file
+src_cor_norm/ft_ld.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_ld.c.s
+.PHONY : src_cor_norm/ft_ld.c.s
+
+src_cor_norm/ft_liba.o: src_cor_norm/ft_liba.c.o
+
+.PHONY : src_cor_norm/ft_liba.o
+
+# target to build an object file
+src_cor_norm/ft_liba.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_liba.c.o
+.PHONY : src_cor_norm/ft_liba.c.o
+
+src_cor_norm/ft_liba.i: src_cor_norm/ft_liba.c.i
+
+.PHONY : src_cor_norm/ft_liba.i
+
+# target to preprocess a source file
+src_cor_norm/ft_liba.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_liba.c.i
+.PHONY : src_cor_norm/ft_liba.c.i
+
+src_cor_norm/ft_liba.s: src_cor_norm/ft_liba.c.s
+
+.PHONY : src_cor_norm/ft_liba.s
+
+# target to generate assembly for a file
+src_cor_norm/ft_liba.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_liba.c.s
+.PHONY : src_cor_norm/ft_liba.c.s
+
+src_cor_norm/ft_live.o: src_cor_norm/ft_live.c.o
+
+.PHONY : src_cor_norm/ft_live.o
+
+# target to build an object file
+src_cor_norm/ft_live.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_live.c.o
+.PHONY : src_cor_norm/ft_live.c.o
+
+src_cor_norm/ft_live.i: src_cor_norm/ft_live.c.i
+
+.PHONY : src_cor_norm/ft_live.i
+
+# target to preprocess a source file
+src_cor_norm/ft_live.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_live.c.i
+.PHONY : src_cor_norm/ft_live.c.i
+
+src_cor_norm/ft_live.s: src_cor_norm/ft_live.c.s
+
+.PHONY : src_cor_norm/ft_live.s
+
+# target to generate assembly for a file
+src_cor_norm/ft_live.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_live.c.s
+.PHONY : src_cor_norm/ft_live.c.s
+
+src_cor_norm/ft_or_xor.o: src_cor_norm/ft_or_xor.c.o
+
+.PHONY : src_cor_norm/ft_or_xor.o
+
+# target to build an object file
+src_cor_norm/ft_or_xor.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_or_xor.c.o
+.PHONY : src_cor_norm/ft_or_xor.c.o
+
+src_cor_norm/ft_or_xor.i: src_cor_norm/ft_or_xor.c.i
+
+.PHONY : src_cor_norm/ft_or_xor.i
+
+# target to preprocess a source file
+src_cor_norm/ft_or_xor.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_or_xor.c.i
+.PHONY : src_cor_norm/ft_or_xor.c.i
+
+src_cor_norm/ft_or_xor.s: src_cor_norm/ft_or_xor.c.s
+
+.PHONY : src_cor_norm/ft_or_xor.s
+
+# target to generate assembly for a file
+src_cor_norm/ft_or_xor.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_or_xor.c.s
+.PHONY : src_cor_norm/ft_or_xor.c.s
+
+src_cor_norm/ft_st.o: src_cor_norm/ft_st.c.o
+
+.PHONY : src_cor_norm/ft_st.o
+
+# target to build an object file
+src_cor_norm/ft_st.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_st.c.o
+.PHONY : src_cor_norm/ft_st.c.o
+
+src_cor_norm/ft_st.i: src_cor_norm/ft_st.c.i
+
+.PHONY : src_cor_norm/ft_st.i
+
+# target to preprocess a source file
+src_cor_norm/ft_st.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_st.c.i
+.PHONY : src_cor_norm/ft_st.c.i
+
+src_cor_norm/ft_st.s: src_cor_norm/ft_st.c.s
+
+.PHONY : src_cor_norm/ft_st.s
+
+# target to generate assembly for a file
+src_cor_norm/ft_st.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_st.c.s
+.PHONY : src_cor_norm/ft_st.c.s
+
+src_cor_norm/ft_sti.o: src_cor_norm/ft_sti.c.o
+
+.PHONY : src_cor_norm/ft_sti.o
+
+# target to build an object file
+src_cor_norm/ft_sti.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_sti.c.o
+.PHONY : src_cor_norm/ft_sti.c.o
+
+src_cor_norm/ft_sti.i: src_cor_norm/ft_sti.c.i
+
+.PHONY : src_cor_norm/ft_sti.i
+
+# target to preprocess a source file
+src_cor_norm/ft_sti.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_sti.c.i
+.PHONY : src_cor_norm/ft_sti.c.i
+
+src_cor_norm/ft_sti.s: src_cor_norm/ft_sti.c.s
+
+.PHONY : src_cor_norm/ft_sti.s
+
+# target to generate assembly for a file
+src_cor_norm/ft_sti.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_sti.c.s
+.PHONY : src_cor_norm/ft_sti.c.s
+
+src_cor_norm/ft_sub.o: src_cor_norm/ft_sub.c.o
+
+.PHONY : src_cor_norm/ft_sub.o
+
+# target to build an object file
+src_cor_norm/ft_sub.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_sub.c.o
+.PHONY : src_cor_norm/ft_sub.c.o
+
+src_cor_norm/ft_sub.i: src_cor_norm/ft_sub.c.i
+
+.PHONY : src_cor_norm/ft_sub.i
+
+# target to preprocess a source file
+src_cor_norm/ft_sub.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_sub.c.i
+.PHONY : src_cor_norm/ft_sub.c.i
+
+src_cor_norm/ft_sub.s: src_cor_norm/ft_sub.c.s
+
+.PHONY : src_cor_norm/ft_sub.s
+
+# target to generate assembly for a file
+src_cor_norm/ft_sub.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/ft_sub.c.s
+.PHONY : src_cor_norm/ft_sub.c.s
+
+src_cor_norm/go_cor.o: src_cor_norm/go_cor.c.o
+
+.PHONY : src_cor_norm/go_cor.o
+
+# target to build an object file
+src_cor_norm/go_cor.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/go_cor.c.o
+.PHONY : src_cor_norm/go_cor.c.o
+
+src_cor_norm/go_cor.i: src_cor_norm/go_cor.c.i
+
+.PHONY : src_cor_norm/go_cor.i
+
+# target to preprocess a source file
+src_cor_norm/go_cor.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/go_cor.c.i
+.PHONY : src_cor_norm/go_cor.c.i
+
+src_cor_norm/go_cor.s: src_cor_norm/go_cor.c.s
+
+.PHONY : src_cor_norm/go_cor.s
+
+# target to generate assembly for a file
+src_cor_norm/go_cor.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/go_cor.c.s
+.PHONY : src_cor_norm/go_cor.c.s
+
+src_cor_norm/main.o: src_cor_norm/main.c.o
+
+.PHONY : src_cor_norm/main.o
+
+# target to build an object file
+src_cor_norm/main.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/main.c.o
+.PHONY : src_cor_norm/main.c.o
+
+src_cor_norm/main.i: src_cor_norm/main.c.i
+
+.PHONY : src_cor_norm/main.i
+
+# target to preprocess a source file
+src_cor_norm/main.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/main.c.i
+.PHONY : src_cor_norm/main.c.i
+
+src_cor_norm/main.s: src_cor_norm/main.c.s
+
+.PHONY : src_cor_norm/main.s
+
+# target to generate assembly for a file
+src_cor_norm/main.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/main.c.s
+.PHONY : src_cor_norm/main.c.s
+
+src_cor_norm/print_code.o: src_cor_norm/print_code.c.o
+
+.PHONY : src_cor_norm/print_code.o
+
+# target to build an object file
+src_cor_norm/print_code.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/print_code.c.o
+.PHONY : src_cor_norm/print_code.c.o
+
+src_cor_norm/print_code.i: src_cor_norm/print_code.c.i
+
+.PHONY : src_cor_norm/print_code.i
+
+# target to preprocess a source file
+src_cor_norm/print_code.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/print_code.c.i
+.PHONY : src_cor_norm/print_code.c.i
+
+src_cor_norm/print_code.s: src_cor_norm/print_code.c.s
+
+.PHONY : src_cor_norm/print_code.s
+
+# target to generate assembly for a file
+src_cor_norm/print_code.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/print_code.c.s
+.PHONY : src_cor_norm/print_code.c.s
+
+src_cor_norm/read_byte.o: src_cor_norm/read_byte.c.o
+
+.PHONY : src_cor_norm/read_byte.o
+
+# target to build an object file
+src_cor_norm/read_byte.c.o:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/read_byte.c.o
+.PHONY : src_cor_norm/read_byte.c.o
+
+src_cor_norm/read_byte.i: src_cor_norm/read_byte.c.i
+
+.PHONY : src_cor_norm/read_byte.i
+
+# target to preprocess a source file
+src_cor_norm/read_byte.c.i:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/read_byte.c.i
+.PHONY : src_cor_norm/read_byte.c.i
+
+src_cor_norm/read_byte.s: src_cor_norm/read_byte.c.s
+
+.PHONY : src_cor_norm/read_byte.s
+
+# target to generate assembly for a file
+src_cor_norm/read_byte.c.s:
+	$(MAKE) -f CMakeFiles/School21_CoreWar.dir/build.make CMakeFiles/School21_CoreWar.dir/src_cor_norm/read_byte.c.s
+.PHONY : src_cor_norm/read_byte.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -8718,6 +25998,420 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... School21_CoreWar"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/buffer.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/buffer.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/buffer.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/cast_mod.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/cast_mod.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/cast_mod.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/format.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/format.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/format.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen_b.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen_b.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_nblen_b.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_power.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_power.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_power.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_printf.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_printf.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_printf.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_nblen.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_nblen.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_nblen.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_power.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_power.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/ft_u_power.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_bin.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_bin.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_bin.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_char.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_char.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_char.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_hex.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_hex.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_hex.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_int.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_int.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_int.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_oct.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_oct.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_oct.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_ptr.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_ptr.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_ptr.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_u_int.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_u_int.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_u_int.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wchar.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wchar.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wchar.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wstr.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wstr.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/fwp_wstr.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/lst_arg.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/lst_arg.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/lst_arg.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/num_field.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/num_field.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/num_field.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/parser.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/parser.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/parser.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/str_field.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/str_field.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/ft_printf/str_field.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/get_next_line/ft_getline.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/get_next_line/ft_getline.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/get_next_line/ft_getline.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/get_next_line/get_next_line.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/get_next_line/get_next_line.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/get_next_line/get_next_line.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/memory/ft_bzero.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/memory/ft_bzero.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/memory/ft_bzero.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memalloc.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memalloc.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memalloc.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memccpy.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memccpy.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memccpy.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memchr.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memchr.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memchr.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcmp.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcmp.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcmp.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcpy.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcpy.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memcpy.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memdel.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memdel.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memdel.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memmove.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memmove.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memmove.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memset.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memset.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/memory/ft_memset.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar_fd.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar_fd.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/print/ft_putchar_fd.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl_fd.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl_fd.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/print/ft_putendl_fd.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr_fd.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr_fd.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/print/ft_putnbr_fd.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr_fd.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr_fd.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/print/ft_putstr_fd.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstadd.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstadd.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstadd.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstaddback.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstaddback.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstaddback.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstappend.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstappend.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstappend.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdel.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdel.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdel.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdelone.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdelone.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstdelone.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstinttab.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstinttab.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstinttab.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstiter.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstiter.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstiter.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstlen.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstlen.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstlen.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstmap.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstmap.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstmap.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstnew.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstnew.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstnew.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpop.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpop.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpop.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpush.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpush.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/single_linked_list/ft_lstpush.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcat.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcat.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcat.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strchr.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strchr.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strchr.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strclr.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strclr.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strclr.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcmp.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcmp.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcmp.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcpy.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcpy.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strcpy.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdel.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdel.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdel.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdup.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdup.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strdup.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strequ.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strequ.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strequ.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striter.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striter.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striter.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striteri.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striteri.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_striteri.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strjoin.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strjoin.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strjoin.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlcat.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlcat.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlcat.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlen.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlen.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strlen.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmap.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmap.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmap.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmapi.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmapi.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strmapi.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncat.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncat.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncat.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncmp.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncmp.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncmp.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncpy.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncpy.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strncpy.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnequ.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnequ.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnequ.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnew.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnew.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnew.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnstr.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnstr.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strnstr.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrchr.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrchr.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrchr.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrev.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrev.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strrev.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplit.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplit.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplit.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplitdel.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplitdel.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsplitdel.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strstr.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strstr.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strstr.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsub.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsub.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strsub.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strtrim.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strtrim.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/strings/ft_strtrim.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_atoi.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_atoi.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_atoi.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalnum.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalnum.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalnum.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalpha.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalpha.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isalpha.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isascii.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isascii.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isascii.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigit.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigit.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigit.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigitstr.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigitstr.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isdigitstr.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_islower.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_islower.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_islower.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isprint.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isprint.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isprint.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isspace.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isspace.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isspace.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isupper.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isupper.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_isupper.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_itoa.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_itoa.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_itoa.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_squeeze.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_squeeze.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_squeeze.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_tolower.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_tolower.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_tolower.s"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_toupper.o"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_toupper.i"
+	@echo "... Corewar_kk_xx/Corewar/libft/srcs/utils/ft_toupper.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/asm.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/asm.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/asm.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/asm_utils.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/asm_utils.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/asm_utils.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/deasm.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/deasm.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/deasm.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/deasm_manage.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/deasm_manage.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/deasm_manage.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/fixed_io.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/fixed_io.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/fixed_io.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/label.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/label.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/label.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/label_init.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/label_init.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/label_init.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/label_utils.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/label_utils.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/label_utils.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/lexer.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/lexer.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/lexer.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/op.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/op.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/op.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/parser.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/parser.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/parser.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/parser_header.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/parser_header.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/parser_header.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/parser_init.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/parser_init.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/parser_init.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/scanner.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/scanner.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/asm/scanner.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/corewar.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/corewar.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/corewar.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/get_players.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/get_players.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/get_players.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/get_players_errors.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/get_players_errors.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/get_players_errors.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/load_arena.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/load_arena.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/load_arena.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/op.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/op.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/op.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/op_shift.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/op_shift.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/op_shift.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/operate.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/operate.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/operate.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/operation_1.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/operation_1.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/operation_1.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/operation_2.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/operation_2.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/operation_2.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/operation_2b.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/operation_2b.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/operation_2b.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/operation_3.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/operation_3.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/operation_3.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/operation_4.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/operation_4.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/operation_4.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/operation_4b.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/operation_4b.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/operation_4b.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vm_debbug.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vm_debbug.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vm_debbug.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vm_game.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vm_game.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vm_game.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vm_init_free.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vm_init_free.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vm_init_free.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vm_parsing.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vm_parsing.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vm_parsing.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_img.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_img.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_img.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_life.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_life.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_life.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_tools.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_tools.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_draw_tools.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_init.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_init.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_init.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_init_win.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_init_win.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_init_win.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_process.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_process.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_process.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_win.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_win.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_maj_win.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_th_anim.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_th_anim.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_th_anim.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_th_core.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_th_core.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_th_core.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_th_input.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_th_input.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_th_input.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_th_render.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_th_render.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_th_render.s"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_th_timer.o"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_th_timer.i"
+	@echo "... Corewar_kk_xx/Corewar/srcs/corewar/vw_th_timer.s"
 	@echo "... check_kk/Corewar/libft/srcs/ft_printf/buffer.o"
 	@echo "... check_kk/Corewar/libft/srcs/ft_printf/buffer.i"
 	@echo "... check_kk/Corewar/libft/srcs/ft_printf/buffer.s"
@@ -9132,6 +26826,690 @@ help:
 	@echo "... check_kk/Corewar/srcs/corewar/vw_th_timer.o"
 	@echo "... check_kk/Corewar/srcs/corewar/vw_th_timer.i"
 	@echo "... check_kk/Corewar/srcs/corewar/vw_th_timer.s"
+	@echo "... corewar_asm/libft/ft_atoi.o"
+	@echo "... corewar_asm/libft/ft_atoi.i"
+	@echo "... corewar_asm/libft/ft_atoi.s"
+	@echo "... corewar_asm/libft/ft_bzero.o"
+	@echo "... corewar_asm/libft/ft_bzero.i"
+	@echo "... corewar_asm/libft/ft_bzero.s"
+	@echo "... corewar_asm/libft/ft_check_dimension.o"
+	@echo "... corewar_asm/libft/ft_check_dimension.i"
+	@echo "... corewar_asm/libft/ft_check_dimension.s"
+	@echo "... corewar_asm/libft/ft_check_flag_spetia_type.o"
+	@echo "... corewar_asm/libft/ft_check_flag_spetia_type.i"
+	@echo "... corewar_asm/libft/ft_check_flag_spetia_type.s"
+	@echo "... corewar_asm/libft/ft_check_un_dimension.o"
+	@echo "... corewar_asm/libft/ft_check_un_dimension.i"
+	@echo "... corewar_asm/libft/ft_check_un_dimension.s"
+	@echo "... corewar_asm/libft/ft_concat_str.o"
+	@echo "... corewar_asm/libft/ft_concat_str.i"
+	@echo "... corewar_asm/libft/ft_concat_str.s"
+	@echo "... corewar_asm/libft/ft_cop_str_left_or_right.o"
+	@echo "... corewar_asm/libft/ft_cop_str_left_or_right.i"
+	@echo "... corewar_asm/libft/ft_cop_str_left_or_right.s"
+	@echo "... corewar_asm/libft/ft_copy_string_left.o"
+	@echo "... corewar_asm/libft/ft_copy_string_left.i"
+	@echo "... corewar_asm/libft/ft_copy_string_left.s"
+	@echo "... corewar_asm/libft/ft_copy_string_left_wchar.o"
+	@echo "... corewar_asm/libft/ft_copy_string_left_wchar.i"
+	@echo "... corewar_asm/libft/ft_copy_string_left_wchar.s"
+	@echo "... corewar_asm/libft/ft_copy_string_right.o"
+	@echo "... corewar_asm/libft/ft_copy_string_right.i"
+	@echo "... corewar_asm/libft/ft_copy_string_right.s"
+	@echo "... corewar_asm/libft/ft_copy_string_right_wchar.o"
+	@echo "... corewar_asm/libft/ft_copy_string_right_wchar.i"
+	@echo "... corewar_asm/libft/ft_copy_string_right_wchar.s"
+	@echo "... corewar_asm/libft/ft_create_new_lst_strchar.o"
+	@echo "... corewar_asm/libft/ft_create_new_lst_strchar.i"
+	@echo "... corewar_asm/libft/ft_create_new_lst_strchar.s"
+	@echo "... corewar_asm/libft/ft_float_inf.o"
+	@echo "... corewar_asm/libft/ft_float_inf.i"
+	@echo "... corewar_asm/libft/ft_float_inf.s"
+	@echo "... corewar_asm/libft/ft_is_flag_type_size.o"
+	@echo "... corewar_asm/libft/ft_is_flag_type_size.i"
+	@echo "... corewar_asm/libft/ft_is_flag_type_size.s"
+	@echo "... corewar_asm/libft/ft_isalnum.o"
+	@echo "... corewar_asm/libft/ft_isalnum.i"
+	@echo "... corewar_asm/libft/ft_isalnum.s"
+	@echo "... corewar_asm/libft/ft_isalpha.o"
+	@echo "... corewar_asm/libft/ft_isalpha.i"
+	@echo "... corewar_asm/libft/ft_isalpha.s"
+	@echo "... corewar_asm/libft/ft_isascii.o"
+	@echo "... corewar_asm/libft/ft_isascii.i"
+	@echo "... corewar_asm/libft/ft_isascii.s"
+	@echo "... corewar_asm/libft/ft_isdigit.o"
+	@echo "... corewar_asm/libft/ft_isdigit.i"
+	@echo "... corewar_asm/libft/ft_isdigit.s"
+	@echo "... corewar_asm/libft/ft_isprint.o"
+	@echo "... corewar_asm/libft/ft_isprint.i"
+	@echo "... corewar_asm/libft/ft_isprint.s"
+	@echo "... corewar_asm/libft/ft_itoa.o"
+	@echo "... corewar_asm/libft/ft_itoa.i"
+	@echo "... corewar_asm/libft/ft_itoa.s"
+	@echo "... corewar_asm/libft/ft_itoa_llint.o"
+	@echo "... corewar_asm/libft/ft_itoa_llint.i"
+	@echo "... corewar_asm/libft/ft_itoa_llint.s"
+	@echo "... corewar_asm/libft/ft_itoo.o"
+	@echo "... corewar_asm/libft/ft_itoo.i"
+	@echo "... corewar_asm/libft/ft_itoo.s"
+	@echo "... corewar_asm/libft/ft_itox.o"
+	@echo "... corewar_asm/libft/ft_itox.i"
+	@echo "... corewar_asm/libft/ft_itox.s"
+	@echo "... corewar_asm/libft/ft_lstadd.o"
+	@echo "... corewar_asm/libft/ft_lstadd.i"
+	@echo "... corewar_asm/libft/ft_lstadd.s"
+	@echo "... corewar_asm/libft/ft_lstdel.o"
+	@echo "... corewar_asm/libft/ft_lstdel.i"
+	@echo "... corewar_asm/libft/ft_lstdel.s"
+	@echo "... corewar_asm/libft/ft_lstdelone.o"
+	@echo "... corewar_asm/libft/ft_lstdelone.i"
+	@echo "... corewar_asm/libft/ft_lstdelone.s"
+	@echo "... corewar_asm/libft/ft_lstiter.o"
+	@echo "... corewar_asm/libft/ft_lstiter.i"
+	@echo "... corewar_asm/libft/ft_lstiter.s"
+	@echo "... corewar_asm/libft/ft_lstmap.o"
+	@echo "... corewar_asm/libft/ft_lstmap.i"
+	@echo "... corewar_asm/libft/ft_lstmap.s"
+	@echo "... corewar_asm/libft/ft_lstnew.o"
+	@echo "... corewar_asm/libft/ft_lstnew.i"
+	@echo "... corewar_asm/libft/ft_lstnew.s"
+	@echo "... corewar_asm/libft/ft_memalloc.o"
+	@echo "... corewar_asm/libft/ft_memalloc.i"
+	@echo "... corewar_asm/libft/ft_memalloc.s"
+	@echo "... corewar_asm/libft/ft_memccpy.o"
+	@echo "... corewar_asm/libft/ft_memccpy.i"
+	@echo "... corewar_asm/libft/ft_memccpy.s"
+	@echo "... corewar_asm/libft/ft_memchr.o"
+	@echo "... corewar_asm/libft/ft_memchr.i"
+	@echo "... corewar_asm/libft/ft_memchr.s"
+	@echo "... corewar_asm/libft/ft_memcmp.o"
+	@echo "... corewar_asm/libft/ft_memcmp.i"
+	@echo "... corewar_asm/libft/ft_memcmp.s"
+	@echo "... corewar_asm/libft/ft_memcpy.o"
+	@echo "... corewar_asm/libft/ft_memcpy.i"
+	@echo "... corewar_asm/libft/ft_memcpy.s"
+	@echo "... corewar_asm/libft/ft_memdel.o"
+	@echo "... corewar_asm/libft/ft_memdel.i"
+	@echo "... corewar_asm/libft/ft_memdel.s"
+	@echo "... corewar_asm/libft/ft_memmove.o"
+	@echo "... corewar_asm/libft/ft_memmove.i"
+	@echo "... corewar_asm/libft/ft_memmove.s"
+	@echo "... corewar_asm/libft/ft_memset.o"
+	@echo "... corewar_asm/libft/ft_memset.i"
+	@echo "... corewar_asm/libft/ft_memset.s"
+	@echo "... corewar_asm/libft/ft_memset_wchar.o"
+	@echo "... corewar_asm/libft/ft_memset_wchar.i"
+	@echo "... corewar_asm/libft/ft_memset_wchar.s"
+	@echo "... corewar_asm/libft/ft_multi_strdup.o"
+	@echo "... corewar_asm/libft/ft_multi_strdup.i"
+	@echo "... corewar_asm/libft/ft_multi_strdup.s"
+	@echo "... corewar_asm/libft/ft_numwr.o"
+	@echo "... corewar_asm/libft/ft_numwr.i"
+	@echo "... corewar_asm/libft/ft_numwr.s"
+	@echo "... corewar_asm/libft/ft_octotorp_hex.o"
+	@echo "... corewar_asm/libft/ft_octotorp_hex.i"
+	@echo "... corewar_asm/libft/ft_octotorp_hex.s"
+	@echo "... corewar_asm/libft/ft_printf.o"
+	@echo "... corewar_asm/libft/ft_printf.i"
+	@echo "... corewar_asm/libft/ft_printf.s"
+	@echo "... corewar_asm/libft/ft_put_decimal.o"
+	@echo "... corewar_asm/libft/ft_put_decimal.i"
+	@echo "... corewar_asm/libft/ft_put_decimal.s"
+	@echo "... corewar_asm/libft/ft_put_hexadecimal.o"
+	@echo "... corewar_asm/libft/ft_put_hexadecimal.i"
+	@echo "... corewar_asm/libft/ft_put_hexadecimal.s"
+	@echo "... corewar_asm/libft/ft_put_octal.o"
+	@echo "... corewar_asm/libft/ft_put_octal.i"
+	@echo "... corewar_asm/libft/ft_put_octal.s"
+	@echo "... corewar_asm/libft/ft_put_percent.o"
+	@echo "... corewar_asm/libft/ft_put_percent.i"
+	@echo "... corewar_asm/libft/ft_put_percent.s"
+	@echo "... corewar_asm/libft/ft_put_pointer.o"
+	@echo "... corewar_asm/libft/ft_put_pointer.i"
+	@echo "... corewar_asm/libft/ft_put_pointer.s"
+	@echo "... corewar_asm/libft/ft_put_unsigned.o"
+	@echo "... corewar_asm/libft/ft_put_unsigned.i"
+	@echo "... corewar_asm/libft/ft_put_unsigned.s"
+	@echo "... corewar_asm/libft/ft_putchar.o"
+	@echo "... corewar_asm/libft/ft_putchar.i"
+	@echo "... corewar_asm/libft/ft_putchar.s"
+	@echo "... corewar_asm/libft/ft_putchar_fd.o"
+	@echo "... corewar_asm/libft/ft_putchar_fd.i"
+	@echo "... corewar_asm/libft/ft_putchar_fd.s"
+	@echo "... corewar_asm/libft/ft_putchar_wchar.o"
+	@echo "... corewar_asm/libft/ft_putchar_wchar.i"
+	@echo "... corewar_asm/libft/ft_putchar_wchar.s"
+	@echo "... corewar_asm/libft/ft_putendl.o"
+	@echo "... corewar_asm/libft/ft_putendl.i"
+	@echo "... corewar_asm/libft/ft_putendl.s"
+	@echo "... corewar_asm/libft/ft_putendl_fd.o"
+	@echo "... corewar_asm/libft/ft_putendl_fd.i"
+	@echo "... corewar_asm/libft/ft_putendl_fd.s"
+	@echo "... corewar_asm/libft/ft_putnbr.o"
+	@echo "... corewar_asm/libft/ft_putnbr.i"
+	@echo "... corewar_asm/libft/ft_putnbr.s"
+	@echo "... corewar_asm/libft/ft_putnbr_fd.o"
+	@echo "... corewar_asm/libft/ft_putnbr_fd.i"
+	@echo "... corewar_asm/libft/ft_putnbr_fd.s"
+	@echo "... corewar_asm/libft/ft_putstr.o"
+	@echo "... corewar_asm/libft/ft_putstr.i"
+	@echo "... corewar_asm/libft/ft_putstr.s"
+	@echo "... corewar_asm/libft/ft_putstr_fd.o"
+	@echo "... corewar_asm/libft/ft_putstr_fd.i"
+	@echo "... corewar_asm/libft/ft_putstr_fd.s"
+	@echo "... corewar_asm/libft/ft_putstr_wchar.o"
+	@echo "... corewar_asm/libft/ft_putstr_wchar.i"
+	@echo "... corewar_asm/libft/ft_putstr_wchar.s"
+	@echo "... corewar_asm/libft/ft_read_format.o"
+	@echo "... corewar_asm/libft/ft_read_format.i"
+	@echo "... corewar_asm/libft/ft_read_format.s"
+	@echo "... corewar_asm/libft/ft_strcat.o"
+	@echo "... corewar_asm/libft/ft_strcat.i"
+	@echo "... corewar_asm/libft/ft_strcat.s"
+	@echo "... corewar_asm/libft/ft_strchr.o"
+	@echo "... corewar_asm/libft/ft_strchr.i"
+	@echo "... corewar_asm/libft/ft_strchr.s"
+	@echo "... corewar_asm/libft/ft_strcl.o"
+	@echo "... corewar_asm/libft/ft_strcl.i"
+	@echo "... corewar_asm/libft/ft_strcl.s"
+	@echo "... corewar_asm/libft/ft_strclr.o"
+	@echo "... corewar_asm/libft/ft_strclr.i"
+	@echo "... corewar_asm/libft/ft_strclr.s"
+	@echo "... corewar_asm/libft/ft_strcmp.o"
+	@echo "... corewar_asm/libft/ft_strcmp.i"
+	@echo "... corewar_asm/libft/ft_strcmp.s"
+	@echo "... corewar_asm/libft/ft_strcpy.o"
+	@echo "... corewar_asm/libft/ft_strcpy.i"
+	@echo "... corewar_asm/libft/ft_strcpy.s"
+	@echo "... corewar_asm/libft/ft_strdel.o"
+	@echo "... corewar_asm/libft/ft_strdel.i"
+	@echo "... corewar_asm/libft/ft_strdel.s"
+	@echo "... corewar_asm/libft/ft_strdel_wchar.o"
+	@echo "... corewar_asm/libft/ft_strdel_wchar.i"
+	@echo "... corewar_asm/libft/ft_strdel_wchar.s"
+	@echo "... corewar_asm/libft/ft_strdup.o"
+	@echo "... corewar_asm/libft/ft_strdup.i"
+	@echo "... corewar_asm/libft/ft_strdup.s"
+	@echo "... corewar_asm/libft/ft_strdup_wchar.o"
+	@echo "... corewar_asm/libft/ft_strdup_wchar.i"
+	@echo "... corewar_asm/libft/ft_strdup_wchar.s"
+	@echo "... corewar_asm/libft/ft_strequ.o"
+	@echo "... corewar_asm/libft/ft_strequ.i"
+	@echo "... corewar_asm/libft/ft_strequ.s"
+	@echo "... corewar_asm/libft/ft_strfr.o"
+	@echo "... corewar_asm/libft/ft_strfr.i"
+	@echo "... corewar_asm/libft/ft_strfr.s"
+	@echo "... corewar_asm/libft/ft_striter.o"
+	@echo "... corewar_asm/libft/ft_striter.i"
+	@echo "... corewar_asm/libft/ft_striter.s"
+	@echo "... corewar_asm/libft/ft_striteri.o"
+	@echo "... corewar_asm/libft/ft_striteri.i"
+	@echo "... corewar_asm/libft/ft_striteri.s"
+	@echo "... corewar_asm/libft/ft_strjoin.o"
+	@echo "... corewar_asm/libft/ft_strjoin.i"
+	@echo "... corewar_asm/libft/ft_strjoin.s"
+	@echo "... corewar_asm/libft/ft_strlcat.o"
+	@echo "... corewar_asm/libft/ft_strlcat.i"
+	@echo "... corewar_asm/libft/ft_strlcat.s"
+	@echo "... corewar_asm/libft/ft_strlen.o"
+	@echo "... corewar_asm/libft/ft_strlen.i"
+	@echo "... corewar_asm/libft/ft_strlen.s"
+	@echo "... corewar_asm/libft/ft_strlen_wchar.o"
+	@echo "... corewar_asm/libft/ft_strlen_wchar.i"
+	@echo "... corewar_asm/libft/ft_strlen_wchar.s"
+	@echo "... corewar_asm/libft/ft_strmap.o"
+	@echo "... corewar_asm/libft/ft_strmap.i"
+	@echo "... corewar_asm/libft/ft_strmap.s"
+	@echo "... corewar_asm/libft/ft_strmapi.o"
+	@echo "... corewar_asm/libft/ft_strmapi.i"
+	@echo "... corewar_asm/libft/ft_strmapi.s"
+	@echo "... corewar_asm/libft/ft_strncat.o"
+	@echo "... corewar_asm/libft/ft_strncat.i"
+	@echo "... corewar_asm/libft/ft_strncat.s"
+	@echo "... corewar_asm/libft/ft_strncmp.o"
+	@echo "... corewar_asm/libft/ft_strncmp.i"
+	@echo "... corewar_asm/libft/ft_strncmp.s"
+	@echo "... corewar_asm/libft/ft_strncpy.o"
+	@echo "... corewar_asm/libft/ft_strncpy.i"
+	@echo "... corewar_asm/libft/ft_strncpy.s"
+	@echo "... corewar_asm/libft/ft_strncpy_wchar.o"
+	@echo "... corewar_asm/libft/ft_strncpy_wchar.i"
+	@echo "... corewar_asm/libft/ft_strncpy_wchar.s"
+	@echo "... corewar_asm/libft/ft_strnequ.o"
+	@echo "... corewar_asm/libft/ft_strnequ.i"
+	@echo "... corewar_asm/libft/ft_strnequ.s"
+	@echo "... corewar_asm/libft/ft_strnew.o"
+	@echo "... corewar_asm/libft/ft_strnew.i"
+	@echo "... corewar_asm/libft/ft_strnew.s"
+	@echo "... corewar_asm/libft/ft_strnew_char_wchar.o"
+	@echo "... corewar_asm/libft/ft_strnew_char_wchar.i"
+	@echo "... corewar_asm/libft/ft_strnew_char_wchar.s"
+	@echo "... corewar_asm/libft/ft_strnew_wchar.o"
+	@echo "... corewar_asm/libft/ft_strnew_wchar.i"
+	@echo "... corewar_asm/libft/ft_strnew_wchar.s"
+	@echo "... corewar_asm/libft/ft_strnjoin.o"
+	@echo "... corewar_asm/libft/ft_strnjoin.i"
+	@echo "... corewar_asm/libft/ft_strnjoin.s"
+	@echo "... corewar_asm/libft/ft_strnjoinfree.o"
+	@echo "... corewar_asm/libft/ft_strnjoinfree.i"
+	@echo "... corewar_asm/libft/ft_strnjoinfree.s"
+	@echo "... corewar_asm/libft/ft_strnstr.o"
+	@echo "... corewar_asm/libft/ft_strnstr.i"
+	@echo "... corewar_asm/libft/ft_strnstr.s"
+	@echo "... corewar_asm/libft/ft_strrchr.o"
+	@echo "... corewar_asm/libft/ft_strrchr.i"
+	@echo "... corewar_asm/libft/ft_strrchr.s"
+	@echo "... corewar_asm/libft/ft_strsplit.o"
+	@echo "... corewar_asm/libft/ft_strsplit.i"
+	@echo "... corewar_asm/libft/ft_strsplit.s"
+	@echo "... corewar_asm/libft/ft_strstr.o"
+	@echo "... corewar_asm/libft/ft_strstr.i"
+	@echo "... corewar_asm/libft/ft_strstr.s"
+	@echo "... corewar_asm/libft/ft_strsub.o"
+	@echo "... corewar_asm/libft/ft_strsub.i"
+	@echo "... corewar_asm/libft/ft_strsub.s"
+	@echo "... corewar_asm/libft/ft_strtrim.o"
+	@echo "... corewar_asm/libft/ft_strtrim.i"
+	@echo "... corewar_asm/libft/ft_strtrim.s"
+	@echo "... corewar_asm/libft/ft_tolower.o"
+	@echo "... corewar_asm/libft/ft_tolower.i"
+	@echo "... corewar_asm/libft/ft_tolower.s"
+	@echo "... corewar_asm/libft/ft_toupper.o"
+	@echo "... corewar_asm/libft/ft_toupper.i"
+	@echo "... corewar_asm/libft/ft_toupper.s"
+	@echo "... corewar_asm/libft/ft_un_itoa.o"
+	@echo "... corewar_asm/libft/ft_un_itoa.i"
+	@echo "... corewar_asm/libft/ft_un_itoa.s"
+	@echo "... corewar_asm/libft/get_next_line.o"
+	@echo "... corewar_asm/libft/get_next_line.i"
+	@echo "... corewar_asm/libft/get_next_line.s"
+	@echo "... corewar_asm/libft/sys_err.o"
+	@echo "... corewar_asm/libft/sys_err.i"
+	@echo "... corewar_asm/libft/sys_err.s"
+	@echo "... corewar_asm/libft/type_char.o"
+	@echo "... corewar_asm/libft/type_char.i"
+	@echo "... corewar_asm/libft/type_char.s"
+	@echo "... corewar_asm/libft/type_float.o"
+	@echo "... corewar_asm/libft/type_float.i"
+	@echo "... corewar_asm/libft/type_float.s"
+	@echo "... corewar_asm/libft/type_float2.o"
+	@echo "... corewar_asm/libft/type_float2.i"
+	@echo "... corewar_asm/libft/type_float2.s"
+	@echo "... corewar_asm/libft/type_string.o"
+	@echo "... corewar_asm/libft/type_string.i"
+	@echo "... corewar_asm/libft/type_string.s"
+	@echo "... corewar_asm/source/add_lable_list.o"
+	@echo "... corewar_asm/source/add_lable_list.i"
+	@echo "... corewar_asm/source/add_lable_list.s"
+	@echo "... corewar_asm/source/check_op_or_xor_and_arg.o"
+	@echo "... corewar_asm/source/check_op_or_xor_and_arg.i"
+	@echo "... corewar_asm/source/check_op_or_xor_and_arg.s"
+	@echo "... corewar_asm/source/check_op_st_arg.o"
+	@echo "... corewar_asm/source/check_op_st_arg.i"
+	@echo "... corewar_asm/source/check_op_st_arg.s"
+	@echo "... corewar_asm/source/delete_list.o"
+	@echo "... corewar_asm/source/delete_list.i"
+	@echo "... corewar_asm/source/delete_list.s"
+	@echo "... corewar_asm/source/four_char_operator.o"
+	@echo "... corewar_asm/source/four_char_operator.i"
+	@echo "... corewar_asm/source/four_char_operator.s"
+	@echo "... corewar_asm/source/init_agr.o"
+	@echo "... corewar_asm/source/init_agr.i"
+	@echo "... corewar_asm/source/init_agr.s"
+	@echo "... corewar_asm/source/isprint_char.o"
+	@echo "... corewar_asm/source/isprint_char.i"
+	@echo "... corewar_asm/source/isprint_char.s"
+	@echo "... corewar_asm/source/main.o"
+	@echo "... corewar_asm/source/main.i"
+	@echo "... corewar_asm/source/main.s"
+	@echo "... corewar_asm/source/read_comment_champ.o"
+	@echo "... corewar_asm/source/read_comment_champ.i"
+	@echo "... corewar_asm/source/read_comment_champ.s"
+	@echo "... corewar_asm/source/read_dir_arg.o"
+	@echo "... corewar_asm/source/read_dir_arg.i"
+	@echo "... corewar_asm/source/read_dir_arg.s"
+	@echo "... corewar_asm/source/read_name_comment.o"
+	@echo "... corewar_asm/source/read_name_comment.i"
+	@echo "... corewar_asm/source/read_name_comment.s"
+	@echo "... corewar_asm/source/search_lbl.o"
+	@echo "... corewar_asm/source/search_lbl.i"
+	@echo "... corewar_asm/source/search_lbl.s"
+	@echo "... corewar_asm/source/write_header.o"
+	@echo "... corewar_asm/source/write_header.i"
+	@echo "... corewar_asm/source/write_header.s"
+	@echo "... corewar_diasm/libft/ft_atoi.o"
+	@echo "... corewar_diasm/libft/ft_atoi.i"
+	@echo "... corewar_diasm/libft/ft_atoi.s"
+	@echo "... corewar_diasm/libft/ft_bzero.o"
+	@echo "... corewar_diasm/libft/ft_bzero.i"
+	@echo "... corewar_diasm/libft/ft_bzero.s"
+	@echo "... corewar_diasm/libft/ft_check_dimension.o"
+	@echo "... corewar_diasm/libft/ft_check_dimension.i"
+	@echo "... corewar_diasm/libft/ft_check_dimension.s"
+	@echo "... corewar_diasm/libft/ft_check_flag_spetia_type.o"
+	@echo "... corewar_diasm/libft/ft_check_flag_spetia_type.i"
+	@echo "... corewar_diasm/libft/ft_check_flag_spetia_type.s"
+	@echo "... corewar_diasm/libft/ft_check_un_dimension.o"
+	@echo "... corewar_diasm/libft/ft_check_un_dimension.i"
+	@echo "... corewar_diasm/libft/ft_check_un_dimension.s"
+	@echo "... corewar_diasm/libft/ft_concat_str.o"
+	@echo "... corewar_diasm/libft/ft_concat_str.i"
+	@echo "... corewar_diasm/libft/ft_concat_str.s"
+	@echo "... corewar_diasm/libft/ft_cop_str_left_or_right.o"
+	@echo "... corewar_diasm/libft/ft_cop_str_left_or_right.i"
+	@echo "... corewar_diasm/libft/ft_cop_str_left_or_right.s"
+	@echo "... corewar_diasm/libft/ft_copy_string_left.o"
+	@echo "... corewar_diasm/libft/ft_copy_string_left.i"
+	@echo "... corewar_diasm/libft/ft_copy_string_left.s"
+	@echo "... corewar_diasm/libft/ft_copy_string_left_wchar.o"
+	@echo "... corewar_diasm/libft/ft_copy_string_left_wchar.i"
+	@echo "... corewar_diasm/libft/ft_copy_string_left_wchar.s"
+	@echo "... corewar_diasm/libft/ft_copy_string_right.o"
+	@echo "... corewar_diasm/libft/ft_copy_string_right.i"
+	@echo "... corewar_diasm/libft/ft_copy_string_right.s"
+	@echo "... corewar_diasm/libft/ft_copy_string_right_wchar.o"
+	@echo "... corewar_diasm/libft/ft_copy_string_right_wchar.i"
+	@echo "... corewar_diasm/libft/ft_copy_string_right_wchar.s"
+	@echo "... corewar_diasm/libft/ft_create_new_lst_strchar.o"
+	@echo "... corewar_diasm/libft/ft_create_new_lst_strchar.i"
+	@echo "... corewar_diasm/libft/ft_create_new_lst_strchar.s"
+	@echo "... corewar_diasm/libft/ft_float_inf.o"
+	@echo "... corewar_diasm/libft/ft_float_inf.i"
+	@echo "... corewar_diasm/libft/ft_float_inf.s"
+	@echo "... corewar_diasm/libft/ft_is_flag_type_size.o"
+	@echo "... corewar_diasm/libft/ft_is_flag_type_size.i"
+	@echo "... corewar_diasm/libft/ft_is_flag_type_size.s"
+	@echo "... corewar_diasm/libft/ft_isalnum.o"
+	@echo "... corewar_diasm/libft/ft_isalnum.i"
+	@echo "... corewar_diasm/libft/ft_isalnum.s"
+	@echo "... corewar_diasm/libft/ft_isalpha.o"
+	@echo "... corewar_diasm/libft/ft_isalpha.i"
+	@echo "... corewar_diasm/libft/ft_isalpha.s"
+	@echo "... corewar_diasm/libft/ft_isascii.o"
+	@echo "... corewar_diasm/libft/ft_isascii.i"
+	@echo "... corewar_diasm/libft/ft_isascii.s"
+	@echo "... corewar_diasm/libft/ft_isdigit.o"
+	@echo "... corewar_diasm/libft/ft_isdigit.i"
+	@echo "... corewar_diasm/libft/ft_isdigit.s"
+	@echo "... corewar_diasm/libft/ft_isprint.o"
+	@echo "... corewar_diasm/libft/ft_isprint.i"
+	@echo "... corewar_diasm/libft/ft_isprint.s"
+	@echo "... corewar_diasm/libft/ft_itoa.o"
+	@echo "... corewar_diasm/libft/ft_itoa.i"
+	@echo "... corewar_diasm/libft/ft_itoa.s"
+	@echo "... corewar_diasm/libft/ft_itoa_llint.o"
+	@echo "... corewar_diasm/libft/ft_itoa_llint.i"
+	@echo "... corewar_diasm/libft/ft_itoa_llint.s"
+	@echo "... corewar_diasm/libft/ft_itoo.o"
+	@echo "... corewar_diasm/libft/ft_itoo.i"
+	@echo "... corewar_diasm/libft/ft_itoo.s"
+	@echo "... corewar_diasm/libft/ft_itox.o"
+	@echo "... corewar_diasm/libft/ft_itox.i"
+	@echo "... corewar_diasm/libft/ft_itox.s"
+	@echo "... corewar_diasm/libft/ft_lstadd.o"
+	@echo "... corewar_diasm/libft/ft_lstadd.i"
+	@echo "... corewar_diasm/libft/ft_lstadd.s"
+	@echo "... corewar_diasm/libft/ft_lstdel.o"
+	@echo "... corewar_diasm/libft/ft_lstdel.i"
+	@echo "... corewar_diasm/libft/ft_lstdel.s"
+	@echo "... corewar_diasm/libft/ft_lstdelone.o"
+	@echo "... corewar_diasm/libft/ft_lstdelone.i"
+	@echo "... corewar_diasm/libft/ft_lstdelone.s"
+	@echo "... corewar_diasm/libft/ft_lstiter.o"
+	@echo "... corewar_diasm/libft/ft_lstiter.i"
+	@echo "... corewar_diasm/libft/ft_lstiter.s"
+	@echo "... corewar_diasm/libft/ft_lstmap.o"
+	@echo "... corewar_diasm/libft/ft_lstmap.i"
+	@echo "... corewar_diasm/libft/ft_lstmap.s"
+	@echo "... corewar_diasm/libft/ft_lstnew.o"
+	@echo "... corewar_diasm/libft/ft_lstnew.i"
+	@echo "... corewar_diasm/libft/ft_lstnew.s"
+	@echo "... corewar_diasm/libft/ft_memalloc.o"
+	@echo "... corewar_diasm/libft/ft_memalloc.i"
+	@echo "... corewar_diasm/libft/ft_memalloc.s"
+	@echo "... corewar_diasm/libft/ft_memccpy.o"
+	@echo "... corewar_diasm/libft/ft_memccpy.i"
+	@echo "... corewar_diasm/libft/ft_memccpy.s"
+	@echo "... corewar_diasm/libft/ft_memchr.o"
+	@echo "... corewar_diasm/libft/ft_memchr.i"
+	@echo "... corewar_diasm/libft/ft_memchr.s"
+	@echo "... corewar_diasm/libft/ft_memcmp.o"
+	@echo "... corewar_diasm/libft/ft_memcmp.i"
+	@echo "... corewar_diasm/libft/ft_memcmp.s"
+	@echo "... corewar_diasm/libft/ft_memcpy.o"
+	@echo "... corewar_diasm/libft/ft_memcpy.i"
+	@echo "... corewar_diasm/libft/ft_memcpy.s"
+	@echo "... corewar_diasm/libft/ft_memdel.o"
+	@echo "... corewar_diasm/libft/ft_memdel.i"
+	@echo "... corewar_diasm/libft/ft_memdel.s"
+	@echo "... corewar_diasm/libft/ft_memmove.o"
+	@echo "... corewar_diasm/libft/ft_memmove.i"
+	@echo "... corewar_diasm/libft/ft_memmove.s"
+	@echo "... corewar_diasm/libft/ft_memset.o"
+	@echo "... corewar_diasm/libft/ft_memset.i"
+	@echo "... corewar_diasm/libft/ft_memset.s"
+	@echo "... corewar_diasm/libft/ft_memset_wchar.o"
+	@echo "... corewar_diasm/libft/ft_memset_wchar.i"
+	@echo "... corewar_diasm/libft/ft_memset_wchar.s"
+	@echo "... corewar_diasm/libft/ft_multi_strdup.o"
+	@echo "... corewar_diasm/libft/ft_multi_strdup.i"
+	@echo "... corewar_diasm/libft/ft_multi_strdup.s"
+	@echo "... corewar_diasm/libft/ft_numwr.o"
+	@echo "... corewar_diasm/libft/ft_numwr.i"
+	@echo "... corewar_diasm/libft/ft_numwr.s"
+	@echo "... corewar_diasm/libft/ft_octotorp_hex.o"
+	@echo "... corewar_diasm/libft/ft_octotorp_hex.i"
+	@echo "... corewar_diasm/libft/ft_octotorp_hex.s"
+	@echo "... corewar_diasm/libft/ft_printf.o"
+	@echo "... corewar_diasm/libft/ft_printf.i"
+	@echo "... corewar_diasm/libft/ft_printf.s"
+	@echo "... corewar_diasm/libft/ft_put_decimal.o"
+	@echo "... corewar_diasm/libft/ft_put_decimal.i"
+	@echo "... corewar_diasm/libft/ft_put_decimal.s"
+	@echo "... corewar_diasm/libft/ft_put_hexadecimal.o"
+	@echo "... corewar_diasm/libft/ft_put_hexadecimal.i"
+	@echo "... corewar_diasm/libft/ft_put_hexadecimal.s"
+	@echo "... corewar_diasm/libft/ft_put_octal.o"
+	@echo "... corewar_diasm/libft/ft_put_octal.i"
+	@echo "... corewar_diasm/libft/ft_put_octal.s"
+	@echo "... corewar_diasm/libft/ft_put_percent.o"
+	@echo "... corewar_diasm/libft/ft_put_percent.i"
+	@echo "... corewar_diasm/libft/ft_put_percent.s"
+	@echo "... corewar_diasm/libft/ft_put_pointer.o"
+	@echo "... corewar_diasm/libft/ft_put_pointer.i"
+	@echo "... corewar_diasm/libft/ft_put_pointer.s"
+	@echo "... corewar_diasm/libft/ft_put_unsigned.o"
+	@echo "... corewar_diasm/libft/ft_put_unsigned.i"
+	@echo "... corewar_diasm/libft/ft_put_unsigned.s"
+	@echo "... corewar_diasm/libft/ft_putchar.o"
+	@echo "... corewar_diasm/libft/ft_putchar.i"
+	@echo "... corewar_diasm/libft/ft_putchar.s"
+	@echo "... corewar_diasm/libft/ft_putchar_fd.o"
+	@echo "... corewar_diasm/libft/ft_putchar_fd.i"
+	@echo "... corewar_diasm/libft/ft_putchar_fd.s"
+	@echo "... corewar_diasm/libft/ft_putchar_wchar.o"
+	@echo "... corewar_diasm/libft/ft_putchar_wchar.i"
+	@echo "... corewar_diasm/libft/ft_putchar_wchar.s"
+	@echo "... corewar_diasm/libft/ft_putendl.o"
+	@echo "... corewar_diasm/libft/ft_putendl.i"
+	@echo "... corewar_diasm/libft/ft_putendl.s"
+	@echo "... corewar_diasm/libft/ft_putendl_fd.o"
+	@echo "... corewar_diasm/libft/ft_putendl_fd.i"
+	@echo "... corewar_diasm/libft/ft_putendl_fd.s"
+	@echo "... corewar_diasm/libft/ft_putnbr.o"
+	@echo "... corewar_diasm/libft/ft_putnbr.i"
+	@echo "... corewar_diasm/libft/ft_putnbr.s"
+	@echo "... corewar_diasm/libft/ft_putnbr_fd.o"
+	@echo "... corewar_diasm/libft/ft_putnbr_fd.i"
+	@echo "... corewar_diasm/libft/ft_putnbr_fd.s"
+	@echo "... corewar_diasm/libft/ft_putstr.o"
+	@echo "... corewar_diasm/libft/ft_putstr.i"
+	@echo "... corewar_diasm/libft/ft_putstr.s"
+	@echo "... corewar_diasm/libft/ft_putstr_fd.o"
+	@echo "... corewar_diasm/libft/ft_putstr_fd.i"
+	@echo "... corewar_diasm/libft/ft_putstr_fd.s"
+	@echo "... corewar_diasm/libft/ft_putstr_wchar.o"
+	@echo "... corewar_diasm/libft/ft_putstr_wchar.i"
+	@echo "... corewar_diasm/libft/ft_putstr_wchar.s"
+	@echo "... corewar_diasm/libft/ft_read_format.o"
+	@echo "... corewar_diasm/libft/ft_read_format.i"
+	@echo "... corewar_diasm/libft/ft_read_format.s"
+	@echo "... corewar_diasm/libft/ft_strcat.o"
+	@echo "... corewar_diasm/libft/ft_strcat.i"
+	@echo "... corewar_diasm/libft/ft_strcat.s"
+	@echo "... corewar_diasm/libft/ft_strchr.o"
+	@echo "... corewar_diasm/libft/ft_strchr.i"
+	@echo "... corewar_diasm/libft/ft_strchr.s"
+	@echo "... corewar_diasm/libft/ft_strcl.o"
+	@echo "... corewar_diasm/libft/ft_strcl.i"
+	@echo "... corewar_diasm/libft/ft_strcl.s"
+	@echo "... corewar_diasm/libft/ft_strclr.o"
+	@echo "... corewar_diasm/libft/ft_strclr.i"
+	@echo "... corewar_diasm/libft/ft_strclr.s"
+	@echo "... corewar_diasm/libft/ft_strcmp.o"
+	@echo "... corewar_diasm/libft/ft_strcmp.i"
+	@echo "... corewar_diasm/libft/ft_strcmp.s"
+	@echo "... corewar_diasm/libft/ft_strcpy.o"
+	@echo "... corewar_diasm/libft/ft_strcpy.i"
+	@echo "... corewar_diasm/libft/ft_strcpy.s"
+	@echo "... corewar_diasm/libft/ft_strdel.o"
+	@echo "... corewar_diasm/libft/ft_strdel.i"
+	@echo "... corewar_diasm/libft/ft_strdel.s"
+	@echo "... corewar_diasm/libft/ft_strdel_wchar.o"
+	@echo "... corewar_diasm/libft/ft_strdel_wchar.i"
+	@echo "... corewar_diasm/libft/ft_strdel_wchar.s"
+	@echo "... corewar_diasm/libft/ft_strdup.o"
+	@echo "... corewar_diasm/libft/ft_strdup.i"
+	@echo "... corewar_diasm/libft/ft_strdup.s"
+	@echo "... corewar_diasm/libft/ft_strdup_wchar.o"
+	@echo "... corewar_diasm/libft/ft_strdup_wchar.i"
+	@echo "... corewar_diasm/libft/ft_strdup_wchar.s"
+	@echo "... corewar_diasm/libft/ft_strequ.o"
+	@echo "... corewar_diasm/libft/ft_strequ.i"
+	@echo "... corewar_diasm/libft/ft_strequ.s"
+	@echo "... corewar_diasm/libft/ft_strfr.o"
+	@echo "... corewar_diasm/libft/ft_strfr.i"
+	@echo "... corewar_diasm/libft/ft_strfr.s"
+	@echo "... corewar_diasm/libft/ft_striter.o"
+	@echo "... corewar_diasm/libft/ft_striter.i"
+	@echo "... corewar_diasm/libft/ft_striter.s"
+	@echo "... corewar_diasm/libft/ft_striteri.o"
+	@echo "... corewar_diasm/libft/ft_striteri.i"
+	@echo "... corewar_diasm/libft/ft_striteri.s"
+	@echo "... corewar_diasm/libft/ft_strjoin.o"
+	@echo "... corewar_diasm/libft/ft_strjoin.i"
+	@echo "... corewar_diasm/libft/ft_strjoin.s"
+	@echo "... corewar_diasm/libft/ft_strlcat.o"
+	@echo "... corewar_diasm/libft/ft_strlcat.i"
+	@echo "... corewar_diasm/libft/ft_strlcat.s"
+	@echo "... corewar_diasm/libft/ft_strlen.o"
+	@echo "... corewar_diasm/libft/ft_strlen.i"
+	@echo "... corewar_diasm/libft/ft_strlen.s"
+	@echo "... corewar_diasm/libft/ft_strlen_wchar.o"
+	@echo "... corewar_diasm/libft/ft_strlen_wchar.i"
+	@echo "... corewar_diasm/libft/ft_strlen_wchar.s"
+	@echo "... corewar_diasm/libft/ft_strmap.o"
+	@echo "... corewar_diasm/libft/ft_strmap.i"
+	@echo "... corewar_diasm/libft/ft_strmap.s"
+	@echo "... corewar_diasm/libft/ft_strmapi.o"
+	@echo "... corewar_diasm/libft/ft_strmapi.i"
+	@echo "... corewar_diasm/libft/ft_strmapi.s"
+	@echo "... corewar_diasm/libft/ft_strncat.o"
+	@echo "... corewar_diasm/libft/ft_strncat.i"
+	@echo "... corewar_diasm/libft/ft_strncat.s"
+	@echo "... corewar_diasm/libft/ft_strncmp.o"
+	@echo "... corewar_diasm/libft/ft_strncmp.i"
+	@echo "... corewar_diasm/libft/ft_strncmp.s"
+	@echo "... corewar_diasm/libft/ft_strncpy.o"
+	@echo "... corewar_diasm/libft/ft_strncpy.i"
+	@echo "... corewar_diasm/libft/ft_strncpy.s"
+	@echo "... corewar_diasm/libft/ft_strncpy_wchar.o"
+	@echo "... corewar_diasm/libft/ft_strncpy_wchar.i"
+	@echo "... corewar_diasm/libft/ft_strncpy_wchar.s"
+	@echo "... corewar_diasm/libft/ft_strnequ.o"
+	@echo "... corewar_diasm/libft/ft_strnequ.i"
+	@echo "... corewar_diasm/libft/ft_strnequ.s"
+	@echo "... corewar_diasm/libft/ft_strnew.o"
+	@echo "... corewar_diasm/libft/ft_strnew.i"
+	@echo "... corewar_diasm/libft/ft_strnew.s"
+	@echo "... corewar_diasm/libft/ft_strnew_char_wchar.o"
+	@echo "... corewar_diasm/libft/ft_strnew_char_wchar.i"
+	@echo "... corewar_diasm/libft/ft_strnew_char_wchar.s"
+	@echo "... corewar_diasm/libft/ft_strnew_wchar.o"
+	@echo "... corewar_diasm/libft/ft_strnew_wchar.i"
+	@echo "... corewar_diasm/libft/ft_strnew_wchar.s"
+	@echo "... corewar_diasm/libft/ft_strnjoin.o"
+	@echo "... corewar_diasm/libft/ft_strnjoin.i"
+	@echo "... corewar_diasm/libft/ft_strnjoin.s"
+	@echo "... corewar_diasm/libft/ft_strnjoinfree.o"
+	@echo "... corewar_diasm/libft/ft_strnjoinfree.i"
+	@echo "... corewar_diasm/libft/ft_strnjoinfree.s"
+	@echo "... corewar_diasm/libft/ft_strnstr.o"
+	@echo "... corewar_diasm/libft/ft_strnstr.i"
+	@echo "... corewar_diasm/libft/ft_strnstr.s"
+	@echo "... corewar_diasm/libft/ft_strrchr.o"
+	@echo "... corewar_diasm/libft/ft_strrchr.i"
+	@echo "... corewar_diasm/libft/ft_strrchr.s"
+	@echo "... corewar_diasm/libft/ft_strsplit.o"
+	@echo "... corewar_diasm/libft/ft_strsplit.i"
+	@echo "... corewar_diasm/libft/ft_strsplit.s"
+	@echo "... corewar_diasm/libft/ft_strstr.o"
+	@echo "... corewar_diasm/libft/ft_strstr.i"
+	@echo "... corewar_diasm/libft/ft_strstr.s"
+	@echo "... corewar_diasm/libft/ft_strsub.o"
+	@echo "... corewar_diasm/libft/ft_strsub.i"
+	@echo "... corewar_diasm/libft/ft_strsub.s"
+	@echo "... corewar_diasm/libft/ft_strtrim.o"
+	@echo "... corewar_diasm/libft/ft_strtrim.i"
+	@echo "... corewar_diasm/libft/ft_strtrim.s"
+	@echo "... corewar_diasm/libft/ft_tolower.o"
+	@echo "... corewar_diasm/libft/ft_tolower.i"
+	@echo "... corewar_diasm/libft/ft_tolower.s"
+	@echo "... corewar_diasm/libft/ft_toupper.o"
+	@echo "... corewar_diasm/libft/ft_toupper.i"
+	@echo "... corewar_diasm/libft/ft_toupper.s"
+	@echo "... corewar_diasm/libft/ft_un_itoa.o"
+	@echo "... corewar_diasm/libft/ft_un_itoa.i"
+	@echo "... corewar_diasm/libft/ft_un_itoa.s"
+	@echo "... corewar_diasm/libft/get_next_line.o"
+	@echo "... corewar_diasm/libft/get_next_line.i"
+	@echo "... corewar_diasm/libft/get_next_line.s"
+	@echo "... corewar_diasm/libft/sys_err.o"
+	@echo "... corewar_diasm/libft/sys_err.i"
+	@echo "... corewar_diasm/libft/sys_err.s"
+	@echo "... corewar_diasm/libft/type_char.o"
+	@echo "... corewar_diasm/libft/type_char.i"
+	@echo "... corewar_diasm/libft/type_char.s"
+	@echo "... corewar_diasm/libft/type_float.o"
+	@echo "... corewar_diasm/libft/type_float.i"
+	@echo "... corewar_diasm/libft/type_float.s"
+	@echo "... corewar_diasm/libft/type_float2.o"
+	@echo "... corewar_diasm/libft/type_float2.i"
+	@echo "... corewar_diasm/libft/type_float2.s"
+	@echo "... corewar_diasm/libft/type_string.o"
+	@echo "... corewar_diasm/libft/type_string.i"
+	@echo "... corewar_diasm/libft/type_string.s"
+	@echo "... corewar_diasm/source/main.o"
+	@echo "... corewar_diasm/source/main.i"
+	@echo "... corewar_diasm/source/main.s"
+	@echo "... corewar_diasm/source/op_live_zjmp_fork_fork_add_sub_aff_and_or_xor.o"
+	@echo "... corewar_diasm/source/op_live_zjmp_fork_fork_add_sub_aff_and_or_xor.i"
+	@echo "... corewar_diasm/source/op_live_zjmp_fork_fork_add_sub_aff_and_or_xor.s"
+	@echo "... corewar_diasm/source/op_ls_lld_st_sti_ldi_lldi.o"
+	@echo "... corewar_diasm/source/op_ls_lld_st_sti_ldi_lldi.i"
+	@echo "... corewar_diasm/source/op_ls_lld_st_sti_ldi_lldi.s"
+	@echo "... corewar_diasm/source/print_bit_hex.o"
+	@echo "... corewar_diasm/source/print_bit_hex.i"
+	@echo "... corewar_diasm/source/print_bit_hex.s"
+	@echo "... corewar_diasm/source/read_byts.o"
+	@echo "... corewar_diasm/source/read_byts.i"
+	@echo "... corewar_diasm/source/read_byts.s"
+	@echo "... corewar_diasm/source/write_name_comment.o"
+	@echo "... corewar_diasm/source/write_name_comment.i"
+	@echo "... corewar_diasm/source/write_name_comment.s"
+	@echo "... corewar_diasm/source/write_to_file.o"
+	@echo "... corewar_diasm/source/write_to_file.i"
+	@echo "... corewar_diasm/source/write_to_file.s"
 	@echo "... ft_printf/libft/source/ft_atoi.o"
 	@echo "... ft_printf/libft/source/ft_atoi.i"
 	@echo "... ft_printf/libft/source/ft_atoi.s"
@@ -9597,6 +27975,420 @@ help:
 	@echo "... libft/get_next_line.o"
 	@echo "... libft/get_next_line.i"
 	@echo "... libft/get_next_line.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/buffer.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/buffer.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/buffer.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/cast_mod.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/cast_mod.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/cast_mod.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/format.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/format.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/format.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen_b.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen_b.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/ft_nblen_b.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/ft_power.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/ft_power.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/ft_power.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/ft_printf.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/ft_printf.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/ft_printf.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_nblen.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_nblen.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_nblen.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_power.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_power.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/ft_u_power.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/fwp_bin.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/fwp_bin.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/fwp_bin.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/fwp_char.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/fwp_char.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/fwp_char.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/fwp_hex.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/fwp_hex.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/fwp_hex.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/fwp_int.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/fwp_int.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/fwp_int.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/fwp_oct.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/fwp_oct.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/fwp_oct.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/fwp_ptr.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/fwp_ptr.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/fwp_ptr.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/fwp_u_int.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/fwp_u_int.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/fwp_u_int.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wchar.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wchar.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wchar.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wstr.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wstr.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/fwp_wstr.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/lst_arg.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/lst_arg.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/lst_arg.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/num_field.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/num_field.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/num_field.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/parser.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/parser.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/parser.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/str_field.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/str_field.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/ft_printf/str_field.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/get_next_line/ft_getline.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/get_next_line/ft_getline.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/get_next_line/ft_getline.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/get_next_line/get_next_line.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/get_next_line/get_next_line.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/get_next_line/get_next_line.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/memory/ft_bzero.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/memory/ft_bzero.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/memory/ft_bzero.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/memory/ft_memalloc.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/memory/ft_memalloc.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/memory/ft_memalloc.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/memory/ft_memccpy.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/memory/ft_memccpy.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/memory/ft_memccpy.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/memory/ft_memchr.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/memory/ft_memchr.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/memory/ft_memchr.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/memory/ft_memcmp.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/memory/ft_memcmp.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/memory/ft_memcmp.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/memory/ft_memcpy.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/memory/ft_memcpy.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/memory/ft_memcpy.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/memory/ft_memdel.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/memory/ft_memdel.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/memory/ft_memdel.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/memory/ft_memmove.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/memory/ft_memmove.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/memory/ft_memmove.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/memory/ft_memset.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/memory/ft_memset.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/memory/ft_memset.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/print/ft_putchar.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/print/ft_putchar.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/print/ft_putchar.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/print/ft_putchar_fd.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/print/ft_putchar_fd.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/print/ft_putchar_fd.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/print/ft_putendl.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/print/ft_putendl.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/print/ft_putendl.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/print/ft_putendl_fd.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/print/ft_putendl_fd.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/print/ft_putendl_fd.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/print/ft_putnbr.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/print/ft_putnbr.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/print/ft_putnbr.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/print/ft_putnbr_fd.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/print/ft_putnbr_fd.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/print/ft_putnbr_fd.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/print/ft_putstr.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/print/ft_putstr.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/print/ft_putstr.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/print/ft_putstr_fd.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/print/ft_putstr_fd.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/print/ft_putstr_fd.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstadd.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstadd.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstadd.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstaddback.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstaddback.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstaddback.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstappend.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstappend.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstappend.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdel.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdel.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdel.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdelone.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdelone.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstdelone.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstinttab.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstinttab.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstinttab.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstiter.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstiter.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstiter.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstlen.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstlen.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstlen.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstmap.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstmap.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstmap.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstnew.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstnew.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstnew.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpop.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpop.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpop.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpush.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpush.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/single_linked_list/ft_lstpush.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strcat.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strcat.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strcat.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strchr.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strchr.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strchr.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strclr.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strclr.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strclr.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strcmp.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strcmp.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strcmp.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strcpy.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strcpy.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strcpy.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strdel.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strdel.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strdel.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strdup.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strdup.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strdup.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strequ.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strequ.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strequ.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_striter.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_striter.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_striter.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_striteri.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_striteri.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_striteri.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strjoin.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strjoin.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strjoin.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strlcat.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strlcat.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strlcat.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strlen.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strlen.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strlen.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strmap.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strmap.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strmap.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strmapi.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strmapi.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strmapi.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strncat.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strncat.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strncat.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strncmp.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strncmp.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strncmp.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strncpy.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strncpy.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strncpy.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strnequ.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strnequ.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strnequ.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strnew.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strnew.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strnew.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strnstr.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strnstr.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strnstr.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strrchr.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strrchr.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strrchr.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strrev.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strrev.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strrev.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strsplit.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strsplit.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strsplit.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strsplitdel.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strsplitdel.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strsplitdel.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strstr.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strstr.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strstr.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strsub.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strsub.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strsub.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strtrim.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strtrim.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/strings/ft_strtrim.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_atoi.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_atoi.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_atoi.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_isalnum.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_isalnum.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_isalnum.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_isalpha.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_isalpha.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_isalpha.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_isascii.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_isascii.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_isascii.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_isdigit.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_isdigit.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_isdigit.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_isdigitstr.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_isdigitstr.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_isdigitstr.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_islower.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_islower.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_islower.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_isprint.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_isprint.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_isprint.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_isspace.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_isspace.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_isspace.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_isupper.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_isupper.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_isupper.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_itoa.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_itoa.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_itoa.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_squeeze.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_squeeze.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_squeeze.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_tolower.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_tolower.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_tolower.s"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_toupper.o"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_toupper.i"
+	@echo "... new_check_kk/Corewar/libft/srcs/utils/ft_toupper.s"
+	@echo "... new_check_kk/Corewar/srcs/asm/asm.o"
+	@echo "... new_check_kk/Corewar/srcs/asm/asm.i"
+	@echo "... new_check_kk/Corewar/srcs/asm/asm.s"
+	@echo "... new_check_kk/Corewar/srcs/asm/asm_utils.o"
+	@echo "... new_check_kk/Corewar/srcs/asm/asm_utils.i"
+	@echo "... new_check_kk/Corewar/srcs/asm/asm_utils.s"
+	@echo "... new_check_kk/Corewar/srcs/asm/deasm.o"
+	@echo "... new_check_kk/Corewar/srcs/asm/deasm.i"
+	@echo "... new_check_kk/Corewar/srcs/asm/deasm.s"
+	@echo "... new_check_kk/Corewar/srcs/asm/deasm_manage.o"
+	@echo "... new_check_kk/Corewar/srcs/asm/deasm_manage.i"
+	@echo "... new_check_kk/Corewar/srcs/asm/deasm_manage.s"
+	@echo "... new_check_kk/Corewar/srcs/asm/fixed_io.o"
+	@echo "... new_check_kk/Corewar/srcs/asm/fixed_io.i"
+	@echo "... new_check_kk/Corewar/srcs/asm/fixed_io.s"
+	@echo "... new_check_kk/Corewar/srcs/asm/label.o"
+	@echo "... new_check_kk/Corewar/srcs/asm/label.i"
+	@echo "... new_check_kk/Corewar/srcs/asm/label.s"
+	@echo "... new_check_kk/Corewar/srcs/asm/label_init.o"
+	@echo "... new_check_kk/Corewar/srcs/asm/label_init.i"
+	@echo "... new_check_kk/Corewar/srcs/asm/label_init.s"
+	@echo "... new_check_kk/Corewar/srcs/asm/label_utils.o"
+	@echo "... new_check_kk/Corewar/srcs/asm/label_utils.i"
+	@echo "... new_check_kk/Corewar/srcs/asm/label_utils.s"
+	@echo "... new_check_kk/Corewar/srcs/asm/lexer.o"
+	@echo "... new_check_kk/Corewar/srcs/asm/lexer.i"
+	@echo "... new_check_kk/Corewar/srcs/asm/lexer.s"
+	@echo "... new_check_kk/Corewar/srcs/asm/op.o"
+	@echo "... new_check_kk/Corewar/srcs/asm/op.i"
+	@echo "... new_check_kk/Corewar/srcs/asm/op.s"
+	@echo "... new_check_kk/Corewar/srcs/asm/parser.o"
+	@echo "... new_check_kk/Corewar/srcs/asm/parser.i"
+	@echo "... new_check_kk/Corewar/srcs/asm/parser.s"
+	@echo "... new_check_kk/Corewar/srcs/asm/parser_header.o"
+	@echo "... new_check_kk/Corewar/srcs/asm/parser_header.i"
+	@echo "... new_check_kk/Corewar/srcs/asm/parser_header.s"
+	@echo "... new_check_kk/Corewar/srcs/asm/parser_init.o"
+	@echo "... new_check_kk/Corewar/srcs/asm/parser_init.i"
+	@echo "... new_check_kk/Corewar/srcs/asm/parser_init.s"
+	@echo "... new_check_kk/Corewar/srcs/asm/scanner.o"
+	@echo "... new_check_kk/Corewar/srcs/asm/scanner.i"
+	@echo "... new_check_kk/Corewar/srcs/asm/scanner.s"
+	@echo "... new_check_kk/Corewar/srcs/corewar/corewar.o"
+	@echo "... new_check_kk/Corewar/srcs/corewar/corewar.i"
+	@echo "... new_check_kk/Corewar/srcs/corewar/corewar.s"
+	@echo "... new_check_kk/Corewar/srcs/corewar/get_players.o"
+	@echo "... new_check_kk/Corewar/srcs/corewar/get_players.i"
+	@echo "... new_check_kk/Corewar/srcs/corewar/get_players.s"
+	@echo "... new_check_kk/Corewar/srcs/corewar/get_players_errors.o"
+	@echo "... new_check_kk/Corewar/srcs/corewar/get_players_errors.i"
+	@echo "... new_check_kk/Corewar/srcs/corewar/get_players_errors.s"
+	@echo "... new_check_kk/Corewar/srcs/corewar/load_arena.o"
+	@echo "... new_check_kk/Corewar/srcs/corewar/load_arena.i"
+	@echo "... new_check_kk/Corewar/srcs/corewar/load_arena.s"
+	@echo "... new_check_kk/Corewar/srcs/corewar/op.o"
+	@echo "... new_check_kk/Corewar/srcs/corewar/op.i"
+	@echo "... new_check_kk/Corewar/srcs/corewar/op.s"
+	@echo "... new_check_kk/Corewar/srcs/corewar/op_shift.o"
+	@echo "... new_check_kk/Corewar/srcs/corewar/op_shift.i"
+	@echo "... new_check_kk/Corewar/srcs/corewar/op_shift.s"
+	@echo "... new_check_kk/Corewar/srcs/corewar/operate.o"
+	@echo "... new_check_kk/Corewar/srcs/corewar/operate.i"
+	@echo "... new_check_kk/Corewar/srcs/corewar/operate.s"
+	@echo "... new_check_kk/Corewar/srcs/corewar/operation_1.o"
+	@echo "... new_check_kk/Corewar/srcs/corewar/operation_1.i"
+	@echo "... new_check_kk/Corewar/srcs/corewar/operation_1.s"
+	@echo "... new_check_kk/Corewar/srcs/corewar/operation_2.o"
+	@echo "... new_check_kk/Corewar/srcs/corewar/operation_2.i"
+	@echo "... new_check_kk/Corewar/srcs/corewar/operation_2.s"
+	@echo "... new_check_kk/Corewar/srcs/corewar/operation_2b.o"
+	@echo "... new_check_kk/Corewar/srcs/corewar/operation_2b.i"
+	@echo "... new_check_kk/Corewar/srcs/corewar/operation_2b.s"
+	@echo "... new_check_kk/Corewar/srcs/corewar/operation_3.o"
+	@echo "... new_check_kk/Corewar/srcs/corewar/operation_3.i"
+	@echo "... new_check_kk/Corewar/srcs/corewar/operation_3.s"
+	@echo "... new_check_kk/Corewar/srcs/corewar/operation_4.o"
+	@echo "... new_check_kk/Corewar/srcs/corewar/operation_4.i"
+	@echo "... new_check_kk/Corewar/srcs/corewar/operation_4.s"
+	@echo "... new_check_kk/Corewar/srcs/corewar/operation_4b.o"
+	@echo "... new_check_kk/Corewar/srcs/corewar/operation_4b.i"
+	@echo "... new_check_kk/Corewar/srcs/corewar/operation_4b.s"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vm_debbug.o"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vm_debbug.i"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vm_debbug.s"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vm_game.o"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vm_game.i"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vm_game.s"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vm_init_free.o"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vm_init_free.i"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vm_init_free.s"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vm_parsing.o"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vm_parsing.i"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vm_parsing.s"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_draw_img.o"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_draw_img.i"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_draw_img.s"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_draw_life.o"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_draw_life.i"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_draw_life.s"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_draw_tools.o"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_draw_tools.i"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_draw_tools.s"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_init.o"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_init.i"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_init.s"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_init_win.o"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_init_win.i"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_init_win.s"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_maj_process.o"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_maj_process.i"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_maj_process.s"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_maj_win.o"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_maj_win.i"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_maj_win.s"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_th_anim.o"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_th_anim.i"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_th_anim.s"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_th_core.o"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_th_core.i"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_th_core.s"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_th_input.o"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_th_input.i"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_th_input.s"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_th_render.o"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_th_render.i"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_th_render.s"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_th_timer.o"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_th_timer.i"
+	@echo "... new_check_kk/Corewar/srcs/corewar/vw_th_timer.s"
 	@echo "... src_cor/arena.o"
 	@echo "... src_cor/arena.i"
 	@echo "... src_cor/arena.s"
@@ -9672,6 +28464,414 @@ help:
 	@echo "... src_cor/write_map.o"
 	@echo "... src_cor/write_map.i"
 	@echo "... src_cor/write_map.s"
+	@echo "... src_cor_4/arena.o"
+	@echo "... src_cor_4/arena.i"
+	@echo "... src_cor_4/arena.s"
+	@echo "... src_cor_4/carr_list.o"
+	@echo "... src_cor_4/carr_list.i"
+	@echo "... src_cor_4/carr_list.s"
+	@echo "... src_cor_4/champ.o"
+	@echo "... src_cor_4/champ.i"
+	@echo "... src_cor_4/champ.s"
+	@echo "... src_cor_4/ft_add.o"
+	@echo "... src_cor_4/ft_add.i"
+	@echo "... src_cor_4/ft_add.s"
+	@echo "... src_cor_4/ft_aff.o"
+	@echo "... src_cor_4/ft_aff.i"
+	@echo "... src_cor_4/ft_aff.s"
+	@echo "... src_cor_4/ft_and.o"
+	@echo "... src_cor_4/ft_and.i"
+	@echo "... src_cor_4/ft_and.s"
+	@echo "... src_cor_4/ft_fork_lfork.o"
+	@echo "... src_cor_4/ft_fork_lfork.i"
+	@echo "... src_cor_4/ft_fork_lfork.s"
+	@echo "... src_cor_4/ft_ld.o"
+	@echo "... src_cor_4/ft_ld.i"
+	@echo "... src_cor_4/ft_ld.s"
+	@echo "... src_cor_4/ft_liba.o"
+	@echo "... src_cor_4/ft_liba.i"
+	@echo "... src_cor_4/ft_liba.s"
+	@echo "... src_cor_4/ft_live.o"
+	@echo "... src_cor_4/ft_live.i"
+	@echo "... src_cor_4/ft_live.s"
+	@echo "... src_cor_4/ft_or_xor.o"
+	@echo "... src_cor_4/ft_or_xor.i"
+	@echo "... src_cor_4/ft_or_xor.s"
+	@echo "... src_cor_4/ft_st.o"
+	@echo "... src_cor_4/ft_st.i"
+	@echo "... src_cor_4/ft_st.s"
+	@echo "... src_cor_4/ft_sti.o"
+	@echo "... src_cor_4/ft_sti.i"
+	@echo "... src_cor_4/ft_sti.s"
+	@echo "... src_cor_4/ft_sub.o"
+	@echo "... src_cor_4/ft_sub.i"
+	@echo "... src_cor_4/ft_sub.s"
+	@echo "... src_cor_4/go_cor.o"
+	@echo "... src_cor_4/go_cor.i"
+	@echo "... src_cor_4/go_cor.s"
+	@echo "... src_cor_4/main.o"
+	@echo "... src_cor_4/main.i"
+	@echo "... src_cor_4/main.s"
+	@echo "... src_cor_4/print_code.o"
+	@echo "... src_cor_4/print_code.i"
+	@echo "... src_cor_4/print_code.s"
+	@echo "... src_cor_4/read_byte.o"
+	@echo "... src_cor_4/read_byte.i"
+	@echo "... src_cor_4/read_byte.s"
+	@echo "... src_cor_7/arena.o"
+	@echo "... src_cor_7/arena.i"
+	@echo "... src_cor_7/arena.s"
+	@echo "... src_cor_7/carr_list.o"
+	@echo "... src_cor_7/carr_list.i"
+	@echo "... src_cor_7/carr_list.s"
+	@echo "... src_cor_7/champ.o"
+	@echo "... src_cor_7/champ.i"
+	@echo "... src_cor_7/champ.s"
+	@echo "... src_cor_7/do_op.o"
+	@echo "... src_cor_7/do_op.i"
+	@echo "... src_cor_7/do_op.s"
+	@echo "... src_cor_7/ft_add.o"
+	@echo "... src_cor_7/ft_add.i"
+	@echo "... src_cor_7/ft_add.s"
+	@echo "... src_cor_7/ft_aff.o"
+	@echo "... src_cor_7/ft_aff.i"
+	@echo "... src_cor_7/ft_aff.s"
+	@echo "... src_cor_7/ft_and.o"
+	@echo "... src_cor_7/ft_and.i"
+	@echo "... src_cor_7/ft_and.s"
+	@echo "... src_cor_7/ft_fork_lfork.o"
+	@echo "... src_cor_7/ft_fork_lfork.i"
+	@echo "... src_cor_7/ft_fork_lfork.s"
+	@echo "... src_cor_7/ft_ld.o"
+	@echo "... src_cor_7/ft_ld.i"
+	@echo "... src_cor_7/ft_ld.s"
+	@echo "... src_cor_7/ft_ldi.o"
+	@echo "... src_cor_7/ft_ldi.i"
+	@echo "... src_cor_7/ft_ldi.s"
+	@echo "... src_cor_7/ft_liba.o"
+	@echo "... src_cor_7/ft_liba.i"
+	@echo "... src_cor_7/ft_liba.s"
+	@echo "... src_cor_7/ft_live.o"
+	@echo "... src_cor_7/ft_live.i"
+	@echo "... src_cor_7/ft_live.s"
+	@echo "... src_cor_7/ft_or_xor.o"
+	@echo "... src_cor_7/ft_or_xor.i"
+	@echo "... src_cor_7/ft_or_xor.s"
+	@echo "... src_cor_7/ft_st.o"
+	@echo "... src_cor_7/ft_st.i"
+	@echo "... src_cor_7/ft_st.s"
+	@echo "... src_cor_7/ft_sti.o"
+	@echo "... src_cor_7/ft_sti.i"
+	@echo "... src_cor_7/ft_sti.s"
+	@echo "... src_cor_7/ft_sub.o"
+	@echo "... src_cor_7/ft_sub.i"
+	@echo "... src_cor_7/ft_sub.s"
+	@echo "... src_cor_7/ft_zjmp.o"
+	@echo "... src_cor_7/ft_zjmp.i"
+	@echo "... src_cor_7/ft_zjmp.s"
+	@echo "... src_cor_7/go_cor.o"
+	@echo "... src_cor_7/go_cor.i"
+	@echo "... src_cor_7/go_cor.s"
+	@echo "... src_cor_7/main.o"
+	@echo "... src_cor_7/main.i"
+	@echo "... src_cor_7/main.s"
+	@echo "... src_cor_7/parse_av.o"
+	@echo "... src_cor_7/parse_av.i"
+	@echo "... src_cor_7/parse_av.s"
+	@echo "... src_cor_7/print_code.o"
+	@echo "... src_cor_7/print_code.i"
+	@echo "... src_cor_7/print_code.s"
+	@echo "... src_cor_7/read_byte.o"
+	@echo "... src_cor_7/read_byte.i"
+	@echo "... src_cor_7/read_byte.s"
+	@echo "... src_cor_7/visu_cicle.o"
+	@echo "... src_cor_7/visu_cicle.i"
+	@echo "... src_cor_7/visu_cicle.s"
+	@echo "... src_cor_7/visu_init.o"
+	@echo "... src_cor_7/visu_init.i"
+	@echo "... src_cor_7/visu_init.s"
+	@echo "... src_cor_7/write_map.o"
+	@echo "... src_cor_7/write_map.i"
+	@echo "... src_cor_7/write_map.s"
+	@echo "... src_cor_arina_X/arena.o"
+	@echo "... src_cor_arina_X/arena.i"
+	@echo "... src_cor_arina_X/arena.s"
+	@echo "... src_cor_arina_X/carr_list.o"
+	@echo "... src_cor_arina_X/carr_list.i"
+	@echo "... src_cor_arina_X/carr_list.s"
+	@echo "... src_cor_arina_X/champ.o"
+	@echo "... src_cor_arina_X/champ.i"
+	@echo "... src_cor_arina_X/champ.s"
+	@echo "... src_cor_arina_X/do_op.o"
+	@echo "... src_cor_arina_X/do_op.i"
+	@echo "... src_cor_arina_X/do_op.s"
+	@echo "... src_cor_arina_X/ft_add.o"
+	@echo "... src_cor_arina_X/ft_add.i"
+	@echo "... src_cor_arina_X/ft_add.s"
+	@echo "... src_cor_arina_X/ft_aff.o"
+	@echo "... src_cor_arina_X/ft_aff.i"
+	@echo "... src_cor_arina_X/ft_aff.s"
+	@echo "... src_cor_arina_X/ft_and.o"
+	@echo "... src_cor_arina_X/ft_and.i"
+	@echo "... src_cor_arina_X/ft_and.s"
+	@echo "... src_cor_arina_X/ft_fork_lfork.o"
+	@echo "... src_cor_arina_X/ft_fork_lfork.i"
+	@echo "... src_cor_arina_X/ft_fork_lfork.s"
+	@echo "... src_cor_arina_X/ft_ld.o"
+	@echo "... src_cor_arina_X/ft_ld.i"
+	@echo "... src_cor_arina_X/ft_ld.s"
+	@echo "... src_cor_arina_X/ft_ldi.o"
+	@echo "... src_cor_arina_X/ft_ldi.i"
+	@echo "... src_cor_arina_X/ft_ldi.s"
+	@echo "... src_cor_arina_X/ft_liba.o"
+	@echo "... src_cor_arina_X/ft_liba.i"
+	@echo "... src_cor_arina_X/ft_liba.s"
+	@echo "... src_cor_arina_X/ft_live.o"
+	@echo "... src_cor_arina_X/ft_live.i"
+	@echo "... src_cor_arina_X/ft_live.s"
+	@echo "... src_cor_arina_X/ft_or_xor.o"
+	@echo "... src_cor_arina_X/ft_or_xor.i"
+	@echo "... src_cor_arina_X/ft_or_xor.s"
+	@echo "... src_cor_arina_X/ft_st.o"
+	@echo "... src_cor_arina_X/ft_st.i"
+	@echo "... src_cor_arina_X/ft_st.s"
+	@echo "... src_cor_arina_X/ft_sti.o"
+	@echo "... src_cor_arina_X/ft_sti.i"
+	@echo "... src_cor_arina_X/ft_sti.s"
+	@echo "... src_cor_arina_X/ft_sub.o"
+	@echo "... src_cor_arina_X/ft_sub.i"
+	@echo "... src_cor_arina_X/ft_sub.s"
+	@echo "... src_cor_arina_X/ft_zjmp.o"
+	@echo "... src_cor_arina_X/ft_zjmp.i"
+	@echo "... src_cor_arina_X/ft_zjmp.s"
+	@echo "... src_cor_arina_X/go_cor.o"
+	@echo "... src_cor_arina_X/go_cor.i"
+	@echo "... src_cor_arina_X/go_cor.s"
+	@echo "... src_cor_arina_X/main.o"
+	@echo "... src_cor_arina_X/main.i"
+	@echo "... src_cor_arina_X/main.s"
+	@echo "... src_cor_arina_X/parse_av.o"
+	@echo "... src_cor_arina_X/parse_av.i"
+	@echo "... src_cor_arina_X/parse_av.s"
+	@echo "... src_cor_arina_X/print_code.o"
+	@echo "... src_cor_arina_X/print_code.i"
+	@echo "... src_cor_arina_X/print_code.s"
+	@echo "... src_cor_arina_X/read_byte.o"
+	@echo "... src_cor_arina_X/read_byte.i"
+	@echo "... src_cor_arina_X/read_byte.s"
+	@echo "... src_cor_arina_X/visu_cicle.o"
+	@echo "... src_cor_arina_X/visu_cicle.i"
+	@echo "... src_cor_arina_X/visu_cicle.s"
+	@echo "... src_cor_arina_X/visu_init.o"
+	@echo "... src_cor_arina_X/visu_init.i"
+	@echo "... src_cor_arina_X/visu_init.s"
+	@echo "... src_cor_arina_X/write_map.o"
+	@echo "... src_cor_arina_X/write_map.i"
+	@echo "... src_cor_arina_X/write_map.s"
+	@echo "... src_cor_int/arena.o"
+	@echo "... src_cor_int/arena.i"
+	@echo "... src_cor_int/arena.s"
+	@echo "... src_cor_int/carr_list.o"
+	@echo "... src_cor_int/carr_list.i"
+	@echo "... src_cor_int/carr_list.s"
+	@echo "... src_cor_int/champ.o"
+	@echo "... src_cor_int/champ.i"
+	@echo "... src_cor_int/champ.s"
+	@echo "... src_cor_int/do_op.o"
+	@echo "... src_cor_int/do_op.i"
+	@echo "... src_cor_int/do_op.s"
+	@echo "... src_cor_int/ft_add.o"
+	@echo "... src_cor_int/ft_add.i"
+	@echo "... src_cor_int/ft_add.s"
+	@echo "... src_cor_int/ft_aff.o"
+	@echo "... src_cor_int/ft_aff.i"
+	@echo "... src_cor_int/ft_aff.s"
+	@echo "... src_cor_int/ft_and.o"
+	@echo "... src_cor_int/ft_and.i"
+	@echo "... src_cor_int/ft_and.s"
+	@echo "... src_cor_int/ft_fork_lfork.o"
+	@echo "... src_cor_int/ft_fork_lfork.i"
+	@echo "... src_cor_int/ft_fork_lfork.s"
+	@echo "... src_cor_int/ft_ld.o"
+	@echo "... src_cor_int/ft_ld.i"
+	@echo "... src_cor_int/ft_ld.s"
+	@echo "... src_cor_int/ft_ldi.o"
+	@echo "... src_cor_int/ft_ldi.i"
+	@echo "... src_cor_int/ft_ldi.s"
+	@echo "... src_cor_int/ft_liba.o"
+	@echo "... src_cor_int/ft_liba.i"
+	@echo "... src_cor_int/ft_liba.s"
+	@echo "... src_cor_int/ft_live.o"
+	@echo "... src_cor_int/ft_live.i"
+	@echo "... src_cor_int/ft_live.s"
+	@echo "... src_cor_int/ft_or_xor.o"
+	@echo "... src_cor_int/ft_or_xor.i"
+	@echo "... src_cor_int/ft_or_xor.s"
+	@echo "... src_cor_int/ft_st.o"
+	@echo "... src_cor_int/ft_st.i"
+	@echo "... src_cor_int/ft_st.s"
+	@echo "... src_cor_int/ft_sti.o"
+	@echo "... src_cor_int/ft_sti.i"
+	@echo "... src_cor_int/ft_sti.s"
+	@echo "... src_cor_int/ft_sub.o"
+	@echo "... src_cor_int/ft_sub.i"
+	@echo "... src_cor_int/ft_sub.s"
+	@echo "... src_cor_int/ft_zjmp.o"
+	@echo "... src_cor_int/ft_zjmp.i"
+	@echo "... src_cor_int/ft_zjmp.s"
+	@echo "... src_cor_int/go_cor.o"
+	@echo "... src_cor_int/go_cor.i"
+	@echo "... src_cor_int/go_cor.s"
+	@echo "... src_cor_int/main.o"
+	@echo "... src_cor_int/main.i"
+	@echo "... src_cor_int/main.s"
+	@echo "... src_cor_int/parse_av.o"
+	@echo "... src_cor_int/parse_av.i"
+	@echo "... src_cor_int/parse_av.s"
+	@echo "... src_cor_int/print_code.o"
+	@echo "... src_cor_int/print_code.i"
+	@echo "... src_cor_int/print_code.s"
+	@echo "... src_cor_int/read_byte.o"
+	@echo "... src_cor_int/read_byte.i"
+	@echo "... src_cor_int/read_byte.s"
+	@echo "... src_cor_int/visu_cicle.o"
+	@echo "... src_cor_int/visu_cicle.i"
+	@echo "... src_cor_int/visu_cicle.s"
+	@echo "... src_cor_int/visu_init.o"
+	@echo "... src_cor_int/visu_init.i"
+	@echo "... src_cor_int/visu_init.s"
+	@echo "... src_cor_int/write_map.o"
+	@echo "... src_cor_int/write_map.i"
+	@echo "... src_cor_int/write_map.s"
+	@echo "... src_cor_last/arena.o"
+	@echo "... src_cor_last/arena.i"
+	@echo "... src_cor_last/arena.s"
+	@echo "... src_cor_last/carr_list.o"
+	@echo "... src_cor_last/carr_list.i"
+	@echo "... src_cor_last/carr_list.s"
+	@echo "... src_cor_last/champ.o"
+	@echo "... src_cor_last/champ.i"
+	@echo "... src_cor_last/champ.s"
+	@echo "... src_cor_last/do_op.o"
+	@echo "... src_cor_last/do_op.i"
+	@echo "... src_cor_last/do_op.s"
+	@echo "... src_cor_last/ft_add.o"
+	@echo "... src_cor_last/ft_add.i"
+	@echo "... src_cor_last/ft_add.s"
+	@echo "... src_cor_last/ft_aff.o"
+	@echo "... src_cor_last/ft_aff.i"
+	@echo "... src_cor_last/ft_aff.s"
+	@echo "... src_cor_last/ft_and.o"
+	@echo "... src_cor_last/ft_and.i"
+	@echo "... src_cor_last/ft_and.s"
+	@echo "... src_cor_last/ft_fork_lfork.o"
+	@echo "... src_cor_last/ft_fork_lfork.i"
+	@echo "... src_cor_last/ft_fork_lfork.s"
+	@echo "... src_cor_last/ft_ld.o"
+	@echo "... src_cor_last/ft_ld.i"
+	@echo "... src_cor_last/ft_ld.s"
+	@echo "... src_cor_last/ft_ldi.o"
+	@echo "... src_cor_last/ft_ldi.i"
+	@echo "... src_cor_last/ft_ldi.s"
+	@echo "... src_cor_last/ft_liba.o"
+	@echo "... src_cor_last/ft_liba.i"
+	@echo "... src_cor_last/ft_liba.s"
+	@echo "... src_cor_last/ft_live.o"
+	@echo "... src_cor_last/ft_live.i"
+	@echo "... src_cor_last/ft_live.s"
+	@echo "... src_cor_last/ft_or_xor.o"
+	@echo "... src_cor_last/ft_or_xor.i"
+	@echo "... src_cor_last/ft_or_xor.s"
+	@echo "... src_cor_last/ft_st.o"
+	@echo "... src_cor_last/ft_st.i"
+	@echo "... src_cor_last/ft_st.s"
+	@echo "... src_cor_last/ft_sti.o"
+	@echo "... src_cor_last/ft_sti.i"
+	@echo "... src_cor_last/ft_sti.s"
+	@echo "... src_cor_last/ft_sub.o"
+	@echo "... src_cor_last/ft_sub.i"
+	@echo "... src_cor_last/ft_sub.s"
+	@echo "... src_cor_last/ft_zjmp.o"
+	@echo "... src_cor_last/ft_zjmp.i"
+	@echo "... src_cor_last/ft_zjmp.s"
+	@echo "... src_cor_last/go_cor.o"
+	@echo "... src_cor_last/go_cor.i"
+	@echo "... src_cor_last/go_cor.s"
+	@echo "... src_cor_last/main.o"
+	@echo "... src_cor_last/main.i"
+	@echo "... src_cor_last/main.s"
+	@echo "... src_cor_last/parse_av.o"
+	@echo "... src_cor_last/parse_av.i"
+	@echo "... src_cor_last/parse_av.s"
+	@echo "... src_cor_last/print_code.o"
+	@echo "... src_cor_last/print_code.i"
+	@echo "... src_cor_last/print_code.s"
+	@echo "... src_cor_last/read_byte.o"
+	@echo "... src_cor_last/read_byte.i"
+	@echo "... src_cor_last/read_byte.s"
+	@echo "... src_cor_last/visu_cicle.o"
+	@echo "... src_cor_last/visu_cicle.i"
+	@echo "... src_cor_last/visu_cicle.s"
+	@echo "... src_cor_last/visu_init.o"
+	@echo "... src_cor_last/visu_init.i"
+	@echo "... src_cor_last/visu_init.s"
+	@echo "... src_cor_last/write_map.o"
+	@echo "... src_cor_last/write_map.i"
+	@echo "... src_cor_last/write_map.s"
+	@echo "... src_cor_norm/arena.o"
+	@echo "... src_cor_norm/arena.i"
+	@echo "... src_cor_norm/arena.s"
+	@echo "... src_cor_norm/carr_list.o"
+	@echo "... src_cor_norm/carr_list.i"
+	@echo "... src_cor_norm/carr_list.s"
+	@echo "... src_cor_norm/champ.o"
+	@echo "... src_cor_norm/champ.i"
+	@echo "... src_cor_norm/champ.s"
+	@echo "... src_cor_norm/ft_add.o"
+	@echo "... src_cor_norm/ft_add.i"
+	@echo "... src_cor_norm/ft_add.s"
+	@echo "... src_cor_norm/ft_aff.o"
+	@echo "... src_cor_norm/ft_aff.i"
+	@echo "... src_cor_norm/ft_aff.s"
+	@echo "... src_cor_norm/ft_and.o"
+	@echo "... src_cor_norm/ft_and.i"
+	@echo "... src_cor_norm/ft_and.s"
+	@echo "... src_cor_norm/ft_fork_lfork.o"
+	@echo "... src_cor_norm/ft_fork_lfork.i"
+	@echo "... src_cor_norm/ft_fork_lfork.s"
+	@echo "... src_cor_norm/ft_ld.o"
+	@echo "... src_cor_norm/ft_ld.i"
+	@echo "... src_cor_norm/ft_ld.s"
+	@echo "... src_cor_norm/ft_liba.o"
+	@echo "... src_cor_norm/ft_liba.i"
+	@echo "... src_cor_norm/ft_liba.s"
+	@echo "... src_cor_norm/ft_live.o"
+	@echo "... src_cor_norm/ft_live.i"
+	@echo "... src_cor_norm/ft_live.s"
+	@echo "... src_cor_norm/ft_or_xor.o"
+	@echo "... src_cor_norm/ft_or_xor.i"
+	@echo "... src_cor_norm/ft_or_xor.s"
+	@echo "... src_cor_norm/ft_st.o"
+	@echo "... src_cor_norm/ft_st.i"
+	@echo "... src_cor_norm/ft_st.s"
+	@echo "... src_cor_norm/ft_sti.o"
+	@echo "... src_cor_norm/ft_sti.i"
+	@echo "... src_cor_norm/ft_sti.s"
+	@echo "... src_cor_norm/ft_sub.o"
+	@echo "... src_cor_norm/ft_sub.i"
+	@echo "... src_cor_norm/ft_sub.s"
+	@echo "... src_cor_norm/go_cor.o"
+	@echo "... src_cor_norm/go_cor.i"
+	@echo "... src_cor_norm/go_cor.s"
+	@echo "... src_cor_norm/main.o"
+	@echo "... src_cor_norm/main.i"
+	@echo "... src_cor_norm/main.s"
+	@echo "... src_cor_norm/print_code.o"
+	@echo "... src_cor_norm/print_code.i"
+	@echo "... src_cor_norm/print_code.s"
+	@echo "... src_cor_norm/read_byte.o"
+	@echo "... src_cor_norm/read_byte.i"
+	@echo "... src_cor_norm/read_byte.s"
 .PHONY : help
 
 

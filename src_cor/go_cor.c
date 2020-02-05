@@ -125,7 +125,7 @@ void		go_cor(t_cor *cor)
 
 	while (cor->carr)
 	{
-		//ft_printf("c = %d, cyc_to_die=%d\n", cor->live->cyc, cor->live->cyc_to_die);
+		ft_printf("c = %d, cyc_to_die=%d, len_cur = %d\n", cor->live->cyc, cor->live->cyc_to_die, len_curr(cor->carr));
 
 
 		
