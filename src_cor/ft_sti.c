@@ -33,11 +33,13 @@
 static int		len_l(t_cor *cor, t_carr *tmp, char *b2, int *f_err)
 {
 	int				l;
+	int k;
 	unsigned char	t_reg_2;
 
 	l = 0;
 	l += arg_2(b2 + 2, tmp, cor, f_err);
-	//ft_printf("arg2 = %d\n", l);
+	ft_printf("arg[1] = %d\n", l);
+	k = l;
 	if (b2[4] == 0 && b2[5] == 1)
 	{
 		t_reg_2 = read_byte_1(cor->code, tmp->cur + tmp->i++);
@@ -57,7 +59,7 @@ static int		len_l(t_cor *cor, t_carr *tmp, char *b2, int *f_err)
 		tmp->i += 2 * b2[4];
 		*f_err = 1;
 	}
-	//ft_printf("%arg2 = %d\n", l);
+	ft_printf("arg[0]= %d\n", l - k);
 	return (l);
 }
 
@@ -71,6 +73,8 @@ static void		write_sti(t_cor *cor, t_carr *tmp, unsigned char t_reg, int l)
 	p = inttobyte(tmp->reg[t_reg - 1]);
 	write_map_color(cor, l, 4, tmp);
 	copy_p(cor->code, p, l, 0);
+	ft_printf("addr_st = [%d]\n", l % MEM_SIZE);
+
 	free(p);
 }
 
@@ -82,11 +86,13 @@ void			ft_sti(t_cor *cor, t_carr *tmp)
 	char			*b2;
 
 	tmp->i = 2;
+	ft_printf("STI_OP\n");
 	b2 = base16_2_cor(cor, tmp);
 	f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;
 	if (b2[0] == 0 && b2[1] == 1)
 	{
 		t_reg = read_byte_1(cor->code, tmp->cur + tmp->i++);
+		ft_printf("arg[2] = %d\n", tmp->reg[t_reg]);
 		if (!(VAL_REG(t_reg)))
 			f_err = 1;
 	}

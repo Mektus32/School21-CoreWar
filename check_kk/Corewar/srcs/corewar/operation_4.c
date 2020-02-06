@@ -109,6 +109,7 @@ void	op_sti(t_vm *v, t_list *process)
 	arg_nb = 3;
 	shift = 0;
 	save = B_OCT;
+	ft_printf("STI_OP\n");
 	if (check_arg(10, B_OCT, arg_nb))
 	{
 		while (arg_nb--)
@@ -118,9 +119,12 @@ void	op_sti(t_vm *v, t_list *process)
 				break ;
 			val[arg_nb] = arg_nb == 2 ? ARENA(PC + 2 + shift++) - 1 :
 		get_ar(v, process, &shift, ((B_OCT >> ((arg_nb + 1) * 2)) & 0b11) + 4);
+		ft_printf("arg[%d], = %d\n", arg_nb, val[arg_nb]);
 			if (!arg_nb)
-				exe_sti(v, process, val);
+				exe_sti(v, process, val); // только тут вызывается
+		
 		}
+		//exe_sti(v, process, val); // только тут вызывается
 	}
 	if (DISPLAY && (v->verbose_param & FLAG_VERBOSE_PCMOVE))
 		print_adv(v, process, octal_shift(save, 2, 3));

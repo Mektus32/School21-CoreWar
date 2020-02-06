@@ -23,6 +23,7 @@ void	print_adv(t_vm *v, t_list *process, int shift)
 	ft_printf("\n");
 }
 
+// val - это точисло которое записывается
 void	print_reg(t_vm *v, t_list *process, unsigned int val, int addr)
 {
 	char i;
@@ -34,7 +35,6 @@ void	print_reg(t_vm *v, t_list *process, unsigned int val, int addr)
 		ARENA(addr--) = val & 0xFF;
 		val >>= 8;
 	}
-	ft_printf("addr_st = [%d]\n", (addr + 1) % MEM_SIZE);
 }
 
 int		check_arg(t_uchar arg, t_uchar n, t_uchar arg_nb)
