@@ -1,0 +1,18 @@
+#!/bin/bash
+#make
+for ((i = $1; i <= $9999000; i = i + $2))
+do
+#echo "Cikles $i"
+./corewar_arina  $3.cor $4.cor  -dump $i > test 
+
+end_file=13000
+v_1_end=$(wc -c <test)
+
+if   [ "$v_1_end" -gt $end_file ] 
+then
+	echo "$i Cikles not end yet"
+else
+		echo "Cikles $i = END"
+	break
+fi
+done

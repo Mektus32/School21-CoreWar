@@ -47,11 +47,12 @@ void	exe_sti(t_vm *v, t_list *process, int val[3])
 	// val[2] - то число которое записывается 
 	// сумма второго и третьего параметров
 	adr = ((val[0] + val[1]) % IDX_MOD);
+	// с конца он пишет, поэтому +3
 	print_reg(v, process, REG[val[2]], PC + adr + 3);
 	if (DISPLAY && (v->verbose_param & FLAG_VERBOSE_OPERATIONS))
 		ft_printf("P %4d | sti r%d %d %d\n       | -> store to %d + %d = %d"
 		" (with pc and mod %d)\n", NPRO, val[2] + 1, val[1], val[0], val[1],
 		val[0], val[0] + val[1], PC + ((val[0] + val[1]) % IDX_MOD));
 
-	ft_printf("addr_st = [%d]\n", adr);
+	//ft_printf("addr_st = [%d]\n", adr + PC);
 }

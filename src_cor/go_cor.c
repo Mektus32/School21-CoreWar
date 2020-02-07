@@ -125,17 +125,19 @@ void		go_cor(t_cor *cor)
 
 	while (cor->carr)
 	{
-		ft_printf("c = %d, cyc_to_die=%d, len_cur = %d\n", cor->live->cyc, cor->live->cyc_to_die, len_curr(cor->carr));
-
-
+		ft_printf("c = %d, ", cor->live->cyc);
 		
+		check_to_die(cor);
+		ft_printf("cyc_to_die=%d, len_cur = %d\n", cor->live->cyc_to_die, len_curr(cor->carr));
+		//ft_printf("c = %d, cyc_to_die=%d, len_cur = %d\n", cor->live->cyc, cor->live->cyc_to_die, len_curr(cor->carr));
+
 
 		if (cor->carr && (cor->live->cyc == cor->nbr_cyc
 					|| cor->nbr_cyc == 0))
 			print_dump_code(cor);
 		tmp = cor->carr;
-		check_to_die(cor);
 		cor->live->cyc++;
+		
 		
 		if ((cor->live->cyc - cor->live->cyc_tmp) >= cor->live->cyc_to_die)
 		{
@@ -143,6 +145,7 @@ void		go_cor(t_cor *cor)
 			cor->live->cyc_tmp = cor->live->cyc;
 			check_live(cor);
 		}
+
 		//cor->live->cyc++;
 		//check_to_die(cor);
 		cor->visual.vis ? visual(cor) : 0;

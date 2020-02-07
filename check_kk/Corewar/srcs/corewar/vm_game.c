@@ -61,24 +61,24 @@ void	browse_processes_lst(t_vm *v)
 				// ft_printf("cyc = %d, op = %d, cur = %d, cyc_live = %d\n", v->ncycle - 0, NEXT_OP + 1, PC,0);
 				//ft_printf("cyc = %d, op = %d, cur = %d,LIVE_SINCE= %d cyc_live = %d\n", v->ncycle - 1, NEXT_OP + 1, PC,LIVE_SINCE,0);
 		 		//else
-				ft_printf("cyc = %d, op = %d, cur = %d, cyc_live = %d\n", v->ncycle, NEXT_OP + 1, PC,v->ncycle - 1 -LIVE_SINCE);
+				//ft_printf("cyc = %d, op = %d, cur = %d, cyc_live = %d\n", v->ncycle, NEXT_OP + 1, PC,v->ncycle - 1 -LIVE_SINCE);
 				for (int i = 0; i < 16; ++i)
 					{	
 						int in_reg;
 						in_reg =REG[i]; //process->content->reg[i]}
-						ft_printf(" reg[%d] = %d", i, in_reg);
+						//ft_printf(" reg[%d] = %d", i, in_reg);
 					}
-				ft_printf("\n");
+				//ft_printf("\n");
 				g_op_tab[NEXT_OP].f(v, process);
-				ft_printf("after op\n");
+				//ft_printf("after op\n");
 					for (int i = 0; i < 16; ++i)
 				{	
 					int in_reg;
 					in_reg =REG[i]; //process->content->reg[i]}
-					ft_printf(" reg[%d] = %d", i, in_reg);
+					//ft_printf(" reg[%d] = %d", i, in_reg);
 				}
 				NEXT_OP = -1;
-				ft_printf("\n");
+				//ft_printf("\n");
 				// после того как происходит операция - меняется PC
 				//ft_printf("next_c = %d, pc_next_pc = %d\n", v->ncycle + 1, PC);
 			}
@@ -141,7 +141,7 @@ void	run_game(t_vm *v)
 {
 	while (v->process_lst != NULL)
 	{
-		ft_printf("c = %d, cyc_to_die=%d, len_cur = %d\n",v->ncycle , v->cycle_to_die, len_cur(v));
+		//ft_printf("c = %d, cyc_to_die=%d, len_cur = %d\n",v->ncycle , v->cycle_to_die, len_cur(v));
 		if (v->ncycle == v->dump_param)
 		{
 			print_arena(v);
