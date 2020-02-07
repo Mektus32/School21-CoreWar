@@ -59,7 +59,7 @@ static int		len_l(t_cor *cor, t_carr *tmp, char *b2, int *f_err)
 		tmp->i += 2 * b2[4];
 		*f_err = 1;
 	}
-	ft_printf("arg[0]= %d\n", l - k);
+	ft_printf("arg[0] = %d\n", l - k);
 	return (l);
 }
 
@@ -69,7 +69,6 @@ static void		write_sti(t_cor *cor, t_carr *tmp, unsigned char t_reg, int l)
 
 
 
-	//fprintf("c = %d",cor->live->cyc);
 	p = inttobyte(tmp->reg[t_reg - 1]);
 	write_map_color(cor, l, 4, tmp);
 	copy_p(cor->code, p, l, 0);
@@ -102,7 +101,9 @@ void			ft_sti(t_cor *cor, t_carr *tmp)
 		if ((b2[0] == 1 && b2[1] == 1) || (b2[0] == 1 && b2[1] == 0))
 			tmp->i += 2;
 	}
-	l = mem_size(tmp->cur + (len_l(cor, tmp, b2, &f_err)) % IDX_MOD);
+	//l = mem_size(tmp->cur + (len_l(cor, tmp, b2, &f_err)) % IDX_MOD);
+	l = mem_size((len_l(cor, tmp, b2, &f_err)) % IDX_MOD);
+
 	//l = mem_size((tmp->cur + len_l(cor, tmp, b2, &f_err)) % IDX_MOD);
 	if (!f_err)
 		write_sti(cor, tmp, t_reg, l);

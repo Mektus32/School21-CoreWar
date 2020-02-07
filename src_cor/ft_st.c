@@ -28,9 +28,7 @@ void	copy_p(void *dst, const void *src, int d_s, int s_s)
 	unsigned char	*str1;
 	unsigned char	*str2;
 
-	//d_s = d_s % IDX_MOD;
 
-	//ft_printf("addr_st = [%d]\n", d_s % MEM_SIZE);
 	d_s = mem_size(d_s);
 	str1 = (unsigned char *)dst;
 	str2 = (unsigned char *)src;

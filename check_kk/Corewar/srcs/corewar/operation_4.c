@@ -119,7 +119,7 @@ void	op_sti(t_vm *v, t_list *process)
 				break ;
 			val[arg_nb] = arg_nb == 2 ? ARENA(PC + 2 + shift++) - 1 :
 		get_ar(v, process, &shift, ((B_OCT >> ((arg_nb + 1) * 2)) & 0b11) + 4);
-		ft_printf("arg[%d], = %d\n", arg_nb, val[arg_nb]);
+		ft_printf("arg[%d] = %d\n", arg_nb, val[arg_nb]);
 			if (!arg_nb)
 				exe_sti(v, process, val); // только тут вызывается
 		
