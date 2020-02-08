@@ -23,6 +23,7 @@ void	kill_processes_lst(t_vm *v)
 	{
 		if (!LIVE || v->cycle_to_die < 0)
 		{
+			ft_printf("ddd_c = %d\n", v->ncycle);
 			if (process == v->process_lst)
 				process = kill_head_lst(v, process);
 			else
@@ -88,13 +89,16 @@ int len_cur (t_vm *v)
 }
 
 void	update_vm(t_vm *v)
-{
+
+{	// по идее обнавлять только на проверке нужно
+	//ft_printf("_live_count = %d\n", v->nlive_bctd);
 	if (BCTD)
 	{
 		v->is_ctd_modified = 0;
 		if (v->nlive_bctd >= NBR_LIVE)
 		{
 			v->cycle_to_die -= CYCLE_DELTA;
+			ft_printf("-NBR_LIVE\n");
 			v->is_ctd_modified = 1;
 			if (DISPLAY && (v->verbose_param & FLAG_VERBOSE_CYCLES))
 				ft_printf("Cycle to die is now %d\n", v->cycle_to_die);
@@ -105,6 +109,7 @@ void	update_vm(t_vm *v)
 			if (!v->is_ctd_modified && v->ncheck != 0)
 			{
 				v->cycle_to_die -= CYCLE_DELTA;
+				ft_printf("-MAX_CHECKS\n");
 				if (DISPLAY && (v->verbose_param & FLAG_VERBOSE_CYCLES))
 					ft_printf("Cycle to die is now %d\n", v->cycle_to_die);
 			}
@@ -120,7 +125,7 @@ void	run_game(t_vm *v)
 {
 	while (v->process_lst != NULL)
 	{
-		ft_printf("c = %d, cyc_to_die=%d, len_cur = %d\n",v->ncycle , v->cycle_to_die, len_cur(v));
+		//ft_printf("c = %d, cyc_to_die=%d, len_cur = %d\n",v->ncycle , v->cycle_to_die, len_cur(v));
 
 		if (v->ncycle == v->dump_param)
 		{
@@ -128,6 +133,7 @@ void	run_game(t_vm *v)
 			break ;
 		}
 		update_vm(v);
+		// в апдейте прибавляется цикл
 		if (DISPLAY && (v->verbose_param & FLAG_VERBOSE_CYCLES))
 			ft_printf("It is now cycle %d\n", v->ncycle);
 		if (v->process_lst)
