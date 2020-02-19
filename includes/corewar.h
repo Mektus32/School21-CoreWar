@@ -43,7 +43,7 @@ typedef struct	s_champ
 	unsigned int		prog_size;
 	char				comment[COMMENT_LENGTH + 1];
 	unsigned int		magic;
-	char				*code;
+	unsigned char				*code;
 }				t_champ;
 
 /*
@@ -125,7 +125,7 @@ typedef struct	s_cor
 	int					f[MAX_PLAYERS];
 	t_champ				*m_ch[MAX_PLAYERS];
 	t_champ				*m_2[MAX_PLAYERS];
-	char				*code;
+	unsigned char				*code;
 	unsigned char		*colormap;
 	unsigned char		*bold;
 	t_vis				visual;
@@ -190,9 +190,9 @@ void			exit_print(char *str);
 ** base16_2_cor - из одного байта делает 8 бит
 */
 
-unsigned char	read_byte_1(const char *src, int i);
-short			read_byte_2(const char *src, int i);
-unsigned int	read_byte_4(const char *src, int i);
+unsigned char	read_byte_1( unsigned char *src, int i);
+short			read_byte_2( unsigned char *src, int i);
+unsigned int	read_byte_4(  unsigned char *src, int i);
 unsigned char	*inttobyte(int a);
 char			*base16_2_cor(t_cor *cor, t_carr *tmp);
 

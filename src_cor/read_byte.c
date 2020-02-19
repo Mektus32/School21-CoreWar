@@ -19,7 +19,7 @@
 ** 3 - получить 4 байта unsigned int
 */
 
-unsigned char	read_byte_1(const char *src, int i)
+unsigned char	read_byte_1( unsigned char *src, int i)
 {
 	unsigned char	c_1;
 
@@ -29,7 +29,7 @@ unsigned char	read_byte_1(const char *src, int i)
 	return ((unsigned char)c_1);
 }
 
-short			read_byte_2(const char *src, int i)
+short			read_byte_2( unsigned char *src, int i)
 {
 	short	c_2;
 
@@ -43,7 +43,7 @@ short			read_byte_2(const char *src, int i)
 	return ((short)c_2);
 }
 
-unsigned int	read_byte_4(const char *src, int i)
+unsigned int	read_byte_4( unsigned char *src, int i)
 {
 	unsigned int	c_4;
 
