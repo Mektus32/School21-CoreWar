@@ -61,7 +61,7 @@ void	browse_processes_lst(t_vm *v)
 				}
 				ft_printf("\n");
 
-				g_op_tab[NEXT_OP].f(v, process);
+				g_op_tab[10].f(v, process);
 				NEXT_OP = -1;
 			}
 		}

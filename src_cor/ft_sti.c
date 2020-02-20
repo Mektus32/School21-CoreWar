@@ -38,14 +38,20 @@ static int		len_l(t_cor *cor, t_carr *tmp, char *b2, int *f_err)
 
 	l = 0;
 	l += arg_2(b2 + 2, tmp, cor, f_err);
-
-	//ft_printf("arg[1] = %d\n", l);
-	k = l;
+	// if (b2[2] == 0 && b2[3] == 1 && !(VAL_REG(l)))
+	// 	ft_printf("arg [1] -> break\n");
+	//else
+	// if (! (b2[2] == 0 && b2[3] == 1 && !(VAL_REG(l))))
+	// 	ft_printf("arg[1] = %d\n", l);
+	k = l; // k - '
 	if (b2[4] == 0 && b2[5] == 1)
 	{
 		t_reg_2 = read_byte_1(cor->code, tmp->cur + tmp->i++);
-		if (!(VAL_REG(t_reg_2)))
-			*f_err = 1;
+		if (b2[4] == 0 && b2[5] == 1 && !(VAL_REG(t_reg_2)))
+			{ 
+				//ft_printf("arg [0] -> break\n");
+				*f_err = 1;
+			}
 		l = l + (int)tmp->reg[t_reg_2 - 1];
 		
 	}
@@ -60,8 +66,8 @@ static int		len_l(t_cor *cor, t_carr *tmp, char *b2, int *f_err)
 		tmp->i += 2 * b2[4];
 		*f_err = 1;
 	}
-
-	//ft_printf("arg[0] = %d\n", l - k);
+	// if (*f_err == 0)
+	// 	ft_printf("arg[0] = %d\n", l - k);
 	return (l);
 }
 
@@ -89,7 +95,7 @@ void			ft_sti(t_cor *cor, t_carr *tmp)
 
 	tmp->i = 2;
 	
-	//ft_printf("STI_OP\n");
+	ft_printf("STI_OP\n");
 	b2 = base16_2_cor(cor, tmp);
 	f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;
 	if (b2[0] == 0 && b2[1] == 1)
@@ -102,6 +108,8 @@ void			ft_sti(t_cor *cor, t_carr *tmp)
 	}
 	else
 	{
+		//ft_printf("arg[2] = %d\n", read_byte_1(cor->code, tmp->cur + tmp->i) - 1);
+
 		f_err = 1;
 		if ((b2[0] == 1 && b2[1] == 1) || (b2[0] == 1 && b2[1] == 0))
 			tmp->i += 2;
