@@ -9562,5 +9562,5 @@ cyc = 57935, op = 1, cur = 15, cyc_live = 57905
 check_live_c = 57935
 -MAX_CHECKS
 cyc = 57955, op = 9, cur = 20, cyc_live = 57935
- reg[0] = -1 reg[1] = 0 reg[2] = 0 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+ reg[0] = -1073741771 reg[1] = 3225399 reg[2] = -1073741824 reg[3] = 0 reg[4] = -1073741824 reg[5] = 0 reg[6] = -1073741824 reg[7] = 5 reg[8] = -1073741824 reg[9] = 0 reg[10] = -1073741824 reg[11] = 4 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
 Contestant 1, "laugh", has won !
