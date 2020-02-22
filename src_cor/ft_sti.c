@@ -95,7 +95,7 @@ void			ft_sti(t_cor *cor, t_carr *tmp)
 
 	tmp->i = 2;
 	
-	ft_printf("STI_OP\n");
+	//ft_printf("STI_OP\n");
 	b2 = base16_2_cor(cor, tmp);
 	f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;
 	if (b2[0] == 0 && b2[1] == 1)

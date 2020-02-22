@@ -1,4 +1,4 @@
-# Install script for directory: /Users/qgilbert/Desktop/School21-CoreWar
+# Install script for directory: /Users/qgilbert/Desktop/corelol+horace
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/qgilbert/Desktop/School21-CoreWar/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/qgilbert/Desktop/corelol+horace/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -6,7 +6,7 @@
 /*   By: qgilbert <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/03 20:54:02 by qgilbert          #+#    #+#             */
-/*   Updated: 2019/11/12 17:01:27 by ojessi           ###   ########.fr       */
+/*   Updated: 2020/02/22 13:06:10 by qgilbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,11 +22,25 @@
 ** 4 б prog size
 */
 
-t_champ	*write_name(int fd)
+unsigned char	*ft_strnew_uc(size_t size)
+{
+	unsigned char	*ptr;
+
+	ptr = NULL;
+	ptr = (unsigned char*)malloc(sizeof(unsigned char) * (size + 1));
+	if (ptr)
+		return ((unsigned char*)ft_memset(ptr, '\0', size + 1));
+	else
+		return (NULL);
+}
+
+t_champ *write_name(int fd, char *file_name)
 {
 	t_champ			*ch;
 	unsigned char	c[4];
 	size_t			st;
+	size_t			len_code;
+
 
 	ch = (t_champ *)ft_memalloc(sizeof(t_champ));
 	st = read(fd, &c, 4);
@@ -36,18 +50,37 @@ t_champ	*write_name(int fd)
 	st = read(fd, (ch->prog_name), PROG_NAME_LENGTH);
 	if ((st = read(fd, &c, 4)) != 4 || c[0] || c[1] || c[2] || c[3] || st != 4)
 		return (NULL);
-	if ((read(fd, &c, 4)) != 4 || (ch->prog_size = TO_INT(c)) > CHAMP_MAX_SIZE)
-		exit_print("File has a code size that differ"
-	"from what its header says");
+	 if ((read(fd, &c, 4)) != 4 || (ch->prog_size = TO_INT(c)) > CHAMP_MAX_SIZE)
+	 	exit_print("File has a code size that differ"
+	 "from what its header says\n");
 	if ((st = read(fd, &(ch->comment), COMMENT_LENGTH)) != COMMENT_LENGTH)
-		exit_print("error comment");
+		exit_print("error comment\n");
 	if ((st = read(fd, &c, 4)) != 4 || c[0] || c[1] || c[2] || c[3])
-		exit_print("no NULL in comment");
-	ch->code = ft_strnew(ch->prog_size);
+		exit_print("no NULL in comment\n");
+	ch->code = (unsigned char *)ft_strnew_uc(ch->prog_size);
 	ch->id = 0;
 	st = read(fd, (ch->code), ch->prog_size);
+	len_code = st;
 	if (st != ch->prog_size)
-		exit_print("code error");
+		exit_print("code error\n");
+	 //ft_printf("!!!!!!!!!!!!!!!!!!!!!!!write_name\n");
+	while (read(fd, &c, 1))
+		{len_code +=1;
+			//ft_printf("readeee");
+		}
+	//st = read(fd, &c, 1);
+    ch->file_name = ft_strdup(file_name);
+	if (len_code > CHAMP_MAX_SIZE)
+		{
+			ft_printf("Error: File %s has too large a code (%d bytes > %d bytes)\n",ch->file_name, len_code - 4, CHAMP_MAX_SIZE); //ch->prog_size
+			exit_print("Error: File has too large");
+		}
+	 if (st != 0)
+	 exit_print("File has a code size that differ from what its header says\n");
+
+//ft_printf("st = %d, c[0] = %s", st, c[0]);
+//		exit_print("File has a code size that differ");
+
 	return (ch);
 }
 
@@ -62,11 +95,14 @@ t_champ	*valid_champ(int i, char **av)
 	t_champ	*champ;
 	int		fd;
 
+	champ = NULL;
 	if ((name = ft_strstr(av[i], ".cor")) && name[4] == '\0'
 			&& ft_strlen(av[i]) != 4)
 	{
-		fd = open(av[i], O_RDONLY);
-		champ = write_name(fd);
+		if ((fd = open(av[i], O_RDONLY)) > 2)
+		{
+			champ = write_name(fd, av[i]);
+		}
 		if (champ)
 			return (champ);
 		else

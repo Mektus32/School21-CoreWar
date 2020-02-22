@@ -45,18 +45,18 @@ void	do_op_two(t_cor *cor, t_carr *tmp)
 void	do_op(t_cor *cor, t_carr *tmp)
 {
 	
-	if (tmp->prog  > 0 && tmp->prog <= 16)
-		//ft_printf("cyc = %d, op = %d", cor->live->cyc, tmp->prog);
-	{
-	 	ft_printf("cyc = %d, op = %d, cur = %d, cyc_live = %d\n", cor->live->cyc, tmp->prog, tmp->cur,tmp->cycles_live);
+	// if (tmp->prog  > 0 && tmp->prog <= 16)
+	// 	//ft_printf("cyc = %d, op = %d", cor->live->cyc, tmp->prog);
+	// {
+	//  	ft_printf("cyc = %d, op = %d, cur = %d, cyc_live = %d\n", cor->live->cyc, tmp->prog, tmp->cur,tmp->cycles_live);
 
-	for (int i = 0; i < 16; ++i)
-					{	
-						int in_reg =tmp->reg[i];
-						ft_printf(" reg[%d] = %d", i, in_reg);
-					}
-				ft_printf("\n");
-	}
+	// for (int i = 0; i < 16; ++i)
+	// 				{	
+	// 					int in_reg =tmp->reg[i];
+	// 					ft_printf(" reg[%d] = %d", i, in_reg);
+	// 				}
+	// 			ft_printf("\n");
+	// }
 	// else
 	// 	ft_printf("bbbbbl op = %d", tmp->prog);
 

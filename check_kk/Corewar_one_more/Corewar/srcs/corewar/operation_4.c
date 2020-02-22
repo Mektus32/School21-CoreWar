@@ -104,7 +104,7 @@ void	op_sti(t_vm *v, t_list *process)
 	arg_nb = 3;
 	shift = 0;
 	save = B_OCT;
-	ft_printf("STI_OP\n");
+	//ft_printf("STI_OP\n");
 	//if (check_arg(10, B_OCT, arg_nb))
 	//{
 		while (arg_nb--)

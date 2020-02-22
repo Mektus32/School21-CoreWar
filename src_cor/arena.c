@@ -62,9 +62,9 @@ void	memset_colormap(t_cor *cor, int i)
 void	arena(t_cor *cor)
 {
 	int		i;
-	char	*code_i;
+	unsigned char	*code_i;
 
-	cor->code = (char *)ft_memalloc(sizeof(char) * MEM_SIZE);
+	cor->code = (unsigned char *)ft_memalloc(sizeof(unsigned char) * MEM_SIZE);
 	cor->live = (t_live *)ft_memalloc(sizeof(t_live));
 	cor->colormap = (unsigned char *)ft_memalloc(MEM_SIZE);
 	cor->bold = (unsigned char *)ft_memalloc(MEM_SIZE);

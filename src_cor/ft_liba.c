@@ -34,7 +34,7 @@ void		free_cor(t_cor *cor)
 	free(cor);
 }
 
-char		*ft_strncpy_all(char *dest, const char *source, size_t n)
+unsigned char		*ft_strncpy_all(unsigned char *dest, const unsigned char *source, size_t n)
 {
 	size_t	i;
 

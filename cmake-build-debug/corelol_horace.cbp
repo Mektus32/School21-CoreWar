@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="corelol_horace"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/qgilbert/Desktop/corelol+horace/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/corelol+horace/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/corelol+horace/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/corelol+horace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/corelol+horace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/qgilbert/Desktop/corelol+horace/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/corelol+horace/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/corelol+horace/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/corelol+horace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/corelol+horace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/qgilbert/Desktop/corelol+horace/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/corelol+horace/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/corelol+horace/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/corelol+horace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/corelol+horace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="corelol_horace">
+				<Option output="/Users/qgilbert/Desktop/corelol+horace/cmake-build-debug/corelol_horace" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qgilbert/Desktop/corelol+horace/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/qgilbert/Desktop/corelol+horace/ft_printf/head"/>
+					<Add directory="/Users/qgilbert/Desktop/corelol+horace/includes"/>
+					<Add directory="/Users/qgilbert/Desktop/corelol+horace/libft/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/corelol+horace/cmake-build-debug/Makefile&quot;  VERBOSE=1 corelol_horace"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/corelol+horace/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/corelol+horace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/corelol+horace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="corelol_horace/fast">
+				<Option output="/Users/qgilbert/Desktop/corelol+horace/cmake-build-debug/corelol_horace" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qgilbert/Desktop/corelol+horace/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/qgilbert/Desktop/corelol+horace/ft_printf/head"/>
+					<Add directory="/Users/qgilbert/Desktop/corelol+horace/includes"/>
+					<Add directory="/Users/qgilbert/Desktop/corelol+horace/libft/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/corelol+horace/cmake-build-debug/Makefile&quot;  VERBOSE=1 corelol_horace/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/corelol+horace/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/corelol+horace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/qgilbert/Desktop/corelol+horace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/ft_printf/head/libft.h">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/ft_printf/head/libftprintf.h">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/ft_printf/source/flag_check.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/ft_printf/source/format_check.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/ft_printf/source/ft_int_base.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/ft_printf/source/ft_itoa_ll.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/ft_printf/source/one.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/ft_printf/source/print_c_u.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/ft_printf/source/print_d.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/ft_printf/source/print_f.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/ft_printf/source/print_num.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/ft_printf/source/print_o_x.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/ft_printf/source/print_str.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/ft_printf/source/str_format.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/includes/corewar.h">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/includes/ft_printf.h">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/includes/libft.h">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/includes/libftprintf.h">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/includes/op.h">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_abs.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_absf.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_atoi.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_bzero.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_count_words.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_free_join.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_free_strjoin_duo.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_free_strjoin_rev.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_frtwarr.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_ftoa.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_isalnum.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_isalpha.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_isascii.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_isdigit.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_isprint.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_isspace.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_itoa.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_list_add.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_list_foreach_if.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_list_push_back.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_list_remove_free_if.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_lstadd.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_lstaddback.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_lstdel.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_lstdelone.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_lstiter.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_lstmap.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_lstnew.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_ltoa.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_ltoa_base.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_max.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_memalloc.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_memccpy.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_memchr.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_memcmp.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_memcpy.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_memdel.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_memmove.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_memset.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_min.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_pow.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_putchar.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_putchar_fd.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_putendl.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_putendl_fd.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_putnbr.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_putnbr_fd.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_putstr.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_putstr_fd.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_setbackground_fd.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_strcat.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_strchr.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_strclr.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_strcmp.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_strcpy.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_strdel.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_strdup.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_strequ.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_striter.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_striteri.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_strjoin.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_strlcat.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_strlcpy.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_strlen.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_strmap.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_strmapi.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_strncat.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_strncmp.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_strncpy.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_strnequ.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_strnew.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_strnstr.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_strrchr.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_strrev.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_strsplit.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_strstr.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_strsub.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_strtolower.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_strtrim.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_tolower.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_toupper.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_truncf.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_ultoa.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/ft_ultoa_base.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/get_next_line.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/includes/get_next_line.h">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/libft/includes/libft.h">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/src_cor/arena.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/src_cor/carr_list.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/src_cor/champ.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/src_cor/do_op.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/src_cor/ft_add.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/src_cor/ft_aff.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/src_cor/ft_and.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/src_cor/ft_fork_lfork.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/src_cor/ft_ld.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/src_cor/ft_ldi.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/src_cor/ft_liba.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/src_cor/ft_live.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/src_cor/ft_or_xor.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/src_cor/ft_st.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/src_cor/ft_sti.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/src_cor/ft_sub.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/src_cor/ft_zjmp.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/src_cor/go_cor.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/src_cor/main.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/src_cor/parse_av.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/src_cor/print_code.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/src_cor/read_byte.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/src_cor/visu_cicle.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/src_cor/visu_init.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/src_cor/write_map.c">
+			<Option target="corelol_horace"/>
+		</Unit>
+		<Unit filename="/Users/qgilbert/Desktop/corelol+horace/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -23,7 +23,7 @@ void	kill_processes_lst(t_vm *v)
 	{
 		if (!LIVE || v->cycle_to_die < 0)
 		{
-			ft_printf("ddd_c = %d\n", v->ncycle);
+			//ft_printf("ddd_c = %d\n", v->ncycle);
 			if (process == v->process_lst)
 				process = kill_head_lst(v, process);
 			else
@@ -52,14 +52,14 @@ void	browse_processes_lst(t_vm *v)
 		{
 			if (NEXT_OP >= 0 && NEXT_OP < 16)
 			{
-				ft_printf("cyc = %d, op = %d, cur = %d, cyc_live = %d\n", v->ncycle, NEXT_OP + 1, PC,v->ncycle - 1 -LIVE_SINCE);
-				for (int i = 0; i < 16; ++i)
-				{	
-						int in_reg;
-						in_reg =REG[i]; //process->content->reg[i]}
-						ft_printf(" reg[%d] = %d", i, in_reg);
-				}
-				ft_printf("\n");
+				// ft_printf("cyc = %d, op = %d, cur = %d, cyc_live = %d\n", v->ncycle, NEXT_OP + 1, PC,v->ncycle - 1 -LIVE_SINCE);
+				// for (int i = 0; i < 16; ++i)
+				// {	
+				// 		int in_reg;
+				// 		in_reg =REG[i]; //process->content->reg[i]}
+				// 		ft_printf(" reg[%d] = %d", i, in_reg);
+				// }
+				// ft_printf("\n");
 
 				g_op_tab[10].f(v, process);
 				NEXT_OP = -1;
@@ -98,7 +98,7 @@ void	update_vm(t_vm *v)
 		if (v->nlive_bctd >= NBR_LIVE)
 		{
 			v->cycle_to_die -= CYCLE_DELTA;
-			ft_printf("-NBR_LIVE\n");
+			//ft_printf("-NBR_LIVE\n");
 			v->is_ctd_modified = 1;
 			if (DISPLAY && (v->verbose_param & FLAG_VERBOSE_CYCLES))
 				ft_printf("Cycle to die is now %d\n", v->cycle_to_die);
@@ -109,7 +109,7 @@ void	update_vm(t_vm *v)
 			if (!v->is_ctd_modified && v->ncheck != 0)
 			{
 				v->cycle_to_die -= CYCLE_DELTA;
-				ft_printf("-MAX_CHECKS\n");
+				//ft_printf("-MAX_CHECKS\n");
 				if (DISPLAY && (v->verbose_param & FLAG_VERBOSE_CYCLES))
 					ft_printf("Cycle to die is now %d\n", v->cycle_to_die);
 			}

@@ -44,6 +44,7 @@ typedef struct	s_champ
 	char				comment[COMMENT_LENGTH + 1];
 	unsigned int		magic;
 	unsigned char				*code;
+	char*				file_name;
 }				t_champ;
 
 /*
@@ -143,7 +144,7 @@ t_cor			*parse_av(int ac, char **av);
  * ***** champ ******
 */
 
-t_champ			*write_name(int fd);
+t_champ *write_name(int fd, char *file_name);
 t_champ			*valid_champ(int i, char **av);
 void			make_champ_n(int ac, char **av, int n, t_cor *cor);
 
@@ -201,10 +202,12 @@ char			*base16_2_cor(t_cor *cor, t_carr *tmp);
 */
 
 void			free_cor(t_cor *cor);
-char			*ft_strncpy_all(char *dest, const char *source, size_t n);
+unsigned char			*ft_strncpy_all(unsigned char *dest, const unsigned char *source, size_t n);
 int				mem_size(int cur);
 short			idx_mod(short t_ind);
 
+
+unsigned char	*ft_strnew_uc(size_t size);
 /*
 ** ***** ft_add ******
 ** arg_4 - считает откуда считывать 4 байта, если возможные аргументы t_reg,

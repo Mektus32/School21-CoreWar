@@ -26,7 +26,7 @@ static t_champ	*copy_champ(t_champ *ch_2)
 	int		i;
 
 	new = (t_champ*)ft_memalloc(sizeof(t_champ));
-	new->code = ft_strnew(ch_2->prog_size);
+	new->code = ft_strnew_uc(ch_2->prog_size);
 	ft_strncpy_all(new->code, ch_2->code, ch_2->prog_size);
 	free(ch_2->code);
 	new->id = ch_2->id;
