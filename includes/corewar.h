@@ -176,7 +176,7 @@ t_carr			*carr_list(t_cor *cor);
 */
 
 int				ft_cycles_to(char p);
-void			do_op(t_cor *cor, t_carr	*tmp);
+void			 do_op(t_cor *cor, t_carr	*tmp);
 
 /*
  * ***** print_code ******

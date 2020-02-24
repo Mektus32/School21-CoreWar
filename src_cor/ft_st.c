@@ -110,3 +110,8 @@ void	ft_st(t_cor *cor, t_carr *tmp)
 	tmp->i = i;
 	free(b2);
 }
+
+//"02 90 74 19 98   ld
+// 01 06            live
+// 0A 94 96 02 06   ldi
+// 0B 03 70 0B"     sti

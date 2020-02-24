@@ -70,7 +70,7 @@ t_print		*ft_make_0(int len, t_print *pr_old)
 {
 	t_print	*pr;
 
-	if (pr_old->len)
+	if (pr_old && pr_old->len)
 		free(pr_old);
     pr_old = NULL;
 	pr = (t_print*)malloc(sizeof(t_print));
@@ -99,8 +99,8 @@ int			ft_printf(const char *format, ...)
 	t_print	*pr;
 	int		len;
 
-//	va_start(ap, format);
-//	pr = ft_make_0(0, NULL);
+	va_start(ap, format);
+	pr = ft_make_0(0, NULL);
 	while (*format)
 	{
 		if (ft_strncmp(format, "%", 1) == 0)

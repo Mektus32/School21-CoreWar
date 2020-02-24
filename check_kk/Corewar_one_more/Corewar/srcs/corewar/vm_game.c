@@ -52,16 +52,28 @@ void	browse_processes_lst(t_vm *v)
 		{
 			if (NEXT_OP >= 0 && NEXT_OP < 16)
 			{
-				// ft_printf("cyc = %d, op = %d, cur = %d, cyc_live = %d\n", v->ncycle, NEXT_OP + 1, PC,v->ncycle - 1 -LIVE_SINCE);
-				// for (int i = 0; i < 16; ++i)
-				// {	
-				// 		int in_reg;
-				// 		in_reg =REG[i]; //process->content->reg[i]}
-				// 		ft_printf(" reg[%d] = %d", i, in_reg);
-				// }
-				// ft_printf("\n");
+				ft_printf("cyc = %d, op = %d, cur = %d, cyc_live = %d\n", v->ncycle, NEXT_OP + 1, PC,v->ncycle - 1 -LIVE_SINCE);
+				for (int i = 0; i < 16; ++i)
+				{	
+						int in_reg;
+						in_reg =REG[i]; //process->content->reg[i]}
+						ft_printf(" reg[%d] = %d", i, in_reg);
+				}
+				ft_printf("\n");
 
-				g_op_tab[10].f(v, process);
+				g_op_tab[NEXT_OP].f(v, process);
+
+				ft_printf("after op\n");
+				//ft_printf("cyc = %d, op = %d, cur = %d, cyc_live = %d\n", v->ncycle, NEXT_OP + 1, PC,v->ncycle - 1 -LIVE_SINCE);
+				for (int i = 0; i < 16; ++i)
+				{	
+						int in_reg;
+						in_reg =REG[i]; //process->content->reg[i]}
+						ft_printf(" reg[%d] = %d", i, in_reg);
+				}
+				ft_printf("\n");
+
+
 				NEXT_OP = -1;
 			}
 		}

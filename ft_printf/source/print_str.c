@@ -107,7 +107,7 @@ const char	*ft_print_str(const char *format, char *str, t_print *pr)
 		str = ft_strdup("(null)");
 	else if ((*pr).format == 9 && str[0] == '0')
 		str = ft_strdup("0x");
-	else if (str[0] == '%')
+	else if (str && str[0] == '%')
 		str = ft_strdup("%");
 	else
 		str = ft_strdup(str);

@@ -78,7 +78,11 @@ void	arena(t_cor *cor)
 	}
 	cor->carr = carr_list(cor);
 	i = 0;
-	ft_printf("Introducing contestants...\n");
+	if (cor->n)
+	    ft_printf("Introducing contestants...\n");
+	else
+        exit_print("Usage: ./corewar [-dump N | -n --stealth | -v visualizator]"
+                   " [-a] <champion1.cor>");
 	while (i < cor->n)
 	 {
 		ft_printf("* Player %d, weighing %d bytes, \"%s\" (\"%s\") !\n", i + 1,

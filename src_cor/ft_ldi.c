@@ -56,6 +56,7 @@ void				ft_ldi(t_cor *cor, t_carr *tmp, int l)
 		t_reg = read_byte_1(cor->code, tmp->cur + tmp->i++);
 		if (f_err == 0 && (VAL_REG(t_reg)))
 		{
+		    k = mem_size(k);
 			tmp->reg[(int)t_reg - 1] =
 					read_byte_4(cor->code, tmp->cur +
 					k % (IDX_MOD - l * IDX_MOD + 1 * l));

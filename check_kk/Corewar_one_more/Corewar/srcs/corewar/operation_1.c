@@ -18,7 +18,7 @@ void	op_live(t_vm *v, t_list *process)
 
 	LIVE++;
 	v->nlive_bctd++;
-	ft_printf("check_live_c = %d\n", v->ncycle);
+	//ft_printf("check_live_c = %d\n", v->ncycle);
 	live = reverse_bytes(v, PC + 1, 4);
 	if (DISPLAY && (v->verbose_param & FLAG_VERBOSE_OPERATIONS))
 		ft_printf("P %4d | live %d\n", NPRO, live);
