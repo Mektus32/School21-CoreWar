@@ -141,7 +141,7 @@ void		go_cor(t_cor *cor)
 		tmp = cor->carr;
 
 		
-		//cor->live->cyc++;
+		cor->live->cyc++;
 
 		if ((cor->live->cyc - cor->live->cyc_tmp) >= cor->live->cyc_to_die)
 		{
@@ -153,7 +153,7 @@ void		go_cor(t_cor *cor)
 			
 		}
 		
-		cor->live->cyc++;
+		//cor->live->cyc++;
 		//check_to_die(cor);
 		cor->visual.vis ? visual(cor) : 0;
 		

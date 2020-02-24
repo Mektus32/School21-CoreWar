@@ -69,15 +69,19 @@ t_champ *write_name(int fd, char *file_name)
 			//ft_printf("readeee");
 		}
 	//st = read(fd, &c, 1);
+	//ft_printf("sie_code = %d",ch->prog_size );
     ch->file_name = ft_strdup(file_name);
 	if (len_code > CHAMP_MAX_SIZE)
 		{
 			ft_printf("Error: File %s has too large a code (%d bytes > %d bytes)\n",ch->file_name, len_code - 4, CHAMP_MAX_SIZE); //ch->prog_size
 			exit_print("Error: File has too large");
 		}
-	 if (st != 0)
-	 exit_print("File has a code size that differ from what its header says\n");
+	 if (len_code > ch->prog_size)
+     {
+	    // ft_printf("Error: File %s", ch->file_name);
 
+	 exit_print(" Error: File has a code size that differ from what its header says\n");
+    }
 //ft_printf("st = %d, c[0] = %s", st, c[0]);
 //		exit_print("File has a code size that differ");
 
