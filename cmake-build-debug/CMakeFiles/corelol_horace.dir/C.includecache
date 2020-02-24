@@ -6,45 +6,25 @@
 
 #IncludeRegexTransform: 
 
-../includes/corewar.h
-op.h
-../includes/op.h
-stdio.h
+../ft_printf/head/libft.h
+unistd.h
 -
-fcntl.h
+string.h
 -
-libft.h
-../includes/libft.h
-ft_printf.h
-../includes/ft_printf.h
-ncurses.h
+stdlib.h
 -
 
-../includes/ft_printf.h
+../ft_printf/head/libftprintf.h
+unistd.h
+-
 stdlib.h
 -
 stdarg.h
 -
-unistd.h
--
-limits.h
--
-stdint.h
--
+libft.h
+../ft_printf/head/libft.h
 
-../includes/libft.h
-string.h
--
-unistd.h
--
-stdlib.h
--
-limits.h
--
-
-../includes/op.h
-
-/Users/qgilbert/Desktop/corelol+horace/src_cor/champ.c
-corewar.h
-/Users/qgilbert/Desktop/corelol+horace/src_cor/corewar.h
+/Users/qgilbert/Desktop/corelol+horace/ft_printf/source/one.c
+libftprintf.h
+/Users/qgilbert/Desktop/corelol+horace/ft_printf/source/libftprintf.h
 

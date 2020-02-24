@@ -12,7 +12,7 @@
 
 .PHONY: all, clean, fclean, re, obj, red, grn, off, asm, diasm
 
-NAME = corewar_fuck
+NAME = corewar
 
 # src / obj files
 SRC =	main.c \

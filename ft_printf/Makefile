@@ -24,9 +24,9 @@ OBJS = $(addprefix $(OBJDIR), $(SRC:.c=.o))
 
 HEAD = ./head
 
-LIBFT = ./libft
+LIBFT = ../libft
 
-LIBFT_I = ./libft/libft.a
+LIBFT_I = ../libft/libft.a
 
 GCC_FLAGS = gcc  -Wall -Wextra -Werror
 
