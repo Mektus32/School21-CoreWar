@@ -46,7 +46,8 @@ t_champ *write_name(int fd, char *file_name)
 	st = read(fd, &c, 4);
 	ch->magic = TO_INT(c);
 	if (ch->magic != COREWAR_EXEC_MAGIC)
-		return (NULL);
+        exit_print("Error: wrong exec_magic\n");
+		//return (NULL);
 	st = read(fd, (ch->prog_name), PROG_NAME_LENGTH);
 	if ((st = read(fd, &c, 4)) != 4 || c[0] || c[1] || c[2] || c[3] || st != 4)
 		return (NULL);
@@ -70,6 +71,7 @@ t_champ *write_name(int fd, char *file_name)
 		}
 	//st = read(fd, &c, 1);
 	//ft_printf("sie_code = %d",ch->prog_size );
+	//утечка!!!!!!!!!!!!!!!!
     ch->file_name = ft_strdup(file_name);
 	if (len_code > CHAMP_MAX_SIZE)
 		{
