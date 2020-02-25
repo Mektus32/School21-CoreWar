@@ -74,7 +74,7 @@ void	end_game(t_cor *cor)
 	wattroff(cor->visual.side_win, COLOR_PAIR(4));
 	wattron(cor->visual.side_win, COLOR_PAIR(1));
 	mvwprintw(cor->visual.side_win, 32, 2, "Winner ->[%d] %s ",
-			cor->live->id_live, (cor->m_ch[cor->live->id_live - 1])->prog_name);
+			cor->live.id_live, (cor->m_ch[cor->live.id_live - 1]).prog_name);
 	wattroff(cor->visual.side_win, COLOR_PAIR(1));
 	wrefresh(cor->visual.side_win);
 }

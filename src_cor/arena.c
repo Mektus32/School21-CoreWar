@@ -52,7 +52,7 @@ void	memset_colormap(t_cor *cor, int i)
 	unsigned int		k;
 
 	k = 0;
-	while (k < cor->m_ch[i]->prog_size)
+	while (k < cor->m_ch[i].prog_size)
 	{
 		cor->colormap[k + i * (MEM_SIZE / cor->n)] = i + 1;
 		k++;
@@ -64,15 +64,11 @@ void	arena(t_cor *cor)
 	int		i;
 	unsigned char	*code_i;
 
-	cor->code = (unsigned char *)ft_memalloc(sizeof(unsigned char) * MEM_SIZE);
-	cor->live = (t_live *)ft_memalloc(sizeof(t_live));
-	cor->colormap = (unsigned char *)ft_memalloc(MEM_SIZE);
-	cor->bold = (unsigned char *)ft_memalloc(MEM_SIZE);
 	i = 0;
 	while (i < cor->n)
 	{
 		code_i = cor->code + i * (MEM_SIZE / cor->n);
-		ft_strncpy_all((code_i), cor->m_ch[i]->code, cor->m_ch[i]->prog_size);
+		ft_strncpy_all((code_i), cor->m_ch[i].code, cor->m_ch[i].prog_size);
 		memset_colormap(cor, i);
 		i++;
 	}
@@ -86,8 +82,8 @@ void	arena(t_cor *cor)
 	while (i < cor->n)
 	 {
 		ft_printf("* Player %d, weighing %d bytes, \"%s\" (\"%s\") !\n", i + 1,
-				(cor->m_ch[i])->prog_size, (cor->m_ch[i])->prog_name,
-				(cor->m_ch[i])->comment);
+				cor->m_ch[i].prog_size, cor->m_ch[i].prog_name,
+				cor->m_ch[i].comment);
 		i++;
 	}
 }

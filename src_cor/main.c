@@ -14,11 +14,11 @@
 
 static void	zero_live(t_cor *cor)
 {
-	cor->live->cyc_tmp = 0;
-	cor->live->id_live = cor->n;
-	cor->live->cyc = 0;
-	cor->live->live_count = 0;
-	cor->live->cyc_to_die = CYCLE_TO_DIE;
+	cor->live.cyc_tmp = 0;
+	cor->live.id_live = cor->n;
+	cor->live.cyc = 0;
+	cor->live.live_count = 0;
+	cor->live.cyc_to_die = CYCLE_TO_DIE;
 }
 
 /*
@@ -33,19 +33,20 @@ static void	zero_live(t_cor *cor)
 
 int			main(int ac, char **av)
 {
-	t_cor *cor;
+	t_cor cor;
 
+	ft_bzero(&cor, sizeof(t_cor));
 	if (ac > 1)
 	{
-		cor = parse_av(ac, av);
-		arena(cor);
-		zero_live(cor);
-		cor->visual.vis ? init_window(cor) : 0;
-		go_cor(cor);
-		if (cor->n)
-		    ft_printf("Contestant %d, \"%s\", has won !\n", cor->live->id_live,
-				(cor->m_ch[cor->live->id_live - 1])->prog_name);
-		free_cor(cor);
+		parse_av(ac, av, &cor);
+		arena(&cor);
+		zero_live(&cor);
+		cor.visual.vis ? init_window(&cor) : 0;
+		go_cor(&cor);
+		if (cor.n)
+		    ft_printf("Contestant %d, \"%s\", has won !\n", cor.live.id_live,
+				(cor.m_ch[cor.live.id_live - 1]).prog_name);
+		free_cor(&cor);
 	}
 	else
 		exit_print("Usage: ./corewar [-dump N | -n --stealth | -v visualizator]"

@@ -31,10 +31,10 @@ int		players(WINDOW *side_win, int line, t_cor *cor)
 	i = -1;
 	while (++i < cor->n && !(j = 0))
 	{
-		wattron(side_win, COLOR_PAIR(cor->m_ch[i]->id + 1));
+		wattron(side_win, COLOR_PAIR(cor->m_ch[i].id + 1));
 		mvwprintw(side_win, line++, 2, "Player %d : %s \n",
-				cor->m_ch[i]->id + 1, cor->m_ch[i]->prog_name);
-		wattroff(side_win, COLOR_PAIR(cor->m_ch[i]->id + 1));
+				cor->m_ch[i].id + 1, cor->m_ch[i].prog_name);
+		wattroff(side_win, COLOR_PAIR(cor->m_ch[i].id + 1));
 		tmp = cor->carr;
 		while (tmp)
 		{
@@ -65,10 +65,10 @@ void	side_panel(WINDOW *side_win, t_cor *cor)
 		mvwprintw(side_win, 1, 2, "** RUNNING **");
 		wattroff(side_win, COLOR_PAIR(1));
 	}
-	mvwprintw(side_win, 3, 2, "Cycle : %d ", cor->live->cyc);
+	mvwprintw(side_win, 3, 2, "Cycle : %d ", cor->live.cyc);
 	mvwprintw(side_win, 5, 2, "Processes : %d ", cor->n);
 	line = players(side_win, line, cor);
-	mvwprintw(side_win, line, 2, "CYCLE_TO_DIE : %d ", cor->live->cyc_to_die);
+	mvwprintw(side_win, line, 2, "CYCLE_TO_DIE : %d ", cor->live.cyc_to_die);
 	mvwprintw(side_win, line + 2, 2, "CYCLE_DELTA : %d ", CYCLE_DELTA);
 	mvwprintw(side_win, 23, 2, "DELTA_TIME_PRINT : %d ",
 	cor->visual.delay);

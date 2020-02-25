@@ -34,35 +34,32 @@ unsigned char	*ft_strnew_uc(size_t size)
 		return (NULL);
 }
 
-t_champ *write_name(int fd, char *file_name)
+void write_name(int fd, char *file_name, t_champ *champ)
 {
-	t_champ			*ch;
 	unsigned char	c[4];
 	size_t			st;
 	size_t			len_code;
 
-
-	ch = (t_champ *)ft_memalloc(sizeof(t_champ));
 	st = read(fd, &c, 4);
-	ch->magic = TO_INT(c);
-	if (ch->magic != COREWAR_EXEC_MAGIC)
+	champ->magic = TO_INT(c);
+	if (champ->magic != COREWAR_EXEC_MAGIC)
         exit_print("Error: wrong exec_magic\n");
 		//return (NULL);
-	st = read(fd, (ch->prog_name), PROG_NAME_LENGTH);
+	st = read(fd, (champ->prog_name), PROG_NAME_LENGTH);
 	if ((st = read(fd, &c, 4)) != 4 || c[0] || c[1] || c[2] || c[3] || st != 4)
-		return (NULL);
-	 if ((read(fd, &c, 4)) != 4 || (ch->prog_size = TO_INT(c)) > CHAMP_MAX_SIZE)
+		return ;
+	 if ((read(fd, &c, 4)) != 4 || (champ->prog_size = TO_INT(c)) > CHAMP_MAX_SIZE)
 	 	exit_print("File has a code size that differ"
 	 "from what its header says\n");
-	if ((st = read(fd, &(ch->comment), COMMENT_LENGTH)) != COMMENT_LENGTH)
+	if ((st = read(fd, &(champ->comment), COMMENT_LENGTH)) != COMMENT_LENGTH)
 		exit_print("error comment\n");
 	if ((st = read(fd, &c, 4)) != 4 || c[0] || c[1] || c[2] || c[3])
 		exit_print("no NULL in comment\n");
-	ch->code = (unsigned char *)ft_strnew_uc(ch->prog_size);
-	ch->id = 0;
-	st = read(fd, (ch->code), ch->prog_size);
+	champ->code = (unsigned char *)ft_strnew_uc(champ->prog_size);
+	champ->id = 0;
+	st = read(fd, (champ->code), champ->prog_size);
 	len_code = st;
-	if (st != ch->prog_size)
+	if (st != champ->prog_size)
 		exit_print("code error\n");
 	 //ft_printf("!!!!!!!!!!!!!!!!!!!!!!!write_name\n");
 	while (read(fd, &c, 1))
@@ -72,13 +69,13 @@ t_champ *write_name(int fd, char *file_name)
 	//st = read(fd, &c, 1);
 	//ft_printf("sie_code = %d",ch->prog_size );
 	//утечка!!!!!!!!!!!!!!!!
-    ch->file_name = ft_strdup(file_name);
+    champ->file_name = ft_strdup(file_name);
 	if (len_code > CHAMP_MAX_SIZE)
 		{
-			ft_printf("Error: File %s has too large a code (%d bytes > %d bytes)\n",ch->file_name, len_code - 4, CHAMP_MAX_SIZE); //ch->prog_size
+			ft_printf("Error: File %s has too large a code (%d bytes > %d bytes)\n",champ->file_name, len_code - 4, CHAMP_MAX_SIZE); //ch->prog_size
 			exit_print("Error: File has too large");
 		}
-	 if (len_code > ch->prog_size)
+	 if (len_code > champ->prog_size)
      {
 	    // ft_printf("Error: File %s", ch->file_name);
 
@@ -86,8 +83,6 @@ t_champ *write_name(int fd, char *file_name)
     }
 //ft_printf("st = %d, c[0] = %s", st, c[0]);
 //		exit_print("File has a code size that differ");
-
-	return (ch);
 }
 
 /*
@@ -95,28 +90,25 @@ t_champ *write_name(int fd, char *file_name)
 ** если параметр файл cor пытаемся записать чемпиона
 */
 
-t_champ	*valid_champ(int i, char **av)
+void valid_champ(int i, char **av, t_champ *champ)
 {
 	char	*name;
-	t_champ	*champ;
 	int		fd;
 
-	champ = NULL;
 	if ((name = ft_strstr(av[i], ".cor")) && name[4] == '\0'
 			&& ft_strlen(av[i]) != 4)
 	{
 		if ((fd = open(av[i], O_RDONLY)) > 2)
 		{
-			champ = write_name(fd, av[i]);
+			write_name(fd, av[i], champ);
 		}
-		if (champ)
-			return (champ);
+		if (champ->file_name)
+			return ;
 		else
 			exit_print("not valid champ file\n");
 	}
 	else
 		exit_print("not valid champ name\n");
-	return (NULL);
 }
 
 /*
@@ -142,10 +134,10 @@ void	make_champ_n(int ac, char **av, int n, t_cor *cor)
 	i = ft_atoi(av[n]);
 	if (i && i <= cor->n)
 	{
-		if (!(cor->m_ch[i - 1]))
+		if (!(cor->m_ch[i - 1]).code)
 		{
-			cor->m_ch[i - 1] = valid_champ(++n, av);
-			cor->m_ch[i - 1]->id = i - 1;
+			valid_champ(++n, av, &(cor->m_ch[i - 1]));
+			cor->m_ch[i - 1].id = i - 1;
 		}
 		else
 			exit_print("not available n\n");
@@ -153,8 +145,8 @@ void	make_champ_n(int ac, char **av, int n, t_cor *cor)
 	else
 	{
 		i = 0;
-		while (cor->m_2[i])
+		while (cor->m_2[i].code)
 			i++;
-		cor->m_2[i] = valid_champ(++n, av);
+		valid_champ(++n, av, &(cor->m_2[i]));
 	}
 }

@@ -18,20 +18,15 @@ void		free_cor(t_cor *cor)
 	t_carr	*carr;
 
 	i = 0;
-	free(cor->code);
-	free(cor->colormap);
-	free(cor->live);
-	free(cor->bold);
 	carr = cor->carr;
 	while (carr)
 		carr = remove_head(cor, carr);
-	while (i < cor->n)
+	while (i < cor->n && cor->m_ch[i].code)
 	{
-		free(cor->m_ch[i]->code);
-		free(cor->m_ch[i]);
+		free(cor->m_ch[i].code);
+		free(cor->m_ch[i].file_name);
 		i++;
 	}
-	free(cor);
 }
 
 unsigned char		*ft_strncpy_all(unsigned char *dest, const unsigned char *source, size_t n)

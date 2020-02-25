@@ -39,24 +39,24 @@ static void	check_to_die(t_cor *cor)
 {
 	t_carr		*carr;
 
-	cor->live->counter++;
+	(cor->live.counter)++;
 	//ft_printf("_live_count = %d\n",cor->live->live_count);
-	if (cor->live->live_count >= NBR_LIVE)
+	if (cor->live.live_count >= NBR_LIVE)
 	{
 		//ft_printf("-NBR_LIVE\n");
-		cor->live->cyc_to_die = cor->live->cyc_to_die - CYCLE_DELTA;
-		cor->live->counter = 0;
+		cor->live.cyc_to_die = cor->live.cyc_to_die - CYCLE_DELTA;
+		cor->live.counter = 0;
 	}
 	//cor->live->live_count = 0;
-	else if (cor->live->counter == MAX_CHECKS)
+	else if (cor->live.counter == MAX_CHECKS)
 	{
 		//ft_printf("-MAX_CHECKS\n");
 		// ft_printf("222\n");
-		cor->live->cyc_to_die = cor->live->cyc_to_die - CYCLE_DELTA;
-		cor->live->counter = 0;
+		cor->live.cyc_to_die = cor->live.cyc_to_die - CYCLE_DELTA;
+		cor->live.counter = 0;
 	}
 
-	if (cor->live->cyc_to_die <= 0)
+	if (cor->live.cyc_to_die <= 0)
 	{
 		carr = cor->carr;
 		while (carr)
@@ -66,7 +66,7 @@ static void	check_to_die(t_cor *cor)
 			carr = remove_head(cor, carr);
 			}
 	}
-	cor->live->live_count = 0;
+	cor->live.live_count = 0;
 
 }
 
@@ -82,11 +82,11 @@ static void	check_live(t_cor *cor)
 	{
 			//ft_printf("check_live_c = %d\n", cor->live->cyc);
 
-		if ((cor->live->cyc - carr->cycles_live) >= cor->live->cyc_to_die)
+		if ((cor->live.cyc - carr->cycles_live) >= cor->live.cyc_to_die)
 		{
 			//ft_printf("ddd_c = %d\n", cor->live->cyc);
 			if (cor->carr == carr)
-				carr = remove_head(cor, carr);
+				carr = remove_head(cor, carr);//TODO вот тут баг отчистки объекта, почему и как его фиксить хз!!!
 			else
 				carr = remove_elem(carr, &prev);
 		}
@@ -135,19 +135,19 @@ void		go_cor(t_cor *cor)
 		//ft_printf("c = %d, cyc_to_die=%d, len_cur = %d\n", cor->live->cyc, cor->live->cyc_to_die, len_curr(cor->carr));
 
 		
-		if (cor->carr && (cor->live->cyc == cor->nbr_cyc
+		if (cor->carr && (cor->live.cyc == cor->nbr_cyc
 					|| cor->nbr_cyc == 0))
 			print_dump_code(cor);
 		tmp = cor->carr;
 
 		
-		cor->live->cyc++;
+		(cor->live.cyc)++;
 
-		if ((cor->live->cyc - cor->live->cyc_tmp) >= cor->live->cyc_to_die)
-		{
+		if ((cor->live.cyc - cor->live.cyc_tmp) >= cor->live.cyc_to_die)
+		{//
 			check_live(cor);
 			check_to_die(cor);
-			cor->live->cyc_tmp = cor->live->cyc;
+			cor->live.cyc_tmp = cor->live.cyc;
 			
 		}
 		

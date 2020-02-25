@@ -20,32 +20,32 @@
 ** take_cor - заполняет два массива с флагом и без
 */
 
-static t_champ	*copy_champ(t_champ *ch_2)
-{
-	t_champ	*new;
-	int		i;
-
-	new = (t_champ*)ft_memalloc(sizeof(t_champ));
-	new->code = ft_strnew_uc(ch_2->prog_size);
-	ft_strncpy_all(new->code, ch_2->code, ch_2->prog_size);
-	free(ch_2->code);
-	new->id = ch_2->id;
-	new->prog_size = ch_2->prog_size;
-	new->magic = ch_2->magic;
-	i = 0;
-	while (i < PROG_NAME_LENGTH)
-	{
-		new->prog_name[i] = ch_2->prog_name[i];
-		i++;
-	}
-	i = 0;
-	while (i < COMMENT_LENGTH)
-	{
-		new->comment[i] = ch_2->comment[i];
-		i++;
-	}
-	return (new);
-}
+//static t_champ	*copy_champ(t_champ *ch_2)
+//{
+//	t_champ	*new;
+//	int		i;
+//
+//	new = (t_champ*)ft_memalloc(sizeof(t_champ));
+//	new->code = ft_strnew_uc(ch_2->prog_size);
+//	ft_strncpy_all(new->code, ch_2->code, ch_2->prog_size);
+//	free(ch_2->code);
+//	new->id = ch_2->id;
+//	new->prog_size = ch_2->prog_size;
+//	new->magic = ch_2->magic;
+//	i = 0;
+//	while (i < PROG_NAME_LENGTH)
+//	{
+//		new->prog_name[i] = ch_2->prog_name[i];
+//		i++;
+//	}
+//	i = 0;
+//	while (i < COMMENT_LENGTH)
+//	{
+//		new->comment[i] = ch_2->comment[i];
+//		i++;
+//	}
+//	return (new);
+//}
 
 static void		change_pos(t_cor *cor)
 {
@@ -56,14 +56,13 @@ static void		change_pos(t_cor *cor)
 	j = 0;
 	while (i < cor->n)
 	{
-		if (!cor->m_ch[i] && cor->m_2[j])
+		if (!cor->m_ch[i].code && cor->m_2[j].code)
 		{
-			cor->m_ch[i] = copy_champ(cor->m_2[j]);
-			free(cor->m_2[j]);
-			cor->m_ch[i]->id = i;
+			cor->m_ch[i] = cor->m_2[j];
+			cor->m_ch[i].id = i;
 			j++;
 		}
-		else if (!cor->m_ch[i] && !cor->m_2[j])
+		else if (!cor->m_ch[i].code && !cor->m_2[j].code)
 			exit_print("number champ less then flag -n");
 		i++;
 	}
@@ -102,7 +101,7 @@ static void		take_cor(int ac, char **av, t_cor *cor)
 			i += 2;
 		}
 		else if (ft_strstr(av[i], ".cor") && j < MAX_PLAYERS)
-			cor->m_2[j++] = valid_champ(i++, av);
+			valid_champ(i++, av, &(cor->m_2[j++]));
 		else if (ft_strcmp("-v", av[i]) == 0)
 		{
 			cor->visual.vis = 1;
@@ -113,14 +112,11 @@ static void		take_cor(int ac, char **av, t_cor *cor)
 	}
 }
 
-t_cor			*parse_av(int ac, char **av)
+void *parse_av(int ac, char **av, t_cor *cor)
 {
 	int		i;
-	t_cor	*cor;
 	char	*name;
 
-	if (!(cor = (t_cor *)ft_memalloc(sizeof(t_cor))))
-		exit_print("malloc error");
 	cor->nbr_cyc = -1;
 	i = 1;
 	while (i < ac)

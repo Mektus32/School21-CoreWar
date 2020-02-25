@@ -74,7 +74,6 @@ typedef struct	s_carr
 	int					id_par;
 	//unsigned int		reg[REG_NUMBER];
      int		reg[REG_NUMBER];
-
 	unsigned char		prog;
 	int					cycles_to;
 	int					i;
@@ -126,28 +125,28 @@ typedef struct	s_cor
 	int					n_curr;
 	int					nbr_cyc;
 	int					f[MAX_PLAYERS];
-	t_champ				*m_ch[MAX_PLAYERS];
-	t_champ				*m_2[MAX_PLAYERS];
-	unsigned char				*code;
-	unsigned char		*colormap;
-	unsigned char		*bold;
+	t_champ				m_ch[MAX_PLAYERS];
+	t_champ				m_2[MAX_PLAYERS];
+	unsigned char		code[MEM_SIZE];
+	unsigned char		colormap[MEM_SIZE];
+	unsigned char		bold[MEM_SIZE];
 	t_vis				visual;
 	struct s_carr		*carr;
-	struct s_live		*live;
+	struct s_live		live;
 }				t_cor;
 
 /*
  ****** parse_av ******
 */
 
-t_cor			*parse_av(int ac, char **av);
+void *parse_av(int ac, char **av, t_cor *cor);
 
 /*
  * ***** champ ******
 */
 
-t_champ *write_name(int fd, char *file_name);
-t_champ			*valid_champ(int i, char **av);
+void write_name(int fd, char *file_name, t_champ *champ);
+void valid_champ(int i, char **av, t_champ *champ);
 void			make_champ_n(int ac, char **av, int n, t_cor *cor);
 
 /*
