@@ -14,7 +14,7 @@
 
 static short		len_k(t_cor *cor, t_carr *tmp, char *b2, int *f_err)
 {
-	short			k;
+	int			k;
 	unsigned char	t_reg;
 
 	k = 0;
@@ -40,12 +40,32 @@ static short		len_k(t_cor *cor, t_carr *tmp, char *b2, int *f_err)
 	return (k);
 }
 
+
+unsigned int	read_byte_4_c( unsigned char *src, int i)
+{
+    unsigned int	c_4;
+
+    while (i < 0)
+        i = MEM_SIZE + i;
+    c_4 = 0;
+    c_4 = (c_4 << 8);
+    c_4 = c_4 | ( char)(src[(i) % MEM_SIZE]);
+    c_4 = (c_4 << 8);
+    c_4 = c_4 | ( char)(src[(i + 1) % MEM_SIZE]);
+    c_4 = (c_4 << 8);
+    c_4 = c_4 | ( char)(src[(i + 2) % MEM_SIZE]);
+    c_4 = (c_4 << 8);
+    c_4 = c_4 | ( char)(src[(i + 3) % MEM_SIZE]);
+    return ((unsigned int)c_4);
+}
+
 void				ft_ldi(t_cor *cor, t_carr *tmp, int l)
 {
 	unsigned char	t_reg;
 	char			*b2;
 	int				f_err;
-	short			k;
+	int			k;
+	int addr;
 
 	tmp->i = 2;
 	b2 = base16_2_cor(cor, tmp);
@@ -56,10 +76,18 @@ void				ft_ldi(t_cor *cor, t_carr *tmp, int l)
 		t_reg = read_byte_1(cor->code, tmp->cur + tmp->i++);
 		if (f_err == 0 && (VAL_REG(t_reg)))
 		{
-		    k = mem_size(k);
+            if(!l)
+                k = k % IDX_MOD;
+            k = mem_size(k);
+		    addr = mem_size(tmp->cur + k);
 			tmp->reg[(int)t_reg - 1] =
-					read_byte_4(cor->code, tmp->cur +
-					k % (IDX_MOD - l * IDX_MOD + 1 * l));
+					read_byte_4(cor->code, mem_size(tmp->cur + k));
+			int a2;
+			a2 = read_byte_4(cor->code, mem_size(tmp->cur + k));
+			//a2 = read_byte_4_c(cor->code, mem_size(tmp->cur + k));
+
+
+			//ft_printf("adr = %d",addr);
 			if (l)
 				tmp->carry = (tmp->reg[t_reg - 1] == 0) ? 1 : 0;
 		}

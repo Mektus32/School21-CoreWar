@@ -53,9 +53,25 @@ int					arg_4(char *b2, t_carr *tmp, t_cor *cor, int *f_err)
 	return (t_dir);
 }
 
+unsigned int			read_byte_2_int( unsigned char *src, int i)
+{
+    unsigned int	c_2;
+
+    while (i < 0)
+        i = MEM_SIZE + i;
+    c_2 = 0;
+    c_2 = (c_2 << 8);
+    c_2 = c_2 | (unsigned char)src[(i) % MEM_SIZE];
+    c_2 = (c_2 << 8);
+    c_2 = c_2 | (unsigned char)src[(i + 1) % MEM_SIZE];
+    return (c_2);
+}
+
+
+
 short				arg_2(char *b2, t_carr *tmp, t_cor *cor, int *f_err)
 {
-	short			a1;
+	int			a1;
 	unsigned char	t_reg_3;
 	short			t_ind;
 
@@ -71,11 +87,18 @@ short				arg_2(char *b2, t_carr *tmp, t_cor *cor, int *f_err)
 		if (b2[1] == 1)
 		{
 			t_ind = read_byte_2(cor->code, tmp->cur + tmp->i);
-			a1 = read_byte_2(cor->code, tmp->cur + idx_mod(t_ind));
+			a1 = read_byte_4(cor->code, tmp->cur + idx_mod(t_ind));
+//            int a2;
+//            a2 = read_byte_4_c(cor->code, tmp->cur + idx_mod(t_ind));
+//            a2 = read_byte_4(cor->code, tmp->cur + idx_mod(t_ind));
+//            a2 = read_byte_2_int(cor->code, tmp->cur + idx_mod(t_ind));
+            //a2 = arg_dir(b2, cor, tmp);
+
 		}
 		else
-			a1 = idx_mod(read_byte_2(cor->code, tmp->cur + tmp->i));
-		tmp->i += 2;
+			//a1 = idx_mod(read_byte_2(cor->code, tmp->cur + tmp->i));
+            a1 = (read_byte_4(cor->code, tmp->cur + tmp->i));
+        tmp->i += 2;
 	}
 	else
 		*f_err = 1;

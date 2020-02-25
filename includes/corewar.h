@@ -72,7 +72,9 @@ typedef struct	s_carr
 	int					cycles_live;
 	int					carry;
 	int					id_par;
-	unsigned int		reg[REG_NUMBER];
+	//unsigned int		reg[REG_NUMBER];
+     int		reg[REG_NUMBER];
+
 	unsigned char		prog;
 	int					cycles_to;
 	int					i;

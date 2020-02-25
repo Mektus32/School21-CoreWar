@@ -14,6 +14,8 @@
 
 void	exe_ldi(t_vm *v, t_list *process, int val[3])
 {
+	//ft_printf("addr = %d\n, val[0] = %d, val[1] = %d, val[2] = %d", PC + (val[1] + val[2]) % IDX_MOD,val[0], val[1], val[2]);
+;
 	REG[val[0]] = reverse_bytes(v, PC + (val[1] + val[2]) % IDX_MOD, 4);
 	if (DISPLAY && (v->verbose_param & FLAG_VERBOSE_OPERATIONS))
 		ft_printf("P %4d | ldi %d %d r%d\n       | -> load from %d + %d = %d"
@@ -30,6 +32,7 @@ void	exe_lldi(t_vm *v, t_list *process, int val[3])
 		ft_printf("P %4d | lldi %d %d r%d\n       | -> load from %d + %d = %d"
 		" (with pc %d)\n", NPRO, val[2], val[1], val[0] + 1,
 		val[2], val[1], val[2] + val[1], PC + val[2] + val[1]);
+	//ft_printf("val[0] = %d, val[1]  =%d, val[2] = %d\n",val[0], val[1], val[2]);
 }
 
 void	exe_lld(t_vm *v, t_list *process, int shift)
