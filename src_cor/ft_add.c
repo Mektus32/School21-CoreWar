@@ -97,7 +97,7 @@ short				arg_2(char *b2, t_carr *tmp, t_cor *cor, int *f_err)
 		}
 		else
 			//a1 = idx_mod(read_byte_2(cor->code, tmp->cur + tmp->i));
-            a1 = (read_byte_4(cor->code, tmp->cur + tmp->i));
+            a1 = (read_byte_2(cor->code, tmp->cur + tmp->i));
         tmp->i += 2;
 	}
 	else

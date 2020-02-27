@@ -92,24 +92,24 @@ static void		take_cor(int ac, char **av, t_cor *cor)
 	i = 1;
 	j = 0;
 	while (i < ac)
-	{
-		if (!(ft_strcmp("-dump", av[i])))
-			dump_arg(&i, cor, ac, av);
-		else if (ft_strcmp("-n", av[i]) == 0 && (i + 2) < ac)
-		{
-			make_champ_n(ac, av, ++i, cor);
-			i += 2;
-		}
-		else if (ft_strstr(av[i], ".cor") && j < MAX_PLAYERS)
-			valid_champ(i++, av, &(cor->m_2[j++]));
-		else if (ft_strcmp("-v", av[i]) == 0)
-		{
-			cor->visual.vis = 1;
-			i++;
-		}
-		else
-			exit_print("Can't read source file\n");
-	}
+    {
+        if (!(ft_strcmp("-dump", av[i])))
+            dump_arg(&i, cor, ac, av);
+        else if (ft_strcmp("-n", av[i]) == 0 && (i + 2) < ac)
+        {
+            make_champ_n(ac, av, ++i, cor);
+            i += 2;
+        }
+        else if (ft_strstr(av[i], ".cor") && j < MAX_PLAYERS)
+            valid_champ(i++, av, &(cor->m_2[j++]));
+        else if (ft_strcmp("-v", av[i]) == 0)
+        {
+            cor->visual.vis = 1;
+            i++;
+        }
+        else
+            exit_print("Can't read source file\n");
+    }
 }
 
 void *parse_av(int ac, char **av, t_cor *cor)
@@ -118,14 +118,11 @@ void *parse_av(int ac, char **av, t_cor *cor)
 	char	*name;
 
 	cor->nbr_cyc = -1;
-	i = 1;
-	while (i < ac)
-	{
+	i = 0;
+	while (++i < ac)
 		if ((name = ft_strstr(av[i], ".cor")) && name[4] == '\0'
 				&& ft_strlen(av[i]) != 4)
 			cor->n++;
-		i++;
-	}
 	if (cor->n > MAX_PLAYERS)
 		exit_print("number players more than MAX_PLAYERS\n");
 	take_cor(ac, av, cor);

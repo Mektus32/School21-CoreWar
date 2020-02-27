@@ -42,6 +42,7 @@ int			main(int ac, char **av)
 		arena(&cor);
 		zero_live(&cor);
 		cor.visual.vis ? init_window(&cor) : 0;
+		ft_printf("kek\n");
 		go_cor(&cor);
 		if (cor.n)
 		    ft_printf("Contestant %d, \"%s\", has won !\n", cor.live.id_live,

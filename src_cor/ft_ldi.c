@@ -69,6 +69,7 @@ void				ft_ldi(t_cor *cor, t_carr *tmp, int l)
 
 	tmp->i = 2;
 	b2 = base16_2_cor(cor, tmp);
+	ft_printf("%d %d %d %d %d %d %d %d\n", b2[0], b2[1], b2[2],b2[3], b2[4], b2[5], b2[6], b2[7]);
 	f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;
 	k = len_k(cor, tmp, b2, &f_err);
 	if (b2[4] == 0 && b2[5] == 1)

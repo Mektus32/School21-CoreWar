@@ -40,15 +40,15 @@ void write_name(int fd, char *file_name, t_champ *champ)
 	size_t			st;
 	size_t			len_code;
 
-	st = read(fd, &c, 4);
+	read(fd, &c, 4);
 	champ->magic = TO_INT(c);
 	if (champ->magic != COREWAR_EXEC_MAGIC)
         exit_print("Error: wrong exec_magic\n");
 		//return (NULL);
-	st = read(fd, (champ->prog_name), PROG_NAME_LENGTH);
-	if ((st = read(fd, &c, 4)) != 4 || c[0] || c[1] || c[2] || c[3] || st != 4)
-		return ;
-	 if ((read(fd, &c, 4)) != 4 || (champ->prog_size = TO_INT(c)) > CHAMP_MAX_SIZE)
+	read(fd, (champ->prog_name), PROG_NAME_LENGTH);
+	if (read(fd, &c, 4) != 4 || c[0] || c[1] || c[2] || c[3])
+        exit_print("Error: wrong name\n");
+	 if (read(fd, &c, 4) != 4 || (champ->prog_size = TO_INT(c)) > CHAMP_MAX_SIZE)
 	 	exit_print("File has a code size that differ"
 	 "from what its header says\n");
 	if ((st = read(fd, &(champ->comment), COMMENT_LENGTH)) != COMMENT_LENGTH)
@@ -56,15 +56,14 @@ void write_name(int fd, char *file_name, t_champ *champ)
 	if ((st = read(fd, &c, 4)) != 4 || c[0] || c[1] || c[2] || c[3])
 		exit_print("no NULL in comment\n");
 	champ->code = (unsigned char *)ft_strnew_uc(champ->prog_size);
-	champ->id = 0;
-	st = read(fd, (champ->code), champ->prog_size);
-	len_code = st;
-	if (st != champ->prog_size)
+//	champ->id = 0; TODO wtf?
+	len_code = read(fd, (champ->code), champ->prog_size);
+	if (len_code != champ->prog_size)
 		exit_print("code error\n");
 	 //ft_printf("!!!!!!!!!!!!!!!!!!!!!!!write_name\n");
 	while (read(fd, &c, 1))
-		{len_code +=1;
-			//ft_printf("readeee");
+		{
+	        ++len_code;//TODO we stop here
 		}
 	//st = read(fd, &c, 1);
 	//ft_printf("sie_code = %d",ch->prog_size );

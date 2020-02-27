@@ -134,7 +134,7 @@ void		go_cor(t_cor *cor)
 		//ft_printf("cyc_to_die=%d, len_cur = %d\n", cor->live->cyc_to_die, len_curr(cor->carr));
 		//ft_printf("c = %d, cyc_to_die=%d, len_cur = %d\n", cor->live->cyc, cor->live->cyc_to_die, len_curr(cor->carr));
 
-		
+		ft_printf("cor->live.cyc = %d, cor->nbr_cyc = %d\n", cor->live.cyc, cor->nbr_cyc);
 		if (cor->carr && (cor->live.cyc == cor->nbr_cyc
 					|| cor->nbr_cyc == 0))
 			print_dump_code(cor);
@@ -160,7 +160,7 @@ void		go_cor(t_cor *cor)
 		{
 			cycles_read(cor, tmp);
 			 //ft_printf("next_c = %d, pc_next_c = %d\n", cor->live->cyc, tmp->cur);
-			--tmp->cycles_to == 0 ? do_op(cor, tmp) : 0;
+            --tmp->cycles_to == 0 ? do_op(cor, tmp) : 0;
 			tmp = tmp->next;
 		}
 		
