@@ -84,7 +84,7 @@ static void	check_live(t_cor *cor)
 
 		if ((cor->live.cyc - carr->cycles_live) >= cor->live.cyc_to_die)
 		{
-			//ft_printf("ddd_c = %d\n", cor->live->cyc);
+			ft_printf("ddd_c = %d\n", cor->live.cyc);
 			if (cor->carr == carr)
 				carr = remove_head(cor, carr);//TODO вот тут баг отчистки объекта, почему и как его фиксить хз!!!
 			else
@@ -92,6 +92,7 @@ static void	check_live(t_cor *cor)
 		}
 		else
 		{
+           // carr->cycles_live = cor->live.cyc;
 			prev = carr;
 			carr = carr->next;
 		}
@@ -128,13 +129,13 @@ void		go_cor(t_cor *cor)
 	while (cor->carr)
 	{
 
-		//ft_printf("c = %d, ", cor->live->cyc);
+		//ft_printf("c = %d, ", cor->live.cyc);
 		
 		
-		//ft_printf("cyc_to_die=%d, len_cur = %d\n", cor->live->cyc_to_die, len_curr(cor->carr));
+		//ft_printf("cyc_to_die=%d, len_cur = %d\n", cor->live.cyc_to_die, len_curr(cor->carr));
 		//ft_printf("c = %d, cyc_to_die=%d, len_cur = %d\n", cor->live->cyc, cor->live->cyc_to_die, len_curr(cor->carr));
 
-		ft_printf("cor->live.cyc = %d, cor->nbr_cyc = %d\n", cor->live.cyc, cor->nbr_cyc);
+		//ft_printf("cor->live.cyc = %d, cor->nbr_cyc = %d\n", cor->live.cyc, cor->nbr_cyc);
 		if (cor->carr && (cor->live.cyc == cor->nbr_cyc
 					|| cor->nbr_cyc == 0))
 			print_dump_code(cor);
@@ -148,9 +149,9 @@ void		go_cor(t_cor *cor)
 			check_live(cor);
 			check_to_die(cor);
 			cor->live.cyc_tmp = cor->live.cyc;
-			
+
 		}
-		
+
 		//cor->live->cyc++;
 		//check_to_die(cor);
 		cor->visual.vis ? visual(cor) : 0;
@@ -163,7 +164,7 @@ void		go_cor(t_cor *cor)
             --tmp->cycles_to == 0 ? do_op(cor, tmp) : 0;
 			tmp = tmp->next;
 		}
-		
+
 		
 		
 		
