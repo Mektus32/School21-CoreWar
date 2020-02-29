@@ -137,7 +137,6 @@ void	run_game(t_vm *v)
 {
 	while (v->process_lst != NULL)
 	{
-		//ft_printf("c = %d, cyc_to_die=%d, len_cur = %d\n",v->ncycle , v->cycle_to_die, len_cur(v));
 
 		if (v->ncycle == v->dump_param)
 		{
@@ -145,6 +144,8 @@ void	run_game(t_vm *v)
 			break ;
 		}
 		update_vm(v);
+		//ft_printf("c = %d, cyc_to_die=%d, len_cur = %d\n",v->ncycle , v->cycle_to_die, len_cur(v));
+
 		// в апдейте прибавляется цикл
 		if (DISPLAY && (v->verbose_param & FLAG_VERBOSE_CYCLES))
 			ft_printf("It is now cycle %d\n", v->ncycle);

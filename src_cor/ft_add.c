@@ -41,6 +41,7 @@ int					arg_4(char *b2, t_carr *tmp, t_cor *cor, int *f_err)
 	{
 		t_reg_3 = read_byte_1(cor->code, tmp->cur + tmp->i++);
 		t_dir = tmp->reg[t_reg_3 - 1];
+		if(!(*f_err))
 		*f_err = (VAL_REG(t_reg_3)) ? 0 : 1;
 	}
 	else if ((b2[0] == 1 && b2[1] == 1) || (b2[0] == 1 && b2[1] == 0))
@@ -80,6 +81,7 @@ short				arg_2(char *b2, t_carr *tmp, t_cor *cor, int *f_err)
 	{
 		t_reg_3 = read_byte_1(cor->code, tmp->cur + tmp->i++);
 		a1 = (short)tmp->reg[t_reg_3 - 1];
+		if(!(*f_err))
 		*f_err = (VAL_REG(t_reg_3)) ? 0 : 1;
 	}
 	else if ((b2[0] == 1 && b2[1] == 1) || (b2[0] == 1 && b2[1] == 0))

@@ -43,6 +43,7 @@ static void	check_to_die(t_cor *cor)
 	//ft_printf("_live_count = %d\n",cor->live->live_count);
 	if (cor->live.live_count >= NBR_LIVE)
 	{
+	    //# define NBR_LIVE		21
 		//ft_printf("-NBR_LIVE\n");
 		cor->live.cyc_to_die = cor->live.cyc_to_die - CYCLE_DELTA;
 		cor->live.counter = 0;
@@ -133,7 +134,6 @@ void		go_cor(t_cor *cor)
 		
 		
 		//ft_printf("cyc_to_die=%d, len_cur = %d\n", cor->live.cyc_to_die, len_curr(cor->carr));
-		//ft_printf("c = %d, cyc_to_die=%d, len_cur = %d\n", cor->live->cyc, cor->live->cyc_to_die, len_curr(cor->carr));
 
 		//ft_printf("cor->live.cyc = %d, cor->nbr_cyc = %d\n", cor->live.cyc, cor->nbr_cyc);
 		if (cor->carr && (cor->live.cyc == cor->nbr_cyc
@@ -142,16 +142,29 @@ void		go_cor(t_cor *cor)
 		tmp = cor->carr;
 
 		
-		(cor->live.cyc)++;
 
 
-
-		//cor->live->cyc++;
 		//check_to_die(cor);
+
 		cor->visual.vis ? visual(cor) : 0;
-		
-		
-		while (tmp)
+        //(cor->live.cyc)++;
+        if (cor->live.cyc == 1536)
+            cor->live.cyc = 1536;
+        if ((cor->live.cyc - cor->live.cyc_tmp) >= cor->live.cyc_to_die)
+        {//
+
+            check_to_die(cor);
+            tmp = cor->carr; //удвлили - и операцию не сделала! если последняя операция будет sti ничего не поменяется
+            cor->live.cyc_tmp = cor->live.cyc;
+
+        }
+        //(cor->live.cyc)--;
+       (cor->live.cyc)++;
+       // ft_printf("c = %d, cyc_to_die=%d, len_cur = %d\n", cor->live.cyc, cor->live.cyc_to_die, len_curr(cor->carr));
+
+
+
+        while (tmp)
 		{
 			cycles_read(cor, tmp);
 			 //ft_printf("next_c = %d, pc_next_c = %d\n", cor->live->cyc, tmp->cur);
@@ -162,18 +175,14 @@ void		go_cor(t_cor *cor)
         if ((cor->live.cyc - cor->live.cyc_tmp) >= cor->live.cyc_to_die)
         {//
             check_live(cor);
-            check_to_die(cor);
+
             tmp = cor->carr; //удвлили - и операцию не сделала! если последняя операция будет sti ничего не поменяется
-            cor->live.cyc_tmp = cor->live.cyc;
+            //cor->live.cyc_tmp = cor->live.cyc;
 
         }
 
-		
-		
-		
-	}
 
-	
+    }
 
 	cor->visual.vis ? stop_visual(cor) : 0;
 }

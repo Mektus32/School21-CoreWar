@@ -106,9 +106,14 @@ void	op_or(t_vm *v, t_list *process)
 			type = (B_OCT >> (nb_arg-- * 2)) & 0b11;
 			if (type == 1 &&
 				(ARENA(PC + 2 + shift) > 16 || !ARENA(PC + 2 + shift)))
+			{
+				//ft_printf("arg[%d] = break\n", nb_arg);
 				break ;
+			}
+				
 			val[nb_arg] = !nb_arg ? ARENA(PC + 2 + shift) - 1 :
 										get_ar(v, process, &shift, type);
+			//ft_printf("arg[%d] = %d\n", nb_arg, val[nb_arg]);
 			if (!nb_arg)
 				exe_or(v, process, val);
 		}
