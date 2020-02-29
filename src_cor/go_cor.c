@@ -84,7 +84,7 @@ static void	check_live(t_cor *cor)
 
 		if ((cor->live.cyc - carr->cycles_live) >= cor->live.cyc_to_die)
 		{
-			ft_printf("ddd_c = %d\n", cor->live.cyc);
+			//ft_printf("ddd_c = %d\n", cor->live.cyc);
 			if (cor->carr == carr)
 				carr = remove_head(cor, carr);//TODO вот тут баг отчистки объекта, почему и как его фиксить хз!!!
 			else
@@ -144,13 +144,7 @@ void		go_cor(t_cor *cor)
 		
 		(cor->live.cyc)++;
 
-		if ((cor->live.cyc - cor->live.cyc_tmp) >= cor->live.cyc_to_die)
-		{//
-			check_live(cor);
-			check_to_die(cor);
-			cor->live.cyc_tmp = cor->live.cyc;
 
-		}
 
 		//cor->live->cyc++;
 		//check_to_die(cor);
@@ -165,11 +159,20 @@ void		go_cor(t_cor *cor)
 			tmp = tmp->next;
 		}
 
+        if ((cor->live.cyc - cor->live.cyc_tmp) >= cor->live.cyc_to_die)
+        {//
+            check_live(cor);
+            check_to_die(cor);
+            tmp = cor->carr; //удвлили - и операцию не сделала! если последняя операция будет sti ничего не поменяется
+            cor->live.cyc_tmp = cor->live.cyc;
+
+        }
+
 		
 		
 		
 	}
-	
+
 	
 
 	cor->visual.vis ? stop_visual(cor) : 0;

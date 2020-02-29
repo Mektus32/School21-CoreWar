@@ -1,9 +1,9 @@
 #!/bin/bash
 #make
-for ((i = $1; i <= $9999000; i = i + $2))
+for ((i = $1; i <= $99999000; i = i + $2))
 do
 #echo "Cikles $i"
-./corewar_arina  $3.cor $4.cor  -dump $i > test 
+./corewar  $3.cor  -dump $i > test 
 
 end_file=13000
 v_1_end=$(wc -c <test)

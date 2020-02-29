@@ -61,8 +61,7 @@ void	do_op(t_cor *cor, t_carr *tmp)
     // else
     // 	ft_printf("bbbbbl op = %d", tmp->prog);
 
-//		if (tmp->prog > 0 && tmp->prog <= 16)
-//		ft_sti(cor, tmp);
+
 
     if (tmp->prog > 0 && tmp->prog < 13)
         do_op_two(cor, tmp);

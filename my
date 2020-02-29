@@ -1,3 +1,527 @@
 Introducing contestants...
-* Player 1, weighing 15 bytes, "00 00 00 02 D0 00 40 10 01 FF FF FF FE 09 FF FB" ("This champion was made using makeChampion.sh") !
-Contestant 1, "00 00 00 02 D0 00 40 10 01 FF FF FF FE 09 FF FB", has won !
+* Player 1, weighing 37 bytes, "02 D0 00 64 10 01 00 00 00 00 09 FF FB" ("This champion was made using makeChampion.sh") !
+cyc = 5, op = 2, cur = 0, cyc_live = 0
+ reg[0] = -1 reg[1] = 0 reg[2] = 0 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 0 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 15, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 0 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 49 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 21, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 49 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 49 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 41, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 49 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 49 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 51, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 49 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 98 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 57, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 98 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 98 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 77, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 98 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 98 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 87, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 98 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 147 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 93, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 147 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 147 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 113, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 147 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 147 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 123, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 147 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 196 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 129, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 196 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 196 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 149, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 196 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 196 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 159, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 196 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 245 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 165, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 245 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 245 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 185, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 245 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 245 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 195, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 245 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 294 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 201, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 294 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 294 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 221, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 294 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 294 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 231, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 294 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 343 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 237, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 343 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 343 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 257, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 343 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 343 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 267, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 343 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 392 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 273, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 392 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 392 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 293, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 392 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 392 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 303, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 392 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 441 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 309, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 441 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 441 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 329, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 441 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 441 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 339, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 441 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 490 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 345, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 490 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 490 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 365, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 490 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 490 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 375, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 490 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 539 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 381, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 539 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 539 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 401, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 539 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 539 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 411, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 539 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 588 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 417, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 588 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 588 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 437, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 588 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 588 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 447, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 588 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 637 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 453, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 637 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 637 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 473, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 637 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 637 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 483, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 637 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 686 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 489, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 686 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 686 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 509, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 686 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 686 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 519, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 686 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 735 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 525, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 735 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 735 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 545, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 735 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 735 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 555, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 735 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 784 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 561, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 784 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 784 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 581, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 784 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 784 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 591, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 784 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 833 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 597, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 833 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 833 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 617, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 833 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 833 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 627, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 833 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 882 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 633, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 882 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 882 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 653, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 882 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 882 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 663, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 882 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 931 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 669, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 931 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 931 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 689, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 931 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 931 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 699, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 931 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 980 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 705, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 980 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 980 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 725, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 980 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 980 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 735, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 980 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1029 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 741, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1029 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1029 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 761, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1029 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1029 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 771, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1029 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1078 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 777, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1078 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1078 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 797, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1078 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1078 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 807, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1078 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1127 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 813, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1127 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1127 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 833, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1127 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1127 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 843, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1127 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1176 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 849, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1176 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1176 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 869, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1176 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1176 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 879, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1176 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1225 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 885, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1225 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1225 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 905, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1225 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1225 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 915, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1225 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1274 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 921, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1274 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1274 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 941, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1274 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1274 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 951, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1274 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1323 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 957, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1323 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1323 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 977, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1323 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1323 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 987, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1323 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1372 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 993, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1372 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1372 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1013, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1372 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1372 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1023, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1372 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1421 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1029, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1421 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1421 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1049, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1421 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1421 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1059, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1421 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1470 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1065, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1470 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1470 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1085, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1470 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1470 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1095, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1470 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1519 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1101, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1519 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1519 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1121, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1519 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1519 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1131, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1519 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1568 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1137, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1568 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1568 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1157, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1568 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1568 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1167, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1568 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1617 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1173, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1617 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1617 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1193, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1617 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1617 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1203, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1617 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1666 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1209, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1666 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1666 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1229, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1666 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1666 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1239, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1666 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1715 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1245, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1715 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1715 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1265, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1715 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1715 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1275, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1715 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1764 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1281, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1764 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1764 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1301, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1764 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1764 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1311, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1764 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1813 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1317, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1813 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1813 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1337, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1813 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1813 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1347, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1813 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1862 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1353, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1862 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1862 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1373, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1862 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1862 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1383, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1862 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1911 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1389, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1911 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1911 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1409, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1911 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1911 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1419, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1911 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1960 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1425, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1960 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1960 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1445, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1960 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 1960 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1455, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 1960 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 2009 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1461, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 2009 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 2009 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1481, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 2009 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 2009 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1491, op = 4, cur = 7, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 2009 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 2058 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1497, op = 6, cur = 12, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 2058 reg[3] = 0 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 2058 reg[3] = 2048 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1517, op = 9, cur = 20, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 2058 reg[3] = 2048 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 2058 reg[3] = 2048 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1527, op = 4, cur = 23, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 2058 reg[3] = 2048 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 4116 reg[3] = 2048 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1529, op = 16, cur = 28, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 4116 reg[3] = 2048 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 4116 reg[3] = 2048 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1531, op = 16, cur = 31, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 4116 reg[3] = 2048 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 4116 reg[3] = 2048 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+cyc = 1536, op = 3, cur = 34, cyc_live = 0
+ reg[0] = -1 reg[1] = 49 reg[2] = 4116 reg[3] = 2048 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+after op
+ reg[0] = -1 reg[1] = 49 reg[2] = 4116 reg[3] = 2048 reg[4] = 0 reg[5] = 0 reg[6] = 0 reg[7] = 0 reg[8] = 0 reg[9] = 0 reg[10] = 0 reg[11] = 0 reg[12] = 0 reg[13] = 0 reg[14] = 0 reg[15] = 0
+Contestant 1, "02 D0 00 64 10 01 00 00 00 00 09 FF FB", has won !
