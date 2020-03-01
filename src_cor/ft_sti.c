@@ -96,13 +96,16 @@ void			ft_sti(t_cor *cor, t_carr *tmp)
 	tmp->i = 2;
 	
 	//ft_printf("STI_OP\n");
+	if (cor->live.cyc == 1901)
+        cor->live.cyc = 1901;
 	b2 = base16_2_cor(cor, tmp);
 	f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;
+	f_err = 0;
 	if (b2[0] == 0 && b2[1] == 1)
 	{
 		t_reg = read_byte_1(cor->code, tmp->cur + tmp->i++);
 		
-		//ft_printf("arg[2] = %d\n", tmp->reg[t_reg]);
+		//ft_printf("arg[2] = %d\n", tmp->reg[t_reg - 1]);
 		if (!(VAL_REG(t_reg)))
 			f_err = 1;
 	}
@@ -114,10 +117,9 @@ void			ft_sti(t_cor *cor, t_carr *tmp)
 		if ((b2[0] == 1 && b2[1] == 1) || (b2[0] == 1 && b2[1] == 0))
 			tmp->i += 2;
 	}
-	// то что ниже падае на 13000 корелол с корелолрм
-	l = mem_size(tmp->cur + (len_l(cor, tmp, b2, &f_err)) % IDX_MOD);
-	// то что ниже падает на 25 цикле корлол с корлолом
-	//l = mem_size((len_l(cor, tmp, b2, &f_err)) % IDX_MOD);
+    l = (len_l(cor, tmp, b2, &f_err)) % IDX_MOD;
+	l = mem_size(tmp->cur + l);
+
 	if (!f_err)
 		write_sti(cor, tmp, t_reg, l);
 	free(b2);

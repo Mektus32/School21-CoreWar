@@ -52,4 +52,6 @@ void	exe_sti(t_vm *v, t_list *process, int val[3])
 		ft_printf("P %4d | sti r%d %d %d\n       | -> store to %d + %d = %d"
 		" (with pc and mod %d)\n", NPRO, val[2] + 1, val[1], val[0], val[1],
 		val[0], val[0] + val[1], PC + ((val[0] + val[1]) % IDX_MOD));
+	// ft_printf(", val[0] = %d, val[1] = %d, val[2] = %d\n", val[0], val[1], val[2]);
+	// ft_printf("addr  = %d! +PC = %d\n\n", (val[0] + val[1]) % IDX_MOD, (val[0] + val[1]) % IDX_MOD + PC);
 }

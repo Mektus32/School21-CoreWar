@@ -108,7 +108,7 @@ void	op_sti(t_vm *v, t_list *process)
 	arg_nb = 3;
 	shift = 0;
 	save = B_OCT;
-	//ft_printf("STI_OP\n");
+	//("STI_OP\n");
 	//if (check_arg(10, B_OCT, arg_nb))
 	//{
 		while (arg_nb--)
@@ -122,7 +122,7 @@ void	op_sti(t_vm *v, t_list *process)
 			val[arg_nb] = arg_nb == 2 ? ARENA(PC + 2 + shift++) - 1 :
 			get_ar(v, process, &shift, ((B_OCT >> ((arg_nb + 1) * 2)) & 0b11) + 4);
 			// if (arg_nb)
-			// 	ft_printf("arg[%d] = %d\n", arg_nb, val[arg_nb]);
+			 	//ft_printf("arg[%d] = %d\n", arg_nb, val[arg_nb]);
 			if (!arg_nb && check_arg(10, B_OCT, 3))
 				exe_sti(v, process, val);
 		}

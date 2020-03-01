@@ -70,7 +70,7 @@ unsigned int			read_byte_2_int( unsigned char *src, int i)
 
 
 
-short				arg_2(char *b2, t_carr *tmp, t_cor *cor, int *f_err)
+int arg_2(char *b2, t_carr *tmp, t_cor *cor, int *f_err)
 {
 	int			a1;
 	unsigned char	t_reg_3;
@@ -80,7 +80,7 @@ short				arg_2(char *b2, t_carr *tmp, t_cor *cor, int *f_err)
 	if (b2[0] == 0 && b2[1] == 1)
 	{
 		t_reg_3 = read_byte_1(cor->code, tmp->cur + tmp->i++);
-		a1 = (short)tmp->reg[t_reg_3 - 1];
+		a1 = tmp->reg[t_reg_3 - 1];
 		if(!(*f_err))
 		*f_err = (VAL_REG(t_reg_3)) ? 0 : 1;
 	}
@@ -90,11 +90,11 @@ short				arg_2(char *b2, t_carr *tmp, t_cor *cor, int *f_err)
 		{
 			t_ind = read_byte_2(cor->code, tmp->cur + tmp->i);
 			a1 = read_byte_4(cor->code, tmp->cur + idx_mod(t_ind));
-//            int a2;
-//            a2 = read_byte_4_c(cor->code, tmp->cur + idx_mod(t_ind));
-//            a2 = read_byte_4(cor->code, tmp->cur + idx_mod(t_ind));
-//            a2 = read_byte_2_int(cor->code, tmp->cur + idx_mod(t_ind));
-            //a2 = arg_dir(b2, cor, tmp);
+            int a2;
+            a2 = read_byte_4_c(cor->code, tmp->cur + idx_mod(t_ind));
+            a2 = read_byte_4(cor->code, tmp->cur + idx_mod(t_ind));
+            a2 = read_byte_2_int(cor->code, tmp->cur + idx_mod(t_ind));
+            a2 = arg_dir(b2, cor, tmp);
 
 		}
 		else

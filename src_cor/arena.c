@@ -61,7 +61,7 @@ void	memset_colormap(t_cor *cor, int i)
 
 void	arena(t_cor *cor)
 {
-	int		i;
+	int				i;
 	unsigned char	*code_i;
 
 	i = 0;
@@ -75,12 +75,12 @@ void	arena(t_cor *cor)
 	cor->carr = carr_list(cor);
 	i = 0;
 	if (cor->n)
-	    ft_printf("Introducing contestants...\n");
+		ft_printf("Introducing contestants...\n");
 	else
-        exit_print("Usage: ./corewar [-dump N | -n --stealth | -v visualizator]"
-                   " [-a] <champion1.cor>");
+		exit_print("Usage: ./corewar [-dump N | -n --stealth | -v visualizator]"
+		" [-a] <champion1.cor>");
 	while (i < cor->n)
-	 {
+	{
 		ft_printf("* Player %d, weighing %d bytes, \"%s\" (\"%s\") !\n", i + 1,
 				cor->m_ch[i].prog_size, cor->m_ch[i].prog_name,
 				cor->m_ch[i].comment);
