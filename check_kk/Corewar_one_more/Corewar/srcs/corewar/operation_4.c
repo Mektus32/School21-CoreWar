@@ -28,9 +28,13 @@ void	op_ldi(t_vm *v, t_list *process)
 			type = (B_OCT >> (arg_nb-- * 2)) & 0b11;
 			if (type == 1 &&
 				(ARENA(PC + 2 + shift) > 16 || !ARENA(PC + 2 + shift)))
+				{
+					//ft_printf("arg[%d] == break", arg_nb);
 				break ;
+			}
 			val[arg_nb] = !arg_nb ? ARENA(PC + 2 + shift) - 1 :
-				get_ar(v, process, &shift, type + 4);
+			get_ar(v, process, &shift, type + 4);
+			//ft_printf("arg[%d] = %d", arg_nb, val[arg_nb]);
 			if (!arg_nb)
 				exe_ldi(v, process, val);
 		}

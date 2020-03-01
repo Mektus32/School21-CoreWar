@@ -12,7 +12,7 @@
 
 #include "corewar.h"
 
-static short		len_k(t_cor *cor, t_carr *tmp, char *b2, int *f_err)
+static int len_k(t_cor *cor, t_carr *tmp, char *b2, int *f_err)
 {
 	int			k;
 	unsigned char	t_reg;
@@ -23,7 +23,7 @@ static short		len_k(t_cor *cor, t_carr *tmp, char *b2, int *f_err)
 	{
 		t_reg = read_byte_1(cor->code, (tmp->cur + tmp->i++));
 		if (VAL_REG(t_reg))
-			k += (short)tmp->reg[(int)t_reg - 1];
+			k += tmp->reg[(int)t_reg - 1];
 		else
 			*f_err = 1;
 	}
@@ -68,6 +68,8 @@ void				ft_ldi(t_cor *cor, t_carr *tmp, int l)
 	int addr;
 
 	tmp->i = 2;
+	if (cor->live.cyc == 12713)
+    cor->live.cyc = 12713;
 	b2 = base16_2_cor(cor, tmp);
 	//ft_printf("%d %d %d %d %d %d %d %d\n", b2[0], b2[1], b2[2],b2[3], b2[4], b2[5], b2[6], b2[7]);
 	f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;

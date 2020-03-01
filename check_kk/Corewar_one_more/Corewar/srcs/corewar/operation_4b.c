@@ -22,6 +22,7 @@ void	exe_ldi(t_vm *v, t_list *process, int val[3])
 		" (with pc and mod %d)\n", NPRO,
 		val[2], val[1], val[0] + 1, val[2], val[1], val[2] + val[1], PC +
 		((val[1] + val[2]) % IDX_MOD));
+	//ft_printf("addr = %d",(val[1] + val[2]) % IDX_MOD);
 }
 
 void	exe_lldi(t_vm *v, t_list *process, int val[3])
