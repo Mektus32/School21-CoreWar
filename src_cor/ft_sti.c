@@ -52,7 +52,8 @@ static int		len_l(t_cor *cor, t_carr *tmp, char *b2, int *f_err)
 				//ft_printf("arg [0] -> break\n");
 				*f_err = 1;
 			}
-		l = l + (int)tmp->reg[t_reg_2 - 1];
+		if (VAL_REG(t_reg_2))//Тут добавили изменения
+		    l = l + (int)tmp->reg[t_reg_2 - 1];
 		
 	}
 	else if (b2[4] == 1 && b2[5] == 0)

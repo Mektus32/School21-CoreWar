@@ -80,7 +80,8 @@ int arg_2(char *b2, t_carr *tmp, t_cor *cor, int *f_err)
 	if (b2[0] == 0 && b2[1] == 1)
 	{
 		t_reg_3 = read_byte_1(cor->code, tmp->cur + tmp->i++);
-		a1 = tmp->reg[t_reg_3 - 1];
+		if (VAL_REG(t_reg_3))
+		    a1 = tmp->reg[t_reg_3 - 1];
 		if(!(*f_err))
 		*f_err = (VAL_REG(t_reg_3)) ? 0 : 1;
 	}
