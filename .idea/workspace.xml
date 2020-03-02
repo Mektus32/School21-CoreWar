@@ -11,36 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dba0760a-be80-42ac-8118-f56ddc27b286" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Code_eater.cor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kappa.cor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kitty_Miaou.cor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sam_2.0.cor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sencha.cor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/asm" beforeDir="false" afterPath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/asm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/corewar" beforeDir="false" afterPath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/corewar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/libft.a" beforeDir="false" afterPath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/libft.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/operation_4.c" beforeDir="false" afterPath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/operation_4.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/operation_4b.c" beforeDir="false" afterPath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/operation_4b.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/corelol_horace.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/corelol_horace.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/corelol_horace" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/corelol_horace" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar" beforeDir="false" afterPath="$PROJECT_DIR$/corewar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/asm" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/asm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_diasm/diasm" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_diasm/diasm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_fuck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/corewar.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/corewar.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/md_my" beforeDir="false" afterPath="$PROJECT_DIR$/md_my" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/md_test" beforeDir="false" afterPath="$PROJECT_DIR$/md_test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my" beforeDir="false" afterPath="$PROJECT_DIR$/my" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src_cor/arena.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/arena.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src_cor/ft_add.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/ft_add.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src_cor/ft_sti.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/ft_sti.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src_cor/pytnon_cmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src_cor/test_my_01" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src_cor/test_not_my_01" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test" beforeDir="false" afterPath="$PROJECT_DIR$/test" afterDir="false" />
-    </list>
+    <list default="true" id="dba0760a-be80-42ac-8118-f56ddc27b286" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -216,12 +187,12 @@
       <workItem from="1582890429473" duration="5607000" />
       <workItem from="1582966445684" duration="3463000" />
       <workItem from="1582975592719" duration="8348000" />
-      <workItem from="1583051081315" duration="14342000" />
+      <workItem from="1583051081315" duration="14399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79314000" />
+    <option name="totallyTimeSpent" value="79371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="24" y="23" width="1806" height="1336" extended-state="0" />
@@ -238,8 +209,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49966285" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.47902495" visible="true" weight="0.43570843" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.52097505" side_tool="true" visible="true" weight="0.43570843" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.47789115" visible="true" weight="0.43570843" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.52210885" side_tool="true" visible="true" weight="0.43570843" />
       <window_info anchor="bottom" id="CMake" order="11" sideWeight="0.49970776" weight="0.3295082" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.414966" weight="0.42392445" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />

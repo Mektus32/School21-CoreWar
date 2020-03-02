@@ -5,7 +5,7 @@ rm -f test
 rm -f md_test
 rm -f md_my
 #./vm_champs/asm $1.s
-for ((i = $3; i <= $4; i = i + $2))
+for ((i = $2; i <= $4; i = i + $3))
 do
 #echo "Cikles $i"
 ./corewar_orig  $1.cor    -d $i > test # $1.cor $1.cor#$6.cor $7.cor
