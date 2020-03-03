@@ -66,6 +66,5 @@ t_carr	*remove_elem(t_carr *curr, t_carr **prev)
 	curr = curr->next;
 	free((*prev)->next);
 	(*prev)->next = curr;
-	//return (*prev);
 	return (curr);
 }

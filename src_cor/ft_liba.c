@@ -12,7 +12,7 @@
 
 #include "corewar.h"
 
-void		free_cor(t_cor *cor)
+void				free_cor(t_cor *cor)
 {
 	int		i;
 	t_carr	*carr;
@@ -29,7 +29,9 @@ void		free_cor(t_cor *cor)
 	}
 }
 
-unsigned char		*ft_strncpy_all(unsigned char *dest, const unsigned char *source, size_t n)
+unsigned char		*ft_strncpy_all(unsigned char *dest,
+	const unsigned char *source,
+	size_t n)
 {
 	size_t	i;
 
@@ -47,7 +49,7 @@ unsigned char		*ft_strncpy_all(unsigned char *dest, const unsigned char *source,
 	return (dest);
 }
 
-short		idx_mod(short t_ind)
+short				idx_mod(short t_ind)
 {
 	if (t_ind < 0)
 	{
@@ -59,7 +61,7 @@ short		idx_mod(short t_ind)
 	return (t_ind);
 }
 
-int			mem_size(int cur)
+int					mem_size(int cur)
 {
 	if (cur < 0)
 	{

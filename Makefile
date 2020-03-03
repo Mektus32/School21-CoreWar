@@ -16,6 +16,7 @@ NAME = corewar
 
 # src / obj files
 SRC =	main.c \
+		arg.c \
 		carr_list.c \
 		ft_add.c \
 		ft_zjmp.c \

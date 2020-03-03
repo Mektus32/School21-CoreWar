@@ -18,6 +18,8 @@
 **	 Например, если значение аргумента равно -2, значит игрок с номером 2 жив.
 **
 ** я не могу засчитать каретке которая в аргументе, что она жива
+** ft_printf("A process shows that player %s is alive\n",
+** cor->m_ch[i]->prog_name);
 */
 
 void	ft_live(t_cor *cor, t_carr *tmp)
@@ -28,20 +30,14 @@ void	ft_live(t_cor *cor, t_carr *tmp)
 	i = 0;
 	tmp->cycles_live = cor->live.cyc;
 	cor->live.live_count++;
-	//ft_printf("check_live_c = %d\n", cor->live.cyc);
-			//ft_printf("check_live_c = %d\n", cor->live->cyc);
-	
 	t_dir = read_byte_4(cor->code, tmp->cur + 1);
 	while (i < cor->n)
 	{
 		if ((cor->m_ch[i].id + 1) == -t_dir)
 		{
 			cor->live.id_live = i + 1;
-			//ft_printf("A process shows that player %s is alive\n",
-				//cor->m_ch[i]->prog_name);
 		}
 		i++;
 	}
 	tmp->i = 5;
-	//ft_printf("i = 5\n");
 }

@@ -34,17 +34,36 @@ unsigned char	*ft_strnew_uc(size_t size)
 		return (NULL);
 }
 
-void write_name(int fd, char *file_name, t_champ *champ)
+static void write_name_two(int fd, char *file_name, t_champ *champ)
+{
+	size_t			len_code;
+	unsigned char	c;
+
+	len_code = read(fd, (champ->code), champ->prog_size);
+	if (len_code != champ->prog_size)
+		exit_print("code error\n");
+	while (read(fd, &c, 1))
+	        ++len_code;
+    champ->file_name = ft_strdup(file_name);
+	if (len_code > CHAMP_MAX_SIZE)
+		{
+			ft_printf("Error: File %s has too large a code (%d bytes > %d bytes)\n",champ->file_name, len_code - 4, CHAMP_MAX_SIZE); //ch->prog_size
+			exit_print("Error: File has too large");
+		}
+	 if (len_code > champ->prog_size)
+	 exit_print(" Error: File has a code size that differ from what its header says\n");
+
+}
+
+void			write_name(int fd, char *file_name, t_champ *champ)
 {
 	unsigned char	c[4];
 	size_t			st;
-	size_t			len_code;
 
 	read(fd, &c, 4);
 	champ->magic = TO_INT(c);
 	if (champ->magic != COREWAR_EXEC_MAGIC)
         exit_print("Error: wrong exec_magic\n");
-		//return (NULL);
 	read(fd, (champ->prog_name), PROG_NAME_LENGTH);
 	if (read(fd, &c, 4) != 4 || c[0] || c[1] || c[2] || c[3])
         exit_print("Error: wrong name\n");
@@ -56,32 +75,7 @@ void write_name(int fd, char *file_name, t_champ *champ)
 	if ((st = read(fd, &c, 4)) != 4 || c[0] || c[1] || c[2] || c[3])
 		exit_print("no NULL in comment\n");
 	champ->code = (unsigned char *)ft_strnew_uc(champ->prog_size);
-//	champ->id = 0; TODO wtf?
-	len_code = read(fd, (champ->code), champ->prog_size);
-	if (len_code != champ->prog_size)
-		exit_print("code error\n");
-	 //ft_printf("!!!!!!!!!!!!!!!!!!!!!!!write_name\n");
-	while (read(fd, &c, 1))
-		{
-	        ++len_code;//TODO we stop here
-		}
-	//st = read(fd, &c, 1);
-	//ft_printf("sie_code = %d",ch->prog_size );
-	//утечка!!!!!!!!!!!!!!!!
-    champ->file_name = ft_strdup(file_name);
-	if (len_code > CHAMP_MAX_SIZE)
-		{
-			ft_printf("Error: File %s has too large a code (%d bytes > %d bytes)\n",champ->file_name, len_code - 4, CHAMP_MAX_SIZE); //ch->prog_size
-			exit_print("Error: File has too large");
-		}
-	 if (len_code > champ->prog_size)
-     {
-	    // ft_printf("Error: File %s", ch->file_name);
-
-	 exit_print(" Error: File has a code size that differ from what its header says\n");
-    }
-//ft_printf("st = %d, c[0] = %s", st, c[0]);
-//		exit_print("File has a code size that differ");
+	write_name_two(fd, file_name, champ);
 }
 
 /*

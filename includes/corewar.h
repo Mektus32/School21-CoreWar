@@ -194,10 +194,12 @@ void			exit_print(char *str);
 
 unsigned char	read_byte_1( unsigned char *src, int i);
 short			read_byte_2( unsigned char *src, int i);
+unsigned int			read_byte_2_int( unsigned char *src, int i);
 unsigned int	read_byte_4(  unsigned char *src, int i);
 unsigned int	read_byte_4_c( unsigned char *src, int i);
 unsigned char	*inttobyte(int a);
 char			*base16_2_cor(t_cor *cor, t_carr *tmp);
+
 
 /*
 ** ***** ft_liba ******
@@ -221,6 +223,7 @@ void			ft_add(t_cor *cor, t_carr *tmp);
 void			ft_zjmp(t_cor *cor, t_carr *tmp);
 int				arg_4(char *b2, t_carr *tmp, t_cor *cor, int *f_err);
 int arg_2(char *b2, t_carr *tmp, t_cor *cor, int *f_err);
+
 
 /*
 ** все операции, что с флагом l - реализованы с переменной l

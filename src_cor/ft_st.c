@@ -28,7 +28,6 @@ void	copy_p(void *dst, const void *src, int d_s, int s_s)
 	unsigned char	*str1;
 	unsigned char	*str2;
 
-
 	d_s = mem_size(d_s);
 	str1 = (unsigned char *)dst;
 	str2 = (unsigned char *)src;
@@ -44,7 +43,6 @@ void	copy_p(void *dst, const void *src, int d_s, int s_s)
 ** Эта операция записывает значение из регистра,
 ** который был передан как первый параметр.
 ** А вот куда данная операция его записывает, зависит от типа второго аргумента:
-**
 ** Аргумент #2 — T_REG
 ** Если второй аргумент соответствует типу T_REG,
 ** то значение записывается в регистр.
@@ -110,8 +108,3 @@ void	ft_st(t_cor *cor, t_carr *tmp)
 	tmp->i = i;
 	free(b2);
 }
-
-//"02 90 74 19 98   ld
-// 01 06            live
-// 0A 94 96 02 06   ldi
-// 0B 03 70 0B"     sti

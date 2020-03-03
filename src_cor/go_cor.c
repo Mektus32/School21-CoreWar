@@ -35,24 +35,18 @@
 ** cor->live->counter - счетчик проверок от последнего изменени cyc_to_die 
 */
 
-static void	check_to_die(t_cor *cor)
+static t_carr	*check_to_die(t_cor *cor)
 {
 	t_carr		*carr;
 
 	(cor->live.counter)++;
-	//ft_printf("_live_count = %d\n",cor->live->live_count);
 	if (cor->live.live_count >= NBR_LIVE)
 	{
-	    //# define NBR_LIVE		21
-		//ft_printf("-NBR_LIVE\n");
 		cor->live.cyc_to_die = cor->live.cyc_to_die - CYCLE_DELTA;
 		cor->live.counter = 0;
 	}
-	//cor->live->live_count = 0;
 	else if (cor->live.counter == MAX_CHECKS)
 	{
-		//ft_printf("-MAX_CHECKS\n");
-		// ft_printf("222\n");
 		cor->live.cyc_to_die = cor->live.cyc_to_die - CYCLE_DELTA;
 		cor->live.counter = 0;
 	}
@@ -62,44 +56,36 @@ static void	check_to_die(t_cor *cor)
 		carr = cor->carr;
 		while (carr)
 			{
-				//ft_printf("ddd_chtodie = %d\n", cor->live->cyc);
-				//ft_printf("ddd_c = %d\n", cor->live->cyc);
 			carr = remove_head(cor, carr);
 			}
 	}
 	cor->live.live_count = 0;
-
+	return (cor->carr);
 }
 
-static void	check_live(t_cor *cor)
+static t_carr		*check_live(t_cor *cor)
 {
 	t_carr *carr;
 	t_carr *prev;
-	//cor->live->cyc++;
 	carr = cor->carr;
 	prev = NULL;
-	//cor->live->counter++;
 	while (carr)
 	{
-			//ft_printf("check_live_c = %d\n", cor->live->cyc);
 
 		if ((cor->live.cyc - carr->cycles_live) >= cor->live.cyc_to_die)
 		{
-			//ft_printf("ddd_c = %d\n", cor->live.cyc);
 			if (cor->carr == carr)
-				carr = remove_head(cor, carr);//TODO вот тут баг отчистки объекта, почему и как его фиксить хз!!!
+				carr = remove_head(cor, carr);
 			else
 				carr = remove_elem(carr, &prev);
 		}
 		else
 		{
-           // carr->cycles_live = cor->live.cyc;
 			prev = carr;
 			carr = carr->next;
 		}
 	}
-	//cor->live->cyc--;
-	//check_to_die(cor);
+	return(cor->carr);
 }
 
 /*
@@ -111,129 +97,44 @@ static void	check_live(t_cor *cor)
 ** делает проверку(удаляет лишние каретки)
 */
 
-static void	cycles_read(t_cor *cor, t_carr *tmp)
+static void		cycles_read(t_cor *cor, t_carr *tmp)
 {
 	if (tmp->cycles_to == 0)
 	{
 		tmp->cur = mem_size(tmp->cur + tmp->i);
-		//ft_printf("i = %d\n", tmp->i);
 		tmp->prog = read_byte_1(cor->code, tmp->cur);
 		tmp->cycles_to = ft_cycles_to(tmp->prog);
 		tmp->i = 0;
 	}
 }
 
-void		go_cor(t_cor *cor)
+void			go_cor(t_cor *cor)
 {
 	t_carr	*tmp;
 
 	while (cor->carr)
 	{
-
-		//ft_printf("c = %d, ", cor->live.cyc);
-		
-		
-		//ft_printf("cyc_to_die=%d, len_cur = %d\n", cor->live.cyc_to_die, len_curr(cor->carr));
-
-		//ft_printf("cor->live.cyc = %d, cor->nbr_cyc = %d\n", cor->live.cyc, cor->nbr_cyc);
 		if (cor->carr && (cor->live.cyc == cor->nbr_cyc
 					|| cor->nbr_cyc == 0))
 			print_dump_code(cor);
 		tmp = cor->carr;
-
-		
-
-
-		//check_to_die(cor);
-
 		cor->visual.vis ? visual(cor) : 0;
-        //(cor->live.cyc)++;
-        if (cor->live.cyc == 1536)
-            cor->live.cyc = 1536;
-        if ((cor->live.cyc - cor->live.cyc_tmp) >= cor->live.cyc_to_die)
-        {//
-
-            check_to_die(cor);
-            tmp = cor->carr; //удвлили - и операцию не сделала! если последняя операция будет sti ничего не поменяется
-            cor->live.cyc_tmp = cor->live.cyc;
-
-        }
-        //(cor->live.cyc)--;
-       (cor->live.cyc)++;
-       // ft_printf("c = %d, cyc_to_die=%d, len_cur = %d\n", cor->live.cyc, cor->live.cyc_to_die, len_curr(cor->carr));
-
-
-
-        while (tmp)
+		if ((cor->live.cyc++ - cor->live.cyc_tmp) >= cor->live.cyc_to_die)
 		{
+			tmp = check_to_die(cor);
+			cor->live.cyc_tmp = cor->live.cyc - 1;
+		}
+       while (tmp)
+       {
 			cycles_read(cor, tmp);
-			 //ft_printf("next_c = %d, pc_next_c = %d\n", cor->live->cyc, tmp->cur);
-            --tmp->cycles_to == 0 ? do_op(cor, tmp) : 0;
+			--tmp->cycles_to == 0 ? do_op(cor, tmp) : 0;
 			tmp = tmp->next;
 		}
-
         if ((cor->live.cyc - cor->live.cyc_tmp) >= cor->live.cyc_to_die)
-        {//
-            check_live(cor);
-
-            tmp = cor->carr; //удвлили - и операцию не сделала! если последняя операция будет sti ничего не поменяется
-            //cor->live.cyc_tmp = cor->live.cyc;
-
-        }
-
-
-    }
-
+			tmp = check_live(cor);
+	}
 	cor->visual.vis ? stop_visual(cor) : 0;
 }
-
-// static void	check_to_die(t_cor *cor)
-// {
-// 	t_carr		*carr;
-
-// 	cor->live->counter++;
-// 	if (cor->live->live_count >= NBR_LIVE)
-// 	{
-// 		cor->live->cyc_to_die = cor->live->cyc_to_die - CYCLE_DELTA;
-// 		cor->live->counter = 0;
-// 	}
-// 	cor->live->live_count = 0;
-// 	if (cor->live->counter == MAX_CHECKS)
-// 	{
-// 		cor->live->cyc_to_die = cor->live->cyc_to_die - CYCLE_DELTA;
-// 		cor->live->counter = 0;
-// 	}
-// 	if (cor->live->cyc_to_die <= 0)
-// 	{
-// 		carr = cor->carr;
-// 		while (carr)
-// 			carr = remove_head(cor, carr);
-// 	}
-// }
-
-// static void	check_live(t_cor *cor)
-// {
-// 	t_carr *carr;
-// 	t_carr *prev;
-
-// 	carr = cor->carr;
-// 	prev = NULL;
-// 	while (carr)
-// 	{
-// 		if ((cor->live->cyc - carr->cycles_live) >= cor->live->cyc_to_die)
-// 		{
-// 			if (cor->carr == carr)
-// 				carr = remove_head(cor, carr);
-// 			else
-// 				carr = remove_elem(carr, &prev);
-// 		}
-// 		else
-// 		{
-// 			prev = carr;
-// 			carr = carr->next;
-// 		}
-// 	}
-// }
 
 // /*
 // ** основная ф игры
@@ -243,41 +144,3 @@ void		go_cor(t_cor *cor)
 // ** check_live - в т.ч. меняет время до смерти и
 // ** делает проверку(удаляет лишние каретки)
 // */
-
-// static void	cycles_read(t_cor *cor, t_carr *tmp)
-// {
-// 	if (tmp->cycles_to == 0)
-// 	{
-// 		tmp->cur = mem_size(tmp->cur + tmp->i);
-// 		tmp->prog = read_byte_1(cor->code, tmp->cur);
-// 		tmp->cycles_to = ft_cycles_to(tmp->prog);
-// 		tmp->i = 0;
-// 	}
-// }
-
-// void		go_cor(t_cor *cor)
-// {
-// 	t_carr	*tmp;
-
-// 	while (cor->carr)
-// 	{
-
-// 		tmp = cor->carr;
-// 		while (tmp)
-// 		{
-// 		if (cor->carr && (cor->live->cyc++ == cor->nbr_cyc
-// 		|| cor->nbr_cyc == 0))
-// 		print_dump_code(cor);
-// 			cycles_read(cor, tmp);
-// 			--tmp->cycles_to == 0 ? do_op(cor, tmp) : 0;
-// 			tmp = tmp->next;
-// 		}
-// 		if ((cor->live->cyc - cor->live->cyc_tmp) >= cor->live->cyc_to_die)
-// 		{
-// 			cor->live->cyc_tmp = cor->live->cyc;
-// 			check_live(cor);
-// 		}
-// 		cor->visual.vis ? visual(cor) : 0;
-// 	}
-// 	cor->visual.vis ? stop_visual(cor) : 0;
-// }

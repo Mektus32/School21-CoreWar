@@ -20,33 +20,6 @@
 ** take_cor - заполняет два массива с флагом и без
 */
 
-//static t_champ	*copy_champ(t_champ *ch_2)
-//{
-//	t_champ	*new;
-//	int		i;
-//
-//	new = (t_champ*)ft_memalloc(sizeof(t_champ));
-//	new->code = ft_strnew_uc(ch_2->prog_size);
-//	ft_strncpy_all(new->code, ch_2->code, ch_2->prog_size);
-//	free(ch_2->code);
-//	new->id = ch_2->id;
-//	new->prog_size = ch_2->prog_size;
-//	new->magic = ch_2->magic;
-//	i = 0;
-//	while (i < PROG_NAME_LENGTH)
-//	{
-//		new->prog_name[i] = ch_2->prog_name[i];
-//		i++;
-//	}
-//	i = 0;
-//	while (i < COMMENT_LENGTH)
-//	{
-//		new->comment[i] = ch_2->comment[i];
-//		i++;
-//	}
-//	return (new);
-//}
-
 static void		change_pos(t_cor *cor)
 {
 	int	i;
@@ -92,24 +65,24 @@ static void		take_cor(int ac, char **av, t_cor *cor)
 	i = 1;
 	j = 0;
 	while (i < ac)
-    {
-        if (!(ft_strcmp("-dump", av[i])))
-            dump_arg(&i, cor, ac, av);
-        else if (ft_strcmp("-n", av[i]) == 0 && (i + 2) < ac)
-        {
-            make_champ_n(ac, av, ++i, cor);
-            i += 2;
-        }
-        else if (ft_strstr(av[i], ".cor") && j < MAX_PLAYERS)
-            valid_champ(i++, av, &(cor->m_2[j++]));
-        else if (ft_strcmp("-v", av[i]) == 0)
-        {
-            cor->visual.vis = 1;
-            i++;
-        }
-        else
-            exit_print("Can't read source file\n");
-    }
+	{
+		if (!(ft_strcmp("-dump", av[i])))
+			dump_arg(&i, cor, ac, av);
+		else if (ft_strcmp("-n", av[i]) == 0 && (i + 2) < ac)
+		{
+			make_champ_n(ac, av, ++i, cor);
+			i += 2;
+		}
+		else if (ft_strstr(av[i], ".cor") && j < MAX_PLAYERS)
+			valid_champ(i++, av, &(cor->m_2[j++]));
+		else if (ft_strcmp("-v", av[i]) == 0)
+		{
+			cor->visual.vis = 1;
+			i++;
+		}
+		else
+			exit_print("Can't read source file\n");
+		}
 }
 
 void *parse_av(int ac, char **av, t_cor *cor)
