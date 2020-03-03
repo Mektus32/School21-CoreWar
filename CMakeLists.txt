@@ -138,6 +138,7 @@ add_executable(corelol_horace
         src_cor/read_byte.c
         src_cor/visu_cicle.c
         src_cor/visu_init.c
+        src_cor/arg.c
         src_cor/write_map.c)
 
 target_link_libraries(${PROJECT_NAME} ncurses)

@@ -108,6 +108,15 @@ static void		cycles_read(t_cor *cor, t_carr *tmp)
 	}
 }
 
+/*
+** основная ф игры
+** print_dump_code - печатает код и выходит из игры, если есть dump
+** do_op - переходит к оперециям 2 из них изменяют код(st и sti),
+** и одна состояние лайв
+** check_live - в т.ч. меняет время до смерти и
+** делает проверку(удаляет лишние каретки)
+*/
+
 void			go_cor(t_cor *cor)
 {
 	t_carr	*tmp;
@@ -124,23 +133,16 @@ void			go_cor(t_cor *cor)
 			tmp = check_to_die(cor);
 			cor->live.cyc_tmp = cor->live.cyc - 1;
 		}
-       while (tmp)
-       {
+		while (tmp)
+		{
 			cycles_read(cor, tmp);
 			--tmp->cycles_to == 0 ? do_op(cor, tmp) : 0;
 			tmp = tmp->next;
 		}
-        if ((cor->live.cyc - cor->live.cyc_tmp) >= cor->live.cyc_to_die)
+		if ((cor->live.cyc - cor->live.cyc_tmp) >= cor->live.cyc_to_die)
 			tmp = check_live(cor);
 	}
 	cor->visual.vis ? stop_visual(cor) : 0;
 }
 
-// /*
-// ** основная ф игры
-// ** print_dump_code - печатает код и выходит из игры, если есть dump
-// ** do_op - переходит к оперециям 2 из них изменяют код(st и sti),
-// ** и одна состояние лайв
-// ** check_live - в т.ч. меняет время до смерти и
-// ** делает проверку(удаляет лишние каретки)
-// */
+

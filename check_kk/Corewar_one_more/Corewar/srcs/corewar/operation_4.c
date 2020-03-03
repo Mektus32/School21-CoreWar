@@ -108,9 +108,9 @@ void	op_sti(t_vm *v, t_list *process)
 	arg_nb = 3;
 	shift = 0;
 	save = B_OCT;
-	//("STI_OP\n");
-	//if (check_arg(10, B_OCT, arg_nb))
-	//{
+	//ft_printf("STI_OP\n");
+	if (check_arg(10, B_OCT, arg_nb))
+	{
 		while (arg_nb--)
 		{
 			if (((B_OCT >> ((arg_nb + 1) * 2)) & 0b11) == 1 &&
@@ -126,7 +126,7 @@ void	op_sti(t_vm *v, t_list *process)
 			if (!arg_nb && check_arg(10, B_OCT, 3))
 				exe_sti(v, process, val);
 		}
-	//}
+	}
 	if (DISPLAY && (v->verbose_param & FLAG_VERBOSE_PCMOVE))
 		print_adv(v, process, octal_shift(save, 2, 3));
 	// ЗС обнавляется в любом случае 

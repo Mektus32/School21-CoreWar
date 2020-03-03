@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   arg.c                                              :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: qgilbert <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/03/03 16:26:40 by qgilbert          #+#    #+#             */
+/*   Updated: 2020/03/03 16:26:47 by qgilbert         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "corewar.h"
 
 static unsigned int	arg_dir(char *b2, t_cor *cor, t_carr *tmp)
@@ -29,7 +41,7 @@ int					arg_4(char *b2, t_carr *tmp, t_cor *cor, int *f_err)
 	{
 		t_reg_3 = read_byte_1(cor->code, tmp->cur + tmp->i++);
 		t_dir = tmp->reg[t_reg_3 - 1];
-		if(!(*f_err))
+		if (!(*f_err))
 		*f_err = (VAL_REG(t_reg_3)) ? 0 : 1;
 	}
 	else if ((b2[0] == 1 && b2[1] == 1) || (b2[0] == 1 && b2[1] == 0))

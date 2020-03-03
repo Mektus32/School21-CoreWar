@@ -311,6 +311,12 @@ CMakeFiles/corelol_horace.dir/src_cor/arena.c.o: ../includes/libft.h
 CMakeFiles/corelol_horace.dir/src_cor/arena.c.o: ../includes/op.h
 CMakeFiles/corelol_horace.dir/src_cor/arena.c.o: ../src_cor/arena.c
 
+CMakeFiles/corelol_horace.dir/src_cor/arg.c.o: ../includes/corewar.h
+CMakeFiles/corelol_horace.dir/src_cor/arg.c.o: ../includes/ft_printf.h
+CMakeFiles/corelol_horace.dir/src_cor/arg.c.o: ../includes/libft.h
+CMakeFiles/corelol_horace.dir/src_cor/arg.c.o: ../includes/op.h
+CMakeFiles/corelol_horace.dir/src_cor/arg.c.o: ../src_cor/arg.c
+
 CMakeFiles/corelol_horace.dir/src_cor/carr_list.c.o: ../includes/corewar.h
 CMakeFiles/corelol_horace.dir/src_cor/carr_list.c.o: ../includes/ft_printf.h
 CMakeFiles/corelol_horace.dir/src_cor/carr_list.c.o: ../includes/libft.h

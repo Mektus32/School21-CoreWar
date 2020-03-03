@@ -2769,6 +2769,33 @@ src_cor/arena.c.s:
 	$(MAKE) -f CMakeFiles/corelol_horace.dir/build.make CMakeFiles/corelol_horace.dir/src_cor/arena.c.s
 .PHONY : src_cor/arena.c.s
 
+src_cor/arg.o: src_cor/arg.c.o
+
+.PHONY : src_cor/arg.o
+
+# target to build an object file
+src_cor/arg.c.o:
+	$(MAKE) -f CMakeFiles/corelol_horace.dir/build.make CMakeFiles/corelol_horace.dir/src_cor/arg.c.o
+.PHONY : src_cor/arg.c.o
+
+src_cor/arg.i: src_cor/arg.c.i
+
+.PHONY : src_cor/arg.i
+
+# target to preprocess a source file
+src_cor/arg.c.i:
+	$(MAKE) -f CMakeFiles/corelol_horace.dir/build.make CMakeFiles/corelol_horace.dir/src_cor/arg.c.i
+.PHONY : src_cor/arg.c.i
+
+src_cor/arg.s: src_cor/arg.c.s
+
+.PHONY : src_cor/arg.s
+
+# target to generate assembly for a file
+src_cor/arg.c.s:
+	$(MAKE) -f CMakeFiles/corelol_horace.dir/build.make CMakeFiles/corelol_horace.dir/src_cor/arg.c.s
+.PHONY : src_cor/arg.c.s
+
 src_cor/carr_list.o: src_cor/carr_list.c.o
 
 .PHONY : src_cor/carr_list.o
@@ -3720,6 +3747,9 @@ help:
 	@echo "... src_cor/arena.o"
 	@echo "... src_cor/arena.i"
 	@echo "... src_cor/arena.s"
+	@echo "... src_cor/arg.o"
+	@echo "... src_cor/arg.i"
+	@echo "... src_cor/arg.s"
 	@echo "... src_cor/carr_list.o"
 	@echo "... src_cor/carr_list.i"
 	@echo "... src_cor/carr_list.s"

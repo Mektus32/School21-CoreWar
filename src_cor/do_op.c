@@ -43,18 +43,18 @@ void	do_op_two(t_cor *cor, t_carr *tmp)
 
 void	do_op(t_cor *cor, t_carr *tmp)
 {
-    if (tmp->prog > 0 && tmp->prog < 13)
+	if (tmp->prog > 0 && tmp->prog < 13)
 		do_op_two(cor, tmp);
-    else if (tmp->prog == 13)
+	else if (tmp->prog == 13)
 		ft_lld(cor, tmp);
-    else if (tmp->prog == 14)
+	else if (tmp->prog == 14)
 		ft_ldi(cor, tmp, 1);
-    else if (tmp->prog == 15)
+	else if (tmp->prog == 15)
 		ft_fork(cor, tmp, 1);
-    else if (tmp->prog == 16)
+	else if (tmp->prog == 16)
 		ft_aff(cor, tmp);
-    else
-        tmp->i = 1;
+	else
+		tmp->i = 1;
 }
 
 int		ft_cycles_to(char p)
