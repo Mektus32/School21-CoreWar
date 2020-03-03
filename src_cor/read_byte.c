@@ -29,7 +29,7 @@ unsigned char	read_byte_1(unsigned char *src, int i)
 	return ((unsigned char)c_1);
 }
 
-short			read_byte_2( unsigned char *src, int i)
+short			read_byte_2(unsigned char *src, int i)
 {
 	short	c_2;
 
@@ -43,9 +43,9 @@ short			read_byte_2( unsigned char *src, int i)
 	return ((short)c_2);
 }
 
-unsigned int			read_byte_2_int(unsigned char *src, int i)
+unsigned int	read_byte_2_int(unsigned char *src, int i)
 {
-    unsigned int	c_2;
+	unsigned int	c_2;
 
 	while (i < 0)
 		i = MEM_SIZE + i;
@@ -83,12 +83,12 @@ unsigned int	read_byte_4_c(unsigned char *src, int i)
 		i = MEM_SIZE + i;
 	c_4 = 0;
 	c_4 = (c_4 << 8);
-	c_4 = c_4 | ( char)(src[(i) % MEM_SIZE]);
+	c_4 = c_4 | (char)(src[(i) % MEM_SIZE]);
 	c_4 = (c_4 << 8);
-	c_4 = c_4 | ( char)(src[(i + 1) % MEM_SIZE]);
+	c_4 = c_4 | (char)(src[(i + 1) % MEM_SIZE]);
 	c_4 = (c_4 << 8);
-	c_4 = c_4 | ( char)(src[(i + 2) % MEM_SIZE]);
+	c_4 = c_4 | (char)(src[(i + 2) % MEM_SIZE]);
 	c_4 = (c_4 << 8);
-	c_4 = c_4 | ( char)(src[(i + 3) % MEM_SIZE]);
+	c_4 = c_4 | (char)(src[(i + 3) % MEM_SIZE]);
 	return ((unsigned int)c_4);
 }

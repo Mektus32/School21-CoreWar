@@ -82,10 +82,10 @@ static void		take_cor(int ac, char **av, t_cor *cor)
 		}
 		else
 			exit_print("Can't read source file\n");
-		}
+	}
 }
 
-void *parse_av(int ac, char **av, t_cor *cor)
+void			*parse_av(int ac, char **av, t_cor *cor)
 {
 	int		i;
 	char	*name;

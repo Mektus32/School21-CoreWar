@@ -1,108 +1,27 @@
 Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/arena.c
 Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/carr_list.c
-Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/ft_add.c
 Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/do_op.c
-Error (line 46): bad indentation
-Error (line 46): must begin only by tabulations
-Error (line 48): bad indentation
-Error (line 48): must begin only by tabulations
-Error (line 50): bad indentation
-Error (line 50): must begin only by tabulations
-Error (line 52): bad indentation
-Error (line 52): must begin only by tabulations
-Error (line 54): bad indentation
-Error (line 54): must begin only by tabulations
-Error (line 56): bad indentation
-Error (line 56): must begin only by tabulations
-Error (line 57): bad indentation
-Error (line 57): must begin only by tabulations
+Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/ft_add.c
 Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/ft_aff.c
 Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/ft_and.c
-Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/arg.c
-Error (line 44, col 2): missing space after if
-Error (line 45): bad indentation
-Error (line 57): declarations in arg_2 are bad aligned
-Error (line 57): function arg_2 has 27 lines
-Error (line 68): bad indentation
-Error (line 68): must begin only by tabulations
-Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/champ.c
-Error: global scope bad aligned
-Error (line 37): Space before function name
-Error (line 46): bad indentation
-Error (line 46): must begin only by tabulations
-Error (line 47): bad indentation
-Error (line 47): must begin only by tabulations
-Error (line 49): bad indentation
-Error (line 50): bad indentation
-Error (line 50): C++ comment
-Error (line 50): line has 149 characters
-Error (line 50, col 74): bad character after ,
-Error (line 51): bad indentation
-Error (line 52): bad indentation
-Error (line 53): must begin only by tabulations
-Error (line 54): bad indentation
-Error (line 54): line has 89 characters
-Error (line 54): must begin only by tabulations
-Error (line 55): Empty line
-Error (line 56, col 0): no empty line before block
-Error (line 66): bad indentation
-Error (line 66): must begin only by tabulations
-Error (line 69): bad indentation
-Error (line 69): must begin only by tabulations
-Error (line 70): line has 82 characters
-Error (line 70): must begin only by tabulations
-Error (line 71): bad indentation
-Error (line 71): must begin only by tabulations
-Error (line 72): must begin only by tabulations
-Error (line 86): Space before function name
 Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/ft_fork_lfork.c
+Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/champ.c
+Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/arg.c
+Error (line 57): function arg_2 has 27 lines
 Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/ft_live.c
-Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/ft_liba.c
 Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/ft_ldi.c
+Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/ft_liba.c
 Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/ft_or_xor.c
-Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/ft_st.c
-Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/ft_ld.c
 Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/ft_sti.c
-Error (line 71): function ft_sti has 30 lines
-Error (line 80): bad indentation
-Error (line 80): must begin only by tabulations
-Error (line 81): Empty line
-Error (line 88): spaces at the end of line
-Error (line 96): C++ comment
-Error (line 97): Empty line
-Error (line 98): multiple empty lines
-Error (line 98): Empty line
-Error (line 99): 2 assignations
+Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/ft_st.c
 Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/ft_zjmp.c
 Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/main.c
-Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/ft_sub.c
+Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/ft_ld.c
 Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/print_code.c
-Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/parse_av.c
-Error: global scope bad aligned
-Error (line 85): bad indentation
-Error (line 88): Space before function name
-Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/read_byte.c
-Error: global scope bad aligned
-Error (line 32, col 19): space after (
-Error (line 48): bad indentation
-Error (line 48): must begin only by tabulations
-Error (line 86, col 13): space after (
-Error (line 88, col 13): space after (
-Error (line 90, col 13): space after (
-Error (line 92, col 13): space after (
 Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/go_cor.c
-Error: file must end with a single empty line
-Error: global scope bad aligned
-Error (line 1): line has 82 characters
-Error (line 1): must begin only by tabulations
-Error (line 35): spaces at the end of line
-Error (line 53): Empty line
-Error (line 58): bad indentation
-Error (line 60): bad indentation
-Error (line 66): declarations must be followed by one empty line in check_live
-Error (line 74): Empty line
-Error (line 88, col 1): missing space after return
-Error (line 148): multiple empty lines
+Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/parse_av.c
+Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/ft_sub.c
+Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/read_byte.c
+Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/write_map.c
 Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/visu_cicle.c
 Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/visu_init.c
-Norme: /Users/qgilbert/Desktop/corelol+horace/src_cor/write_map.c

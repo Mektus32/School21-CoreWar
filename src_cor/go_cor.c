@@ -1,12 +1,12 @@
- /* ************************************************************************** */
+/* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
 /*   go_cor.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: qgilbert <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/11/06 20:31:25 by qgilbert          #+#    #+#             */
-/*   Updated: 2019/11/12 16:52:25 by ojessi           ###   ########.fr       */
+/*   Created: 2020/03/03 19:51:44 by qgilbert          #+#    #+#             */
+/*   Updated: 2020/03/03 19:51:46 by qgilbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@
 ** check_to_die - изменяет кол-во циклов до смерти
 ** check_live - удаляет каретки
 ** cor->live->live_count - кол - во  операуий лайв
-** cor->live->counter - счетчик проверок от последнего изменени cyc_to_die 
+** cor->live->counter - счетчик проверок от последнего изменени cyc_to_die
 */
 
 static t_carr	*check_to_die(t_cor *cor)
@@ -50,28 +50,27 @@ static t_carr	*check_to_die(t_cor *cor)
 		cor->live.cyc_to_die = cor->live.cyc_to_die - CYCLE_DELTA;
 		cor->live.counter = 0;
 	}
-
 	if (cor->live.cyc_to_die <= 0)
 	{
 		carr = cor->carr;
 		while (carr)
-			{
+		{
 			carr = remove_head(cor, carr);
-			}
+		}
 	}
 	cor->live.live_count = 0;
 	return (cor->carr);
 }
 
-static t_carr		*check_live(t_cor *cor)
+static t_carr	*check_live(t_cor *cor)
 {
 	t_carr *carr;
 	t_carr *prev;
+
 	carr = cor->carr;
 	prev = NULL;
 	while (carr)
 	{
-
 		if ((cor->live.cyc - carr->cycles_live) >= cor->live.cyc_to_die)
 		{
 			if (cor->carr == carr)
@@ -85,7 +84,7 @@ static t_carr		*check_live(t_cor *cor)
 			carr = carr->next;
 		}
 	}
-	return(cor->carr);
+	return (cor->carr);
 }
 
 /*
@@ -144,5 +143,3 @@ void			go_cor(t_cor *cor)
 	}
 	cor->visual.vis ? stop_visual(cor) : 0;
 }
-
-

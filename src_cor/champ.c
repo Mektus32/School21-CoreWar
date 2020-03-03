@@ -34,7 +34,7 @@ unsigned char	*ft_strnew_uc(size_t size)
 		return (NULL);
 }
 
-static void write_name_two(int fd, char *file_name, t_champ *champ)
+static void		write_name_two(int fd, char *file_name, t_champ *champ)
 {
 	size_t			len_code;
 	unsigned char	c;
@@ -43,16 +43,17 @@ static void write_name_two(int fd, char *file_name, t_champ *champ)
 	if (len_code != champ->prog_size)
 		exit_print("code error\n");
 	while (read(fd, &c, 1))
-	        ++len_code;
-    champ->file_name = ft_strdup(file_name);
+		++len_code;
+	champ->file_name = ft_strdup(file_name);
 	if (len_code > CHAMP_MAX_SIZE)
-		{
-			ft_printf("Error: File %s has too large a code (%d bytes > %d bytes)\n",champ->file_name, len_code - 4, CHAMP_MAX_SIZE); //ch->prog_size
-			exit_print("Error: File has too large");
-		}
-	 if (len_code > champ->prog_size)
-	 exit_print(" Error: File has a code size that differ from what its header says\n");
-
+	{
+		ft_printf("Error: File %s has too large a code (%d bytes > %d bytes)\n",
+			champ->file_name, len_code - 4, CHAMP_MAX_SIZE);
+		exit_print("Error: File has too large");
+	}
+	if (len_code > champ->prog_size)
+		exit_print(" Error: File has a code size that differ from what its
+			header says\n");
 }
 
 void			write_name(int fd, char *file_name, t_champ *champ)
@@ -63,13 +64,14 @@ void			write_name(int fd, char *file_name, t_champ *champ)
 	read(fd, &c, 4);
 	champ->magic = TO_INT(c);
 	if (champ->magic != COREWAR_EXEC_MAGIC)
-        exit_print("Error: wrong exec_magic\n");
+		exit_print("Error: wrong exec_magic\n");
 	read(fd, (champ->prog_name), PROG_NAME_LENGTH);
 	if (read(fd, &c, 4) != 4 || c[0] || c[1] || c[2] || c[3])
-        exit_print("Error: wrong name\n");
-	 if (read(fd, &c, 4) != 4 || (champ->prog_size = TO_INT(c)) > CHAMP_MAX_SIZE)
-	 	exit_print("File has a code size that differ"
-	 "from what its header says\n");
+		exit_print("Error: wrong name\n");
+	if (read(fd, &c, 4) != 4 ||
+		(champ->prog_size = TO_INT(c)) > CHAMP_MAX_SIZE)
+		exit_print("File has a code size that differ"
+	"from what its header says\n");
 	if ((st = read(fd, &(champ->comment), COMMENT_LENGTH)) != COMMENT_LENGTH)
 		exit_print("error comment\n");
 	if ((st = read(fd, &c, 4)) != 4 || c[0] || c[1] || c[2] || c[3])
@@ -83,7 +85,7 @@ void			write_name(int fd, char *file_name, t_champ *champ)
 ** если параметр файл cor пытаемся записать чемпиона
 */
 
-void valid_champ(int i, char **av, t_champ *champ)
+void			valid_champ(int i, char **av, t_champ *champ)
 {
 	char	*name;
 	int		fd;
@@ -119,7 +121,7 @@ void valid_champ(int i, char **av, t_champ *champ)
 ** но не превышать общее количество игроков, которые принимают участие в битве).
 */
 
-void	make_champ_n(int ac, char **av, int n, t_cor *cor)
+void			make_champ_n(int ac, char **av, int n, t_cor *cor)
 {
 	int	i;
 

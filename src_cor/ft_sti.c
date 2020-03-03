@@ -76,16 +76,12 @@ void			ft_sti(t_cor *cor, t_carr *tmp)
 	char			*b2;
 
 	tmp->i = 2;
-	if (cor->live.cyc == 14405)
-        cor->live.cyc = 14405;
-
 	b2 = base16_2_cor(cor, tmp);
 	f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;
 	f_err = 0;
 	if (b2[0] == 0 && b2[1] == 1)
 	{
 		t_reg = read_byte_1(cor->code, tmp->cur + tmp->i++);
-		
 	}
 	else
 	{
@@ -93,10 +89,7 @@ void			ft_sti(t_cor *cor, t_carr *tmp)
 		if ((b2[0] == 1 && b2[1] == 1) || (b2[0] == 1 && b2[1] == 0))
 			tmp->i += 2;
 	}
-	//l = len_l(cor, tmp, b2, &f_err) % IDX_MOD;
-
-
-	l = mem_size(l = tmp->cur + len_l(cor, tmp, b2, &f_err) % IDX_MOD);
+	l = mem_size(tmp->cur + len_l(cor, tmp, b2, &f_err) % IDX_MOD);
 	if (!f_err && VAL_REG(t_reg))
 		write_sti(cor, tmp, t_reg, l);
 	free(b2);
