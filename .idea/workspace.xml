@@ -77,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src_cor/arg.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+            <state relative-caret-position="308">
+              <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -292,16 +292,15 @@
       <workItem from="1583142478660" duration="2541000" />
       <workItem from="1583246806886" duration="3423000" />
       <workItem from="1583253588283" duration="591000" />
-      <workItem from="1583320603488" duration="1052000" />
+      <workItem from="1583320603488" duration="1683000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86978000" />
+    <option name="totallyTimeSpent" value="87609000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="754" y="23" width="1806" height="1336" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26870748" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -315,8 +314,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49966285" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4931973" visible="true" weight="0.21457821" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50680274" side_tool="true" visible="true" weight="0.21457821" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4926304" visible="true" weight="0.21457821" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50736964" side_tool="true" visible="true" weight="0.21457821" />
       <window_info anchor="bottom" id="CMake" order="11" sideWeight="0.49970776" weight="0.3295082" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4030612" weight="0.4234234" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -624,8 +623,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src_cor/arg.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        <state relative-caret-position="308">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
         </state>
       </provider>
     </entry>
