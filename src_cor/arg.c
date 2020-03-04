@@ -31,6 +31,12 @@ static unsigned int	arg_dir(char *b2, t_cor *cor, t_carr *tmp)
 	return (t_dir);
 }
 
+/*
+**	if (!(*f_err))
+**	*f_err = (VAL_REG(t_reg_3)) ? 0 : 1;
+** если была ошибка или регистр невалидный  = ошибка : ошибки нет
+*/
+
 int					arg_4(char *b2, t_carr *tmp, t_cor *cor, int *f_err)
 {
 	unsigned char	t_reg_3;
@@ -41,8 +47,7 @@ int					arg_4(char *b2, t_carr *tmp, t_cor *cor, int *f_err)
 	{
 		t_reg_3 = read_byte_1(cor->code, tmp->cur + tmp->i++);
 		t_dir = tmp->reg[t_reg_3 - 1];
-		if (!(*f_err))
-			*f_err = (VAL_REG(t_reg_3)) ? 0 : 1;
+		*f_err = (*f_err || !(VAL_REG(t_reg_3))) ? 1 : 0;
 	}
 	else if ((b2[0] == 1 && b2[1] == 1) || (b2[0] == 1 && b2[1] == 0))
 	{
@@ -65,17 +70,14 @@ int					arg_2(char *b2, t_carr *tmp, t_cor *cor, int *f_err)
 		t_reg_3 = read_byte_1(cor->code, tmp->cur + tmp->i++);
 		if (VAL_REG(t_reg_3))
 			a1 = tmp->reg[t_reg_3 - 1];
-		if (!(*f_err))
-			*f_err = (VAL_REG(t_reg_3)) ? 0 : 1;
+		*f_err = (*f_err || !(VAL_REG(t_reg_3))) ? 1 : 0;
 	}
 	else if ((b2[0] == 1 && b2[1] == 1) || (b2[0] == 1 && b2[1] == 0))
 	{
 		if (b2[1] == 1)
-		{
 			a1 = read_byte_4(cor->code, tmp->cur +
 				idx_mod(read_byte_2(cor->code, tmp->cur +
 				tmp->i)));
-		}
 		else
 			a1 = (read_byte_2(cor->code, tmp->cur + tmp->i));
 		tmp->i += 2;

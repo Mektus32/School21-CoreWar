@@ -52,8 +52,8 @@ static void		write_name_two(int fd, char *file_name, t_champ *champ)
 		exit_print("Error: File has too large");
 	}
 	if (len_code > champ->prog_size)
-		exit_print(" Error: File has a code size that differ from what its
-			header says\n");
+		exit_print("Error: File has a code size that differ from what its "
+	"header says\n");
 }
 
 void			write_name(int fd, char *file_name, t_champ *champ)
