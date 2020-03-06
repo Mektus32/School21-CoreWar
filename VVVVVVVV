@@ -1,0 +1,151 @@
+-v
+0
+ничего
+1
+Player 1 (laugh) is said to be alive
+Player 1 (laugh) is said to be alive
+Player 1 (laugh) is said to be alive
+Player 1 (laugh) is said to be alive
+Player 1 (laugh) is said to be alive
+Player 1 (laugh) is said to be alive
+2
+It is now cycle 57592
+It is now cycle 57593
+It is now cycle 57594
+Cycle to die is now 3
+3
+It is now cycle 57935
+Player 1 (laugh) is said to be alive
+It is now cycle 57936
+It is now cycle 57937
+It is now cycle 57938
+It is now cycle 57939
+It is now cycle 57940
+It is now cycle 57941
+
+It is now cycle 57954
+Cycle to die is now -14
+
+4
+
+ 1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+Contestant 1, "laugh", has won !
+Player 1 (laugh) is said to be alive
+P    1 | zjmp -5 OK
+P    1 | live -1
+Player 1 (laugh) is said to be alive
+P    1 | zjmp -5 OK
+P    1 | live -1
+Player 1 (laugh) is said to be alive
+P    1 | zjmp -5 OK
+P    1 | live -1
+Player 1 (laugh) is said to be alive
+P    1 | zjmp -5 OK
+P    1 | live -1
+Player 1 (laugh) is said to be alive
+P    1 | zjmp -5 OK
+P    1 | live -1
+Player 1 (laugh) is said to be alive
+P    1 | zjmp -5 OK
+P    1 | live -1
+Player 1 (laugh) is said to be alive
+P    1 | zjmp -5 OK
+Contestant 1, "laugh", has won !
+
+6
+
+It is now cycle 57947
+It is now cycle 57948
+It is now cycle 57949
+It is now cycle 57950
+It is now cycle 57951
+It is now cycle 57952
+It is now cycle 57953
+It is now cycle 57954
+Cycle to die is now -14
+It is now cycle 57955
+
+7
+
+It is now cycle 57951
+It is now cycle 57952
+It is now cycle 57953
+It is now cycle 57954
+Cycle to die is now -14
+
+8
+--
+
+9
+
+Player 1 (laugh) is said to be alive
+Player 1 (laugh) is said to be alive
+Player 1 (laugh) is said to be alive
+Player 1 (laugh) is said to be alive
+Process 1 hasn't lived for 20 cycles (CTD -14)
+Contestant 1, "laugh", has won !
+It is now cycle 57955
+P    1 | zjmp -5 OK
+
+10
+
+It is now cycle 57949
+It is now cycle 57950
+It is now cycle 57951
+It is now cycle 57952
+It is now cycle 57953
+It is now cycle 57954
+Cycle to die is now -14
+It is now cycle 57955
+Process 1 hasn't lived for 20 cycles (CTD -14)
+
+11
+It is now cycle 57949
+It is now cycle 57950
+It is now cycle 57951
+It is now cycle 57952
+It is now cycle 57953
+It is now cycle 57954
+Cycle to die is now -14
+It is now cycle 57955
+Process 1 hasn't lived for 20 cycles (CTD -14)
+Contestant 1, "laugh", has won !
+
+12
+
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+Process 1 hasn't lived for 20 cycles (CTD -14)
+Contestant 1, "laugh", has won !

@@ -38,8 +38,14 @@ int			main(int ac, char **av)
 	ft_bzero(&cor, sizeof(t_cor));
 	if (ac > 1)
 	{
-	    cor.v_print = -1;
-		parse_av(ac, av, &cor);
+	    cor.v_print[0] = -1;
+        cor.v_print[1] = -1;
+
+        cor.v_print[2] = -1;
+
+        cor.v_print[3] = -1;
+
+        parse_av(ac, av, &cor);
 		arena(&cor);
 		zero_live(&cor);
 		cor.visual.vis ? init_window(&cor) : 0;

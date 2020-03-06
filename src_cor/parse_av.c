@@ -77,7 +77,14 @@ static void		take_cor(int ac, char **av, t_cor *cor)
 			valid_champ(i++, av, &(cor->m_2[j++]));
 		else if (ft_strcmp("-v", av[i]) == 0 && (i + 1) < ac)
 		{
-			cor->v_print = ft_atoi(av[++i]);
+		    int k;
+		    k= 0;
+		    i++;
+            ft_printf("%s\n", av[i]);
+		    while (av[i][k])
+		        ft_printf("%c\n",av[i][k++]);
+
+		//	cor->v_print = ft_atoi(av[++i]);
 			i++;
 		}		
 		else if (ft_strcmp("-viz", av[i]) == 0 && (i + 1) < ac)

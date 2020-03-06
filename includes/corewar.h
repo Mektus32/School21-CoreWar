@@ -122,7 +122,7 @@ typedef struct		s_cor
 	int				n;
 	int				n_curr;
 	int				nbr_cyc;
-	int             v_print;
+	int             v_print[4];
 	int				f[MAX_PLAYERS];
 	t_champ			m_ch[MAX_PLAYERS];
 	t_champ			m_2[MAX_PLAYERS];

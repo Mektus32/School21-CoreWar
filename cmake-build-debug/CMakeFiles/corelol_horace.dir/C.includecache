@@ -44,11 +44,7 @@ limits.h
 
 ../includes/op.h
 
-/Users/qgilbert/Desktop/corelol+horace/src_cor/arena.c
-corewar.h
-/Users/qgilbert/Desktop/corelol+horace/src_cor/corewar.h
-
-/Users/qgilbert/Desktop/corelol+horace/src_cor/ft_zjmp.c
+/Users/qgilbert/Desktop/corelol+horace/src_cor/parse_av.c
 corewar.h
 /Users/qgilbert/Desktop/corelol+horace/src_cor/corewar.h
 
