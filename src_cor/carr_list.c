@@ -12,7 +12,7 @@
 
 #include "corewar.h"
 
-t_carr	*new_curr(int id_par)
+t_carr *new_curr(int id_par, t_cor *cor)
 {
 	t_carr	*new;
 	int		i;
@@ -24,6 +24,7 @@ t_carr	*new_curr(int id_par)
 	new->id_par = id_par;
 	new->i = 0;
 	new->carry = 0;
+	new->num = ++cor->n_curr;
 	i = 0;
 	new->reg[i] = -id_par;
 	while (++i <= REG_NUMBER)

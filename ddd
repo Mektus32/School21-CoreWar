@@ -1,10 +1,2 @@
-6c6
-< P    1 | live -1
----
-> P    2 | live -1
-9c9
-< P    1 | zjmp -1 FAILED
----
-> P    2 | zjmp -5 FAILED
 3815a3816
 > P    1 | zjmp -5 OK

@@ -42,6 +42,6 @@ void	ft_live(t_cor *cor, t_carr *tmp)
 		i++;
 	}
     if (cor->v_print == 4)
-        ft_printf("P    %d | live %d\n",tmp->id_par, t_dir);
+        ft_printf("P    %d | live %d\n",tmp->num, t_dir);
 	tmp->i = 5;
 }

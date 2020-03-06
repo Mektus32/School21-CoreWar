@@ -26,16 +26,16 @@ t_carr	*carr_list(t_cor *cor)
 	t_carr	*carr;
 	t_carr	*carr_tmp;
 
-	carr = new_curr(1);
+	carr = new_curr(1, cor);
 	carr->cycles_to = 0;
 	carr->i = 0;
 	carr->cur = 0;
-	carr->num = 0;
+	//carr->num = 0;
 	cor->n_curr = 1;
 	i = 2;
 	while (i <= cor->n)
 	{
-		carr_tmp = new_curr(i);
+		carr_tmp = new_curr(i, cor);
 		carr_tmp->cur = (i - 1) * (MEM_SIZE / cor->n);
 		carr_tmp->cycles_to = 0;
 		carr_tmp->i = 0;

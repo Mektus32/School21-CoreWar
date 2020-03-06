@@ -40,7 +40,7 @@ t_carr				*ft_fork(t_cor *cor, t_carr *tmp, int l)
 	short			t_ind;
 	int				k;
 
-	new = new_curr(tmp->id_par);
+	new = new_curr(tmp->id_par, cor);
 	new->carry = tmp->carry;
 	new->cycles_live = tmp->cycles_live;
 	new->num = cor->n_curr++;
@@ -56,7 +56,7 @@ t_carr				*ft_fork(t_cor *cor, t_carr *tmp, int l)
 	add_curr(&(cor->carr), new);
 	tmp->i = 3;
 	if(cor->v_print == 4)
-	    ft_printf("P    %d | fork %d (%d)\n", tmp->id_par, tmp->cur + 1, new->cur);
+	    ft_printf("P    %d | fork %d (%d)\n", tmp->num, tmp->cur + 1, new->cur);
 
 	return (cor->carr);
 }
