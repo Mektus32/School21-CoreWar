@@ -132,10 +132,14 @@ void			go_cor(t_cor *cor)
 			tmp = check_to_die(cor);
 			cor->live.cyc_tmp = cor->live.cyc - 1;
 		}
+		if (cor->v_print == 2)
+		    ft_printf("is now cycle %d", cor->live.cyc);
 		while (tmp)
 		{
 			cycles_read(cor, tmp);
-			--tmp->cycles_to == 0 ? do_op(cor, tmp) : 0;
+			if (--tmp->cycles_to == 0)
+                do_op(cor, tmp);
+			//--tmp->cycles_to == 0 ? do_op(cor, tmp) : 0;
 			tmp = tmp->next;
 		}
 		if ((cor->live.cyc - cor->live.cyc_tmp) >= cor->live.cyc_to_die)

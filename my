@@ -1,3 +1,3816 @@
 Introducing contestants...
 * Player 1, weighing 23 bytes, "laugh" ("aff, just kidding") !
+P    1 | sti r1 15 1
+       | -> store to 15 + 1 = 16 (with pc and mod 16)
+P    1 | fork 8 (15)
+P    1 | live -1
+P    1 | add r2 r3 r4
+P    1 | live -1
+P    1 | zjmp -1 FAILED
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
+P    1 | zjmp -5 OK
+P    1 | live -1
 Contestant 1, "laugh", has won !

@@ -23,7 +23,12 @@ void				ft_zjmp(t_cor *cor, t_carr *tmp)
 		a = idx_mod(t_ind);
 		tmp->cur = mem_size(tmp->cur + a);
 		tmp->i = 0;
+		if(cor->v_print == 4)
+		ft_printf("P    %d | zjmp %d OK\n", tmp->id_par, a);
 	}
 	else
-		tmp->i = 3;
+	    tmp->i = 3;
+	if (cor->v_print == 4 && !(tmp->carry))
+	    ft_printf("P    %d | zjmp %d FAILED\n",tmp->id_par, a);
+
 }

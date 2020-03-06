@@ -75,7 +75,12 @@ static void		take_cor(int ac, char **av, t_cor *cor)
 		}
 		else if (ft_strstr(av[i], ".cor") && j < MAX_PLAYERS)
 			valid_champ(i++, av, &(cor->m_2[j++]));
-		else if (ft_strcmp("-v", av[i]) == 0)
+		else if (ft_strcmp("-v", av[i]) == 0 && (i + 1) < ac)
+		{
+			cor->v_print = ft_atoi(av[++i]);
+			i++;
+		}		
+		else if (ft_strcmp("-viz", av[i]) == 0 && (i + 1) < ac)
 		{
 			cor->visual.vis = 1;
 			i++;

@@ -55,5 +55,8 @@ t_carr				*ft_fork(t_cor *cor, t_carr *tmp, int l)
 	new->cur = mem_size(new->cur);
 	add_curr(&(cor->carr), new);
 	tmp->i = 3;
+	if(cor->v_print == 4)
+	    ft_printf("P    %d | fork %d (%d)\n", tmp->id_par, tmp->cur + 1, new->cur);
+
 	return (cor->carr);
 }

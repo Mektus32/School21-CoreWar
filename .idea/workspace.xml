@@ -13,12 +13,370 @@
   <component name="ChangeListManager">
     <list default="true" id="dba0760a-be80-42ac-8118-f56ddc27b286" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/arg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/auteur" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/cc_1.cor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/cc_3.cor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/corelol.cor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/corewar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/fail_216.cor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/fluttershy.cor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/helltrain.cor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/includes/asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/includes/corewar.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/includes/deasm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/includes/fixed_io.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/includes/ft_fct_tab.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/includes/ft_printf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/includes/label.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/includes/lexer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/includes/libft.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/includes/op.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/includes/parser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/includes/ressources.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/includes/scanner.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/includes/viewer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/auteur" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/includes/ft_fct_tab.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/includes/ft_printf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/includes/libft.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/libft.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/ft_printf/buffer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/ft_printf/cast_mod.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/ft_printf/format.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/ft_printf/ft_nblen.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/ft_printf/ft_nblen_b.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/ft_printf/ft_power.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/ft_printf/ft_printf.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/ft_printf/ft_u_nblen.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/ft_printf/ft_u_power.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/ft_printf/fwp_bin.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/ft_printf/fwp_char.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/ft_printf/fwp_hex.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/ft_printf/fwp_int.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/ft_printf/fwp_oct.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/ft_printf/fwp_ptr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/ft_printf/fwp_u_int.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/ft_printf/fwp_wchar.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/ft_printf/fwp_wstr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/ft_printf/lst_arg.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/ft_printf/num_field.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/ft_printf/parser.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/ft_printf/str_field.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/get_next_line/ft_getline.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/get_next_line/get_next_line.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/memory/ft_bzero.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/memory/ft_memalloc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/memory/ft_memccpy.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/memory/ft_memchr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/memory/ft_memcmp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/memory/ft_memcpy.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/memory/ft_memdel.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/memory/ft_memmove.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/memory/ft_memset.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/print/ft_putchar.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/print/ft_putchar_fd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/print/ft_putendl.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/print/ft_putendl_fd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/print/ft_putnbr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/print/ft_putnbr_fd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/print/ft_putstr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/print/ft_putstr_fd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/single_linked_list/ft_lstadd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/single_linked_list/ft_lstaddback.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/single_linked_list/ft_lstappend.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/single_linked_list/ft_lstdel.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/single_linked_list/ft_lstdelone.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/single_linked_list/ft_lstinttab.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/single_linked_list/ft_lstiter.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/single_linked_list/ft_lstlen.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/single_linked_list/ft_lstmap.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/single_linked_list/ft_lstnew.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/single_linked_list/ft_lstpop.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/single_linked_list/ft_lstpush.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/strings/ft_strcat.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/strings/ft_strchr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/strings/ft_strclr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/strings/ft_strcmp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/strings/ft_strcpy.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/strings/ft_strdel.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/strings/ft_strdup.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/strings/ft_strequ.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/strings/ft_striter.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/strings/ft_striteri.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/strings/ft_strjoin.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/strings/ft_strlcat.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/strings/ft_strlen.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/strings/ft_strmap.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/strings/ft_strmapi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/strings/ft_strncat.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/strings/ft_strncmp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/strings/ft_strncpy.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/strings/ft_strnequ.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/strings/ft_strnew.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/strings/ft_strnstr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/strings/ft_strrchr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/strings/ft_strrev.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/strings/ft_strsplit.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/strings/ft_strsplitdel.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/strings/ft_strstr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/strings/ft_strsub.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/strings/ft_strtrim.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/utils/ft_atoi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/utils/ft_isalnum.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/utils/ft_isalpha.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/utils/ft_isascii.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/utils/ft_isdigit.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/utils/ft_isdigitstr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/utils/ft_islower.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/utils/ft_isprint.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/utils/ft_isspace.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/utils/ft_isupper.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/utils/ft_itoa.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/utils/ft_squeeze.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/utils/ft_tolower.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/libft/srcs/utils/ft_toupper.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/md5.cor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/norm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/sh_cyc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/asm/asm.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/asm/asm_utils.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/asm/deasm.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/asm/deasm_manage.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/asm/fixed_io.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/asm/label.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/asm/label_init.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/asm/label_utils.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/asm/lexer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/asm/op.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/asm/parser.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/asm/parser_header.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/asm/parser_init.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/asm/scanner.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/champion/chickabomb.cor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/champion/chickabomb.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/champion/chicken.cor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/champion/chicken.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/champion/chicken_fork.cor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/champion/chicken_fork.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/champion/fork_hacking.cor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/champion/fork_hacking.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/champion/test_octal_1.cor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/champion/test_octal_1.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/champion/test_octal_2.cor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/champion/test_octal_2.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/champion/test_octal_3.cor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/champion/test_octal_3.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/champion/test_octal_4.cor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/champion/test_octal_4.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/champion/toto.cor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/champion/toto.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/corewar.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/get_players.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/get_players_errors.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/load_arena.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/op.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/op_shift.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/operate.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/operation_1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/operation_2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/operation_2b.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/operation_3.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/operation_4.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/operation_4b.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/vm_debbug.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/vm_game.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/vm_init_free.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/vm_parsing.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/vw_draw_img.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/vw_draw_life.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/vw_draw_tools.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/vw_init.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/vw_init_win.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/vw_maj_process.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/vw_maj_win.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/vw_th_anim.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/vw_th_core.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/vw_th_input.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/vw_th_render.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/srcs/corewar/vw_th_timer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/ttt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/tttmd5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/Corewar/wow_34.cor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/check_asm.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/corewar.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/corewar_en.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/images/Corewar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/images/Life.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/note_corewar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/42.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/Asombra.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/Backward.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/Car.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/Death.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/Gagnant.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/Kappa.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/Machine-gun.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/MarineKing.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/Misaka_Mikoto.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/Octobre_Rouge_V4.2.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/Rainbow_dash.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/Survivor.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/THUNDER.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/Torpille.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/Varimathras.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/Wall.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/_.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/_honeybadger.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/barriere.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/big_feet.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/casimir.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/champ.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/chicken.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/corelol.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/darksasuke.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/doge.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/dubo.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/ex.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/fluttershy.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/gedeon.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/helltrain.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/jinx.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/jumper.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/justin_bee.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/lde.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/leeloo.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/littlepuppy.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/live.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/loose.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/mandragore.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/mat.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/maxidef.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/meowluigi.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/mortel.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/new.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/salamahenagalabadoun.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/sam_2.0.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/sebc.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/skynet.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/slider2.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/tdc2.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/tdc3.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/tdc4.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/terminator.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/toto.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/ultimate-surrender.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/youforkmytralala.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/zork.cor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/champions/zork.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources/corewar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/resources_corewar.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/Corewar_one_more/script_v.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/check_asm.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/corelol.cor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/corewar.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/corewar_en.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/images/Corewar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/images/Life.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/norm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/note_corewar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/42.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/Asombra.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/Backward.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/Car.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/Death.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/Gagnant.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/Kappa.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/Machine-gun.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/MarineKing.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/Misaka_Mikoto.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/Octobre_Rouge_V4.2.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/Rainbow_dash.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/Survivor.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/THUNDER.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/Torpille.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/Varimathras.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/Wall.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/_.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/_honeybadger.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/barriere.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/big_feet.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/casimir.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/champ.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/chicken.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/corelol.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/darksasuke.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/doge.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/dubo.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/ex.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/fluttershy.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/gedeon.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/helltrain.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/jinx.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/jumper.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/justin_bee.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/lde.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/leeloo.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/littlepuppy.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/live.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/loose.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/mandragore.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/mat.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/maxidef.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/meowluigi.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/mortel.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/new.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/salamahenagalabadoun.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/sam_2.0.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/sebc.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/skynet.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/slider2.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/tdc2.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/tdc3.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/tdc4.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/terminator.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/toto.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/ultimate-surrender.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/youforkmytralala.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/zork.cor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/champions/zork.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources/corewar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/resources_corewar.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/script_v.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_kk/sh_cyc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/corelol_horace.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/corelol_horace.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/corelol_horace" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/corelol_horace" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/corewar" beforeDir="false" afterPath="$PROJECT_DIR$/corewar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/norm" beforeDir="false" afterPath="$PROJECT_DIR$/norm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src_cor/arg.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/arg.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src_cor/champ.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/champ.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd" beforeDir="false" afterPath="$PROJECT_DIR$/ddd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fail_111.cor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fail_222.cor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fail_333.cor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fail_444.cor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/corewar.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/corewar.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/md_my" beforeDir="false" afterPath="$PROJECT_DIR$/md_my" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/md_test" beforeDir="false" afterPath="$PROJECT_DIR$/md_test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my" beforeDir="false" afterPath="$PROJECT_DIR$/my" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sh_orig.sh" beforeDir="false" afterPath="$PROJECT_DIR$/sh_orig.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src_cor/ft_add.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/ft_add.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src_cor/ft_fork_lfork.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/ft_fork_lfork.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src_cor/ft_ld.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/ft_ld.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src_cor/ft_live.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/ft_live.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src_cor/ft_sti.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/ft_sti.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src_cor/ft_zjmp.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/ft_zjmp.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src_cor/go_cor.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/go_cor.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src_cor/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src_cor/parse_av.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/parse_av.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test" beforeDir="false" afterPath="$PROJECT_DIR$/test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_sh/sh_new.sh" beforeDir="false" afterPath="$PROJECT_DIR$/test_sh/sh_new.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_sh/sh_one_ch.sh" beforeDir="false" afterPath="$PROJECT_DIR$/test_sh/sh_one_ch.sh" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,98 +404,115 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src_cor/parse_av.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="77" selection-start-line="77" selection-end-line="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src_cor/ft_sti.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="76" selection-start-line="76" selection-end-line="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/corewar.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3360">
-              <caret line="227" column="2" selection-start-line="227" selection-start-column="2" selection-end-line="227" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src_cor/arg.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src_cor/read_byte.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="762">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src_cor/champ.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2100">
-              <caret line="140" column="21" selection-start-line="140" selection-start-column="21" selection-end-line="140" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src_cor/ft_add.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Makefile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1425">
-              <caret line="96" column="4" selection-start-line="96" selection-start-column="4" selection-end-line="96" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src_cor/do_op.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src_cor/parse_av.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="537">
+                  <caret line="107" column="8" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/includes/corewar.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="630">
+                  <caret line="47" selection-start-line="47" selection-end-line="47" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src_cor/go_cor.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1510">
+                  <caret line="145" column="34" lean-forward="true" selection-start-line="145" selection-start-column="34" selection-end-line="145" selection-end-column="34" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src_cor/ft_sti.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="889">
+                  <caret line="80" selection-start-line="80" selection-end-line="80" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src_cor/main.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="589">
+                  <caret line="44" selection-start-line="44" selection-end-line="44" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src_cor/ft_live.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="480">
+                  <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src_cor/ft_fork_lfork.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="716">
+                  <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src_cor/carr_list.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="86">
+                  <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src_cor/ft_add.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src_cor/do_op.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="214">
+                  <caret line="17" selection-start-line="17" selection-end-line="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/includes/corewar.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="529">
+                  <caret line="229" column="53" selection-start-line="229" selection-start-column="53" selection-end-line="229" selection-end-column="53" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -156,6 +531,8 @@
       <find>live.cyc_tmp</find>
       <find>4564</find>
       <find>read_byte_4_c</find>
+      <find>dump</find>
+      <find>t_champ</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src_cor</dir>
@@ -172,23 +549,26 @@
         <option value="$PROJECT_DIR$/ft_printf/source/one.c" />
         <option value="$PROJECT_DIR$/ft_printf/source/print_str.c" />
         <option value="$PROJECT_DIR$/src_cor/ft_st.c" />
-        <option value="$PROJECT_DIR$/includes/corewar.h" />
         <option value="$PROJECT_DIR$/src_cor/print_code.c" />
-        <option value="$PROJECT_DIR$/src_cor/main.c" />
-        <option value="$PROJECT_DIR$/src_cor/parse_av.c" />
         <option value="$PROJECT_DIR$/ft_printf/head/libft.h" />
         <option value="$PROJECT_DIR$/ft_printf/head/libftprintf.h" />
-        <option value="$PROJECT_DIR$/src_cor/go_cor.c" />
-        <option value="$PROJECT_DIR$/src_cor/ft_live.c" />
         <option value="$PROJECT_DIR$/src_cor/ft_ldi.c" />
         <option value="$PROJECT_DIR$/src_cor/arena.c" />
-        <option value="$PROJECT_DIR$/src_cor/ft_add.c" />
         <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/src_cor/ft_sti.c" />
         <option value="$PROJECT_DIR$/src_cor/do_op.c" />
         <option value="$PROJECT_DIR$/src_cor/arg.c" />
         <option value="$PROJECT_DIR$/src_cor/champ.c" />
+        <option value="$PROJECT_DIR$/includes/corewar.h" />
+        <option value="$PROJECT_DIR$/src_cor/parse_av.c" />
+        <option value="$PROJECT_DIR$/src_cor/main.c" />
+        <option value="$PROJECT_DIR$/src_cor/ft_ld.c" />
+        <option value="$PROJECT_DIR$/src_cor/ft_zjmp.c" />
+        <option value="$PROJECT_DIR$/src_cor/ft_sti.c" />
+        <option value="$PROJECT_DIR$/src_cor/ft_add.c" />
+        <option value="$PROJECT_DIR$/src_cor/ft_live.c" />
+        <option value="$PROJECT_DIR$/src_cor/ft_fork_lfork.c" />
+        <option value="$PROJECT_DIR$/src_cor/go_cor.c" />
       </list>
     </option>
   </component>
@@ -205,7 +585,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,6 +606,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,7 +636,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="corelol_horace" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../md5.cor" PASS_PARENT_ENVS_2="true" PROJECT_NAME="corelol_horace" TARGET_NAME="corelol_horace" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="corelol_horace" RUN_TARGET_NAME="corelol_horace">
+    <configuration name="corelol_horace" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../corelol.cor" PASS_PARENT_ENVS_2="true" PROJECT_NAME="corelol_horace" TARGET_NAME="corelol_horace" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="corelol_horace" RUN_TARGET_NAME="corelol_horace">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -292,32 +672,34 @@
       <workItem from="1583142478660" duration="2541000" />
       <workItem from="1583246806886" duration="3423000" />
       <workItem from="1583253588283" duration="591000" />
-      <workItem from="1583320603488" duration="1683000" />
+      <workItem from="1583320603488" duration="2395000" />
+      <workItem from="1583333633719" duration="2338000" />
+      <workItem from="1583499889740" duration="6955000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87609000" />
+    <option name="totallyTimeSpent" value="97614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="754" y="23" width="1806" height="1336" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26870748" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13151927" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47619048" weight="0.32923833" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5992063" weight="0.43488944" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47562358" weight="0.32923833" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.58956915" visible="true" weight="0.43488944" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49966285" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4926304" visible="true" weight="0.21457821" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50736964" side_tool="true" visible="true" weight="0.21457821" />
-      <window_info anchor="bottom" id="CMake" order="11" sideWeight="0.49970776" weight="0.3295082" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4030612" weight="0.4234234" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.48866212" weight="0.21457821" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.41043085" side_tool="true" visible="true" weight="0.43488944" />
+      <window_info anchor="bottom" id="CMake" order="11" sideWeight="0.4988662" weight="0.32923833" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.39285713" weight="0.4234234" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -352,19 +734,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src_cor/go_cor.c</url>
-          <line>143</line>
-          <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src_cor/ft_ldi.c</url>
           <line>50</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src_cor/ft_sti.c</url>
-          <line>64</line>
-          <option name="timeStamp" value="83" />
+          <url>file://$PROJECT_DIR$/src_cor/go_cor.c</url>
+          <line>140</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src_cor/main.c</url>
+          <line>41</line>
+          <option name="timeStamp" value="96" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -384,6 +766,8 @@
         <watch expression="cor-&gt;live-&gt;cyc" />
         <watch expression="cor-&gt;live-&gt;cyc" language="ObjectiveC" />
         <watch expression="t_reg" />
+        <watch expression="tmp-&gt;id_par" />
+        <watch expression="tmp-&gt;prog" />
       </configuration>
     </watches-manager>
   </component>
@@ -467,20 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/ft_ld.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1515">
-          <caret line="101" column="14" selection-start-line="101" selection-start-column="14" selection-end-line="101" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/carr_list.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ft_printf/head/libft.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -502,20 +872,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/ft_live.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/arena.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ft_printf/head/libftprintf.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -530,20 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/op.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/go_cor.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="151" column="7" selection-start-line="151" selection-start-column="7" selection-end-line="151" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src_cor/ft_ldi.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -551,31 +893,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/main.c">
+    <entry file="file://$PROJECT_DIR$/src_cor/arg.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/parse_av.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/ft_sti.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/corewar.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3360">
-          <caret line="227" column="2" selection-start-line="227" selection-start-column="2" selection-end-line="227" selection-end-column="2" />
+        <state relative-caret-position="255">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -586,45 +907,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/ft_add.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="96" column="4" selection-start-line="96" selection-start-column="4" selection-end-line="96" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/do_op.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src_cor/read_byte.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="390">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src_cor/champ.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        <state relative-caret-position="2010">
+          <caret line="134" column="37" selection-start-line="134" selection-start-column="36" selection-end-line="134" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src_cor/arg.c">
+    <entry file="file://$PROJECT_DIR$/src_cor/arena.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+        <state relative-caret-position="915">
+          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="96" column="4" selection-start-line="96" selection-start-column="4" selection-end-line="96" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_cor/ft_ld.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="93" column="54" selection-start-line="93" selection-start-column="54" selection-end-line="93" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_cor/ft_zjmp.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/op.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_cor/ft_sti.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="889">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_cor/ft_live.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/corewar.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_cor/ft_fork_lfork.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="716">
+          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/tclDecls.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_cor/ft_add.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_cor/carr_list.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_cor/do_op.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_cor/go_cor.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1510">
+          <caret line="145" column="34" lean-forward="true" selection-start-line="145" selection-start-column="34" selection-end-line="145" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_cor/parse_av.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="107" column="8" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_cor/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
