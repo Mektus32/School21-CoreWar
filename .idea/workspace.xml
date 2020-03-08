@@ -13,7 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dba0760a-be80-42ac-8118-f56ddc27b286" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar" beforeDir="false" afterPath="$PROJECT_DIR$/corewar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/111" beforeDir="false" afterPath="$PROJECT_DIR$/111" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ddd" beforeDir="false" afterPath="$PROJECT_DIR$/ddd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my" beforeDir="false" afterPath="$PROJECT_DIR$/my" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src_cor/go_cor.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/go_cor.c" afterDir="false" />
@@ -60,8 +60,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src_cor/go_cor.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="593">
-                  <caret line="56" selection-start-line="56" selection-start-column="2" selection-end-line="63" selection-end-column="5" />
+                <state relative-caret-position="666">
+                  <caret line="145" column="8" selection-start-line="145" selection-start-column="8" selection-end-line="153" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
@@ -307,12 +307,12 @@
       <workItem from="1583333633719" duration="2338000" />
       <workItem from="1583499889740" duration="12674000" />
       <workItem from="1583657134765" duration="3125000" />
-      <workItem from="1583663111200" duration="9356000" />
+      <workItem from="1583663111200" duration="10031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115814000" />
+    <option name="totallyTimeSpent" value="116489000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="730" y="23" width="1364" height="1336" extended-state="0" />
@@ -669,8 +669,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src_cor/go_cor.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="56" selection-start-line="56" selection-start-column="2" selection-end-line="63" selection-end-column="5" />
+        <state relative-caret-position="666">
+          <caret line="145" column="8" selection-start-line="145" selection-start-column="8" selection-end-line="153" selection-end-column="9" />
         </state>
       </provider>
     </entry>
