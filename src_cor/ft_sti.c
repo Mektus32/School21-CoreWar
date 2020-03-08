@@ -73,7 +73,7 @@ static void write_sti(t_cor *cor, t_carr *tmp, unsigned char t_reg, int l, int *
 	write_map_color(cor, l, 4, tmp);
 	copy_p(cor->code, p, l, 0);
 	free(p);
-	if(cor->v_print[2])
+	if(cor->v_print[2] == 1)
     {
 	    ft_printf("P    %d | sti r%d %d %d\n", tmp->id_par, t_reg, l_2[0], l_2[1], l);
 	    ft_printf("       | -> store to %d + %d = %d (with pc and mod %d)\n", l_2[0], l_2[1], l_2[0] + l_2[1], l);

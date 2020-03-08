@@ -36,12 +36,12 @@ void	ft_live(t_cor *cor, t_carr *tmp)
 		if ((cor->m_ch[i].id + 1) == -t_dir)
 		{
 			cor->live.id_live = i + 1;
-			if (cor->v_print[0])
-			    ft_printf("Player %d %s is said to be alive\n", -t_dir, cor->m_ch[i].prog_name);
+			if (cor->v_print[0] == 1)
+			    ft_printf("Player %d (%s) is said to be alive\n", -t_dir, cor->m_ch[i].prog_name);
 		}
 		i++;
 	}
-    if (cor->v_print[2])
+    if (cor->v_print[2] == 1)
         ft_printf("P    %d | live %d\n",tmp->num, t_dir);
 	tmp->i = 5;
 }

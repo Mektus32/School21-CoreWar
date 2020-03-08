@@ -168,7 +168,7 @@ t_carr *new_curr(int id_par, t_cor *cor);
 void				add_curr(t_carr **all_carr, t_carr *new);
 int					len_curr(t_carr *list);
 t_carr				*remove_head(t_cor *cor, t_carr *curr);
-t_carr				*remove_elem(t_carr *curr, t_carr **prev);
+t_carr *remove_elem(t_carr *curr, t_carr **prev, t_cor *cor);
 t_carr				*carr_list(t_cor *cor);
 
 /*

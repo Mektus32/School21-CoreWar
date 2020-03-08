@@ -60,13 +60,13 @@ static void		dump_arg(int *i, t_cor *cor, int ac, char **av)
 static void take_flag_v(t_cor *cor, int num)
 {
     int i;
-    i = 4;
+    i = 0;
     //write(1, "flag\n",5);
     //printf("num = %d\n", num);
-    while(i)
+    while(i < 4)
     {
-        cor->v_print[i--] = num % 2;
-        // printf("n[i] = %d\n", cor->v_print[i + 1]);
+        cor->v_print[i++] = num % 2;
+        // printf("n[%d] = %d\n",i, cor->v_print[i + 1]);
         num = num / 2;
 
     }

@@ -59,13 +59,19 @@ t_carr	*remove_head(t_cor *cor, t_carr *curr)
 	cor->carr = curr->next;
 	free(curr);
 	curr = cor->carr;
-	return (curr);
+    if (cor->v_print[3] == 1)
+        ft_printf("Process %d hasn't lived for %d cycles (CTD %d)\n", curr->num, cor->live.cyc_to_die);
+
+    return (curr);
 }
 
-t_carr	*remove_elem(t_carr *curr, t_carr **prev)
+t_carr *remove_elem(t_carr *curr, t_carr **prev, t_cor *cor)
 {
 	curr = curr->next;
 	free((*prev)->next);
 	(*prev)->next = curr;
-	return (curr);
+    if (cor->v_print[3] == 1)
+        ft_printf("Process %d hasn't lived for %d cycles (CTD %d)\n", curr->num, cor->live.cyc_to_die);
+
+    return (curr);
 }

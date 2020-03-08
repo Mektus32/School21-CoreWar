@@ -43,12 +43,16 @@ static t_carr	*check_to_die(t_cor *cor)
 	if (cor->live.live_count >= NBR_LIVE)
 	{
 		cor->live.cyc_to_die = cor->live.cyc_to_die - CYCLE_DELTA;
+		if (cor->v_print[1] == 1)
+		    ft_printf("Cycle to die is now %d\n", cor->live.cyc_to_die);
 		cor->live.counter = 0;
 	}
 	else if (cor->live.counter == MAX_CHECKS)
 	{
 		cor->live.cyc_to_die = cor->live.cyc_to_die - CYCLE_DELTA;
 		cor->live.counter = 0;
+        if (cor->v_print[1] == 1)
+            ft_printf("Cycle to die is now %d\n", cor->live.cyc_to_die);
 	}
 	if (cor->live.cyc_to_die <= 0)
 	{
@@ -73,12 +77,12 @@ static t_carr	*check_live(t_cor *cor)
 	{
 		if ((cor->live.cyc - carr->cycles_live) >= cor->live.cyc_to_die)
 		{
-		    if(cor->v_print[1] ==1)
+		    if(cor->v_print[3] ==1)
 		        ft_printf("Process %d hasn't lived for %d cycles (CTD %d)\n", carr->num,cor->live.cyc, cor->live.cyc_to_die);
 			if (cor->carr == carr)
 				carr = remove_head(cor, carr);
 			else
-				carr = remove_elem(carr, &prev);
+				carr = remove_elem(carr, &prev, cor);
 		}
 		else
 		{
@@ -134,8 +138,8 @@ void			go_cor(t_cor *cor)
 			tmp = check_to_die(cor);
 			cor->live.cyc_tmp = cor->live.cyc - 1;
 		}
-		if (cor->v_print[2] == 1)
-		    ft_printf("is now cycle %d", cor->live.cyc);
+		if (cor->v_print[1] == 1)
+		    ft_printf("It is now cycle %d\n", cor->live.cyc);
 		while (tmp)
 		{
 			cycles_read(cor, tmp);
