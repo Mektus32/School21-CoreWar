@@ -66,7 +66,7 @@ static void take_flag_v(t_cor *cor, int num)
     while(i < 4)
     {
         cor->v_print[i++] = num % 2;
-        // printf("n[%d] = %d\n",i, cor->v_print[i + 1]);
+         //printf("n[%d] = %d\n",i, cor->v_print[i + 1]);
         num = num / 2;
 
     }

@@ -57,11 +57,10 @@ int		len_curr(t_carr *list)
 t_carr	*remove_head(t_cor *cor, t_carr *curr)
 {
 	cor->carr = curr->next;
-	free(curr);
-	curr = cor->carr;
     if (cor->v_print[3] == 1)
         ft_printf("Process %d hasn't lived for %d cycles (CTD %d)\n", curr->num, cor->live.cyc_to_die);
-
+    free(curr);
+    curr = cor->carr;
     return (curr);
 }
 

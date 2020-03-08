@@ -1,2 +1,7 @@
-61801a61802
-> P    1 | zjmp -5 OK
+3,4c3,5
+< Process 2 hasn't lived for 3022 cycles (CTD 1486)
+< Process 1 hasn't lived for 1486 cycles (CTD 0)
+---
+> Process 2 hasn't lived for 2187 cycles (CTD 1486)
+> Process 1 hasn't lived for 20 cycles (CTD -14)
+> Contestant 1, "laugh", has won !
