@@ -77,8 +77,6 @@ static t_carr	*check_live(t_cor *cor)
 	{
 		if ((cor->live.cyc - carr->cycles_live) >= cor->live.cyc_to_die)
 		{
-		    if(cor->v_print[3] ==1)
-		        ft_printf("Process %d hasn't lived for %d cycles (CTD %d)\n", carr->num,cor->live.cyc, cor->live.cyc_to_die);
 			if (cor->carr == carr)
 				carr = remove_head(cor, carr);
 			else
