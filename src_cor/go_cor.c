@@ -77,7 +77,7 @@ static t_carr	*check_live(t_cor *cor)
 	{
 		if ((cor->live.cyc - carr->cycles_live) >= cor->live.cyc_to_die)
 		{
-			if (cor->carr == carr)
+		  if (cor->carr == carr)
 				carr = remove_head(cor, carr);
 			else
 				carr = remove_elem(carr, &prev, cor);

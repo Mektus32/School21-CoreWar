@@ -62,7 +62,7 @@ t_carr	*remove_head(t_cor *cor, t_carr *curr)
 
 	cor->carr = curr->next;
     if (cor->v_print[3] == 1)
-        ft_printf("Process %d hasn't lived for %d cycles (CTD %d)\n", curr->num, cor->live.cyc , cor->live.cyc_to_die);
+        ft_printf("Process %d hasn't lived for %d cycles (CTD %d)\n", curr->num, cor->live.cyc - curr->cycles_live , cor->live.cyc_to_die);
     free(curr);
     curr = cor->carr;
     return (curr);
@@ -74,7 +74,7 @@ t_carr *remove_elem(t_carr *curr, t_carr **prev, t_cor *cor)
 	free((*prev)->next);
 	(*prev)->next = curr;
     if (cor->v_print[3] == 1)
-        ft_printf("Process %d hasn't lived for %d cycles (CTD %d)\n", curr->num, cor->live.cyc , cor->live.cyc_to_die);
+        ft_printf("Process %d hasn't lived for %d cycles (CTD %d)\n", curr->num, cor->live.cyc - curr->cycles_live, cor->live.cyc_to_die);
 
     return (curr);
 }

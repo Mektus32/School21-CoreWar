@@ -44,7 +44,7 @@ void	ft_live(t_cor *cor, t_carr *tmp)
 		}
 		i++;
 	}
-    cor->live.cyc -= 1;
+   // cor->live.cyc -= 1;
 	tmp->i = 5;
 	//write(1,"LIVE\n", 5);
 }
