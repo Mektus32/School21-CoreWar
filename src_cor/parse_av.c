@@ -57,6 +57,21 @@ static void		dump_arg(int *i, t_cor *cor, int ac, char **av)
 	*i += 2;
 }
 
+static void take_flag_v(t_cor *cor, int num)
+{
+    int i;
+    i = 4;
+    //write(1, "flag\n",5);
+    //printf("num = %d\n", num);
+    while(i)
+    {
+        cor->v_print[i--] = num % 2;
+        // printf("n[i] = %d\n", cor->v_print[i + 1]);
+        num = num / 2;
+
+    }
+}
+
 static void		take_cor(int ac, char **av, t_cor *cor)
 {
 	int i;
@@ -75,17 +90,10 @@ static void		take_cor(int ac, char **av, t_cor *cor)
 		}
 		else if (ft_strstr(av[i], ".cor") && j < MAX_PLAYERS)
 			valid_champ(i++, av, &(cor->m_2[j++]));
-		else if (ft_strcmp("-v", av[i]) == 0 && (i + 1) < ac)
-		{
-		    int k;
-		    k= 0;
-		    i++;
-            ft_printf("%s\n", av[i]);
-		    while (av[i][k])
-		        ft_printf("%c\n",av[i][k++]);
-
-		//	cor->v_print = ft_atoi(av[++i]);
-			i++;
+		else if (ft_strcmp("-v", av[i]) == 0 && (i + 1) < ac && ft_isdigit(av[i + 1][0]))
+        {
+            take_flag_v(cor, ft_atoi(av[i + 1]));
+            i+=2;
 		}		
 		else if (ft_strcmp("-viz", av[i]) == 0 && (i + 1) < ac)
 		{

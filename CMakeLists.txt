@@ -1,13 +1,255 @@
 cmake_minimum_required(VERSION 3.14)
-project(corelol_horace C)
+project(last C)
 
 set(CMAKE_C_STANDARD 11)
 
+include_directories(corewar_asm/include)
+include_directories(corewar_asm/libft)
+include_directories(corewar_diasm/include)
+include_directories(corewar_diasm/libft)
 include_directories(ft_printf/head)
 include_directories(includes)
 include_directories(libft/includes)
 
-add_executable(corelol_horace
+add_executable(last
+        corewar_asm/include/asm.h
+        corewar_asm/include/op.h
+        corewar_asm/libft/ft_atoi.c
+        corewar_asm/libft/ft_bzero.c
+        corewar_asm/libft/ft_check_dimension.c
+        corewar_asm/libft/ft_check_flag_spetia_type.c
+        corewar_asm/libft/ft_check_un_dimension.c
+        corewar_asm/libft/ft_concat_str.c
+        corewar_asm/libft/ft_cop_str_left_or_right.c
+        corewar_asm/libft/ft_copy_string_left.c
+        corewar_asm/libft/ft_copy_string_left_wchar.c
+        corewar_asm/libft/ft_copy_string_right.c
+        corewar_asm/libft/ft_copy_string_right_wchar.c
+        corewar_asm/libft/ft_create_new_lst_strchar.c
+        corewar_asm/libft/ft_float_inf.c
+        corewar_asm/libft/ft_is_flag_type_size.c
+        corewar_asm/libft/ft_isalnum.c
+        corewar_asm/libft/ft_isalpha.c
+        corewar_asm/libft/ft_isascii.c
+        corewar_asm/libft/ft_isdigit.c
+        corewar_asm/libft/ft_isprint.c
+        corewar_asm/libft/ft_itoa.c
+        corewar_asm/libft/ft_itoa_llint.c
+        corewar_asm/libft/ft_itoo.c
+        corewar_asm/libft/ft_itox.c
+        corewar_asm/libft/ft_lstadd.c
+        corewar_asm/libft/ft_lstdel.c
+        corewar_asm/libft/ft_lstdelone.c
+        corewar_asm/libft/ft_lstiter.c
+        corewar_asm/libft/ft_lstmap.c
+        corewar_asm/libft/ft_lstnew.c
+        corewar_asm/libft/ft_memalloc.c
+        corewar_asm/libft/ft_memccpy.c
+        corewar_asm/libft/ft_memchr.c
+        corewar_asm/libft/ft_memcmp.c
+        corewar_asm/libft/ft_memcpy.c
+        corewar_asm/libft/ft_memdel.c
+        corewar_asm/libft/ft_memmove.c
+        corewar_asm/libft/ft_memset.c
+        corewar_asm/libft/ft_memset_wchar.c
+        corewar_asm/libft/ft_multi_strdup.c
+        corewar_asm/libft/ft_numwr.c
+        corewar_asm/libft/ft_octotorp_hex.c
+        corewar_asm/libft/ft_printf.c
+        corewar_asm/libft/ft_printf.h
+        corewar_asm/libft/ft_put_decimal.c
+        corewar_asm/libft/ft_put_hexadecimal.c
+        corewar_asm/libft/ft_put_octal.c
+        corewar_asm/libft/ft_put_percent.c
+        corewar_asm/libft/ft_put_pointer.c
+        corewar_asm/libft/ft_put_unsigned.c
+        corewar_asm/libft/ft_putchar.c
+        corewar_asm/libft/ft_putchar_fd.c
+        corewar_asm/libft/ft_putchar_wchar.c
+        corewar_asm/libft/ft_putendl.c
+        corewar_asm/libft/ft_putendl_fd.c
+        corewar_asm/libft/ft_putnbr.c
+        corewar_asm/libft/ft_putnbr_fd.c
+        corewar_asm/libft/ft_putstr.c
+        corewar_asm/libft/ft_putstr_fd.c
+        corewar_asm/libft/ft_putstr_wchar.c
+        corewar_asm/libft/ft_read_format.c
+        corewar_asm/libft/ft_strcat.c
+        corewar_asm/libft/ft_strchr.c
+        corewar_asm/libft/ft_strcl.c
+        corewar_asm/libft/ft_strclr.c
+        corewar_asm/libft/ft_strcmp.c
+        corewar_asm/libft/ft_strcpy.c
+        corewar_asm/libft/ft_strdel.c
+        corewar_asm/libft/ft_strdel_wchar.c
+        corewar_asm/libft/ft_strdup.c
+        corewar_asm/libft/ft_strdup_wchar.c
+        corewar_asm/libft/ft_strequ.c
+        corewar_asm/libft/ft_strfr.c
+        corewar_asm/libft/ft_striter.c
+        corewar_asm/libft/ft_striteri.c
+        corewar_asm/libft/ft_strjoin.c
+        corewar_asm/libft/ft_strlcat.c
+        corewar_asm/libft/ft_strlen.c
+        corewar_asm/libft/ft_strlen_wchar.c
+        corewar_asm/libft/ft_strmap.c
+        corewar_asm/libft/ft_strmapi.c
+        corewar_asm/libft/ft_strncat.c
+        corewar_asm/libft/ft_strncmp.c
+        corewar_asm/libft/ft_strncpy.c
+        corewar_asm/libft/ft_strncpy_wchar.c
+        corewar_asm/libft/ft_strnequ.c
+        corewar_asm/libft/ft_strnew.c
+        corewar_asm/libft/ft_strnew_char_wchar.c
+        corewar_asm/libft/ft_strnew_wchar.c
+        corewar_asm/libft/ft_strnjoin.c
+        corewar_asm/libft/ft_strnjoinfree.c
+        corewar_asm/libft/ft_strnstr.c
+        corewar_asm/libft/ft_strrchr.c
+        corewar_asm/libft/ft_strsplit.c
+        corewar_asm/libft/ft_strstr.c
+        corewar_asm/libft/ft_strsub.c
+        corewar_asm/libft/ft_strtrim.c
+        corewar_asm/libft/ft_tolower.c
+        corewar_asm/libft/ft_toupper.c
+        corewar_asm/libft/ft_un_itoa.c
+        corewar_asm/libft/get_next_line.c
+        corewar_asm/libft/get_next_line.h
+        corewar_asm/libft/libft.h
+        corewar_asm/libft/sys_err.c
+        corewar_asm/libft/type_char.c
+        corewar_asm/libft/type_float.c
+        corewar_asm/libft/type_float2.c
+        corewar_asm/libft/type_string.c
+        corewar_asm/source/add_lable_list.c
+        corewar_asm/source/check_op_or_xor_and_arg.c
+        corewar_asm/source/check_op_st_arg.c
+        corewar_asm/source/delete_list.c
+        corewar_asm/source/four_char_operator.c
+        corewar_asm/source/init_agr.c
+        corewar_asm/source/isprint_char.c
+        corewar_asm/source/main.c
+        corewar_asm/source/read_comment_champ.c
+        corewar_asm/source/read_dir_arg.c
+        corewar_asm/source/read_name_comment.c
+        corewar_asm/source/search_lbl.c
+        corewar_asm/source/write_header.c
+        corewar_diasm/include/diasm.h
+        corewar_diasm/include/op.h
+        corewar_diasm/libft/ft_atoi.c
+        corewar_diasm/libft/ft_bzero.c
+        corewar_diasm/libft/ft_check_dimension.c
+        corewar_diasm/libft/ft_check_flag_spetia_type.c
+        corewar_diasm/libft/ft_check_un_dimension.c
+        corewar_diasm/libft/ft_concat_str.c
+        corewar_diasm/libft/ft_cop_str_left_or_right.c
+        corewar_diasm/libft/ft_copy_string_left.c
+        corewar_diasm/libft/ft_copy_string_left_wchar.c
+        corewar_diasm/libft/ft_copy_string_right.c
+        corewar_diasm/libft/ft_copy_string_right_wchar.c
+        corewar_diasm/libft/ft_create_new_lst_strchar.c
+        corewar_diasm/libft/ft_float_inf.c
+        corewar_diasm/libft/ft_is_flag_type_size.c
+        corewar_diasm/libft/ft_isalnum.c
+        corewar_diasm/libft/ft_isalpha.c
+        corewar_diasm/libft/ft_isascii.c
+        corewar_diasm/libft/ft_isdigit.c
+        corewar_diasm/libft/ft_isprint.c
+        corewar_diasm/libft/ft_itoa.c
+        corewar_diasm/libft/ft_itoa_llint.c
+        corewar_diasm/libft/ft_itoo.c
+        corewar_diasm/libft/ft_itox.c
+        corewar_diasm/libft/ft_lstadd.c
+        corewar_diasm/libft/ft_lstdel.c
+        corewar_diasm/libft/ft_lstdelone.c
+        corewar_diasm/libft/ft_lstiter.c
+        corewar_diasm/libft/ft_lstmap.c
+        corewar_diasm/libft/ft_lstnew.c
+        corewar_diasm/libft/ft_memalloc.c
+        corewar_diasm/libft/ft_memccpy.c
+        corewar_diasm/libft/ft_memchr.c
+        corewar_diasm/libft/ft_memcmp.c
+        corewar_diasm/libft/ft_memcpy.c
+        corewar_diasm/libft/ft_memdel.c
+        corewar_diasm/libft/ft_memmove.c
+        corewar_diasm/libft/ft_memset.c
+        corewar_diasm/libft/ft_memset_wchar.c
+        corewar_diasm/libft/ft_multi_strdup.c
+        corewar_diasm/libft/ft_numwr.c
+        corewar_diasm/libft/ft_octotorp_hex.c
+        corewar_diasm/libft/ft_printf.c
+        corewar_diasm/libft/ft_printf.h
+        corewar_diasm/libft/ft_put_decimal.c
+        corewar_diasm/libft/ft_put_hexadecimal.c
+        corewar_diasm/libft/ft_put_octal.c
+        corewar_diasm/libft/ft_put_percent.c
+        corewar_diasm/libft/ft_put_pointer.c
+        corewar_diasm/libft/ft_put_unsigned.c
+        corewar_diasm/libft/ft_putchar.c
+        corewar_diasm/libft/ft_putchar_fd.c
+        corewar_diasm/libft/ft_putchar_wchar.c
+        corewar_diasm/libft/ft_putendl.c
+        corewar_diasm/libft/ft_putendl_fd.c
+        corewar_diasm/libft/ft_putnbr.c
+        corewar_diasm/libft/ft_putnbr_fd.c
+        corewar_diasm/libft/ft_putstr.c
+        corewar_diasm/libft/ft_putstr_fd.c
+        corewar_diasm/libft/ft_putstr_wchar.c
+        corewar_diasm/libft/ft_read_format.c
+        corewar_diasm/libft/ft_strcat.c
+        corewar_diasm/libft/ft_strchr.c
+        corewar_diasm/libft/ft_strcl.c
+        corewar_diasm/libft/ft_strclr.c
+        corewar_diasm/libft/ft_strcmp.c
+        corewar_diasm/libft/ft_strcpy.c
+        corewar_diasm/libft/ft_strdel.c
+        corewar_diasm/libft/ft_strdel_wchar.c
+        corewar_diasm/libft/ft_strdup.c
+        corewar_diasm/libft/ft_strdup_wchar.c
+        corewar_diasm/libft/ft_strequ.c
+        corewar_diasm/libft/ft_strfr.c
+        corewar_diasm/libft/ft_striter.c
+        corewar_diasm/libft/ft_striteri.c
+        corewar_diasm/libft/ft_strjoin.c
+        corewar_diasm/libft/ft_strlcat.c
+        corewar_diasm/libft/ft_strlen.c
+        corewar_diasm/libft/ft_strlen_wchar.c
+        corewar_diasm/libft/ft_strmap.c
+        corewar_diasm/libft/ft_strmapi.c
+        corewar_diasm/libft/ft_strncat.c
+        corewar_diasm/libft/ft_strncmp.c
+        corewar_diasm/libft/ft_strncpy.c
+        corewar_diasm/libft/ft_strncpy_wchar.c
+        corewar_diasm/libft/ft_strnequ.c
+        corewar_diasm/libft/ft_strnew.c
+        corewar_diasm/libft/ft_strnew_char_wchar.c
+        corewar_diasm/libft/ft_strnew_wchar.c
+        corewar_diasm/libft/ft_strnjoin.c
+        corewar_diasm/libft/ft_strnjoinfree.c
+        corewar_diasm/libft/ft_strnstr.c
+        corewar_diasm/libft/ft_strrchr.c
+        corewar_diasm/libft/ft_strsplit.c
+        corewar_diasm/libft/ft_strstr.c
+        corewar_diasm/libft/ft_strsub.c
+        corewar_diasm/libft/ft_strtrim.c
+        corewar_diasm/libft/ft_tolower.c
+        corewar_diasm/libft/ft_toupper.c
+        corewar_diasm/libft/ft_un_itoa.c
+        corewar_diasm/libft/get_next_line.c
+        corewar_diasm/libft/get_next_line.h
+        corewar_diasm/libft/libft.h
+        corewar_diasm/libft/sys_err.c
+        corewar_diasm/libft/type_char.c
+        corewar_diasm/libft/type_float.c
+        corewar_diasm/libft/type_float2.c
+        corewar_diasm/libft/type_string.c
+        corewar_diasm/source/main.c
+        corewar_diasm/source/op_live_zjmp_fork_fork_add_sub_aff_and_or_xor.c
+        corewar_diasm/source/op_ls_lld_st_sti_ldi_lldi.c
+        corewar_diasm/source/print_bit_hex.c
+        corewar_diasm/source/read_byts.c
+        corewar_diasm/source/write_name_comment.c
+        corewar_diasm/source/write_to_file.c
         ft_printf/head/libft.h
         ft_printf/head/libftprintf.h
         ft_printf/source/flag_check.c
@@ -115,6 +357,7 @@ add_executable(corelol_horace
         libft/ft_ultoa_base.c
         libft/get_next_line.c
         src_cor/arena.c
+        src_cor/arg.c
         src_cor/carr_list.c
         src_cor/champ.c
         src_cor/do_op.c
@@ -138,7 +381,4 @@ add_executable(corelol_horace
         src_cor/read_byte.c
         src_cor/visu_cicle.c
         src_cor/visu_init.c
-        src_cor/arg.c
         src_cor/write_map.c)
-
-target_link_libraries(${PROJECT_NAME} ncurses)
