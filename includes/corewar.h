@@ -146,7 +146,7 @@ void				*parse_av(int ac, char **av, t_cor *cor);
 
 void				write_name(int fd, char *file_name, t_champ *champ);
 void				valid_champ(int i, char **av, t_champ *champ);
-void				make_champ_n(int ac, char **av, int n, t_cor *cor);
+void make_champ_n(char **av, int n, t_cor *cor);
 
 /*
  * ****** arena ******

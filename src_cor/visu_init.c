@@ -57,22 +57,24 @@ void	init_window(t_cor *cor)
 
 int		graph_cycle(t_cor *cor)
 {
-	MEVENT	event;
+	//MEVENT	event;
 	int		ch;
 
 	ch = getch();
 	if (ch == 27)
 		return (1);
-	if (ch == ' ')
-		cor->visual.pause = (++cor->visual.pause) % 2;
+	if (ch == ' ') {
+        cor->visual.pause++;
+        cor->visual.pause %= 2;
+    }
 	else if (ch == '+' && cor->visual.delay <= 50000)
 		cor->visual.delay += 1000;
 	else if (ch == '-' && cor->visual.delay > 1000)
 		cor->visual.delay -= 1000;
 	else if (ch == KEY_MOUSE)
 	{
-		if (getmouse(&event) == OK)
-			;
+//		if (getmouse(&event) == OK)
+//			;
 	}
 	return (0);
 }

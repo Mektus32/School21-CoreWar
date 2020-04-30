@@ -16,7 +16,7 @@
 ** Fill string number for ft_itoo
 */
 
-static void	ft_fullstr_o(char *str, uintmax_t n)
+static void	ft_fullstr_o(char *str, __uintmax_t n)
 {
 	size_t	i;
 	char	*ptr;
@@ -33,7 +33,7 @@ static void	ft_fullstr_o(char *str, uintmax_t n)
 ** Move decimal to octal and fill string
 */
 
-void		ft_itoo(char *str, uintmax_t n)
+void		ft_itoo(char *str, __uintmax_t n)
 {
 	if (n >= 8)
 		ft_itoo(str, n / 8);

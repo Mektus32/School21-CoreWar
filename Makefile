@@ -75,12 +75,9 @@ OBJDIR = ./obj/
 # asm
 ASM = ./corewar_asm
 
-# diasm
-DIASM = ./corewar_diasm
-
 all: $(NAME)
 
-$(NAME): obj $(FT_LIB) $(PR_LIB) grn $(OBJ) asm diasm
+$(NAME): obj $(FT_LIB) $(PR_LIB) grn $(OBJ) asm
 	@$(CC) $(CFLAGS) $(OBJ) -lncurses $(PR_LNK) $(FT_LNK) -lm -o $(NAME)
 	@echo "\x1b[0m"
 
@@ -105,10 +102,6 @@ $(PR_LIB):
 asm:
 	@make -C $(ASM)
 
-diasm:
-	@make -C $(DIASM)
-
-
 $(OBJDIR)%.o:$(SRCDIR)%.c
 	$(CC) $(CFLAGS) $(PR_INC) $(FT_INC) $(INCDIR) -o $@ -c $<
 
@@ -117,7 +110,6 @@ clean: red
 	@make -C $(FT) clean
 	@make -C $(PR) clean
 	@make -C $(ASM) clean
-	@make -C $(DIASM) clean
 
 
 fclean: clean
@@ -125,6 +117,5 @@ fclean: clean
 	make -C $(FT) fclean
 	make -C $(PR) fclean
 	make -C $(ASM) fclean
-	make -C $(DIASM) fclean
 
 re: fclean all

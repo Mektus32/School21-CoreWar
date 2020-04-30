@@ -121,11 +121,10 @@ void			valid_champ(int i, char **av, t_champ *champ)
 ** но не превышать общее количество игроков, которые принимают участие в битве).
 */
 
-void			make_champ_n(int ac, char **av, int n, t_cor *cor)
+void make_champ_n(char **av, int n, t_cor *cor)
 {
 	int	i;
 
-	ac = 0;
 	i = ft_atoi(av[n]);
 	if (i && i <= cor->n)
 	{

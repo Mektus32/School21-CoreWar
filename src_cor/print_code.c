@@ -38,9 +38,9 @@ void	print_dump_code(t_cor *cor)
 			ft_printf("\n");
 			ft_printf("%.4p : ", k * 64);
 		}
-		if (cor->code[i] < 0)
-			ft_printf("%.2x ", 256 - -1 * cor->code[i]);
-		else
+//		if (cor->code[i] < 0)
+//			ft_printf("%.2x ", 256 - -1 * cor->code[i]);
+//		else
 			ft_printf("%.2x ", cor->code[i]);
 		i++;
 	}

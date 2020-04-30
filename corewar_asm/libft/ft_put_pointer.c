@@ -23,7 +23,7 @@ void	ft_put_del_str(t_format *lst, char **str)
 ** Input pointer.
 */
 
-void	ft_pointer(t_format *lst, uintmax_t arg)
+void	ft_pointer(t_format *lst, __uintmax_t arg)
 {
 	char	*str_wid;
 	char	*str_exa;
@@ -57,7 +57,7 @@ void	ft_pointer(t_format *lst, uintmax_t arg)
 
 void	ft_put_pointer(t_format *lst, va_list lst_arg)
 {
-	uintmax_t	arg;
+	__uintmax_t	arg;
 
 	arg = va_arg(lst_arg, long long int);
 	ft_pointer(lst, arg);

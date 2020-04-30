@@ -15,9 +15,7 @@
 char	*ft_strncpy(char *dest, const char *source, size_t n)
 {
 	size_t	i;
-	int		f;
 
-	f = 0;
 	i = 0;
 	while (source[i] != '\0' && i < n)
 	{

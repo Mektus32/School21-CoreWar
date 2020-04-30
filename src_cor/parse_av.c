@@ -85,7 +85,7 @@ static void		take_cor(int ac, char **av, t_cor *cor)
 			dump_arg(&i, cor, ac, av);
 		else if (ft_strcmp("-n", av[i]) == 0 && (i + 2) < ac)
 		{
-			make_champ_n(ac, av, ++i, cor);
+            make_champ_n(av, ++i, cor);
 			i += 2;
 		}
 		else if (ft_strstr(av[i], ".cor") && j < MAX_PLAYERS)

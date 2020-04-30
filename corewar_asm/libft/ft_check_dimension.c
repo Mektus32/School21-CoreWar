@@ -12,11 +12,11 @@
 
 #include "ft_printf.h"
 
-intmax_t	ft_check_dimension(t_format *lst, va_list lst_arg)
+__intmax_t ft_check_dimension(t_format *lst, va_list lst_arg)
 {
-	intmax_t	arg;
+	__intmax_t	arg;
 
-	arg = va_arg(lst_arg, intmax_t);
+	arg = va_arg(lst_arg, __intmax_t);
 	if (lst->size[0] == 'h' && lst->size[1] == '\0')
 		arg = (short int)arg;
 	else	if (lst->size[0] == 'h' && lst->size[1] == 'h')
@@ -26,7 +26,7 @@ intmax_t	ft_check_dimension(t_format *lst, va_list lst_arg)
 	else	if (lst->size[0] == 'l' && lst->size[1] == 'l')
 		arg = (long long int)arg;
 	else	if (lst->size[0] == 'j' && lst->size[1] == '\0')
-		arg = (intmax_t)arg;
+		arg = (__intmax_t)arg;
 	else	if (lst->size[0] == 'z' && lst->size[1] == '\0')
 		arg = (size_t)arg;
 	else

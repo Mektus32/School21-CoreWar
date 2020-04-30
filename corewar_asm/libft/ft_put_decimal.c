@@ -12,7 +12,7 @@
 
 #include "ft_printf.h"
 
-void	ft_negative_decimal(t_format *lst, intmax_t arg)
+void	ft_negative_decimal(t_format *lst, __intmax_t arg)
 {
 	char	*str_wid;
 	char	*str_exa;
@@ -60,7 +60,7 @@ void	ft_source_decimal(t_format *lst, char *str, char *str_wid)
 	ft_lenstr_putstr_delstr(lst, str);
 }
 
-void	ft_positive_decimal(t_format *lst, uintmax_t arg)
+void	ft_positive_decimal(t_format *lst, __uintmax_t arg)
 {
 	char	*str_wid;
 	char	*str_exa;
@@ -88,7 +88,7 @@ void	ft_positive_decimal(t_format *lst, uintmax_t arg)
 
 void	ft_put_decimal(t_format *lst, va_list lst_arg)
 {
-	intmax_t	arg;
+	__intmax_t	arg;
 
 	arg = ft_check_dimension(lst, lst_arg);
 	if (arg >= 0)

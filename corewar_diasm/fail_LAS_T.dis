@@ -1,6 +1,0 @@
-.name "00 00 00 02 D0 00 40 10 01 FF FF FF FE 09 FF FB"
-.comment "00 00 00 00 02 D0 00 40 10 01 FF FF FF FD 09 FF FB"
-
-	ld 64, r16
-	live %-1
-	zjmp %-5

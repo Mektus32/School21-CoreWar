@@ -48,12 +48,10 @@ t_lbl	*create_lable(char *start, char *end)
 
 int		search_dub_lable(t_assm *assm, t_lbl *lbl, char *start, char *line)
 {
-	t_lbl	*temp;
 	int		len;
 	int		len_str;
 	int		diff;
 
-	temp = lbl;
 	diff = line - start;
 	while (lbl)
 	{

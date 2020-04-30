@@ -6,7 +6,7 @@
 /*   By: widraugr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/13 10:17:41 by widraugr          #+#    #+#             */
-/*   Updated: 2019/11/13 21:12:00 by widraugr         ###   ########.fr       */
+/*   Updated: 2019/11/13 19:35:58 by widraugr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,14 +32,11 @@ int		check_name(char *name)
 char	*dot_cor(char *name)
 {
 	char	*dot_cor;
-	char	*tmp;
 	size_t	len;
 
-	tmp = name;
 	len = ft_strlen(name);
 	dot_cor = ft_strnew(len + 2);
-	tmp = ft_strstr(name, ".s");
-	ft_memcpy(dot_cor, name, (tmp - name) + 1);
+	ft_memccpy(dot_cor, name, '.', len);
 	ft_strcat(dot_cor, "cor");
 	return (dot_cor);
 }

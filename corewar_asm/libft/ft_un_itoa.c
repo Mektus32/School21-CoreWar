@@ -37,10 +37,10 @@ static char	*ft_recstr(char *str, int neg)
 	return (rtnstr);
 }
 
-char		*ft_un_itoa(uintmax_t n)
+char		*ft_un_itoa(__uintmax_t n)
 {
 	size_t			i;
-	uintmax_t		num;
+	__uintmax_t		num;
 	int				neg;
 	char			str[21];
 	char			*rtnstr;
