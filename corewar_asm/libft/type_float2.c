@@ -23,12 +23,12 @@ char	*ft_fraction_str(long double num)
 	str = ft_strnew(100);
 	str[0] = '.';
 	i = 1;
-	fract = num - (__intmax_t)num;
+	fract = num - (intmax_t)num;
 	while (fract > 0.000000001 && i < 99)
 	{
 		fract *= 10;
 		str[i] = (char)((int)fract + '0');
-		fract = fract - (__intmax_t)fract;
+		fract = fract - (intmax_t)fract;
 		i++;
 	}
 	str[i] = '\0';
@@ -107,6 +107,6 @@ char	*ft_fraction_exact(char *fract_str, int exact)
 
 char	*ft_float_str(long double num, int exact)
 {
-	return (ft_concat_str(ft_itoa((__intmax_t)num),
+	return (ft_concat_str(ft_itoa((intmax_t)num),
 			ft_fraction_exact(ft_fraction_str(num), exact + 1)));
 }

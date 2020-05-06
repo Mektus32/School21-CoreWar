@@ -24,6 +24,7 @@ t_carr *new_curr(int id_par, t_cor *cor)
 	new->id_par = id_par;
 	new->i = 0;
 	new->carry = 0;
+	new->cycles_to = 0;
 	new->num = ++cor->n_curr;
 	i = 0;
 	new->reg[i] = -id_par;

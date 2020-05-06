@@ -38,7 +38,7 @@ void	ft_sourse_hex(char *str, t_format *lst, char *str_wid, char char_x)
 ** Processes with hexadecimal number. Ignore flags '+' and ' '.
 */
 
-void	ft_hexadecimal(t_format *lst, __uintmax_t arg, char char_x)
+void	ft_hexadecimal(t_format *lst, uintmax_t arg, char char_x)
 {
 	char	*str_wid;
 	char	*str_exa;
@@ -69,7 +69,7 @@ void	ft_hexadecimal(t_format *lst, __uintmax_t arg, char char_x)
 
 void	ft_put_hexadecimal(t_format *lst, va_list lst_arg, char char_x)
 {
-	__intmax_t	arg;
+	intmax_t	arg;
 
 	arg = ft_check_un_dimension(lst, lst_arg);
 	ft_hexadecimal(lst, arg, char_x);

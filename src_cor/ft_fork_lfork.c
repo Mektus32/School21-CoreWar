@@ -43,7 +43,7 @@ t_carr				*ft_fork(t_cor *cor, t_carr *tmp, int l)
 	new = new_curr(tmp->id_par, cor);
 	new->carry = tmp->carry;
 	new->cycles_live = tmp->cycles_live;
-	new->num = cor->n_curr++;
+	//new->num = cor->n_curr++;
 	k = -1;
 	while (++k < REG_NUMBER)
 		new->reg[k] = tmp->reg[k];

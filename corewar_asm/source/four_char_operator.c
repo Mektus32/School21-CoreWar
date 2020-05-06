@@ -47,16 +47,16 @@ void	op_all(t_assm *assm, t_opr *opr, int code,
 	i = -1;
 	(*func)(assm, opr);
 	code_args = get_code_arg(opr);
-	temp = code & 0xff;
+	temp = code & 0xff; //код операции
 	ft_putchar_fd(temp, assm->fd_cor);
-	temp = (code >> 16) & 0xf;
+	temp = (code >> 16) & 0xf; //наличие кода типов аргументов
 	opr->info.bl_code_arg = temp;
 	if (temp)
 		ft_putchar_fd(code_args, assm->fd_cor);
-	temp = (code >> 8) & 0xf;
+	temp = (code >> 8) & 0xf; //количество записанных байти до этого: 1 код операции + код типа аргумента если есть
 	assm->pos_glob += temp;
 	opr->info.oct_start = temp;
-	temp = (code >> 12) & 0xf;
+	temp = (code >> 12) & 0xf; // размер дир
 	opr->info.size_dir = temp;
 	while (--opr->count_args >= 0)
 		all_arg(assm, &opr->info, &opr->args[++i]);

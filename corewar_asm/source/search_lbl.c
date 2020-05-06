@@ -27,7 +27,7 @@ unsigned char	get_code_arg(t_opr *opr)
 	return (code);
 }
 
-int				write_big_endian(int fd, void *bits, int len_bits)
+int				write_big_endian(int fd, void *bits, int len_bits) //bits : int
 {
 	int	count_oct;
 
@@ -36,7 +36,7 @@ int				write_big_endian(int fd, void *bits, int len_bits)
 	{
 		len_bits--;
 		if ((count_oct += write(fd, (unsigned char *)bits + len_bits, 1)) == -1)
-			sys_err("Error write\n");
+			sys_err("Error write: func write_big_endian\n");
 	}
 	return (count_oct);
 }

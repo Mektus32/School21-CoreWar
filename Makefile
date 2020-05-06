@@ -78,7 +78,7 @@ ASM = ./corewar_asm
 all: $(NAME)
 
 $(NAME): obj $(FT_LIB) $(PR_LIB) grn $(OBJ) asm
-	@$(CC) $(CFLAGS) $(OBJ) -lncurses $(PR_LNK) $(FT_LNK) -lm -o $(NAME)
+	$(CC) $(CFLAGS) $(OBJ) -lncurses $(PR_LNK) $(FT_LNK) -lm -o $(NAME)
 	@echo "\x1b[0m"
 
 red:

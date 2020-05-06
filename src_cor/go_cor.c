@@ -138,7 +138,6 @@ void			go_cor(t_cor *cor)
 			tmp = check_to_die(cor);
 			cor->live.cyc_tmp = cor->live.cyc - 1;
 		}
-
 		// сначала сделать операцию - потом удвлить каретку
 		// при это
         if (cor->v_print[1] == 1 )
@@ -149,14 +148,10 @@ void			go_cor(t_cor *cor)
             if (--tmp->cycles_to == 0)
                 do_op(cor, tmp);
             //--tmp->cycles_to == 0 ? do_op(cor, tmp) : 0;
-
             tmp = tmp->next;
         }
         if ((cor->live.cyc - cor->live.cyc_tmp) >= cor->live.cyc_to_die || cor->live.cyc_to_die <= 0)
             tmp = check_live(cor);
-
-
-
 	}
 	cor->visual.vis ? stop_visual(cor) : 0;
 }

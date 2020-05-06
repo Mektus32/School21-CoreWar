@@ -26,13 +26,13 @@ char	*read_arguments(t_assm *assm, t_arg *arg, char *start)
 			error("Error argument.", assm);
 		if (*start == ',')
 			return (start);
-		if (*start == '#')
+		if (*start == COMMENT_CHAR || *start == ALT_COMMENT_CHAR)
 		{
 			while (*start)
 				start++;
 			return (start);
 		}
-		if (*start == '\0')
+		if (*start == '\0') //continue или break ?
 			continue ;
 		start++;
 	}

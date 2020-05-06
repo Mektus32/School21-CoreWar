@@ -23,7 +23,7 @@ void	working_instruction(t_assm *assm, char *line)
 {
 	while (*line)
 	{
-		if (*line == COMMENT_CHAR)
+		if (*line == COMMENT_CHAR || *line == ALT_COMMENT_CHAR)
 			return ;
 		if (isprint_char(*line))
 		{

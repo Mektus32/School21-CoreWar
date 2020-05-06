@@ -16,7 +16,7 @@
 ** If there is a flag # insert 0.
 */
 
-void	ft_octotorp_octal(char **str, __uintmax_t arg, t_format *lst)
+void	ft_octotorp_octal(char **str, uintmax_t arg, t_format *lst)
 {
 	char *s;
 
@@ -31,7 +31,7 @@ void	ft_octotorp_octal(char **str, __uintmax_t arg, t_format *lst)
 ** Processes whith octal number. Ignore flags '+' and ' '.
 */
 
-void	ft_octal(t_format *lst, __uintmax_t arg)
+void	ft_octal(t_format *lst, uintmax_t arg)
 {
 	char	*str_wid;
 	char	*str_exa;
@@ -69,7 +69,7 @@ void	ft_lenstr_putstr_delstr(t_format *lst, char *str)
 
 void	ft_put_octal(t_format *lst, va_list lst_arg)
 {
-	__uintmax_t	arg;
+	uintmax_t	arg;
 
 	arg = ft_check_un_dimension(lst, lst_arg);
 	ft_octal(lst, arg);

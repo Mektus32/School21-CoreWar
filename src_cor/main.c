@@ -40,11 +40,8 @@ int			main(int ac, char **av)
 	{
 	    cor.v_print[0] = -1;
         cor.v_print[1] = -1;
-
         cor.v_print[2] = -1;
-
         cor.v_print[3] = -1;
-
         parse_av(ac, av, &cor);
 		arena(&cor);
 		zero_live(&cor);

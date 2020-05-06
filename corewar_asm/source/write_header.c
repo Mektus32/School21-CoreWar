@@ -36,7 +36,7 @@ char	*dot_cor(char *name)
 
 	len = ft_strlen(name);
 	dot_cor = ft_strnew(len + 2);
-	ft_memccpy(dot_cor, name, '.', len);
+	ft_memcpy(dot_cor, name, len-1);
 	ft_strcat(dot_cor, "cor");
 	return (dot_cor);
 }

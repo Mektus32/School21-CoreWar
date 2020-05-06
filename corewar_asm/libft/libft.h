@@ -16,6 +16,7 @@
 # include <string.h>
 # include <stdlib.h>
 # include "get_next_line.h"
+# include <inttypes.h>
 
 typedef struct		s_list
 {
@@ -68,13 +69,13 @@ char				*ft_strsub(char const *s, unsigned int start, size_t len);
 char				*ft_strjoin(char const *s1, char const *s2);
 char				*ft_strtrim(char const *s);
 char				**ft_strsplit(char const *s, char c);
-char				*ft_itoa(__intmax_t n);
+char				*ft_itoa(intmax_t n);
 char				*ft_itoa_llint(long long int n);
-char				*ft_un_itoa(__uintmax_t n);
+char				*ft_un_itoa(uintmax_t n);
 void				ft_putchar(char c);
 void				ft_putstr(char const *s);
 void				ft_putendl(char const *s);
-void				ft_putnbr(__intmax_t n);
+void				ft_putnbr(intmax_t n);
 void				ft_putchar_fd(char c, int fd);
 void				ft_putstr_fd(char const *s, int fd);
 void				ft_putendl_fd(char const *s, int fd);
@@ -87,8 +88,8 @@ void				ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 size_t				ft_strcl(const char *s, char c);
 char				*ft_strnjoin(char const *s1, char const *s2);
 char				*ft_strnjoinfree(char *s1, char const *s2);
-void				ft_itoo(char *str, __uintmax_t n);
-void				ft_itox(char *str, __uintmax_t n);
+void				ft_itoo(char *str, uintmax_t n);
+void				ft_itox(char *str, uintmax_t n);
 int					ft_printf(const char *restrict format, ...);
 char				*ft_copy_string_right(char *str1, char *str2);
 char				*ft_copy_string_left(char *str1, char *str2);
