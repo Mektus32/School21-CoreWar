@@ -13,49 +13,9 @@
   <component name="ChangeListManager">
     <list default="true" id="dba0760a-be80-42ac-8118-f56ddc27b286" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/asm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/include/asm.h" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/include/asm.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/include/op.h" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/include/op.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_check_dimension.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_check_dimension.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_check_un_dimension.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_check_un_dimension.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_itoa.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_itoa.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_itoo.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_itoo.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_itox.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_itox.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_printf.h" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_printf.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_put_decimal.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_put_decimal.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_put_hexadecimal.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_put_hexadecimal.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_put_octal.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_put_octal.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_put_pointer.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_put_pointer.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_put_unsigned.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_put_unsigned.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_putnbr.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_putnbr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_un_itoa.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_un_itoa.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/libft.h" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/libft.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/type_float2.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/type_float2.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/source/check_op_or_xor_and_arg.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/check_op_or_xor_and_arg.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/source/delete_list.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/delete_list.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/source/four_char_operator.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/four_char_operator.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/source/read_dir_arg.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/read_dir_arg.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/source/read_name_comment.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/read_name_comment.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/source/search_lbl.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/search_lbl.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/source/write_header.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/write_header.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src_cor/arena.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/arena.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src_cor/carr_list.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/carr_list.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src_cor/ft_fork_lfork.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/ft_fork_lfork.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src_cor/ft_ld.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/ft_ld.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src_cor/ft_st.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/ft_st.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src_cor/go_cor.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/go_cor.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src_cor/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +124,8 @@
       <workItem from="1588355413046" duration="1678000" />
       <workItem from="1588420631334" duration="24322000" />
       <workItem from="1588506895760" duration="14590000" />
-      <workItem from="1588596867127" duration="8234000" />
+      <workItem from="1588596867127" duration="12373000" />
+      <workItem from="1588732262172" duration="7101000" />
     </task>
     <servers />
   </component>
