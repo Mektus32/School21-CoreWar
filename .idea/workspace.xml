@@ -13,8 +13,9 @@
   <component name="ChangeListManager">
     <list default="true" id="dba0760a-be80-42ac-8118-f56ddc27b286" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src_cor/carr_list.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/carr_list.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src_cor/ft_st.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/ft_st.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/corewar.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/corewar.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src_cor/ft_add.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/ft_add.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src_cor/ft_aff.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/ft_aff.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src_cor/go_cor.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/go_cor.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,8 +81,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.corelol_horace" />
       <item itemvalue="CMake Application.School21_CoreWar" />
+      <item itemvalue="CMake Application.corelol_horace" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -125,7 +126,10 @@
       <workItem from="1588420631334" duration="24322000" />
       <workItem from="1588506895760" duration="14590000" />
       <workItem from="1588596867127" duration="12373000" />
-      <workItem from="1588732262172" duration="7101000" />
+      <workItem from="1588732262172" duration="7584000" />
+      <workItem from="1588774504609" duration="3202000" />
+      <workItem from="1588829884584" duration="249000" />
+      <workItem from="1588885145711" duration="4950000" />
     </task>
     <servers />
   </component>

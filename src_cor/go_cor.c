@@ -122,7 +122,8 @@ static void		cycles_read(t_cor *cor, t_carr *tmp)
 
 void			go_cor(t_cor *cor)
 {
-	t_carr	*tmp;
+	t_carr			*tmp;
+	int 	i;
 
 	while (cor->carr)
 	{
@@ -146,7 +147,22 @@ void			go_cor(t_cor *cor)
         {
             cycles_read(cor, tmp);
             if (--tmp->cycles_to == 0)
-                do_op(cor, tmp);
+			{
+				do_op(cor, tmp);
+				if (cor->v_print[2] == 1 && tmp->i > 1) // 1 может быть ?
+				{
+					ft_printf("ADV %d (0x%04x -> 0x%04x) ", tmp->i, tmp->cur, tmp->cur + tmp->i);
+					i = tmp->cur;
+					while (i < (tmp->cur + tmp->i))
+					{
+						ft_printf("%02x ",\
+						cor->code[i % MEM_SIZE],\
+							cor->code[i % MEM_SIZE]);
+						++i;
+					}
+					ft_printf("\n");
+				}
+			}
             //--tmp->cycles_to == 0 ? do_op(cor, tmp) : 0;
             tmp = tmp->next;
         }
