@@ -26,6 +26,8 @@ static void	ft_sub_1(t_cor *cor, t_carr *tmp)
 		tmp->reg[t_reg_3 - 1] = tmp->reg[t_reg - 1] -
 									tmp->reg[t_reg_2 - 1];
 		tmp->carry = (tmp->reg[(int)t_reg_3 - 1] == 0) ? 1 : 0;
+		if (cor->v_print[2] == 1)
+			ft_printf("P %4d | add r%d r%d r%d\n", tmp->id_par, t_reg, t_reg_2, t_reg_3);
 	}
 }
 

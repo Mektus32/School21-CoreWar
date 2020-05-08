@@ -69,9 +69,9 @@ void				ft_ldi(t_cor *cor, t_carr *tmp, int l)
 		}
 		if (cor->v_print[2] == 1)
 		{
-			ft_printf("P %4d | ldi %d %d r%d\n", tmp->id_par, cor->addr1, cor->addr2, t_reg);
-			ft_printf("       | -> load from %d + %d = %d (with pc and mod %d)\n",\
-			cor->addr1, cor->addr2, k1, tmp->cur + ((cor->addr1 + cor->addr2) % IDX_MOD));
+			ft_printf("P %4d | %s %d %d r%d\n", tmp->id_par, (l) ? "lldi" : "ldi", cor->addr1, cor->addr2, t_reg);
+			ft_printf("       | -> load from %d + %d = %d (with pc%s%d)\n",\
+			cor->addr1, cor->addr2, k1, (l) ? " " : " and mod ", tmp->cur + ((cor->addr1 + cor->addr2) % IDX_MOD));
 		}
 	}
 	else
