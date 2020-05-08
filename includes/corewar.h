@@ -132,6 +132,8 @@ typedef struct		s_cor
 	t_vis			visual;
 	struct s_carr	*carr;
 	struct s_live	live;
+	int 			addr1;
+	int 			addr2;
 }					t_cor;
 
 /*

@@ -18,10 +18,12 @@ static int			len_k(t_cor *cor, t_carr *tmp, char *b2, int *f_err)
 	unsigned char	t_reg;
 
 	k = 0;
-	k += arg_2(b2, tmp, cor, f_err);
+	cor->addr1 = arg_2(b2, tmp, cor, f_err);
+	k += cor->addr1;
 	if (b2[2] == 0 && b2[3] == 1)
 	{
 		t_reg = read_byte_1(cor->code, (tmp->cur + tmp->i++));
+		cor->addr2 = t_reg;
 		if (VAL_REG(t_reg))
 			k += tmp->reg[(int)t_reg - 1];
 		else
@@ -29,7 +31,8 @@ static int			len_k(t_cor *cor, t_carr *tmp, char *b2, int *f_err)
 	}
 	else if ((b2[2] == 1 && b2[3] == 0))
 	{
-		k += read_byte_2(cor->code, tmp->cur + tmp->i);
+		cor->addr2 = read_byte_2(cor->code, tmp->cur + tmp->i);
+		k += cor->addr2;
 		tmp->i += 2;
 	}
 	else
@@ -46,11 +49,13 @@ void				ft_ldi(t_cor *cor, t_carr *tmp, int l)
 	char			*b2;
 	int				f_err;
 	int				k;
+	int 			k1;
 
 	tmp->i = 2;
 	b2 = base16_2_cor(cor, tmp);
 	f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;
 	k = len_k(cor, tmp, b2, &f_err);
+	k1 = k;
 	if (b2[4] == 0 && b2[5] == 1)
 	{
 		t_reg = read_byte_1(cor->code, tmp->cur + tmp->i++);
@@ -61,6 +66,12 @@ void				ft_ldi(t_cor *cor, t_carr *tmp, int l)
 					read_byte_4(cor->code, mem_size(tmp->cur + k));
 			if (l)
 				tmp->carry = (tmp->reg[t_reg - 1] == 0) ? 1 : 0;
+		}
+		if (cor->v_print[2] == 1)
+		{
+			ft_printf("P %4d | ldi %d %d r%d\n", tmp->id_par, cor->addr1, cor->addr2, t_reg);
+			ft_printf("       | -> load from %d + %d = %d (with pc and mod %d)\n",\
+			cor->addr1, cor->addr2, k1, tmp->cur + ((cor->addr1 + cor->addr2) % IDX_MOD));
 		}
 	}
 	else
