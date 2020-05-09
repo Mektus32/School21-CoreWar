@@ -26,11 +26,18 @@ void	ft_aff(t_cor *cor, t_carr *tmp)
 {
 	char					*b2;
 	int						i;
+	unsigned char			c_1;
+	unsigned char 			val;
 
 	i = 2;
 	b2 = base16_2_cor(cor, tmp);
 	if (b2[0] == 0 && b2[1] == 1)
-		read_byte_1(cor->code, (tmp->cur + i++));
+	{
+		c_1 = read_byte_1(cor->code, (tmp->cur + i++));
+		val = tmp->reg[(int)c_1 - 1];
+		if (cor->aff != 1)
+			ft_printf("Aff: %c\n", val);
+	}
 	else
 		i = i + 4 * (int)b2[0] - 2 * (int)b2[1];
 	tmp->i = i;

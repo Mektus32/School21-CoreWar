@@ -26,7 +26,7 @@ unsigned char	read_byte_1(unsigned char *src, int i)
 	while (i < 0)
 		i += MEM_SIZE;
 	c_1 = src[i % MEM_SIZE];
-	return ((unsigned char)c_1);
+	return (c_1);
 }
 
 short			read_byte_2(unsigned char *src, int i)

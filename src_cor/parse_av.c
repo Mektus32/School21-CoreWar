@@ -83,6 +83,11 @@ static void		take_cor(int ac, char **av, t_cor *cor)
 	{
 		if (!(ft_strcmp("-dump", av[i])))
 			dump_arg(&i, cor, ac, av);
+		else if (ft_strcmp("-a", av[i]) == 0)
+		{
+			cor->aff = 1;
+			i++;
+		}
 		else if (ft_strcmp("-n", av[i]) == 0 && (i + 2) < ac)
 		{
             make_champ_n(av, ++i, cor);

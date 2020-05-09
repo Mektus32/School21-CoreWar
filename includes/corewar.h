@@ -134,6 +134,7 @@ typedef struct		s_cor
 	struct s_live	live;
 	int 			addr1;
 	int 			addr2;
+	int 			aff;
 }					t_cor;
 
 /*

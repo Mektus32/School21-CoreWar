@@ -37,6 +37,8 @@ void	ft_or(t_cor *cor, t_carr *tmp)
 		{
 			tmp->reg[(int)t_reg_3 - 1] = a1 | a2;
 			tmp->carry = (tmp->reg[(int)t_reg_3 - 1] == 0) ? 1 : 0;
+			if (cor->v_print[2] == 1)
+				ft_printf("P %4d | or %d %d r%d\n", tmp->id_par, a1, a2, t_reg_3);
 		}
 	}
 	else
@@ -65,6 +67,8 @@ void	ft_xor(t_cor *cor, t_carr *tmp)
 		{
 			tmp->reg[(int)t_reg_3 - 1] = a1 ^ a2;
 			tmp->carry = (tmp->reg[(int)t_reg_3 - 1] == 0) ? 1 : 0;
+			if (cor->v_print[2] == 1)
+				ft_printf("P %4d | xor %d %d r%d\n", tmp->id_par, a1, a2, t_reg_3);
 		}
 	}
 	else

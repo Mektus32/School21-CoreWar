@@ -71,9 +71,9 @@ void	ft_st_write(t_cor *cor, t_carr *tmp, int b2_2)
 		if (b2_2 == 1)
 		{
 			t_ind = read_byte_2(cor->code, tmp->cur + 3);
-			t_ind = idx_mod(t_ind);
 			if (cor->v_print[2] == 1)
 				ft_printf("P    %d | st r%d %d\n", tmp->id_par, t_reg, t_ind);
+			t_ind = idx_mod(t_ind);
 			t_ind = mem_size(tmp->cur + t_ind);
 			p = inttobyte(tmp->reg[t_reg - 1]);
 			copy_p(cor->code, p, t_ind, 0);
@@ -83,9 +83,11 @@ void	ft_st_write(t_cor *cor, t_carr *tmp, int b2_2)
 		{
 			t_reg_2 = read_byte_1(cor->code, tmp->cur + 3);
 			if (VAL_REG(t_reg_2))
+			{
 				tmp->reg[t_reg_2 - 1] = tmp->reg[t_reg - 1];
-			if (cor->v_print[2] == 1)
-				ft_printf("P    %d | st r%d %d\n", tmp->id_par, t_reg, t_reg_2);
+				if (cor->v_print[2] == 1)
+					ft_printf("P    %d | st r%d %d\n", tmp->id_par, t_reg, t_reg_2 % IDX_MOD);
+			}
 		}
 	}
 }
