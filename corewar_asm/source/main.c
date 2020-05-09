@@ -75,6 +75,5 @@ int		main(int ac, char **av)
 	weite_figur_lable(&assm);
 	delete_list(&assm);
 	close_files(&assm);
-	ft_printf("Writing output program to %s\n", av[1]);
 	return (0);
 }

@@ -14,6 +14,7 @@
 
 void	close_files(t_assm *assm)
 {
+	ft_printf("Writing output program to %s\n", assm->name_cor);
 	ft_strdel(&assm->name_cor);
 	close(assm->fd_cor);
 	close(assm->fd_s);
