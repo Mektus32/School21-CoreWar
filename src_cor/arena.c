@@ -27,7 +27,7 @@ t_carr	*carr_list(t_cor *cor)
 	t_carr	*carr_tmp;
 
 	cor->n_curr = 0;
-	carr = new_curr(cor->carr->id_par, cor);
+	carr = new_curr(1, cor);
 	//carr->cycles_to = 0;
 	//carr->i = 0;
 	carr->cur = 0;
