@@ -58,7 +58,7 @@ void	open_file_s(t_assm *assm, char *name)
 	if (!((tmp = ft_strstr(name, ".s")) && (name - tmp) != 0
 			&& ft_strlen(tmp) == 2))
 		sys_err("Error file name.\n");
-	if (!(assm->fd_s = open(name, O_RDONLY)))
+	if ((assm->fd_s = open(name, O_RDONLY)) < 0)
 		sys_err("File not opened.\n");
 }
 

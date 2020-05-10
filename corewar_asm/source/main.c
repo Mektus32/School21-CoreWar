@@ -65,7 +65,7 @@ int		main(int ac, char **av)
 	t_assm	assm;
 
 	if (ac != 2)
-		sys_err("Error!\nUse ./asm namefile.s\n");
+		sys_err("Usage: ./asm namefile.s\n");
 	open_file_s(&assm, av[1]);
 	create_file_cor(&assm, av[1]);
 	read_name_comment(&assm);

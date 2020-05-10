@@ -12,15 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dba0760a-be80-42ac-8118-f56ddc27b286" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src_cor/arena.c" beforeDir="false" afterPath="$PROJECT_DIR$/src_cor/arena.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/source/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/source/write_header.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/write_header.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +131,7 @@
       <workItem from="1588885145711" duration="10106000" />
       <workItem from="1588955870748" duration="16870000" />
       <workItem from="1589127291600" duration="368000" />
+      <workItem from="1589148471068" duration="1383000" />
     </task>
     <servers />
   </component>
@@ -155,11 +151,12 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="476" y="240" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588522301033">
-      <screen x="0" y="23" width="1440" height="812" />
+    <state x="476" y="243" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589150962725">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="476" y="240" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.812@0.23.1440.812" timestamp="1588522301033" />
     <state x="476" y="242" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.821@0.23.1440.821" timestamp="1588420800399" />
+    <state x="476" y="243" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.825@0.23.1440.825" timestamp="1589150962725" />
     <state x="739" y="338" width="432" height="429" key="refactoring.ChangeSignatureDialog" timestamp="1588257046245">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
