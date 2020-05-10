@@ -55,7 +55,7 @@ char	*read_reg_adg(t_assm *assm, t_arg *arg, char *start)
 		error("Error registr.", assm);
 	arg->bl_reg = C_REG;
 	arg->reg = ft_atoi(start);
-	if (arg->reg > REG_NUMBER || arg->reg <= 0)
+	if (arg->reg <= 0)
 		error("Error number registr.", assm);
 	while (ft_isdigit(*start))
 		start++;

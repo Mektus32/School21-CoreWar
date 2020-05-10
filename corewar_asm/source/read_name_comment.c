@@ -26,31 +26,33 @@ void	working_comment(char *line, t_assm *assm)
 	error("Error name", assm);
 }
 
-int		working_dot(t_assm *assm, char *line)
+int		working_dot(t_assm *assm, char *line, int *count)
 {
 	if (!(ft_strncmp(line, NAME_CMD_STRING, 5)))
 	{
 		working_name(line + 5, assm);
+		*count += 1;
 		return (0);
 	}
 	else if (!(ft_strncmp(line, COMMENT_CMD_STRING, 8)))
 	{
 		working_comment(line + 8, assm);
-		return (1);
+		*count += 1;
+		return (0);
 	}
 	else
 		error("Lexical error.", assm);
 	return (1);
 }
 
-int		search_char(t_assm *assm, char *line)
+int		search_char(t_assm *assm, char *line, int *count)
 {
 	while (*line)
 	{
 		if (*line == COMMENT_CHAR || *line == ALT_COMMENT_CHAR)
 			return (0);
 		if (*line == '.')
-			return (working_dot(assm, line));
+			return (working_dot(assm, line, count));
 		if (ft_isprint(*line))
 			error("Syntax error at token", assm);
 		line++;
@@ -68,12 +70,15 @@ void	create_file_cor(t_assm *assm, char *name)
 void	read_name_comment(t_assm *assm)
 {
 	char	*line;
+	int		count;
 
 	line = NULL;
+	count = 0;
 	while (get_next_line(assm->fd_s, &line))
 	{
 		assm->counter_line++;
-		if (search_char(assm, line))
+		search_char(assm, line, &count);
+		if (count == 2)
 		{
 			ft_strdel(&line);
 			break ;
@@ -81,4 +86,6 @@ void	read_name_comment(t_assm *assm)
 		ft_strdel(&line);
 	}
 	ft_strdel(&line);
+	if (count != 2)
+		error("Syntax error at token", assm);
 }

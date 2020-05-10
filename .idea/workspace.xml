@@ -13,9 +13,9 @@
   <component name="ChangeListManager">
     <list default="true" id="dba0760a-be80-42ac-8118-f56ddc27b286" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/source/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/source/read_comment_champ.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/read_comment_champ.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/include/asm.h" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/include/asm.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/source/read_dir_arg.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/read_dir_arg.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/source/read_name_comment.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/read_name_comment.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
