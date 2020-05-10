@@ -60,16 +60,14 @@ t_carr	*remove_head(t_cor *cor, t_carr *curr)
 //    int k;
 //    write(1,"OKO\n",5);
 //    k = cor->live.cyc;
-
 	cor->carr = curr->next;
-    if (cor->v_print[3] == 1)
-        ft_printf("Process %d hasn't lived for %d cycles (CTD %d)\n", curr->num, cor->live.cyc - curr->cycles_live , cor->live.cyc_to_die);
-    free(curr);
-    curr = cor->carr;
-    return (curr);
+	if (cor->v_print[3] == 1)
+		ft_printf("Process %d hasn't lived for %d cycles (CTD %d)\n", curr->num, cor->live.cyc - curr->cycles_live, cor->live.cyc_to_die);
+	free(curr);
+	curr = cor->carr;
+	 return (curr);
 }
-
-t_carr *remove_elem(t_carr *curr, t_carr **prev, t_cor *cor)
+	t_carr *remove_elem(t_carr *curr, t_carr **prev, t_cor *cor)
 {
 	int 	temp_id;
 	int 	temp_cycles_live;
@@ -80,6 +78,7 @@ t_carr *remove_elem(t_carr *curr, t_carr **prev, t_cor *cor)
 	free((*prev)->next);
 	(*prev)->next = curr;
     if (cor->v_print[3] == 1)
-		ft_printf("Process %d hasn't lived for %d cycles (CTD %d)\n", temp_id, cor->live.cyc - temp_cycles_live, cor->live.cyc_to_die);
-    return (curr);
+		ft_printf("Process %d hasn't lived for %d cycles (CTD %d)\n", temp_id, cor->live.cyc - temp_cycles_live,
+			  cor->live.cyc_to_die);
+	return (curr);
 }
