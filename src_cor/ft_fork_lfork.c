@@ -56,6 +56,7 @@ t_carr				*ft_fork(t_cor *cor, t_carr *tmp, int l)
 	add_curr(&(cor->carr), new);
 	tmp->i = 3;
 	if (cor->v_print[2] == 1)
-	    ft_printf("P    %d |%sfork %d (%d)\n", tmp->num, (l) ? " l" : " ", t_ind, tmp->cur + t_ind % IDX_MOD);
+		ft_printf("P    %d |%sfork %d (%d)\n", tmp->num, (l) ? " l" : " ",
+			  t_ind, tmp->cur + t_ind % IDX_MOD);
 	return (cor->carr);
 }
