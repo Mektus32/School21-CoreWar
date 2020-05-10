@@ -27,7 +27,7 @@ void	ft_aff(t_cor *cor, t_carr *tmp)
 	char					*b2;
 	int						i;
 	unsigned char			c_1;
-	unsigned char 			val;
+	unsigned char			val;
 
 	i = 2;
 	b2 = base16_2_cor(cor, tmp);
