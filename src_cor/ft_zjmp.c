@@ -17,9 +17,8 @@ void				ft_zjmp(t_cor *cor, t_carr *tmp)
 	short	t_ind;
 	short	a;
 
-
-    t_ind = read_byte_2(cor->code, tmp->cur + 1);
-    a = idx_mod(t_ind);
+	t_ind = read_byte_2(cor->code, tmp->cur + 1);
+	a = idx_mod(t_ind);
 	if (tmp->carry == 1)
 	{
 		tmp->cur = mem_size(tmp->cur + a);
@@ -28,8 +27,7 @@ void				ft_zjmp(t_cor *cor, t_carr *tmp)
 		ft_printf("P    %d | zjmp %d OK\n", tmp->id_par, t_ind);
 	}
 	else
-	    tmp->i = 3;
+		tmp->i = 3;
 	if ((cor->v_print[2] == 1) && !(tmp->carry))
-	    ft_printf("P    %d | zjmp %d FAILED\n",tmp->num, t_ind);
-
+		ft_printf("P    %d | zjmp %d FAILED\n", tmp->num, t_ind);
 }
