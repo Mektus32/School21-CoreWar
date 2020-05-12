@@ -28,21 +28,13 @@ t_carr	*carr_list(t_cor *cor)
 
 	cor->n_curr = 0;
 	carr = new_curr(1, cor);
-	//carr->cycles_to = 0;
-	//carr->i = 0;
 	carr->cur = 0;
-	//carr->num = 0; почему с нуля ?
-	//cor->n_curr = 1;
 	i = 2;
 	while (i <= cor->n)
 	{
 		carr_tmp = new_curr(i, cor);
 		carr_tmp->cur = (i - 1) * (MEM_SIZE / cor->n);
-		//carr_tmp->i = 0;
-		//carr_tmp->cycles_to = 0;
-		//carr_tmp->num = (i - 1); или все таки с нуля ?
 		add_curr(&carr, carr_tmp);
-		//cor->n_curr++;
 		i++;
 	}
 	return (carr);

@@ -34,7 +34,7 @@ void	do_op_two(t_cor *cor, t_carr *tmp)
 	else if (tmp->prog == 9)
 		ft_zjmp(cor, tmp);
 	else if (tmp->prog == 10)
-		ft_ldi(cor, tmp, 0);
+		ft_ldi(cor, tmp);
 	else if (tmp->prog == 11)
 		ft_sti(cor, tmp);
 	else if (tmp->prog == 12)
@@ -48,7 +48,7 @@ void	do_op(t_cor *cor, t_carr *tmp)
 	else if (tmp->prog == 13)
 		ft_lld(cor, tmp);
 	else if (tmp->prog == 14)
-		ft_ldi(cor, tmp, 1);
+		ft_ldi(cor, tmp);
 	else if (tmp->prog == 15)
 		ft_fork(cor, tmp, 1);
 	else if (tmp->prog == 16)

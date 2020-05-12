@@ -43,7 +43,6 @@ t_carr				*ft_fork(t_cor *cor, t_carr *tmp, int l)
 	new = new_curr(tmp->id_par, cor);
 	new->carry = tmp->carry;
 	new->cycles_live = tmp->cycles_live;
-	//new->num = cor->n_curr++;
 	k = -1;
 	while (++k < REG_NUMBER)
 		new->reg[k] = tmp->reg[k];
@@ -57,6 +56,6 @@ t_carr				*ft_fork(t_cor *cor, t_carr *tmp, int l)
 	tmp->i = 3;
 	if (cor->v_print[2] == 1)
 		ft_printf("P    %d |%sfork %d (%d)\n", tmp->num, (l) ? " l" : " ",
-			  t_ind, tmp->cur + t_ind % IDX_MOD);
+				t_ind, tmp->cur + t_ind % IDX_MOD);
 	return (cor->carr);
 }

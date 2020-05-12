@@ -30,14 +30,33 @@
 ** убрать один рег - сначала проверить последний а потом первый уже оставлять
 */
 
-static int len_l(t_cor *cor, t_carr *tmp, char *b2, int *f_err, int *l_2)
+static void write_sti(t_cor *cor, t_carr *tmp, unsigned char t_reg, int *l_2)
 {
-	int				l;
-	unsigned char	t_reg_2;
+	unsigned char	*p;
 
-	l = 0;
-	l += arg_2(b2 + 2, tmp, cor, f_err);
-    l_2[0] = l;
+	p = inttobyte(tmp->reg[t_reg - 1]);
+	write_map_color(cor, l_2[2], 4, tmp);
+	copy_p(cor->code, p, l_2[2], 0);
+	free(p);
+	if(cor->v_print[2] == 1)
+	{
+		ft_printf("P    %d | sti r%d %d %d\n",
+				  tmp->id_par, t_reg, l_2[0], l_2[1], l_2[2]);
+		ft_printf("       | -> store to %d + %d = %d (with pc and mod %d)\n",
+				  l_2[0], l_2[1], l_2[0] + l_2[1], tmp->cur
+												   + ((l_2[0] + l_2[1]) % IDX_MOD));
+	}
+}
+
+static int	*len_l(t_cor *cor, t_carr *tmp, char *b2, int *f_err)
+{
+	unsigned char	t_reg_2;
+	int             *l_2;
+
+	if (!(l_2 = (int*)ft_memalloc(sizeof(int) * 3)))
+		exit(-1);
+	l_2[2] = arg_2(b2 + 2, tmp, cor, f_err);
+    l_2[0] = l_2[2];
 	if (b2[4] == 0 && b2[5] == 1)
 	{
 		t_reg_2 = read_byte_1(cor->code, tmp->cur + tmp->i++);
@@ -45,16 +64,14 @@ static int len_l(t_cor *cor, t_carr *tmp, char *b2, int *f_err, int *l_2)
 			*f_err = 1;
 		if (VAL_REG(t_reg_2))
         {
-		    l = l + (int)tmp->reg[t_reg_2 - 1];
-		    l_2[0] = l;
+			l_2[2] = l_2[2] + (int)tmp->reg[t_reg_2 - 1];
+		    l_2[0] = l_2[2];
         }
-
-
 	}
 	else if (b2[4] == 1 && b2[5] == 0)
 	{
 	    l_2[1] = read_byte_2(cor->code, tmp->cur + tmp->i);
-		l += l_2[1];
+		l_2[2] += l_2[1];
 		tmp->i += 2;
 	}
 	else
@@ -62,49 +79,32 @@ static int len_l(t_cor *cor, t_carr *tmp, char *b2, int *f_err, int *l_2)
 		tmp->i += 2 * b2[4];
 		*f_err = 1;
 	}
-	return (l);
-}
-
-static void write_sti(t_cor *cor, t_carr *tmp, unsigned char t_reg, int l, int *l_2)
-{
-	unsigned char	*p;
-
-	p = inttobyte(tmp->reg[t_reg - 1]);
-	write_map_color(cor, l, 4, tmp);
-	copy_p(cor->code, p, l, 0);
-	free(p);
-	if(cor->v_print[2] == 1)
-    {
-	    ft_printf("P    %d | sti r%d %d %d\n", tmp->id_par, t_reg, l_2[0], l_2[1], l);
-	    ft_printf("       | -> store to %d + %d = %d (with pc and mod %d)\n", l_2[0], l_2[1], l_2[0] + l_2[1], tmp->cur
-	    																		+ ((l_2[0] + l_2[1]) % IDX_MOD));
-    }
+	return (l_2);
 }
 
 void			ft_sti(t_cor *cor, t_carr *tmp)
 {
 	unsigned char	t_reg;
-	int				l;
-	int             l_2[2];
 	int				f_err;
 	char			*b2;
+	int             *l_2;
 
 	tmp->i = 2;
 	b2 = base16_2_cor(cor, tmp);
-	f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;
+	//f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;
 	f_err = 0;
 	if (b2[0] == 0 && b2[1] == 1)
-	{
 		t_reg = read_byte_1(cor->code, tmp->cur + tmp->i++);
-	}
 	else
 	{
 		f_err = 1;
 		if ((b2[0] == 1 && b2[1] == 1) || (b2[0] == 1 && b2[1] == 0))
 			tmp->i += 2;
 	}
-	l = mem_size(tmp->cur + len_l(cor, tmp, b2, &f_err, l_2) % IDX_MOD);
+	l_2 = len_l(cor, tmp, b2, &f_err);
+	l_2[2] = mem_size(tmp->cur + l_2[2] % IDX_MOD);
 	if (!f_err && VAL_REG(t_reg))
-        write_sti(cor, tmp, t_reg, l, l_2);
+		write_sti(cor, tmp, t_reg, l_2);
 	free(b2);
+	free(l_2);
 }

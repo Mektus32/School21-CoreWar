@@ -237,7 +237,7 @@ void				ft_sub(t_cor *cor, t_carr *tmp);
 void				ft_and(t_cor *cor, t_carr *tmp);
 void				ft_or(t_cor *cor, t_carr *tmp);
 void				ft_xor(t_cor *cor, t_carr *tmp);
-void				ft_ldi(t_cor *cor, t_carr *tmp, int l);
+void				ft_ldi(t_cor *cor, t_carr *tmp);
 void				ft_sti(t_cor *cor, t_carr *tmp);
 t_carr				*ft_fork(t_cor *cor, t_carr *tmp, int l);
 void				ft_lld(t_cor *cor, t_carr *tmp);

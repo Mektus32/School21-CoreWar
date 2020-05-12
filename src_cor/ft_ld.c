@@ -42,7 +42,7 @@ int		ft_ld_write(t_cor *cor, t_carr *tmp, int i, int l)
 		tmp->carry = (tmp->reg[t_reg - 1] == 0) ? 1 : 0;
 		if (cor->v_print[2] == 1)
 			ft_printf("P    %d | ld %d r%d\n", tmp->id_par,
-				  tmp->reg[t_reg - 1], t_reg);
+					tmp->reg[t_reg - 1], t_reg);
 	}
 	return (1);
 }
@@ -95,7 +95,7 @@ int		ft_lld_write(t_cor *cor, t_carr *tmp, int i)
 	}
 	if (cor->v_print[2] == 1)
 		ft_printf("P    %d | lld %d r%d\n", tmp->id_par,
-			  tmp->reg[t_reg - 1], t_reg);
+				tmp->reg[t_reg - 1], t_reg);
 	return (1);
 }
 

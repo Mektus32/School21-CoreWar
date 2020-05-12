@@ -12,27 +12,12 @@
 
 #include "corewar.h"
 
-static void			write_add(t_carr *tmp, unsigned char t_reg,
-		unsigned char t_reg_2, unsigned char t_reg_3, t_cor *cor)
-{
-	tmp->reg[t_reg_3 - 1] = tmp->reg[t_reg - 1] +
-							tmp->reg[t_reg_2 - 1];
-	tmp->carry = (tmp->reg[t_reg_3 - 1] == 0) ? 1 : 0;
-	if (cor->v_print[2] == 1)
-	    ft_printf("P    %d | add r%d r%d r%d\n", tmp->id_par, t_reg, t_reg_2, t_reg_3);
-}
-
-void				ft_add(t_cor *cor, t_carr *tmp)
+static void		ft_get_argc(char *b2, t_cor *cor, t_carr *tmp, int f_err)
 {
 	unsigned char	t_reg;
 	unsigned char	t_reg_2;
 	unsigned char	t_reg_3;
-	char			*b2;
-	int				f_err;
 
-	tmp->i = 2;
-	b2 = base16_2_cor(cor, tmp);
-	f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;
 	if (b2[0] == 0 && b2[1] == 1)
 		t_reg = read_byte_1(cor->code, tmp->cur + tmp->i++);
 	else
@@ -46,7 +31,24 @@ void				ft_add(t_cor *cor, t_carr *tmp)
 	else
 		tmp->i += 4 * b2[4] - 2 * b2[5];
 	if (tmp->i == 5 && (!f_err) && VAL_REG(t_reg) && VAL_REG(t_reg_2) &&
-	VAL_REG(t_reg_3))
-		write_add(tmp, t_reg, t_reg_2, t_reg_3, cor);
+		VAL_REG(t_reg_3))
+	{
+		tmp->reg[t_reg_3 - 1] = tmp->reg[t_reg - 1] + tmp->reg[t_reg_2 - 1];
+		tmp->carry = (tmp->reg[t_reg_3 - 1] == 0) ? 1 : 0;
+		if (cor->v_print[2] == 1)
+			ft_printf("P    %d | add r%d r%d r%d\n",
+					tmp->id_par, t_reg, t_reg_2, t_reg_3);
+	}
+}
+
+void			ft_add(t_cor *cor, t_carr *tmp)
+{
+	char			*b2;
+	int				f_err;
+
+	tmp->i = 2;
+	b2 = base16_2_cor(cor, tmp);
+	f_err = (b2[6] == 0 && b2[7] == 0) ? 0 : 1;
+	ft_get_argc(b2, cor, tmp, f_err);
 	free(b2);
 }

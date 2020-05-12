@@ -85,7 +85,7 @@ void			write_name(int fd, char *file_name, t_champ *champ)
 ** если параметр файл cor пытаемся записать чемпиона
 */
 
-void			valid_champ(int *i, char **av, t_champ *champ)
+void			valid_champ(int i, char **av, t_champ *champ)
 {
 	char	*name;
 	int		fd;
@@ -121,11 +121,10 @@ void			valid_champ(int *i, char **av, t_champ *champ)
 ** но не превышать общее количество игроков, которые принимают участие в битве).
 */
 
-void make_champ_n(char **av, int n, t_cor *cor)
+void			make_champ_n(char **av, int n, t_cor *cor)
 {
 	int	i;
 
-	*n++
 	i = ft_atoi(av[n]);
 	if (i && i <= cor->n)
 	{
@@ -144,5 +143,4 @@ void make_champ_n(char **av, int n, t_cor *cor)
 			i++;
 		valid_champ(++n, av, &(cor->m_2[i]));
 	}
-	*n += 2
 }

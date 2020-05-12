@@ -28,12 +28,11 @@ void	ft_live(t_cor *cor, t_carr *tmp)
 	int				i;
 
 	i = 0;
-	//write(1, "ft_",3);
 	tmp->cycles_live = cor->live.cyc;
 	cor->live.live_count++;
 	t_dir = read_byte_4(cor->code, tmp->cur + 1);
 	if (cor->v_print[2] == 1)
-	    ft_printf("P    %d | live %d\n", tmp->num, t_dir);
+		ft_printf("P    %d | live %d\n", tmp->num, t_dir);
 	while (i < cor->n)
 	{
 		if ((cor->m_ch[i].id + 1) == -t_dir)
@@ -41,11 +40,9 @@ void	ft_live(t_cor *cor, t_carr *tmp)
 			cor->live.id_live = i + 1;
 			if (cor->v_print[0] == 1)
 				ft_printf("Player %d (%s) is said to be alive\n", -t_dir,
-					  cor->m_ch[i].prog_name);
+						cor->m_ch[i].prog_name);
 		}
 		i++;
 	}
-   // cor->live.cyc -= 1;
 	tmp->i = 5;
-	//write(1,"LIVE\n", 5);
 }
