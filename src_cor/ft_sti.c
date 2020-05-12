@@ -92,7 +92,7 @@ static int		len_l_2(t_cor *cor, t_carr *tmp, char*b2, int*l_2)
                     l_2[0] = l_2[2];
                 }
             }
-        return (f_err)
+        return (f_err);
         }
 
 static int		*len_l(t_cor *cor, t_carr *tmp, char *b2, int *f_err)
