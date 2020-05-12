@@ -78,7 +78,7 @@ void			ft_sti(t_cor *cor, t_carr *tmp)
 
 static int		len_l_2(t_cor *cor, t_carr *tmp, char*b2, int*l_2)
         {
-            unsigned char	t_reg_2
+            unsigned char	t_reg_2;
             int			f_err;
 
             {
@@ -105,7 +105,7 @@ static int		*len_l(t_cor *cor, t_carr *tmp, char *b2, int *f_err)
 	l_2[2] = arg_2(b2 + 2, tmp, cor, f_err);
 	l_2[0] = l_2[2];
 	if (b2[4] == 0 && b2[5] == 1)
-	    *f_err = (len_l_2(cor, tmp, b2, &l_2) == 1) ? 1: *f_err;
+	    *f_err = (len_l_2(cor, tmp, b2, l_2) == 1) ? 1: *f_err;
 
 	else if (b2[4] == 1 && b2[5] == 0)
 	{
