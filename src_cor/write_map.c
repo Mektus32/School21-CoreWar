@@ -11,7 +11,8 @@
 /* ************************************************************************** */
 
 #include "corewar.h"
-		/*
+
+/*
 ** if (cor->code[i * 64 + j] < 0)
 ** mvwprintw(main_win, line, col, "%.2x ", 256 - -1
 ** * cor->code[i * 64 + j]);
@@ -29,9 +30,7 @@ void	panel_help(t_cor *cor, WINDOW *main_win, int i, int line)
 		if (cor->bold[i * 64 + j] && (cor->bold[i * 64 + j] -= 1))
 			wattron(main_win, A_BOLD);
 		wattron(main_win, COLOR_PAIR(cor->colormap[i * 64 + j]));
-
-	
-        mvwprintw(main_win, line, col, "%.2x ", cor->code[i * 64 + j]);
+		mvwprintw(main_win, line, col, "%.2x ", cor->code[i * 64 + j]);
 		wattroff(main_win, COLOR_PAIR(cor->colormap[i * 64 + j]));
 		if (cor->bold[i * 64 + j])
 			wattroff(main_win, A_BOLD);
