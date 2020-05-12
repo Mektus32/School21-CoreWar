@@ -30,7 +30,7 @@
 ** убрать один рег - сначала проверить последний а потом первый уже оставлять
 */
 
-static void	write_sti(t_cor *cor, t_carr *tmp, unsigned char t_reg, int *l_2)
+	static void	write_sti(t_cor *cor, t_carr *tmp, unsigned char t_reg, int *l_2)
 {
 	unsigned char	*p;
 
@@ -76,10 +76,10 @@ void			ft_sti(t_cor *cor, t_carr *tmp)
 	free(l_2);
 }
 
-static int len_l_2(t_cor *cor, t_carr *tmp, char*b2, int*l_2)
+static int		len_l_2(t_cor *cor, t_carr *tmp, char*b2, int*l_2)
         {
-            unsigned char   t_reg_2
-            int             f_err;
+            unsigned char	t_reg_2
+            int			f_err;
 
             {
                 f_err = 0;
@@ -95,7 +95,7 @@ static int len_l_2(t_cor *cor, t_carr *tmp, char*b2, int*l_2)
         return (f_err)
         }
 
-static int	*len_l(t_cor *cor, t_carr *tmp, char *b2, int *f_err)
+static int		*len_l(t_cor *cor, t_carr *tmp, char *b2, int *f_err)
 {
 	unsigned char	t_reg_2;
 	int		*l_2;
