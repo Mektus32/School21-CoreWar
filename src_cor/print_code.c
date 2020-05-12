@@ -44,3 +44,21 @@ void	print_dump_code(t_cor *cor)
 	ft_printf("\n");
 	exit(0);
 }
+
+void	print_adv(t_cor *cor, t_carr *tmp)
+{
+	int		i;
+
+	if (cor->v_print[2] == 1 && tmp->i > 1) // 1 может быть ?
+	{
+		ft_printf("ADV %d (0x%04x -> 0x%04x) ", tmp->i, tmp->cur, tmp->cur + tmp->i);
+		i = tmp->cur;
+		while (i < (tmp->cur + tmp->i))
+		{
+			ft_printf("%02x ", 
+				  cor->code[i % MEM_SIZE],cor->code[i % MEM_SIZE]);
+		++i;
+		}
+		ft_printf("\n");
+	}
+}
