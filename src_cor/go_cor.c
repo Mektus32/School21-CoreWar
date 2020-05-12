@@ -48,9 +48,7 @@
 
 static t_carr	*check_to_die(t_cor *cor)
 {
-	//t_carr		*carr;
-
-	(cor->live.counter)++;
+(cor->live.counter)++;
 	if (cor->live.live_count >= NBR_LIVE)
 	{
 		cor->live.cyc_to_die = cor->live.cyc_to_die - CYCLE_DELTA;
@@ -62,10 +60,9 @@ static t_carr	*check_to_die(t_cor *cor)
 	{
 		cor->live.cyc_to_die = cor->live.cyc_to_die - CYCLE_DELTA;
 		cor->live.counter = 0;
-        if (cor->v_print[1] == 1)
-            ft_printf("Cycle to die is now %d\n", cor->live.cyc_to_die);
+	if (cor->v_print[1] == 1)
+		ft_printf("Cycle to die is now %d\n", cor->live.cyc_to_die);
 	}
-
 	cor->live.live_count = 0;
 	return (cor->carr);
 }
@@ -124,106 +121,92 @@ static void		cycles_read(t_cor *cor, t_carr *tmp)
 ** делает проверку(удаляет лишние каретки)
 */
 
-static void	print_adv(t_cor *cor, t_carr *tmp)
+static	void	go_cor_2(t_cor *cor)
 {
-	int		i;
+    t_carr	*tmp;
 
-	if (cor->v_print[2] == 1 && tmp->i > 1) // 1 может быть ?
+	if (cor->carr && (cor->live.cyc == cor->nbr_cyc ||
+		cor->nbr_cyc == 0))
+		print_dump_code(cor);
+	tmp = cor->carr;
+	cor->visual.vis ? visual(cor) : 0;
+	if ((cor->live.cyc++ - cor->live.cyc_tmp) >= cor->live.cyc_to_die)
 	{
-		ft_printf("ADV %d (0x%04x -> 0x%04x) ", tmp->i, tmp->cur, tmp->cur + tmp->i);
-		i = tmp->cur;
-		while (i < (tmp->cur + tmp->i))
-		{
-			ft_printf("%02x ",\
- 						cor->code[i % MEM_SIZE],\
- 							cor->code[i % MEM_SIZE]);
-			++i;
-		}
-		ft_printf("\n");
+	tmp = check_to_die(cor);
+	cor->live.cyc_tmp = cor->live.cyc - 1;
 	}
-}
-
-static void go_cor_2(t_cor *cor)
-{
-    t_carr  *tmp;
-    if (cor->carr && (cor->live.cyc == cor->nbr_cyc
-                      || cor->nbr_cyc == 0))
-        print_dump_code(cor);
-    tmp = cor->carr;
-    cor->visual.vis ? visual(cor) : 0;
-    if ((cor->live.cyc++ - cor->live.cyc_tmp) >= cor->live.cyc_to_die)
-    {
-        tmp = check_to_die(cor);
-        cor->live.cyc_tmp = cor->live.cyc - 1;
-    }
-    if (cor->v_print[1] == 1 )
-        ft_printf("It is now cycle %d\n", cor->live.cyc);
-    while (tmp)
-    {
-        cycles_read(cor, tmp);
-        if (--tmp->cycles_to == 0)
-        {
+		if (cor->v_print[1] == 1 )
+			ft_printf("It is now cycle %d\n", cor->live.cyc);
+		while (tmp)
+		{
+			cycles_read(cor, tmp);
+			if (--tmp->cycles_to == 0)
+		{
 			do_op(cor, tmp);
 			print_adv(cor, tmp);
 		}
-        tmp = tmp->next;
-    }
-    if ((cor->live.cyc - cor->live.cyc_tmp) >= cor->live.cyc_to_die || cor->live.cyc_to_die <= 0)
-        tmp = check_live(cor);
-}
-void			go_cor(t_cor *cor)
+	tmp = tmp->next;
+	}
+	if ((cor->live.cyc - cor->live.cyc_tmp) >= cor->live.cyc_to_die ||
+	    cor->live.cyc_to_die <= 0)
+		tmp = check_live(cor);
+	}
+void		go_cor(t_cor *cor)
 {
 	while (cor->carr)
-	    go_cor_2(cor);
+		go_cor_2(cor);
 	cor->visual.vis ? stop_visual(cor) : 0;
 }
 
 /*
- void			go_cor(t_cor *cor)
- {
- 	t_carr			*tmp;
- 	int 	i;
-
- 	while (cor->carr)
- 	{
- 		if (cor->carr && (cor->live.cyc == cor->nbr_cyc
- 					|| cor->nbr_cyc == 0))
- 			print_dump_code(cor);
- 		tmp = cor->carr;
- 		cor->visual.vis ? visual(cor) : 0;
-        if (cor->v_print[1] == 1)
-            ft_printf("It is now cycle %d\n", cor->live.cyc + 1);
- 		if ((cor->live.cyc++ - cor->live.cyc_tmp) >= cor->live.cyc_to_die)
- 		{
- 			tmp = check_to_die(cor);
- 			cor->live.cyc_tmp = cor->live.cyc - 1;
- 		}
-         if (cor->v_print[1] == 1 )
-             ft_printf("It is now cycle %d\n", cor->live.cyc);
-         while (tmp)
-         {
-             cycles_read(cor, tmp);
-             if (--tmp->cycles_to == 0)
- 			{
- 				do_op(cor, tmp);
- 				if (cor->v_print[2] == 1 && tmp->i > 1) // 1 может быть ?
- 				{
- 					ft_printf("ADV %d (0x%04x -> 0x%04x) ", tmp->i, tmp->cur, tmp->cur + tmp->i);
- 					i = tmp->cur;
- 					while (i < (tmp->cur + tmp->i))
- 					{
- 						ft_printf("%02x ",\
- 						cor->code[i % MEM_SIZE],\
- 							cor->code[i % MEM_SIZE]);
- 						++i;
- 					}
- 					ft_printf("\n");
- 				}
- 			}
-             tmp = tmp->next;
-         }
- 	if ((cor->live.cyc - cor->live.cyc_tmp) >= cor->live.cyc_to_die || cor->live.cyc_to_die <= 0)
- 		tmp = check_live(cor);
- 	}
- 	cor->visual.vis ? stop_visual(cor) : 0;
- }*/
+** void			go_cor(t_cor *cor)
+** {
+**	t_carr			*tmp;
+** 	int 	i;
+**
+** 	while (cor->carr)
+** 	{
+**		if (cor->carr && (cor->live.cyc == cor->nbr_cyc
+** 					|| cor->nbr_cyc == 0))
+** 			print_dump_code(cor);
+**		tmp = cor->carr;
+** 		cor->visual.vis ? visual(cor) : 0;
+**        if (cor->v_print[1] == 1)
+**            ft_printf("It is now cycle %d\n", cor->live.cyc + 1);
+** 		if ((cor->live.cyc++ - cor->live.cyc_tmp) >= cor->live.cyc_to_die)
+** 		{
+** 			tmp = check_to_die(cor);
+**			cor->live.cyc_tmp = cor->live.cyc - 1;
+** 		}
+**         if (cor->v_print[1] == 1 )
+**             ft_printf("It is now cycle %d\n", cor->live.cyc);
+**         while (tmp)
+**         {
+**             cycles_read(cor, tmp);
+**             if (--tmp->cycles_to == 0)
+** 			{
+** 				do_op(cor, tmp);
+** 				if (cor->v_print[2] == 1 && tmp->i > 1) // 1 может быть ?
+** 				{
+** 					ft_printf("ADV %d (0x%04x -> 0x%04x) ", tmp->i,
+**					tmp->cur, tmp->cur + tmp->i);
+** 					i = tmp->cur;
+** 					while (i < (tmp->cur + tmp->i))
+** 					{
+** 						ft_printf("%02x ",\
+** 						cor->code[i % MEM_SIZE],\
+** 							cor->code[i % MEM_SIZE]);
+** 						++i;
+** 					}
+** 					ft_printf("\n");
+** 				}
+** 			}
+**             tmp = tmp->next;
+**         }
+** 	if ((cor->live.cyc - cor->live.cyc_tmp) >= cor->live.cyc_to_die ||
+**	cor->live.cyc_to_die <= 0)
+** 		tmp = check_live(cor);
+** 	}
+** 	cor->visual.vis ? stop_visual(cor) : 0;
+** }
+*/
