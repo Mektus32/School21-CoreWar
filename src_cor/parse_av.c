@@ -71,6 +71,7 @@ static void	take_flag_v(t_cor *cor, int num)
 
 static void     take_cor_2(int ac, char **av, t_cor *cor int *i)
 {
+	int	j;
     if (!(ft_strcmp("-dump", av[*i])))
         dump_arg(&i, cor, ac, av);
     else if (ft_strcmp("-a", av[*i]) == 0)
@@ -98,10 +99,8 @@ static void     take_cor_2(int ac, char **av, t_cor *cor int *i)
 static void	take_cor(int ac, char **av, t_cor *cor)
 {
 	int i;
-	int j;
 
 	i = 1;
-	j = 0;
 	while (i < ac)
 		take_cor_2(ac, av, cor, &i);
 }
