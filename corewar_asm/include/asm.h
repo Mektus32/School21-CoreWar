@@ -22,7 +22,7 @@
 # define C_DIR		0x2
 # define C_IND		0x3
 
-# define LEN_HEAD	(4+PROG_NAME_LENGTH+4+COMMENT_LENGTH+4+4) //разрешено ?
+# define LEN_HEAD	(4+PROG_NAME_LENGTH+4+COMMENT_LENGTH+4+4)
 
 typedef struct		s_assm
 {

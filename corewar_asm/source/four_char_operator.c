@@ -37,6 +37,12 @@ void	delete_opr(t_opr **opr)
 	free(*opr);
 }
 
+/*
+**temp = code & 0xff; //код операции
+** temp = (code >> 16) & 0xf; //наличие кода типов аргументов
+** temp = (code >> 8) & 0xf; //количество записанных байти до этого:
+*/
+
 void	op_all(t_assm *assm, t_opr *opr, int code,
 		void (*func)(t_assm*, t_opr*))
 {
@@ -47,16 +53,16 @@ void	op_all(t_assm *assm, t_opr *opr, int code,
 	i = -1;
 	(*func)(assm, opr);
 	code_args = get_code_arg(opr);
-	temp = code & 0xff; //код операции
+	temp = code & 0xff;
 	ft_putchar_fd(temp, assm->fd_cor);
-	temp = (code >> 16) & 0xf; //наличие кода типов аргументов
+	temp = (code >> 16) & 0xf;
 	opr->info.bl_code_arg = temp;
 	if (temp)
 		ft_putchar_fd(code_args, assm->fd_cor);
-	temp = (code >> 8) & 0xf; //количество записанных байти до этого: 1 код операции + код типа аргумента если есть
+	temp = (code >> 8) & 0xf;
 	assm->pos_glob += temp;
 	opr->info.oct_start = temp;
-	temp = (code >> 12) & 0xf; // размер дир
+	temp = (code >> 12) & 0xf;
 	opr->info.size_dir = temp;
 	while (--opr->count_args >= 0)
 		all_arg(assm, &opr->info, &opr->args[++i]);

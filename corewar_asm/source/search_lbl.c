@@ -27,7 +27,7 @@ unsigned char	get_code_arg(t_opr *opr)
 	return (code);
 }
 
-int				write_big_endian(int fd, void *bits, int len_bits) //bits : int
+int				write_big_endian(int fd, void *bits, int len_bits)
 {
 	int	count_oct;
 

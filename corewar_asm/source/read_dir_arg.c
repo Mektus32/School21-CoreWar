@@ -28,9 +28,9 @@ char	*create_lable_arg(char *start, t_arg *arg)
 	char *temp;
 
 	temp = start;
-	while (islablechar(*start) && *start != '\0') // а нужно ли чекать что такой лбл существует ?
+	while (islablechar(*start) && *start != '\0')
 		start++;
-	arg->lable = ft_strnew(start - temp); //защитить маллок
+	arg->lable = ft_strnew(start - temp);
 	ft_strncpy(arg->lable, temp, start - temp);
 	return (start);
 }
@@ -43,7 +43,7 @@ char	*read_ind_adg(t_arg *arg, char *start)
 		start = create_lable_arg((start + 1), arg);
 		return (start);
 	}
-	arg->ind = ft_atoi(start); //зашитить от переполнения ?
+	arg->ind = ft_atoi(start);
 	while (ft_isdigit(*start) || *start == '-')
 		start++;
 	return (start);
@@ -67,7 +67,7 @@ char	*read_dir_adg(t_arg *arg, char *start)
 	start++;
 	arg->bl_dir = C_DIR;
 	if (ft_isdigit(*start) || *start == '-')
-		arg->dir = ft_atoi(start); //защитить от переполнения или какой макс число здесь может быть?
+		arg->dir = ft_atoi(start);
 	else if (*start == ':')
 		start = create_lable_arg(start + 1, arg);
 	while (ft_isdigit(*start) || *start == '-')

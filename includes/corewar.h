@@ -122,7 +122,7 @@ typedef struct		s_cor
 	int				n;
 	int				n_curr;
 	int				nbr_cyc;
-	int             v_print[4];
+	int				v_print[4];
 	int				f[MAX_PLAYERS];
 	t_champ			m_ch[MAX_PLAYERS];
 	t_champ			m_2[MAX_PLAYERS];
@@ -132,9 +132,9 @@ typedef struct		s_cor
 	t_vis			visual;
 	struct s_carr	*carr;
 	struct s_live	live;
-	int 			addr1;
-	int 			addr2;
-	int 			aff;
+	int				addr1;
+	int				addr2;
+	int				aff;
 }					t_cor;
 
 /*
@@ -149,7 +149,7 @@ void				*parse_av(int ac, char **av, t_cor *cor);
 
 void				write_name(int fd, char *file_name, t_champ *champ);
 void				valid_champ(int i, char **av, t_champ *champ);
-void make_champ_n(char **av, int n, t_cor *cor);
+void				make_champ_n(char **av, int n, t_cor *cor);
 
 /*
  * ****** arena ******
@@ -209,7 +209,7 @@ char				*base16_2_cor(t_cor *cor, t_carr *tmp);
 
 void				free_cor(t_cor *cor);
 unsigned char		*ft_strncpy_all(unsigned char *dest,
-	const unsigned char *source, size_t n);
+		const unsigned char *source, size_t n);
 int					mem_size(int cur);
 short				idx_mod(short t_ind);
 

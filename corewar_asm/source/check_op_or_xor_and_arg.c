@@ -32,7 +32,7 @@ char	*read_arguments(t_assm *assm, t_arg *arg, char *start)
 				start++;
 			return (start);
 		}
-		if (*start == '\0') //continue или break ?
+		if (*start == '\0')
 			continue ;
 		start++;
 	}
