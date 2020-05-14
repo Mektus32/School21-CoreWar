@@ -24,7 +24,7 @@
 
 void	set_aff(t_cor *cor, int *i)
 {
-	i++;
+	(*i)++;
 	cor->aff = 1;
 }
 
@@ -41,7 +41,7 @@ void	ft_aff(t_cor *cor, t_carr *tmp)
 	{
 		c_1 = read_byte_1(cor->code, (tmp->cur + i++));
 		val = tmp->reg[(int)c_1 - 1];
-		if (cor->aff != 1)
+		if (cor->v_print[2] == 1 && cor->aff != 1)
 			ft_printf("Aff: %c\n", val);
 	}
 	else

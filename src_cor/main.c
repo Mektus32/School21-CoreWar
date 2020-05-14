@@ -19,6 +19,7 @@ static void	zero_live(t_cor *cor)
 	cor->live.cyc = 0;
 	cor->live.live_count = 0;
 	cor->live.cyc_to_die = CYCLE_TO_DIE;
+	cor->aff = 0;
 }
 
 /*
@@ -54,7 +55,7 @@ int			main(int ac, char **av)
 	}
 	else
 		exit_print("Usage: ./corewar [-dump N | -n --stealth | -v visualizator]"
-	" [-a] <champion1.cor>");
+	" [-a] <champion1.cor>\n");
 	endwin();
 	return (0);
 }

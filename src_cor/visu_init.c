@@ -14,8 +14,8 @@
 
 void	create_field(t_cor *cor)
 {
-	cor->visual.main_win = create_newwin(66, 195, 1, 3);
-	cor->visual.side_win = create_newwin(66, 56, 1, 200);
+	cor->visual.main_win = create_newwin(61, 140, 1, 3);
+	cor->visual.side_win = create_newwin(61, 56, 1, 145);
 	nodelay(cor->visual.main_win, 1);
 	nodelay(cor->visual.side_win, 1);
 	draw(cor);
@@ -73,8 +73,8 @@ int		graph_cycle(t_cor *cor)
 		cor->visual.delay -= 1000;
 	else if (ch == KEY_MOUSE)
 	{
-//		if (getmouse(&event) == OK)
-//			;
+		//if (getmouse(&event) == OK)
+		//	;
 	}
 	return (0);
 }

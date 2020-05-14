@@ -1,0 +1,4 @@
+Introducing contestants...
+* Player 1, weighing 325 bytes, "Celebration Funebre v0.99pl42" ("Jour J") !
+* Player 2, weighing 682 bytes, "Kappa" ("AKA Kappa Sandwich.") !
+Contestant 1, "Celebration Funebre v0.99pl42", has won !

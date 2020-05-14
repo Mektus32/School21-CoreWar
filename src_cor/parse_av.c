@@ -78,7 +78,7 @@ static void		take_cor_2(int ac, char **av, t_cor *cor, int *i)
 	else if (ft_strcmp("-viz", av[*i]) == 0 && ((*i) + 1) < ac)
 	{
 		cor->visual.vis = 1;
-		i++;
+		(*i)++;
 	}
 	else
 		exit_print("Can't read source file\n");
