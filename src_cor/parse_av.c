@@ -69,33 +69,38 @@ static void	take_flag_v(t_cor *cor, int num)
 	}
 }
 
-static void     take_cor_2(int ac, char **av, t_cor *cor int *i)
+static void     take_cor_2(int ac, char **av, t_cor *cor, int *i)
 {
-	static int	j=0;
+	static int	j;
+
     if (!(ft_strcmp("-dump", av[*i])))
-        dump_arg(&i, cor, ac, av);
+        dump_arg(i, cor, ac, av);
     else if (ft_strcmp("-a", av[*i]) == 0)
     {
         cor->aff = 1;
-        *i++;
+		(*i)++;
     }
     else if (ft_strcmp("-n", av[*i]) == 0 && (*i + 2) < ac)
     {
-        make_champ_n(av, ++*i, cor);
+        make_champ_n(av, ++(*i), cor);
         *i += 2;
     }
-    else if (ft_strstr(av[i], ".cor") && j < MAX_PLAYERS)
-        valid_champ(*i++, av, &(cor->m_2[j++]));
+    else if (ft_strstr(av[*i], ".cor") && j < MAX_PLAYERS)
+        valid_champ((*i)++, av, &(cor->m_2[j++]));
     else if (ft_strcmp("-v", av[*i]) == 0 && (*i + 1) < ac && ft_isdigit(av[*i + 1][0]))
     {
         take_flag_v(cor, ft_atoi(av[*i + 1]));
-        *i+=2;
+        *i += 2;
     }
-    else if (ft_strcmp("-viz", av[*i]) == 0 && (++*i) < ac) //(*i + 1) < ac
-        cor->visual.vis = 1;
+    else if (ft_strcmp("-viz", av[*i]) == 0 && ((*i) + 1) < ac) //(*i + 1) < ac
+	{
+		cor->visual.vis = 1;
+		i++;
+	}
     else
         exit_print("Can't read source file\n");
 }
+
 static void	take_cor(int ac, char **av, t_cor *cor)
 {
 	int i;
@@ -104,6 +109,7 @@ static void	take_cor(int ac, char **av, t_cor *cor)
 	while (i < ac)
 		take_cor_2(ac, av, cor, &i);
 }
+
 void		*parse_av(int ac, char **av, t_cor *cor)
 {
 	int		i;

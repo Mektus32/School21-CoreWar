@@ -35,9 +35,9 @@ int			main(int ac, char **av)
 {
 	t_cor cor;
 
-		ft_bzero(&cor, sizeof(t_cor));
-		if (ac > 1)
-		{
+	ft_bzero(&cor, sizeof(t_cor));
+	if (ac > 1)
+	{
 		cor.v_print[0] = -1;
 		cor.v_print[1] = -1;
 		cor.v_print[2] = -1;

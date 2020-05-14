@@ -187,7 +187,7 @@ void				do_op(t_cor *cor, t_carr	*tmp);
 
 void				print_dump_code(t_cor *cor);
 void				exit_print(char *str);
-void	print_adv(t_cor *cor, t_carr *tmp)
+void				print_adv(t_cor *cor, t_carr *tmp);
 /*
 ** ***** read_byte ******
 ** inttobyte - переводит инт в байт
