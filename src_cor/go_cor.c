@@ -48,7 +48,7 @@
 
 static t_carr	*check_to_die(t_cor *cor)
 {
-(cor->live.counter)++;
+	(cor->live.counter)++;
 	if (cor->live.live_count >= NBR_LIVE)
 	{
 		cor->live.cyc_to_die = cor->live.cyc_to_die - CYCLE_DELTA;
@@ -60,8 +60,8 @@ static t_carr	*check_to_die(t_cor *cor)
 	{
 		cor->live.cyc_to_die = cor->live.cyc_to_die - CYCLE_DELTA;
 		cor->live.counter = 0;
-	if (cor->v_print[1] == 1)
-		ft_printf("Cycle to die is now %d\n", cor->live.cyc_to_die);
+		if (cor->v_print[1] == 1)
+			ft_printf("Cycle to die is now %d\n", cor->live.cyc_to_die);
 	}
 	cor->live.live_count = 0;
 	return (cor->carr);
@@ -121,40 +121,38 @@ static void		cycles_read(t_cor *cor, t_carr *tmp)
 ** делает проверку(удаляет лишние каретки)
 */
 
-static	void	go_cor_2(t_cor *cor)
+static	void	go_cor_2(t_cor *cor, t_carr *tmp)
 {
-    t_carr	*tmp;
-
-	if (cor->carr && (cor->live.cyc == cor->nbr_cyc ||
-		cor->nbr_cyc == 0))
+	if (cor->carr && (cor->live.cyc == cor->nbr_cyc || cor->nbr_cyc == 0))
 		print_dump_code(cor);
 	tmp = cor->carr;
 	cor->visual.vis ? visual(cor) : 0;
 	if ((cor->live.cyc++ - cor->live.cyc_tmp) >= cor->live.cyc_to_die)
 	{
-	tmp = check_to_die(cor);
-	cor->live.cyc_tmp = cor->live.cyc - 1;
+		tmp = check_to_die(cor);
+		cor->live.cyc_tmp = cor->live.cyc - 1;
 	}
-		if (cor->v_print[1] == 1 )
-			ft_printf("It is now cycle %d\n", cor->live.cyc);
-		while (tmp)
-		{
-			cycles_read(cor, tmp);
-			if (--tmp->cycles_to == 0)
+	if (cor->v_print[1] == 1)
+		ft_printf("It is now cycle %d\n", cor->live.cyc);
+	while (tmp)
+	{
+		cycles_read(cor, tmp);
+		if (--tmp->cycles_to == 0)
 		{
 			do_op(cor, tmp);
 			print_adv(cor, tmp);
 		}
-	tmp = tmp->next;
+		tmp = tmp->next;
 	}
 	if ((cor->live.cyc - cor->live.cyc_tmp) >= cor->live.cyc_to_die ||
-	    cor->live.cyc_to_die <= 0)
+		cor->live.cyc_to_die <= 0)
 		tmp = check_live(cor);
-	}
-void		go_cor(t_cor *cor)
+}
+
+void			go_cor(t_cor *cor)
 {
 	while (cor->carr)
-		go_cor_2(cor);
+		go_cor_2(cor, NULL);
 	cor->visual.vis ? stop_visual(cor) : 0;
 }
 

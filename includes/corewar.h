@@ -188,6 +188,7 @@ void				do_op(t_cor *cor, t_carr	*tmp);
 void				print_dump_code(t_cor *cor);
 void				exit_print(char *str);
 void				print_adv(t_cor *cor, t_carr *tmp);
+void				take_flag_v(t_cor *cor, int num, int *i);
 /*
 ** ***** read_byte ******
 ** inttobyte - переводит инт в байт
@@ -243,6 +244,7 @@ t_carr				*ft_fork(t_cor *cor, t_carr *tmp, int l);
 void				ft_lld(t_cor *cor, t_carr *tmp);
 void				ft_aff(t_cor *cor, t_carr *tmp);
 void				copy_p(void *dst, const void *src, int d_s, int s_s);
+void				set_aff(t_cor *cor, int *i);
 
 /*
 ** visu

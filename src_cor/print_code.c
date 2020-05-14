@@ -16,6 +16,19 @@
 ** ft_printf("%s\n", str);
 */
 
+void	take_flag_v(t_cor *cor, int num, int *i)
+{
+	int k;
+
+	k = 0;
+	while (k < 4)
+	{
+		cor->v_print[k++] = num % 2;
+		num = num / 2;
+	}
+	*i += 2;
+}
+
 void	exit_print(char *str)
 {
 	ft_putstr_fd(str, 2);
@@ -38,7 +51,7 @@ void	print_dump_code(t_cor *cor)
 			ft_printf("\n");
 			ft_printf("%.4p : ", k * 64);
 		}
-			ft_printf("%.2x ", cor->code[i]);
+		ft_printf("%.2x ", cor->code[i]);
 		i++;
 	}
 	ft_printf("\n");
@@ -49,15 +62,16 @@ void	print_adv(t_cor *cor, t_carr *tmp)
 {
 	int		i;
 
-	if (cor->v_print[2] == 1 && tmp->i > 1) // 1 может быть ?
+	if (cor->v_print[2] == 1 && tmp->i > 1)
 	{
-		ft_printf("ADV %d (0x%04x -> 0x%04x) ", tmp->i, tmp->cur, tmp->cur + tmp->i);
+		ft_printf("ADV %d (0x%04x -> 0x%04x) ",
+				tmp->i, tmp->cur, tmp->cur + tmp->i);
 		i = tmp->cur;
 		while (i < (tmp->cur + tmp->i))
 		{
-			ft_printf("%02x ", 
-				  cor->code[i % MEM_SIZE],cor->code[i % MEM_SIZE]);
-		++i;
+			ft_printf("%02x ",
+					cor->code[i % MEM_SIZE], cor->code[i % MEM_SIZE]);
+			++i;
 		}
 		ft_printf("\n");
 	}

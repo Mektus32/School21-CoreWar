@@ -16,7 +16,8 @@
 ** if (cor->code[i * 64 + j] < 0)
 ** mvwprintw(main_win, line, col, "%.2x ", 256 - -1
 ** * cor->code[i * 64 + j]);
-** else */
+** else
+*/
 
 void	panel_help(t_cor *cor, WINDOW *main_win, int i, int line)
 {

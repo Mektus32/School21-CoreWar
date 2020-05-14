@@ -22,6 +22,12 @@
 ** ft_putchar('+');
 */
 
+void	set_aff(t_cor *cor, int *i)
+{
+	i++;
+	cor->aff = 1;
+}
+
 void	ft_aff(t_cor *cor, t_carr *tmp)
 {
 	char					*b2;

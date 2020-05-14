@@ -30,7 +30,8 @@
 ** убрать один рег - сначала проверить последний а потом первый уже оставлять
 */
 
-	static void	write_sti(t_cor *cor, t_carr *tmp, unsigned char t_reg, int *l_2)
+static void		write_sti(t_cor *cor, t_carr *tmp,
+				unsigned char t_reg, int *l_2)
 {
 	unsigned char	*p;
 
@@ -43,26 +44,24 @@
 		ft_printf("P    %d | sti r%d %d %d\n",
 		tmp->id_par, t_reg, l_2[0], l_2[1], l_2[2]);
 		ft_printf("       | -> store to %d + %d = %d (with pc and mod %d)\n",
-			  	l_2[0], l_2[1], l_2[0] + l_2[1],
-				tmp->cur+ ((l_2[0] + l_2[1]) % IDX_MOD));
+			l_2[0], l_2[1], l_2[0] + l_2[1],
+			tmp->cur + ((l_2[0] + l_2[1]) % IDX_MOD));
 	}
 }
 
-static int		len_l_2(t_cor *cor, t_carr *tmp, char*b2, int*l_2)
+static int		len_l_2(t_cor *cor, t_carr *tmp, char *b2, int *l_2)
 {
 	unsigned char	t_reg_2;
-	int			f_err;
+	int				f_err;
 
+	f_err = 0;
+	t_reg_2 = read_byte_1(cor->code, tmp->cur + tmp->i++);
+	if (b2[4] == 0 && b2[5] == 1 && !(VAL_REG(t_reg_2)))
+		f_err = 1;
+	if (VAL_REG(t_reg_2))
 	{
-		f_err = 0;
-		t_reg_2 = read_byte_1(cor->code, tmp->cur + tmp->i++);
-		if (b2[4] == 0 && b2[5] == 1 && !(VAL_REG(t_reg_2)))
-			f_err = 1;
-		if (VAL_REG(t_reg_2))
-		{
-			l_2[2] = l_2[2] + (int)tmp->reg[t_reg_2 - 1];
-			l_2[0] = l_2[2];
-		}
+		l_2[2] = l_2[2] + (int)tmp->reg[t_reg_2 - 1];
+		l_2[0] = l_2[2];
 	}
 	return (f_err);
 }
@@ -76,8 +75,7 @@ static int		*len_l(t_cor *cor, t_carr *tmp, char *b2, int *f_err)
 	l_2[2] = arg_2(b2 + 2, tmp, cor, f_err);
 	l_2[0] = l_2[2];
 	if (b2[4] == 0 && b2[5] == 1)
-		*f_err = (len_l_2(cor, tmp, b2, l_2) == 1) ? 1: *f_err;
-
+		*f_err = (len_l_2(cor, tmp, b2, l_2) == 1) ? 1 : *f_err;
 	else if (b2[4] == 1 && b2[5] == 0)
 	{
 		l_2[1] = read_byte_2(cor->code, tmp->cur + tmp->i);

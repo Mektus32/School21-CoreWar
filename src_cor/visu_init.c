@@ -64,8 +64,8 @@ int		graph_cycle(t_cor *cor)
 		return (1);
 	if (ch == ' ')
 	{
-	cor->visual.pause++;
-	cor->visual.pause %= 2;
+		cor->visual.pause++;
+		cor->visual.pause %= 2;
 	}
 	else if (ch == '+' && cor->visual.delay <= 50000)
 		cor->visual.delay += 1000;
