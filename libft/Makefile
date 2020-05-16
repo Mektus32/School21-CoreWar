@@ -124,7 +124,7 @@ off:
 obj:
 	@mkdir -p $(OBJDIR)
 
-$(OBJDIR)%.o:%.c
+$(OBJDIR)%.o:%.c $(INCDIR)
 	$(CC) $(CFLAGS) -I $(INCDIR) -o $@ -c $<
 
 $(NAME): $(OBJ)	

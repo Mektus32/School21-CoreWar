@@ -42,9 +42,6 @@ SRC =	main.c \
 		visu_cicle.c \
 		write_map.c
 
-
-
-
 OBJ = $(addprefix $(OBJDIR), $(SRC:.c=.o))
 
 # compiler
@@ -70,15 +67,16 @@ PR_LNK = ./ft_printf/libftprintf.a
 SRCDIR = ./src_cor/
 
 INCDIR = -I ./includes/
+INCLUDES = ./includes/corewar.h ./includes/op.h
 OBJDIR = ./obj/
 
 # asm
 ASM = ./corewar_asm
 
-all: $(NAME)
+all: $(NAME) asm
 
-$(NAME): obj $(FT_LIB) $(PR_LIB) grn $(OBJ) asm
-	$(CC) $(CFLAGS) $(OBJ) -lncurses $(PR_LNK) $(FT_LNK) -lm -o $(NAME)
+$(NAME): $(FT_LIB) $(PR_LIB) grn $(OBJ)
+	$(CC) $(CFLAGS) -lncurses $(PR_LNK) $(FT_LNK) -lm -o $@ $(OBJ)
 	@echo "\x1b[0m"
 
 red:
@@ -90,22 +88,22 @@ grn:
 off:
 	@echo "\x1b[0m"
 
-obj:
-	@mkdir -p $(OBJDIR)
-
-$(FT_LIB):
+$(FT_LIB): FORCE
 	@make -C $(FT)
 
-$(PR_LIB):
+$(PR_LIB): FORCE
 	@make -C $(PR)
+
+FORCE:
+
+$(OBJDIR)%.o:$(SRCDIR)%.c $(INCLUDES)
+	@mkdir -p $(OBJDIR)
+	$(CC) $(CFLAGS) $(PR_INC) $(FT_INC) $(INCDIR) -c $< -o $@
 
 asm:
 	@make -C $(ASM)
 
-$(OBJDIR)%.o:$(SRCDIR)%.c
-	$(CC) $(CFLAGS) $(PR_INC) $(FT_INC) $(INCDIR) -o $@ -c $<
-
-clean: red
+clean:
 	/bin/rm -rf $(OBJDIR)
 	@make -C $(FT) clean
 	@make -C $(PR) clean

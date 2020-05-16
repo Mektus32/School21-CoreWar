@@ -32,7 +32,7 @@ GCC_FLAGS = gcc  -Wall -Wextra -Werror
 
 all: $(NAME)
 
-$(OBJDIR)%.o:$(SRCDIR)%.c
+$(OBJDIR)%.o:$(SRCDIR)%.c $(HEAD)
 	@mkdir -p $(OBJDIR)
 	$(GCC_FLAGS) -I $(HEAD) -o $@ -c $<
 
