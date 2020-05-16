@@ -40,7 +40,7 @@ t_carr				*ft_fork(t_cor *cor, t_carr *tmp, int l)
 	short			t_ind;
 	int				k;
 
-	new = new_curr(tmp->id_par, cor);
+	new = new_curr(tmp->num, cor);
 	new->carry = tmp->carry;
 	new->cycles_live = tmp->cycles_live;
 	k = -1;

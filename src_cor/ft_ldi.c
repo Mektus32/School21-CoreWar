@@ -53,7 +53,7 @@ static void		print_ldi(t_cor *cor, t_carr *tmp,
 {
 	if (cor->v_print[2] == 1)
 	{
-		ft_printf("P %4d | %s %d %d r%d\n", tmp->id_par,
+		ft_printf("P %4d | %s %d %d r%d\n", tmp->num,
 				(tmp->prog == 14) ? "lldi" : "ldi",
 						cor->addr1, cor->addr2, t_reg);
 		ft_printf("       | -> load from %d + %d = %d (with pc%s%d)\n", \

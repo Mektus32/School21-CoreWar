@@ -24,7 +24,7 @@ void				ft_zjmp(t_cor *cor, t_carr *tmp)
 		tmp->cur = mem_size(tmp->cur + a);
 		tmp->i = 0;
 		if (cor->v_print[2] == 1)
-			ft_printf("P    %d | zjmp %d OK\n", tmp->id_par, t_ind);
+			ft_printf("P    %d | zjmp %d OK\n", tmp->num, t_ind);
 	}
 	else
 		tmp->i = 3;

@@ -34,7 +34,7 @@ void	ft_and(t_cor *cor, t_carr *tmp)
 			tmp->carry = (tmp->reg[t_reg_3 - 1] == 0) ? 1 : 0;
 		}
 		if (cor->v_print[2] == 1)
-			ft_printf("P %4d | and %d %d r%d\n", tmp->id_par, a1, a2, t_reg_3);
+			ft_printf("P %4d | and %d %d r%d\n", tmp->num, a1, a2, t_reg_3);
 	}
 	else
 		tmp->i += 4 * b2[4] - 2 * b2[5];

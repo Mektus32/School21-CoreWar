@@ -28,7 +28,7 @@ t_carr	*new_curr(int id_par, t_cor *cor)
 	new->num = ++cor->n_curr;
 	i = 0;
 	new->reg[i] = -id_par;
-	while (++i <= REG_NUMBER)
+	while (++i < REG_NUMBER)
 		new->reg[i] = 0;
 	new->next = NULL;
 	return (new);
