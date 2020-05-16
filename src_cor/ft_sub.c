@@ -21,7 +21,7 @@ static void	ft_sub_1(t_cor *cor, t_carr *tmp)
 	t_reg = read_byte_1(cor->code, tmp->cur + 2);
 	t_reg_2 = read_byte_1(cor->code, tmp->cur + 3);
 	t_reg_3 = read_byte_1(cor->code, tmp->cur + 4);
-	if (VAL_REG(t_reg) && VAL_REG(t_reg_2) && VAL_REG(t_reg_3))
+	if (val_reg(t_reg) && val_reg(t_reg_2) && val_reg(t_reg_3))
 	{
 		tmp->reg[t_reg_3 - 1] = tmp->reg[t_reg - 1] -
 									tmp->reg[t_reg_2 - 1];

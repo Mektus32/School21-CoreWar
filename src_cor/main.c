@@ -12,6 +12,16 @@
 
 #include "corewar.h"
 
+int			to_int(unsigned char *c)
+{
+	return ((c[0] << 24) | (c[1] << 16) | (c[2] << 8) | c[3]);
+}
+
+int			val_reg(unsigned char reg)
+{
+	return ((reg > 0 && reg <= REG_NUMBER) ? 1 : 0);
+}
+
 static void	zero_live(t_cor *cor)
 {
 	cor->live.cyc_tmp = 0;

@@ -20,11 +20,8 @@
 # include "ft_printf.h"
 # include <ncurses.h>
 
-# define VAL_REG(reg) ((reg > 0 && reg <= REG_NUMBER) ? 1 : 0)
-# define TO_INT(c) ((c[0] << 24) | (c[1] << 16) | (c[2] << 8) | c[3])
 # define DELAY 14000
 # define M MEM_SIZE
-# define MEM(x) (((x) % (M)) < 0 ? (((x) % (M)) + (M)) : ((x) % (M)))
 
 typedef struct		s_vis
 {
@@ -212,8 +209,10 @@ unsigned char		*ft_strncpy_all(unsigned char *dest,
 		const unsigned char *source, size_t n);
 int					mem_size(int cur);
 short				idx_mod(short t_ind);
-
 unsigned char		*ft_strnew_uc(size_t size);
+int					val_reg(unsigned char reg);
+int 				to_int(unsigned char *c);
+int 				mem(int x);
 /*
 ** ***** ft_add ******
 ** arg_4 - считает откуда считывать 4 байта, если возможные аргументы t_reg,

@@ -12,6 +12,12 @@
 
 #include "corewar.h"
 
+int		mem(int x)
+{
+	return (((x) % (M)) < 0 ?
+		(((x) % (M)) + (M)) : ((x) % (M)));
+}
+
 /*
 ** if (cor->code[i * 64 + j] < 0)
 ** mvwprintw(main_win, line, col, "%.2x ", 256 - -1
@@ -48,8 +54,8 @@ void	write_map_color(t_cor *cor, int pos, int len, t_carr *carg)
 		i = -1;
 		while (++i < len)
 		{
-			cor->colormap[MEM(pos + i)] = (unsigned char)(carg->id_par);
-			cor->bold[MEM(pos + i)] = 70;
+			cor->colormap[mem(pos + i)] = (unsigned char)(carg->id_par);
+			cor->bold[mem(pos + i)] = 70;
 		}
 	}
 }

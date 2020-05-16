@@ -32,7 +32,7 @@ void	ft_or(t_cor *cor, t_carr *tmp)
 	if (b2[4] == 0 && b2[5] == 1)
 	{
 		r3 = read_byte_1(cor->code, tmp->cur + tmp->i++);
-		if ((VAL_REG(r3)) && !f_err)
+		if ((val_reg(r3)) && !f_err)
 		{
 			tmp->reg[(int)r3 - 1] = a1 | a2;
 			tmp->carry = (tmp->reg[(int)r3 - 1] == 0) ? 1 : 0;
@@ -61,7 +61,7 @@ void	ft_xor(t_cor *cor, t_carr *tmp)
 	if (b2[4] == 0 && b2[5] == 1)
 	{
 		r3 = read_byte_1(cor->code, tmp->cur + tmp->i++);
-		if ((VAL_REG(r3)) && !f_err)
+		if ((val_reg(r3)) && !f_err)
 		{
 			tmp->reg[(int)r3 - 1] = a1 ^ a2;
 			tmp->carry = (tmp->reg[(int)r3 - 1] == 0) ? 1 : 0;

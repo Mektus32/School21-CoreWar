@@ -28,7 +28,7 @@ void	ft_and(t_cor *cor, t_carr *tmp)
 	if (b2[4] == 0 && b2[5] == 1)
 	{
 		t_reg_3 = read_byte_1(cor->code, tmp->cur + tmp->i++);
-		if ((VAL_REG(t_reg_3)) && !f_err)
+		if ((val_reg(t_reg_3)) && !f_err)
 		{
 			tmp->reg[t_reg_3 - 1] = a1 & a2;
 			tmp->carry = (tmp->reg[t_reg_3 - 1] == 0) ? 1 : 0;

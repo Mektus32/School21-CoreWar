@@ -62,14 +62,14 @@ void			write_name(int fd, char *file_name, t_champ *champ)
 	size_t			st;
 
 	read(fd, &c, 4);
-	champ->magic = TO_INT(c);
+	champ->magic = to_int(c);
 	if (champ->magic != COREWAR_EXEC_MAGIC)
 		exit_print("Error: wrong exec_magic\n");
 	read(fd, (champ->prog_name), PROG_NAME_LENGTH);
 	if (read(fd, &c, 4) != 4 || c[0] || c[1] || c[2] || c[3])
 		exit_print("Error: wrong name\n");
 	if (read(fd, &c, 4) != 4 ||
-		(champ->prog_size = TO_INT(c)) > CHAMP_MAX_SIZE)
+		(champ->prog_size = to_int(c)) > CHAMP_MAX_SIZE)
 		exit_print("File has a code size that differ"
 	"from what its header says\n");
 	if ((st = read(fd, &(champ->comment), COMMENT_LENGTH)) != COMMENT_LENGTH)

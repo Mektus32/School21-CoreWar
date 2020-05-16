@@ -15,7 +15,7 @@
 static void		ldi_take_argc(unsigned char t_reg, int *k,
 							int *f_err, t_carr *tmp)
 {
-	if (VAL_REG(t_reg))
+	if (val_reg(t_reg))
 		*k += tmp->reg[(int)t_reg - 1];
 	else
 		*f_err = 1;
@@ -88,7 +88,7 @@ void			ft_ldi(t_cor *cor, t_carr *tmp)
 	if (b2[4] == 0 && b2[5] == 1)
 	{
 		t_reg = read_byte_1(cor->code, tmp->cur + tmp->i++);
-		if (f_err == 0 && (VAL_REG(t_reg)))
+		if (f_err == 0 && (val_reg(t_reg)))
 			ldi_get_argc(k, tmp, t_reg, cor);
 		print_ldi(cor, tmp, t_reg, k1);
 	}

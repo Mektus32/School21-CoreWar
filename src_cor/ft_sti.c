@@ -56,9 +56,9 @@ static int		len_l_2(t_cor *cor, t_carr *tmp, char *b2, int *l_2)
 
 	f_err = 0;
 	t_reg_2 = read_byte_1(cor->code, tmp->cur + tmp->i++);
-	if (b2[4] == 0 && b2[5] == 1 && !(VAL_REG(t_reg_2)))
+	if (b2[4] == 0 && b2[5] == 1 && !(val_reg(t_reg_2)))
 		f_err = 1;
-	if (VAL_REG(t_reg_2))
+	if (val_reg(t_reg_2))
 	{
 		l_2[2] = l_2[2] + (int)tmp->reg[t_reg_2 - 1];
 		l_2[0] = l_2[2];
@@ -110,7 +110,7 @@ void			ft_sti(t_cor *cor, t_carr *tmp)
 	}
 	l_2 = len_l(cor, tmp, b2, &f_err);
 	l_2[2] = mem_size(tmp->cur + l_2[2] % IDX_MOD);
-	if (!f_err && VAL_REG(t_reg))
+	if (!f_err && val_reg(t_reg))
 		write_sti(cor, tmp, t_reg, l_2);
 	free(b2);
 	free(l_2);

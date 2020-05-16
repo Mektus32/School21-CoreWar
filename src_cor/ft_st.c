@@ -63,7 +63,7 @@ void	ft_st_write_2(unsigned char t_reg, t_cor *cor, t_carr *tmp)
 	unsigned char	t_reg_2;
 
 	t_reg_2 = read_byte_1(cor->code, tmp->cur + 3);
-	if (VAL_REG(t_reg_2))
+	if (val_reg(t_reg_2))
 		tmp->reg[t_reg_2 - 1] = tmp->reg[t_reg - 1];
 	if (cor->v_print[2] == 1)
 		ft_printf("P    %d | st r%d %d\n", tmp->id_par,
@@ -77,7 +77,7 @@ void	ft_st_write(t_cor *cor, t_carr *tmp, int b2_2)
 	unsigned char	t_reg;
 
 	t_reg = read_byte_1(cor->code, tmp->cur + 2);
-	if (VAL_REG(t_reg))
+	if (val_reg(t_reg))
 	{
 		if (b2_2 == 1)
 		{

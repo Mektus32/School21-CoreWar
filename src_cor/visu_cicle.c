@@ -82,7 +82,7 @@ void	paint_carg(t_cor *cor)
 	carg = cor->carr;
 	while (carg)
 	{
-		carg->cur = MEM(carg->cur);
+		carg->cur = mem(carg->cur);
 		color = cor->colormap[carg->cur] + 10;
 		wattron(cor->visual.main_win, COLOR_PAIR(color));
 		mvwprintw(cor->visual.main_win, carg->cur / 64 + 1,

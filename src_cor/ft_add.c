@@ -30,8 +30,8 @@ static void		ft_get_argc(char *b2, t_cor *cor, t_carr *tmp, int f_err)
 		t_reg_3 = read_byte_1(cor->code, tmp->cur + tmp->i++);
 	else
 		tmp->i += 4 * b2[4] - 2 * b2[5];
-	if (tmp->i == 5 && (!f_err) && VAL_REG(t_reg) && VAL_REG(t_reg_2) &&
-		VAL_REG(t_reg_3))
+	if (tmp->i == 5 && (!f_err) && val_reg(t_reg) && val_reg(t_reg_2) &&
+		val_reg(t_reg_3))
 	{
 		tmp->reg[t_reg_3 - 1] = tmp->reg[t_reg - 1] + tmp->reg[t_reg_2 - 1];
 		tmp->carry = (tmp->reg[t_reg_3 - 1] == 0) ? 1 : 0;

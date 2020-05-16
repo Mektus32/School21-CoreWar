@@ -36,7 +36,7 @@ int		ft_ld_write(t_cor *cor, t_carr *tmp, int i, int l)
 	else
 		t_dir = read_byte_4(cor->code, tmp->cur + 2);
 	t_reg = read_byte_1(cor->code, tmp->cur + i);
-	if (VAL_REG(t_reg))
+	if (val_reg(t_reg))
 	{
 		tmp->reg[t_reg - 1] = t_dir;
 		tmp->carry = (tmp->reg[t_reg - 1] == 0) ? 1 : 0;
@@ -88,7 +88,7 @@ int		ft_lld_write(t_cor *cor, t_carr *tmp, int i)
 	else
 		t_dir = read_byte_4(cor->code, tmp->cur + 2);
 	t_reg = read_byte_1(cor->code, tmp->cur + i);
-	if (VAL_REG(t_reg))
+	if (val_reg(t_reg))
 	{
 		tmp->reg[t_reg - 1] = (t_ind == 0) ? (long)t_dir : t_ind;
 		tmp->carry = (tmp->reg[t_reg - 1] == 0) ? 1 : 0;
