@@ -66,7 +66,7 @@ void	ft_st_write_2(unsigned char t_reg, t_cor *cor, t_carr *tmp)
 	if (val_reg(t_reg_2))
 		tmp->reg[t_reg_2 - 1] = tmp->reg[t_reg - 1];
 	if (cor->v_print[2] == 1)
-		ft_printf("P    %d | st r%d %d\n", tmp->num,
+		ft_printf("P %4d | st r%d %d\n", tmp->num,
 				t_reg, t_reg_2 % IDX_MOD);
 }
 
@@ -83,7 +83,7 @@ void	ft_st_write(t_cor *cor, t_carr *tmp, int b2_2)
 		{
 			t_ind = read_byte_2(cor->code, tmp->cur + 3);
 			if (cor->v_print[2] == 1)
-				ft_printf("P    %d | st r%d %d\n", tmp->num, t_reg, t_ind);
+				ft_printf("P %4d | st r%d %d\n", tmp->num, t_reg, t_ind);
 			t_ind = idx_mod(t_ind);
 			t_ind = mem_size(tmp->cur + t_ind);
 			p = inttobyte(tmp->reg[t_reg - 1]);
