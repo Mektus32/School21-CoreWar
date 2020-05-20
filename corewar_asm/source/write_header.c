@@ -46,6 +46,7 @@ void	init(t_assm *assm)
 	assm->counter_line = 0;
 	assm->pos_glob = LEN_HEAD;
 	assm->lbl = NULL;
+	assm->line = NULL;
 	ft_memset(assm->head.prog_name, 0x00, PROG_NAME_LENGTH);
 	ft_memset(assm->head.comment, 0x00, COMMENT_LENGTH);
 }

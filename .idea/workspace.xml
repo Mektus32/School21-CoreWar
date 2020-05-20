@@ -11,12 +11,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4445c435-406d-4736-a4e4-219b23a7a9d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/ft_printf/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/ft_printf/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/source/read_comment_champ.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/read_comment_champ.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/libft/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/comment_len_2049.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/include/asm.h" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/include/asm.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/source/read_name_comment.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/read_name_comment.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/source/write_header.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/write_header.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,6 +131,7 @@
       <workItem from="1589922258190" duration="1374000" />
       <workItem from="1589967376875" duration="8000" />
       <workItem from="1589967399814" duration="6172000" />
+      <workItem from="1589981270747" duration="2459000" />
     </task>
     <servers />
   </component>

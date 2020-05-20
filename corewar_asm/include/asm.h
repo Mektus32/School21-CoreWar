@@ -27,6 +27,7 @@
 
 typedef struct		s_assm
 {
+	char			*line;
 	int				fd_cor;
 	int				fd_s;
 	char			*name_cor;
@@ -98,8 +99,8 @@ void				read_comment_champion(char *line, t_assm *assm);
 ** File read_name_comment.c
 */
 void				working_comment(char *line, t_assm *assm);
-int					working_dot(t_assm *assm, char *line, int *count);
-int					search_char(t_assm *assm, char *line, int *count);
+int					working_dot(t_assm *assm, char *line, int *name, int *comment);
+int					search_char(t_assm *assm, int *name, int *comment);
 void				create_file_cor(t_assm *assm, char *name);
 void				read_name_comment(t_assm *assm);
 /*
