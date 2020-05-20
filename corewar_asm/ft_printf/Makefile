@@ -34,7 +34,7 @@ all: $(NAME)
 
 $(OBJDIR)%.o:$(SRCDIR)%.c $(HEAD)
 	@mkdir -p $(OBJDIR)
-	@$(GCC_FLAGS) -I $(HEAD) -o $@ -c $<
+	$(GCC_FLAGS) -I $(HEAD) -o $@ -c $<
 
 $(NAME):$(OBJS)
 	@make -C $(LIBFT)

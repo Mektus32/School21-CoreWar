@@ -43,17 +43,19 @@ OBJECTS = $(addprefix $(OBJECTS_PATH), $(OBJECTS_NAME))
 all : $(NAME)
 
 $(NAME): $(OBJECTS) $(LIBFT) $(PRINTF)
-	@$(CC) $(CFLAGS) $(INCLUDES) $(INCLUDE_MLX) $(LIBFT) $(PRINTF) -o $@ $(OBJECTS)
+	$(CC) $(CFLAGS) $(INCLUDES) $(LIBFT) $(PRINTF) -o $@ $(OBJECTS)
 
 $(LIBFT): FORCE
 	@make -C $(LIBFT_DIR)
+
+$(PRINTF): FORCE
 	@make -C $(PRINTF_DIR)
 
 FORCE:
 
 $(OBJECTS_PATH)%.o: $(SOURCES_PATH)%.c $(INCLUDE)
 	@mkdir $(OBJECTS_PATH) 2>/dev/null || echo "" > /dev/null
-	@$(CC) $(FLAGS) $(INCLUDES) -c $< -o $@
+	$(CC) $(FLAGS) $(INCLUDES) -c $< -o $@
 
 clean :
 	@/bin/rm -f $(OBJECTS)

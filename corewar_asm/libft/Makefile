@@ -110,16 +110,7 @@ CFLAGS = -Wextra -Wall -Werror -g
 INCDIR = ./includes/
 OBJDIR = ./obj/
 
-all: obj grn $(NAME) off
-
-red:
-	@echo "\x1B[31m"
-
-grn:
-	@echo "\x1B[32m"
-
-off:
-	@echo "\x1b[0m"
+all: obj $(NAME)
 
 obj:
 	@mkdir -p $(OBJDIR)
@@ -131,7 +122,7 @@ $(NAME): $(OBJ)
 	@ar rc $(NAME) $(OBJ)
 	@ranlib $(NAME)
 
-clean: red
+clean:
 	@/bin/rm -rf $(OBJDIR)
 
 fclean: clean

@@ -68,8 +68,10 @@ void	read_comment_champion(char *line, t_assm *assm)
 
 	while (*line)
 	{
-		if (*line == '"' || i >= COMMENT_LENGTH)
+		if (*line == '"')
 			return ;
+		if (i >= COMMENT_LENGTH)
+			error("length of comment <= 2048", assm);
 		assm->head.comment[++i] = *line;
 		line++;
 	}

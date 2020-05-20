@@ -12,128 +12,11 @@
     <list default="true" id="4445c435-406d-4736-a4e4-219b23a7a9d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/corewar_asm/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/include/asm.h" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/include/asm.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/ft_printf/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/ft_printf/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/corewar_asm/libft/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/author" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/author" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_atoi.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_atoi.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_bzero.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_bzero.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_check_dimension.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_check_flag_spetia_type.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_check_un_dimension.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_concat_str.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_cop_str_left_or_right.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_copy_string_left.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_copy_string_left_wchar.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_copy_string_right.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_copy_string_right_wchar.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_create_new_lst_strchar.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_float_inf.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_is_flag_type_size.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_isalnum.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_isalnum.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_isalpha.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_isalpha.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_isascii.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_isascii.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_isdigit.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_isdigit.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_isprint.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_isprint.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_itoa.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_itoa.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_itoa_llint.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_itoo.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_itox.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_lstadd.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_lstadd.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_lstdel.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_lstdel.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_lstdelone.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_lstdelone.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_lstiter.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_lstiter.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_lstmap.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_lstmap.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_lstnew.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_lstnew.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_memalloc.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_memalloc.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_memccpy.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_memccpy.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_memchr.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_memchr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_memcmp.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_memcmp.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_memcpy.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_memcpy.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_memdel.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_memdel.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_memmove.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_memmove.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_memset.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_memset.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_memset_wchar.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_multi_strdup.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_numwr.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_octotorp_hex.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_printf.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_printf.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_put_decimal.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_put_hexadecimal.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_put_octal.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_put_percent.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_put_pointer.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_put_unsigned.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_putchar.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_putchar.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_putchar_fd.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_putchar_fd.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_putchar_wchar.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_putendl.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_putendl.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_putendl_fd.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_putendl_fd.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_putnbr.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_putnbr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_putnbr_fd.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_putnbr_fd.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_putstr.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_putstr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_putstr_fd.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_putstr_fd.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_putstr_wchar.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_read_format.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strcat.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_strcat.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strchr.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_strchr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strcl.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strclr.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_strclr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strcmp.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_strcmp.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strcpy.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_strcpy.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strdel.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_strdel.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strdel_wchar.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strdup.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_strdup.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strdup_wchar.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strequ.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_strequ.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strfr.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_striter.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_striter.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_striteri.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_striteri.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strjoin.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_strjoin.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strlcat.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_strlcat.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strlen.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_strlen.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strlen_wchar.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strmap.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_strmap.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strmapi.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_strmapi.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strncat.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_strncat.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strncmp.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_strncmp.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strncpy.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_strncpy.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strncpy_wchar.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strnequ.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_strnequ.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strnew.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_strnew.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strnew_char_wchar.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strnew_wchar.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strnjoin.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strnjoinfree.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strnstr.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_strnstr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strrchr.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_strrchr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strsplit.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_strsplit.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strstr.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_strstr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strsub.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_strsub.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_strtrim.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_strtrim.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_tolower.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_tolower.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_toupper.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/ft_toupper.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/ft_un_itoa.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/get_next_line.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/libft/get_next_line.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/get_next_line.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/libft.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/type_char.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/type_float.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/type_float2.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/type_string.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/source/delete_list.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/delete_list.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/corewar_asm/source/read_comment_champ.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/read_comment_champ.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/libft/Makefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +132,7 @@
       <workItem from="1589898912471" duration="4076000" />
       <workItem from="1589922258190" duration="1374000" />
       <workItem from="1589967376875" duration="8000" />
-      <workItem from="1589967399814" duration="1132000" />
+      <workItem from="1589967399814" duration="6172000" />
     </task>
     <servers />
   </component>
