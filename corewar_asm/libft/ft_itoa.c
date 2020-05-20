@@ -3,64 +3,49 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: widraugr <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: ojessi <ojessi@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/12/06 12:09:44 by widraugr          #+#    #+#             */
-/*   Updated: 2019/02/01 16:16:51 by widraugr         ###   ########.fr       */
+/*   Created: 2019/04/08 15:15:50 by ojessi            #+#    #+#             */
+/*   Updated: 2019/04/08 22:24:51 by ojessi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static char	*ft_recstr(char *str, int neg)
+static void		itoa_isnegative(int *n, int *negative)
 {
-	long int	i;
-	size_t		n;
-	char		cop[23];
-	char		*rtnstr;
-
-	n = 0;
-	i = ft_strlen(str) - 1;
-	if (neg < 0)
-		cop[n++] = '-';
-	if (i == -1)
-		cop[n++] = '0';
-	while (i >= 0)
+	if (*n < 0)
 	{
-		cop[n] = str[i];
-		n++;
-		i--;
+		*n *= -1;
+		*negative = 1;
 	}
-	cop[n] = '\0';
-	if (!(rtnstr = ft_strdup(cop)))
-		return (NULL);
-	return (rtnstr);
 }
 
-char		*ft_itoa(intmax_t n)
+char			*ft_itoa(int n)
 {
-	size_t			i;
-	uintmax_t		num;
-	int				neg;
-	char			str[21];
-	char			*rtnstr;
+	int			tmpn;
+	int			len;
+	int			negative;
+	char		*str;
 
-	i = 0;
-	neg = 0;
-	num = n;
-	if (n < 0)
-	{
-		num = n * (-1);
-		neg = -1;
-	}
-	while (num != 0)
-	{
-		str[i] = (num % 10) + '0';
-		num /= 10;
-		i++;
-	}
-	str[i] = '\0';
-	if (!(rtnstr = ft_recstr(str, neg)))
+	if (n == -2147483648)
+		return (ft_strdup("-2147483648"));
+	tmpn = n;
+	len = 2;
+	negative = 0;
+	itoa_isnegative(&n, &negative);
+	while (tmpn /= 10)
+		len++;
+	len += negative;
+	if ((str = (char*)malloc(sizeof(char) * len)) == NULL)
 		return (NULL);
-	return (rtnstr);
+	str[--len] = '\0';
+	while (len--)
+	{
+		str[len] = n % 10 + '0';
+		n = n / 10;
+	}
+	if (negative)
+		str[0] = '-';
+	return (str);
 }

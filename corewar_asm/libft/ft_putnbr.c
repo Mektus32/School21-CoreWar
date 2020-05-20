@@ -3,52 +3,38 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: widraugr <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: ojessi <ojessi@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/12/06 15:24:38 by widraugr          #+#    #+#             */
-/*   Updated: 2019/01/31 10:14:40 by widraugr         ###   ########.fr       */
+/*   Created: 2019/04/08 16:03:51 by ojessi            #+#    #+#             */
+/*   Updated: 2019/04/11 16:14:09 by ojessi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static	void	ft_recprint(char *str, intmax_t neg)
+void	ft_putnbr(int nb)
 {
-	int		i;
+	int index;
+	int number[20];
 
-	i = ft_strlen(str) - 1;
-	if (neg == -1)
+	index = -1;
+	if (nb < 0)
+	{
+		if (nb == -2147483648)
+		{
+			nb = -214748364;
+			number[++index] = 8;
+		}
 		ft_putchar('-');
-	if (*str == '\0')
-		ft_putchar('0');
-	while (i >= 0)
-	{
-		ft_putchar(str[i]);
-		i--;
+		nb *= -1;
 	}
-}
-
-void			ft_putnbr(intmax_t n)
-{
-	intmax_t		num;
-	char			str[20];
-	int				i;
-	int				neg;
-
-	i = 0;
-	num = n;
-	neg = 0;
-	if (n < 0)
+	while (nb / 10 != 0)
 	{
-		neg = -1;
-		num = num * (-1);
+		number[++index] = nb % 10;
+		nb /= 10;
 	}
-	while (num != 0)
-	{
-		str[i] = (num % 10) + '0';
-		num /= 10;
-		i++;
-	}
-	str[i] = '\0';
-	ft_recprint(str, neg);
+	number[++index] = nb % 10;
+	index++;
+	while (index != 0)
+		ft_putchar('0' + number[--index]);
 }

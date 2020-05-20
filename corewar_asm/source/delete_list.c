@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "../include/asm.h"
+#include <stdio.h> //<del
 
 void	sys_err_rm(t_assm *assm, char *err)
 {

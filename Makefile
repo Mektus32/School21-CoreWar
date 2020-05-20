@@ -104,16 +104,16 @@ asm:
 	@make -C $(ASM)
 
 clean:
-	/bin/rm -rf $(OBJDIR)
+	@/bin/rm -rf $(OBJDIR)
 	@make -C $(FT) clean
 	@make -C $(PR) clean
 	@make -C $(ASM) clean
 
 
 fclean: clean
-	/bin/rm -rf $(NAME)
-	make -C $(FT) fclean
-	make -C $(PR) fclean
-	make -C $(ASM) fclean
+	@/bin/rm -rf $(NAME)
+	@make -C $(FT) fclean
+	@make -C $(PR) fclean
+	@make -C $(ASM) fclean
 
 re: fclean all

@@ -3,36 +3,30 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: widraugr <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: ojessi <ojessi@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/11/28 09:52:43 by widraugr          #+#    #+#             */
-/*   Updated: 2019/09/10 13:20:00 by widraugr         ###   ########.fr       */
+/*   Created: 2019/04/05 19:54:36 by ojessi            #+#    #+#             */
+/*   Updated: 2019/04/09 20:29:46 by ojessi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strstr(const char *haystack, const char *needle)
+char	*ft_strstr(const char *str1, const char *str2)
 {
-	size_t			i;
-	size_t			l;
-	unsigned char	*strh;
-	unsigned char	*strn;
+	int i;
+	int	j;
 
-	strh = (unsigned char *)haystack;
-	strn = (unsigned char *)needle;
 	i = 0;
-	if (*strn == '\0')
-		return ((char *)haystack);
-	while (strh[i] != '\0')
+	if (!str2[0])
+		return ((char*)str1);
+	while (str1[i] != '\0')
 	{
-		l = 0;
-		while (strn[l] == strh[i + l])
-		{
-			if (strn[l + 1] == '\0')
-				return ((char *)strh + i);
-			l++;
-		}
+		j = 0;
+		while (str2[j] != '\0' && str2[j] == str1[i + j] && str1[j + i] != '\0')
+			j++;
+		if (!str2[j])
+			return ((char*)&str1[i]);
 		i++;
 	}
 	return (NULL);

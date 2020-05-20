@@ -164,7 +164,7 @@ void				go_cor(t_cor *cor);
  * ***** carr_list ******
 */
 
-t_carr *new_curr(int id_par, t_cor *cor);
+t_carr				*new_curr(int id_par, t_cor *cor);
 void				add_curr(t_carr **all_carr, t_carr *new);
 int					len_curr(t_carr *list);
 t_carr				*remove_head(t_cor *cor, t_carr *curr);
@@ -211,8 +211,8 @@ int					mem_size(int cur);
 short				idx_mod(short t_ind);
 unsigned char		*ft_strnew_uc(size_t size);
 int					val_reg(unsigned char reg);
-int 				to_int(unsigned char *c);
-int 				mem(int x);
+int					to_int(unsigned char *c);
+int					mem(int x);
 /*
 ** ***** ft_add ******
 ** arg_4 - считает откуда считывать 4 байта, если возможные аргументы t_reg,

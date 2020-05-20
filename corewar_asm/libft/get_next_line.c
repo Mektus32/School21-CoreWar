@@ -3,80 +3,132 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eskeleto <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: ojessi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/12/12 12:54:03 by eskeleto          #+#    #+#             */
-/*   Updated: 2019/09/12 13:05:22 by widraugr         ###   ########.fr       */
+/*   Created: 2019/04/15 17:59:32 by ojessi            #+#    #+#             */
+/*   Updated: 2019/04/18 21:17:28 by ojessi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
 
-void	ft_strchr0(char *s, int c)
+int		len(char *s, int c)
 {
-	int i;
+	int		i;
 
 	i = 0;
-	while (s[i] != (char)c && s[i] != 0)
-		s++;
-	if (s[i] == (char)c)
-		s[i] = 0;
+	while (s[i] != '\0' && s[i] != (char)c)
+		i++;
+	return (i);
 }
 
-void	ft_strzero(char *input, int len)
+char	*ft_str_ljoin(char **s1, char **s2)
 {
-	while (len--)
-		input[len] = 0;
-}
+	char	*without_leaks;
 
-int		str_process(char *input, char **result)
-{
-	char	*tmp;
-	char	*tmp2;
-
-	if (ft_strrchr(input, '\n'))
+	without_leaks = NULL;
+	if (!s1 && !s2)
+		return (NULL);
+	else if (!*s1 && *s2)
 	{
-		tmp = ft_strdup(input);
-		input = ft_strcpy(input, &ft_strchr(input, '\n')[1]);
-		ft_strchr0(tmp, 10);
-		tmp2 = *result;
-		*result = ft_strjoin(*result, tmp);
-		free(tmp);
-		free(tmp2);
-		return (1);
+		without_leaks = *s2;
+		*s2 = NULL;
+	}
+	else if (!*s2 && *s1)
+	{
+		without_leaks = *s1;
+		*s1 = NULL;
 	}
 	else
 	{
-		tmp = *result;
-		*result = ft_strjoin(*result, input);
-		free(tmp);
-		ft_strzero(input, BUFF_SIZE);
-		return (0);
+		without_leaks = ft_strjoin(*s1, *s2);
+		ft_strdel(s1);
+		ft_strdel(s2);
 	}
+	return (without_leaks);
+}
+
+void	get_tail(const int fd, char *buf, t_line **head)
+{
+	t_line	*tail;
+	t_line	*ptr;
+	char	*tmp;
+	int		start;
+
+	tail = NULL;
+	ptr = *head;
+	start = len(buf, '\n') + 1;
+	while (ptr && ptr->fd != fd)
+		ptr = ptr->next;
+	if (ptr == NULL || *head == NULL)
+	{
+		tail = (t_line*)malloc(sizeof(t_line) * 1);
+		tail->fd = fd;
+		tail->next = *head ? *head : NULL;
+		if (!(tail->str = ft_strsub(buf, start, ft_strlen(buf) - start)))
+			ft_memdel((void**)tail);
+		*head = tail;
+	}
+	if (ptr)
+	{
+		tmp = ptr->str;
+		ptr->str = ft_strsub(buf, start, ft_strlen(buf) - start);
+		tmp ? ft_strdel(&tmp) : 0;
+	}
+}
+
+int		reading(int fd, char **line, t_line **head)
+{
+	int		ret;
+	char	buf[BUFF_SIZE + 1];
+	char	*tmp;
+
+	while ((ret = read(fd, buf, BUFF_SIZE)) > 0)
+	{
+		buf[ret] = '\0';
+		if (ft_strchr(buf, '\n') != NULL)
+		{
+			tmp = ft_strsub(buf, 0, len(buf, '\n'));
+			*line = ft_str_ljoin(line, &tmp);
+			get_tail(fd, buf, head);
+			return (1);
+		}
+		else
+		{
+			tmp = ft_strdup(buf);
+			*line = ft_str_ljoin(line, &tmp);
+		}
+	}
+	if (ret < 0)
+		return (-1);
+	return (*line ? 1 : 0);
 }
 
 int		get_next_line(const int fd, char **line)
 {
-	static char	*buff[10000];
-	int			ret;
+	static	t_line	*head = NULL;
+	t_line			*ptr;
 
-	if (fd < 0 || !line || BUFF_SIZE <= 0)
+	if (fd < 0 || line == NULL)
 		return (-1);
-	if (!buff[fd])
-		buff[fd] = ft_strnew(BUFF_SIZE);
-	*line = ft_strnew(0);
-	if (*buff[fd])
-		if (str_process(buff[fd], line))
-			return (1);
-	ft_strzero(buff[fd], BUFF_SIZE);
-	while ((ret = read(fd, buff[fd], BUFF_SIZE)))
+	*line = NULL;
+	if (head)
 	{
-		if (ret < 0)
-			return (-1);
-		if (str_process(buff[fd], line))
+		ptr = head;
+		while (ptr && ptr->fd != fd)
+			ptr = ptr->next;
+		if (ptr && ptr->str && ft_strchr(ptr->str, '\n') != NULL)
+		{
+			*line = ft_strsub(ptr->str, 0, len(ptr->str, '\n'));
+			get_tail(fd, ptr->str, &head);
 			return (1);
+		}
+		if (ptr && ptr->str && !ft_strchr(ptr->str, '\n')
+			&& !ft_strequ(ptr->str, ""))
+		{
+			*line = ptr->str;
+			ptr->str = NULL;
+		}
 	}
-	if (**line == 0)
-		return (0);
-	return (1);
+	return (reading(fd, line, &head));
 }

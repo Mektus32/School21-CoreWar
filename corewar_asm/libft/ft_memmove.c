@@ -3,27 +3,31 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: widraugr <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: ojessi <ojessi@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/11/26 14:22:10 by widraugr          #+#    #+#             */
-/*   Updated: 2019/02/26 10:38:57 by widraugr         ###   ########.fr       */
+/*   Created: 2019/04/04 20:57:54 by ojessi            #+#    #+#             */
+/*   Updated: 2019/04/09 20:29:46 by ojessi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memmove(void *dst, const void *src, size_t len)
+void	*ft_memmove(void *dest, const void *source, size_t count)
 {
-	size_t	i;
+	unsigned char		*d;
+	const unsigned char	*s;
+	const unsigned char	*lasts;
+	unsigned char		*lastd;
 
-	i = -1;
-	if (dst == src)
-		return (dst);
-	if (dst < src)
-		while (++i < len)
-			((unsigned char *)dst)[i] = ((unsigned char *)src)[i];
+	d = dest;
+	s = source;
+	lastd = d + (count - 1);
+	lasts = s + (count - 1);
+	if (d < s)
+		while (count-- > 0)
+			*d++ = *s++;
 	else
-		while (len-- > 0)
-			((unsigned char *)dst)[len] = ((unsigned char *)src)[len];
-	return (dst);
+		while (count-- > 0)
+			*lastd-- = *lasts--;
+	return (dest);
 }

@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "../include/asm.h"
+#include <stdio.h> //<del
 
 void	close_files(t_assm *assm)
 {

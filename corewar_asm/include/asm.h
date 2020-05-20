@@ -14,7 +14,8 @@
 # define ASM_H
 
 # include <unistd.h>
-# include "../libft/libft.h"
+# include "../libft/includes/libft.h"
+# include "../ft_printf/head/libftprintf.h"
 # include "op.h"
 # include <fcntl.h>
 

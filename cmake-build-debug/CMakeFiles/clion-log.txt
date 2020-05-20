@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/ivanplesovskih/Desktop/corewar_changement
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/ivanplesovskih/Desktop/corewar 2"
 -- The C compiler identification is AppleClang 10.0.1.10010046
 -- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc
 -- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc -- works
@@ -7,5 +7,17 @@
 -- Detecting C compile features
 -- Detecting C compile features - done
 -- Configuring done
--- Generating done
--- Build files have been written to: /Users/ivanplesovskih/Desktop/corewar_changement/cmake-build-debug
+CMake Error at CMakeLists.txt:14 (add_executable):
+  Cannot find source file:
+
+    corewar_asm/libft/ft_check_dimension.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:14 (add_executable):
+  No SOURCES given to target: School21_CoreWar
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
