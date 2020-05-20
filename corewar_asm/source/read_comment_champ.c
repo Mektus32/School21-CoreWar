@@ -23,6 +23,8 @@ void	close_files(t_assm *assm)
 
 void	error(const char *msg, t_assm *assm)
 {
+	if (assm->line)
+		ft_strdel(&(assm->line));
 	ft_printf("%s Line [%d].\n", msg, assm->counter_line);
 	remove(assm->name_cor);
 	exit(0);
@@ -35,8 +37,10 @@ void	read_name_champion(char *line, t_assm *assm)
 
 	while (*line)
 	{
-		if (*line == '"' || i >= PROG_NAME_LENGTH)
+		if (*line == '"')
 			return ;
+		if (i >= PROG_NAME_LENGTH)
+			error("length of name is invalid", assm);
 		assm->head.prog_name[++i] = *line;
 		line++;
 	}
@@ -51,6 +55,8 @@ void	working_name(char *line, t_assm *assm)
 {
 	while (*line)
 	{
+		if (!ft_isspace(*line) && *line != '"')
+			error("Syntax error after .name", assm);
 		if (*line == '"')
 		{
 			read_name_champion(line + 1, assm);
@@ -71,7 +77,7 @@ void	read_comment_champion(char *line, t_assm *assm)
 		if (*line == '"')
 			return ;
 		if (i >= COMMENT_LENGTH)
-			error("length of comment <= 2048", assm);
+			error("length of comment is invalid", assm);
 		assm->head.comment[++i] = *line;
 		line++;
 	}

@@ -16,6 +16,8 @@ void	working_comment(char *line, t_assm *assm)
 {
 	while (*line)
 	{
+		if (!ft_isspace(*line) && *line != '"')
+			error("Syntax error after .comment", assm);
 		if (*line == '"')
 		{
 			read_comment_champion(line + 1, assm);
@@ -23,7 +25,7 @@ void	working_comment(char *line, t_assm *assm)
 		}
 		line++;
 	}
-	error("Error name", assm);
+	error("Error comment", assm);
 }
 
 int		working_dot(t_assm *assm, char *line, int *name, int *comment)
@@ -41,10 +43,7 @@ int		working_dot(t_assm *assm, char *line, int *name, int *comment)
 		return (0);
 	}
 	else
-	{
-		ft_strdel(&(assm->line));
 		error("Lexical error.", assm);
-	}
 	return (1);
 }
 
@@ -60,10 +59,7 @@ int		search_char(t_assm *assm, int *name, int *comment)
 		if (*line == '.')
 			return (working_dot(assm, line, name, comment));
 		if (ft_isprint(*line))
-		{
-			ft_strdel(&(assm->line));
 			error("Syntax error at token", assm);
-		}
 		line++;
 	}
 	return (0);
@@ -89,10 +85,7 @@ void	read_name_comment(t_assm *assm)
 		assm->counter_line++;
 		search_char(assm, &name, &comment);
 		if (name == 1 && comment == 1)
-		{
-			ft_strdel(&(assm->line));
 			break ;
-		}
 		ft_strdel(&(assm->line));
 	}
 	ft_strdel(&(assm->line));
