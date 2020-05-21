@@ -90,6 +90,7 @@ void	instruction(t_assm *assm, char *line)
 		}
 		line++;
 	}
+	error("Unknown instruction.", assm);
 }
 
 /*
