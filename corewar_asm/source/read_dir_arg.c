@@ -62,7 +62,7 @@ char	*read_reg_adg(t_assm *assm, t_arg *arg, char *start)
 	return (start);
 }
 
-char	*read_dir_adg(t_arg *arg, char *start)
+char	*read_dir_adg(t_arg *arg, char *start, t_assm *assm)
 {
 	start++;
 	arg->bl_dir = C_DIR;
@@ -70,6 +70,8 @@ char	*read_dir_adg(t_arg *arg, char *start)
 		arg->dir = ft_atoi(start);
 	else if (*start == ':')
 		start = create_lable_arg(start + 1, arg);
+	else
+		error("Lexical error at.", assm);
 	while (ft_isdigit(*start) || *start == '-')
 		start++;
 	return (start);

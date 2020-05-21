@@ -128,7 +128,7 @@ void				init_opt(t_opr *opr);
 char				*create_lable_arg(char *start, t_arg *arg);
 char				*read_ind_adg(t_arg *arg, char *start);
 char				*read_reg_adg(t_assm *assm, t_arg *arg, char *start);
-char				*read_dir_adg(t_arg *arg, char *start);
+char				*read_dir_adg(t_arg *arg, char *start, t_assm *assm);
 /*
 ** File check_op_or_xor_and_arg.c
 */

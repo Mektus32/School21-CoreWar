@@ -19,7 +19,7 @@ char	*read_arguments(t_assm *assm, t_arg *arg, char *start)
 		if (ft_isdigit(*start) || *start == ':' || *start == '-')
 			start = read_ind_adg(arg, start);
 		if (*start == '%')
-			start = read_dir_adg(arg, start);
+			start = read_dir_adg(arg, start, assm);
 		if (*start == 'r')
 			start = read_reg_adg(assm, arg, start + 1);
 		if (ft_isalpha(*start))
