@@ -39,7 +39,7 @@ void	read_name_champion(char *line, t_assm *assm)
 	{
 		if (*line == '"')
 			return ;
-		if (i >= PROG_NAME_LENGTH)
+		if (i >= PROG_NAME_LENGTH - 1)
 			error("length of name is invalid", assm);
 		assm->head.prog_name[++i] = *line;
 		line++;
@@ -76,7 +76,7 @@ void	read_comment_champion(char *line, t_assm *assm)
 	{
 		if (*line == '"')
 			return ;
-		if (i >= COMMENT_LENGTH)
+		if (i >= COMMENT_LENGTH - 1)
 			error("length of comment is invalid", assm);
 		assm->head.comment[++i] = *line;
 		line++;
