@@ -59,6 +59,10 @@ t_opr	*get_arg_opr(t_assm *assm, char *start)
 		opr->count_args++;
 	}
 	start = read_arguments(assm, &opr->args[2], start);
+	while (ft_isspace(*start))
+		start++;
+	if (*start != '\0' && *start != COMMENT_CHAR && *start != ALT_COMMENT_CHAR)
+		error("Error argument.", assm);
 	return (opr);
 }
 
