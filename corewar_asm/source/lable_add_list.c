@@ -29,16 +29,16 @@ void	check_lable(t_assm *assm, char *start, char *line)
 	}
 }
 
-t_lbl	*create_lable(char *start, char *end)
+t_lbl	*create_lable(t_assm *assm, char *start, char *end)
 {
 	t_lbl	*new;
 	int		len;
 
 	len = end - start;
 	if (!(new = (t_lbl*)malloc(sizeof(t_lbl))))
-		sys_err("Eror malloc\n");
+		sys_error(assm, "Eror malloc\n");
 	if (!(new->name = ft_strnew(len)))
-		sys_err("Eror malloc\n");
+		sys_error(assm, "Eror malloc\n");
 	ft_strncpy(new->name, start, len);
 	new->next = NULL;
 	new->bl = 0;
@@ -77,14 +77,14 @@ void	add_lable_list(t_assm *assm, char *start, char *line)
 
 	if (!assm->lbl)
 	{
-		assm->lbl = create_lable(start, line);
+		assm->lbl = create_lable(assm, start, line);
 		assm->lbl->bl = 1;
 		assm->lbl->position = assm->pos_glob;
 		return ;
 	}
 	if (search_dub_lable(assm, assm->lbl, start, line))
 		return ;
-	lbl = create_lable(start, line);
+	lbl = create_lable(assm, start, line);
 	lbl->next = assm->lbl;
 	assm->lbl = lbl;
 	assm->lbl->bl = 1;

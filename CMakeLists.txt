@@ -121,19 +121,19 @@ add_executable(School21_CoreWar
         corewar_asm/libft/type_float.c
         corewar_asm/libft/type_float2.c
         corewar_asm/libft/type_string.c
-        corewar_asm/source/add_lable_list.c
-        corewar_asm/source/check_op_or_xor_and_arg.c
-        corewar_asm/source/check_op_st_arg.c
-        corewar_asm/source/delete_list.c
-        corewar_asm/source/four_char_operator.c
+        corewar_asm/source/lable_add_list.c
+        corewar_asm/source/arguments_check_two.c
+        corewar_asm/source/arguments_check_one.c
+        corewar_asm/source/error_and_clean_memory.c
+        corewar_asm/source/arguments.c
         corewar_asm/source/init_agr.c
-        corewar_asm/source/isprint_char.c
+        corewar_asm/source/operations.c
         corewar_asm/source/main.c
         corewar_asm/source/read_comment_champ.c
-        corewar_asm/source/read_dir_arg.c
+        corewar_asm/source/arguments_get.c
         corewar_asm/source/read_name_comment.c
-        corewar_asm/source/search_lbl.c
-        corewar_asm/source/write_header.c
+        corewar_asm/source/label.c
+        corewar_asm/source/write.c
         ft_printf/head/libft.h
         ft_printf/head/libftprintf.h
         ft_printf/source/flag_check.c
@@ -420,4 +420,4 @@ add_executable(School21_CoreWar
         src_cor/read_byte.c
         src_cor/visu_cicle.c
         src_cor/visu_init.c
-        src_cor/write_map.c)
+        src_cor/write_map.c corewar_asm/source/write_labels.c corewar_asm/source/file.c)

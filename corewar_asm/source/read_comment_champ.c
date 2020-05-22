@@ -11,24 +11,6 @@
 /* ************************************************************************** */
 
 #include "../include/asm.h"
-#include <stdio.h> //<del
-
-void	close_files(t_assm *assm)
-{
-	ft_printf("Writing output program to %s\n", assm->name_cor);
-	ft_strdel(&assm->name_cor);
-	close(assm->fd_cor);
-	close(assm->fd_s);
-}
-
-void	error(const char *msg, t_assm *assm)
-{
-	if (assm->line)
-		ft_strdel(&(assm->line));
-	ft_printf("%s Line [%d].\n", msg, assm->counter_line);
-	remove(assm->name_cor);
-	exit(0);
-}
 
 void	read_name_champion(char *line, t_assm *assm)
 {

@@ -35,6 +35,9 @@ typedef struct		s_assm
 	size_t			counter_line;
 	t_header_s		head;
 	struct s_lbl	*lbl;
+	unsigned char	*buffer;
+	int				buffer_size;
+	int				buffer_pos;
 }					t_assm;
 
 typedef struct		s_lbl
@@ -80,18 +83,30 @@ typedef struct		s_opr
 }					t_opr;
 
 /*
-** File write_header.c
+** File file.c
 */
 int					check_name(char *name);
 char				*dot_cor(char *name);
-void				init(t_assm *assm);
 void				open_file_s(t_assm *assm, char *name);
+void				close_files(t_assm *assm);
+void				create_file_cor(t_assm *assm, char *name);
+/*
+** File write.c
+*/
 void				write_header(t_assm *assm);
+int					write_to_buffer(t_assm *assm, void *bits, int len_bits);
+int					write_to_file(int fd, void *bits, int len_bits);
+void				write_char_to_buffer(t_assm *assm, unsigned char chr);
+/*
+** File write_labels.c
+*/
+int					get_position(size_t position, t_gab *gab);
+void				write_in_position(t_lbl *lbl, t_assm *assm);
+void				write_lables(t_assm *assm);
+void				write_exec_code_size(t_assm *assm);
 /*
 ** File read_comment_champion.c
 */
-void				close_files(t_assm *assm);
-void				error(const char *msg, t_assm *assm);
 void				read_name_champion(char *line, t_assm *assm);
 void				working_name(char *line, t_assm *assm);
 void				read_comment_champion(char *line, t_assm *assm);
@@ -102,43 +117,46 @@ void				working_comment(char *line, t_assm *assm);
 int					working_dot(t_assm *assm, char *line,
 						int *name, int *comment);
 int					search_char(t_assm *assm, int *name, int *comment);
-void				create_file_cor(t_assm *assm, char *name);
 void				read_name_comment(t_assm *assm);
 /*
-** File add_lable_list.c
+** File init_arg.c
+*/
+void				working_instruction(t_assm *assm, char *line);
+void				read_instruction(t_assm *assm);
+void				working_operation(t_assm *assm, char *start, char *line);
+void				instruction(t_assm *assm, char *line);
+int					isprint_char(int c);
+/*
+** File arguments.c
+*/
+void				all_arg(t_assm *assm, t_info *info, t_arg *arg);
+char				*read_arguments(t_assm *assm, t_arg *arg, char *start);
+t_opr				*get_arg_opr(t_assm *assm, char *start);
+unsigned char		get_code_arg(t_opr *opr);
+/*
+** File lable_add_list.c
 */
 int					islablechar(char c);
 void				check_lable(t_assm *assm, char *start, char *line);
-t_lbl				*create_lable(char *start, char *end);
+t_lbl				*create_lable(t_assm *assm, char *start, char *end);
 int					search_dub_lable(t_assm *assm, t_lbl *lbl, char *start,
 		char *line);
 void				add_lable_list(t_assm *assm, char *start, char *line);
 /*
-** File init_arg.c
+** File arguments_get.c
 */
-void				print_gab_list(t_gab *gab);
-void				print_list(t_lbl *lbl);
-void				working_lable(t_assm *assm, char *start, char *line);
-int					isdigit_per_colon(int c);
-void				init_arg(t_arg *arg);
-/*
-** File read_dir_adg.c
-*/
-void				init_opt(t_opr *opr);
 char				*create_lable_arg(char *start, t_arg *arg);
 char				*read_ind_adg(t_arg *arg, char *start);
 char				*read_reg_adg(t_assm *assm, t_arg *arg, char *start);
 char				*read_dir_adg(t_arg *arg, char *start, t_assm *assm);
 /*
-** File check_op_or_xor_and_arg.c
+** File arguments_check_two.c
 */
-char				*read_arguments(t_assm *assm, t_arg *arg, char *start);
-t_opr				*get_arg_opr(t_assm *assm, char *start);
 void				check_op_ld_lld_arg(t_assm *assm, t_opr *opr);
 void				check_op_st_arg(t_assm *assm, t_opr *opr);
 void				check_op_or_xor_and_arg(t_assm *assm, t_opr *opr);
 /*
-** File check_op_sti_arg.c
+** File arguments_check_one.c
 */
 void				check_op_ldi_lldi_arg(t_assm *assm, t_opr *opr);
 void				check_op_fork_lfork_zjmp_live_arg(t_assm *assm, t_opr *opr);
@@ -146,44 +164,34 @@ void				check_op_aff_arg(t_assm *assm, t_opr *opr);
 void				check_op_add_sub_arg(t_assm *assm, t_opr *opr);
 void				check_op_sti_arg(t_assm *assm, t_opr *opr);
 /*
-** File search_lbl.c
+** File label.c
 */
-unsigned char		get_code_arg(t_opr *opr);
-int					write_big_endian(int fd, void *bits, int len_bits);
-t_lbl				*get_lbl(t_lbl **lbl, char *lable);
+t_lbl				*get_lbl(t_assm *assm, t_lbl **lbl, char *lable);
 t_gab				*new_gab(t_assm *assm, t_info **info, t_arg *arg);
 void				search_lbl(t_assm *assm, t_info *info, t_arg *arg);
+void				working_lable(t_assm *assm, char *start, char *line);
 /*
-** File four_char_operator.c
-*/
-void				all_arg(t_assm *assm, t_info *info, t_arg *arg);
-void				delete_opr(t_opr **opr);
-void				op_all(t_assm *assm, t_opr *opr, int code,
-		void (*func)(t_assm*, t_opr*));
-void				two_char_operator(t_assm *assm, char *start);
-void				four_char_operator(t_assm *assm, char *start);
-/*
-** File isprint_char.c
+** File operations.c
 */
 void				five_char_operator(t_assm *assm, char *start);
 void				three_char_operator(t_assm *assm, char *start);
-void				working_operation(t_assm *assm, char *start, char *line);
-void				instruction(t_assm *assm, char *line);
-int					isprint_char(int c);
+void				op_all(t_assm *assm, t_opr *opr, int code,
+						void (*func)(t_assm*, t_opr*));
+void				two_char_operator(t_assm *assm, char *start);
+void				four_char_operator(t_assm *assm, char *start);
 /*
-** File delete_list.c
+** File error_and_clean_memory.c.c
 */
-void				sys_err_rm(t_assm *assm, char *err);
-void				working_instruction(t_assm *assm, char *line);
-void				read_instruction(t_assm *assm);
+void				sys_error(t_assm *assm, char *err);
 void				delete_list_gab(t_gab *gab);
-void				delete_list(t_assm *assm);
+void				free_memory(t_assm *assm);
+void				error(const char *msg, t_assm *assm);
+void				delete_opr(t_opr **opr);
 /*
 ** File main.c
 */
-int					get_figur_write(size_t position, t_gab *gab);
-void				write_in_position(t_lbl *lbl, int fd_cor);
-void				weite_figur_lable(t_assm *assm);
-void				write_bot_size(t_assm *assm);
 int					main(int ac, char **av);
+void				init(t_assm *assm);
+void				init_arg(t_arg *arg);
+void				init_opt(t_opr *opr);
 #endif

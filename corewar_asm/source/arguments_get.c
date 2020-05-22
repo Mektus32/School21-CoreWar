@@ -12,17 +12,6 @@
 
 #include "../include/asm.h"
 
-void	init_opt(t_opr *opr)
-{
-	init_arg(&opr->args[0]);
-	init_arg(&opr->args[1]);
-	init_arg(&opr->args[2]);
-	opr->count_args = 1;
-	opr->info.size_dir = 0;
-	opr->info.bl_code_arg = 0;
-	opr->info.oct_start = 0;
-}
-
 char	*create_lable_arg(char *start, t_arg *arg)
 {
 	char *temp;

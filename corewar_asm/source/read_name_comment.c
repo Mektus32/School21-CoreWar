@@ -65,14 +65,6 @@ int		search_char(t_assm *assm, int *name, int *comment)
 	return (0);
 }
 
-void	create_file_cor(t_assm *assm, char *name)
-{
-	assm->name_cor = dot_cor(name);
-	if ((assm->fd_cor = open(assm->name_cor,
-			O_WRONLY | O_TRUNC | O_CREAT)) == -1)
-		sys_err_rm(assm, "Error create file.\n");
-}
-
 void	read_name_comment(t_assm *assm)
 {
 	int		name;

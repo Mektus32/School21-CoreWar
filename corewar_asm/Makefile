@@ -24,18 +24,20 @@ INCLUDE = include/asm.h include/op.h
 INCLUDES = -I ./libft/includes/libft.h -I ./printf/head/printf.h -I ./include/asm.h -I ./include/op.h
 
 SOURCES_NAME =	main.c\
-             		add_lable_list.c\
-             		check_op_or_xor_and_arg.c\
-             		check_op_st_arg.c\
-             		delete_list.c\
-             		four_char_operator.c\
+					arguments.c\
+             		arguments_check_one.c\
+             		arguments_check_two.c\
+             		arguments_get.c\
+             		error_and_clean_memory.c\
+             		file.c\
              		init_agr.c\
-             		isprint_char.c\
+             		lable_add_list.c\
+             		label.c\
+             		operations.c\
              		read_comment_champ.c\
-             		read_dir_arg.c\
              		read_name_comment.c\
-             		search_lbl.c\
-             		write_header.c
+             		write.c\
+             		write_labels.c
 SOURCES = $(addprefix $(SOURCES_PATH), $(SOURCES_NAME))
 OBJECTS_NAME = $(SOURCES_NAME:%.c=%.o)
 OBJECTS = $(addprefix $(OBJECTS_PATH), $(OBJECTS_NAME))

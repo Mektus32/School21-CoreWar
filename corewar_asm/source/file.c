@@ -1,16 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   write_header.c                                     :+:      :+:    :+:   */
+/*   file.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pdonnie <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/03/05 10:41:16 by pdonnie           #+#    #+#             */
-/*   Updated: 2020/03/15 21:01:24 by pdonnie          ###   ########.fr       */
+/*   Created: 2020/03/04 13:03:28 by pdonnie           #+#    #+#             */
+/*   Updated: 2020/03/15 21:01:11 by pdonnie          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/asm.h"
+
+void	close_files(t_assm *assm)
+{
+	ft_printf("Writing output program to %s\n", assm->name_cor);
+	ft_strdel(&assm->name_cor);
+	close(assm->fd_cor);
+	close(assm->fd_s);
+}
 
 int		check_name(char *name)
 {
@@ -41,38 +49,21 @@ char	*dot_cor(char *name)
 	return (dot_cor);
 }
 
-void	init(t_assm *assm)
-{
-	assm->counter_line = 0;
-	assm->pos_glob = LEN_HEAD;
-	assm->lbl = NULL;
-	assm->line = NULL;
-	ft_memset(assm->head.prog_name, 0x00, PROG_NAME_LENGTH);
-	ft_memset(assm->head.comment, 0x00, COMMENT_LENGTH);
-}
-
 void	open_file_s(t_assm *assm, char *name)
 {
 	char *tmp;
 
-	init(assm);
 	if (!((tmp = ft_strstr(name, ".s")) && (name - tmp) != 0
-			&& ft_strlen(tmp) == 2))
-		sys_err("Error file name.\n");
+		&& ft_strlen(tmp) == 2))
+		sys_error(assm, "Error file name.\n");
 	if ((assm->fd_s = open(name, O_RDONLY)) < 0)
-		sys_err("File not opened.\n");
+		sys_error(assm, "File not opened.\n");
 }
 
-void	write_header(t_assm *assm)
+void	create_file_cor(t_assm *assm, char *name)
 {
-	int		sector;
-
-	sector = COREWAR_EXEC_MAGIC;
-	write_big_endian(assm->fd_cor, &sector, 4);
-	sector = 0x00;
-	write(assm->fd_cor, assm->head.prog_name, PROG_NAME_LENGTH);
-	write_big_endian(assm->fd_cor, &sector, 4);
-	write_big_endian(assm->fd_cor, &sector, 4);
-	write(assm->fd_cor, assm->head.comment, COMMENT_LENGTH);
-	write_big_endian(assm->fd_cor, &sector, 4);
+	assm->name_cor = dot_cor(name);
+	if ((assm->fd_cor = open(assm->name_cor,
+			O_WRONLY | O_TRUNC | O_CREAT)) == -1)
+		sys_error(assm, "Error create file.\n");
 }

@@ -11,37 +11,9 @@
 /* ************************************************************************** */
 
 #include "../include/asm.h"
+#include "stdlib.h"
 
-unsigned char	get_code_arg(t_opr *opr)
-{
-	unsigned char code;
-
-	code = opr->args[0].bl_ind | opr->args[0].bl_dir | opr->args[0].bl_reg;
-	code = code << 2;
-	code = code | opr->args[1].bl_ind | opr->args[1].bl_dir |
-		opr->args[1].bl_reg;
-	code = code << 2;
-	code = code | opr->args[2].bl_ind | opr->args[2].bl_dir |
-		opr->args[2].bl_reg;
-	code = code << 2;
-	return (code);
-}
-
-int				write_big_endian(int fd, void *bits, int len_bits)
-{
-	int	count_oct;
-
-	count_oct = 0;
-	while (len_bits > 0)
-	{
-		len_bits--;
-		if ((count_oct += write(fd, (unsigned char *)bits + len_bits, 1)) == -1)
-			sys_err("Error write: func write_big_endian\n");
-	}
-	return (count_oct);
-}
-
-t_lbl			*get_lbl(t_lbl **lbl, char *lable)
+t_lbl	*get_lbl(t_assm *assm, t_lbl **lbl, char *lable)
 {
 	t_lbl *temp;
 
@@ -52,7 +24,7 @@ t_lbl			*get_lbl(t_lbl **lbl, char *lable)
 			return (temp);
 		temp = temp->next;
 	}
-	temp = create_lable(lable, lable + ft_strlen(lable));
+	temp = create_lable(assm, lable, lable + ft_strlen(lable));
 	temp->next = *lbl;
 	*lbl = temp;
 	(*lbl)->bl = 0;
@@ -60,12 +32,12 @@ t_lbl			*get_lbl(t_lbl **lbl, char *lable)
 	return (temp);
 }
 
-t_gab			*new_gab(t_assm *assm, t_info **info, t_arg *arg)
+t_gab	*new_gab(t_assm *assm, t_info **info, t_arg *arg)
 {
 	t_gab *new;
 
 	if (!(new = (t_gab *)malloc(sizeof(t_gab))))
-		sys_err("Error malloc.\n");
+		sys_error(assm, "Error malloc.\n");
 	if (arg->bl_dir != 0)
 	{
 		new->oct_start = ((*info)->bl_code_arg == 1 ? (*info)->oct_start : 1);
@@ -86,13 +58,13 @@ t_gab			*new_gab(t_assm *assm, t_info **info, t_arg *arg)
 	return (new);
 }
 
-void			search_lbl(t_assm *assm, t_info *info, t_arg *arg)
+void	search_lbl(t_assm *assm, t_info *info, t_arg *arg)
 {
 	t_gab *gab;
 	t_lbl *lbl;
 
 	gab = new_gab(assm, &info, arg);
-	lbl = get_lbl(&assm->lbl, arg->lable);
+	lbl = get_lbl(assm, &assm->lbl, arg->lable);
 	if (lbl->gab == NULL)
 		lbl->gab = gab;
 	else
@@ -100,4 +72,11 @@ void			search_lbl(t_assm *assm, t_info *info, t_arg *arg)
 		gab->next = lbl->gab;
 		lbl->gab = gab;
 	}
+}
+
+void	working_lable(t_assm *assm, char *start, char *line)
+{
+	check_lable(assm, start, line);
+	add_lable_list(assm, start, line);
+	working_instruction(assm, line + 1);
 }

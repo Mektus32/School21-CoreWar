@@ -54,52 +54,69 @@ void	three_char_operator(t_assm *assm, char *start)
 	delete_opr(&opr);
 }
 
-void	working_operation(t_assm *assm, char *start, char *line)
-{
-	size_t	len;
-
-	len = line - start;
-	if (len == 3)
-		three_char_operator(assm, start);
-	else if (len == 4)
-		four_char_operator(assm, start);
-	else if (len == 2)
-		two_char_operator(assm, start);
-	else if (len == 5)
-		five_char_operator(assm, start);
-	else
-		error("Unknown instruction.", assm);
-}
-
-void	instruction(t_assm *assm, char *line)
-{
-	char *start;
-
-	start = line;
-	while (*line)
-	{
-		if (*line == LABEL_CHAR)
-		{
-			working_lable(assm, start, line);
-			return ;
-		}
-		if (*line == DIRECT_CHAR || *line == ' ' || *line == '\t')
-		{
-			working_operation(assm, start, line);
-			return ;
-		}
-		line++;
-	}
-	error("Unknown instruction.", assm);
-}
-
 /*
-** 1 если это печатный символ, кроме пробела.
+**temp = code & 0xff; //код операции
+** temp = (code >> 16) & 0xf; //наличие кода типов аргументов
+** temp = (code >> 8) & 0xf; //количество записанных байти до этого:
 */
 
-int		isprint_char(int c)
+void	op_all(t_assm *assm, t_opr *opr, int code,
+		void (*func)(t_assm*, t_opr*))
 {
-	if (c >= 33 && c <= 126)
-		return (1);
-	return (0);
+	unsigned char	code_args;
+	int				temp;
+	int				i;
+
+	i = -1;
+	(*func)(assm, opr);
+	code_args = get_code_arg(opr);
+	temp = code & 0xff;
+	write_char_to_buffer(assm, temp);
+	temp = (code >> 16) & 0xf;
+	opr->info.bl_code_arg = temp;
+	if (temp)
+		write_char_to_buffer(assm, code_args);
+	temp = (code >> 8) & 0xf;
+	assm->pos_glob += temp;
+	opr->info.oct_start = temp;
+	temp = (code >> 12) & 0xf;
+	opr->info.size_dir = temp;
+	while (--opr->count_args >= 0)
+		all_arg(assm, &opr->info, &opr->args[++i]);
+}
+
+void	two_char_operator(t_assm *assm, char *start)
+{
+	t_opr *opr;
+
+	opr = get_arg_opr(assm, start + 2);
+	if (!(ft_strncmp(start, "ld", 2)))
+		op_all(assm, opr, 0x14202, check_op_ld_lld_arg);
+	else if (!(ft_strncmp(start, "st", 2)))
+		op_all(assm, opr, 0x14203, check_op_st_arg);
+	else if (!(ft_strncmp(start, "or", 2)))
+		op_all(assm, opr, 0x14207, check_op_or_xor_and_arg);
+	else
+		error("Unknown instruction.", assm);
+	delete_opr(&opr);
+}
+
+void	four_char_operator(t_assm *assm, char *start)
+{
+	t_opr	*opr;
+	int		up;
+
+	up = 4;
+	opr = get_arg_opr(assm, start + up);
+	if (!(ft_strncmp(start, "lldi", up)))
+		op_all(assm, opr, 0x1220e, check_op_ldi_lldi_arg);
+	else if (!(ft_strncmp(start, "fork", up)))
+		op_all(assm, opr, 0x0210c, check_op_fork_lfork_zjmp_live_arg);
+	else if (!(ft_strncmp(start, "zjmp", up)))
+		op_all(assm, opr, 0x02109, check_op_fork_lfork_zjmp_live_arg);
+	else if (!(ft_strncmp(start, "live", up)))
+		op_all(assm, opr, 0x04101, check_op_fork_lfork_zjmp_live_arg);
+	else
+		error("Unknown instruction.", assm);
+	delete_opr(&opr);
 }

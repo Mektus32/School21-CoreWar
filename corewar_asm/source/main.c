@@ -12,68 +12,62 @@
 
 #include "../include/asm.h"
 
-int		get_figur_write(size_t position, t_gab *gab)
-{
-	int	num;
-
-	num = position - gab->pos_write + gab->oct_start;
-	return (num);
-}
-
-void	write_in_position(t_lbl *lbl, int fd_cor)
-{
-	t_gab	*gab;
-	int		b;
-
-	gab = lbl->gab;
-	while (gab)
-	{
-		if (lseek(fd_cor, gab->pos_write, SEEK_SET) == -1L)
-			sys_err("Seek Error\n");
-		b = get_figur_write(lbl->position, gab);
-		write_big_endian(fd_cor, &b, gab->oct_count);
-		gab = gab->next;
-	}
-}
-
-void	weite_figur_lable(t_assm *assm)
-{
-	t_lbl *lbl;
-
-	lbl = assm->lbl;
-	while (lbl)
-	{
-		if (lbl->bl == 0)
-			sys_err_rm(assm, "Not lable Error\n");
-		write_in_position(lbl, assm->fd_cor);
-		lbl = lbl->next;
-	}
-}
-
-void	write_bot_size(t_assm *assm)
-{
-	size_t bot_size;
-
-	bot_size = assm->pos_glob - LEN_HEAD;
-	if (lseek(assm->fd_cor, 8 + PROG_NAME_LENGTH, SEEK_SET) == -1L)
-		sys_err("Seek Error\n");
-	write_big_endian(assm->fd_cor, &bot_size, 4);
-}
-
 int		main(int ac, char **av)
 {
 	t_assm	assm;
 
+	init(&assm);
 	if (ac != 2)
-		sys_err("Usage: ./asm namefile.s\n");
+		sys_error(&assm, "Usage: ./asm namefile.s\n");
 	open_file_s(&assm, av[1]);
-	create_file_cor(&assm, av[1]);
+	assm.fd_cor = 0;
 	read_name_comment(&assm);
-	write_header(&assm);
 	read_instruction(&assm);
-	write_bot_size(&assm);
-	weite_figur_lable(&assm);
-	delete_list(&assm);
+	create_file_cor(&assm, av[1]);
+	write_header(&assm);
+	write(assm.fd_cor, assm.buffer, assm.buffer_pos);
+	write_exec_code_size(&assm);
+	write_lables(&assm);
+	free_memory(&assm);
 	close_files(&assm);
 	return (0);
+}
+
+void	init_arg(t_arg *arg)
+{
+	arg->dir = 0;
+	arg->ind = 0;
+	arg->reg = 0;
+	arg->lable = NULL;
+	arg->bl_ind = 0;
+	arg->bl_dir = 0;
+	arg->bl_reg = 0;
+}
+
+void	init(t_assm *assm)
+{
+	assm->counter_line = 0;
+	assm->pos_glob = LEN_HEAD;
+	assm->lbl = NULL;
+	assm->line = NULL;
+	assm->name_cor = NULL;
+	assm->buffer = NULL;
+	ft_memset(assm->head.prog_name, 0x00, PROG_NAME_LENGTH);
+	ft_memset(assm->head.comment, 0x00, COMMENT_LENGTH);
+	if ((assm->buffer =
+			(unsigned char*)ft_memalloc(sizeof(unsigned char) * 682)) == NULL)
+		sys_error(assm, "Memory not allocated.\n");
+	assm->buffer_size = 682;
+	assm->buffer_pos = 0;
+}
+
+void	init_opt(t_opr *opr)
+{
+	init_arg(&opr->args[0]);
+	init_arg(&opr->args[1]);
+	init_arg(&opr->args[2]);
+	opr->count_args = 1;
+	opr->info.size_dir = 0;
+	opr->info.bl_code_arg = 0;
+	opr->info.oct_start = 0;
 }

@@ -12,49 +12,77 @@
 
 #include "../include/asm.h"
 
-void	print_gab_list(t_gab *gab)
+void	working_instruction(t_assm *assm, char *line)
 {
-	while (gab != NULL)
+	while (*line)
 	{
-		ft_printf("\tpos_write = {%d} oct_count = {%d} oct_start = [%d]\n",
-			gab->pos_write - LEN_HEAD, gab->oct_count, gab->oct_start);
-		gab = gab->next;
+		if (*line == COMMENT_CHAR || *line == ALT_COMMENT_CHAR)
+			return ;
+		if (isprint_char(*line))
+		{
+			instruction(assm, line);
+			return ;
+		}
+		line++;
 	}
 }
 
-void	print_list(t_lbl *lbl)
+void	read_instruction(t_assm *assm)
 {
-	ft_putendl("List:");
-	while (lbl)
+	char	*line;
+
+	line = NULL;
+	while (get_next_line(assm->fd_s, &line))
 	{
-		ft_printf("lable = {%s} position = {%d} bl = [%d]\n", lbl->name,
-				lbl->position - LEN_HEAD, lbl->bl);
-		print_gab_list(lbl->gab);
-		lbl = lbl->next;
+		assm->counter_line++;
+		working_instruction(assm, line);
+		ft_strdel(&line);
 	}
+	ft_strdel(&line);
 }
 
-void	working_lable(t_assm *assm, char *start, char *line)
+void	working_operation(t_assm *assm, char *start, char *line)
 {
-	check_lable(assm, start, line);
-	add_lable_list(assm, start, line);
-	working_instruction(assm, line + 1);
+	size_t	len;
+
+	len = line - start;
+	if (len == 3)
+		three_char_operator(assm, start);
+	else if (len == 4)
+		four_char_operator(assm, start);
+	else if (len == 2)
+		two_char_operator(assm, start);
+	else if (len == 5)
+		five_char_operator(assm, start);
+	else
+		error("Unknown instruction.", assm);
 }
 
-int		isdigit_per_colon(int c)
+void	instruction(t_assm *assm, char *line)
 {
-	if ((c <= 58 && c >= 48) || c == 37)
+	char *start;
+
+	start = line;
+	while (*line)
+	{
+		if (*line == LABEL_CHAR)
+		{
+			working_lable(assm, start, line);
+			return ;
+		}
+		if (*line == DIRECT_CHAR || *line == ' ' || *line == '\t')
+		{
+			working_operation(assm, start, line);
+			return ;
+		}
+		line++;
+	}
+	error("Unknown instruction.", assm);
+}
+
+int		isprint_char(int c)
+{
+	if (c >= 33 && c <= 126)
 		return (1);
 	return (0);
-}
-
-void	init_arg(t_arg *arg)
-{
-	arg->dir = 0;
-	arg->ind = 0;
-	arg->reg = 0;
-	arg->lable = NULL;
-	arg->bl_ind = 0;
-	arg->bl_dir = 0;
-	arg->bl_reg = 0;
 }

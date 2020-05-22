@@ -11,43 +11,6 @@
 /* ************************************************************************** */
 
 #include "../include/asm.h"
-#include <stdio.h> //<del
-
-void	sys_err_rm(t_assm *assm, char *err)
-{
-	write(2, err, ft_strlen(err));
-	remove(assm->name_cor);
-	exit(0);
-}
-
-void	working_instruction(t_assm *assm, char *line)
-{
-	while (*line)
-	{
-		if (*line == COMMENT_CHAR || *line == ALT_COMMENT_CHAR)
-			return ;
-		if (isprint_char(*line))
-		{
-			instruction(assm, line);
-			return ;
-		}
-		line++;
-	}
-}
-
-void	read_instruction(t_assm *assm)
-{
-	char	*line;
-
-	line = NULL;
-	while (get_next_line(assm->fd_s, &line))
-	{
-		assm->counter_line++;
-		working_instruction(assm, line);
-		ft_strdel(&line);
-	}
-	ft_strdel(&line);
-}
 
 void	delete_list_gab(t_gab *gab)
 {
@@ -62,10 +25,16 @@ void	delete_list_gab(t_gab *gab)
 	}
 }
 
-void	delete_list(t_assm *assm)
+void	free_memory(t_assm *assm)
 {
 	t_lbl *lbl;
 
+	if (assm->line)
+		ft_strdel(&(assm->line));
+	if (assm->name_cor)
+		ft_strdel(&(assm->line));
+	if (assm->buffer)
+		ft_strdel(&(assm->line));
 	lbl = assm->lbl;
 	while (assm->lbl)
 	{
@@ -76,4 +45,26 @@ void	delete_list(t_assm *assm)
 		lbl = assm->lbl;
 	}
 	assm->lbl = NULL;
+}
+
+void	sys_error(t_assm *assm, char *err)
+{
+	write(2, err, ft_strlen(err));
+	free_memory(assm);
+	exit(0);
+}
+
+void	error(const char *msg, t_assm *assm)
+{
+	ft_printf("%s Line [%d].\n", msg, assm->counter_line);
+	free_memory(assm);
+	exit(0);
+}
+
+void	delete_opr(t_opr **opr)
+{
+	ft_strdel(&(*opr)->args[0].lable);
+	ft_strdel(&(*opr)->args[1].lable);
+	ft_strdel(&(*opr)->args[2].lable);
+	free(*opr);
 }

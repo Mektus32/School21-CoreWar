@@ -10,8 +10,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4445c435-406d-4736-a4e4-219b23a7a9d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/corewar_asm/source/arguments.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corewar_asm/source/write_labels.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corewar_asm/source/check_op_or_xor_and_arg.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/check_op_or_xor_and_arg.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/include/asm.h" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/include/asm.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/libft/sys_err.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/param_commas.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/source/.cor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/source/add_lable_list.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/lable_add_list.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/source/check_op_or_xor_and_arg.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/arguments_check_two.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/source/check_op_st_arg.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/arguments_check_one.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/source/delete_list.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/error_and_clean_memory.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/source/four_char_operator.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/source/init_agr.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/init_agr.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/source/isprint_char.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/operations.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/source/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/source/read_comment_champ.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/read_comment_champ.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/source/read_dir_arg.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/arguments_get.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/source/read_name_comment.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/read_name_comment.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/source/search_lbl.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/label.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corewar_asm/source/write_header.c" beforeDir="false" afterPath="$PROJECT_DIR$/corewar_asm/source/write.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +149,7 @@
       <workItem from="1589922258190" duration="1374000" />
       <workItem from="1589967376875" duration="8000" />
       <workItem from="1589967399814" duration="6172000" />
-      <workItem from="1589981270747" duration="10602000" />
+      <workItem from="1589981270747" duration="37001000" />
     </task>
     <servers />
   </component>
@@ -154,6 +175,10 @@
     <state x="476" y="240" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.812@0.23.1440.812" timestamp="1588522301033" />
     <state x="476" y="242" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.821@0.23.1440.821" timestamp="1588420800399" />
     <state x="476" y="243" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.825@0.23.1440.825" timestamp="1589150962725" />
+    <state x="584" y="194" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590132554094">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state x="584" y="194" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.835@0.23.1440.835" timestamp="1590132554094" />
     <state x="739" y="338" width="432" height="429" key="refactoring.ChangeSignatureDialog" timestamp="1588257046245">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

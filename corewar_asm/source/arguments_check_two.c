@@ -12,60 +12,6 @@
 
 #include "../include/asm.h"
 
-char	*read_arguments(t_assm *assm, t_arg *arg, char *start)
-{
-	while (*start)
-	{
-		if (ft_isdigit(*start) || *start == ':' || *start == '-')
-			start = read_ind_adg(arg, start);
-		if (*start == '%')
-			start = read_dir_adg(arg, start, assm);
-		if (*start == 'r')
-			start = read_reg_adg(assm, arg, start + 1);
-		if (ft_isalpha(*start))
-			error("Error argument.", assm);
-		if (*start == ',')
-			return (start);
-		if (*start == COMMENT_CHAR || *start == ALT_COMMENT_CHAR)
-		{
-			while (*start)
-				start++;
-			return (start);
-		}
-		if (*start == '\0')
-			continue ;
-		start++;
-	}
-	return (start);
-}
-
-t_opr	*get_arg_opr(t_assm *assm, char *start)
-{
-	t_opr *opr;
-
-	if (!(opr = (t_opr *)malloc(sizeof(t_opr))))
-		sys_err("Error malloc\n");
-	init_opt(opr);
-	start = read_arguments(assm, &opr->args[0], start);
-	if (*start == ',')
-	{
-		start++;
-		opr->count_args++;
-	}
-	start = read_arguments(assm, &opr->args[1], start);
-	if (*start == ',')
-	{
-		start++;
-		opr->count_args++;
-	}
-	start = read_arguments(assm, &opr->args[2], start);
-	while (ft_isspace(*start))
-		start++;
-	if (*start != '\0' && *start != COMMENT_CHAR && *start != ALT_COMMENT_CHAR)
-		error("Error argument.", assm);
-	return (opr);
-}
-
 void	check_op_ld_lld_arg(t_assm *assm, t_opr *opr)
 {
 	if (opr->count_args != 2)
@@ -99,10 +45,6 @@ void	check_op_st_arg(t_assm *assm, t_opr *opr)
 			opr->args[2].bl_reg == C_REG)
 		error("Error three arguments instruction.", assm);
 }
-
-/*
-** The function cheacks the arguments of 4 instruction: or, xor, and.
-*/
 
 void	check_op_or_xor_and_arg(t_assm *assm, t_opr *opr)
 {
