@@ -95,7 +95,7 @@ void				create_file_cor(t_assm *assm, char *name);
 */
 void				write_header(t_assm *assm);
 int					write_to_buffer(t_assm *assm, void *bits, int len_bits);
-int					write_to_file(int fd, void *bits, int len_bits);
+int					write_to_file(t_assm *assm, int fd, void *bits, int len_bits);
 void				write_char_to_buffer(t_assm *assm, unsigned char chr);
 /*
 ** File write_labels.c

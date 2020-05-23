@@ -31,7 +31,7 @@ void	write_in_position(t_lbl *lbl, t_assm *assm)
 		if (lseek(assm->fd_cor, gab->pos_write, SEEK_SET) == -1L)
 			sys_error(assm, "Seek Error\n");
 		b = get_position(lbl->position, gab);
-		write_to_file(assm->fd_cor, &b, gab->oct_count);
+		write_to_file(assm, assm->fd_cor, &b, gab->oct_count);
 		gab = gab->next;
 	}
 }
@@ -57,5 +57,5 @@ void	write_exec_code_size(t_assm *assm)
 	bot_size = assm->pos_glob - LEN_HEAD;
 	if (lseek(assm->fd_cor, 8 + PROG_NAME_LENGTH, SEEK_SET) == -1L)
 		sys_error(assm, "Seek Error\n");
-	write_to_file(assm->fd_cor, &bot_size, 4);
+	write_to_file(assm, assm->fd_cor, &bot_size, 4);
 }

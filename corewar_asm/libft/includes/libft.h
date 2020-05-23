@@ -114,6 +114,5 @@ int					get_next_line(int fd, char **line);
 char				*ft_strtolower(char *str);
 int					ft_max(int a, int b);
 int					ft_min(int a, int b);
-void				sys_err(char *err);
 
 #endif
