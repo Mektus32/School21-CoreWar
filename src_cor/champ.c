@@ -41,7 +41,8 @@ static void		write_name_two(int fd, char *file_name, t_champ *champ)
 
 	len_code = read(fd, (champ->code), champ->prog_size);
 	if (len_code != champ->prog_size)
-		exit_print("code error\n");
+		exit_print("Error: File has a code size that differ "
+			 "from what its header says\n");
 	while (read(fd, &c, 1))
 		++len_code;
 	champ->file_name = ft_strdup(file_name);
@@ -67,10 +68,10 @@ void			write_name(int fd, char *file_name, t_champ *champ)
 		exit_print("Error: wrong exec_magic\n");
 	read(fd, (champ->prog_name), PROG_NAME_LENGTH);
 	if (read(fd, &c, 4) != 4 || c[0] || c[1] || c[2] || c[3])
-		exit_print("Error: wrong name\n");
+		exit_print("Error: wrong name/must be NULL between name and size\n");
 	if (read(fd, &c, 4) != 4 ||
 		(champ->prog_size = to_int(c)) > CHAMP_MAX_SIZE)
-		exit_print("File has a code size that differ"
+		exit_print("File has a code size that differ "
 	"from what its header says\n");
 	if ((st = read(fd, &(champ->comment), COMMENT_LENGTH)) != COMMENT_LENGTH)
 		exit_print("error comment\n");
