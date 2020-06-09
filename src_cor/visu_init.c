@@ -14,8 +14,8 @@
 
 void	create_field(t_cor *cor)
 {
-	cor->visual.main_win = create_newwin(61, 140, 1, 3);
-	cor->visual.side_win = create_newwin(61, 56, 1, 145);
+	cor->visual.main_win = create_newwin(65, 195, 1, 1);
+	cor->visual.side_win = create_newwin(65, 56, 1, 196);
 	nodelay(cor->visual.main_win, 1);
 	nodelay(cor->visual.side_win, 1);
 	draw(cor);

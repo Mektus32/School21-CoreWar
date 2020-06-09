@@ -144,8 +144,8 @@ void				*parse_av(int ac, char **av, t_cor *cor);
  * ***** champ ******
 */
 
-void				write_name(int fd, char *file_name, t_champ *champ);
-void				valid_champ(int i, char **av, t_champ *champ);
+void				write_name(int fd, char *file_name, t_champ *champ, t_cor *cor);
+void				valid_champ(int i, char **av, t_champ *champ, t_cor *cor);
 void				make_champ_n(char **av, int n, t_cor *cor);
 
 /*
@@ -168,7 +168,7 @@ t_carr				*new_curr(int id_par, t_cor *cor);
 void				add_curr(t_carr **all_carr, t_carr *new);
 int					len_curr(t_carr *list);
 t_carr				*remove_head(t_cor *cor, t_carr *curr);
-t_carr *remove_elem(t_carr *curr, t_carr **prev, t_cor *cor);
+t_carr				*remove_elem(t_carr *curr, t_carr **prev, t_cor *cor);
 t_carr				*carr_list(t_cor *cor);
 
 /*
@@ -183,7 +183,7 @@ void				do_op(t_cor *cor, t_carr	*tmp);
 */
 
 void				print_dump_code(t_cor *cor);
-void				exit_print(char *str);
+void				exit_print(t_cor *cor, char *str);
 void				print_adv(t_cor *cor, t_carr *tmp);
 void				take_flag_v(t_cor *cor, int num, int *i);
 /*
@@ -197,7 +197,7 @@ short				read_byte_2 (unsigned char *src, int i);
 unsigned int		read_byte_2_int (unsigned char *src, int i);
 unsigned int		read_byte_4 (unsigned char *src, int i);
 unsigned int		read_byte_4_c (unsigned char *src, int i);
-unsigned char		*inttobyte(int a);
+unsigned char		*inttobyte(int a, t_cor *cor);
 char				*base16_2_cor(t_cor *cor, t_carr *tmp);
 
 /*

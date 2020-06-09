@@ -64,8 +64,8 @@ int			main(int ac, char **av)
 		free_cor(&cor);
 	}
 	else
-		exit_print("Usage: ./corewar [-dump N | -n --stealth | -v visualizator]"
-	" [-a] <champion1.cor>\n");
+		exit_print(&cor, "Usage: ./corewar [-dump <N> | -n --stealth"
+		" | -viz --visual | -a <champion1.cor> --on_viz_aff | -v --debug]\n");
 	endwin();
 	return (0);
 }

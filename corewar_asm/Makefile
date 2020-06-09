@@ -30,7 +30,7 @@ SOURCES_NAME =	main.c\
              		arguments_get.c\
              		error_and_clean_memory.c\
              		file.c\
-             		init_agr.c\
+             		instruction.c\
              		lable_add_list.c\
              		label.c\
              		operations.c\

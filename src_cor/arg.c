@@ -93,7 +93,8 @@ char				*base16_2_cor(t_cor *cor, t_carr *tmp)
 	unsigned char	c;
 	int				i;
 
-	b2 = (char *)ft_memalloc(sizeof(char) * 9);
+	if ((b2 = (char *)ft_memalloc(sizeof(char) * 9)) == NULL)
+		exit_print(cor, "memory not allocated\n");
 	c = read_byte_1(cor->code, tmp->cur + 1);
 	i = 7;
 	while (i >= 0)
@@ -104,11 +105,12 @@ char				*base16_2_cor(t_cor *cor, t_carr *tmp)
 	return (b2);
 }
 
-unsigned char		*inttobyte(int a)
+unsigned char		*inttobyte(int a, t_cor *cor)
 {
 	unsigned char	*bt;
 
-	bt = (unsigned char *)ft_memalloc(sizeof(unsigned char) * 4);
+	if ((bt = (unsigned char *)ft_memalloc(sizeof(unsigned char) * 4)) == NULL)
+		exit_print(cor, "memory not allocated\n");
 	bt[0] = (unsigned char)((a >> 24) & 0xff);
 	bt[1] = (unsigned char)((a >> 16) & 0xff);
 	bt[2] = (unsigned char)((a >> 8) & 0xff);

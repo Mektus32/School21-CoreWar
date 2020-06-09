@@ -36,7 +36,7 @@ static void		change_pos(t_cor *cor)
 			j++;
 		}
 		else if (!cor->m_ch[i].code && !cor->m_2[j].code)
-			exit_print("number champ less then flag -n");
+			exit_print(cor, "number champ less then flag -n\n");
 		i++;
 	}
 }
@@ -50,10 +50,15 @@ static void		change_pos(t_cor *cor)
 
 static void		dump_arg(int *i, t_cor *cor, int ac, char **av)
 {
+	int		y;
+
+	y = 0;
 	if (*i == (ac - 1))
-		exit_print("Can't read source file -dump");
+		exit_print(cor, "Can't read source file -dump\n");
 	cor->nbr_cyc = 0;
 	cor->nbr_cyc = ft_atoi(av[*i + 1]);
+	if (cor->nbr_cyc < 0)
+		exit_print(cor, "dump must be positive integer or 0\n");
 	*i += 2;
 }
 
@@ -71,7 +76,7 @@ static void		take_cor_2(int ac, char **av, t_cor *cor, int *i)
 		*i += 2;
 	}
 	else if (ft_strstr(av[*i], ".cor") && j < MAX_PLAYERS)
-		valid_champ((*i)++, av, &(cor->m_2[j++]));
+		valid_champ((*i)++, av, &(cor->m_2[j++]), cor);
 	else if (ft_strcmp("-v", av[*i]) == 0 && (*i + 1) < ac
 			&& ft_isdigit(av[*i + 1][0]))
 		take_flag_v(cor, ft_atoi(av[*i + 1]), i);
@@ -81,7 +86,7 @@ static void		take_cor_2(int ac, char **av, t_cor *cor, int *i)
 		(*i)++;
 	}
 	else
-		exit_print("Can't read source file\n");
+		exit_print(cor, "Can't read source file\n");
 }
 
 static void		take_cor(int ac, char **av, t_cor *cor)
@@ -105,7 +110,7 @@ void			*parse_av(int ac, char **av, t_cor *cor)
 				&& ft_strlen(av[i]) != 4)
 			cor->n++;
 	if (cor->n > MAX_PLAYERS)
-		exit_print("number players more than MAX_PLAYERS\n");
+		exit_print(cor, "number players more than MAX_PLAYERS\n");
 	take_cor(ac, av, cor);
 	change_pos(cor);
 	return (cor);

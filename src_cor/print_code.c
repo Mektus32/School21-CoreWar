@@ -20,6 +20,8 @@ void	take_flag_v(t_cor *cor, int num, int *i)
 {
 	int k;
 
+	if (num < 1)
+		exit_print(cor, "-v <positive integer>\n");
 	k = 0;
 	while (k < 4)
 	{
@@ -29,8 +31,9 @@ void	take_flag_v(t_cor *cor, int num, int *i)
 	*i += 2;
 }
 
-void	exit_print(char *str)
+void	exit_print(t_cor *cor, char *str)
 {
+	free_cor(cor);
 	ft_putstr_fd(str, 2);
 	exit(0);
 }

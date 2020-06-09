@@ -34,7 +34,7 @@ void	free_memory(t_assm *assm)
 	if (assm->name_cor)
 		ft_strdel(&(assm->line));
 	if (assm->buffer)
-		ft_strdel(&(assm->line));
+		free(assm->buffer);
 	lbl = assm->lbl;
 	while (assm->lbl)
 	{

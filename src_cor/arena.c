@@ -70,8 +70,8 @@ void	arena(t_cor *cor)
 	if (cor->n)
 		ft_printf("Introducing contestants...\n");
 	else
-		exit_print("Usage: ./corewar [-dump N | -n --stealth | -v visualizator]"
-		" [-a] <champion1.cor>");
+		exit_print(cor, "Usage: ./corewar [-dump <N> | -n --stealth"
+		"| -viz --visual | -a <champion1.cor> --on_viz_aff | -v --debug]\n");
 	while (i < cor->n)
 	{
 		ft_printf("* Player %d, weighing %d bytes, \"%s\" (\"%s\") !\n", i + 1,

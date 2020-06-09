@@ -86,7 +86,7 @@ void	ft_st_write(t_cor *cor, t_carr *tmp, int b2_2)
 				ft_printf("P %4d | st r%d %d\n", tmp->num, t_reg, t_ind);
 			t_ind = idx_mod(t_ind);
 			t_ind = mem_size(tmp->cur + t_ind);
-			p = inttobyte(tmp->reg[t_reg - 1]);
+			p = inttobyte(tmp->reg[t_reg - 1], cor);
 			copy_p(cor->code, p, t_ind, 0);
 			free(p);
 		}
