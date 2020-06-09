@@ -26,7 +26,7 @@ char	*create_lable_arg(char *start, t_arg *arg)
 
 char	*read_ind_adg(t_arg *arg, char *start)
 {
-	arg->bl_ind = C_IND;
+	arg->code_ind = C_IND;
 	if (*start == ':')
 	{
 		start = create_lable_arg((start + 1), arg);
@@ -42,7 +42,7 @@ char	*read_reg_adg(t_assm *assm, t_arg *arg, char *start)
 {
 	if (!ft_isdigit(*start))
 		error("Error registr.", assm);
-	arg->bl_reg = C_REG;
+	arg->code_reg = C_REG;
 	arg->reg = ft_atoi(start);
 	if (arg->reg <= 0)
 		error("Error number registr.", assm);
@@ -54,7 +54,7 @@ char	*read_reg_adg(t_assm *assm, t_arg *arg, char *start)
 char	*read_dir_adg(t_arg *arg, char *start, t_assm *assm)
 {
 	start++;
-	arg->bl_dir = C_DIR;
+	arg->code_dir = C_DIR;
 	if (ft_isdigit(*start) || *start == '-')
 		arg->dir = ft_atoi(start);
 	else if (*start == ':')

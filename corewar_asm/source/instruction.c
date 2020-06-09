@@ -12,7 +12,7 @@
 
 #include "../include/asm.h"
 
-void	working_instruction(t_assm *assm, char *line)
+void	parse_instruction(t_assm *assm, char *line)
 {
 	while (*line)
 	{
@@ -35,13 +35,13 @@ void	read_instruction(t_assm *assm)
 	while (get_next_line(assm->fd_s, &line))
 	{
 		assm->counter_line++;
-		working_instruction(assm, line);
+		parse_instruction(assm, line);
 		ft_strdel(&line);
 	}
 	ft_strdel(&line);
 }
 
-void	working_operation(t_assm *assm, char *start, char *line)
+void	parse_operation(t_assm *assm, char *start, char *line)
 {
 	size_t	len;
 
@@ -67,12 +67,12 @@ void	instruction(t_assm *assm, char *line)
 	{
 		if (*line == LABEL_CHAR)
 		{
-			working_lable(assm, start, line);
+			parse_lable(assm, start, line);
 			return ;
 		}
 		if (*line == DIRECT_CHAR || *line == ' ' || *line == '\t')
 		{
-			working_operation(assm, start, line);
+			parse_operation(assm, start, line);
 			return ;
 		}
 		line++;

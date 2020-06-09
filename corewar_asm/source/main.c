@@ -39,9 +39,9 @@ void	init_arg(t_arg *arg)
 	arg->ind = 0;
 	arg->reg = 0;
 	arg->lable = NULL;
-	arg->bl_ind = 0;
-	arg->bl_dir = 0;
-	arg->bl_reg = 0;
+	arg->code_ind = 0;
+	arg->code_dir = 0;
+	arg->code_reg = 0;
 }
 
 void	init(t_assm *assm)
@@ -68,6 +68,6 @@ void	init_opt(t_opr *opr)
 	init_arg(&opr->args[2]);
 	opr->count_args = 1;
 	opr->info.size_dir = 0;
-	opr->info.bl_code_arg = 0;
+	opr->info.code_args = 0;
 	opr->info.oct_start = 0;
 }

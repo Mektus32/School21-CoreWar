@@ -19,11 +19,52 @@
 # include "op.h"
 # include <fcntl.h>
 
+# define LEN_HEAD	(4+PROG_NAME_LENGTH+4+COMMENT_LENGTH+4+4)
 # define C_REG		0x1
 # define C_DIR		0x2
 # define C_IND		0x3
 
-# define LEN_HEAD	(4+PROG_NAME_LENGTH+4+COMMENT_LENGTH+4+4)
+typedef struct		s_lbl
+{
+	size_t			position;
+	char			*name;
+	int				check;
+	struct s_lbl	*next;
+	struct s_gab	*gab;
+}					t_lbl;
+
+typedef struct		s_gab
+{
+	short			oct_start;
+	size_t			pos_write;
+	short			oct_count;
+	struct s_gab	*next;
+}					t_gab;
+
+typedef struct		s_arg
+{
+	char			*lable;
+	int				dir;
+	short			ind;
+	char			reg;
+	unsigned char	code_dir;
+	unsigned char	code_ind;
+	unsigned char	code_reg;
+}					t_arg;
+
+typedef struct		s_info
+{
+	short			oct_start;
+	short			size_dir;
+	short			code_args;
+}					t_info;
+
+typedef struct		s_opr
+{
+	t_arg			args[3];
+	short			count_args;
+	struct s_info	info;
+}					t_opr;
 
 typedef struct		s_assm
 {
@@ -39,48 +80,6 @@ typedef struct		s_assm
 	int				buffer_size;
 	int				buffer_pos;
 }					t_assm;
-
-typedef struct		s_lbl
-{
-	char			*name;
-	int				bl;
-	size_t			position;
-	struct s_lbl	*next;
-	struct s_gab	*gab;
-}					t_lbl;
-
-typedef struct		s_gab
-{
-	size_t			pos_write;
-	short			oct_count;
-	short			oct_start;
-	struct s_gab	*next;
-}					t_gab;
-
-typedef struct		s_arg
-{
-	int				dir;
-	short			ind;
-	char			reg;
-	char			*lable;
-	unsigned char	bl_dir;
-	unsigned char	bl_ind;
-	unsigned char	bl_reg;
-}					t_arg;
-
-typedef struct		s_info
-{
-	short			size_dir;
-	short			bl_code_arg;
-	short			oct_start;
-}					t_info;
-
-typedef struct		s_opr
-{
-	t_arg			args[3];
-	short			count_args;
-	struct s_info	info;
-}					t_opr;
 
 /*
 ** File file.c
@@ -109,22 +108,22 @@ void				write_exec_code_size(t_assm *assm);
 ** File read_comment_champion.c
 */
 void				read_name_champion(char *line, t_assm *assm);
-void				working_name(char *line, t_assm *assm);
+void				parse_name(char *line, t_assm *assm);
 void				read_comment_champion(char *line, t_assm *assm);
 /*
 ** File read_name_comment.c
 */
-void				working_comment(char *line, t_assm *assm);
-int					working_dot(t_assm *assm, char *line,
+void				parse_comment(char *line, t_assm *assm);
+int					parse_dot(t_assm *assm, char *line,
 						int *name, int *comment);
 int					search_char(t_assm *assm, int *name, int *comment);
 void				read_name_comment(t_assm *assm);
 /*
 ** File instruction.c
 */
-void				working_instruction(t_assm *assm, char *line);
+void				parse_instruction(t_assm *assm, char *line);
 void				read_instruction(t_assm *assm);
-void				working_operation(t_assm *assm, char *start, char *line);
+void				parse_operation(t_assm *assm, char *start, char *line);
 void				instruction(t_assm *assm, char *line);
 int					isprint_char(int c);
 /*
@@ -170,7 +169,7 @@ void				check_op_sti_arg(t_assm *assm, t_opr *opr);
 t_lbl				*get_lbl(t_assm *assm, t_lbl **lbl, char *lable);
 t_gab				*new_gab(t_assm *assm, t_info **info, t_arg *arg);
 void				search_lbl(t_assm *assm, t_info *info, t_arg *arg);
-void				working_lable(t_assm *assm, char *start, char *line);
+void				parse_lable(t_assm *assm, char *start, char *line);
 /*
 ** File operations.c
 */

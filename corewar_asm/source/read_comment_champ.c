@@ -33,7 +33,7 @@ void	read_name_champion(char *line, t_assm *assm)
 	ft_strdel(&temp);
 }
 
-void	working_name(char *line, t_assm *assm)
+void	parse_name(char *line, t_assm *assm)
 {
 	while (*line)
 	{

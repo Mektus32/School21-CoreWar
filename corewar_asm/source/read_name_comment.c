@@ -12,7 +12,7 @@
 
 #include "../include/asm.h"
 
-void	working_comment(char *line, t_assm *assm)
+void	parse_comment(char *line, t_assm *assm)
 {
 	while (*line)
 	{
@@ -28,17 +28,17 @@ void	working_comment(char *line, t_assm *assm)
 	error("Error comment", assm);
 }
 
-int		working_dot(t_assm *assm, char *line, int *name, int *comment)
+int		parse_dot(t_assm *assm, char *line, int *name, int *comment)
 {
 	if (!(ft_strncmp(line, NAME_CMD_STRING, 5)) && *name == 0)
 	{
-		working_name(line + 5, assm);
+		parse_name(line + 5, assm);
 		*name = 1;
 		return (0);
 	}
 	else if (!(ft_strncmp(line, COMMENT_CMD_STRING, 8)) && *comment == 0)
 	{
-		working_comment(line + 8, assm);
+		parse_comment(line + 8, assm);
 		*comment = 1;
 		return (0);
 	}
@@ -57,7 +57,7 @@ int		search_char(t_assm *assm, int *name, int *comment)
 		if (*line == COMMENT_CHAR || *line == ALT_COMMENT_CHAR)
 			return (0);
 		if (*line == '.')
-			return (working_dot(assm, line, name, comment));
+			return (parse_dot(assm, line, name, comment));
 		if (ft_isprint(*line))
 			error("Syntax error at token", assm);
 		line++;

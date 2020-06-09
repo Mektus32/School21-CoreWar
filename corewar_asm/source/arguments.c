@@ -19,11 +19,11 @@ void			all_arg(t_assm *assm, t_info *info, t_arg *arg)
 	delta = 0;
 	if (arg->lable != NULL)
 		search_lbl(assm, info, arg);
-	if (arg->bl_ind != 0)
+	if (arg->code_ind != 0)
 		delta += write_to_buffer(assm, &arg->ind, IND_SIZE);
-	if (arg->bl_dir != 0)
+	if (arg->code_dir != 0)
 		delta += write_to_buffer(assm, &arg->dir, info->size_dir);
-	if (arg->bl_reg != 0)
+	if (arg->code_reg != 0)
 		delta += write_to_buffer(assm, &arg->reg, 1);
 	assm->pos_glob += delta;
 	info->oct_start += delta;
@@ -87,13 +87,14 @@ unsigned char	get_code_arg(t_opr *opr)
 {
 	unsigned char code;
 
-	code = opr->args[0].bl_ind | opr->args[0].bl_dir | opr->args[0].bl_reg;
+	code = opr->args[0].code_ind | opr->args[0].code_dir
+			| opr->args[0].code_reg;
 	code = code << 2;
-	code = code | opr->args[1].bl_ind | opr->args[1].bl_dir |
-			opr->args[1].bl_reg;
+	code = code | opr->args[1].code_ind | opr->args[1].code_dir |
+			opr->args[1].code_reg;
 	code = code << 2;
-	code = code | opr->args[2].bl_ind | opr->args[2].bl_dir |
-			opr->args[2].bl_reg;
+	code = code | opr->args[2].code_ind | opr->args[2].code_dir |
+			opr->args[2].code_reg;
 	code = code << 2;
 	return (code);
 }

@@ -27,7 +27,7 @@ t_lbl	*get_lbl(t_assm *assm, t_lbl **lbl, char *lable)
 	temp = create_lable(assm, lable, lable + ft_strlen(lable));
 	temp->next = *lbl;
 	*lbl = temp;
-	(*lbl)->bl = 0;
+	(*lbl)->check = 0;
 	(*lbl)->position = LEN_HEAD;
 	return (temp);
 }
@@ -38,17 +38,17 @@ t_gab	*new_gab(t_assm *assm, t_info **info, t_arg *arg)
 
 	if (!(new = (t_gab *)malloc(sizeof(t_gab))))
 		sys_error(assm, "Error malloc.\n");
-	if (arg->bl_dir != 0)
+	if (arg->code_dir != 0)
 	{
-		new->oct_start = ((*info)->bl_code_arg == 1 ? (*info)->oct_start : 1);
+		new->oct_start = ((*info)->code_args == 1 ? (*info)->oct_start : 1);
 		new->oct_count = (*info)->size_dir;
 	}
-	else if (arg->bl_ind != 0)
+	else if (arg->code_ind != 0)
 	{
 		new->oct_start = (*info)->oct_start;
 		new->oct_count = 2;
 	}
-	else if (arg->bl_reg != 0)
+	else if (arg->code_reg != 0)
 	{
 		new->oct_start = (*info)->oct_start;
 		new->oct_count = 1;
@@ -74,9 +74,9 @@ void	search_lbl(t_assm *assm, t_info *info, t_arg *arg)
 	}
 }
 
-void	working_lable(t_assm *assm, char *start, char *line)
+void	parse_lable(t_assm *assm, char *start, char *line)
 {
 	check_lable(assm, start, line);
 	add_lable_list(assm, start, line);
-	working_instruction(assm, line + 1);
+	parse_instruction(assm, line + 1);
 }

@@ -43,7 +43,7 @@ void	write_lables(t_assm *assm)
 	lbl = assm->lbl;
 	while (lbl)
 	{
-		if (lbl->bl == 0)
+		if (lbl->check == 0)
 			sys_error(assm, "Not lable Error\n");
 		write_in_position(lbl, assm);
 		lbl = lbl->next;

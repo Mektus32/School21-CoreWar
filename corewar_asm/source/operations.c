@@ -73,7 +73,7 @@ void	op_all(t_assm *assm, t_opr *opr, int code,
 	temp = code & 0xff;
 	write_char_to_buffer(assm, temp);
 	temp = (code >> 16) & 0xf;
-	opr->info.bl_code_arg = temp;
+	opr->info.code_args = temp;
 	if (temp)
 		write_char_to_buffer(assm, code_args);
 	temp = (code >> 8) & 0xf;
